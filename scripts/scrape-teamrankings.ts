@@ -20,10 +20,22 @@ const TARGETS = [
   {
     id: "opponent-passing-tds",
     url: "https://www.teamrankings.com/nfl/stat/opponent-passing-touchdowns-per-game"
+  },
+  {
+    id: "rushing-touchdowns-players",
+    url: "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns"
+  },
+  {
+    id: "receiving-touchdowns-players",
+    url: "https://www.teamrankings.com/nfl/player-stat/receiving-touchdowns"
+  },
+  {
+    id: "weekly-matchups",
+    url: "https://www.teamrankings.com/nfl/schedules/season/"
   }
 ];
 
-// Heuristic: parse the largest table (by row count) that looks like a team table.
+// Heuristic: parse the largest table (by row count) that looks like a team table or schedule table.
 function findMainTable($: cheerio.CheerioAPI) {
   const tables = $("table").toArray();
   let best: any = null;
@@ -33,7 +45,9 @@ function findMainTable($: cheerio.CheerioAPI) {
     const rows = $(t).find("tr").length;
     const headers = $(t).find("th").map((_, el) => $(el).text().trim()).get();
     const hasTeamHeader = headers.some(h => /team/i.test(h));
-    if (hasTeamHeader && rows > bestRows) {
+    const hasScheduleHeader = headers.some(h => /date|time|away|home|matchup|game/i.test(h));
+    
+    if ((hasTeamHeader || hasScheduleHeader) && rows > bestRows) {
       best = t;
       bestRows = rows;
     }
@@ -48,10 +62,14 @@ function toNumber(s: string): number | null {
   return Number.isFinite(n) ? n : null;
 }
 
-// Choose the main numeric column to sort by (prefer header with TD in the name,
-// else first numeric column after "Team").
+// Choose the main numeric column to sort by (prefer "Value" column for player stats,
+// then TD/touchdown columns, else first numeric column after "Team").
 function chooseSortColumn(headers: string[], rowCells: string[][]): number {
-  // Try headers with "TD" or "touchdown"
+  // First priority: "Value" column (for player stats)
+  const valueIdx = headers.findIndex(h => /^value$/i.test(h));
+  if (valueIdx >= 0) return valueIdx;
+
+  // Second priority: headers with "TD" or "touchdown"
   const tdHeaderIdx = headers.findIndex(h => /td|touchdown/i.test(h));
   if (tdHeaderIdx >= 0) return tdHeaderIdx;
 
@@ -68,6 +86,35 @@ function chooseSortColumn(headers: string[], rowCells: string[][]): number {
   }
   // Fallback to second column if exists
   return Math.min(headers.length - 1, Math.max(0, teamIdx + 1));
+}
+
+// Helper function to parse matchup strings like "Dallas @ Philadelphia" or "Kansas City vs. LA Chargers"
+function parseMatchup(matchupStr: string, date: string): { away_team: string; home_team: string; date: string; time: string } | null {
+  if (!matchupStr) return null;
+  
+  // Handle "Team @ Team" format (away @ home)
+  let awayMatch = matchupStr.match(/^(.+?)\s+@\s+(.+)$/);
+  if (awayMatch) {
+    return {
+      away_team: awayMatch[1].trim(),
+      home_team: awayMatch[2].trim(),
+      date: date,
+      time: ""
+    };
+  }
+  
+  // Handle "Team vs. Team" format (first team is home)
+  let vsMatch = matchupStr.match(/^(.+?)\s+vs\.?\s+(.+)$/);
+  if (vsMatch) {
+    return {
+      away_team: vsMatch[2].trim(),
+      home_team: vsMatch[1].trim(),
+      date: date,
+      time: ""
+    };
+  }
+  
+  return null;
 }
 
 async function scrapeOne(target: { id: string; url: string }): Promise<Output> {
@@ -115,7 +162,43 @@ async function scrapeOne(target: { id: string; url: string }): Promise<Output> {
   // Normalize header names
   effectiveHeaders = effectiveHeaders.map(h => h || "col");
 
-  // Determine sort column
+  // Special handling for weekly matchups
+  if (target.id === "weekly-matchups") {
+    const matchups: Row[] = [];
+    
+    rowCells.forEach(cells => {
+      effectiveHeaders.forEach((header, i) => {
+        if (header.includes("Sep") || header.includes("Oct") || header.includes("Nov") || header.includes("Dec") || header.includes("Jan")) {
+          const matchupStr = cells[i];
+          if (matchupStr) {
+            const parsed = parseMatchup(matchupStr, header);
+            if (parsed) {
+              // Look for time in adjacent columns
+              const timeIdx = effectiveHeaders.findIndex(h => h.toLowerCase().includes("time"));
+              if (timeIdx >= 0 && cells[timeIdx]) {
+                parsed.time = cells[timeIdx];
+              }
+              // Also check next column after matchup for time
+              else if (cells[i + 1] && cells[i + 1].match(/\d+:\d+/)) {
+                parsed.time = cells[i + 1];
+              }
+              matchups.push(parsed as Row);
+            }
+          }
+        }
+      });
+    });
+
+    return {
+      url: target.url,
+      scrapedAt: new Date().toISOString(),
+      note: `Found ${matchups.length} matchups`,
+      columns: ["away_team", "home_team", "date", "time"],
+      rows: matchups
+    };
+  }
+
+  // Determine sort column for non-matchup data
   const sortCol = chooseSortColumn(effectiveHeaders, rowCells);
 
   // Build rows, parsing numbers where possible
