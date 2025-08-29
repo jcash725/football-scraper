@@ -26,7 +26,7 @@ const TARGETS = [
 // Heuristic: parse the largest table (by row count) that looks like a team table.
 function findMainTable($: cheerio.CheerioAPI) {
   const tables = $("table").toArray();
-  let best: cheerio.Element | null = null;
+  let best: any = null;
   let bestRows = 0;
 
   for (const t of tables) {
