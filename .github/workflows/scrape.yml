@@ -29,6 +29,9 @@ jobs:
     - name: Run scraper
       run: npm run scrape
       
+    - name: Generate TD bet recommendations
+      run: npm run analyze
+      
     - name: Commit and push data
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -37,6 +40,6 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "Update scraped data $(date)"
+          git commit -m "Update scraped data and TD recommendations $(date)"
           git push
         fi
