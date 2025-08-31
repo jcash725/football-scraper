@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-08-30T15:07:43.609Z",
+  "generatedAt": "2025-08-31T08:13:18.903Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "count": 20,
   "recommendations": [
@@ -144,14 +144,14 @@
       "Reason": "New England vs Las Vegas - opponent allows 1.7 pass TDs/game"
     },
     {
-      "Player": "Rashod Bateman",
-      "Team": "Baltimore",
-      "Opponent": "Buffalo",
+      "Player": "Kyren Williams",
+      "Team": "LA Rams",
+      "Opponent": "Houston",
       "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 11,
+      "Opponent Stat Value": 1.7,
+      "Player TDs YTD": 3,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
+      "Reason": "LA Rams vs Houston - opponent allows 1.7 pass TDs/game"
     },
     {
       "Player": "Mark Andrews",
@@ -162,6 +162,26 @@
       "Player TDs YTD": 11,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Rashod Bateman",
+      "Team": "Baltimore",
+      "Opponent": "Buffalo",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 11,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Drake London",
+      "Team": "Atlanta",
+      "Opponent": "Tampa Bay",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 9,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Atlanta vs Tampa Bay - opponent allows 1.6 pass TDs/game"
     },
     {
       "Player": "A.J. Brown",
@@ -182,26 +202,6 @@
       "Player TDs YTD": 9,
       "TDs vs Opponent Last Year (2024)": "2",
       "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
-    },
-    {
-      "Player": "Drake London",
-      "Team": "Atlanta",
-      "Opponent": "Tampa Bay",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 9,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Atlanta vs Tampa Bay - opponent allows 1.6 pass TDs/game"
-    },
-    {
-      "Player": "Courtland Sutton",
-      "Team": "Denver",
-      "Opponent": "Tennessee",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 8,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Denver vs Tennessee - opponent allows 1.6 pass TDs/game"
     }
   ]
 }
