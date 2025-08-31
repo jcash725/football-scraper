@@ -34,36 +34,6 @@
       "Reason": "Tampa Bay vs Atlanta - opponent allows 2 pass TDs/game"
     },
     {
-      "Player": "Rachaad White",
-      "Team": "Tampa Bay",
-      "Opponent": "Atlanta",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 2,
-      "Player TDs YTD": 6,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Tampa Bay vs Atlanta - opponent allows 2 pass TDs/game"
-    },
-    {
-      "Player": "Chris Godwin",
-      "Team": "Tampa Bay",
-      "Opponent": "Atlanta",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 2,
-      "Player TDs YTD": 5,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Tampa Bay vs Atlanta - opponent allows 2 pass TDs/game"
-    },
-    {
-      "Player": "Cade Otton",
-      "Team": "Tampa Bay",
-      "Opponent": "Atlanta",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 2,
-      "Player TDs YTD": 4,
-      "TDs vs Opponent Last Year (2024)": "2",
-      "Reason": "Tampa Bay vs Atlanta - opponent allows 2 pass TDs/game"
-    },
-    {
       "Player": "David Njoku",
       "Team": "Cleveland",
       "Opponent": "Cincinnati",
@@ -82,6 +52,16 @@
       "Player TDs YTD": 4,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Cleveland vs Cincinnati - opponent allows 1.8 pass TDs/game"
+    },
+    {
+      "Player": "Jalen Hurts",
+      "Team": "Philadelphia",
+      "Opponent": "Dallas",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 1.5,
+      "Player TDs YTD": 19,
+      "TDs vs Opponent Last Year (2024)": "2",
+      "Reason": "Philadelphia vs Dallas - opponent allows 1.5 rush TDs/game"
     },
     {
       "Player": "Demarcus Robinson",

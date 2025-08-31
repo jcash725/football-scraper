@@ -229,14 +229,92 @@ async function scrapeOne(target: { id: string; url: string }): Promise<Output> {
   };
 }
 
+function dataHasChanged(newData: Output, oldData: Output | null): { hasChanged: boolean; summary: string } {
+  if (!oldData) {
+    return {
+      hasChanged: true,
+      summary: `New data file created with ${newData.rows.length} rows`
+    };
+  }
+  
+  // Compare the actual data content, ignoring timestamps
+  const newRows = JSON.stringify(newData.rows);
+  const oldRows = JSON.stringify(oldData.rows);
+  
+  const newColumns = JSON.stringify(newData.columns);
+  const oldColumns = JSON.stringify(oldData.columns);
+  
+  const rowsChanged = newRows !== oldRows;
+  const columnsChanged = newColumns !== oldColumns;
+  
+  if (!rowsChanged && !columnsChanged) {
+    return {
+      hasChanged: false,
+      summary: `No changes detected (${newData.rows.length} rows)`
+    };
+  }
+  
+  const changes = [];
+  
+  if (columnsChanged) {
+    changes.push(`column structure changed`);
+  }
+  
+  if (rowsChanged) {
+    const oldRowCount = oldData.rows.length;
+    const newRowCount = newData.rows.length;
+    
+    if (oldRowCount !== newRowCount) {
+      changes.push(`row count changed: ${oldRowCount} → ${newRowCount}`);
+    } else {
+      changes.push(`row data updated (${newRowCount} rows)`);
+    }
+  }
+  
+  return {
+    hasChanged: true,
+    summary: changes.join(', ')
+  };
+}
+
+async function loadExistingData(filePath: string): Promise<Output | null> {
+  try {
+    const existingContent = await fs.readFile(filePath, 'utf8');
+    return JSON.parse(existingContent) as Output;
+  } catch (error) {
+    // File doesn't exist or can't be read
+    return null;
+  }
+}
+
 async function main() {
   await fs.mkdir("data", { recursive: true });
+  
+  let changesDetected = false;
 
   for (const t of TARGETS) {
     const out = await scrapeOne(t);
     const outPath = path.join("data", `${t.id}.json`);
-    await fs.writeFile(outPath, JSON.stringify(out, null, 2));
-    console.log(`Wrote ${outPath} (${out.rows.length} rows)`);
+    
+    // Load existing data to compare
+    const existingData = await loadExistingData(outPath);
+    
+    const changeResult = dataHasChanged(out, existingData);
+    if (changeResult.hasChanged) {
+      await fs.writeFile(outPath, JSON.stringify(out, null, 2));
+      console.log(`✅ Updated ${outPath} - ${changeResult.summary}`);
+      changesDetected = true;
+    } else {
+      console.log(`⏭️  Skipped ${outPath} - ${changeResult.summary}`);
+    }
+  }
+  
+  if (changesDetected) {
+    console.log(`\n🔄 Summary: Some data files were updated due to detected changes`);
+    process.exit(0); // Success with changes
+  } else {
+    console.log(`\n✨ Summary: No changes detected - all data files are up to date`);
+    process.exit(1); // Success but no changes (use exit code 1 to signal no changes)
   }
 }
 

@@ -27,9 +27,12 @@ jobs:
       run: npm install
       
     - name: Run scraper
+      id: scrape
       run: npm run scrape
+      continue-on-error: true
       
     - name: Generate TD bet recommendations
+      if: steps.scrape.outcome == 'success'
       run: npm run analyze
       
     - name: Commit and push data
