@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-01T01:20:42.901Z",
+  "generatedAt": "2025-09-01T08:17:11.137Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "count": 20,
   "recommendations": [
@@ -164,16 +164,6 @@
       "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "Nico Collins",
-      "Team": "Houston",
-      "Opponent": "LA Rams",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 8,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Houston vs LA Rams - opponent allows 1.6 pass TDs/game"
-    },
-    {
       "Player": "Courtland Sutton",
       "Team": "Denver",
       "Opponent": "Tennessee",
@@ -182,6 +172,16 @@
       "Player TDs YTD": 8,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Denver vs Tennessee - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Nico Collins",
+      "Team": "Houston",
+      "Opponent": "LA Rams",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 8,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Houston vs LA Rams - opponent allows 1.6 pass TDs/game"
     },
     {
       "Player": "Zach Charbonnet",
