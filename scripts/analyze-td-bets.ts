@@ -31,7 +31,7 @@ async function main() {
         recommendations: top20
       }, null, 2));
       
-      // Save HTML
+      // Save HTML with embedded data (works without server)
       fs.writeFileSync(htmlPath, formatAsHTML(top20));
       
       console.log(`✅ Updated TD recommendations - ${changeResult.summary}`);

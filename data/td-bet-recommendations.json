@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-08-31T08:13:18.903Z",
+  "generatedAt": "2025-09-01T01:20:42.901Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "count": 20,
   "recommendations": [
@@ -104,54 +104,14 @@
       "Reason": "Carolina vs Jacksonville - opponent allows 1.7 pass TDs/game"
     },
     {
-      "Player": "Puka Nacua",
-      "Team": "LA Rams",
-      "Opponent": "Houston",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.7,
-      "Player TDs YTD": 3,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "LA Rams vs Houston - opponent allows 1.7 pass TDs/game"
-    },
-    {
-      "Player": "Demario Douglas",
-      "Team": "New England",
-      "Opponent": "Las Vegas",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.7,
-      "Player TDs YTD": 3,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "New England vs Las Vegas - opponent allows 1.7 pass TDs/game"
-    },
-    {
-      "Player": "Kyren Williams",
-      "Team": "LA Rams",
-      "Opponent": "Houston",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.7,
-      "Player TDs YTD": 3,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "LA Rams vs Houston - opponent allows 1.7 pass TDs/game"
-    },
-    {
-      "Player": "Mark Andrews",
-      "Team": "Baltimore",
-      "Opponent": "Buffalo",
+      "Player": "DeVonta Smith",
+      "Team": "Philadelphia",
+      "Opponent": "Dallas",
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 11,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
-    },
-    {
-      "Player": "Rashod Bateman",
-      "Team": "Baltimore",
-      "Opponent": "Buffalo",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 11,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
+      "Player TDs YTD": 9,
+      "TDs vs Opponent Last Year (2024)": "2",
+      "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
     },
     {
       "Player": "Drake London",
@@ -174,14 +134,74 @@
       "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "DeVonta Smith",
-      "Team": "Philadelphia",
-      "Opponent": "Dallas",
+      "Player": "Jonnu Smith",
+      "Team": "Miami",
+      "Opponent": "Indianapolis",
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 9,
-      "TDs vs Opponent Last Year (2024)": "2",
-      "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
+      "Player TDs YTD": 8,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Miami vs Indianapolis - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Mark Andrews",
+      "Team": "Baltimore",
+      "Opponent": "Buffalo",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 11,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Rashod Bateman",
+      "Team": "Baltimore",
+      "Opponent": "Buffalo",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 11,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Nico Collins",
+      "Team": "Houston",
+      "Opponent": "LA Rams",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 8,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Houston vs LA Rams - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Courtland Sutton",
+      "Team": "Denver",
+      "Opponent": "Tennessee",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 8,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Denver vs Tennessee - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Zach Charbonnet",
+      "Team": "Seattle",
+      "Opponent": "San Francisco",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 1.4,
+      "Player TDs YTD": 8,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Seattle vs San Francisco - opponent allows 1.4 rush TDs/game"
+    },
+    {
+      "Player": "Tank Bigsby",
+      "Team": "Jacksonville",
+      "Opponent": "Carolina",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 1.4,
+      "Player TDs YTD": 7,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Jacksonville vs Carolina - opponent allows 1.4 rush TDs/game"
     }
   ]
 }

@@ -14,7 +14,7 @@ export function formatAsHTML(recommendations: TDRecommendation[]): string {
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            background: linear-gradient(135deg, #040403 0%, #5B7553 100%);
             margin: 0;
             padding: 20px;
             color: #333;
@@ -28,7 +28,7 @@ export function formatAsHTML(recommendations: TDRecommendation[]): string {
             overflow: hidden;
         }
         .header {
-            background: linear-gradient(135deg, #ff6b35 0%, #f7941d 100%);
+            background: linear-gradient(135deg, #8EB897 0%, #C3E8BD 100%);
             color: white;
             padding: 30px;
             text-align: center;
@@ -55,7 +55,7 @@ export function formatAsHTML(recommendations: TDRecommendation[]): string {
         .stat-number {
             font-size: 2em;
             font-weight: bold;
-            color: #ff6b35;
+            color: #8EB897;
         }
         table {
             width: 100%;
@@ -63,7 +63,7 @@ export function formatAsHTML(recommendations: TDRecommendation[]): string {
             font-size: 14px;
         }
         th {
-            background: linear-gradient(135deg, #2c5282 0%, #3182ce 100%);
+            background: linear-gradient(135deg, #5B7553 0%, #8EB897 100%);
             color: white;
             padding: 15px 10px;
             text-align: left;
@@ -87,7 +87,7 @@ export function formatAsHTML(recommendations: TDRecommendation[]): string {
         }
         .rank {
             font-weight: bold;
-            color: #ff6b35;
+            color: #8EB897;
             font-size: 1.1em;
         }
         .player-name {
@@ -106,44 +106,44 @@ export function formatAsHTML(recommendations: TDRecommendation[]): string {
             font-weight: 500;
         }
         .receiving {
-            background: #e6fffa;
-            color: #00695c;
+            background: #9DDBAD;
+            color: #040403;
         }
         .rushing {
-            background: #fff3e0;
-            color: #e65100;
+            background: #5B7553;
+            color: #9DDBAD;
         }
         .opp-stat {
             font-weight: bold;
-            color: #e53e3e;
+            color: #5B7553;
         }
         .player-tds {
             font-weight: bold;
-            color: #38a169;
+            color: #8EB897;
         }
         .historical {
             font-weight: bold;
         }
         .historical.success {
-            color: #38a169;
+            color: #8EB897;
         }
         .historical.none {
-            color: #718096;
+            color: #5B7553;
         }
         .historical.na {
-            color: #a0aec0;
+            color: #C3E8BD;
             font-style: italic;
         }
         .reason {
             font-size: 0.9em;
-            color: #4a5568;
+            color: #5B7553;
             line-height: 1.3;
         }
         .footer {
-            background: #f8f9fa;
+            background: #9DDBAD;
             padding: 20px;
             text-align: center;
-            color: #718096;
+            color: #040403;
             font-size: 0.9em;
         }
         @media (max-width: 768px) {
@@ -231,7 +231,7 @@ export function formatAsHTML(recommendations: TDRecommendation[]): string {
         </table>
         
         <div class="footer">
-            🤖 Generated with <a href="https://claude.ai/code" target="_blank" style="color: #3182ce;">Claude Code</a><br>
+            🤖 Generated with <a href="https://claude.ai/code" target="_blank" style="color: #5B7553;">Claude Code</a><br>
             📅 Last updated: ${new Date().toLocaleString()}
         </div>
     </div>

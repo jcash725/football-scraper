@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2025-08-31T08:13:01.106Z",
+  "scrapedAt": "2025-08-31T13:49:54.114Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -12,13 +12,15 @@
   "rows": [
     {
       "Rank": 1,
-<<<<<<< HEAD
-      "Player": "Derrick Henry",
-      "Team": "Baltimore Ravens",
-=======
       "Player": "James Cook",
       "Team": "Buffalo Bills",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
+      "Pos": "RB",
+      "Value": 19
+    },
+    {
+      "Rank": 1,
+      "Player": "Derrick Henry",
+      "Team": "Baltimore Ravens",
       "Pos": "RB",
       "Value": 19
     },
@@ -27,18 +29,6 @@
       "Player": "Jalen Hurts",
       "Team": "Philadelphia Eagles",
       "Pos": "QB",
-      "Value": 19
-    },
-    {
-      "Rank": 1,
-<<<<<<< HEAD
-      "Player": "James Cook",
-      "Team": "Buffalo Bills",
-=======
-      "Player": "Derrick Henry",
-      "Team": "Baltimore Ravens",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Pos": "RB",
       "Value": 19
     },
     {
@@ -64,6 +54,13 @@
     },
     {
       "Rank": 7,
+      "Player": "Kyren Williams",
+      "Team": "Los Angeles Rams",
+      "Pos": "RB",
+      "Value": 14
+    },
+    {
+      "Rank": 7,
       "Player": "Bijan Robinson",
       "Team": "Atlanta Falcons",
       "Pos": "RB",
@@ -74,13 +71,6 @@
       "Player": "Josh Allen",
       "Team": "Buffalo Bills",
       "Pos": "QB",
-      "Value": 14
-    },
-    {
-      "Rank": 7,
-      "Player": "Kyren Williams",
-      "Team": "Los Angeles Rams",
-      "Pos": "RB",
       "Value": 14
     },
     {
@@ -134,13 +124,6 @@
     },
     {
       "Rank": 17,
-      "Player": "Bucky Irving",
-      "Team": "Tampa Bay Buccaneers",
-      "Pos": "RB",
-      "Value": 8
-    },
-    {
-      "Rank": 17,
       "Player": "James Conner",
       "Team": "Arizona Cardinals",
       "Pos": "RB",
@@ -154,27 +137,17 @@
       "Value": 8
     },
     {
-      "Rank": 20,
-      "Player": "Jayden Daniels",
-      "Team": "Washington Commanders",
-      "Pos": "QB",
-<<<<<<< HEAD
-      "Value": 7
+      "Rank": 17,
+      "Player": "Bucky Irving",
+      "Team": "Tampa Bay Buccaneers",
+      "Pos": "RB",
+      "Value": 8
     },
     {
       "Rank": 20,
       "Player": "Tank Bigsby",
       "Team": "Jacksonville Jaguars",
       "Pos": "RB",
-=======
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Value": 7
-    },
-    {
-      "Rank": 20,
-      "Player": "Chase Brown",
-      "Team": "Cincinnati Bengals",
-      "Pos": "HB",
       "Value": 7
     },
     {
@@ -192,21 +165,18 @@
       "Value": 7
     },
     {
-<<<<<<< HEAD
-=======
       "Rank": 20,
-      "Player": "Tank Bigsby",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "RB",
+      "Player": "Jayden Daniels",
+      "Team": "Washington Commanders",
+      "Pos": "QB",
       "Value": 7
     },
     {
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Rank": 25,
-      "Player": "Roschon Johnson",
-      "Team": "Chicago Bears",
-      "Pos": "RB",
-      "Value": 6
+      "Rank": 20,
+      "Player": "Chase Brown",
+      "Team": "Cincinnati Bengals",
+      "Pos": "HB",
+      "Value": 7
     },
     {
       "Rank": 25,
@@ -224,19 +194,9 @@
     },
     {
       "Rank": 25,
-<<<<<<< HEAD
       "Player": "De'Von Achane",
       "Team": "Miami Dolphins",
       "Pos": "RB",
-      "Value": 6
-    },
-    {
-      "Rank": 25,
-=======
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Player": "Taysom Hill",
-      "Team": "New Orleans Saints",
-      "Pos": "TE",
       "Value": 6
     },
     {
@@ -255,76 +215,36 @@
     },
     {
       "Rank": 25,
-<<<<<<< HEAD
-      "Player": "Alvin Kamara",
-      "Team": "New Orleans Saints",
-      "Pos": "RB",
-=======
-      "Player": "Anthony Richardson",
-      "Team": "Indianapolis Colts",
-      "Pos": "QB",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Value": 6
-    },
-    {
-      "Rank": 25,
       "Player": "Alvin Kamara",
       "Team": "New Orleans Saints",
       "Pos": "RB",
       "Value": 6
     },
     {
-<<<<<<< HEAD
-=======
       "Rank": 25,
-      "Player": "Bryce Young",
-      "Team": "Carolina Panthers",
-      "Pos": "QB",
+      "Player": "Taysom Hill",
+      "Team": "New Orleans Saints",
+      "Pos": "TE",
       "Value": 6
     },
     {
       "Rank": 25,
-      "Player": "De'Von Achane",
-      "Team": "Miami Dolphins",
+      "Player": "Roschon Johnson",
+      "Team": "Chicago Bears",
       "Pos": "RB",
       "Value": 6
-    },
-    {
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Rank": 33,
-      "Player": "Tyrone Tracy Jr.",
-      "Team": "New York Giants",
-      "Pos": "RB",
-      "Value": 5
-    },
-    {
-      "Rank": 33,
-<<<<<<< HEAD
-=======
-      "Player": "Aaron Jones",
-      "Team": "Minnesota Vikings",
-      "Pos": "RB",
-      "Value": 5
-    },
-    {
-      "Rank": 33,
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Player": "Justin Fields",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "QB",
-      "Value": 5
-    },
-    {
-      "Rank": 33,
-      "Player": "Aaron Jones",
-      "Team": "Minnesota Vikings",
-      "Pos": "RB",
-      "Value": 5
     },
     {
       "Rank": 33,
       "Player": "Kyler Murray",
       "Team": "Arizona Cardinals",
+      "Pos": "QB",
+      "Value": 5
+    },
+    {
+      "Rank": 33,
+      "Player": "Justin Fields",
+      "Team": "Pittsburgh Steelers",
       "Pos": "QB",
       "Value": 5
     },
@@ -337,10 +257,9 @@
     },
     {
       "Rank": 33,
-<<<<<<< HEAD
-      "Player": "Brock Purdy",
-      "Team": 49,
-      "Pos": "QB",
+      "Player": "Aaron Jones",
+      "Team": "Minnesota Vikings",
+      "Pos": "RB",
       "Value": 5
     },
     {
@@ -351,34 +270,17 @@
       "Value": 5
     },
     {
-      "Rank": 41,
-      "Player": "Patrick Mahomes",
-      "Team": "Kansas City Chiefs",
-=======
-      "Player": "Kyler Murray",
-      "Team": "Arizona Cardinals",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Pos": "QB",
-      "Value": 5
-    },
-    {
-<<<<<<< HEAD
-      "Rank": 41,
-      "Player": "Gus Edwards",
-      "Team": "Los Angeles Chargers",
-      "Pos": "RB",
-      "Value": 4
-    },
-    {
-      "Rank": 41,
-      "Player": "Austin Ekeler",
-      "Team": "Washington Commanders",
-      "Pos": "RB",
-=======
       "Rank": 33,
       "Player": "Brock Purdy",
       "Team": 49,
       "Pos": "QB",
+      "Value": 5
+    },
+    {
+      "Rank": 33,
+      "Player": "Tyrone Tracy Jr.",
+      "Team": "New York Giants",
+      "Pos": "RB",
       "Value": 5
     },
     {
@@ -389,62 +291,9 @@
       "Value": 5
     },
     {
-      "Rank": 33,
-      "Player": "Tony Pollard",
-      "Team": "Tennessee Titans",
-      "Pos": "RB",
-      "Value": 5
-    },
-    {
-      "Rank": 41,
-      "Player": "Emanuel Wilson",
-      "Team": "Green Bay Packers",
-      "Pos": "RB",
-      "Value": 4
-    },
-    {
-      "Rank": 41,
-      "Player": "Alexander Mattison",
-      "Team": "Las Vegas Raiders",
-      "Pos": "RB",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Value": 4
-    },
-    {
-      "Rank": 41,
-      "Player": "Lamar Jackson",
-      "Team": "Baltimore Ravens",
-      "Pos": "QB",
-      "Value": 4
-    },
-    {
       "Rank": 41,
       "Player": "Ray Davis",
       "Team": "Buffalo Bills",
-      "Pos": "RB",
-      "Value": 4
-    },
-    {
-      "Rank": 41,
-      "Player": "Isaac Guerendo",
-      "Team": 49,
-      "Pos": "RB",
-      "Value": 4
-    },
-    {
-      "Rank": 41,
-<<<<<<< HEAD
-      "Player": "Emanuel Wilson",
-      "Team": "Green Bay Packers",
-      "Pos": "RB",
-      "Value": 4
-    },
-    {
-      "Rank": 41,
-=======
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Player": "Devin Singletary",
-      "Team": "New York Giants",
       "Pos": "RB",
       "Value": 4
     },
@@ -464,9 +313,22 @@
     },
     {
       "Rank": 41,
-<<<<<<< HEAD
-      "Player": "Javonte Williams",
-      "Team": "Denver Broncos",
+      "Player": "Emanuel Wilson",
+      "Team": "Green Bay Packers",
+      "Pos": "RB",
+      "Value": 4
+    },
+    {
+      "Rank": 41,
+      "Player": "Devin Singletary",
+      "Team": "New York Giants",
+      "Pos": "RB",
+      "Value": 4
+    },
+    {
+      "Rank": 41,
+      "Player": "Austin Ekeler",
+      "Team": "Washington Commanders",
       "Pos": "RB",
       "Value": 4
     },
@@ -478,21 +340,17 @@
       "Value": 4
     },
     {
-      "Rank": 53,
-      "Player": "Baker Mayfield",
-      "Team": "Tampa Bay Buccaneers",
-=======
-      "Player": "Bo Nix",
-      "Team": "Denver Broncos",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Pos": "QB",
-      "Value": 4
-    },
-    {
       "Rank": 41,
       "Player": "Javonte Williams",
       "Team": "Denver Broncos",
       "Pos": "RB",
+      "Value": 4
+    },
+    {
+      "Rank": 41,
+      "Player": "Lamar Jackson",
+      "Team": "Baltimore Ravens",
+      "Pos": "QB",
       "Value": 4
     },
     {
@@ -504,22 +362,36 @@
     },
     {
       "Rank": 41,
-      "Player": "Ray Davis",
-      "Team": "Buffalo Bills",
-      "Pos": "RB",
-      "Value": 4
-    },
-    {
-      "Rank": 41,
       "Player": "Gus Edwards",
       "Team": "Los Angeles Chargers",
       "Pos": "RB",
       "Value": 4
     },
     {
+      "Rank": 41,
+      "Player": "Isaac Guerendo",
+      "Team": 49,
+      "Pos": "RB",
+      "Value": 4
+    },
+    {
       "Rank": 53,
-      "Player": "Jerome Ford",
+      "Player": "Jordan Mason",
+      "Team": 49,
+      "Pos": "RB",
+      "Value": 3
+    },
+    {
+      "Rank": 53,
+      "Player": "Nick Chubb",
       "Team": "Cleveland Browns",
+      "Pos": "RB",
+      "Value": 3
+    },
+    {
+      "Rank": 53,
+      "Player": "Ezekiel Elliott",
+      "Team": "Los Angeles Chargers",
       "Pos": "RB",
       "Value": 3
     },
@@ -532,46 +404,8 @@
     },
     {
       "Rank": 53,
-      "Player": "Tyler Allgeier",
-      "Team": "Atlanta Falcons",
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 53,
-<<<<<<< HEAD
-      "Player": "Nick Chubb",
-      "Team": "Cleveland Browns",
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 53,
-      "Player": "Ezekiel Elliott",
-      "Team": "Dallas Cowboys",
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 53,
       "Player": "Rachaad White",
       "Team": "Tampa Bay Buccaneers",
-=======
-      "Player": "Tyler Allgeier",
-      "Team": "Atlanta Falcons",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 53,
-<<<<<<< HEAD
-      "Player": "Jordan Mason",
-      "Team": 49,
-=======
-      "Player": "Nick Chubb",
-      "Team": "Cleveland Browns",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
       "Pos": "RB",
       "Value": 3
     },
@@ -583,32 +417,6 @@
       "Value": 3
     },
     {
-<<<<<<< HEAD
-      "Rank": 62,
-      "Player": "Cam Akers",
-      "Team": "Minnesota Vikings",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Travis Etienne Jr.",
-      "Team": "Jacksonville Jaguars",
-=======
-      "Rank": 53,
-      "Player": "Ezekiel Elliott",
-      "Team": "Dallas Cowboys",
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 53,
-      "Player": "Trevor Lawrence",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "QB",
-      "Value": 3
-    },
-    {
       "Rank": 53,
       "Player": "Baker Mayfield",
       "Team": "Tampa Bay Buccaneers",
@@ -617,94 +425,17 @@
     },
     {
       "Rank": 53,
-      "Player": "Rachaad White",
-      "Team": "Tampa Bay Buccaneers",
+      "Player": "Jerome Ford",
+      "Team": "Cleveland Browns",
       "Pos": "RB",
       "Value": 3
     },
     {
-      "Rank": 62,
-      "Player": "Ameer Abdullah",
-      "Team": "Las Vegas Raiders",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
+      "Rank": 53,
+      "Player": "Tyler Allgeier",
+      "Team": "Atlanta Falcons",
       "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Hassan Haskins",
-      "Team": "Los Angeles Chargers",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-<<<<<<< HEAD
-      "Player": "Zack Moss",
-      "Team": "Cincinnati Bengals",
-      "Pos": "HB",
-=======
-      "Player": "Justin Herbert",
-      "Team": "Los Angeles Chargers",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Chris Rodriguez Jr.",
-      "Team": "Washington Commanders",
-      "Pos": "RB",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Rico Dowdle",
-      "Team": "Dallas Cowboys",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Daniel Jones",
-      "Team": "Minnesota Vikings",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Zack Moss",
-      "Team": "Cincinnati Bengals",
-      "Pos": "HB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Joe Burrow",
-      "Team": "Cincinnati Bengals",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Geno Smith",
-      "Team": "Seattle Seahawks",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Tyler Huntley",
-      "Team": "Miami Dolphins",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Dameon Pierce",
-      "Team": "Houston Texans",
-      "Pos": "RB",
-      "Value": 2
+      "Value": 3
     },
     {
       "Rank": 62,
@@ -715,8 +446,29 @@
     },
     {
       "Rank": 62,
+      "Player": "Miles Sanders",
+      "Team": "Carolina Panthers",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 62,
+      "Player": "Drew Lock",
+      "Team": "New York Giants",
+      "Pos": "QB",
+      "Value": 2
+    },
+    {
+      "Rank": 62,
       "Player": "Drake Maye",
       "Team": "New England Patriots",
+      "Pos": "QB",
+      "Value": 2
+    },
+    {
+      "Rank": 62,
+      "Player": "Justin Herbert",
+      "Team": "Los Angeles Chargers",
       "Pos": "QB",
       "Value": 2
     },
@@ -729,36 +481,8 @@
     },
     {
       "Rank": 62,
-      "Player": "Cam Akers",
-      "Team": "Minnesota Vikings",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Miles Sanders",
-      "Team": "Carolina Panthers",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Travis Etienne Jr.",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Drew Lock",
-      "Team": "New York Giants",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Trey Sermon",
-      "Team": "Indianapolis Colts",
+      "Player": "Rico Dowdle",
+      "Team": "Dallas Cowboys",
       "Pos": "RB",
       "Value": 2
     },
@@ -767,124 +491,6 @@
       "Player": "Raheem Mostert",
       "Team": "Miami Dolphins",
       "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-<<<<<<< HEAD
-      "Player": "Chris Rodriguez Jr.",
-      "Team": "Washington Commanders",
-      "Pos": "RB",
-=======
-      "Player": "Jameson Williams",
-      "Team": "Detroit Lions",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Joshua Dobbs",
-      "Team": 49,
-      "Pos": "QB",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-<<<<<<< HEAD
-      "Player": "Joshua Dobbs",
-      "Team": 49,
-      "Pos": "QB",
-=======
-      "Player": "Sean Tucker",
-      "Team": "Tampa Bay Buccaneers",
-      "Pos": "RB",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Tyler Huntley",
-      "Team": "Miami Dolphins",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Dameon Pierce",
-      "Team": "Houston Texans",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 86,
-      "Player": "Emari Demercado",
-      "Team": "Arizona Cardinals",
-      "Pos": "RB",
-<<<<<<< HEAD
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Audric Estime",
-      "Team": "Denver Broncos",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Drake Maye",
-      "Team": "New England Patriots",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Justin Herbert",
-      "Team": "Los Angeles Chargers",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Rico Dowdle",
-      "Team": "Dallas Cowboys",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Joe Burrow",
-      "Team": "Cincinnati Bengals",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Drew Lock",
-      "Team": "New York Giants",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Miles Sanders",
-      "Team": "Carolina Panthers",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Trey Sermon",
-      "Team": "Indianapolis Colts",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
-      "Player": "Geno Smith",
-      "Team": "Seattle Seahawks",
-      "Pos": "QB",
       "Value": 2
     },
     {
@@ -910,153 +516,94 @@
     },
     {
       "Rank": 62,
-      "Player": "Russell Wilson",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 62,
       "Player": "Daniel Jones",
       "Team": "Minnesota Vikings",
       "Pos": "QB",
       "Value": 2
     },
     {
-      "Rank": 86,
-      "Player": "Emari Demercado",
-      "Team": "Arizona Cardinals",
-=======
-      "Value": 1
-    },
-    {
-      "Rank": 86,
-      "Player": "Mac Jones",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 86,
-      "Player": "Patrick Taylor Jr.",
-      "Team": 49,
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 86,
-      "Player": "Jaylen Warren",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 86,
-      "Player": "Derek Carr",
-      "Team": "New Orleans Saints",
-      "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 86,
-      "Player": "Deshaun Watson",
-      "Team": "Cleveland Browns",
-      "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 86,
-      "Player": "Tre Tucker",
-      "Team": "Las Vegas Raiders",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 86,
-      "Player": "Kenneth Gainwell",
-      "Team": "Philadelphia Eagles",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 86,
-      "Player": "Trey Benson",
-      "Team": "Arizona Cardinals",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 86,
-<<<<<<< HEAD
-      "Player": "DJ Turner",
-      "Team": "Las Vegas Raiders",
-      "Pos": "WR",
-=======
-      "Player": "Zamir White",
+      "Rank": 62,
+      "Player": "Ameer Abdullah",
       "Team": "Las Vegas Raiders",
       "Pos": "RB",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Value": 1
+      "Value": 2
     },
     {
-      "Rank": 86,
-      "Player": "Khalil Herbert",
+      "Rank": 62,
+      "Player": "Dameon Pierce",
+      "Team": "Houston Texans",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 62,
+      "Player": "Zack Moss",
       "Team": "Cincinnati Bengals",
-      "Pos": "RB",
-      "Value": 1
+      "Pos": "HB",
+      "Value": 2
     },
     {
-      "Rank": 86,
-<<<<<<< HEAD
-      "Player": "Tyler Goodson",
+      "Rank": 62,
+      "Player": "Tyler Huntley",
+      "Team": "Miami Dolphins",
+      "Pos": "QB",
+      "Value": 2
+    },
+    {
+      "Rank": 62,
+      "Player": "Cam Akers",
+      "Team": "Minnesota Vikings",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 62,
+      "Player": "Travis Etienne Jr.",
+      "Team": "Jacksonville Jaguars",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 62,
+      "Player": "Hassan Haskins",
+      "Team": "Los Angeles Chargers",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 62,
+      "Player": "Chris Rodriguez Jr.",
+      "Team": "Washington Commanders",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 62,
+      "Player": "Trey Sermon",
       "Team": "Indianapolis Colts",
       "Pos": "RB",
-=======
-      "Player": "Kyle Juszczyk",
-      "Team": 49,
-      "Pos": "FB",
-      "Value": 1
+      "Value": 2
     },
     {
-      "Rank": 86,
-      "Player": "Michael Burton",
-      "Team": "Denver Broncos",
-      "Pos": "FB",
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Value": 1
-    },
-    {
-      "Rank": 86,
-      "Player": "Will Shipley",
-      "Team": "Philadelphia Eagles",
-<<<<<<< HEAD
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 86,
-      "Player": "Tony Jones Jr.",
-      "Team": "Arizona Cardinals",
-=======
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 86,
-<<<<<<< HEAD
-      "Player": "Kenny Pickett",
-      "Team": "Philadelphia Eagles",
+      "Rank": 62,
+      "Player": "Joe Burrow",
+      "Team": "Cincinnati Bengals",
       "Pos": "QB",
-      "Value": 1
+      "Value": 2
     },
     {
-      "Rank": 86,
-      "Player": "Jaleel McLaughlin",
-      "Team": "Denver Broncos",
-      "Pos": "RB",
-      "Value": 1
+      "Rank": 62,
+      "Player": "Joshua Dobbs",
+      "Team": 49,
+      "Pos": "QB",
+      "Value": 2
+    },
+    {
+      "Rank": 62,
+      "Player": "Geno Smith",
+      "Team": "Seattle Seahawks",
+      "Pos": "QB",
+      "Value": 2
     },
     {
       "Rank": 86,
@@ -1081,16 +628,16 @@
     },
     {
       "Rank": 86,
-      "Player": "Mac Jones",
-      "Team": "Jacksonville Jaguars",
+      "Player": "Jameis Winston",
+      "Team": "Cleveland Browns",
       "Pos": "QB",
       "Value": 1
     },
     {
       "Rank": 86,
-      "Player": "Jaylen Warren",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "RB",
+      "Player": "Mac Jones",
+      "Team": "Jacksonville Jaguars",
+      "Pos": "QB",
       "Value": 1
     },
     {
@@ -1099,12 +646,69 @@
       "Team": "Las Vegas Raiders",
       "Pos": "RB",
       "Value": 1
-=======
-      "Player": "Marcus Mariota",
-      "Team": "Washington Commanders",
+    },
+    {
+      "Rank": 86,
+      "Player": "Samaje Perine",
+      "Team": "Kansas City Chiefs",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 86,
+      "Player": "Jordan Love",
+      "Team": "Green Bay Packers",
       "Pos": "QB",
       "Value": 1
->>>>>>> a9f6b42 (Major refactoring: Modularize codebase and enhance TD recommendations)
+    },
+    {
+      "Rank": 86,
+      "Player": "Deshaun Watson",
+      "Team": "Cleveland Browns",
+      "Pos": "QB",
+      "Value": 1
+    },
+    {
+      "Rank": 86,
+      "Player": "Sam Darnold",
+      "Team": "Minnesota Vikings",
+      "Pos": "QB",
+      "Value": 1
+    },
+    {
+      "Rank": 86,
+      "Player": "Jamaal Williams",
+      "Team": "New Orleans Saints",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 86,
+      "Player": "Kendre Miller",
+      "Team": "New Orleans Saints",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 86,
+      "Player": "Stefon Diggs",
+      "Team": "Houston Texans",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 86,
+      "Player": "Alec Ingold",
+      "Team": "Miami Dolphins",
+      "Pos": "FB",
+      "Value": 1
+    },
+    {
+      "Rank": 86,
+      "Player": "Joe Milton III",
+      "Team": "New England Patriots",
+      "Pos": "QB",
+      "Value": 1
     }
   ]
 }
