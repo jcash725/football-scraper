@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏈 Top 20 TD Bet Recommendations</title>
+    <title>🏈 Dual Model TD Bet Recommendations</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -50,10 +50,35 @@
             font-weight: bold;
             color: #8EB897;
         }
+        .dual-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .model-section {
+            flex: 1;
+            min-width: 600px;
+        }
+        .model-title {
+            text-align: center;
+            margin: 0 0 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            color: white;
+            font-weight: bold;
+        }
+        .current-model {
+            background: #5B7553;
+        }
+        .ml-model {
+            background: #8EB897;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             font-size: 14px;
+            margin: 0;
         }
         th {
             background: linear-gradient(135deg, #5B7553 0%, #8EB897 100%);
@@ -139,258 +164,460 @@
             color: #040403;
             font-size: 0.9em;
         }
+        /* Mobile-first responsive design */
         @media (max-width: 768px) {
-            body { padding: 10px; }
-            .header h1 { font-size: 2em; }
-            .summary-stats { flex-direction: column; gap: 20px; }
-            table { font-size: 12px; }
-            th, td { padding: 8px 6px; }
+            body { 
+                padding: 8px; 
+                font-size: 14px;
+            }
+            .header h1 { 
+                font-size: 1.8em; 
+                padding: 0 10px;
+            }
+            .header {
+                padding: 20px 15px;
+            }
+            .summary {
+                padding: 15px 20px;
+            }
+            .summary-stats { 
+                flex-direction: column; 
+                gap: 15px; 
+            }
+            .dual-container {
+                flex-direction: column;
+                padding: 15px;
+            }
+            .model-section {
+                min-width: auto;
+            }
+            .stat-number {
+                font-size: 1.5em;
+            }
+            table { 
+                font-size: 11px;
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+            }
+            th, td { 
+                padding: 6px 4px; 
+                min-width: 80px;
+            }
+            tr:hover {
+                transform: none;
+            }
+        }
+        @media (max-width: 480px) {
+            body { padding: 5px; }
+            .header h1 { font-size: 1.5em; }
+            .header { padding: 15px 10px; }
+            .summary { padding: 10px 15px; }
+            table { font-size: 10px; }
+            th, td { padding: 4px 3px; }
+            .stat-number { font-size: 1.3em; }
+            .summary-stats { gap: 12px; }
+        }
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1400px;
+            }
+            table {
+                font-size: 15px;
+            }
+            th, td {
+                padding: 15px 12px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>🏈 Top 20 TD Bet Recommendations</h1>
+            <h1>🏈 Dual Model Analysis TD Bet Recommendations</h1>
+            <p style="margin: 10px 0 0 0; font-size: 1.1em; opacity: 0.9;">Comparing Current Model vs Machine Learning Predictions</p>
         </div>
         
         <div class="summary">
             <div class="summary-stats">
                 <div class="stat">
-                    <div class="stat-number">3</div>
-                    <div>🏃 Rushing</div>
+                    <div class="stat-number">15%</div>
+                    <div>🤝 Model Agreement</div>
                 </div>
                 <div class="stat">
                     <div class="stat-number">17</div>
-                    <div>🎯 Receiving</div>
+                    <div>📊 Current Only</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-number">20</div>
-                    <div>Total Opportunities</div>
+                    <div class="stat-number">17</div>
+                    <div>🤖 ML Only</div>
                 </div>
             </div>
         </div>
-        
-        <table>
-            <thead>
-                <tr>
-                    <th>Rank</th>
-                    <th>Player</th>
-                    <th>Matchup</th>
-                    <th>Type</th>
-                    <th>Opp Allows</th>
-                    <th>Player TDs YTD</th>
-                    <th>2024 vs Opponent</th>
-                    <th>Analysis</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="rank">#1</td>
-                    <td class="player-name">Brian Thomas Jr.</td>
-                    <td class="matchup">Jacksonville @ Carolina</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">2.1 TDs/game</td>
-                    <td class="player-tds">10 TDs</td>
-                    <td class="historical na">❓ Not verifiable</td>
-                    <td class="reason">Jacksonville vs Carolina - opponent allows 2.1 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#2</td>
-                    <td class="player-name">Mike Evans</td>
-                    <td class="matchup">Tampa Bay @ Atlanta</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">2 TDs/game</td>
-                    <td class="player-tds">12 TDs</td>
-                    <td class="historical success">🎯 2 TDs</td>
-                    <td class="reason">Tampa Bay vs Atlanta - opponent allows 2 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#3</td>
-                    <td class="player-name">Jalen McMillan</td>
-                    <td class="matchup">Tampa Bay @ Atlanta</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">2 TDs/game</td>
-                    <td class="player-tds">8 TDs</td>
-                    <td class="historical na">❓ Not verifiable</td>
-                    <td class="reason">Tampa Bay vs Atlanta - opponent allows 2 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#4</td>
-                    <td class="player-name">David Njoku</td>
-                    <td class="matchup">Cleveland @ Cincinnati</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.8 TDs/game</td>
-                    <td class="player-tds">5 TDs</td>
-                    <td class="historical success">🎯 1 TDs</td>
-                    <td class="reason">Cleveland vs Cincinnati - opponent allows 1.8 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#5</td>
-                    <td class="player-name">Jerry Jeudy</td>
-                    <td class="matchup">Cleveland @ Cincinnati</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.8 TDs/game</td>
-                    <td class="player-tds">4 TDs</td>
-                    <td class="historical na">❓ Not verifiable</td>
-                    <td class="reason">Cleveland vs Cincinnati - opponent allows 1.8 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#6</td>
-                    <td class="player-name">Jalen Hurts</td>
-                    <td class="matchup">Philadelphia @ Dallas</td>
-                    <td><span class="td-type rushing">🏃 Rushing</span></td>
-                    <td class="opp-stat">1.5 TDs/game</td>
-                    <td class="player-tds">19 TDs</td>
-                    <td class="historical success">🎯 2 TDs</td>
-                    <td class="reason">Philadelphia vs Dallas - opponent allows 1.5 rush TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#7</td>
-                    <td class="player-name">Demarcus Robinson</td>
-                    <td class="matchup">LA Rams @ Houston</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.7 TDs/game</td>
-                    <td class="player-tds">7 TDs</td>
-                    <td class="historical na">❓ Not verifiable</td>
-                    <td class="reason">LA Rams vs Houston - opponent allows 1.7 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#8</td>
-                    <td class="player-name">Cooper Kupp</td>
-                    <td class="matchup">LA Rams @ Houston</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.7 TDs/game</td>
-                    <td class="player-tds">6 TDs</td>
-                    <td class="historical na">❓ Not verifiable</td>
-                    <td class="reason">LA Rams vs Houston - opponent allows 1.7 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#9</td>
-                    <td class="player-name">Adam Thielen</td>
-                    <td class="matchup">Carolina @ Jacksonville</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.7 TDs/game</td>
-                    <td class="player-tds">5 TDs</td>
-                    <td class="historical na">❓ Not verifiable</td>
-                    <td class="reason">Carolina vs Jacksonville - opponent allows 1.7 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#10</td>
-                    <td class="player-name">Xavier Legette</td>
-                    <td class="matchup">Carolina @ Jacksonville</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.7 TDs/game</td>
-                    <td class="player-tds">4 TDs</td>
-                    <td class="historical na">❓ Not verifiable</td>
-                    <td class="reason">Carolina vs Jacksonville - opponent allows 1.7 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#11</td>
-                    <td class="player-name">DeVonta Smith</td>
-                    <td class="matchup">Philadelphia @ Dallas</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.6 TDs/game</td>
-                    <td class="player-tds">9 TDs</td>
-                    <td class="historical success">🎯 2 TDs</td>
-                    <td class="reason">Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#12</td>
-                    <td class="player-name">Drake London</td>
-                    <td class="matchup">Atlanta @ Tampa Bay</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.6 TDs/game</td>
-                    <td class="player-tds">9 TDs</td>
-                    <td class="historical success">🎯 1 TDs</td>
-                    <td class="reason">Atlanta vs Tampa Bay - opponent allows 1.6 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#13</td>
-                    <td class="player-name">A.J. Brown</td>
-                    <td class="matchup">Philadelphia @ Dallas</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.6 TDs/game</td>
-                    <td class="player-tds">9 TDs</td>
-                    <td class="historical success">🎯 1 TDs</td>
-                    <td class="reason">Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#14</td>
-                    <td class="player-name">Jonnu Smith</td>
-                    <td class="matchup">Miami @ Indianapolis</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.6 TDs/game</td>
-                    <td class="player-tds">8 TDs</td>
-                    <td class="historical success">🎯 1 TDs</td>
-                    <td class="reason">Miami vs Indianapolis - opponent allows 1.6 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#15</td>
-                    <td class="player-name">Rashod Bateman</td>
-                    <td class="matchup">Baltimore @ Buffalo</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.6 TDs/game</td>
-                    <td class="player-tds">11 TDs</td>
-                    <td class="historical na">❓ Not verifiable</td>
-                    <td class="reason">Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#16</td>
-                    <td class="player-name">Mark Andrews</td>
-                    <td class="matchup">Baltimore @ Buffalo</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.6 TDs/game</td>
-                    <td class="player-tds">11 TDs</td>
-                    <td class="historical na">❓ Not verifiable</td>
-                    <td class="reason">Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#17</td>
-                    <td class="player-name">Courtland Sutton</td>
-                    <td class="matchup">Denver @ Tennessee</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.6 TDs/game</td>
-                    <td class="player-tds">8 TDs</td>
-                    <td class="historical na">❓ Not verifiable</td>
-                    <td class="reason">Denver vs Tennessee - opponent allows 1.6 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#18</td>
-                    <td class="player-name">Nico Collins</td>
-                    <td class="matchup">Houston @ LA Rams</td>
-                    <td><span class="td-type receiving">🎯 Receiving</span></td>
-                    <td class="opp-stat">1.6 TDs/game</td>
-                    <td class="player-tds">8 TDs</td>
-                    <td class="historical na">❓ Not verifiable</td>
-                    <td class="reason">Houston vs LA Rams - opponent allows 1.6 pass TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#19</td>
-                    <td class="player-name">Zach Charbonnet</td>
-                    <td class="matchup">Seattle @ San Francisco</td>
-                    <td><span class="td-type rushing">🏃 Rushing</span></td>
-                    <td class="opp-stat">1.4 TDs/game</td>
-                    <td class="player-tds">8 TDs</td>
-                    <td class="historical na">❓ Not verifiable</td>
-                    <td class="reason">Seattle vs San Francisco - opponent allows 1.4 rush TDs/game</td>
-                </tr>
-                <tr>
-                    <td class="rank">#20</td>
-                    <td class="player-name">Tank Bigsby</td>
-                    <td class="matchup">Jacksonville @ Carolina</td>
-                    <td><span class="td-type rushing">🏃 Rushing</span></td>
-                    <td class="opp-stat">1.4 TDs/game</td>
-                    <td class="player-tds">7 TDs</td>
-                    <td class="historical na">❓ Not verifiable</td>
-                    <td class="reason">Jacksonville vs Carolina - opponent allows 1.4 rush TDs/game</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="dual-container">
+            <div class="model-section">
+                <h2 class="model-title current-model">📊 Current Model (Rule-based)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>Matchup</th>
+                            <th>Type</th>
+                            <th>Opp Allows</th>
+                            <th>Player TDs YTD</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td class="rank">#1</td>
+                            <td class="player-name">Brian Thomas Jr.</td>
+                            <td class="matchup">Jacksonville @ Carolina</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">2.1 TDs/game</td>
+                            <td class="player-tds">10 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#2</td>
+                            <td class="player-name">Mike Evans</td>
+                            <td class="matchup">Tampa Bay @ Atlanta</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">2 TDs/game</td>
+                            <td class="player-tds">12 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#3</td>
+                            <td class="player-name">Jalen McMillan</td>
+                            <td class="matchup">Tampa Bay @ Atlanta</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">2 TDs/game</td>
+                            <td class="player-tds">8 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#4</td>
+                            <td class="player-name">David Njoku</td>
+                            <td class="matchup">Cleveland @ Cincinnati</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.8 TDs/game</td>
+                            <td class="player-tds">5 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#5</td>
+                            <td class="player-name">Jerry Jeudy</td>
+                            <td class="matchup">Cleveland @ Cincinnati</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.8 TDs/game</td>
+                            <td class="player-tds">4 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#6</td>
+                            <td class="player-name">Jalen Hurts</td>
+                            <td class="matchup">Philadelphia @ Dallas</td>
+                            <td><span class="td-type rushing">🏃 Rushing</span></td>
+                            <td class="opp-stat">1.5 TDs/game</td>
+                            <td class="player-tds">19 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#7</td>
+                            <td class="player-name">Demarcus Robinson</td>
+                            <td class="matchup">LA Rams @ Houston</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.7 TDs/game</td>
+                            <td class="player-tds">7 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#8</td>
+                            <td class="player-name">Cooper Kupp</td>
+                            <td class="matchup">LA Rams @ Houston</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.7 TDs/game</td>
+                            <td class="player-tds">6 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#9</td>
+                            <td class="player-name">Adam Thielen</td>
+                            <td class="matchup">Carolina @ Jacksonville</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.7 TDs/game</td>
+                            <td class="player-tds">5 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#10</td>
+                            <td class="player-name">Xavier Legette</td>
+                            <td class="matchup">Carolina @ Jacksonville</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.7 TDs/game</td>
+                            <td class="player-tds">4 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#11</td>
+                            <td class="player-name">DeVonta Smith</td>
+                            <td class="matchup">Philadelphia @ Dallas</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.6 TDs/game</td>
+                            <td class="player-tds">9 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#12</td>
+                            <td class="player-name">A.J. Brown</td>
+                            <td class="matchup">Philadelphia @ Dallas</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.6 TDs/game</td>
+                            <td class="player-tds">9 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#13</td>
+                            <td class="player-name">Drake London</td>
+                            <td class="matchup">Atlanta @ Tampa Bay</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.6 TDs/game</td>
+                            <td class="player-tds">9 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#14</td>
+                            <td class="player-name">Jonnu Smith</td>
+                            <td class="matchup">Miami @ Indianapolis</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.6 TDs/game</td>
+                            <td class="player-tds">8 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#15</td>
+                            <td class="player-name">Rashod Bateman</td>
+                            <td class="matchup">Baltimore @ Buffalo</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.6 TDs/game</td>
+                            <td class="player-tds">11 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#16</td>
+                            <td class="player-name">Mark Andrews</td>
+                            <td class="matchup">Baltimore @ Buffalo</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.6 TDs/game</td>
+                            <td class="player-tds">11 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#17</td>
+                            <td class="player-name">Nico Collins</td>
+                            <td class="matchup">Houston @ LA Rams</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.6 TDs/game</td>
+                            <td class="player-tds">8 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#18</td>
+                            <td class="player-name">Courtland Sutton</td>
+                            <td class="matchup">Denver @ Tennessee</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">1.6 TDs/game</td>
+                            <td class="player-tds">8 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#19</td>
+                            <td class="player-name">Zach Charbonnet</td>
+                            <td class="matchup">Seattle @ San Francisco</td>
+                            <td><span class="td-type rushing">🏃 Rushing</span></td>
+                            <td class="opp-stat">1.4 TDs/game</td>
+                            <td class="player-tds">8 TDs</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#20</td>
+                            <td class="player-name">Tank Bigsby</td>
+                            <td class="matchup">Jacksonville @ Carolina</td>
+                            <td><span class="td-type rushing">🏃 Rushing</span></td>
+                            <td class="opp-stat">1.4 TDs/game</td>
+                            <td class="player-tds">7 TDs</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="model-section">
+                <h2 class="model-title ml-model">🤖 ML Model (Probability-based)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>Matchup</th>
+                            <th>ML Prob</th>
+                            <th>Confidence</th>
+                            <th>Key Factors</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td class="rank">#1</td>
+                            <td class="player-name">Derrick Henry</td>
+                            <td class="matchup">Baltimore Ravens @ Buffalo</td>
+                            <td class="opp-stat">42.8%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (19 TDs), Home field advantage</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#2</td>
+                            <td class="player-name">Ja'Marr Chase</td>
+                            <td class="matchup">Cincinnati Bengals @ Cleveland</td>
+                            <td class="opp-stat">40.3%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (17 TDs), Home field advantage</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#3</td>
+                            <td class="player-name">Terry McLaurin</td>
+                            <td class="matchup">Washington Commanders @ NY Giants</td>
+                            <td class="opp-stat">39.0%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (16 TDs), Home field advantage</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#4</td>
+                            <td class="player-name">James Cook</td>
+                            <td class="matchup">Buffalo Bills @ Baltimore</td>
+                            <td class="opp-stat">37.8%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (19 TDs), Trending upward</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#5</td>
+                            <td class="player-name">Jahmyr Gibbs</td>
+                            <td class="matchup">Detroit Lions @ Green Bay</td>
+                            <td class="opp-stat">36.5%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (18 TDs), Trending upward</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#6</td>
+                            <td class="player-name">Brian Robinson Jr.</td>
+                            <td class="matchup">Washington Commanders @ NY Giants</td>
+                            <td class="opp-stat">34.5%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (10 TDs), Home field advantage</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#7</td>
+                            <td class="player-name">Mike Evans</td>
+                            <td class="matchup">Tampa Bay Buccaneers @ Atlanta</td>
+                            <td class="opp-stat">34.0%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (12 TDs), Home field advantage</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#8</td>
+                            <td class="player-name">Jalen Hurts</td>
+                            <td class="matchup">Philadelphia Eagles @ Dallas</td>
+                            <td class="opp-stat">32.8%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (19 TDs), Trending downward</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#9</td>
+                            <td class="player-name">Jonathan Taylor</td>
+                            <td class="matchup">Indianapolis Colts @ Miami</td>
+                            <td class="opp-stat">32.8%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (11 TDs), Home field advantage</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#10</td>
+                            <td class="player-name">Saquon Barkley</td>
+                            <td class="matchup">Philadelphia Eagles @ Dallas</td>
+                            <td class="opp-stat">32.5%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (18 TDs)</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#11</td>
+                            <td class="player-name">Josh Allen</td>
+                            <td class="matchup">Buffalo Bills @ Baltimore</td>
+                            <td class="opp-stat">32.5%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (14 TDs), Home field advantage</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#12</td>
+                            <td class="player-name">Ladd McConkey</td>
+                            <td class="matchup">Los Angeles Chargers @ Kansas City</td>
+                            <td class="opp-stat">32.0%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">Home field advantage, Trending upward</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#13</td>
+                            <td class="player-name">Tee Higgins</td>
+                            <td class="matchup">Cincinnati Bengals @ Cleveland</td>
+                            <td class="opp-stat">31.5%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (10 TDs), Home field advantage</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#14</td>
+                            <td class="player-name">Joe Mixon</td>
+                            <td class="matchup">Houston Texans @ LA Rams</td>
+                            <td class="opp-stat">31.3%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (13 TDs), Home field advantage</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#15</td>
+                            <td class="player-name">Josh Jacobs</td>
+                            <td class="matchup">Green Bay Packers @ Detroit</td>
+                            <td class="opp-stat">31.0%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (16 TDs), Home field advantage</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#16</td>
+                            <td class="player-name">Demarcus Robinson</td>
+                            <td class="matchup">Los Angeles Rams @ Houston</td>
+                            <td class="opp-stat">30.7%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">Home field advantage, Trending upward</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#17</td>
+                            <td class="player-name">Chuba Hubbard</td>
+                            <td class="matchup">Carolina Panthers @ Jacksonville</td>
+                            <td class="opp-stat">29.5%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (10 TDs), Trending upward</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#18</td>
+                            <td class="player-name">Justin Jefferson</td>
+                            <td class="matchup">Minnesota Vikings @ Chicago</td>
+                            <td class="opp-stat">29.5%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (10 TDs), Trending upward</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#19</td>
+                            <td class="player-name">Bijan Robinson</td>
+                            <td class="matchup">Atlanta Falcons @ Tampa Bay</td>
+                            <td class="opp-stat">28.5%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">High TD production (14 TDs), Home field advantage</td>
+                        </tr>
+                        <tr>
+                            <td class="rank">#20</td>
+                            <td class="player-name">Tyrone Tracy Jr.</td>
+                            <td class="matchup">New York Giants @ Washington</td>
+                            <td class="opp-stat">28.3%</td>
+                            <td class="player-tds">70%</td>
+                            <td class="reason" style="font-size: 0.8em;">Home field advantage, Trending upward</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
         
         <div class="footer">
             🤖 Generated with <a href="https://claude.ai/code" target="_blank" style="color: #5B7553;">Claude Code</a><br>
-            📅 Last updated: 9/2/2025, 8:16:26 AM
+            📅 Last updated: 9/2/2025, 10:45:52 PM
         </div>
     </div>
 </body>
