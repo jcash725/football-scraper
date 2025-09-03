@@ -1,16 +1,50 @@
 // HTML table generation for TD recommendations
 import { TDRecommendation } from './types.js';
 
-export function formatAsHTML(recommendations: TDRecommendation[]): string {
+function generateCurrentModelRows(recommendations: TDRecommendation[]): string {
+  return recommendations.slice(0, 20).map((rec, index) => {
+    const tdType = rec.Basis.includes("Rush") ? "rushing" : "receiving";
+    const tdTypeClass = rec.Basis.includes("Rush") ? "rushing" : "receiving";
+    const tdTypeIcon = rec.Basis.includes("Rush") ? "🏃" : "🎯";
+    
+    return `
+                        <tr>
+                            <td class="rank">#${index + 1}</td>
+                            <td class="player-name">${rec.Player}</td>
+                            <td class="matchup">${rec.Team} @ ${rec.Opponent}</td>
+                            <td><span class="td-type ${tdTypeClass}">${tdTypeIcon} ${tdType.charAt(0).toUpperCase() + tdType.slice(1)}</span></td>
+                            <td class="opp-stat">${rec["Opponent Stat Value"]} TDs/game</td>
+                            <td class="player-tds">${rec["Player TDs YTD"]} TDs</td>
+                        </tr>`;
+  }).join('');
+}
+
+function generateMLModelRows(mlPredictions: any[]): string {
+  if (!mlPredictions) return '';
+  return mlPredictions.slice(0, 20).map((pred, index) => {
+    return `
+                        <tr>
+                            <td class="rank">#${index + 1}</td>
+                            <td class="player-name">${pred.player}</td>
+                            <td class="matchup">${pred.team} @ ${pred.opponent}</td>
+                            <td class="opp-stat">${(pred.mlProbability * 100).toFixed(1)}%</td>
+                            <td class="player-tds">${(pred.mlConfidence * 100).toFixed(0)}%</td>
+                            <td class="reason" style="font-size: 0.8em;">${pred.keyFactors.slice(0, 2).join(', ')}</td>
+                        </tr>`;
+  }).join('');
+}
+
+export function formatAsHTML(recommendations: TDRecommendation[], mlPredictions?: any[], comparison?: any): string {
   const rushingCount = recommendations.filter(r => r.Basis.includes("Rush")).length;
   const receivingCount = recommendations.filter(r => r.Basis.includes("Pass")).length;
+  const isDualModel = mlPredictions && mlPredictions.length > 0;
   
   let html = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏈 Top 20 TD Bet Recommendations</title>
+    <title>🏈 ${isDualModel ? 'Dual Model' : 'Top 20'} TD Bet Recommendations</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -57,10 +91,35 @@ export function formatAsHTML(recommendations: TDRecommendation[]): string {
             font-weight: bold;
             color: #8EB897;
         }
+        .dual-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .model-section {
+            flex: 1;
+            min-width: 600px;
+        }
+        .model-title {
+            text-align: center;
+            margin: 0 0 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            color: white;
+            font-weight: bold;
+        }
+        .current-model {
+            background: #5B7553;
+        }
+        .ml-model {
+            background: #8EB897;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             font-size: 14px;
+            margin: 0;
         }
         th {
             background: linear-gradient(135deg, #5B7553 0%, #8EB897 100%);
@@ -146,23 +205,100 @@ export function formatAsHTML(recommendations: TDRecommendation[]): string {
             color: #040403;
             font-size: 0.9em;
         }
+        /* Mobile-first responsive design */
         @media (max-width: 768px) {
-            body { padding: 10px; }
-            .header h1 { font-size: 2em; }
-            .summary-stats { flex-direction: column; gap: 20px; }
-            table { font-size: 12px; }
-            th, td { padding: 8px 6px; }
+            body { 
+                padding: 8px; 
+                font-size: 14px;
+            }
+            .header h1 { 
+                font-size: 1.8em; 
+                padding: 0 10px;
+            }
+            .header {
+                padding: 20px 15px;
+            }
+            .summary {
+                padding: 15px 20px;
+            }
+            .summary-stats { 
+                flex-direction: column; 
+                gap: 15px; 
+            }
+            .dual-container {
+                flex-direction: column;
+                padding: 15px;
+            }
+            .model-section {
+                min-width: auto;
+            }
+            .stat-number {
+                font-size: 1.5em;
+            }
+            table { 
+                font-size: 11px;
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+            }
+            th, td { 
+                padding: 6px 4px; 
+                min-width: 80px;
+            }
+            tr:hover {
+                transform: none;
+            }
+        }
+        @media (max-width: 480px) {
+            body { padding: 5px; }
+            .header h1 { font-size: 1.5em; }
+            .header { padding: 15px 10px; }
+            .summary { padding: 10px 15px; }
+            table { font-size: 10px; }
+            th, td { padding: 4px 3px; }
+            .stat-number { font-size: 1.3em; }
+            .summary-stats { gap: 12px; }
+        }
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1400px;
+            }
+            table {
+                font-size: 15px;
+            }
+            th, td {
+                padding: 15px 12px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>🏈 Top 20 TD Bet Recommendations</h1>
+            <h1>🏈 ${isDualModel ? 'Dual Model Analysis' : 'Top 20'} TD Bet Recommendations</h1>
+            ${isDualModel ? '<p style="margin: 10px 0 0 0; font-size: 1.1em; opacity: 0.9;">Comparing Current Model vs Machine Learning Predictions</p>' : ''}
         </div>
         
         <div class="summary">
-            <div class="summary-stats">
+            <div class="summary-stats">`;
+
+  if (isDualModel && comparison) {
+    html += `
+                <div class="stat">
+                    <div class="stat-number">${comparison.agreement.toFixed(0)}%</div>
+                    <div>🤝 Model Agreement</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">${comparison.differences.onlyInCurrent.length}</div>
+                    <div>📊 Current Only</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">${comparison.differences.onlyInML.length}</div>
+                    <div>🤖 ML Only</div>
+                </div>`;
+  } else {
+    html += `
                 <div class="stat">
                     <div class="stat-number">${rushingCount}</div>
                     <div>🏃 Rushing</div>
@@ -174,10 +310,56 @@ export function formatAsHTML(recommendations: TDRecommendation[]): string {
                 <div class="stat">
                     <div class="stat-number">20</div>
                     <div>Total Opportunities</div>
-                </div>
+                </div>`;
+  }
+
+  html += `
             </div>
-        </div>
-        
+        </div>`;
+
+  if (isDualModel) {
+    html += `
+        <div class="dual-container">
+            <div class="model-section">
+                <h2 class="model-title current-model">📊 Current Model (Rule-based)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>Matchup</th>
+                            <th>Type</th>
+                            <th>Opp Allows</th>
+                            <th>Player TDs YTD</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${generateCurrentModelRows(recommendations)}
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="model-section">
+                <h2 class="model-title ml-model">🤖 ML Model (Probability-based)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>Matchup</th>
+                            <th>ML Prob</th>
+                            <th>Confidence</th>
+                            <th>Key Factors</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${generateMLModelRows(mlPredictions)}
+                    </tbody>
+                </table>
+            </div>
+        </div>`;
+  } else {
+    html += `
         <table>
             <thead>
                 <tr>
@@ -193,27 +375,27 @@ export function formatAsHTML(recommendations: TDRecommendation[]): string {
             </thead>
             <tbody>`;
 
-  recommendations.forEach((rec, index) => {
-    const tdType = rec.Basis.includes("Rush") ? "rushing" : "receiving";
-    const tdTypeClass = rec.Basis.includes("Rush") ? "rushing" : "receiving";
-    const tdTypeIcon = rec.Basis.includes("Rush") ? "🏃" : "🎯";
-    
-    const historical = rec["TDs vs Opponent Last Year (2024)"];
-    let historicalClass = "na";
-    let historicalText = historical;
-    
-    if (historical === "N/A — not verifiable") {
-      historicalClass = "na";
-      historicalText = "❓ Not verifiable";
-    } else if (historical === "0") {
-      historicalClass = "none";
-      historicalText = "0️⃣ None";
-    } else if (historical !== "N/A — not verifiable") {
-      historicalClass = "success";
-      historicalText = `🎯 ${historical} TDs`;
-    }
-    
-    html += `
+    recommendations.forEach((rec, index) => {
+      const tdType = rec.Basis.includes("Rush") ? "rushing" : "receiving";
+      const tdTypeClass = rec.Basis.includes("Rush") ? "rushing" : "receiving";
+      const tdTypeIcon = rec.Basis.includes("Rush") ? "🏃" : "🎯";
+      
+      const historical = rec["TDs vs Opponent Last Year (2024)"];
+      let historicalClass = "na";
+      let historicalText = historical;
+      
+      if (historical === "N/A — not verifiable") {
+        historicalClass = "na";
+        historicalText = "❓ Not verifiable";
+      } else if (historical === "0") {
+        historicalClass = "none";
+        historicalText = "0️⃣ None";
+      } else if (historical !== "N/A — not verifiable") {
+        historicalClass = "success";
+        historicalText = `🎯 ${historical} TDs`;
+      }
+      
+      html += `
                 <tr>
                     <td class="rank">#${index + 1}</td>
                     <td class="player-name">${rec.Player}</td>
@@ -224,11 +406,14 @@ export function formatAsHTML(recommendations: TDRecommendation[]): string {
                     <td class="historical ${historicalClass}">${historicalText}</td>
                     <td class="reason">${rec.Reason}</td>
                 </tr>`;
-  });
+    });
+
+    html += `
+            </tbody>
+        </table>`;
+  }
 
   html += `
-            </tbody>
-        </table>
         
         <div class="footer">
             🤖 Generated with <a href="https://claude.ai/code" target="_blank" style="color: #5B7553;">Claude Code</a><br>

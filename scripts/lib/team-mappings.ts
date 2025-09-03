@@ -33,7 +33,8 @@ export const TEAM_NAME_MAP: Record<string, string> = {
   "Buffalo Bills": "Buffalo",
   "Minnesota Vikings": "Minnesota",
   "Chicago Bears": "Chicago",
-  "Carolina Panthers": "Carolina"
+  "Carolina Panthers": "Carolina",
+  "49": "San Francisco"
 };
 
 // StatMuse team name mapping for URLs

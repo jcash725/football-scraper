@@ -1,0 +1,572 @@
+{
+  "generatedAt": "2025-09-01T02:16:22.575Z",
+  "currentModel": [
+    {
+      "Player": "Brian Thomas Jr.",
+      "Team": "Jacksonville",
+      "Opponent": "Carolina",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 2.1,
+      "Player TDs YTD": 10,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Jacksonville vs Carolina - opponent allows 2.1 pass TDs/game"
+    },
+    {
+      "Player": "Mike Evans",
+      "Team": "Tampa Bay",
+      "Opponent": "Atlanta",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 2,
+      "Player TDs YTD": 12,
+      "TDs vs Opponent Last Year (2024)": "2",
+      "Reason": "Tampa Bay vs Atlanta - opponent allows 2 pass TDs/game"
+    },
+    {
+      "Player": "Jalen McMillan",
+      "Team": "Tampa Bay",
+      "Opponent": "Atlanta",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 2,
+      "Player TDs YTD": 8,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Tampa Bay vs Atlanta - opponent allows 2 pass TDs/game"
+    },
+    {
+      "Player": "David Njoku",
+      "Team": "Cleveland",
+      "Opponent": "Cincinnati",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.8,
+      "Player TDs YTD": 5,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Cleveland vs Cincinnati - opponent allows 1.8 pass TDs/game"
+    },
+    {
+      "Player": "Jerry Jeudy",
+      "Team": "Cleveland",
+      "Opponent": "Cincinnati",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.8,
+      "Player TDs YTD": 4,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Cleveland vs Cincinnati - opponent allows 1.8 pass TDs/game"
+    },
+    {
+      "Player": "Jalen Hurts",
+      "Team": "Philadelphia",
+      "Opponent": "Dallas",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 1.5,
+      "Player TDs YTD": 19,
+      "TDs vs Opponent Last Year (2024)": "2",
+      "Reason": "Philadelphia vs Dallas - opponent allows 1.5 rush TDs/game"
+    },
+    {
+      "Player": "Demarcus Robinson",
+      "Team": "LA Rams",
+      "Opponent": "Houston",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.7,
+      "Player TDs YTD": 7,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "LA Rams vs Houston - opponent allows 1.7 pass TDs/game"
+    },
+    {
+      "Player": "Cooper Kupp",
+      "Team": "LA Rams",
+      "Opponent": "Houston",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.7,
+      "Player TDs YTD": 6,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "LA Rams vs Houston - opponent allows 1.7 pass TDs/game"
+    },
+    {
+      "Player": "Adam Thielen",
+      "Team": "Carolina",
+      "Opponent": "Jacksonville",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.7,
+      "Player TDs YTD": 5,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Carolina vs Jacksonville - opponent allows 1.7 pass TDs/game"
+    },
+    {
+      "Player": "Xavier Legette",
+      "Team": "Carolina",
+      "Opponent": "Jacksonville",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.7,
+      "Player TDs YTD": 4,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Carolina vs Jacksonville - opponent allows 1.7 pass TDs/game"
+    },
+    {
+      "Player": "DeVonta Smith",
+      "Team": "Philadelphia",
+      "Opponent": "Dallas",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 9,
+      "TDs vs Opponent Last Year (2024)": "2",
+      "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Drake London",
+      "Team": "Atlanta",
+      "Opponent": "Tampa Bay",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 9,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Atlanta vs Tampa Bay - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "A.J. Brown",
+      "Team": "Philadelphia",
+      "Opponent": "Dallas",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 9,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Jonnu Smith",
+      "Team": "Miami",
+      "Opponent": "Indianapolis",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 8,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Miami vs Indianapolis - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Mark Andrews",
+      "Team": "Baltimore",
+      "Opponent": "Buffalo",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 11,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Rashod Bateman",
+      "Team": "Baltimore",
+      "Opponent": "Buffalo",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 11,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Nico Collins",
+      "Team": "Houston",
+      "Opponent": "LA Rams",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 8,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Houston vs LA Rams - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Courtland Sutton",
+      "Team": "Denver",
+      "Opponent": "Tennessee",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 8,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Denver vs Tennessee - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Zach Charbonnet",
+      "Team": "Seattle",
+      "Opponent": "San Francisco",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 1.4,
+      "Player TDs YTD": 8,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Seattle vs San Francisco - opponent allows 1.4 rush TDs/game"
+    },
+    {
+      "Player": "Tank Bigsby",
+      "Team": "Jacksonville",
+      "Opponent": "Carolina",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 1.4,
+      "Player TDs YTD": 7,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Jacksonville vs Carolina - opponent allows 1.4 rush TDs/game"
+    }
+  ],
+  "mlModel": [
+    {
+      "player": "Derrick Henry",
+      "team": "Baltimore Ravens",
+      "opponent": "Buffalo",
+      "position": "RB",
+      "mlProbability": 0.4275,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "High TD production (19 TDs)",
+        "Home field advantage",
+        "Trending upward"
+      ],
+      "mlRank": 1,
+      "playerTDsYTD": 19,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "James Cook",
+      "team": "Buffalo Bills",
+      "opponent": "Baltimore",
+      "position": "RB",
+      "mlProbability": 0.3875,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "High TD production (19 TDs)",
+        "Home field advantage"
+      ],
+      "mlRank": 2,
+      "playerTDsYTD": 19,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "Jalen Hurts",
+      "team": "Philadelphia Eagles",
+      "opponent": "Dallas",
+      "position": "QB",
+      "mlProbability": 0.3875,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "High TD production (19 TDs)",
+        "Home field advantage"
+      ],
+      "mlRank": 3,
+      "playerTDsYTD": 19,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "Terry McLaurin",
+      "team": "Washington Commanders",
+      "opponent": "NY Giants",
+      "position": "WR",
+      "mlProbability": 0.38,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "High TD production (16 TDs)",
+        "Home field advantage"
+      ],
+      "mlRank": 4,
+      "playerTDsYTD": 16,
+      "basis": "Pass TD Prediction"
+    },
+    {
+      "player": "Mike Evans",
+      "team": "Tampa Bay Buccaneers",
+      "opponent": "Atlanta",
+      "position": "WR",
+      "mlProbability": 0.36999999999999994,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "High TD production (12 TDs)",
+        "Home field advantage",
+        "Trending upward"
+      ],
+      "mlRank": 5,
+      "playerTDsYTD": 12,
+      "basis": "Pass TD Prediction"
+    },
+    {
+      "player": "Josh Jacobs",
+      "team": "Green Bay Packers",
+      "opponent": "Detroit",
+      "position": "RB",
+      "mlProbability": 0.34,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "High TD production (16 TDs)",
+        "Home field advantage",
+        "Trending downward"
+      ],
+      "mlRank": 6,
+      "playerTDsYTD": 16,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "Joe Mixon",
+      "team": "Houston Texans",
+      "opponent": "LA Rams",
+      "position": "RB",
+      "mlProbability": 0.33249999999999996,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "High TD production (13 TDs)",
+        "Trending upward"
+      ],
+      "mlRank": 7,
+      "playerTDsYTD": 13,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "team": "Detroit Lions",
+      "opponent": "Green Bay",
+      "position": "RB",
+      "mlProbability": 0.325,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "High TD production (18 TDs)"
+      ],
+      "mlRank": 8,
+      "playerTDsYTD": 18,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "James Conner",
+      "team": "Arizona Cardinals",
+      "opponent": "New Orleans",
+      "position": "RB",
+      "mlProbability": 0.32,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "Home field advantage",
+        "Trending upward"
+      ],
+      "mlRank": 9,
+      "playerTDsYTD": 8,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "Bijan Robinson",
+      "team": "Atlanta Falcons",
+      "opponent": "Tampa Bay",
+      "position": "RB",
+      "mlProbability": 0.315,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "High TD production (14 TDs)",
+        "Trending upward"
+      ],
+      "mlRank": 10,
+      "playerTDsYTD": 14,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "Josh Allen",
+      "team": "Buffalo Bills",
+      "opponent": "Baltimore",
+      "position": "QB",
+      "mlProbability": 0.315,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "High TD production (14 TDs)",
+        "Trending upward"
+      ],
+      "mlRank": 11,
+      "playerTDsYTD": 14,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "J.K. Dobbins",
+      "team": "Los Angeles Chargers",
+      "opponent": "Kansas City",
+      "position": "RB",
+      "mlProbability": 0.3025,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "High TD production (9 TDs)",
+        "Home field advantage",
+        "Trending upward"
+      ],
+      "mlRank": 12,
+      "playerTDsYTD": 9,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "David Montgomery",
+      "team": "Detroit Lions",
+      "opponent": "Green Bay",
+      "position": "RB",
+      "mlProbability": 0.3,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "High TD production (12 TDs)",
+        "Home field advantage"
+      ],
+      "mlRank": 13,
+      "playerTDsYTD": 12,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "Zach Charbonnet",
+      "team": "Seattle Seahawks",
+      "opponent": "San Francisco",
+      "position": "RB",
+      "mlProbability": 0.29,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "Home field advantage",
+        "Trending upward"
+      ],
+      "mlRank": 14,
+      "playerTDsYTD": 8,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "Zach Ertz",
+      "team": "Washington Commanders",
+      "opponent": "NY Giants",
+      "position": "TE",
+      "mlProbability": 0.29,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "Home field advantage",
+        "Trending upward"
+      ],
+      "mlRank": 15,
+      "playerTDsYTD": 8,
+      "basis": "Pass TD Prediction"
+    },
+    {
+      "player": "Marvin Harrison Jr.",
+      "team": "Arizona Cardinals",
+      "opponent": "New Orleans",
+      "position": "WR",
+      "mlProbability": 0.29,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "Home field advantage",
+        "Trending upward"
+      ],
+      "mlRank": 16,
+      "playerTDsYTD": 8,
+      "basis": "Pass TD Prediction"
+    },
+    {
+      "player": "Saquon Barkley",
+      "team": "Philadelphia Eagles",
+      "opponent": "Dallas",
+      "position": "RB",
+      "mlProbability": 0.28500000000000003,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "High TD production (18 TDs)",
+        "Trending downward"
+      ],
+      "mlRank": 17,
+      "playerTDsYTD": 18,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "Bucky Irving",
+      "team": "Tampa Bay Buccaneers",
+      "opponent": "Atlanta",
+      "position": "RB",
+      "mlProbability": 0.28,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "Home field advantage"
+      ],
+      "mlRank": 18,
+      "playerTDsYTD": 8,
+      "basis": "Rush TD Prediction"
+    },
+    {
+      "player": "Courtland Sutton",
+      "team": "Denver Broncos",
+      "opponent": "Tennessee",
+      "position": "WR",
+      "mlProbability": 0.28,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "Home field advantage"
+      ],
+      "mlRank": 19,
+      "playerTDsYTD": 8,
+      "basis": "Pass TD Prediction"
+    },
+    {
+      "player": "Davante Adams",
+      "team": "New York Jets",
+      "opponent": "Pittsburgh",
+      "position": "WR",
+      "mlProbability": 0.28,
+      "mlConfidence": 0.7999999999999999,
+      "keyFactors": [
+        "Home field advantage"
+      ],
+      "mlRank": 20,
+      "playerTDsYTD": 8,
+      "basis": "Pass TD Prediction"
+    }
+  ],
+  "agreement": 20,
+  "differences": {
+    "onlyInCurrent": [
+      "Brian Thomas Jr.",
+      "Jalen McMillan",
+      "David Njoku",
+      "Jerry Jeudy",
+      "Demarcus Robinson",
+      "Cooper Kupp",
+      "Adam Thielen",
+      "Xavier Legette",
+      "DeVonta Smith",
+      "Drake London",
+      "A.J. Brown",
+      "Jonnu Smith",
+      "Mark Andrews",
+      "Rashod Bateman",
+      "Nico Collins",
+      "Tank Bigsby"
+    ],
+    "onlyInML": [
+      "Derrick Henry",
+      "James Cook",
+      "Terry McLaurin",
+      "Josh Jacobs",
+      "Joe Mixon",
+      "Jahmyr Gibbs",
+      "James Conner",
+      "Bijan Robinson",
+      "Josh Allen",
+      "J.K. Dobbins",
+      "David Montgomery",
+      "Zach Ertz",
+      "Marvin Harrison Jr.",
+      "Saquon Barkley",
+      "Bucky Irving",
+      "Davante Adams"
+    ],
+    "rankingDifferences": [
+      {
+        "player": "Zach Charbonnet",
+        "currentRank": 19,
+        "mlRank": 14,
+        "difference": 5
+      },
+      {
+        "player": "Mike Evans",
+        "currentRank": 2,
+        "mlRank": 5,
+        "difference": 3
+      },
+      {
+        "player": "Jalen Hurts",
+        "currentRank": 6,
+        "mlRank": 3,
+        "difference": 3
+      },
+      {
+        "player": "Courtland Sutton",
+        "currentRank": 18,
+        "mlRank": 19,
+        "difference": 1
+      }
+    ]
+  }
+}

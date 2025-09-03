@@ -6,7 +6,8 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "outDir": "."
+    "outDir": "./scripts"
   },
-  "include": ["scripts/**/*"]
+  "include": ["scripts/**/*"],
+  "exclude": ["node_modules", "dist", "data"]
 }

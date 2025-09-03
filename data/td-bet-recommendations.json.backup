@@ -1,7 +1,6 @@
 {
-  "generatedAt": "2025-09-02T08:16:26.695Z",
+  "generatedAt": "2025-09-01T01:46:45.607Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
-  "model": "current",
   "count": 20,
   "recommendations": [
     {
@@ -145,16 +144,6 @@
       "Reason": "Miami vs Indianapolis - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "Rashod Bateman",
-      "Team": "Baltimore",
-      "Opponent": "Buffalo",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 11,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
-    },
-    {
       "Player": "Mark Andrews",
       "Team": "Baltimore",
       "Opponent": "Buffalo",
@@ -165,14 +154,14 @@
       "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "Courtland Sutton",
-      "Team": "Denver",
-      "Opponent": "Tennessee",
+      "Player": "Rashod Bateman",
+      "Team": "Baltimore",
+      "Opponent": "Buffalo",
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 8,
+      "Player TDs YTD": 11,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Denver vs Tennessee - opponent allows 1.6 pass TDs/game"
+      "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
     },
     {
       "Player": "Nico Collins",
@@ -183,6 +172,16 @@
       "Player TDs YTD": 8,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Houston vs LA Rams - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Courtland Sutton",
+      "Team": "Denver",
+      "Opponent": "Tennessee",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 8,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Denver vs Tennessee - opponent allows 1.6 pass TDs/game"
     },
     {
       "Player": "Zach Charbonnet",
