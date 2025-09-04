@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-04T08:15:12.704Z",
+  "generatedAt": "2025-09-03T04:45:48.424Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -115,16 +115,6 @@
       "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "Drake London",
-      "Team": "Atlanta",
-      "Opponent": "Tampa Bay",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 9,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Atlanta vs Tampa Bay - opponent allows 1.6 pass TDs/game"
-    },
-    {
       "Player": "A.J. Brown",
       "Team": "Philadelphia",
       "Opponent": "Dallas",
@@ -133,6 +123,16 @@
       "Player TDs YTD": 9,
       "TDs vs Opponent Last Year (2024)": "1",
       "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Drake London",
+      "Team": "Atlanta",
+      "Opponent": "Tampa Bay",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 9,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Atlanta vs Tampa Bay - opponent allows 1.6 pass TDs/game"
     },
     {
       "Player": "Jonnu Smith",
@@ -145,16 +145,6 @@
       "Reason": "Miami vs Indianapolis - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "Mark Andrews",
-      "Team": "Baltimore",
-      "Opponent": "Buffalo",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 11,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
-    },
-    {
       "Player": "Rashod Bateman",
       "Team": "Baltimore",
       "Opponent": "Buffalo",
@@ -165,14 +155,14 @@
       "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "Courtland Sutton",
-      "Team": "Denver",
-      "Opponent": "Tennessee",
+      "Player": "Mark Andrews",
+      "Team": "Baltimore",
+      "Opponent": "Buffalo",
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 8,
+      "Player TDs YTD": 11,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Denver vs Tennessee - opponent allows 1.6 pass TDs/game"
+      "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
     },
     {
       "Player": "Nico Collins",
@@ -183,6 +173,16 @@
       "Player TDs YTD": 8,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Houston vs LA Rams - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Courtland Sutton",
+      "Team": "Denver",
+      "Opponent": "Tennessee",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 8,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Denver vs Tennessee - opponent allows 1.6 pass TDs/game"
     },
     {
       "Player": "Zach Charbonnet",

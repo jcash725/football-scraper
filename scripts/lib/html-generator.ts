@@ -34,7 +34,7 @@ function generateMLModelRows(mlPredictions: any[]): string {
   }).join('');
 }
 
-export function formatAsHTML(recommendations: TDRecommendation[], mlPredictions?: any[], comparison?: any): string {
+export function formatAsHTML(recommendations: TDRecommendation[], mlPredictions?: any[], comparison?: any, customTitle?: string): string {
   const rushingCount = recommendations.filter(r => r.Basis.includes("Rush")).length;
   const receivingCount = recommendations.filter(r => r.Basis.includes("Pass")).length;
   const isDualModel = mlPredictions && mlPredictions.length > 0;
@@ -276,7 +276,7 @@ export function formatAsHTML(recommendations: TDRecommendation[], mlPredictions?
 <body>
     <div class="container">
         <div class="header">
-            <h1>🏈 ${isDualModel ? 'Dual Model Analysis' : 'Top 20'} TD Bet Recommendations</h1>
+            <h1>🏈 ${customTitle || (isDualModel ? 'Dual Model Analysis' : 'Top 20')} TD Bet Recommendations</h1>
             ${isDualModel ? '<p style="margin: 10px 0 0 0; font-size: 1.1em; opacity: 0.9;">Comparing Current Model vs Machine Learning Predictions</p>' : ''}
         </div>
         

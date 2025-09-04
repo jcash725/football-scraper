@@ -80,3 +80,9 @@ export function getShortTeamName(fullName: string): string {
 export function getStatMuseTeamName(shortName: string): string {
   return STATMUSE_TEAM_MAP[shortName] || shortName.toLowerCase();
 }
+
+export function getFullTeamName(shortName: string): string {
+  // Reverse lookup from short name to full name
+  const fullName = Object.keys(TEAM_NAME_MAP).find(key => TEAM_NAME_MAP[key] === shortName);
+  return fullName || shortName;
+}

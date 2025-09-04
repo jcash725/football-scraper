@@ -3,11 +3,18 @@
   "scripts": {
     "build": "npx tsc scripts/scrape-teamrankings.ts --module NodeNext --moduleResolution NodeNext --target ES2020 --outDir dist --esModuleInterop",
     "build-analyze": "npx tsc scripts/analyze-td-bets.ts --module NodeNext --moduleResolution NodeNext --target ES2020 --outDir dist --esModuleInterop",
+    "build-touchdown": "npx tsc scripts/test-touchdown-system.ts --module NodeNext --moduleResolution NodeNext --target ES2020 --outDir dist --esModuleInterop",
     "scrape": "npm run build && node dist/scrape-teamrankings.js",
-    "analyze": "npm run build-analyze && node dist/analyze-td-bets.js"
+    "analyze": "npm run build-analyze && node dist/analyze-td-bets.js",
+    "test-touchdowns": "npm run build-touchdown && node dist/test-touchdown-system.js",
+    "debug-api": "npx tsc scripts/debug-espn-api.ts --module NodeNext --moduleResolution NodeNext --target ES2020 --outDir dist --esModuleInterop && node dist/debug-espn-api.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
+    "@types/node-fetch": "^2.6.4",
     "cheerio": "^1.0.0-rc.12",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
