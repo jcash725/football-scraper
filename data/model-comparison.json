@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-03T04:45:48.424Z",
+  "generatedAt": "2025-09-05T08:15:31.117Z",
   "currentModel": [
     {
       "Player": "Brian Thomas Jr.",
@@ -112,16 +112,6 @@
       "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "A.J. Brown",
-      "Team": "Philadelphia",
-      "Opponent": "Dallas",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 9,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
-    },
-    {
       "Player": "Drake London",
       "Team": "Atlanta",
       "Opponent": "Tampa Bay",
@@ -130,6 +120,16 @@
       "Player TDs YTD": 9,
       "TDs vs Opponent Last Year (2024)": "1",
       "Reason": "Atlanta vs Tampa Bay - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "A.J. Brown",
+      "Team": "Philadelphia",
+      "Opponent": "Dallas",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 9,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
     },
     {
       "Player": "Jonnu Smith",
@@ -142,7 +142,7 @@
       "Reason": "Miami vs Indianapolis - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "Rashod Bateman",
+      "Player": "Mark Andrews",
       "Team": "Baltimore",
       "Opponent": "Buffalo",
       "Basis": "Opp Pass TD/G",
@@ -152,7 +152,7 @@
       "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "Mark Andrews",
+      "Player": "Rashod Bateman",
       "Team": "Baltimore",
       "Opponent": "Buffalo",
       "Basis": "Opp Pass TD/G",
@@ -546,15 +546,15 @@
       "basis": "2024 Data: 4 TDs in 3 games"
     },
     {
-      "player": "Zach Ertz",
-      "team": "Washington Commanders",
-      "opponent": "New York Giants",
-      "position": "TE",
+      "player": "Courtland Sutton",
+      "team": "Denver Broncos",
+      "opponent": "Tennessee Titans",
+      "position": "WR",
       "mlProbability": 0.5499999999999999,
       "mlConfidence": 0.8,
       "keyFactors": [
         "Strong 2024 production (8 TDs)",
-        "Weak opponent defense (3.1 TDs/game allowed)",
+        "Weak opponent defense (3.9 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
       "mlRank": 19,
@@ -565,15 +565,15 @@
       "basis": "2024 Data: 8 TDs in 7 games"
     },
     {
-      "player": "Courtland Sutton",
-      "team": "Denver Broncos",
-      "opponent": "Tennessee Titans",
-      "position": "WR",
+      "player": "Zach Ertz",
+      "team": "Washington Commanders",
+      "opponent": "New York Giants",
+      "position": "TE",
       "mlProbability": 0.5499999999999999,
       "mlConfidence": 0.8,
       "keyFactors": [
         "Strong 2024 production (8 TDs)",
-        "Weak opponent defense (3.9 TDs/game allowed)",
+        "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
       "mlRank": 20,
@@ -630,34 +630,34 @@
         "difference": 5
       },
       {
-        "player": "Drake London",
-        "currentRank": 13,
-        "mlRank": 8,
-        "difference": 5
-      },
-      {
         "player": "Mike Evans",
         "currentRank": 2,
         "mlRank": 6,
         "difference": 4
       },
       {
-        "player": "A.J. Brown",
+        "player": "Drake London",
         "currentRank": 12,
+        "mlRank": 8,
+        "difference": 4
+      },
+      {
+        "player": "A.J. Brown",
+        "currentRank": 13,
         "mlRank": 14,
-        "difference": 2
+        "difference": 1
       },
       {
         "player": "Rashod Bateman",
-        "currentRank": 15,
+        "currentRank": 16,
         "mlRank": 17,
-        "difference": 2
+        "difference": 1
       },
       {
         "player": "Courtland Sutton",
         "currentRank": 18,
-        "mlRank": 20,
-        "difference": 2
+        "mlRank": 19,
+        "difference": 1
       }
     ]
   }

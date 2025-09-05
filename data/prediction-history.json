@@ -1,11 +1,11 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-09-03T04:45:48.423Z",
+  "lastUpdated": "2025-09-05T08:15:31.116Z",
   "weeks": [
     {
       "week": 1,
       "year": 2025,
-      "generatedAt": "2025-09-03T04:45:48.422Z",
+      "generatedAt": "2025-09-05T08:15:31.116Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -86,16 +86,16 @@
         },
         {
           "rank": 12,
-          "player": "A.J. Brown",
-          "team": "Philadelphia",
-          "opponent": "Dallas",
+          "player": "Drake London",
+          "team": "Atlanta",
+          "opponent": "Tampa Bay",
           "basis": "Opp Pass TD/G"
         },
         {
           "rank": 13,
-          "player": "Drake London",
-          "team": "Atlanta",
-          "opponent": "Tampa Bay",
+          "player": "A.J. Brown",
+          "team": "Philadelphia",
+          "opponent": "Dallas",
           "basis": "Opp Pass TD/G"
         },
         {
@@ -107,14 +107,14 @@
         },
         {
           "rank": 15,
-          "player": "Rashod Bateman",
+          "player": "Mark Andrews",
           "team": "Baltimore",
           "opponent": "Buffalo",
           "basis": "Opp Pass TD/G"
         },
         {
           "rank": 16,
-          "player": "Mark Andrews",
+          "player": "Rashod Bateman",
           "team": "Baltimore",
           "opponent": "Buffalo",
           "basis": "Opp Pass TD/G"
@@ -385,19 +385,6 @@
         },
         {
           "rank": 19,
-          "player": "Zach Ertz",
-          "team": "Washington Commanders",
-          "opponent": "New York Giants",
-          "probability": 0.5499999999999999,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (8 TDs)",
-            "Weak opponent defense (3.1 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 20,
           "player": "Courtland Sutton",
           "team": "Denver Broncos",
           "opponent": "Tennessee Titans",
@@ -406,6 +393,19 @@
           "keyFactors": [
             "Strong 2024 production (8 TDs)",
             "Weak opponent defense (3.9 TDs/game allowed)",
+            "Hot recent form (6 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 20,
+          "player": "Zach Ertz",
+          "team": "Washington Commanders",
+          "opponent": "New York Giants",
+          "probability": 0.5499999999999999,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (8 TDs)",
+            "Weak opponent defense (3.1 TDs/game allowed)",
             "Hot recent form (6 TDs in recent games)"
           ]
         }

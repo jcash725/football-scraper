@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-03T04:45:48.424Z",
+  "generatedAt": "2025-09-05T08:15:31.117Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -115,16 +115,6 @@
       "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "A.J. Brown",
-      "Team": "Philadelphia",
-      "Opponent": "Dallas",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 9,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
-    },
-    {
       "Player": "Drake London",
       "Team": "Atlanta",
       "Opponent": "Tampa Bay",
@@ -133,6 +123,16 @@
       "Player TDs YTD": 9,
       "TDs vs Opponent Last Year (2024)": "1",
       "Reason": "Atlanta vs Tampa Bay - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "A.J. Brown",
+      "Team": "Philadelphia",
+      "Opponent": "Dallas",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 9,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Philadelphia vs Dallas - opponent allows 1.6 pass TDs/game"
     },
     {
       "Player": "Jonnu Smith",
@@ -145,7 +145,7 @@
       "Reason": "Miami vs Indianapolis - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "Rashod Bateman",
+      "Player": "Mark Andrews",
       "Team": "Baltimore",
       "Opponent": "Buffalo",
       "Basis": "Opp Pass TD/G",
@@ -155,7 +155,7 @@
       "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "Mark Andrews",
+      "Player": "Rashod Bateman",
       "Team": "Baltimore",
       "Opponent": "Buffalo",
       "Basis": "Opp Pass TD/G",
