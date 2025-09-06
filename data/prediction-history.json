@@ -1,11 +1,11 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-09-05T08:15:31.116Z",
+  "lastUpdated": "2025-09-06T08:13:00.680Z",
   "weeks": [
     {
       "week": 1,
       "year": 2025,
-      "generatedAt": "2025-09-05T08:15:31.116Z",
+      "generatedAt": "2025-09-06T08:13:00.679Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -86,16 +86,16 @@
         },
         {
           "rank": 12,
-          "player": "Drake London",
-          "team": "Atlanta",
-          "opponent": "Tampa Bay",
+          "player": "A.J. Brown",
+          "team": "Philadelphia",
+          "opponent": "Dallas",
           "basis": "Opp Pass TD/G"
         },
         {
           "rank": 13,
-          "player": "A.J. Brown",
-          "team": "Philadelphia",
-          "opponent": "Dallas",
+          "player": "Drake London",
+          "team": "Atlanta",
+          "opponent": "Tampa Bay",
           "basis": "Opp Pass TD/G"
         },
         {
@@ -107,30 +107,30 @@
         },
         {
           "rank": 15,
-          "player": "Mark Andrews",
-          "team": "Baltimore",
-          "opponent": "Buffalo",
-          "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 16,
           "player": "Rashod Bateman",
           "team": "Baltimore",
           "opponent": "Buffalo",
           "basis": "Opp Pass TD/G"
         },
         {
+          "rank": 16,
+          "player": "Mark Andrews",
+          "team": "Baltimore",
+          "opponent": "Buffalo",
+          "basis": "Opp Pass TD/G"
+        },
+        {
           "rank": 17,
-          "player": "Nico Collins",
-          "team": "Houston",
-          "opponent": "LA Rams",
+          "player": "Courtland Sutton",
+          "team": "Denver",
+          "opponent": "Tennessee",
           "basis": "Opp Pass TD/G"
         },
         {
           "rank": 18,
-          "player": "Courtland Sutton",
-          "team": "Denver",
-          "opponent": "Tennessee",
+          "player": "Nico Collins",
+          "team": "Houston",
+          "opponent": "LA Rams",
           "basis": "Opp Pass TD/G"
         },
         {
