@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-06T08:13:00.681Z",
+  "generatedAt": "2025-09-08T08:17:23.266Z",
   "currentModel": [
     {
       "Player": "Brian Thomas Jr.",
@@ -162,16 +162,6 @@
       "Reason": "Baltimore vs Buffalo - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "Courtland Sutton",
-      "Team": "Denver",
-      "Opponent": "Tennessee",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 8,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Denver vs Tennessee - opponent allows 1.6 pass TDs/game"
-    },
-    {
       "Player": "Nico Collins",
       "Team": "Houston",
       "Opponent": "LA Rams",
@@ -180,6 +170,16 @@
       "Player TDs YTD": 8,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Houston vs LA Rams - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Courtland Sutton",
+      "Team": "Denver",
+      "Opponent": "Tennessee",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 8,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Denver vs Tennessee - opponent allows 1.6 pass TDs/game"
     },
     {
       "Player": "Zach Charbonnet",
@@ -546,15 +546,15 @@
       "basis": "2024 Data: 4 TDs in 3 games"
     },
     {
-      "player": "Courtland Sutton",
-      "team": "Denver Broncos",
-      "opponent": "Tennessee Titans",
-      "position": "WR",
+      "player": "Zach Ertz",
+      "team": "Washington Commanders",
+      "opponent": "New York Giants",
+      "position": "TE",
       "mlProbability": 0.5499999999999999,
       "mlConfidence": 0.8,
       "keyFactors": [
         "Strong 2024 production (8 TDs)",
-        "Weak opponent defense (3.9 TDs/game allowed)",
+        "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
       "mlRank": 19,
@@ -565,15 +565,15 @@
       "basis": "2024 Data: 8 TDs in 7 games"
     },
     {
-      "player": "Zach Ertz",
-      "team": "Washington Commanders",
-      "opponent": "New York Giants",
-      "position": "TE",
+      "player": "Courtland Sutton",
+      "team": "Denver Broncos",
+      "opponent": "Tennessee Titans",
+      "position": "WR",
       "mlProbability": 0.5499999999999999,
       "mlConfidence": 0.8,
       "keyFactors": [
         "Strong 2024 production (8 TDs)",
-        "Weak opponent defense (3.1 TDs/game allowed)",
+        "Weak opponent defense (3.9 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
       "mlRank": 20,
@@ -655,8 +655,8 @@
       },
       {
         "player": "Courtland Sutton",
-        "currentRank": 17,
-        "mlRank": 19,
+        "currentRank": 18,
+        "mlRank": 20,
         "difference": 2
       }
     ]
