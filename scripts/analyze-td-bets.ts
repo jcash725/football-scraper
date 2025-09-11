@@ -95,9 +95,10 @@ async function generateMLPredictions(mlPredictor: EnhancedMLTDPredictor, data: a
     // Convert full team name to short name for matchup lookup
     const shortTeamName = getShortTeamName(player.Team);
     
-    // Find matchup
+    // Find matchup - check both full and short team names
     const matchup = data.matchups.find((m: any) => 
-      m.home_team === shortTeamName || m.away_team === shortTeamName
+      m.home_team === shortTeamName || m.away_team === shortTeamName ||
+      m.home_team === player.Team || m.away_team === player.Team
     );
     
     if (!matchup) {
@@ -105,11 +106,21 @@ async function generateMLPredictions(mlPredictor: EnhancedMLTDPredictor, data: a
       continue;
     }
     
-    const opponent = matchup.home_team === shortTeamName ? matchup.away_team : matchup.home_team;
-    const isHome = matchup.home_team === shortTeamName;
+    // Determine opponent and home/away status
+    let opponent: string;
+    let isHome: boolean;
     
-    // Map opponent short name back to full name for Enhanced ML model
-    const opponentFullName = getFullTeamName(opponent);
+    if (matchup.home_team === shortTeamName || matchup.home_team === player.Team) {
+      opponent = matchup.away_team;
+      isHome = true;
+    } else {
+      opponent = matchup.home_team;
+      isHome = false;
+    }
+    
+    // Map opponent to full name for Enhanced ML model
+    // If opponent is already a full name, use it; otherwise map from short name
+    const opponentFullName = opponent.includes(' ') ? opponent : getFullTeamName(opponent);
     
     if (!player.Value || player.Value < 1) {
       continue; // Skip players with no TDs
@@ -174,15 +185,32 @@ async function generateMLPredictions(mlPredictor: EnhancedMLTDPredictor, data: a
 
 function getCurrentNFLWeek(): { week: number, year: number } {
   const now = new Date();
-  const currentYear = now.getFullYear();
   
-  // NFL season roughly runs September to February
-  // For simplicity, assume we're in 2025 season (starts Sept 2025)
-  if (now.getMonth() >= 8) { // September or later
-    return { week: 1, year: currentYear }; // Adjust week logic as needed
-  } else {
-    return { week: 1, year: currentYear }; // Adjust for playoff/offseason
+  // NFL 2025 season started September 5, 2025
+  const seasonStart = new Date(2025, 8, 5); // September 5, 2025
+  const daysSinceStart = Math.floor((now.getTime() - seasonStart.getTime()) / (1000 * 60 * 60 * 24));
+  
+  if (daysSinceStart < 0) {
+    // Before season starts
+    return { week: 1, year: 2025 };
   }
+  
+  // Each week is 7 days, Week 1 = days 0-6, Week 2 = days 7-13, etc.
+  // But we want to generate predictions for upcoming games, so:
+  // If we're in the middle of Week 1 (days 3-6), generate Week 2 predictions
+  // If we're at start of Week 1 (days 0-2), generate Week 1 predictions
+  let week = Math.floor(daysSinceStart / 7) + 1;
+  
+  // If we're past Tuesday of the current week, generate next week's predictions
+  const dayOfWeek = daysSinceStart % 7;
+  if (dayOfWeek >= 3) { // Wednesday or later, generate next week
+    week += 1;
+  }
+  
+  // Cap at reasonable week numbers (regular season is 18 weeks)
+  const currentWeek = Math.min(week, 18);
+  
+  return { week: currentWeek, year: 2025 };
 }
 
 function createModelComparison(currentModel: any[], mlModel: any[]): any {

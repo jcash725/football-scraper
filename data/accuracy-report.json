@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2025-09-10T00:36:23.634Z",
+  "totalWeeks": 2,
+  "currentModelStats": {
+    "totalPredictions": 0,
+    "correctPredictions": 0,
+    "accuracy": 0,
+    "top5Accuracy": 0,
+    "top10Accuracy": 0
+  },
+  "mlModelStats": {
+    "totalPredictions": 3,
+    "correctPredictions": 2,
+    "accuracy": 66.66666666666666,
+    "top5Accuracy": 66.66666666666666,
+    "top10Accuracy": 66.66666666666666,
+    "avgProbabilityCorrect": 0.7033333333333333,
+    "avgProbabilityIncorrect": 0.7233333333333332
+  },
+  "weeklyBreakdown": [
+    {
+      "week": 1,
+      "year": 2025,
+      "currentModelAccuracy": 0,
+      "mlModelAccuracy": 66.66666666666666,
+      "correctPredictions": {
+        "current": [],
+        "ml": [
+          "Ja'Marr Chase",
+          "Derrick Henry"
+        ]
+      }
+    },
+    {
+      "week": 2,
+      "year": 2025,
+      "currentModelAccuracy": 0,
+      "mlModelAccuracy": 0,
+      "correctPredictions": {
+        "current": [],
+        "ml": []
+      }
+    }
+  ]
+}

@@ -7,7 +7,8 @@
     "scrape": "npm run build && node dist/scrape-teamrankings.js",
     "analyze": "npm run build-analyze && node dist/analyze-td-bets.js",
     "test-touchdowns": "npm run build-touchdown && node dist/test-touchdown-system.js",
-    "debug-api": "npx tsc scripts/debug-espn-api.ts --module NodeNext --moduleResolution NodeNext --target ES2020 --outDir dist --esModuleInterop && node dist/debug-espn-api.js"
+    "debug-api": "npx tsc scripts/debug-espn-api.ts --module NodeNext --moduleResolution NodeNext --target ES2020 --outDir dist --esModuleInterop && node dist/debug-espn-api.js",
+    "week": "npx tsx scripts/generate-weekly-predictions.ts"
   },
   "dependencies": {
     "node-fetch": "^3.3.2"

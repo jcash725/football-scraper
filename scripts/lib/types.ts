@@ -4,6 +4,7 @@ export interface Player {
   Player: string;
   Team: string;
   Value: number;
+  season2025Value?: number;
 }
 
 export interface TeamStat {
@@ -26,6 +27,7 @@ export interface TDRecommendation {
   Basis: string;
   "Opponent Stat Value": number;
   "Player TDs YTD": number;
+  "Player 2025 TDs": number;
   "TDs vs Opponent Last Year (2024)": string;
   Reason: string;
 }

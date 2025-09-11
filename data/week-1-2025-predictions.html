@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏈 Dual Model TD Bet Recommendations</title>
+    <title>🏈 Week 1 2025 TD Predictions - RESULTS</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -13,221 +13,121 @@
             color: #333;
         }
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
-            background: white;
+            background: rgba(255, 255, 255, 0.95);
             border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            padding: 30px;
         }
         .header {
-            background: linear-gradient(135deg, #8EB897 0%, #C3E8BD 100%);
-            color: white;
-            padding: 30px;
             text-align: center;
+            margin-bottom: 30px;
         }
         .header h1 {
-            margin: 0;
+            color: #2c3e50;
             font-size: 2.5em;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         }
-        .summary {
-            background: #f8f9fa;
-            padding: 20px 30px;
-            border-bottom: 2px solid #e9ecef;
-        }
-        .summary-stats {
+        .accuracy-summary {
             display: flex;
             justify-content: center;
             gap: 40px;
-            font-size: 1.1em;
+            margin: 20px 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%);
+            border-radius: 8px;
         }
-        .stat {
+        .accuracy-stat {
             text-align: center;
         }
-        .stat-number {
+        .accuracy-stat h3 {
+            margin: 0;
+            color: #2c3e50;
+            font-size: 1.2em;
+        }
+        .accuracy-stat .percentage {
             font-size: 2em;
             font-weight: bold;
-            color: #8EB897;
+            color: #27ae60;
         }
-        .dual-container {
+        .accuracy-stat .details {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        .models-container {
             display: flex;
-            flex-wrap: wrap;
             gap: 20px;
-            padding: 20px;
+            margin-top: 30px;
         }
         .model-section {
             flex: 1;
-            min-width: 600px;
-        }
-        .model-title {
-            text-align: center;
-            margin: 0 0 20px 0;
-            padding: 15px;
+            background: white;
             border-radius: 8px;
-            color: white;
-            font-weight: bold;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        .current-model {
-            background: #5B7553;
-        }
-        .ml-model {
-            background: #8EB897;
+        .model-section h2 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ecf0f1;
         }
         table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 14px;
-            margin: 0;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        th, td {
+            padding: 12px 8px;
+            text-align: left;
+            border-bottom: 1px solid #ecf0f1;
         }
         th {
-            background: linear-gradient(135deg, #5B7553 0%, #8EB897 100%);
-            color: white;
-            padding: 15px 10px;
-            text-align: left;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
             font-weight: 600;
+            color: #2c3e50;
             position: sticky;
             top: 0;
-            z-index: 10;
-        }
-        td {
-            padding: 12px 10px;
-            border-bottom: 1px solid #e2e8f0;
-            vertical-align: top;
-        }
-        tr:nth-child(even) {
-            background-color: #f7fafc;
-        }
-        tr:hover {
-            background-color: #e6fffa;
-            transform: scale(1.01);
-            transition: all 0.2s ease;
         }
         .rank {
             font-weight: bold;
-            color: #8EB897;
-            font-size: 1.1em;
+            color: #3498db;
+            text-align: center;
+            width: 60px;
         }
         .player-name {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        .result-hit {
+            background-color: rgba(46, 204, 113, 0.1) !important;
+        }
+        .result-miss {
+            background-color: rgba(231, 76, 60, 0.1) !important;
+        }
+        .result {
             font-weight: bold;
-            color: #2d3748;
-            font-size: 1.05em;
-        }
-        .matchup {
-            font-weight: 500;
-            color: #4a5568;
-        }
-        .td-type {
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 0.9em;
-            font-weight: 500;
-        }
-        .receiving {
-            background: #9DDBAD;
-            color: #040403;
-        }
-        .rushing {
-            background: #5B7553;
-            color: #9DDBAD;
-        }
-        .opp-stat {
-            font-weight: bold;
-            color: #5B7553;
-        }
-        .player-tds {
-            font-weight: bold;
-            color: #8EB897;
-        }
-        .historical {
-            font-weight: bold;
-        }
-        .historical.success {
-            color: #8EB897;
-        }
-        .historical.none {
-            color: #5B7553;
-        }
-        .historical.na {
-            color: #C3E8BD;
-            font-style: italic;
-        }
-        .reason {
-            font-size: 0.9em;
-            color: #5B7553;
-            line-height: 1.3;
+            text-align: center;
         }
         .footer {
-            background: #9DDBAD;
-            padding: 20px;
             text-align: center;
-            color: #040403;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+            color: #7f8c8d;
             font-size: 0.9em;
         }
-        /* Mobile-first responsive design */
         @media (max-width: 768px) {
-            body { 
-                padding: 8px; 
-                font-size: 14px;
-            }
-            .header h1 { 
-                font-size: 1.8em; 
-                padding: 0 10px;
-            }
-            .header {
-                padding: 20px 15px;
-            }
-            .summary {
-                padding: 15px 20px;
-            }
-            .summary-stats { 
-                flex-direction: column; 
-                gap: 15px; 
-            }
-            .dual-container {
+            .models-container {
                 flex-direction: column;
-                padding: 15px;
             }
-            .model-section {
-                min-width: auto;
-            }
-            .stat-number {
-                font-size: 1.5em;
-            }
-            table { 
-                font-size: 11px;
-                display: block;
-                overflow-x: auto;
-                white-space: nowrap;
-                -webkit-overflow-scrolling: touch;
-            }
-            th, td { 
-                padding: 6px 4px; 
-                min-width: 80px;
-            }
-            tr:hover {
-                transform: none;
-            }
-        }
-        @media (max-width: 480px) {
-            body { padding: 5px; }
-            .header h1 { font-size: 1.5em; }
-            .header { padding: 15px 10px; }
-            .summary { padding: 10px 15px; }
-            table { font-size: 10px; }
-            th, td { padding: 4px 3px; }
-            .stat-number { font-size: 1.3em; }
-            .summary-stats { gap: 12px; }
-        }
-        @media (min-width: 1200px) {
-            .container {
-                max-width: 1400px;
-            }
-            table {
-                font-size: 15px;
-            }
-            th, td {
-                padding: 15px 12px;
+            .accuracy-summary {
+                flex-direction: column;
+                gap: 20px;
             }
         }
     </style>
@@ -235,29 +135,26 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🏈 Week 1 2025 TD Predictions TD Bet Recommendations</h1>
-            <p style="margin: 10px 0 0 0; font-size: 1.1em; opacity: 0.9;">Comparing Current Model vs Machine Learning Predictions</p>
+            <h1>🏈 Week 1 2025 TD Predictions - FINAL RESULTS</h1>
+            <p style="color: #7f8c8d; font-size: 1.1em;">Predictions vs Actual Touchdown Scorers</p>
         </div>
         
-        <div class="summary">
-            <div class="summary-stats">
-                <div class="stat">
-                    <div class="stat-number">0%</div>
-                    <div>🤝 Model Agreement</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">0</div>
-                    <div>📊 Current Only</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">20</div>
-                    <div>🤖 ML Only</div>
-                </div>
+        <div class="accuracy-summary">
+            <div class="accuracy-stat">
+                <h3>📊 Current Model</h3>
+                <div class="percentage">25.0%</div>
+                <div class="details">5/20 correct</div>
+            </div>
+            <div class="accuracy-stat">
+                <h3>🤖 ML Model</h3>
+                <div class="percentage">35.0%</div>
+                <div class="details">7/20 correct</div>
             </div>
         </div>
-        <div class="dual-container">
+
+        <div class="models-container">
             <div class="model-section">
-                <h2 class="model-title current-model">📊 Current Model (Rule-based)</h2>
+                <h2>📊 Current Model Results</h2>
                 <table>
                     <thead>
                         <tr>
@@ -266,189 +163,391 @@
                             <th>Matchup</th>
                             <th>Type</th>
                             <th>Opp Allows</th>
-                            <th>Player TDs YTD</th>
+                            <th>Player TDs</th>
+                            <th>Result</th>
                         </tr>
                     </thead>
                     <tbody>
                         
+                        <tr class=" result-hit">
+                            <td class="rank">#1 ✅</td>
+                            <td class="player-name">Brian Thomas Jr. ✅</td>
+                            <td class="matchup">Jacksonville @ Carolina</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">✅ SCORED</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#2 ❌</td>
+                            <td class="player-name">Mike Evans ❌</td>
+                            <td class="matchup">Tampa Bay @ Atlanta</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#3 ❌</td>
+                            <td class="player-name">Jalen McMillan ❌</td>
+                            <td class="matchup">Tampa Bay @ Atlanta</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#4 ❌</td>
+                            <td class="player-name">David Njoku ❌</td>
+                            <td class="matchup">Cleveland @ Cincinnati</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#5 ❌</td>
+                            <td class="player-name">Jerry Jeudy ❌</td>
+                            <td class="matchup">Cleveland @ Cincinnati</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-hit">
+                            <td class="rank">#6 ✅</td>
+                            <td class="player-name">Jalen Hurts ✅</td>
+                            <td class="matchup">Philadelphia @ Dallas</td>
+                            <td><span class="td-type rushing">🏃 Rushing</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">✅ SCORED</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#7 ❌</td>
+                            <td class="player-name">Demarcus Robinson ❌</td>
+                            <td class="matchup">LA Rams @ Houston</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#8 ❌</td>
+                            <td class="player-name">Cooper Kupp ❌</td>
+                            <td class="matchup">LA Rams @ Houston</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#9 ❌</td>
+                            <td class="player-name">Adam Thielen ❌</td>
+                            <td class="matchup">Carolina @ Jacksonville</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#10 ❌</td>
+                            <td class="player-name">Xavier Legette ❌</td>
+                            <td class="matchup">Carolina @ Jacksonville</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#11 ❌</td>
+                            <td class="player-name">DeVonta Smith ❌</td>
+                            <td class="matchup">Philadelphia @ Dallas</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#12 ❌</td>
+                            <td class="player-name">Drake London ❌</td>
+                            <td class="matchup">Atlanta @ Tampa Bay</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#13 ❌</td>
+                            <td class="player-name">A.J. Brown ❌</td>
+                            <td class="matchup">Philadelphia @ Dallas</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-hit">
+                            <td class="rank">#14 ✅</td>
+                            <td class="player-name">Jonnu Smith ✅</td>
+                            <td class="matchup">Miami @ Indianapolis</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">✅ SCORED</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#15 ❌</td>
+                            <td class="player-name">Mark Andrews ❌</td>
+                            <td class="matchup">Baltimore @ Buffalo</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#16 ❌</td>
+                            <td class="player-name">Rashod Bateman ❌</td>
+                            <td class="matchup">Baltimore @ Buffalo</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-hit">
+                            <td class="rank">#17 ✅</td>
+                            <td class="player-name">Courtland Sutton ✅</td>
+                            <td class="matchup">Denver @ Tennessee</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">✅ SCORED</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#18 ❌</td>
+                            <td class="player-name">Nico Collins ❌</td>
+                            <td class="matchup">Houston @ LA Rams</td>
+                            <td><span class="td-type receiving">🎯 Receiving</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-hit">
+                            <td class="rank">#19 ✅</td>
+                            <td class="player-name">Zach Charbonnet ✅</td>
+                            <td class="matchup">Seattle @ San Francisco</td>
+                            <td><span class="td-type rushing">🏃 Rushing</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">✅ SCORED</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#20 ❌</td>
+                            <td class="player-name">Tank Bigsby ❌</td>
+                            <td class="matchup">Jacksonville @ Carolina</td>
+                            <td><span class="td-type rushing">🏃 Rushing</span></td>
+                            <td class="opp-stat">-</td>
+                            <td class="player-tds">-</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            
+
             <div class="model-section">
-                <h2 class="model-title ml-model">🤖 ML Model (Probability-based)</h2>
+                <h2>🤖 ML Model Results</h2>
                 <table>
                     <thead>
                         <tr>
                             <th>Rank</th>
                             <th>Player</th>
                             <th>Matchup</th>
-                            <th>ML Prob</th>
+                            <th>Probability</th>
                             <th>Confidence</th>
                             <th>Key Factors</th>
+                            <th>Result</th>
                         </tr>
                     </thead>
                     <tbody>
                         
-                        <tr>
-                            <td class="rank">#1</td>
-                            <td class="player-name">Justin Jefferson</td>
-                            <td class="matchup">Minnesota Vikings @ Atlanta Falcons</td>
+                        <tr class=" result-hit">
+                            <td class="rank">#1 ✅</td>
+                            <td class="player-name">Jalen Hurts ✅</td>
+                            <td class="matchup">Philadelphia Eagles @ Dallas Cowboys</td>
                             <td class="opp-stat">72.3%</td>
                             <td class="player-tds">90%</td>
                             <td class="reason" style="font-size: 0.8em;">Strong 2024 production (10 TDs), Previous success vs opponent (2 TDs)</td>
+                            <td class="result">✅ SCORED</td>
                         </tr>
-                        <tr>
-                            <td class="rank">#2</td>
-                            <td class="player-name">Derrick Henry</td>
-                            <td class="matchup">Baltimore Ravens @ Cleveland Browns</td>
-                            <td class="opp-stat">68.7%</td>
+                        <tr class=" result-miss">
+                            <td class="rank">#2 ❌</td>
+                            <td class="player-name">Terry McLaurin ❌</td>
+                            <td class="matchup">Washington Commanders @ New York Giants</td>
+                            <td class="opp-stat">72.3%</td>
+                            <td class="player-tds">95%</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (16 TDs), Previous success vs opponent (2 TDs)</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#3 ❌</td>
+                            <td class="player-name">Ja'Marr Chase ❌</td>
+                            <td class="matchup">Cincinnati Bengals @ Cleveland Browns</td>
+                            <td class="opp-stat">71.3%</td>
+                            <td class="player-tds">95%</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (17 TDs), Previous success vs opponent (2 TDs)</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#4 ❌</td>
+                            <td class="player-name">DeVonta Smith ❌</td>
+                            <td class="matchup">Philadelphia Eagles @ Dallas Cowboys</td>
+                            <td class="opp-stat">70.3%</td>
                             <td class="player-tds">90%</td>
-                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (14 TDs), Previous success vs opponent (1 TDs)</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (9 TDs), Previous success vs opponent (2 TDs)</td>
+                            <td class="result">❌ No TD</td>
                         </tr>
-                        <tr>
-                            <td class="rank">#3</td>
-                            <td class="player-name">De'Von Achane</td>
-                            <td class="matchup">Miami Dolphins @ New England Patriots</td>
-                            <td class="opp-stat">68.3%</td>
+                        <tr class=" result-hit">
+                            <td class="rank">#5 ✅</td>
+                            <td class="player-name">Derrick Henry ✅</td>
+                            <td class="matchup">Baltimore Ravens @ Buffalo Bills</td>
+                            <td class="opp-stat">69.3%</td>
                             <td class="player-tds">90%</td>
-                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (8 TDs), Previous success vs opponent (2 TDs)</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (14 TDs), Previous success vs opponent (2 TDs)</td>
+                            <td class="result">✅ SCORED</td>
                         </tr>
-                        <tr>
-                            <td class="rank">#4</td>
-                            <td class="player-name">Garrett Wilson</td>
-                            <td class="matchup">New York Jets @ Buffalo Bills</td>
-                            <td class="opp-stat">66.3%</td>
+                        <tr class=" result-miss">
+                            <td class="rank">#6 ❌</td>
+                            <td class="player-name">Mike Evans ❌</td>
+                            <td class="matchup">Tampa Bay Buccaneers @ Atlanta Falcons</td>
+                            <td class="opp-stat">65.3%</td>
+                            <td class="player-tds">90%</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (12 TDs), Previous success vs opponent (2 TDs)</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#7 ❌</td>
+                            <td class="player-name">Darnell Mooney ❌</td>
+                            <td class="matchup">Atlanta Falcons @ Tampa Bay Buccaneers</td>
+                            <td class="opp-stat">64.0%</td>
+                            <td class="player-tds">90%</td>
+                            <td class="reason" style="font-size: 0.8em;">Moderate 2024 production (5 TDs), Previous success vs opponent (3 TDs)</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#8 ❌</td>
+                            <td class="player-name">Drake London ❌</td>
+                            <td class="matchup">Atlanta Falcons @ Tampa Bay Buccaneers</td>
+                            <td class="opp-stat">63.7%</td>
+                            <td class="player-tds">90%</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (9 TDs), Previous success vs opponent (1 TDs)</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#9 ❌</td>
+                            <td class="player-name">Xavier Worthy ❌</td>
+                            <td class="matchup">Kansas City Chiefs @ Los Angeles Chargers</td>
+                            <td class="opp-stat">61.9%</td>
+                            <td class="player-tds">90%</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (11 TDs), Previous success vs opponent (1 TDs)</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#10 ❌</td>
+                            <td class="player-name">Tee Higgins ❌</td>
+                            <td class="matchup">Cincinnati Bengals @ Cleveland Browns</td>
+                            <td class="opp-stat">61.3%</td>
+                            <td class="player-tds">90%</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (10 TDs), Previous success vs opponent (2 TDs)</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-hit">
+                            <td class="rank">#11 ✅</td>
+                            <td class="player-name">Keenan Allen ✅</td>
+                            <td class="matchup">Chicago Bears @ Minnesota Vikings</td>
+                            <td class="opp-stat">61.3%</td>
                             <td class="player-tds">90%</td>
                             <td class="reason" style="font-size: 0.8em;">Moderate 2024 production (7 TDs), Previous success vs opponent (2 TDs)</td>
+                            <td class="result">✅ SCORED</td>
                         </tr>
-                        <tr>
-                            <td class="rank">#5</td>
-                            <td class="player-name">Courtland Sutton</td>
-                            <td class="matchup">Denver Broncos @ Indianapolis Colts</td>
-                            <td class="opp-stat">55.7%</td>
+                        <tr class=" result-hit">
+                            <td class="rank">#12 ✅</td>
+                            <td class="player-name">Kyren Williams ✅</td>
+                            <td class="matchup">Los Angeles Rams @ Houston Texans</td>
+                            <td class="opp-stat">60.0%</td>
+                            <td class="player-tds">80%</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (13 TDs), Weak opponent defense (4.4 TDs/game allowed)</td>
+                            <td class="result">✅ SCORED</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#13 ❌</td>
+                            <td class="player-name">Jahmyr Gibbs ❌</td>
+                            <td class="matchup">Detroit Lions @ Green Bay Packers</td>
+                            <td class="opp-stat">59.3%</td>
                             <td class="player-tds">90%</td>
-                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (8 TDs), Previous success vs opponent (1 TDs)</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (9 TDs), Previous success vs opponent (2 TDs)</td>
+                            <td class="result">❌ No TD</td>
                         </tr>
-                        <tr>
-                            <td class="rank">#6</td>
-                            <td class="player-name">Kyren Williams</td>
-                            <td class="matchup">Los Angeles Rams @ Tennessee Titans</td>
-                            <td class="opp-stat">54.0%</td>
+                        <tr class=" result-miss">
+                            <td class="rank">#14 ❌</td>
+                            <td class="player-name">A.J. Brown ❌</td>
+                            <td class="matchup">Philadelphia Eagles @ Dallas Cowboys</td>
+                            <td class="opp-stat">58.7%</td>
+                            <td class="player-tds">90%</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (9 TDs), Previous success vs opponent (1 TDs)</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-hit">
+                            <td class="rank">#15 ✅</td>
+                            <td class="player-name">Justin Jefferson ✅</td>
+                            <td class="matchup">Minnesota Vikings @ Chicago Bears</td>
+                            <td class="opp-stat">56.9%</td>
+                            <td class="player-tds">90%</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (10 TDs), Previous success vs opponent (1 TDs)</td>
+                            <td class="result">✅ SCORED</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#16 ❌</td>
+                            <td class="player-name">Amon-Ra St. Brown ❌</td>
+                            <td class="matchup">Detroit Lions @ Green Bay Packers</td>
+                            <td class="opp-stat">56.7%</td>
+                            <td class="player-tds">90%</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (11 TDs), Previous success vs opponent (1 TDs)</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#17 ❌</td>
+                            <td class="player-name">Rashod Bateman ❌</td>
+                            <td class="matchup">Baltimore Ravens @ Buffalo Bills</td>
+                            <td class="opp-stat">56.7%</td>
+                            <td class="player-tds">90%</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (11 TDs), Previous success vs opponent (1 TDs)</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-miss">
+                            <td class="rank">#18 ❌</td>
+                            <td class="player-name">Kyle Pitts ❌</td>
+                            <td class="matchup">Atlanta Falcons @ Tampa Bay Buccaneers</td>
+                            <td class="opp-stat">55.3%</td>
+                            <td class="player-tds">90%</td>
+                            <td class="reason" style="font-size: 0.8em;">Moderate 2024 production (4 TDs), Previous success vs opponent (2 TDs)</td>
+                            <td class="result">❌ No TD</td>
+                        </tr>
+                        <tr class=" result-hit">
+                            <td class="rank">#19 ✅</td>
+                            <td class="player-name">Courtland Sutton ✅</td>
+                            <td class="matchup">Denver Broncos @ Tennessee Titans</td>
+                            <td class="opp-stat">55.0%</td>
                             <td class="player-tds">80%</td>
-                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (13 TDs), Weak opponent defense (3.9 TDs/game allowed)</td>
+                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (8 TDs), Weak opponent defense (3.9 TDs/game allowed)</td>
+                            <td class="result">✅ SCORED</td>
                         </tr>
-                        <tr>
-                            <td class="rank">#7</td>
-                            <td class="player-name">Jalen Hurts</td>
-                            <td class="matchup">Philadelphia Eagles @ Kansas City Chiefs</td>
-                            <td class="opp-stat">53.0%</td>
-                            <td class="player-tds">80%</td>
-                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (10 TDs), Weak opponent defense (3.5 TDs/game allowed)</td>
-                        </tr>
-                        <tr>
-                            <td class="rank">#8</td>
-                            <td class="player-name">Chase Brown</td>
-                            <td class="matchup">Cincinnati Bengals @ Jacksonville Jaguars</td>
-                            <td class="opp-stat">52.0%</td>
-                            <td class="player-tds">80%</td>
-                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (9 TDs), Weak opponent defense (3.9 TDs/game allowed)</td>
-                        </tr>
-                        <tr>
-                            <td class="rank">#9</td>
-                            <td class="player-name">Alvin Kamara</td>
-                            <td class="matchup">New Orleans Saints @ 49</td>
-                            <td class="opp-stat">50.0%</td>
+                        <tr class=" result-hit">
+                            <td class="rank">#20 ✅</td>
+                            <td class="player-name">Zach Ertz ✅</td>
+                            <td class="matchup">Washington Commanders @ New York Giants</td>
+                            <td class="opp-stat">55.0%</td>
                             <td class="player-tds">80%</td>
                             <td class="reason" style="font-size: 0.8em;">Strong 2024 production (8 TDs), Weak opponent defense (3.1 TDs/game allowed)</td>
-                        </tr>
-                        <tr>
-                            <td class="rank">#10</td>
-                            <td class="player-name">Zach Ertz</td>
-                            <td class="matchup">Washington Commanders @ Green Bay Packers</td>
-                            <td class="opp-stat">49.0%</td>
-                            <td class="player-tds">80%</td>
-                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (8 TDs), Weak opponent defense (3.2 TDs/game allowed)</td>
-                        </tr>
-                        <tr>
-                            <td class="rank">#11</td>
-                            <td class="player-name">Josh Allen</td>
-                            <td class="matchup">Buffalo Bills @ New York Jets</td>
-                            <td class="opp-stat">48.7%</td>
-                            <td class="player-tds">90%</td>
-                            <td class="reason" style="font-size: 0.8em;">Moderate 2024 production (7 TDs), Previous success vs opponent (1 TDs)</td>
-                        </tr>
-                        <tr>
-                            <td class="rank">#12</td>
-                            <td class="player-name">Brian Thomas Jr.</td>
-                            <td class="matchup">Jacksonville Jaguars @ Cincinnati Bengals</td>
-                            <td class="opp-stat">48.0%</td>
-                            <td class="player-tds">80%</td>
-                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (10 TDs), Weak opponent defense (4.5 TDs/game allowed)</td>
-                        </tr>
-                        <tr>
-                            <td class="rank">#13</td>
-                            <td class="player-name">Jayden Reed</td>
-                            <td class="matchup">Green Bay Packers @ Washington Commanders</td>
-                            <td class="opp-stat">48.0%</td>
-                            <td class="player-tds">80%</td>
-                            <td class="reason" style="font-size: 0.8em;">Moderate 2024 production (7 TDs), Weak opponent defense (4.0 TDs/game allowed)</td>
-                        </tr>
-                        <tr>
-                            <td class="rank">#14</td>
-                            <td class="player-name">Cedric Tillman</td>
-                            <td class="matchup">Cleveland Browns @ Baltimore Ravens</td>
-                            <td class="opp-stat">47.3%</td>
-                            <td class="player-tds">90%</td>
-                            <td class="reason" style="font-size: 0.8em;">Previous success vs opponent (2 TDs), Weak opponent defense (3.2 TDs/game allowed)</td>
-                        </tr>
-                        <tr>
-                            <td class="rank">#15</td>
-                            <td class="player-name">Chuba Hubbard</td>
-                            <td class="matchup">Carolina Panthers @ Arizona Cardinals</td>
-                            <td class="opp-stat">47.0%</td>
-                            <td class="player-tds">80%</td>
-                            <td class="reason" style="font-size: 0.8em;">Moderate 2024 production (7 TDs), Weak opponent defense (3.0 TDs/game allowed)</td>
-                        </tr>
-                        <tr>
-                            <td class="rank">#16</td>
-                            <td class="player-name">James Conner</td>
-                            <td class="matchup">Arizona Cardinals @ Carolina Panthers</td>
-                            <td class="opp-stat">46.0%</td>
-                            <td class="player-tds">80%</td>
-                            <td class="reason" style="font-size: 0.8em;">Moderate 2024 production (6 TDs), Weak opponent defense (4.9 TDs/game allowed)</td>
-                        </tr>
-                        <tr>
-                            <td class="rank">#17</td>
-                            <td class="player-name">Marvin Harrison Jr.</td>
-                            <td class="matchup">Arizona Cardinals @ Carolina Panthers</td>
-                            <td class="opp-stat">45.0%</td>
-                            <td class="player-tds">80%</td>
-                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (8 TDs), Weak opponent defense (4.9 TDs/game allowed)</td>
-                        </tr>
-                        <tr>
-                            <td class="rank">#18</td>
-                            <td class="player-name">Saquon Barkley</td>
-                            <td class="matchup">Philadelphia Eagles @ Kansas City Chiefs</td>
-                            <td class="opp-stat">44.0%</td>
-                            <td class="player-tds">80%</td>
-                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (8 TDs), Weak opponent defense (3.5 TDs/game allowed)</td>
-                        </tr>
-                        <tr>
-                            <td class="rank">#19</td>
-                            <td class="player-name">James Cook</td>
-                            <td class="matchup">Buffalo Bills @ New York Jets</td>
-                            <td class="opp-stat">43.0%</td>
-                            <td class="player-tds">80%</td>
-                            <td class="reason" style="font-size: 0.8em;">Strong 2024 production (10 TDs), Weak opponent defense (3.3 TDs/game allowed)</td>
-                        </tr>
-                        <tr>
-                            <td class="rank">#20</td>
-                            <td class="player-name">Tucker Kraft</td>
-                            <td class="matchup">Green Bay Packers @ Washington Commanders</td>
-                            <td class="opp-stat">43.0%</td>
-                            <td class="player-tds">80%</td>
-                            <td class="reason" style="font-size: 0.8em;">Moderate 2024 production (7 TDs), Weak opponent defense (4.0 TDs/game allowed)</td>
+                            <td class="result">✅ SCORED</td>
                         </tr>
                     </tbody>
                 </table>
@@ -457,7 +556,7 @@
         
         <div class="footer">
             🤖 Generated with <a href="https://claude.ai/code" target="_blank" style="color: #5B7553;">Claude Code</a><br>
-            📅 Last updated: 9/9/2025, 8:16:01 AM
+            📅 Updated with actual results: 9/9/2025 11:01:12 PM
         </div>
     </div>
 </body>

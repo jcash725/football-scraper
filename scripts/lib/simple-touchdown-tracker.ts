@@ -100,8 +100,8 @@ export class SimpleTouchdownTracker {
         }
       } else if (play.type?.text?.toLowerCase().includes('rushing')) {
         isRushing = true;
-        // Format: "PlayerName X Yd Run"
-        const match = playText.match(/^([^0-9]+?)\s+\d+\s+Yd\s+Run/);
+        // Format: "PlayerName X Yd Rush" or "PlayerName X Yd Run"
+        const match = playText.match(/^([^0-9]+?)\s+\d+\s+Yd\s+(Rush|Run)/);
         if (match) {
           playerName = match[1].trim();
         }
@@ -233,8 +233,12 @@ export class SimpleTouchdownTracker {
     }
     
     // Remove duplicates and add new stats
-    const existingGameIds = new Set(database.playerGameStats.map(s => s.gameId));
-    const newGameStats = newStats.filter(s => !existingGameIds.has(s.gameId));
+    const existingPlayerGameKeys = new Set(
+      database.playerGameStats.map(s => `${s.playerName}|${s.gameId}|${s.team}`)
+    );
+    const newGameStats = newStats.filter(s => 
+      !existingPlayerGameKeys.has(`${s.playerName}|${s.gameId}|${s.team}`)
+    );
     
     database.playerGameStats.push(...newGameStats);
     database.totalGames = new Set(database.playerGameStats.map(s => s.gameId)).size;

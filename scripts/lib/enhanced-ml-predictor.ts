@@ -1,6 +1,8 @@
 // Enhanced ML TD Prediction System using actual 2024 touchdown data
 import { TDRecommendation } from './types.js';
 import { SimpleTouchdownTracker } from './simple-touchdown-tracker.js';
+import { InjuryTracker } from './injury-tracker.js';
+import { PlayerTeamTracker } from './player-team-tracker.js';
 
 export interface MLFeatures {
   // Player performance features (from actual data)
@@ -22,6 +24,9 @@ export interface MLFeatures {
   // Recent performance (from actual data)
   playerLast5GameTDs: number;
   playerSeasonTrend: number;
+  
+  // Injury adjustment factor
+  injuryAdjustmentFactor: number;
 }
 
 export interface MLPrediction {
@@ -46,10 +51,12 @@ export class EnhancedMLTDPredictor {
   private model: any = null;
   private isInitialized = false;
   private touchdownTracker: SimpleTouchdownTracker;
+  private injuryTracker: InjuryTracker;
   private touchdownData: any = null;
   
   constructor() {
     this.touchdownTracker = new SimpleTouchdownTracker();
+    this.injuryTracker = new InjuryTracker();
   }
   
   async initialize(): Promise<void> {
@@ -67,13 +74,13 @@ export class EnhancedMLTDPredictor {
     // Enhanced model with actual data weights
     this.model = {
       weights: {
-        actualPlayerTDs: 0.30,        // Historical TD performance
-        vsOpponentHistory: 0.20,      // Head-to-head success
-        oppDefenseWeakness: 0.18,     // How many TDs opponent allows
-        recentForm: 0.12,             // Last 5 games performance  
+        actualPlayerTDs: 0.28,        // Historical TD performance
+        vsOpponentHistory: 0.18,      // Head-to-head success
+        oppDefenseWeakness: 0.16,     // How many TDs opponent allows
+        injuryAdjustment: 0.15,       // Injury status impact
+        recentForm: 0.10,             // Last 5 games performance  
         homeFieldAdvantage: 0.08,     // Home vs away splits
-        gamesPlayed: 0.07,            // Availability factor
-        positionTrend: 0.05           // Position-specific trends
+        gamesPlayed: 0.05             // Availability factor
       }
     };
     
@@ -113,6 +120,7 @@ export class EnhancedMLTDPredictor {
     const opponentStats = this.getOpponentDefenseStats(opponent);
     const vsOpponentHistory = this.getHeadToHeadStats(playerName, opponent);
     const recentForm = this.getRecentForm(playerName, team);
+    const injuryAdjustment = this.injuryTracker.getInjuryAdjustmentFactor(playerName, team);
     
     return {
       // Actual player performance from 2024
@@ -133,7 +141,10 @@ export class EnhancedMLTDPredictor {
       
       // Recent trends
       playerLast5GameTDs: recentForm,
-      playerSeasonTrend: this.calculateSeasonTrend(playerName, team)
+      playerSeasonTrend: this.calculateSeasonTrend(playerName, team),
+      
+      // Injury status
+      injuryAdjustmentFactor: injuryAdjustment
     };
   }
   
@@ -240,6 +251,19 @@ export class EnhancedMLTDPredictor {
     let score = 0;
     const factors: string[] = [];
     
+    // Apply injury adjustment early - affects all other factors
+    const injuryImpact = features.injuryAdjustmentFactor;
+    if (injuryImpact < 1.0) {
+      if (injuryImpact === 0.0) {
+        factors.push("Player ruled OUT - cannot score");
+        return { probability: 0.0, confidence: 0.95, factors };
+      } else if (injuryImpact < 0.5) {
+        factors.push(`Major injury concern (${Math.round((1 - injuryImpact) * 100)}% reduction)`);
+      } else if (injuryImpact < 0.9) {
+        factors.push(`Injury concern (${Math.round((1 - injuryImpact) * 100)}% reduction)`);
+      }
+    }
+    
     // Actual TD production (most important factor)
     const tdScore = Math.min(features.playerTotalTDs2024 / 15, 1); // Normalize by ~15 max TDs
     score += tdScore * this.model.weights.actualPlayerTDs;
@@ -289,6 +313,9 @@ export class EnhancedMLTDPredictor {
       score += 0.03; // Healthy/reliable player
     }
     
+    // Apply final injury adjustment to the computed score
+    score *= injuryImpact;
+    
     // Convert to probability
     const probability = Math.min(Math.max(score, 0.01), 0.85);
     
@@ -298,6 +325,10 @@ export class EnhancedMLTDPredictor {
     if (features.playerTDsVsOpponent > 0) confidence += 0.1;  // H2H history
     if (features.playerGamesPlayed > 10) confidence += 0.1;   // Sufficient sample
     if (features.oppTotalTDsAllowed > 1.5) confidence += 0.05; // Clear matchup data
+    
+    // Injury status affects confidence
+    if (injuryImpact < 0.5) confidence += 0.1; // High confidence in major injury impact
+    else if (injuryImpact < 0.9) confidence += 0.05; // Medium confidence in minor injury impact
     
     confidence = Math.min(confidence, 0.95);
     

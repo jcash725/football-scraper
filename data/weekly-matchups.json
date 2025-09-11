@@ -1,109 +1,128 @@
 {
-  "url": "https://www.teamrankings.com/nfl/schedules/season/",
-  "scrapedAt": "2025-09-09T08:15:57.887Z",
-  "note": "Found 16 matchups",
+  "url": "ESPN API Week 2 2025",
+  "scrapedAt": "2025-09-10T00:45:56.422Z",
+  "note": "Found 16 matchups for Week 2 2025",
+  "week": 2,
+  "year": 2025,
   "columns": [
     "away_team",
     "home_team",
     "date",
-    "time"
+    "time",
+    "gameId"
   ],
   "rows": [
     {
-      "away_team": "Washington",
-      "home_team": "Green Bay",
-      "date": "Thu Sep 11",
-      "time": "8:15 PM"
+      "away_team": "Washington Commanders",
+      "home_team": "Green Bay Packers",
+      "date": "Thu, Sep 11",
+      "time": "8:15 PM EDT",
+      "gameId": "401772936"
     },
     {
-      "away_team": "LA Rams",
-      "home_team": "Tennessee",
-      "date": "Thu Sep 11",
-      "time": "1:00 PM"
+      "away_team": "Jacksonville Jaguars",
+      "home_team": "Cincinnati Bengals",
+      "date": "Sun, Sep 14",
+      "time": "1:00 PM EDT",
+      "gameId": "401772725"
     },
     {
-      "away_team": "Seattle",
-      "home_team": "Pittsburgh",
-      "date": "Thu Sep 11",
-      "time": "1:00 PM"
+      "away_team": "New York Giants",
+      "home_team": "Dallas Cowboys",
+      "date": "Sun, Sep 14",
+      "time": "1:00 PM EDT",
+      "gameId": "401772834"
     },
     {
-      "away_team": "Buffalo",
-      "home_team": "NY Jets",
-      "date": "Thu Sep 11",
-      "time": "1:00 PM"
+      "away_team": "Chicago Bears",
+      "home_team": "Detroit Lions",
+      "date": "Sun, Sep 14",
+      "time": "1:00 PM EDT",
+      "gameId": "401772835"
     },
     {
-      "away_team": "San Francisco",
-      "home_team": "New Orleans",
-      "date": "Thu Sep 11",
-      "time": "1:00 PM"
+      "away_team": "Los Angeles Rams",
+      "home_team": "Tennessee Titans",
+      "date": "Sun, Sep 14",
+      "time": "1:00 PM EDT",
+      "gameId": "401772724"
     },
     {
-      "away_team": "New England",
-      "home_team": "Miami",
-      "date": "Thu Sep 11",
-      "time": "1:00 PM"
+      "away_team": "New England Patriots",
+      "home_team": "Miami Dolphins",
+      "date": "Sun, Sep 14",
+      "time": "1:00 PM EDT",
+      "gameId": "401772728"
     },
     {
-      "away_team": "Chicago",
-      "home_team": "Detroit",
-      "date": "Thu Sep 11",
-      "time": "1:00 PM"
+      "away_team": "San Francisco 49ers",
+      "home_team": "New Orleans Saints",
+      "date": "Sun, Sep 14",
+      "time": "1:00 PM EDT",
+      "gameId": "401772833"
     },
     {
-      "away_team": "NY Giants",
-      "home_team": "Dallas",
-      "date": "Thu Sep 11",
-      "time": "1:00 PM"
+      "away_team": "Buffalo Bills",
+      "home_team": "New York Jets",
+      "date": "Sun, Sep 14",
+      "time": "1:00 PM EDT",
+      "gameId": "401772727"
     },
     {
-      "away_team": "Jacksonville",
-      "home_team": "Cincinnati",
-      "date": "Thu Sep 11",
-      "time": "1:00 PM"
+      "away_team": "Seattle Seahawks",
+      "home_team": "Pittsburgh Steelers",
+      "date": "Sun, Sep 14",
+      "time": "1:00 PM EDT",
+      "gameId": "401772836"
     },
     {
-      "away_team": "Cleveland",
-      "home_team": "Baltimore",
-      "date": "Thu Sep 11",
-      "time": "1:00 PM"
+      "away_team": "Cleveland Browns",
+      "home_team": "Baltimore Ravens",
+      "date": "Sun, Sep 14",
+      "time": "1:00 PM EDT",
+      "gameId": "401772726"
     },
     {
-      "away_team": "Denver",
-      "home_team": "Indianapolis",
-      "date": "Thu Sep 11",
-      "time": "4:05 PM"
+      "away_team": "Denver Broncos",
+      "home_team": "Indianapolis Colts",
+      "date": "Sun, Sep 14",
+      "time": "4:05 PM EDT",
+      "gameId": "401772729"
     },
     {
-      "away_team": "Carolina",
-      "home_team": "Arizona",
-      "date": "Thu Sep 11",
-      "time": "4:05 PM"
+      "away_team": "Carolina Panthers",
+      "home_team": "Arizona Cardinals",
+      "date": "Sun, Sep 14",
+      "time": "4:05 PM EDT",
+      "gameId": "401772730"
     },
     {
-      "away_team": "Philadelphia",
-      "home_team": "Kansas City",
-      "date": "Thu Sep 11",
-      "time": "4:25 PM"
+      "away_team": "Philadelphia Eagles",
+      "home_team": "Kansas City Chiefs",
+      "date": "Sun, Sep 14",
+      "time": "4:25 PM EDT",
+      "gameId": "401772837"
     },
     {
-      "away_team": "Atlanta",
-      "home_team": "Minnesota",
-      "date": "Thu Sep 11",
-      "time": "8:20 PM"
+      "away_team": "Atlanta Falcons",
+      "home_team": "Minnesota Vikings",
+      "date": "Sun, Sep 14",
+      "time": "8:20 PM EDT",
+      "gameId": "401772919"
     },
     {
-      "away_team": "Tampa Bay",
-      "home_team": "Houston",
-      "date": "Thu Sep 11",
-      "time": "7:00 PM"
+      "away_team": "Tampa Bay Buccaneers",
+      "home_team": "Houston Texans",
+      "date": "Mon, Sep 15",
+      "time": "7:00 PM EDT",
+      "gameId": "401772715"
     },
     {
-      "away_team": "LA Chargers",
-      "home_team": "Las Vegas",
-      "date": "Thu Sep 11",
-      "time": "10:00 PM"
+      "away_team": "Los Angeles Chargers",
+      "home_team": "Las Vegas Raiders",
+      "date": "Mon, Sep 15",
+      "time": "10:00 PM EDT",
+      "gameId": "401772811"
     }
   ]
 }
