@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-09-10T03:20:29.045Z",
+  "lastUpdated": "2025-09-11T08:15:17.740Z",
   "weeks": [
     {
       "week": 1,
@@ -454,24 +454,11 @@
     {
       "week": 2,
       "year": 2025,
-      "generatedAt": "2025-09-10T03:20:29.045Z",
+      "generatedAt": "2025-09-11T08:15:17.740Z",
       "currentModelPredictions": [],
       "mlModelPredictions": [
         {
           "rank": 1,
-          "player": "Jordan Addison",
-          "team": "Minnesota Vikings",
-          "opponent": "Atlanta Falcons",
-          "probability": 0.6866666666666668,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Strong 2024 production (10 TDs)",
-            "Previous success vs opponent (3 TDs)",
-            "Weak opponent defense (3.5 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 2,
           "player": "Justin Jefferson",
           "team": "Minnesota Vikings",
           "opponent": "Atlanta Falcons",
@@ -484,33 +471,7 @@
           ]
         },
         {
-          "rank": 3,
-          "player": "Sam LaPorta",
-          "team": "Detroit Lions",
-          "opponent": "Chicago Bears",
-          "probability": 0.6743932853717027,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Strong 2024 production (8 TDs)",
-            "Previous success vs opponent (3 TDs)",
-            "Weak opponent defense (2.5 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 4,
-          "player": "Mark Andrews",
-          "team": "Baltimore Ravens",
-          "opponent": "Cleveland Browns",
-          "probability": 0.6453333333333333,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Strong 2024 production (11 TDs)",
-            "Previous success vs opponent (2 TDs)",
-            "Weak opponent defense (3.9 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 5,
+          "rank": 2,
           "player": "Derrick Henry",
           "team": "Baltimore Ravens",
           "opponent": "Cleveland Browns",
@@ -523,10 +484,10 @@
           ]
         },
         {
-          "rank": 6,
+          "rank": 3,
           "player": "De'Von Achane",
           "team": "Miami Dolphins",
-          "opponent": "New England Patriots",
+          "opponent": "New England",
           "probability": 0.6393333333333333,
           "confidence": 0.9,
           "keyFactors": [
@@ -536,7 +497,7 @@
           ]
         },
         {
-          "rank": 7,
+          "rank": 4,
           "player": "Garrett Wilson",
           "team": "New York Jets",
           "opponent": "Buffalo Bills",
@@ -549,85 +510,7 @@
           ]
         },
         {
-          "rank": 8,
-          "player": "Ja'Marr Chase",
-          "team": "Cincinnati Bengals",
-          "opponent": "Jacksonville Jaguars",
-          "probability": 0.6000000000000001,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Strong 2024 production (17 TDs)",
-            "Weak opponent defense (3.9 TDs/game allowed)",
-            "Hot recent form (7 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 9,
-          "player": "Rashod Bateman",
-          "team": "Baltimore Ravens",
-          "opponent": "Cleveland Browns",
-          "probability": 0.5853333333333333,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Strong 2024 production (11 TDs)",
-            "Previous success vs opponent (1 TDs)",
-            "Weak opponent defense (3.9 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 10,
-          "player": "Amon-Ra St. Brown",
-          "team": "Detroit Lions",
-          "opponent": "Chicago Bears",
-          "probability": 0.5603932853717026,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Strong 2024 production (11 TDs)",
-            "Previous success vs opponent (1 TDs)",
-            "Weak opponent defense (2.5 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 11,
-          "player": "Keenan Allen",
-          "team": "Chicago Bears",
-          "opponent": "Detroit Lions",
-          "probability": 0.5580047961630695,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Moderate 2024 production (7 TDs)",
-            "Previous success vs opponent (3 TDs)",
-            "Weak opponent defense (2.8 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 12,
-          "player": "DeVonta Smith",
-          "team": "Philadelphia Eagles",
-          "opponent": "Kansas City Chiefs",
-          "probability": 0.538,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Strong 2024 production (9 TDs)",
-            "Previous success vs opponent (1 TDs)",
-            "Weak opponent defense (3.5 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 13,
-          "player": "Nick Westbrook-Ikhine",
-          "team": "Tennessee Titans",
-          "opponent": "Los Angeles Rams",
-          "probability": 0.538,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (9 TDs)",
-            "Weak opponent defense (3.8 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 14,
+          "rank": 5,
           "player": "Courtland Sutton",
           "team": "Denver Broncos",
           "opponent": "Indianapolis Colts",
@@ -640,33 +523,7 @@
           ]
         },
         {
-          "rank": 15,
-          "player": "Nico Collins",
-          "team": "Houston Texans",
-          "opponent": "Tampa Bay Buccaneers",
-          "probability": 0.5193333333333333,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (8 TDs)",
-            "Weak opponent defense (3.7 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 16,
-          "player": "Tee Higgins",
-          "team": "Cincinnati Bengals",
-          "opponent": "Jacksonville Jaguars",
-          "probability": 0.5066666666666666,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (10 TDs)",
-            "Weak opponent defense (3.9 TDs/game allowed)",
-            "Hot recent form (7 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 17,
+          "rank": 6,
           "player": "Kyren Williams",
           "team": "Los Angeles Rams",
           "opponent": "Tennessee Titans",
@@ -679,23 +536,10 @@
           ]
         },
         {
-          "rank": 18,
-          "player": "Davante Adams",
-          "team": "New York Jets",
-          "opponent": "Buffalo Bills",
-          "probability": 0.5006666666666667,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (7 TDs)",
-            "Weak opponent defense (4.1 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 19,
+          "rank": 7,
           "player": "Jalen Hurts",
           "team": "Philadelphia Eagles",
-          "opponent": "Kansas City Chiefs",
+          "opponent": "Kansas City",
           "probability": 0.49666666666666665,
           "confidence": 0.8,
           "keyFactors": [
@@ -705,16 +549,172 @@
           ]
         },
         {
-          "rank": 20,
-          "player": "Allen Lazard",
-          "team": "New York Jets",
-          "opponent": "Buffalo Bills",
-          "probability": 0.49200000000000005,
+          "rank": 8,
+          "player": "Chase Brown",
+          "team": "Cincinnati Bengals",
+          "opponent": "Jacksonville Jaguars",
+          "probability": 0.48800000000000004,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (9 TDs)",
+            "Weak opponent defense (3.9 TDs/game allowed)",
+            "Hot recent form (5 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 9,
+          "player": "Alvin Kamara",
+          "team": "New Orleans Saints",
+          "opponent": "San Francisco",
+          "probability": 0.4693333333333333,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (8 TDs)",
+            "Weak opponent defense (3.1 TDs/game allowed)",
+            "Hot recent form (8 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 10,
+          "player": "Zach Ertz",
+          "team": "Washington Commanders",
+          "opponent": "Green Bay",
+          "probability": 0.4593333333333333,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (8 TDs)",
+            "Weak opponent defense (3.2 TDs/game allowed)",
+            "Hot recent form (6 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 11,
+          "player": "Brian Thomas Jr.",
+          "team": "Jacksonville Jaguars",
+          "opponent": "Cincinnati Bengals",
+          "probability": 0.44666666666666666,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (10 TDs)",
+            "Weak opponent defense (4.5 TDs/game allowed)",
+            "Hot recent form (6 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 12,
+          "player": "Chuba Hubbard",
+          "team": "Carolina Panthers",
+          "opponent": "Arizona Cardinals",
+          "probability": 0.4402829736211031,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Moderate 2024 production (7 TDs)",
+            "Weak opponent defense (3.0 TDs/game allowed)",
+            "Hot recent form (6 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 13,
+          "player": "Cedric Tillman",
+          "team": "Cleveland Browns",
+          "opponent": "Baltimore Ravens",
+          "probability": 0.43599999999999994,
           "confidence": 0.9,
           "keyFactors": [
+            "Previous success vs opponent (2 TDs)",
+            "Weak opponent defense (3.2 TDs/game allowed)",
+            "Hot recent form (3 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 14,
+          "player": "James Conner",
+          "team": "Arizona Cardinals",
+          "opponent": "Carolina Panthers",
+          "probability": 0.432,
+          "confidence": 0.8,
+          "keyFactors": [
             "Moderate 2024 production (6 TDs)",
-            "Previous success vs opponent (1 TDs)",
-            "Weak opponent defense (4.1 TDs/game allowed)"
+            "Weak opponent defense (4.9 TDs/game allowed)",
+            "Hot recent form (5 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 15,
+          "player": "Marvin Harrison Jr.",
+          "team": "Arizona Cardinals",
+          "opponent": "Carolina Panthers",
+          "probability": 0.41933333333333334,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (8 TDs)",
+            "Weak opponent defense (4.9 TDs/game allowed)",
+            "Hot recent form (5 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 16,
+          "player": "Saquon Barkley",
+          "team": "Philadelphia Eagles",
+          "opponent": "Kansas City",
+          "probability": 0.4093333333333333,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (8 TDs)",
+            "Weak opponent defense (3.5 TDs/game allowed)",
+            "Hot recent form (8 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 17,
+          "player": "Tucker Kraft",
+          "team": "Green Bay Packers",
+          "opponent": "Washington Commanders",
+          "probability": 0.4006666666666667,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Moderate 2024 production (7 TDs)",
+            "Weak opponent defense (4.0 TDs/game allowed)",
+            "Hot recent form (6 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 18,
+          "player": "Josh Jacobs",
+          "team": "Green Bay Packers",
+          "opponent": "Washington Commanders",
+          "probability": 0.39466666666666667,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Moderate 2024 production (4 TDs)",
+            "Weak opponent defense (4.0 TDs/game allowed)",
+            "Hot recent form (4 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 19,
+          "player": "Aaron Jones",
+          "team": "Minnesota Vikings",
+          "opponent": "Atlanta Falcons",
+          "probability": 0.39466666666666667,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Moderate 2024 production (4 TDs)",
+            "Weak opponent defense (3.5 TDs/game allowed)",
+            "Hot recent form (4 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 20,
+          "player": "Zay Flowers",
+          "team": "Baltimore Ravens",
+          "opponent": "Cleveland Browns",
+          "probability": 0.39466666666666667,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Moderate 2024 production (4 TDs)",
+            "Weak opponent defense (3.9 TDs/game allowed)",
+            "Hot recent form (4 TDs in recent games)"
           ]
         }
       ]
