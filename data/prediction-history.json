@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-09-13T08:13:08.408Z",
+  "lastUpdated": "2025-09-14T08:13:09.767Z",
   "weeks": [
     {
       "week": 1,
@@ -454,7 +454,7 @@
     {
       "week": 2,
       "year": 2025,
-      "generatedAt": "2025-09-13T08:13:08.408Z",
+      "generatedAt": "2025-09-14T08:13:09.767Z",
       "currentModelPredictions": [],
       "mlModelPredictions": [
         {
@@ -693,6 +693,19 @@
         },
         {
           "rank": 19,
+          "player": "Romeo Doubs",
+          "team": "Green Bay Packers",
+          "opponent": "Washington Commanders",
+          "probability": 0.39466666666666667,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Moderate 2024 production (4 TDs)",
+            "Weak opponent defense (4.0 TDs/game allowed)",
+            "Hot recent form (4 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 20,
           "player": "Travis Kelce",
           "team": "Kansas City Chiefs",
           "opponent": "Philadelphia Eagles",
@@ -701,19 +714,6 @@
           "keyFactors": [
             "Moderate 2024 production (4 TDs)",
             "Weak opponent defense (3.3 TDs/game allowed)",
-            "Hot recent form (4 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "Zay Flowers",
-          "team": "Baltimore Ravens",
-          "opponent": "Cleveland Browns",
-          "probability": 0.39466666666666667,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (4 TDs)",
-            "Weak opponent defense (3.9 TDs/game allowed)",
             "Hot recent form (4 TDs in recent games)"
           ]
         }
