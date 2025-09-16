@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/stat/opponent-rushing-touchdowns-per-game",
-  "scrapedAt": "2025-09-15T08:15:47.387Z",
+  "scrapedAt": "2025-09-16T08:15:55.620Z",
   "note": "Sorted by Rank (desc)",
   "columns": [
     "Rank",
@@ -42,6 +42,16 @@
       "Last 1": 1,
       "Home": 1,
       "Away": 3
+    },
+    {
+      "2024": 0.9,
+      "2025": 1.5,
+      "Rank": 23,
+      "Team": "Buffalo",
+      "Last 3": 1.5,
+      "Last 1": 0,
+      "Home": 3,
+      "Away": 0
     },
     {
       "2024": 0.8,
@@ -104,59 +114,19 @@
       "Away": 1
     },
     {
-      "2024": 0.9,
-      "2025": 1.5,
-      "Rank": 23,
-      "Team": "Buffalo",
-      "Last 3": 1.5,
-      "Last 1": 0,
-      "Home": 3,
-      "Away": 0
-    },
-    {
-      "2024": 0.4,
-      "2025": 1,
-      "Rank": 16,
-      "Team": "LA Chargers",
-      "Last 3": 1,
-      "Last 1": 1,
-      "Home": "--",
-      "Away": 1
-    },
-    {
-      "2024": 0.7,
-      "2025": 1,
-      "Rank": 16,
-      "Team": "Minnesota",
-      "Last 3": 1,
-      "Last 1": 1,
-      "Home": 1,
-      "Away": 1
-    },
-    {
-      "2024": 1.2,
-      "2025": 1,
-      "Rank": 16,
-      "Team": "Detroit",
-      "Last 3": 1,
-      "Last 1": 1,
-      "Home": 1,
-      "Away": 1
-    },
-    {
       "2024": 0.6,
       "2025": 1,
-      "Rank": 16,
+      "Rank": 17,
       "Team": "Houston",
       "Last 3": 1,
       "Last 1": 1,
-      "Home": "--",
+      "Home": 1,
       "Away": 1
     },
     {
       "2024": 0.7,
       "2025": 1,
-      "Rank": 16,
+      "Rank": 17,
       "Team": "Tampa Bay",
       "Last 3": 1,
       "Last 1": 1,
@@ -166,7 +136,7 @@
     {
       "2024": 0.9,
       "2025": 1,
-      "Rank": 16,
+      "Rank": 17,
       "Team": "Kansas City",
       "Last 3": 1,
       "Last 1": 2,
@@ -176,12 +146,72 @@
     {
       "2024": 1.4,
       "2025": 1,
-      "Rank": 16,
+      "Rank": 17,
       "Team": "Carolina",
       "Last 3": 1,
       "Last 1": 1,
       "Home": "--",
       "Away": 1
+    },
+    {
+      "2024": 0.7,
+      "2025": 1,
+      "Rank": 17,
+      "Team": "Minnesota",
+      "Last 3": 1,
+      "Last 1": 1,
+      "Home": 1,
+      "Away": 1
+    },
+    {
+      "2024": 1.2,
+      "2025": 1,
+      "Rank": 17,
+      "Team": "Detroit",
+      "Last 3": 1,
+      "Last 1": 1,
+      "Home": 1,
+      "Away": 1
+    },
+    {
+      "2024": 1.1,
+      "2025": 0.5,
+      "Rank": 7,
+      "Team": "Arizona",
+      "Last 3": 0.5,
+      "Last 1": 0,
+      "Home": 0,
+      "Away": 1
+    },
+    {
+      "2024": 0.9,
+      "2025": 0.5,
+      "Rank": 7,
+      "Team": "New England",
+      "Last 3": 0.5,
+      "Last 1": 0,
+      "Home": 1,
+      "Away": 0
+    },
+    {
+      "2024": 0.6,
+      "2025": 0.5,
+      "Rank": 7,
+      "Team": "Denver",
+      "Last 3": 0.5,
+      "Last 1": 1,
+      "Home": 0,
+      "Away": 1
+    },
+    {
+      "2024": 0.4,
+      "2025": 0.5,
+      "Rank": 7,
+      "Team": "LA Chargers",
+      "Last 3": 0.5,
+      "Last 1": 0,
+      "Home": "--",
+      "Away": 0.5
     },
     {
       "2024": 1.2,
@@ -244,36 +274,6 @@
       "Away": 0
     },
     {
-      "2024": 1.1,
-      "2025": 0.5,
-      "Rank": 7,
-      "Team": "Arizona",
-      "Last 3": 0.5,
-      "Last 1": 0,
-      "Home": 0,
-      "Away": 1
-    },
-    {
-      "2024": 0.9,
-      "2025": 0.5,
-      "Rank": 7,
-      "Team": "New England",
-      "Last 3": 0.5,
-      "Last 1": 0,
-      "Home": 1,
-      "Away": 0
-    },
-    {
-      "2024": 0.6,
-      "2025": 0.5,
-      "Rank": 7,
-      "Team": "Denver",
-      "Last 3": 0.5,
-      "Last 1": 1,
-      "Home": 0,
-      "Away": 1
-    },
-    {
       "2024": 0.8,
       "2025": 0,
       "Rank": 1,
@@ -330,7 +330,7 @@
       "Team": "Las Vegas",
       "Last 3": 0,
       "Last 1": 0,
-      "Home": "--",
+      "Home": 0,
       "Away": 0
     }
   ]
