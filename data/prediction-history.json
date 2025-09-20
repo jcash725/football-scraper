@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-09-19T08:15:08.879Z",
+  "lastUpdated": "2025-09-20T08:13:32.602Z",
   "weeks": [
     {
       "week": 1,
@@ -722,7 +722,7 @@
     {
       "week": 3,
       "year": 2025,
-      "generatedAt": "2025-09-19T08:15:08.878Z",
+      "generatedAt": "2025-09-20T08:13:32.602Z",
       "currentModelPredictions": [],
       "mlModelPredictions": [
         {
@@ -948,19 +948,6 @@
         },
         {
           "rank": 18,
-          "player": "Jahmyr Gibbs",
-          "team": "Detroit Lions",
-          "opponent": "Baltimore Ravens",
-          "probability": 0.42800000000000005,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (9 TDs)",
-            "Weak opponent defense (3.2 TDs/game allowed)",
-            "Hot recent form (5 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 19,
           "player": "Chase Brown",
           "team": "Cincinnati Bengals",
           "opponent": "Minnesota Vikings",
@@ -969,6 +956,19 @@
           "keyFactors": [
             "Strong 2024 production (9 TDs)",
             "Weak opponent defense (3.1 TDs/game allowed)",
+            "Hot recent form (5 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 19,
+          "player": "Jahmyr Gibbs",
+          "team": "Detroit Lions",
+          "opponent": "Baltimore Ravens",
+          "probability": 0.42800000000000005,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (9 TDs)",
+            "Weak opponent defense (3.2 TDs/game allowed)",
             "Hot recent form (5 TDs in recent games)"
           ]
         },
