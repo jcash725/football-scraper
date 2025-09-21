@@ -1,11 +1,428 @@
 {
-  "generatedAt": "2025-09-10T00:46:17.133Z",
-  "currentModel": [],
-  "mlModel": [],
+  "generatedAt": "2025-09-21T08:12:45.192Z",
+  "currentModel": [
+    {
+      "Player": "Emeka Egbuka",
+      "Team": "Tampa Bay Buccaneers",
+      "Opponent": "TBD",
+      "Player TDs YTD": 3,
+      "Player 2025 TDs": 3,
+      "Opponent Stat Value": 5.5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.5 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
+    }
+  ],
+  "mlModel": [
+    {
+      "player": "De'Von Achane",
+      "team": "Miami Dolphins",
+      "opponent": "Buffalo Bills",
+      "position": "RB",
+      "mlProbability": 0.6393333333333334,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Strong 2024 production (8 TDs)",
+        "Previous success vs opponent (3 TDs)",
+        "Weak opponent defense (4.1 TDs/game allowed)"
+      ],
+      "mlRank": 1,
+      "playerTDsYTD": 2,
+      "actual2024TDs": 8,
+      "actual2024Games": 6,
+      "vsOpponentTDs": 3,
+      "basis": "2024 Data: 8 TDs in 6 games"
+    },
+    {
+      "player": "James Cook",
+      "team": "Buffalo Bills",
+      "opponent": "Miami Dolphins",
+      "position": "RB",
+      "mlProbability": 0.6366666666666667,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Strong 2024 production (10 TDs)",
+        "Previous success vs opponent (3 TDs)",
+        "Weak opponent defense (3.1 TDs/game allowed)"
+      ],
+      "mlRank": 2,
+      "playerTDsYTD": 4,
+      "actual2024TDs": 10,
+      "actual2024Games": 7,
+      "vsOpponentTDs": 3,
+      "basis": "2024 Data: 10 TDs in 7 games"
+    },
+    {
+      "player": "Brian Thomas Jr.",
+      "team": "Jacksonville Jaguars",
+      "opponent": "Houston Texans",
+      "position": "WR",
+      "mlProbability": 0.6266666666666667,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Strong 2024 production (10 TDs)",
+        "Previous success vs opponent (2 TDs)",
+        "Weak opponent defense (4.4 TDs/game allowed)"
+      ],
+      "mlRank": 3,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 10,
+      "actual2024Games": 9,
+      "vsOpponentTDs": 2,
+      "basis": "2024 Data: 10 TDs in 9 games"
+    },
+    {
+      "player": "Derrick Henry",
+      "team": "Baltimore Ravens",
+      "opponent": "Detroit Lions",
+      "position": "RB",
+      "mlProbability": 0.5686714628297362,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (14 TDs)",
+        "Weak opponent defense (2.8 TDs/game allowed)",
+        "Hot recent form (7 TDs in recent games)"
+      ],
+      "mlRank": 4,
+      "playerTDsYTD": 2,
+      "actual2024TDs": 14,
+      "actual2024Games": 10,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 14 TDs in 10 games"
+    },
+    {
+      "player": "Justin Jefferson",
+      "team": "Minnesota Vikings",
+      "opponent": "Cincinnati Bengals",
+      "position": "WR",
+      "mlProbability": 0.5566666666666666,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (10 TDs)",
+        "Weak opponent defense (4.5 TDs/game allowed)",
+        "Hot recent form (7 TDs in recent games)"
+      ],
+      "mlRank": 5,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 10,
+      "actual2024Games": 8,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 10 TDs in 8 games"
+    },
+    {
+      "player": "Ja'Marr Chase",
+      "team": "Cincinnati Bengals",
+      "opponent": "Minnesota Vikings",
+      "position": "WR",
+      "mlProbability": 0.54,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Strong 2024 production (17 TDs)",
+        "Weak opponent defense (3.1 TDs/game allowed)",
+        "Hot recent form (7 TDs in recent games)"
+      ],
+      "mlRank": 6,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 17,
+      "actual2024Games": 11,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 17 TDs in 11 games"
+    },
+    {
+      "player": "Nico Collins",
+      "team": "Houston Texans",
+      "opponent": "Jacksonville Jaguars",
+      "position": "WR",
+      "mlProbability": 0.5193333333333334,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Strong 2024 production (8 TDs)",
+        "Previous success vs opponent (1 TDs)",
+        "Weak opponent defense (3.9 TDs/game allowed)"
+      ],
+      "mlRank": 7,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 8,
+      "actual2024Games": 7,
+      "vsOpponentTDs": 1,
+      "basis": "2024 Data: 8 TDs in 7 games"
+    },
+    {
+      "player": "Zach Ertz",
+      "team": "Washington Commanders",
+      "opponent": "Las Vegas",
+      "position": "TE",
+      "mlProbability": 0.5193333333333333,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (8 TDs)",
+        "Weak opponent defense (3.8 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 8,
+      "playerTDsYTD": 2,
+      "actual2024TDs": 8,
+      "actual2024Games": 7,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 8 TDs in 7 games"
+    },
+    {
+      "player": "Bijan Robinson",
+      "team": "Atlanta Falcons",
+      "opponent": "Carolina Panthers",
+      "position": "RB",
+      "mlProbability": 0.5106666666666667,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Moderate 2024 production (7 TDs)",
+        "Previous success vs opponent (2 TDs)",
+        "Weak opponent defense (4.9 TDs/game allowed)"
+      ],
+      "mlRank": 9,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 7,
+      "actual2024Games": 5,
+      "vsOpponentTDs": 2,
+      "basis": "2024 Data: 7 TDs in 5 games"
+    },
+    {
+      "player": "Kyren Williams",
+      "team": "Los Angeles Rams",
+      "opponent": "Philadelphia Eagles",
+      "position": "RB",
+      "mlProbability": 0.5026666666666667,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (13 TDs)",
+        "Weak opponent defense (3.3 TDs/game allowed)",
+        "Hot recent form (7 TDs in recent games)"
+      ],
+      "mlRank": 10,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 13,
+      "actual2024Games": 9,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 13 TDs in 9 games"
+    },
+    {
+      "player": "Chuba Hubbard",
+      "team": "Carolina Panthers",
+      "opponent": "Atlanta Falcons",
+      "position": "RB",
+      "mlProbability": 0.5006666666666667,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Moderate 2024 production (7 TDs)",
+        "Weak opponent defense (3.5 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 11,
+      "playerTDsYTD": 2,
+      "actual2024TDs": 7,
+      "actual2024Games": 6,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 7 TDs in 6 games"
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "team": "Detroit Lions",
+      "opponent": "Baltimore Ravens",
+      "position": "WR",
+      "mlProbability": 0.4653333333333334,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (11 TDs)",
+        "Weak opponent defense (3.2 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 12,
+      "playerTDsYTD": 3,
+      "actual2024TDs": 11,
+      "actual2024Games": 10,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 11 TDs in 10 games"
+    },
+    {
+      "player": "Josh Allen",
+      "team": "Buffalo Bills",
+      "opponent": "Miami Dolphins",
+      "position": "QB",
+      "mlProbability": 0.4506666666666667,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Moderate 2024 production (7 TDs)",
+        "Weak opponent defense (3.1 TDs/game allowed)",
+        "Hot recent form (7 TDs in recent games)"
+      ],
+      "mlRank": 13,
+      "playerTDsYTD": 2,
+      "actual2024TDs": 7,
+      "actual2024Games": 4,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 7 TDs in 4 games"
+    },
+    {
+      "player": "Malik Nabers",
+      "team": "New York Giants",
+      "opponent": "Kansas City",
+      "position": "WR",
+      "mlProbability": 0.4506666666666667,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Moderate 2024 production (7 TDs)",
+        "Weak opponent defense (3.5 TDs/game allowed)",
+        "Hot recent form (7 TDs in recent games)"
+      ],
+      "mlRank": 14,
+      "playerTDsYTD": 2,
+      "actual2024TDs": 7,
+      "actual2024Games": 5,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 7 TDs in 5 games"
+    },
+    {
+      "player": "Tee Higgins",
+      "team": "Cincinnati Bengals",
+      "opponent": "Minnesota Vikings",
+      "position": "WR",
+      "mlProbability": 0.44666666666666666,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (10 TDs)",
+        "Weak opponent defense (3.1 TDs/game allowed)",
+        "Hot recent form (7 TDs in recent games)"
+      ],
+      "mlRank": 15,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 10,
+      "actual2024Games": 7,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 10 TDs in 7 games"
+    },
+    {
+      "player": "David Montgomery",
+      "team": "Detroit Lions",
+      "opponent": "Baltimore Ravens",
+      "position": "RB",
+      "mlProbability": 0.4406666666666667,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Moderate 2024 production (7 TDs)",
+        "Weak opponent defense (3.2 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 16,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 7,
+      "actual2024Games": 6,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 7 TDs in 6 games"
+    },
+    {
+      "player": "Garrett Wilson",
+      "team": "New York Jets",
+      "opponent": "Tampa Bay",
+      "position": "WR",
+      "mlProbability": 0.4406666666666667,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Moderate 2024 production (7 TDs)",
+        "Weak opponent defense (3.7 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 17,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 7,
+      "actual2024Games": 6,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 7 TDs in 6 games"
+    },
+    {
+      "player": "Chase Brown",
+      "team": "Cincinnati Bengals",
+      "opponent": "Minnesota Vikings",
+      "position": "HB",
+      "mlProbability": 0.42800000000000005,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (9 TDs)",
+        "Weak opponent defense (3.1 TDs/game allowed)",
+        "Hot recent form (5 TDs in recent games)"
+      ],
+      "mlRank": 18,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 9,
+      "actual2024Games": 8,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 9 TDs in 8 games"
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "team": "Detroit Lions",
+      "opponent": "Baltimore Ravens",
+      "position": "RB",
+      "mlProbability": 0.42800000000000005,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (9 TDs)",
+        "Weak opponent defense (3.2 TDs/game allowed)",
+        "Hot recent form (5 TDs in recent games)"
+      ],
+      "mlRank": 19,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 9,
+      "actual2024Games": 8,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 9 TDs in 8 games"
+    },
+    {
+      "player": "Zach Charbonnet",
+      "team": "Seattle Seahawks",
+      "opponent": "New Orleans",
+      "position": "RB",
+      "mlProbability": 0.4254772182254197,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Moderate 2024 production (6 TDs)",
+        "Weak opponent defense (2.9 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 20,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 6,
+      "actual2024Games": 5,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 6 TDs in 5 games"
+    }
+  ],
   "agreement": 0,
   "differences": {
-    "onlyInCurrent": [],
-    "onlyInML": [],
+    "onlyInCurrent": [
+      "Emeka Egbuka"
+    ],
+    "onlyInML": [
+      "De'Von Achane",
+      "James Cook",
+      "Brian Thomas Jr.",
+      "Derrick Henry",
+      "Justin Jefferson",
+      "Ja'Marr Chase",
+      "Nico Collins",
+      "Zach Ertz",
+      "Bijan Robinson",
+      "Kyren Williams",
+      "Chuba Hubbard",
+      "Amon-Ra St. Brown",
+      "Josh Allen",
+      "Malik Nabers",
+      "Tee Higgins",
+      "David Montgomery",
+      "Garrett Wilson",
+      "Chase Brown",
+      "Jahmyr Gibbs",
+      "Zach Charbonnet"
+    ],
     "rankingDifferences": []
   }
 }

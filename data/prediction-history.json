@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-09-20T08:13:32.602Z",
+  "lastUpdated": "2025-09-21T08:12:45.191Z",
   "weeks": [
     {
       "week": 1,
@@ -722,8 +722,16 @@
     {
       "week": 3,
       "year": 2025,
-      "generatedAt": "2025-09-20T08:13:32.602Z",
-      "currentModelPredictions": [],
+      "generatedAt": "2025-09-21T08:12:45.190Z",
+      "currentModelPredictions": [
+        {
+          "rank": 1,
+          "player": "Emeka Egbuka",
+          "team": "Tampa Bay Buccaneers",
+          "opponent": "TBD",
+          "basis": "Pass TD - Rookie hotstreak"
+        }
+      ],
       "mlModelPredictions": [
         {
           "rank": 1,
