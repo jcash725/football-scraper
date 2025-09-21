@@ -23,15 +23,20 @@ async function main() {
     process.exit(1);
   }
 
-  // Get Week 1 actual scorers
-  const weekScorers = touchdownData.playerGameStats
-    .filter((stat: any) => stat.week === week)
+  // Get actual scorers and determine which games have been played
+  const allWeekStats = touchdownData.playerGameStats
+    .filter((stat: any) => stat.week === week);
+
+  const weekScorers = allWeekStats
     .filter((stat: any) => stat.rushingTouchdowns > 0 || stat.receivingTouchdowns > 0)
     .map((stat: any) => ({
       player: stat.playerName,
       team: stat.team,
       scoredTD: true
     }));
+
+  // Get all teams that have played games this week (any stats recorded means game was played)
+  const teamsWithCompletedGames = new Set(allWeekStats.map((stat: any) => stat.team));
 
   console.log(`📊 Found ${weekScorers.length} players who scored TDs in Week ${week}:`);
   weekScorers.forEach(scorer => {
@@ -67,12 +72,17 @@ async function main() {
       pred.Player.toLowerCase().includes(scorer.player.toLowerCase())
     );
 
-    if (actualResult) {
-      console.log(`   ✅ ${pred.Player} (${pred.Team}) - SCORED!`);
-      results.push({player: pred.Player, team: pred.Team, scoredTD: true});
+    // Only add result if the team's game has been played
+    if (teamsWithCompletedGames.has(pred.Team)) {
+      if (actualResult) {
+        console.log(`   ✅ ${pred.Player} (${pred.Team}) - SCORED!`);
+        results.push({player: pred.Player, team: pred.Team, scoredTD: true});
+      } else {
+        console.log(`   ❌ ${pred.Player} (${pred.Team}) - No TD`);
+        results.push({player: pred.Player, team: pred.Team, scoredTD: false});
+      }
     } else {
-      console.log(`   ❌ ${pred.Player} (${pred.Team}) - No TD`);
-      results.push({player: pred.Player, team: pred.Team, scoredTD: false});
+      console.log(`   ⏳ ${pred.Player} (${pred.Team}) - Game not yet played`);
     }
   });
 
@@ -86,17 +96,22 @@ async function main() {
       pred.player.toLowerCase().includes(scorer.player.toLowerCase())
     );
 
-    if (actualResult) {
-      console.log(`   ✅ ${pred.player} (${pred.team}) - SCORED! (${(pred.mlProbability * 100).toFixed(1)}%)`);
-      // Only add if not already added from current model
-      if (!results.find(r => r.player === pred.player && r.team === pred.team)) {
-        results.push({player: pred.player, team: pred.team, scoredTD: true});
+    // Only add result if the team's game has been played
+    if (teamsWithCompletedGames.has(pred.team)) {
+      if (actualResult) {
+        console.log(`   ✅ ${pred.player} (${pred.team}) - SCORED! (${(pred.mlProbability * 100).toFixed(1)}%)`);
+        // Only add if not already added from current model
+        if (!results.find(r => r.player === pred.player && r.team === pred.team)) {
+          results.push({player: pred.player, team: pred.team, scoredTD: true});
+        }
+      } else {
+        console.log(`   ❌ ${pred.player} (${pred.team}) - No TD (${(pred.mlProbability * 100).toFixed(1)}%)`);
+        if (!results.find(r => r.player === pred.player && r.team === pred.team)) {
+          results.push({player: pred.player, team: pred.team, scoredTD: false});
+        }
       }
     } else {
-      console.log(`   ❌ ${pred.player} (${pred.team}) - No TD (${(pred.mlProbability * 100).toFixed(1)}%)`);
-      if (!results.find(r => r.player === pred.player && r.team === pred.team)) {
-        results.push({player: pred.player, team: pred.team, scoredTD: false});
-      }
+      console.log(`   ⏳ ${pred.player} (${pred.team}) - Game not yet played`);
     }
   });
 
@@ -121,7 +136,7 @@ async function main() {
   // Save updated JSON
   fs.writeFileSync(predictionFile, JSON.stringify(predictions, null, 2));
 
-  // Update HTML file with checkmarks
+  // Update HTML file with checkmarks and X marks
   const htmlFile = `data/week${week}-predictions.html`;
   if (fs.existsSync(htmlFile)) {
     let htmlContent = fs.readFileSync(htmlFile, 'utf8');
@@ -131,11 +146,15 @@ async function main() {
         // Add checkmark to player name
         const playerRegex = new RegExp(`<strong>${result.player}</strong>`, 'g');
         htmlContent = htmlContent.replace(playerRegex, `<strong>${result.player} ✅</strong>`);
+      } else {
+        // Add X mark to player name for games that have been played
+        const playerRegex = new RegExp(`<strong>${result.player}</strong>`, 'g');
+        htmlContent = htmlContent.replace(playerRegex, `<strong>${result.player} ❌</strong>`);
       }
     });
 
     fs.writeFileSync(htmlFile, htmlContent);
-    console.log(`✅ Updated ${htmlFile} with checkmarks`);
+    console.log(`✅ Updated ${htmlFile} with checkmarks and X marks`);
   }
 
   console.log('✅ Auto-recording complete!');
