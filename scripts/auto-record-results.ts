@@ -2,7 +2,6 @@
 // Auto-record prediction results by matching against actual touchdown data
 
 import { SimpleTouchdownTracker } from './lib/simple-touchdown-tracker.js';
-import { PredictionTracker } from './lib/prediction-tracker.js';
 
 async function main() {
   const [week, year] = [parseInt(process.argv[2]), parseInt(process.argv[3])];
@@ -39,67 +38,106 @@ async function main() {
     console.log(`   ${scorer.player} (${scorer.team})`);
   });
 
-  // Load prediction history to find our predictions
-  const predictionTracker = new PredictionTracker();
+  // Load current week predictions
   const fs = await import('fs');
-  const history = JSON.parse(fs.readFileSync('data/prediction-history.json', 'utf8'));
-  const weekData = history.weeks.find((w: any) => w.week === week && w.year === year);
-  
-  if (!weekData) {
-    console.log(`❌ No predictions found for Week ${week} ${year}`);
+  const predictionFile = `data/week${week}-predictions.json`;
+
+  if (!fs.existsSync(predictionFile)) {
+    console.log(`❌ No predictions found for Week ${week} ${year} at ${predictionFile}`);
+    process.exit(1);
+  }
+
+  const predictions = JSON.parse(fs.readFileSync(predictionFile, 'utf8'));
+
+  if (predictions.week !== week || predictions.season !== year) {
+    console.log(`❌ Prediction file mismatch: expected Week ${week} ${year}, found Week ${predictions.week} ${predictions.season}`);
     process.exit(1);
   }
 
   // Match predictions against actual results
   const results: Array<{player: string, team: string, scoredTD: boolean}> = [];
-  
+
   // Check current model predictions
-  const currentPredictions = weekData.currentModelPredictions;
+  const currentPredictions = predictions.currentModel.predictions;
   console.log(`\n🔍 Checking ${currentPredictions.length} Current Model predictions...`);
-  
+
   currentPredictions.forEach((pred: any) => {
-    const actualResult = weekScorers.find(scorer => 
-      scorer.player.toLowerCase().includes(pred.player.toLowerCase()) ||
-      pred.player.toLowerCase().includes(scorer.player.toLowerCase())
+    const actualResult = weekScorers.find(scorer =>
+      scorer.player.toLowerCase().includes(pred.Player.toLowerCase()) ||
+      pred.Player.toLowerCase().includes(scorer.player.toLowerCase())
     );
-    
+
     if (actualResult) {
-      console.log(`   ✅ ${pred.player} (${pred.team}) - SCORED!`);
-      results.push({player: pred.player, team: pred.team, scoredTD: true});
+      console.log(`   ✅ ${pred.Player} (${pred.Team}) - SCORED!`);
+      results.push({player: pred.Player, team: pred.Team, scoredTD: true});
     } else {
-      console.log(`   ❌ ${pred.player} (${pred.team}) - No TD`);
-      results.push({player: pred.player, team: pred.team, scoredTD: false});
+      console.log(`   ❌ ${pred.Player} (${pred.Team}) - No TD`);
+      results.push({player: pred.Player, team: pred.Team, scoredTD: false});
     }
   });
 
-  // Check ML model predictions  
-  const mlPredictions = weekData.mlModelPredictions;
+  // Check ML model predictions
+  const mlPredictions = predictions.mlModel.predictions;
   console.log(`\n🤖 Checking ${mlPredictions.length} ML Model predictions...`);
   
   mlPredictions.forEach((pred: any) => {
-    const actualResult = weekScorers.find(scorer => 
+    const actualResult = weekScorers.find(scorer =>
       scorer.player.toLowerCase().includes(pred.player.toLowerCase()) ||
       pred.player.toLowerCase().includes(scorer.player.toLowerCase())
     );
-    
+
     if (actualResult) {
-      console.log(`   ✅ ${pred.player} (${pred.team}) - SCORED! (${(pred.probability * 100).toFixed(1)}%)`);
+      console.log(`   ✅ ${pred.player} (${pred.team}) - SCORED! (${(pred.mlProbability * 100).toFixed(1)}%)`);
       // Only add if not already added from current model
       if (!results.find(r => r.player === pred.player && r.team === pred.team)) {
         results.push({player: pred.player, team: pred.team, scoredTD: true});
       }
     } else {
-      console.log(`   ❌ ${pred.player} (${pred.team}) - No TD (${(pred.probability * 100).toFixed(1)}%)`);
+      console.log(`   ❌ ${pred.player} (${pred.team}) - No TD (${(pred.mlProbability * 100).toFixed(1)}%)`);
       if (!results.find(r => r.player === pred.player && r.team === pred.team)) {
         results.push({player: pred.player, team: pred.team, scoredTD: false});
       }
     }
   });
 
-  // Record all results
-  console.log(`\n📝 Recording ${results.length} results...`);
-  predictionTracker.recordActualResults(week, year, results);
-  
+  // Update prediction files with results
+  console.log(`\n📝 Updating prediction files with results...`);
+
+  // Update JSON file with actual results
+  currentPredictions.forEach((pred: any, index: number) => {
+    const result = results.find(r => r.player === pred.Player && r.team === pred.Team);
+    if (result) {
+      pred.actualResult = result.scoredTD;
+    }
+  });
+
+  mlPredictions.forEach((pred: any, index: number) => {
+    const result = results.find(r => r.player === pred.player && r.team === pred.team);
+    if (result) {
+      pred.actualResult = result.scoredTD;
+    }
+  });
+
+  // Save updated JSON
+  fs.writeFileSync(predictionFile, JSON.stringify(predictions, null, 2));
+
+  // Update HTML file with checkmarks
+  const htmlFile = `data/week${week}-predictions.html`;
+  if (fs.existsSync(htmlFile)) {
+    let htmlContent = fs.readFileSync(htmlFile, 'utf8');
+
+    results.forEach(result => {
+      if (result.scoredTD) {
+        // Add checkmark to player name
+        const playerRegex = new RegExp(`<strong>${result.player}</strong>`, 'g');
+        htmlContent = htmlContent.replace(playerRegex, `<strong>${result.player} ✅</strong>`);
+      }
+    });
+
+    fs.writeFileSync(htmlFile, htmlContent);
+    console.log(`✅ Updated ${htmlFile} with checkmarks`);
+  }
+
   console.log('✅ Auto-recording complete!');
 }
 

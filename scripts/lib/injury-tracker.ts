@@ -213,15 +213,73 @@ export class InjuryTracker {
     }
   }
 
+  async validatePlayerRecommendation(playerName: string, expectedTeam?: string): Promise<{
+    isValid: boolean;
+    currentTeam?: string;
+    injuryStatus?: string;
+    injuryType?: string;
+    impactLevel?: string;
+    warning?: string;
+  }> {
+    console.log(`🔍 Validating player recommendation: ${playerName}${expectedTeam ? ` (${expectedTeam})` : ''}`);
+
+    try {
+      const currentInjuries = await this.fetchCurrentInjuries();
+      const playerRecord = currentInjuries.find(player => {
+        const nameMatch = player.playerName.toLowerCase().includes(playerName.toLowerCase()) ||
+                         playerName.toLowerCase().includes(player.playerName.toLowerCase());
+        return nameMatch;
+      });
+
+      if (!playerRecord) {
+        return {
+          isValid: true,
+          warning: `Player not found in injury report - likely healthy and active`
+        };
+      }
+
+      const teamMismatch = expectedTeam &&
+        !playerRecord.team.toLowerCase().includes(expectedTeam.toLowerCase()) &&
+        !expectedTeam.toLowerCase().includes(playerRecord.team.toLowerCase());
+
+      const hasInjuryConcern = playerRecord.injuryStatus !== 'Active';
+      const isHighImpact = playerRecord.impactLevel === 'High';
+
+      let warning = '';
+      if (teamMismatch) {
+        warning += `Team mismatch: Expected ${expectedTeam}, found on ${playerRecord.team}. `;
+      }
+      if (hasInjuryConcern) {
+        warning += `Injury concern: ${playerRecord.injuryStatus}${playerRecord.injuryType ? ` (${playerRecord.injuryType})` : ''}. `;
+      }
+
+      return {
+        isValid: !isHighImpact && !teamMismatch,
+        currentTeam: playerRecord.team,
+        injuryStatus: playerRecord.injuryStatus,
+        injuryType: playerRecord.injuryType,
+        impactLevel: playerRecord.impactLevel,
+        warning: warning.trim() || undefined
+      };
+
+    } catch (error) {
+      console.error('❌ Error validating player:', error);
+      return {
+        isValid: false,
+        warning: 'Unable to verify player status due to API error'
+      };
+    }
+  }
+
   getInjuryReport(): string {
     if (!fs.existsSync(this.injuryFile)) {
       return 'No injury report available. Run saveInjuryReport() first.';
     }
-    
+
     const report: InjuryReport = JSON.parse(fs.readFileSync(this.injuryFile, 'utf8'));
     const injured = report.players.filter(p => p.injuryStatus !== 'Active');
     const skillPositions = injured.filter(p => ['QB', 'RB', 'WR', 'TE'].includes(p.position));
-    
+
     return `
 🏥 Injury Report - Week ${report.week} ${report.season}
 Generated: ${new Date(report.generatedAt).toLocaleString()}
@@ -232,17 +290,17 @@ Generated: ${new Date(report.generatedAt).toLocaleString()}
 • Skill position players affected: ${skillPositions.length}
 
 🚨 High Impact Injuries:
-${injured.filter(p => p.impactLevel === 'High').map(p => 
+${injured.filter(p => p.impactLevel === 'High').map(p =>
   `   ${p.playerName} (${p.team} ${p.position}) - ${p.injuryStatus}${p.injuryType ? ` (${p.injuryType})` : ''}`
 ).join('\n')}
 
 ⚠️ Medium Impact Injuries:
-${injured.filter(p => p.impactLevel === 'Medium').map(p => 
+${injured.filter(p => p.impactLevel === 'Medium').map(p =>
   `   ${p.playerName} (${p.team} ${p.position}) - ${p.injuryStatus}${p.injuryType ? ` (${p.injuryType})` : ''}`
 ).join('\n')}
 
 💡 Low Impact Injuries:
-${injured.filter(p => p.impactLevel === 'Low').map(p => 
+${injured.filter(p => p.impactLevel === 'Low').map(p =>
   `   ${p.playerName} (${p.team} ${p.position}) - ${p.injuryStatus}${p.injuryType ? ` (${p.injuryType})` : ''}`
 ).join('\n')}
     `;

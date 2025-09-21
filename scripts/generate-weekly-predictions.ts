@@ -14,6 +14,7 @@ import { AnalysisData, Player, TeamStat, Matchup, TDRecommendation } from './lib
 import { getShortTeamName, getFullTeamName } from './lib/team-mappings.js';
 import { writeFileSync } from 'fs';
 import { join } from 'path';
+import { DynamicPlayerValidator } from './lib/dynamic-player-validator.js';
 
 interface SeasonData {
   rushingPlayers: Player[];
@@ -27,24 +28,60 @@ interface WeeklyConfig {
 
 async function loadSeasonData(season: number): Promise<SeasonData> {
   console.log(`Loading ${season} season touchdown data...`);
-  
+
   try {
-    // For 2024 data, we use the current files (they contain 2024 data)
-    let rushingFile = 'data/rushing-touchdowns-players.json';
-    let receivingFile = 'data/receiving-touchdowns-players.json';
-    
-    if (season !== 2024) {
-      // Future enhancement: support multiple seasons
-      console.warn(`Data for season ${season} not available, using 2024 data`);
+    if (season === 2024) {
+      // Load actual 2024 touchdown history data
+      const touchdown2024Data = await readJsonFile('data/touchdown-history-2024.json');
+
+      // Process the game-by-game data to get player totals
+      const rushingTotals = new Map<string, { Player: string, Team: string, Value: number }>();
+      const receivingTotals = new Map<string, { Player: string, Team: string, Value: number }>();
+
+      for (const game of touchdown2024Data.playerGameStats || []) {
+        const key = `${game.playerName}|${game.team}`;
+
+        // Track rushing TDs
+        if (game.rushingTouchdowns > 0) {
+          if (rushingTotals.has(key)) {
+            rushingTotals.get(key)!.Value += game.rushingTouchdowns;
+          } else {
+            rushingTotals.set(key, {
+              Player: game.playerName,
+              Team: game.team,
+              Value: game.rushingTouchdowns
+            });
+          }
+        }
+
+        // Track receiving TDs
+        if (game.receivingTouchdowns > 0) {
+          if (receivingTotals.has(key)) {
+            receivingTotals.get(key)!.Value += game.receivingTouchdowns;
+          } else {
+            receivingTotals.set(key, {
+              Player: game.playerName,
+              Team: game.team,
+              Value: game.receivingTouchdowns
+            });
+          }
+        }
+      }
+
+      return {
+        rushingPlayers: Array.from(rushingTotals.values()),
+        receivingPlayers: Array.from(receivingTotals.values())
+      };
+    } else {
+      // For current season, use the live data files
+      const rushingData = await readJsonFile('data/rushing-touchdowns-players.json');
+      const receivingData = await readJsonFile('data/receiving-touchdowns-players.json');
+
+      return {
+        rushingPlayers: rushingData.rows || [],
+        receivingPlayers: receivingData.rows || []
+      };
     }
-    
-    const rushingData = await readJsonFile(rushingFile);
-    const receivingData = await readJsonFile(receivingFile);
-    
-    return {
-      rushingPlayers: rushingData.rows || [],
-      receivingPlayers: receivingData.rows || []
-    };
   } catch (error) {
     console.warn(`Could not load ${season} data:`, error);
     return {
@@ -138,30 +175,37 @@ function combineSeasonData(season2024: SeasonData, season2025: SeasonData): Seas
 
 function mergePlayers(season2024: Player[], season2025: Player[]): Player[] {
   const playerMap = new Map<string, any>();
-  
-  // First add all 2024 players
+
+  // First add all 2024 players - aggregate TDs by player name only
   for (const player of season2024) {
-    const key = `${player.Player}|${player.Team}`;
-    playerMap.set(key, {
-      Player: player.Player,
-      Team: player.Team,
-      Value: player.Value, // 2024 TDs for eligibility
-      season2024Value: player.Value,
-      season2025Value: 0 // Will be updated with 2025 data
-    });
+    const key = player.Player; // Use only player name as key
+    if (playerMap.has(key)) {
+      // Player already exists, add to their 2024 total (handles team changes)
+      const existing = playerMap.get(key)!;
+      existing.season2024Value += player.Value;
+    } else {
+      playerMap.set(key, {
+        Player: player.Player,
+        Team: player.Team, // Will be updated with current 2025 team
+        Value: player.Value, // 2024 TDs for eligibility
+        season2024Value: player.Value,
+        season2025Value: 0 // Will be updated with 2025 data
+      });
+    }
   }
-  
-  // Then add/update with 2025 data
+
+  // Then add/update with 2025 data - this sets the current team
   for (const player of season2025) {
-    const key = `${player.Player}|${player.Team}`;
+    const key = player.Player; // Use only player name as key
     if (playerMap.has(key)) {
       const existing = playerMap.get(key)!;
+      existing.Team = player.Team; // Update to current 2025 team
       existing.season2025Value = player.Value; // Current season TDs
     } else {
       // New player not in 2024 data
       playerMap.set(key, {
         Player: player.Player,
-        Team: player.Team,
+        Team: player.Team, // Current 2025 team
         Value: 0, // No 2024 data
         season2024Value: 0,
         season2025Value: player.Value
@@ -176,7 +220,7 @@ function mergePlayers(season2024: Player[], season2025: Player[]): Player[] {
     .map(p => ({
       Player: p.Player,
       Team: p.Team,
-      Value: p.season2024Value, // Use 2024 season TD count for eligibility
+      Value: p.season2024Value + p.season2025Value, // Total TDs from both seasons for eligibility
       season2025Value: p.season2025Value // Store 2025 TDs separately
     }));
 }
@@ -286,9 +330,9 @@ async function generateWeeklyPredictions(config: WeeklyConfig): Promise<{current
 
 async function generateMLPredictions(mlPredictor: EnhancedMLTDPredictor, data: any): Promise<any[]> {
   const allPlayers = [...data.rushingPlayers, ...data.receivingPlayers];
-  const predictions: any[] = [];
-  
-  console.log(`Processing ${allPlayers.length} players for Enhanced ML predictions...`);
+  const allPredictions: any[] = [];
+
+  console.log(`🤖 Generating ML predictions for ${allPlayers.length} players...`);
   
   for (const player of allPlayers) {
     // Convert full team name to short name for matchup lookup
@@ -332,8 +376,8 @@ async function generateMLPredictions(mlPredictor: EnhancedMLTDPredictor, data: a
         isHome,
         player.Pos || 'WR'
       );
-      
-      predictions.push({
+
+      allPredictions.push({
         player: prediction.player,
         team: prediction.team,
         opponent: prediction.opponent,
@@ -349,15 +393,15 @@ async function generateMLPredictions(mlPredictor: EnhancedMLTDPredictor, data: a
         vsOpponentTDs: prediction.historicalData.vsOpponent,
         basis: `2024 Data: ${prediction.historicalData.totalTDs2024} TDs in ${prediction.historicalData.games} games`
       });
-      
+
     } catch (error) {
       // Player might not have 2024 data, skip silently
       continue;
     }
   }
-  
-  // Remove duplicates (same player/opponent combination)
-  const uniquePredictions = predictions.reduce((unique: any[], pred) => {
+
+  // Remove duplicates and sort by probability
+  const uniquePredictions = allPredictions.reduce((unique: any[], pred) => {
     const key = `${pred.player}-${pred.opponent}`;
     const existing = unique.find(p => `${p.player}-${p.opponent}` === key);
     
@@ -372,13 +416,37 @@ async function generateMLPredictions(mlPredictor: EnhancedMLTDPredictor, data: a
     return unique;
   }, []);
   
-  // Sort by ML probability and assign ranks
+  // Sort by ML probability
   uniquePredictions.sort((a, b) => b.mlProbability - a.mlProbability);
-  uniquePredictions.forEach((pred, index) => {
-    pred.mlRank = index + 1;
-  });
-  
-  return uniquePredictions.slice(0, 20); // Top 20 Enhanced ML predictions
+
+  // Now validate only the top candidates to get 20 active players
+  console.log(`🏥 Validating top ML candidates for active status...`);
+  const validator = new DynamicPlayerValidator();
+  const validatedPredictions: any[] = [];
+
+  let currentIndex = 0;
+  while (validatedPredictions.length < 20 && currentIndex < uniquePredictions.length) {
+    const pred = uniquePredictions[currentIndex];
+
+    // Validate player status
+    const validation = await validator.validatePlayer(pred.player);
+
+    if (validation.isActive) {
+      console.log(`✅ ML: ${pred.player} (${pred.team}) - Active - Added to top 20`);
+      pred.mlRank = validatedPredictions.length + 1;
+      validatedPredictions.push(pred);
+    } else {
+      console.log(`❌ ML: ${pred.player} (${pred.team}) - ${validation.status} - Finding replacement...`);
+    }
+
+    currentIndex++;
+
+    // Rate limiting delay
+    await new Promise(resolve => setTimeout(resolve, 500));
+  }
+
+  console.log(`📊 ML Final list: ${validatedPredictions.length}/20 active players selected`);
+  return validatedPredictions;
 }
 
 function createModelComparison(currentModel: any[], mlModel: any[]): any {
