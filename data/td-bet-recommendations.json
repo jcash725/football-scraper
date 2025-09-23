@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2025-09-22T08:16:12.881Z",
+  "generatedAt": "2025-09-23T08:15:15.783Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
-  "count": 3,
+  "count": 4,
   "recommendations": [
     {
       "Player": "Emeka Egbuka",
@@ -19,24 +19,35 @@
     {
       "Player": "Rome Odunze",
       "Team": "Chicago Bears",
-      "Opponent": "Dallas",
+      "Opponent": "Las Vegas",
       "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.6,
+      "Opponent Stat Value": 1.7,
       "Player TDs YTD": 4,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Chicago Bears vs Dallas - opponent allows 1.6 pass TDs/game"
+      "Reason": "Chicago Bears vs Las Vegas - opponent allows 1.7 pass TDs/game"
     },
     {
-      "Player": "Tre Tucker",
-      "Team": "Las Vegas Raiders",
-      "Opponent": "Washington",
+      "Player": "Amon-Ra St. Brown",
+      "Team": "Detroit Lions",
+      "Opponent": "Cleveland",
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 1.5,
       "Player TDs YTD": 4,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs Washington - opponent allows 1.5 pass TDs/game"
+      "Reason": "Detroit Lions vs Cleveland - opponent allows 1.5 pass TDs/game"
+    },
+    {
+      "Player": "Tre Tucker",
+      "Team": "Las Vegas Raiders",
+      "Opponent": "Chicago",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Las Vegas Raiders vs Chicago - opponent allows 1 pass TDs/game"
     }
   ]
 }
