@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-09-23T08:15:15.783Z",
+  "lastUpdated": "2025-09-24T08:15:37.951Z",
   "weeks": [
     {
       "week": 1,
@@ -998,7 +998,7 @@
     {
       "week": 4,
       "year": 2025,
-      "generatedAt": "2025-09-23T08:15:15.782Z",
+      "generatedAt": "2025-09-24T08:15:37.951Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -1240,6 +1240,19 @@
         },
         {
           "rank": 17,
+          "player": "DeVonta Smith",
+          "team": "Philadelphia Eagles",
+          "opponent": "Tampa Bay",
+          "probability": 0.47800000000000004,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (9 TDs)",
+            "Weak opponent defense (3.7 TDs/game allowed)",
+            "Hot recent form (6 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 18,
           "player": "Bucky Irving",
           "team": "Tampa Bay Buccaneers",
           "opponent": "Philadelphia Eagles",
@@ -1252,7 +1265,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 19,
           "player": "Mark Andrews",
           "team": "Baltimore Ravens",
           "opponent": "Kansas City",
@@ -1265,7 +1278,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 20,
           "player": "Rashod Bateman",
           "team": "Baltimore Ravens",
           "opponent": "Kansas City",
@@ -1275,19 +1288,6 @@
             "Strong 2024 production (11 TDs)",
             "Weak opponent defense (3.5 TDs/game allowed)",
             "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "Bijan Robinson",
-          "team": "Atlanta Falcons",
-          "opponent": "Washington Commanders",
-          "probability": 0.4506666666666667,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (7 TDs)",
-            "Weak opponent defense (4.0 TDs/game allowed)",
-            "Hot recent form (7 TDs in recent games)"
           ]
         }
       ]
