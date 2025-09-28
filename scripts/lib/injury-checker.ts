@@ -55,10 +55,18 @@ export class InjuryChecker {
   getPlayerInjuryStatus(playerName: string): InjuryReport | null {
     const database = this.loadInjuryDatabase();
 
-    return database.reports.find(report =>
+    // Find all matching reports and return the most recent one
+    const matchingReports = database.reports.filter(report =>
       report.playerName.toLowerCase().includes(playerName.toLowerCase()) ||
       playerName.toLowerCase().includes(report.playerName.toLowerCase())
-    ) || null;
+    );
+
+    if (matchingReports.length === 0) return null;
+
+    // Sort by lastUpdated timestamp and return the most recent
+    return matchingReports.sort((a, b) =>
+      new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime()
+    )[0];
   }
 
   addInjuryReports(week: number, reports: InjuryReport[]): void {
@@ -90,10 +98,10 @@ export class InjuryChecker {
       {
         playerName: "CeeDee Lamb",
         team: "Dallas Cowboys",
-        status: "Questionable",
+        status: "Out",
         injury: "Ankle",
         lastUpdated: new Date().toISOString(),
-        practiceStatus: ["Limited", "Limited", "Full"]
+        practiceStatus: ["DNP", "DNP", "DNP"]
       },
       {
         playerName: "Travis Kelce",
