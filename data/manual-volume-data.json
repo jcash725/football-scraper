@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-28T01:51:14.817Z",
+  "generatedAt": "2025-09-28T02:45:15.719Z",
   "season": 2025,
   "weeks": [
     {
@@ -52,7 +52,7 @@
           "carries": 0,
           "targets": 9,
           "receptions": 7,
-          "redZoneTargets": 0,
+          "redZoneTargets": 2,
           "redZoneCarries": 0,
           "snapCount": 35,
           "teamPoints": 24,
@@ -60,7 +60,7 @@
           "teamRushingAttempts": 26,
           "targetShare": 0.28125,
           "touchShare": 0,
-          "redZoneShare": 0
+          "redZoneShare": 0.4
         },
         {
           "playerName": "Jaxon Smith-Njigba",
@@ -90,15 +90,15 @@
           "carries": 20,
           "targets": 8,
           "receptions": 6,
-          "redZoneTargets": 0,
-          "redZoneCarries": 0,
+          "redZoneTargets": 2,
+          "redZoneCarries": 4,
           "snapCount": 43,
           "teamPoints": 24,
           "teamPassingAttempts": 32,
           "teamRushingAttempts": 26,
           "targetShare": 0.25,
           "touchShare": 0.7692307692307693,
-          "redZoneShare": 0
+          "redZoneShare": 1.2
         },
         {
           "playerName": "Malik Nabers",
@@ -128,7 +128,7 @@
           "carries": 0,
           "targets": 8,
           "receptions": 6,
-          "redZoneTargets": 0,
+          "redZoneTargets": 2,
           "redZoneCarries": 0,
           "snapCount": 35,
           "teamPoints": 24,
@@ -136,7 +136,7 @@
           "teamRushingAttempts": 26,
           "targetShare": 0.25,
           "touchShare": 0,
-          "redZoneShare": 0
+          "redZoneShare": 0.4
         },
         {
           "playerName": "Garrett Wilson",
@@ -166,7 +166,7 @@
           "carries": 0,
           "targets": 8,
           "receptions": 6,
-          "redZoneTargets": 0,
+          "redZoneTargets": 2,
           "redZoneCarries": 0,
           "snapCount": 35,
           "teamPoints": 24,
@@ -174,7 +174,7 @@
           "teamRushingAttempts": 26,
           "targetShare": 0.25,
           "touchShare": 0,
-          "redZoneShare": 0
+          "redZoneShare": 0.4
         },
         {
           "playerName": "Ja'Marr Chase",
@@ -204,7 +204,7 @@
           "carries": 0,
           "targets": 7,
           "receptions": 5,
-          "redZoneTargets": 0,
+          "redZoneTargets": 2,
           "redZoneCarries": 0,
           "snapCount": 35,
           "teamPoints": 24,
@@ -212,7 +212,7 @@
           "teamRushingAttempts": 26,
           "targetShare": 0.21875,
           "touchShare": 0,
-          "redZoneShare": 0
+          "redZoneShare": 0.4
         },
         {
           "playerName": "CeeDee Lamb",
@@ -223,7 +223,7 @@
           "carries": 0,
           "targets": 6,
           "receptions": 5,
-          "redZoneTargets": 0,
+          "redZoneTargets": 1,
           "redZoneCarries": 0,
           "snapCount": 35,
           "teamPoints": 24,
@@ -231,7 +231,7 @@
           "teamRushingAttempts": 26,
           "targetShare": 0.1875,
           "touchShare": 0,
-          "redZoneShare": 0
+          "redZoneShare": 0.2
         },
         {
           "playerName": "Tyreek Hill",
@@ -262,14 +262,14 @@
           "targets": 5,
           "receptions": 4,
           "redZoneTargets": 0,
-          "redZoneCarries": 0,
+          "redZoneCarries": 3,
           "snapCount": 39,
           "teamPoints": 24,
           "teamPassingAttempts": 32,
           "teamRushingAttempts": 26,
           "targetShare": 0.15625,
           "touchShare": 0.7307692307692307,
-          "redZoneShare": 0
+          "redZoneShare": 0.6
         },
         {
           "playerName": "Josh Jacobs",
@@ -281,14 +281,14 @@
           "targets": 4,
           "receptions": 3,
           "redZoneTargets": 0,
-          "redZoneCarries": 0,
+          "redZoneCarries": 3,
           "snapCount": 37,
           "teamPoints": 24,
           "teamPassingAttempts": 32,
           "teamRushingAttempts": 26,
           "targetShare": 0.125,
           "touchShare": 0.6923076923076923,
-          "redZoneShare": 0
+          "redZoneShare": 0.6
         },
         {
           "playerName": "Derrick Henry",
@@ -300,14 +300,14 @@
           "targets": 2,
           "receptions": 2,
           "redZoneTargets": 0,
-          "redZoneCarries": 0,
+          "redZoneCarries": 3,
           "snapCount": 39,
           "teamPoints": 24,
           "teamPassingAttempts": 32,
           "teamRushingAttempts": 26,
           "targetShare": 0.0625,
           "touchShare": 0.8461538461538461,
-          "redZoneShare": 0
+          "redZoneShare": 0.6
         },
         {
           "playerName": "Kenneth Walker III",
@@ -319,14 +319,14 @@
           "targets": 3,
           "receptions": 3,
           "redZoneTargets": 0,
-          "redZoneCarries": 0,
+          "redZoneCarries": 2,
           "snapCount": 35,
           "teamPoints": 24,
           "teamPassingAttempts": 32,
           "teamRushingAttempts": 26,
           "targetShare": 0.09375,
           "touchShare": 0.6538461538461539,
-          "redZoneShare": 0
+          "redZoneShare": 0.4
         },
         {
           "playerName": "De'Von Achane",
@@ -338,14 +338,14 @@
           "targets": 6,
           "receptions": 5,
           "redZoneTargets": 0,
-          "redZoneCarries": 0,
+          "redZoneCarries": 2,
           "snapCount": 35,
           "teamPoints": 24,
           "teamPassingAttempts": 32,
           "teamRushingAttempts": 26,
           "targetShare": 0.1875,
           "touchShare": 0.46153846153846156,
-          "redZoneShare": 0
+          "redZoneShare": 0.4
         },
         {
           "playerName": "James Cook",
@@ -357,14 +357,14 @@
           "targets": 5,
           "receptions": 4,
           "redZoneTargets": 0,
-          "redZoneCarries": 0,
+          "redZoneCarries": 3,
           "snapCount": 35,
           "teamPoints": 24,
           "teamPassingAttempts": 32,
           "teamRushingAttempts": 26,
           "targetShare": 0.15625,
           "touchShare": 0.5769230769230769,
-          "redZoneShare": 0
+          "redZoneShare": 0.6
         },
         {
           "playerName": "Marvin Harrison Jr.",
@@ -470,7 +470,7 @@
           "carries": 0,
           "targets": 6,
           "receptions": 5,
-          "redZoneTargets": 0,
+          "redZoneTargets": 2,
           "redZoneCarries": 0,
           "snapCount": 35,
           "teamPoints": 24,
@@ -478,7 +478,7 @@
           "teamRushingAttempts": 26,
           "targetShare": 0.1875,
           "touchShare": 0,
-          "redZoneShare": 0
+          "redZoneShare": 0.4
         },
         {
           "playerName": "Mark Andrews",
@@ -489,7 +489,7 @@
           "carries": 0,
           "targets": 5,
           "receptions": 4,
-          "redZoneTargets": 0,
+          "redZoneTargets": 1,
           "redZoneCarries": 0,
           "snapCount": 35,
           "teamPoints": 24,
@@ -497,7 +497,7 @@
           "teamRushingAttempts": 26,
           "targetShare": 0.15625,
           "touchShare": 0,
-          "redZoneShare": 0
+          "redZoneShare": 0.2
         },
         {
           "playerName": "George Kittle",

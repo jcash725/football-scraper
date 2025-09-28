@@ -13,6 +13,7 @@ interface PlayerWithInjury {
   position: string;
   targets: number;
   carries: number;
+  redZoneOpportunities: number;
   volumeScore: number;
   enhancedScore: number;
   prediction: string;
@@ -66,7 +67,7 @@ async function main() {
 
     // Determine prediction tier
     let prediction = 'Dart Throw';
-    if (enhancedScore >= 12) {
+    if (enhancedScore >= 12 && (player.redZoneTargets + player.redZoneCarries) >= 2) {
       prediction = 'Strong Play';
     } else if (enhancedScore >= 8 && (player.targets >= 8 || player.carries >= 12)) {
       prediction = 'Solid Play';
@@ -82,7 +83,8 @@ async function main() {
       position: player.position,
       targets: player.targets,
       carries: player.carries,
-      volumeScore: player.tdPredictionScore,
+      redZoneOpportunities: player.redZoneTargets + player.redZoneCarries,
+      volumeScore: (player as any).tdPredictionScore,
       enhancedScore,
       prediction,
       injuryStatus,
@@ -165,6 +167,7 @@ function generateHTML(week: number, players: PlayerWithInjury[]): string {
                     <th>Pos</th>
                     <th>Targets</th>
                     <th>Carries</th>
+                    <th>RZ Opps</th>
                     <th>Score</th>
                     <th>Tier</th>
                     <th>Injury</th>
@@ -179,6 +182,7 @@ function generateHTML(week: number, players: PlayerWithInjury[]): string {
                     <td>${player.position}</td>
                     <td class="stat-value">${player.targets}</td>
                     <td class="stat-value">${player.carries}</td>
+                    <td class="stat-value">${player.redZoneOpportunities}</td>
                     <td class="stat-value">${player.enhancedScore}</td>
                     <td><span class="model-badge volume-badge">${player.prediction}</span></td>
                     <td class="injury-${player.injuryStatus.toLowerCase().includes('healthy') ? 'healthy' :

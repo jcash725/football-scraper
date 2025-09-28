@@ -2,6 +2,7 @@
 // Automated volume data scraper - runs before generating predictions
 
 import { ManualVolumeTracker } from './lib/manual-volume-tracker.js';
+import { scrapeRedZoneData } from './scrape-pfr-redzone.js';
 
 interface PlayerVolumeData {
   name: string;
@@ -194,6 +195,9 @@ async function main() {
   // Scrape current target leaders
   const targetLeaders = await scrapeNFLTargetsData();
 
+  // Scrape red zone data from Pro Football Reference
+  const redZoneData = await scrapeRedZoneData();
+
   if (targetLeaders.length === 0) {
     console.log('❌ No volume data found from any source');
     process.exit(1);
@@ -201,11 +205,26 @@ async function main() {
 
   const tracker = new ManualVolumeTracker();
 
+  // Create red zone lookup
+  const redZoneLookup = new Map<string, { targets?: number; carries?: number }>();
+  redZoneData.forEach(rzPlayer => {
+    const key = rzPlayer.playerName.toLowerCase();
+    redZoneLookup.set(key, {
+      targets: rzPlayer.redZoneTargets,
+      carries: rzPlayer.redZoneCarries
+    });
+  });
+
   // Convert to weekly volume data
   const volumeData = targetLeaders.map(player => {
     const weeklyTargets = Math.ceil(player.targets / 4); // Convert season to weekly
     const weeklyCarries = player.carries ? Math.ceil(player.carries / 4) : 0;
-    const weeklyRedZoneOpps = 0; // No red zone data available
+
+    // Get real red zone data
+    const playerKey = player.name.toLowerCase();
+    const rzData = redZoneLookup.get(playerKey);
+    const weeklyRedZoneTargets = rzData?.targets ? Math.ceil(rzData.targets / 4) : 0;
+    const weeklyRedZoneCarries = rzData?.carries ? Math.ceil(rzData.carries / 4) : 0;
 
     return {
       playerName: player.name,
@@ -218,8 +237,8 @@ async function main() {
       carries: weeklyCarries,
       targets: weeklyTargets,
       receptions: Math.ceil(weeklyTargets * 0.68), // NFL catch rate
-      redZoneTargets: player.position === 'RB' ? Math.ceil(weeklyRedZoneOpps * 0.3) : Math.ceil(weeklyRedZoneOpps * 0.8), // RBs get more carries in RZ
-      redZoneCarries: player.position === 'RB' ? Math.ceil(weeklyRedZoneOpps * 0.7) : 0, // Only RBs get carries
+      redZoneTargets: weeklyRedZoneTargets,
+      redZoneCarries: weeklyRedZoneCarries,
       snapCount: Math.max(weeklyTargets + weeklyCarries + 15, 35),
 
       // Team context
@@ -230,7 +249,7 @@ async function main() {
       // Derived metrics
       targetShare: weeklyTargets / 32,
       touchShare: weeklyCarries / 26,
-      redZoneShare: weeklyRedZoneOpps / 5
+      redZoneShare: (weeklyRedZoneTargets + weeklyRedZoneCarries) / 5
     };
   });
 
@@ -246,7 +265,7 @@ async function main() {
   candidates.slice(0, 10).forEach((player: any, i) => {
     const redZoneTotal = player.redZoneTargets + player.redZoneCarries;
     console.log(`   ${i + 1}. ${player.playerName} (${player.team}) - Score: ${player.tdPredictionScore}`);
-    console.log(`      ${player.targets} targets, ${player.carries} carries | ${redZoneTotal} RZ opps`);
+    console.log(`      ${player.targets} targets, ${player.carries} carries | ${redZoneTotal} RZ opps (${player.redZoneTargets} tgt, ${player.redZoneCarries} car)`);
   });
 
   console.log(`\n🤖 Auto-scraping complete! Data ready for predictions.`);
