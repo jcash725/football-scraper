@@ -1,5 +1,5 @@
 import { TDRecommendation, AnalysisData } from './types.js';
-import { generateBasicRecommendations } from './recommendation-engine.js';
+import { generateBasicRecommendations, getOpponentForFullTeamName } from './recommendation-engine.js';
 import { getPlayerTDsVsOpponent } from './data-fetcher.js';
 import { DynamicPlayerValidator } from './dynamic-player-validator.js';
 import { SimpleTouchdownTracker } from './simple-touchdown-tracker.js';
@@ -303,10 +303,13 @@ function boostRookieRecommendations(recommendations: TDRecommendation[], rookieS
         const consistencyBoost = rookie.consistency >= 1.0 ? 2.0 + rookie.consistency : rookie.consistency;
         const rookieScore = baseValue + consistencyBoost;
 
+        // Look up opponent from matchup data
+        const opponent = getOpponentForFullTeamName(rookie.team, analysisData.matchups) || "TBD";
+
         const newRec: TDRecommendation = {
           Player: rookie.name,
           Team: rookie.team,
-          Opponent: "TBD", // Will be filled by matchup logic
+          Opponent: opponent,
           "Player TDs YTD": rookie.totalTDs,
           "Player 2025 TDs": rookie.totalTDs,
           "Opponent Stat Value": rookieScore,

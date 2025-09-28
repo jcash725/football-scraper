@@ -35,8 +35,15 @@ async function main() {
       scoredTD: true
     }));
 
-  // Get all teams that have played games this week (any stats recorded means game was played)
-  const teamsWithCompletedGames = new Set(allWeekStats.map((stat: any) => stat.team));
+  // Get all teams that have played games this week
+  // Note: touchdown database only includes players who scored, so we need to also check
+  // opponent teams to catch teams that scored 0 TDs
+  const teamsWithCompletedGames = new Set<string>();
+
+  allWeekStats.forEach((stat: any) => {
+    teamsWithCompletedGames.add(stat.team);
+    teamsWithCompletedGames.add(stat.opponent);
+  });
 
   console.log(`📊 Found ${weekScorers.length} players who scored TDs in Week ${week}:`);
   weekScorers.forEach(scorer => {
