@@ -1,0 +1,504 @@
+{
+  "week": 4,
+  "generatedAt": "2025-09-30T17:37:40.677Z",
+  "predictions": [
+    {
+      "playerName": "Josh Jacobs",
+      "team": "Green Bay Packers",
+      "position": "RB",
+      "opponent": "Dallas Cowboys",
+      "targets": 4,
+      "carries": 18,
+      "redZoneOpportunities": 3,
+      "volumeScore": 10,
+      "defenseScore": 4.75,
+      "historicalScore": 3,
+      "finalScore": 8,
+      "prediction": "Strong Play",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "High volume (22 touches)",
+        "High red zone usage (3 opportunities)",
+        "Dual-threat usage",
+        "Weak rush defense (1.5 TDs/game allowed)",
+        "Good recent form (2 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Saquon Barkley",
+      "team": "Philadelphia Eagles",
+      "position": "RB",
+      "opponent": "Tampa Bay Buccaneers",
+      "targets": 5,
+      "carries": 19,
+      "redZoneOpportunities": 3,
+      "volumeScore": 10,
+      "defenseScore": 1,
+      "historicalScore": 3,
+      "finalScore": 7,
+      "prediction": "Solid Play",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "High volume (24 touches)",
+        "High red zone usage (3 opportunities)",
+        "Dual-threat usage",
+        "Strong rush defense (0.8 TDs/game allowed)",
+        "Good recent form (2 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Derrick Henry",
+      "team": "Baltimore Ravens",
+      "position": "RB",
+      "opponent": "Kansas City Chiefs",
+      "targets": 2,
+      "carries": 22,
+      "redZoneOpportunities": 3,
+      "volumeScore": 10,
+      "defenseScore": 1.5,
+      "historicalScore": 5,
+      "finalScore": 7,
+      "prediction": "Solid Play",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "High volume (24 touches)",
+        "High red zone usage (3 opportunities)",
+        "Dual-threat usage",
+        "Solid rush defense (1.0 TDs/game allowed)",
+        "Hot recent form (3 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "James Cook",
+      "team": "Buffalo Bills",
+      "position": "RB",
+      "opponent": "New Orleans Saints",
+      "targets": 5,
+      "carries": 15,
+      "redZoneOpportunities": 3,
+      "volumeScore": 10,
+      "defenseScore": 1.5,
+      "historicalScore": 5,
+      "finalScore": 7,
+      "prediction": "Solid Play",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "High volume (20 touches)",
+        "High red zone usage (3 opportunities)",
+        "Dual-threat usage",
+        "Solid rush defense (1.0 TDs/game allowed)",
+        "Hot recent form (4 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
+      "position": "RB",
+      "opponent": "Jacksonville Jaguars",
+      "targets": 8,
+      "carries": 20,
+      "redZoneOpportunities": 6,
+      "volumeScore": 10,
+      "defenseScore": 1,
+      "historicalScore": 1,
+      "finalScore": 6,
+      "prediction": "Solid Play",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "High volume (28 touches)",
+        "High red zone usage (6 opportunities)",
+        "Dual-threat usage",
+        "Strong rush defense (0.3 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Kenneth Walker III",
+      "team": "Seattle Seahawks",
+      "position": "RB",
+      "opponent": "Arizona Cardinals",
+      "targets": 3,
+      "carries": 17,
+      "redZoneOpportunities": 2,
+      "volumeScore": 9,
+      "defenseScore": 1,
+      "historicalScore": 5,
+      "finalScore": 6,
+      "prediction": "Solid Play",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "High volume (20 touches)",
+        "Good red zone usage (2 opportunities)",
+        "Dual-threat usage",
+        "Strong rush defense (0.5 TDs/game allowed)",
+        "Hot recent form (3 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "De'Von Achane",
+      "team": "Miami Dolphins",
+      "position": "RB",
+      "opponent": "New York Jets",
+      "targets": 6,
+      "carries": 12,
+      "redZoneOpportunities": 2,
+      "volumeScore": 7,
+      "defenseScore": 5,
+      "historicalScore": 3,
+      "finalScore": 6,
+      "prediction": "Solid Play",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Good volume (18 touches)",
+        "Good red zone usage (2 opportunities)",
+        "Dual-threat usage",
+        "No defensive data available",
+        "Good recent form (2 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "Los Angeles Rams",
+      "position": "WR",
+      "opponent": "Indianapolis Colts",
+      "targets": 8,
+      "carries": 0,
+      "redZoneOpportunities": 2,
+      "volumeScore": 2,
+      "defenseScore": 7,
+      "historicalScore": 3,
+      "finalScore": 4,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Doubtful (Hamstring)",
+      "reasoning": [
+        "Low volume (8 touches)",
+        "Good red zone usage (2 opportunities)",
+        "Very Weak pass defense (2.0 TDs/game allowed)",
+        "Good recent form (2 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Amon-Ra St. Brown",
+      "team": "Detroit Lions",
+      "position": "WR",
+      "opponent": "Cleveland Browns",
+      "targets": 7,
+      "carries": 0,
+      "redZoneOpportunities": 2,
+      "volumeScore": 2,
+      "defenseScore": 7,
+      "historicalScore": 5,
+      "finalScore": 4,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (7 touches)",
+        "Good red zone usage (2 opportunities)",
+        "Very Weak pass defense (2.0 TDs/game allowed)",
+        "Hot recent form (4 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Travis Kelce",
+      "team": "Kansas City Chiefs",
+      "position": "TE",
+      "opponent": "Baltimore Ravens",
+      "targets": 6,
+      "carries": 0,
+      "redZoneOpportunities": 2,
+      "volumeScore": 2,
+      "defenseScore": 7.75,
+      "historicalScore": 1,
+      "finalScore": 4,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (6 touches)",
+        "Good red zone usage (2 opportunities)",
+        "Very Weak pass defense (2.3 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Trey McBride",
+      "team": "Arizona Cardinals",
+      "position": "TE",
+      "opponent": "Seattle Seahawks",
+      "targets": 9,
+      "carries": 0,
+      "redZoneOpportunities": 2,
+      "volumeScore": 2,
+      "defenseScore": 4.75,
+      "historicalScore": 1,
+      "finalScore": 3,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (9 touches)",
+        "Good red zone usage (2 opportunities)",
+        "Weak pass defense (1.5 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Jake Ferguson",
+      "team": "Dallas Cowboys",
+      "position": "TE",
+      "opponent": "Green Bay Packers",
+      "targets": 8,
+      "carries": 0,
+      "redZoneOpportunities": 2,
+      "volumeScore": 2,
+      "defenseScore": 4.75,
+      "historicalScore": 0,
+      "finalScore": 3,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (8 touches)",
+        "Good red zone usage (2 opportunities)",
+        "Weak pass defense (1.5 TDs/game allowed)"
+      ]
+    },
+    {
+      "playerName": "Chris Olave",
+      "team": "New Orleans Saints",
+      "position": "WR",
+      "opponent": "Buffalo Bills",
+      "targets": 10,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 2,
+      "defenseScore": 4.75,
+      "historicalScore": 0,
+      "finalScore": 3,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Moderate volume (10 touches)",
+        "Weak pass defense (1.5 TDs/game allowed)"
+      ]
+    },
+    {
+      "playerName": "Puka Nacua",
+      "team": "Los Angeles Rams",
+      "position": "WR",
+      "opponent": "Indianapolis Colts",
+      "targets": 9,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 7,
+      "historicalScore": 1,
+      "finalScore": 2,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (9 touches)",
+        "Very Weak pass defense (2.0 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Malik Nabers",
+      "team": "New York Giants",
+      "position": "WR",
+      "opponent": "Los Angeles Chargers",
+      "targets": 8,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 5,
+      "historicalScore": 3,
+      "finalScore": 2,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (8 touches)",
+        "No defensive data available",
+        "Good recent form (2 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Garrett Wilson",
+      "team": "New York Jets",
+      "position": "WR",
+      "opponent": "Miami Dolphins",
+      "targets": 8,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 5.5,
+      "historicalScore": 3,
+      "finalScore": 2,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (8 touches)",
+        "Weak pass defense (1.8 TDs/game allowed)",
+        "Good recent form (2 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Ja'Marr Chase",
+      "team": "Cincinnati Bengals",
+      "position": "WR",
+      "opponent": "Detroit",
+      "targets": 7,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 5.5,
+      "historicalScore": 1,
+      "finalScore": 2,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (7 touches)",
+        "Weak pass defense (1.8 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Tyreek Hill",
+      "team": "Miami Dolphins",
+      "position": "WR",
+      "opponent": "New York Jets",
+      "targets": 6,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 5,
+      "historicalScore": 1,
+      "finalScore": 2,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Questionable (Hip)",
+      "reasoning": [
+        "Low volume (6 touches)",
+        "No defensive data available",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Marvin Harrison Jr.",
+      "team": "Arizona Cardinals",
+      "position": "WR",
+      "opponent": "Seattle Seahawks",
+      "targets": 7,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 4.75,
+      "historicalScore": 1,
+      "finalScore": 2,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (7 touches)",
+        "Weak pass defense (1.5 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Keenan Allen",
+      "team": "Los Angeles Chargers",
+      "position": "WR",
+      "opponent": "New York Giants",
+      "targets": 7,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 5,
+      "historicalScore": 5,
+      "finalScore": 2,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (7 touches)",
+        "No defensive data available",
+        "Hot recent form (3 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Jaxon Smith-Njigba",
+      "team": "Seattle Seahawks",
+      "position": "WR",
+      "opponent": "Arizona Cardinals",
+      "targets": 9,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 3.25,
+      "historicalScore": 1,
+      "finalScore": 1,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (9 touches)",
+        "Average pass defense (1.3 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Mark Andrews",
+      "team": "Baltimore Ravens",
+      "position": "TE",
+      "opponent": "Kansas City Chiefs",
+      "targets": 5,
+      "carries": 0,
+      "redZoneOpportunities": 1,
+      "volumeScore": 1,
+      "defenseScore": 1.5,
+      "historicalScore": 3,
+      "finalScore": 1,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Questionable (Knee)",
+      "reasoning": [
+        "Low volume (5 touches)",
+        "Some red zone usage (1 opportunities)",
+        "Solid pass defense (1.0 TDs/game allowed)",
+        "Good recent form (2 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Rome Odunze",
+      "team": "Chicago Bears",
+      "position": "WR",
+      "opponent": "Las Vegas Raiders",
+      "targets": 7,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 3.25,
+      "historicalScore": 5,
+      "finalScore": 1,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (7 touches)",
+        "Average pass defense (1.3 TDs/game allowed)",
+        "Hot recent form (4 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Brian Thomas Jr.",
+      "team": "Jacksonville Jaguars",
+      "position": "WR",
+      "opponent": "San Francisco 49ers",
+      "targets": 7,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 3.25,
+      "historicalScore": 1,
+      "finalScore": 1,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (7 touches)",
+        "Average pass defense (1.3 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    }
+  ]
+}

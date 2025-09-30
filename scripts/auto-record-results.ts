@@ -251,6 +251,140 @@ async function main() {
     console.log(`📊 Volume Model Results: ${volumeHits}/${volumeTotal} (${volumeHitRate}%)`);
   }
 
+  // Update combined predictions HTML file
+  const combinedHtmlFile = `data/week${week}-combined-predictions.html`;
+  if (fs.existsSync(combinedHtmlFile)) {
+    let combinedHtmlContent = fs.readFileSync(combinedHtmlFile, 'utf8');
+
+    // Clean up existing marks and duplicate summary boxes first
+    combinedHtmlContent = combinedHtmlContent.replace(/( ✅)+/g, '');
+    combinedHtmlContent = combinedHtmlContent.replace(/( ❌)+/g, '');
+    combinedHtmlContent = combinedHtmlContent.replace(/<div style="background-color: #1e2328; padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #00d4aa;">[\s\S]*?<\/div>/g, '');
+
+    // Check combined predictions against actual results
+    const combinedResults: Array<{player: string, team: string, scoredTD: boolean}> = [];
+
+    console.log(`\n🔍 Checking Combined Volume + Defense predictions...`);
+
+    // Extract player names from combined HTML and check against actual results
+    const combinedPlayerMatches = combinedHtmlContent.match(/<td><strong>([^<]+)<\/strong><\/td>/g);
+    if (combinedPlayerMatches) {
+      combinedPlayerMatches.forEach(match => {
+        const playerName = match.replace(/<td><strong>([^<]+)<\/strong><\/td>/, '$1');
+
+        // Skip rank entries like "#1", "#2", etc.
+        if (playerName.startsWith('#')) return;
+
+        const actualResult = weekScorers.find(scorer =>
+          scorer.player.toLowerCase().includes(playerName.toLowerCase()) ||
+          playerName.toLowerCase().includes(scorer.player.toLowerCase())
+        );
+
+        if (actualResult) {
+          console.log(`   ✅ ${playerName} - SCORED!`);
+          combinedResults.push({player: playerName, team: actualResult.team, scoredTD: true});
+
+          // Add checkmark to player name in combined HTML
+          const playerRegex = new RegExp(`<strong>${playerName}</strong>`, 'g');
+          combinedHtmlContent = combinedHtmlContent.replace(playerRegex, `<strong>${playerName} ✅</strong>`);
+        } else {
+          console.log(`   ❌ ${playerName} - No TD`);
+          combinedResults.push({player: playerName, team: 'Unknown', scoredTD: false});
+
+          // Add X mark to player name in combined HTML
+          const playerRegex = new RegExp(`<strong>${playerName}</strong>`, 'g');
+          combinedHtmlContent = combinedHtmlContent.replace(playerRegex, `<strong>${playerName} ❌</strong>`);
+        }
+      });
+    }
+
+    // Calculate accuracy
+    const combinedHits = combinedResults.filter(r => r.scoredTD).length;
+    const combinedTotal = combinedResults.length;
+    const combinedHitRate = combinedTotal > 0 ? ((combinedHits / combinedTotal) * 100).toFixed(1) : '0.0';
+
+    // Add accuracy summary at the top
+    const combinedAccuracySummary = `
+    <div style="background-color: #1e2328; padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #00d4aa;">
+      <h3 style="color: #00d4aa; margin: 0 0 10px 0;">📊 Week ${week} Combined Model Results</h3>
+      <p style="margin: 5px 0; color: white;"><strong>Combined Volume + Defense:</strong> ${combinedHits}/${combinedTotal} correct (${combinedHitRate}%)</p>
+    </div>`;
+
+    // Insert after the first h1 tag
+    combinedHtmlContent = combinedHtmlContent.replace(/(<h1[^>]*>.*?<\/h1>)/i, '$1' + combinedAccuracySummary);
+
+    fs.writeFileSync(combinedHtmlFile, combinedHtmlContent);
+    console.log(`✅ Updated ${combinedHtmlFile} with checkmarks, X marks, and accuracy summary`);
+    console.log(`📊 Combined Model Results: ${combinedHits}/${combinedTotal} (${combinedHitRate}%)`);
+  }
+
+  // Update enhanced predictions HTML file
+  const enhancedHtmlFile = `data/week${week}-enhanced-predictions.html`;
+  if (fs.existsSync(enhancedHtmlFile)) {
+    let enhancedHtmlContent = fs.readFileSync(enhancedHtmlFile, 'utf8');
+
+    // Clean up existing marks and duplicate summary boxes first
+    enhancedHtmlContent = enhancedHtmlContent.replace(/( ✅)+/g, '');
+    enhancedHtmlContent = enhancedHtmlContent.replace(/( ❌)+/g, '');
+    enhancedHtmlContent = enhancedHtmlContent.replace(/<div style="background-color: #1a1f2e; padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #6366f1;">[\s\S]*?<\/div>/g, '');
+
+    // Check enhanced predictions against actual results
+    const enhancedResults: Array<{player: string, team: string, scoredTD: boolean}> = [];
+
+    console.log(`\n🔍 Checking Enhanced Volume + Defense + Game Script predictions...`);
+
+    // Extract player names from enhanced HTML and check against actual results
+    const enhancedPlayerMatches = enhancedHtmlContent.match(/<td><strong>([^<]+)<\/strong><\/td>/g);
+    if (enhancedPlayerMatches) {
+      enhancedPlayerMatches.forEach(match => {
+        const playerName = match.replace(/<td><strong>([^<]+)<\/strong><\/td>/, '$1');
+
+        // Skip rank entries like "#1", "#2", etc.
+        if (playerName.startsWith('#')) return;
+
+        const actualResult = weekScorers.find(scorer =>
+          scorer.player.toLowerCase().includes(playerName.toLowerCase()) ||
+          playerName.toLowerCase().includes(scorer.player.toLowerCase())
+        );
+
+        if (actualResult) {
+          console.log(`   ✅ ${playerName} - SCORED!`);
+          enhancedResults.push({player: playerName, team: actualResult.team, scoredTD: true});
+
+          // Add checkmark to player name in enhanced HTML
+          const playerRegex = new RegExp(`<strong>${playerName}</strong>`, 'g');
+          enhancedHtmlContent = enhancedHtmlContent.replace(playerRegex, `<strong>${playerName} ✅</strong>`);
+        } else {
+          console.log(`   ❌ ${playerName} - No TD`);
+          enhancedResults.push({player: playerName, team: 'Unknown', scoredTD: false});
+
+          // Add X mark to player name in enhanced HTML
+          const playerRegex = new RegExp(`<strong>${playerName}</strong>`, 'g');
+          enhancedHtmlContent = enhancedHtmlContent.replace(playerRegex, `<strong>${playerName} ❌</strong>`);
+        }
+      });
+    }
+
+    // Calculate accuracy
+    const enhancedHits = enhancedResults.filter(r => r.scoredTD).length;
+    const enhancedTotal = enhancedResults.length;
+    const enhancedHitRate = enhancedTotal > 0 ? ((enhancedHits / enhancedTotal) * 100).toFixed(1) : '0.0';
+
+    // Add accuracy summary at the top
+    const enhancedAccuracySummary = `
+    <div style="background-color: #1a1f2e; padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #6366f1;">
+      <h3 style="color: #6366f1; margin: 0 0 10px 0;">📊 Week ${week} Enhanced Model Results v2.0</h3>
+      <p style="margin: 5px 0; color: white;"><strong>Enhanced Multi-Factor Model:</strong> ${enhancedHits}/${enhancedTotal} correct (${enhancedHitRate}%)</p>
+    </div>`;
+
+    // Insert after the first h1 tag
+    enhancedHtmlContent = enhancedHtmlContent.replace(/(<h1[^>]*>.*?<\/h1>)/i, '$1' + enhancedAccuracySummary);
+
+    fs.writeFileSync(enhancedHtmlFile, enhancedHtmlContent);
+    console.log(`✅ Updated ${enhancedHtmlFile} with checkmarks, X marks, and accuracy summary`);
+    console.log(`📊 Enhanced Model Results: ${enhancedHits}/${enhancedTotal} (${enhancedHitRate}%)`);
+  }
+
   console.log('✅ Auto-recording complete!');
 }
 

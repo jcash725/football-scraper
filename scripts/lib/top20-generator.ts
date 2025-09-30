@@ -34,7 +34,10 @@ export async function generateTop20List(data: AnalysisData): Promise<TDRecommend
   // Add rookie boost before creating balanced list
   const rookieBoostRecs = await addRookieBoost(rusherRecs, receiverRecs, data);
 
-  const balancedRecs = await createBalancedList(rookieBoostRecs.rushers, rookieBoostRecs.receivers);
+  // Deduplicate rookies across rushing and receiving before creating balanced list
+  const deduplicatedRecs = deduplicateRookieRecommendations(rookieBoostRecs.rushers, rookieBoostRecs.receivers);
+
+  const balancedRecs = await createBalancedList(deduplicatedRecs.rushers, deduplicatedRecs.receivers);
   return balancedRecs.slice(0, 20);
 }
 
@@ -326,6 +329,72 @@ function boostRookieRecommendations(recommendations: TDRecommendation[], rookieS
   }
 
   return boostedRecs;
+}
+
+function deduplicateRookieRecommendations(rushers: TDRecommendation[], receivers: TDRecommendation[]): {rushers: TDRecommendation[], receivers: TDRecommendation[]} {
+  const playersSeen = new Map<string, {type: string, recommendation: TDRecommendation}>();
+  const deduplicatedRushers: TDRecommendation[] = [];
+  const deduplicatedReceivers: TDRecommendation[] = [];
+
+  // First pass: collect all recommendations and identify duplicates
+  const allRecs = [
+    ...rushers.map(r => ({rec: r, type: 'rushing'})),
+    ...receivers.map(r => ({rec: r, type: 'receiving'}))
+  ];
+
+  for (const {rec, type} of allRecs) {
+    const playerKey = normalizePlayerName(rec.Player);
+    const isRookieRec = rec.Basis.includes('Rookie hotstreak');
+
+    if (!isRookieRec) {
+      // Non-rookie recommendations always go through
+      if (type === 'rushing') {
+        deduplicatedRushers.push(rec);
+      } else {
+        deduplicatedReceivers.push(rec);
+      }
+      continue;
+    }
+
+    const existing = playersSeen.get(playerKey);
+    if (!existing) {
+      // First time seeing this rookie
+      playersSeen.set(playerKey, {type, recommendation: rec});
+      if (type === 'rushing') {
+        deduplicatedRushers.push(rec);
+      } else {
+        deduplicatedReceivers.push(rec);
+      }
+    } else {
+      // Duplicate rookie - keep the one with higher score
+      if (rec["Opponent Stat Value"] > existing.recommendation["Opponent Stat Value"]) {
+        console.log(`🔄 Replacing duplicate rookie ${rec.Player}: ${existing.type} (${existing.recommendation["Opponent Stat Value"].toFixed(1)}) → ${type} (${rec["Opponent Stat Value"].toFixed(1)})`);
+
+        // Remove the previous one
+        if (existing.type === 'rushing') {
+          const index = deduplicatedRushers.findIndex(r => normalizePlayerName(r.Player) === playerKey);
+          if (index >= 0) deduplicatedRushers.splice(index, 1);
+        } else {
+          const index = deduplicatedReceivers.findIndex(r => normalizePlayerName(r.Player) === playerKey);
+          if (index >= 0) deduplicatedReceivers.splice(index, 1);
+        }
+
+        // Add the new better one
+        if (type === 'rushing') {
+          deduplicatedRushers.push(rec);
+        } else {
+          deduplicatedReceivers.push(rec);
+        }
+
+        playersSeen.set(playerKey, {type, recommendation: rec});
+      } else {
+        console.log(`🚫 Skipping duplicate rookie ${rec.Player}: keeping ${existing.type} (${existing.recommendation["Opponent Stat Value"].toFixed(1)}) over ${type} (${rec["Opponent Stat Value"].toFixed(1)})`);
+      }
+    }
+  }
+
+  console.log(`🧹 Deduplication complete: ${rushers.length} → ${deduplicatedRushers.length} rushers, ${receivers.length} → ${deduplicatedReceivers.length} receivers`);
+  return {rushers: deduplicatedRushers, receivers: deduplicatedReceivers};
 }
 
 // Add interface extension for rookie boost
