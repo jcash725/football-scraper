@@ -143,10 +143,15 @@ async function main() {
   // Save updated JSON
   fs.writeFileSync(predictionFile, JSON.stringify(predictions, null, 2));
 
-  // Update HTML file with checkmarks and X marks
+  // Update HTML files with checkmarks and X marks
   const htmlFile = `data/week${week}-predictions.html`;
   if (fs.existsSync(htmlFile)) {
     let htmlContent = fs.readFileSync(htmlFile, 'utf8');
+
+    // Clean up existing marks and duplicate summary boxes first
+    htmlContent = htmlContent.replace(/( ✅)+/g, '');
+    htmlContent = htmlContent.replace(/( ❌)+/g, '');
+    htmlContent = htmlContent.replace(/<div style="background-color: #2d5a3d; padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #90EE90;">[\s\S]*?<\/div>/g, '');
 
     results.forEach(result => {
       if (result.scoredTD) {
@@ -160,8 +165,90 @@ async function main() {
       }
     });
 
+    // Add accuracy summary at the top
+    const currentModelHits = currentPredictions.filter((pred: any) => pred.actualResult === true).length;
+    const mlModelHits = mlPredictions.filter((pred: any) => pred.actualResult === true).length;
+    const currentModelTotal = currentPredictions.length;
+    const mlModelTotal = mlPredictions.length;
+
+    const accuracySummary = `
+    <div style="background-color: #2d5a3d; padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #90EE90;">
+      <h3 style="color: #90EE90; margin: 0 0 10px 0;">📊 Week ${week} Results Summary</h3>
+      <p style="margin: 5px 0; color: white;"><strong>Current Model:</strong> ${currentModelHits}/${currentModelTotal} correct (${((currentModelHits/currentModelTotal)*100).toFixed(1)}%)</p>
+      <p style="margin: 5px 0; color: white;"><strong>ML Model:</strong> ${mlModelHits}/${mlModelTotal} correct (${((mlModelHits/mlModelTotal)*100).toFixed(1)}%)</p>
+    </div>`;
+
+    // Insert after the first h1 tag
+    htmlContent = htmlContent.replace(/(<h1[^>]*>.*?<\/h1>)/i, '$1' + accuracySummary);
+
     fs.writeFileSync(htmlFile, htmlContent);
-    console.log(`✅ Updated ${htmlFile} with checkmarks and X marks`);
+    console.log(`✅ Updated ${htmlFile} with checkmarks, X marks, and accuracy summary`);
+  }
+
+  // Update volume analysis HTML file
+  const volumeHtmlFile = `data/week${week}-volume-analysis.html`;
+  if (fs.existsSync(volumeHtmlFile)) {
+    let volumeHtmlContent = fs.readFileSync(volumeHtmlFile, 'utf8');
+
+    // Clean up existing marks and duplicate summary boxes first
+    volumeHtmlContent = volumeHtmlContent.replace(/( ✅)+/g, '');
+    volumeHtmlContent = volumeHtmlContent.replace(/( ❌)+/g, '');
+    volumeHtmlContent = volumeHtmlContent.replace(/<div style="background-color: #2d5a3d; padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #FFD700;">[\s\S]*?<\/div>/g, '');
+
+    // Check volume predictions against actual results
+    const volumeResults: Array<{player: string, team: string, scoredTD: boolean}> = [];
+
+    console.log(`\n🔍 Checking Volume-Based predictions...`);
+
+    // Extract player names from volume HTML and check against actual results
+    const playerMatches = volumeHtmlContent.match(/<td><strong>([^<]+)<\/strong><\/td>/g);
+    if (playerMatches) {
+      playerMatches.forEach(match => {
+        const playerName = match.replace(/<td><strong>([^<]+)<\/strong><\/td>/, '$1');
+
+        // Skip rank entries like "#1", "#2", etc.
+        if (playerName.startsWith('#')) return;
+
+        const actualResult = weekScorers.find(scorer =>
+          scorer.player.toLowerCase().includes(playerName.toLowerCase()) ||
+          playerName.toLowerCase().includes(scorer.player.toLowerCase())
+        );
+
+        if (actualResult) {
+          console.log(`   ✅ ${playerName} - SCORED!`);
+          volumeResults.push({player: playerName, team: actualResult.team, scoredTD: true});
+
+          // Add checkmark to player name in volume HTML
+          const playerRegex = new RegExp(`<strong>${playerName}</strong>`, 'g');
+          volumeHtmlContent = volumeHtmlContent.replace(playerRegex, `<strong>${playerName} ✅</strong>`);
+        } else {
+          console.log(`   ❌ ${playerName} - No TD`);
+          volumeResults.push({player: playerName, team: '', scoredTD: false});
+
+          // Add X mark to player name in volume HTML
+          const playerRegex = new RegExp(`<strong>${playerName}</strong>`, 'g');
+          volumeHtmlContent = volumeHtmlContent.replace(playerRegex, `<strong>${playerName} ❌</strong>`);
+        }
+      });
+    }
+
+    // Add accuracy summary at the top of volume analysis
+    const volumeHits = volumeResults.filter(r => r.scoredTD).length;
+    const volumeTotal = volumeResults.length;
+    const volumeHitRate = volumeTotal > 0 ? ((volumeHits / volumeTotal) * 100).toFixed(1) : '0.0';
+
+    const volumeAccuracySummary = `
+    <div style="background-color: #2d5a3d; padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #FFD700;">
+      <h3 style="color: #FFD700; margin: 0 0 10px 0;">📊 Week ${week} Volume Model Results</h3>
+      <p style="margin: 5px 0; color: white;"><strong>Volume-Based Predictions:</strong> ${volumeHits}/${volumeTotal} correct (${volumeHitRate}%)</p>
+    </div>`;
+
+    // Insert after the first h1 tag
+    volumeHtmlContent = volumeHtmlContent.replace(/(<h1[^>]*>.*?<\/h1>)/i, '$1' + volumeAccuracySummary);
+
+    fs.writeFileSync(volumeHtmlFile, volumeHtmlContent);
+    console.log(`✅ Updated ${volumeHtmlFile} with checkmarks, X marks, and accuracy summary`);
+    console.log(`📊 Volume Model Results: ${volumeHits}/${volumeTotal} (${volumeHitRate}%)`);
   }
 
   console.log('✅ Auto-recording complete!');
