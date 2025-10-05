@@ -5,6 +5,7 @@
 import { ManualVolumeTracker } from './manual-volume-tracker.js';
 import { SimpleTouchdownTracker } from './simple-touchdown-tracker.js';
 import { InjuryChecker } from './injury-checker.js';
+import { ByeWeekFilter } from './bye-week-filter.js';
 import fs from 'fs';
 
 interface Matchup {
@@ -112,16 +113,66 @@ export class EnhancedVolumeDefensePredictor {
     });
 
     if (!matchup) {
-      // Fallback: try partial matching if exact match fails
-      const partialMatchup = this.matchups.find(m =>
-        (m.away_team && normalizedTeam.includes(this.normalizeTeamName(m.away_team).split(' ')[0])) ||
-        (m.home_team && normalizedTeam.includes(this.normalizeTeamName(m.home_team).split(' ')[0]))
-      );
+      // Fallback: try city-based matching if exact match fails
+      const partialMatchup = this.matchups.find(m => {
+        const normalizedAway = this.normalizeTeamName(m.away_team || '');
+        const normalizedHome = this.normalizeTeamName(m.home_team || '');
+
+        // Special handling for multi-word cities and abbreviations
+        const getTeamKey = (team: string) => {
+          const words = team.split(' ');
+
+          // Handle NY teams specifically - include team name to distinguish
+          if (words[0] === 'ny') {
+            return team; // "ny giants" or "ny jets"
+          }
+          if (words.length >= 2 && words[0] === 'new' && words[1] === 'york') {
+            // Convert "new york giants" to "ny giants" for matching
+            return 'ny ' + words.slice(2).join(' ');
+          }
+
+          // Handle other multi-word cities
+          if (words.length >= 2 && (words[0] === 'los' || words[0] === 'san')) {
+            return words.slice(0, 2).join(' '); // "los angeles", "san francisco"
+          }
+
+          return words[0]; // single word like "dallas", "miami"
+        };
+
+        const teamKey = getTeamKey(normalizedTeam);
+        const awayKey = getTeamKey(normalizedAway);
+        const homeKey = getTeamKey(normalizedHome);
+
+        return teamKey === awayKey || teamKey === homeKey;
+      });
 
       if (partialMatchup) {
         const normalizedAway = this.normalizeTeamName(partialMatchup.away_team || '');
 
-        if (normalizedTeam.includes(normalizedAway.split(' ')[0])) {
+        // Use same team key logic to determine which team this is
+        const getTeamKey = (team: string) => {
+          const words = team.split(' ');
+
+          // Handle NY abbreviation
+          if (words[0] === 'ny') {
+            return 'new york';
+          }
+          if (words.length >= 2 && words[0] === 'new' && words[1] === 'york') {
+            return 'new york';
+          }
+
+          // Handle other multi-word cities
+          if (words.length >= 2 && (words[0] === 'los' || words[0] === 'san')) {
+            return words.slice(0, 2).join(' ');
+          }
+
+          return words[0];
+        };
+
+        const teamKey = getTeamKey(normalizedTeam);
+        const awayKey = getTeamKey(normalizedAway);
+
+        if (teamKey === awayKey) {
           return partialMatchup.home_team || 'Unknown';
         } else {
           return partialMatchup.away_team || 'Unknown';
@@ -360,6 +411,9 @@ export class EnhancedVolumeDefensePredictor {
     // Load matchups for this week
     this.loadMatchups(week);
 
+    // Initialize bye week filter
+    const byeWeekFilter = new ByeWeekFilter();
+
     // Load touchdown data to get opponents from historical games
     const touchdownData = this.touchdownTracker.loadTouchdownDatabase(2025);
 
@@ -445,15 +499,29 @@ export class EnhancedVolumeDefensePredictor {
       };
     });
 
-    // Filter out injured players and sort by final score
+    // Filter out injured players and bye week teams, then sort by final score
     const filteredPredictions = predictions
       .filter(p => {
+        // Check injury status
         const injuryReport = this.injuryChecker.getPlayerInjuryStatus(p.playerName);
-        return !injuryReport || (injuryReport.status !== 'Out' && injuryReport.status !== 'IR');
+        const isInjured = injuryReport && (injuryReport.status === 'Out' || injuryReport.status === 'IR');
+
+        // Check bye week status
+        const isOnBye = byeWeekFilter.isTeamOnBye(p.team);
+
+        return !isInjured && !isOnBye;
       })
       .sort((a, b) => b.finalScore - a.finalScore);
 
-    console.log(`🏥 Filtered out ${predictions.length - filteredPredictions.length} injured players (Out/IR)`);
+    const injuredCount = predictions.filter(p => {
+      const injuryReport = this.injuryChecker.getPlayerInjuryStatus(p.playerName);
+      return injuryReport && (injuryReport.status === 'Out' || injuryReport.status === 'IR');
+    }).length;
+
+    const byeCount = predictions.filter(p => byeWeekFilter.isTeamOnBye(p.team)).length;
+
+    console.log(`🏥 Filtered out ${injuredCount} injured players (Out/IR)`);
+    console.log(`🚫 Filtered out ${byeCount} players on bye week`);
     console.log(`📊 Generated ${filteredPredictions.length} enhanced predictions`);
 
     return filteredPredictions;

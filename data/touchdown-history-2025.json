@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2025-09-30T15:10:27.096Z",
+  "generatedAt": "2025-10-05T15:33:03.604Z",
   "season": 2025,
-  "totalGames": 64,
+  "totalGames": 66,
   "playerGameStats": [
     {
       "playerName": "Quentin Johnston",
@@ -3266,6 +3266,90 @@
       "receivingTouchdowns": 1,
       "homeAway": "home",
       "date": "2025-09-30T00:15Z"
+    },
+    {
+      "playerName": "Harold Fannin Jr.",
+      "team": "Cleveland Browns",
+      "opponent": "Minnesota Vikings",
+      "gameId": "401772633",
+      "week": 5,
+      "season": 2025,
+      "rushingTouchdowns": 0,
+      "receivingTouchdowns": 1,
+      "homeAway": "home",
+      "date": "2025-10-05T13:30Z"
+    },
+    {
+      "playerName": "Josh Oliver",
+      "team": "Minnesota Vikings",
+      "opponent": "Cleveland Browns",
+      "gameId": "401772633",
+      "week": 5,
+      "season": 2025,
+      "rushingTouchdowns": 0,
+      "receivingTouchdowns": 1,
+      "homeAway": "away",
+      "date": "2025-10-05T13:30Z"
+    },
+    {
+      "playerName": "Jordan Mason",
+      "team": "Minnesota Vikings",
+      "opponent": "Cleveland Browns",
+      "gameId": "401772633",
+      "week": 5,
+      "season": 2025,
+      "rushingTouchdowns": 1,
+      "receivingTouchdowns": 0,
+      "homeAway": "away",
+      "date": "2025-10-05T13:30Z"
+    },
+    {
+      "playerName": "Jake Tonges",
+      "team": "San Francisco 49ers",
+      "opponent": "Los Angeles Rams",
+      "gameId": "401772939",
+      "week": 5,
+      "season": 2025,
+      "rushingTouchdowns": 0,
+      "receivingTouchdowns": 1,
+      "homeAway": "away",
+      "date": "2025-10-03T00:15Z"
+    },
+    {
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
+      "opponent": "Los Angeles Rams",
+      "gameId": "401772939",
+      "week": 5,
+      "season": 2025,
+      "rushingTouchdowns": 0,
+      "receivingTouchdowns": 1,
+      "homeAway": "away",
+      "date": "2025-10-03T00:15Z"
+    },
+    {
+      "playerName": "Kyren Williams",
+      "team": "Los Angeles Rams",
+      "opponent": "San Francisco 49ers",
+      "gameId": "401772939",
+      "week": 5,
+      "season": 2025,
+      "rushingTouchdowns": 0,
+      "receivingTouchdowns": 2,
+      "homeAway": "home",
+      "date": "2025-10-03T00:15Z"
+    },
+    {
+      "playerName": "Puka Nacua",
+      "team": "Los Angeles Rams",
+      "opponent": "San Francisco 49ers",
+      "gameId": "401772939",
+      "week": 5,
+      "season": 2025,
+      "rushingTouchdowns": 0,
+      "receivingTouchdowns": 1,
+      "homeAway": "home",
+      "date": "2025-10-03T00:15Z"
     }
   ]
 }

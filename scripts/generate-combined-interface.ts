@@ -18,6 +18,58 @@ interface ModelData {
   totalRecommendations?: number;
 }
 
+function getResultMark(playerName: string, team: string, week: number, season: number): string {
+  try {
+    // Load touchdown database
+    const tdFile = path.join(process.cwd(), 'data', `touchdown-history-${season}.json`);
+
+    if (!fs.existsSync(tdFile)) {
+      return ''; // No data available
+    }
+
+    const tdData = JSON.parse(fs.readFileSync(tdFile, 'utf8'));
+
+    // Get all touchdown scorers for this week
+    const weekScorers = tdData.playerGameStats
+      .filter((stat: any) => stat.week === week)
+      .filter((stat: any) => stat.rushingTouchdowns > 0 || stat.receivingTouchdowns > 0);
+
+    // Get all teams that played games this week (including teams that scored 0 TDs)
+    const teamsWithCompletedGames = new Set<string>();
+    tdData.playerGameStats
+      .filter((stat: any) => stat.week === week)
+      .forEach((stat: any) => {
+        teamsWithCompletedGames.add(stat.team);
+        teamsWithCompletedGames.add(stat.opponent);
+      });
+
+    // Check if this player's team has played - try various team name formats
+    const teamVariations = [
+      team,
+      team.replace(/^(New York|Los Angeles|San Francisco).*/, '$1'),
+      team.split(' ').slice(-1)[0], // Last word
+      team.split(' ').slice(0, 2).join(' '), // First two words
+    ];
+
+    const teamPlayed = teamVariations.some(variation => teamsWithCompletedGames.has(variation));
+
+
+    if (!teamPlayed) {
+      return ''; // Game not yet played
+    }
+
+    // Check if player scored
+    const playerScored = weekScorers.some((scorer: any) =>
+      scorer.playerName.toLowerCase().includes(playerName.toLowerCase()) ||
+      playerName.toLowerCase().includes(scorer.playerName.toLowerCase())
+    );
+
+    return playerScored ? ' ✅' : ' ❌';
+  } catch (error) {
+    return ''; // Error loading data, don't mark
+  }
+}
+
 function generateCombinedInterface(week: number, season: number = 2025) {
   console.log(`🏈 Generating Combined Tabbed Interface for Week ${week}...`);
 
@@ -37,7 +89,8 @@ function generateCombinedInterface(week: number, season: number = 2025) {
         Team: p.Team,
         Opponent: p.Opponent,
         Probability: p['Opponent Stat Value'] || p.mlProbability,
-        'Historical vs Opponent': p['TDs vs Opponent Last Year (2024)']
+        'Historical vs Opponent': p['TDs vs Opponent Last Year (2024)'],
+        actualResult: p.actualResult
       }))
     };
   }
@@ -54,7 +107,8 @@ function generateCombinedInterface(week: number, season: number = 2025) {
         Team: p.team,
         Opponent: p.opponent,
         Probability: `${(p.mlProbability * 100).toFixed(1)}%`,
-        'Historical vs Opponent': p.keyFactors ? p.keyFactors.join('; ') : 'N/A'
+        'Historical vs Opponent': p.keyFactors ? p.keyFactors.join('; ') : 'N/A',
+        actualResult: p.actualResult
       }))
     };
   }
@@ -296,7 +350,7 @@ function generateCombinedInterface(week: number, season: number = 2025) {
                 ${traditionalData.predictions.map((p, i) => `
                 <tr>
                     <td class="rank">#${i + 1}</td>
-                    <td class="player-name">${p.Player}</td>
+                    <td class="player-name">${p.Player}${p.actualResult === true ? ' ✅' : p.actualResult === false ? ' ❌' : p.actualResult === undefined ? getResultMark(p.Player, p.Team, week, season) : ''}</td>
                     <td>${p.Team}</td>
                     <td>${p.Opponent || 'TBD'}</td>
                     <td><span class="model-badge ${p.model?.toLowerCase()}-badge">${p.model}</span></td>
@@ -334,7 +388,7 @@ function generateCombinedInterface(week: number, season: number = 2025) {
                 ${mlData.predictions.map((p, i) => `
                 <tr>
                     <td class="rank">#${i + 1}</td>
-                    <td class="player-name">${p.Player}</td>
+                    <td class="player-name">${p.Player}${p.actualResult === true ? ' ✅' : p.actualResult === false ? ' ❌' : p.actualResult === undefined ? getResultMark(p.Player, p.Team, week, season) : ''}</td>
                     <td>${p.Team}</td>
                     <td>${p.Opponent || 'TBD'}</td>
                     <td>${p.position || 'N/A'}</td>
@@ -374,7 +428,7 @@ function generateCombinedInterface(week: number, season: number = 2025) {
                 ${volumeData.predictions.map((p, i) => `
                 <tr>
                     <td class="rank">#${i + 1}</td>
-                    <td class="player-name">${p.playerName || p.Player}</td>
+                    <td class="player-name">${p.playerName || p.Player}${getResultMark(p.playerName || p.Player, p.team || p.Team, week, season)}</td>
                     <td>${p.team || p.Team}</td>
                     <td>${p.opponent || p.Opponent || 'TBD'}</td>
                     <td>${p.position || p.Position}</td>
@@ -416,7 +470,7 @@ function generateCombinedInterface(week: number, season: number = 2025) {
                 ${combinedData.predictions.map((p, i) => `
                 <tr>
                     <td class="rank">#${i + 1}</td>
-                    <td class="player-name">${p.playerName}</td>
+                    <td class="player-name">${p.playerName}${getResultMark(p.playerName, p.team, week, season)}</td>
                     <td>${p.team}</td>
                     <td>${p.opponent}</td>
                     <td>${p.position}</td>
@@ -458,7 +512,7 @@ function generateCombinedInterface(week: number, season: number = 2025) {
                 ${enhancedData.predictions.map((p, i) => `
                 <tr>
                     <td class="rank">#${i + 1}</td>
-                    <td class="player-name">${p.playerName}</td>
+                    <td class="player-name">${p.playerName}${getResultMark(p.playerName, p.team, week, season)}</td>
                     <td>${p.team}</td>
                     <td>${p.opponent}</td>
                     <td>${p.position}</td>
@@ -506,35 +560,35 @@ function generateCombinedInterface(week: number, season: number = 2025) {
             <div class="model-column">
                 <h4>📊 Top Current Picks</h4>
                 ${traditionalData.predictions.slice(0, 10).map((p, i) => `
-                <div>${i + 1}. <strong>${p.Player}</strong> (${p.Team}) - ${p.Probability}</div>
+                <div>${i + 1}. <strong>${p.Player}${p.actualResult === true ? ' ✅' : p.actualResult === false ? ' ❌' : p.actualResult === undefined ? getResultMark(p.Player, p.Team, week, season) : ''}</strong> (${p.Team}) - ${p.Probability}</div>
                 `).join('')}
             </div>
 
             <div class="model-column">
                 <h4>🤖 Top ML Picks</h4>
                 ${mlData.predictions.slice(0, 10).map((p, i) => `
-                <div>${i + 1}. <strong>${p.Player}</strong> (${p.Team}) - ${p.Probability}</div>
+                <div>${i + 1}. <strong>${p.Player}${p.actualResult === true ? ' ✅' : p.actualResult === false ? ' ❌' : p.actualResult === undefined ? getResultMark(p.Player, p.Team, week, season) : ''}</strong> (${p.Team}) - ${p.Probability}</div>
                 `).join('')}
             </div>
 
             <div class="model-column">
                 <h4>📈 Top Volume Picks</h4>
                 ${volumeData.predictions.slice(0, 10).map((p, i) => `
-                <div>${i + 1}. <strong>${p.playerName || p.Player}</strong> (${p.team || p.Team})</div>
+                <div>${i + 1}. <strong>${p.playerName || p.Player}${getResultMark(p.playerName || p.Player, p.team || p.Team, week, season)}</strong> (${p.team || p.Team})</div>
                 `).join('')}
             </div>
 
             <div class="model-column">
                 <h4>🎯 Top Combined Picks</h4>
                 ${combinedData.predictions.slice(0, 10).map((p, i) => `
-                <div>${i + 1}. <strong>${p.playerName}</strong> (${p.team}) - ${p.finalScore}</div>
+                <div>${i + 1}. <strong>${p.playerName}${getResultMark(p.playerName, p.team, week, season)}</strong> (${p.team}) - ${p.finalScore}</div>
                 `).join('')}
             </div>
 
             <div class="model-column">
                 <h4>🚀 Top Enhanced Picks</h4>
                 ${enhancedData.predictions.slice(0, 10).map((p, i) => `
-                <div>${i + 1}. <strong>${p.playerName}</strong> (${p.team}) - ${p.finalScore}</div>
+                <div>${i + 1}. <strong>${p.playerName}${getResultMark(p.playerName, p.team, week, season)}</strong> (${p.team}) - ${p.finalScore}</div>
                 `).join('')}
             </div>
         </div>

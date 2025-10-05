@@ -1,16 +1,16 @@
 {
   "week": 5,
-  "generatedAt": "2025-09-30T19:51:39.187Z",
+  "generatedAt": "2025-10-05T16:17:12.633Z",
   "methodology": "Volume (50%) + Defense (25%) + Game Script (15%) + Usage Trends (10%)",
   "predictions": [
     {
-      "playerName": "Josh Jacobs",
-      "team": "Green Bay Packers",
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
       "position": "RB",
-      "opponent": "Unknown",
-      "targets": 4,
-      "carries": 18,
-      "redZoneOpportunities": 3,
+      "opponent": "Los Angeles Rams",
+      "targets": 8,
+      "carries": 20,
+      "redZoneOpportunities": 6,
       "volumeScore": 10,
       "defenseScore": 5,
       "gameScriptScore": 6.5,
@@ -19,34 +19,10 @@
       "prediction": "Strong Play",
       "injuryStatus": "Healthy",
       "reasoning": [
-        "High volume (22 touches)",
-        "High red zone usage (3 opportunities)",
-        "Dual-threat usage",
-        "No defensive data available",
-        "Good scoring game expected (27+ points); Favored team (positive game script)",
-        "Volume trending up"
-      ]
-    },
-    {
-      "playerName": "Christian McCaffrey",
-      "team": "San Francisco 49ers",
-      "position": "RB",
-      "opponent": "LA Rams",
-      "targets": 8,
-      "carries": 20,
-      "redZoneOpportunities": 6,
-      "volumeScore": 10,
-      "defenseScore": 1,
-      "gameScriptScore": 6.5,
-      "usageTrendScore": 6,
-      "finalScore": 7,
-      "prediction": "Solid Play",
-      "injuryStatus": "Healthy",
-      "reasoning": [
         "High volume (28 touches)",
         "High red zone usage (6 opportunities)",
         "Dual-threat usage",
-        "Strong rush defense (0.5 TDs/game allowed)",
+        "No defensive data available",
         "Good scoring game expected (25+ points); Favored team (positive game script)",
         "Volume trending up"
       ]
@@ -55,7 +31,7 @@
       "playerName": "Saquon Barkley",
       "team": "Philadelphia Eagles",
       "position": "RB",
-      "opponent": "San Francisco",
+      "opponent": "Denver",
       "targets": 5,
       "carries": 19,
       "redZoneOpportunities": 3,
@@ -218,6 +194,29 @@
       ]
     },
     {
+      "playerName": "Jake Ferguson",
+      "team": "Dallas Cowboys",
+      "position": "TE",
+      "opponent": "NY Jets",
+      "targets": 8,
+      "carries": 0,
+      "redZoneOpportunities": 2,
+      "volumeScore": 2,
+      "defenseScore": 5.5,
+      "gameScriptScore": 6,
+      "usageTrendScore": 6,
+      "finalScore": 4,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (8 touches)",
+        "Good red zone usage (2 opportunities)",
+        "Weak pass defense (1.8 TDs/game allowed)",
+        "Good scoring game expected (24+ points)",
+        "Volume trending up"
+      ]
+    },
+    {
       "playerName": "Travis Kelce",
       "team": "Kansas City Chiefs",
       "position": "TE",
@@ -237,29 +236,6 @@
         "Good red zone usage (2 opportunities)",
         "Weak pass defense (1.8 TDs/game allowed)",
         "Good scoring game expected (27+ points); Favored team (positive game script)",
-        "Volume trending up"
-      ]
-    },
-    {
-      "playerName": "Jake Ferguson",
-      "team": "Dallas Cowboys",
-      "position": "TE",
-      "opponent": "San Francisco",
-      "targets": 8,
-      "carries": 0,
-      "redZoneOpportunities": 2,
-      "volumeScore": 2,
-      "defenseScore": 3.25,
-      "gameScriptScore": 6,
-      "usageTrendScore": 6,
-      "finalScore": 3,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Healthy",
-      "reasoning": [
-        "Low volume (8 touches)",
-        "Good red zone usage (2 opportunities)",
-        "Average pass defense (1.3 TDs/game allowed)",
-        "Good scoring game expected (24+ points)",
         "Volume trending up"
       ]
     },
@@ -286,28 +262,6 @@
       ]
     },
     {
-      "playerName": "Puka Nacua",
-      "team": "Los Angeles Rams",
-      "position": "WR",
-      "opponent": "Unknown",
-      "targets": 9,
-      "carries": 0,
-      "redZoneOpportunities": 0,
-      "volumeScore": 0,
-      "defenseScore": 5,
-      "gameScriptScore": 6,
-      "usageTrendScore": 5,
-      "finalScore": 3,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Healthy",
-      "reasoning": [
-        "Low volume (9 touches)",
-        "No defensive data available",
-        "Good scoring game expected (26+ points)",
-        "Volume trending up; Red zone usage decreasing"
-      ]
-    },
-    {
       "playerName": "Jaxon Smith-Njigba",
       "team": "Seattle Seahawks",
       "position": "WR",
@@ -325,6 +279,50 @@
       "reasoning": [
         "Low volume (9 touches)",
         "Weak pass defense (1.5 TDs/game allowed)",
+        "Good scoring game expected (24+ points)",
+        "Volume trending up; Red zone usage decreasing"
+      ]
+    },
+    {
+      "playerName": "Malik Nabers",
+      "team": "New York Giants",
+      "position": "WR",
+      "opponent": "New Orleans",
+      "targets": 8,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 7.75,
+      "gameScriptScore": 6,
+      "usageTrendScore": 5,
+      "finalScore": 3,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (8 touches)",
+        "Very Weak pass defense (2.3 TDs/game allowed)",
+        "Good scoring game expected (24+ points)",
+        "Volume trending up; Red zone usage decreasing"
+      ]
+    },
+    {
+      "playerName": "Garrett Wilson",
+      "team": "New York Jets",
+      "position": "WR",
+      "opponent": "Dallas",
+      "targets": 8,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 8.25,
+      "gameScriptScore": 6,
+      "usageTrendScore": 5,
+      "finalScore": 3,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (8 touches)",
+        "Very Weak pass defense (2.5 TDs/game allowed)",
         "Good scoring game expected (24+ points)",
         "Volume trending up; Red zone usage decreasing"
       ]
@@ -374,28 +372,6 @@
       ]
     },
     {
-      "playerName": "Rome Odunze",
-      "team": "Chicago Bears",
-      "position": "WR",
-      "opponent": "Unknown",
-      "targets": 7,
-      "carries": 0,
-      "redZoneOpportunities": 0,
-      "volumeScore": 0,
-      "defenseScore": 5,
-      "gameScriptScore": 6,
-      "usageTrendScore": 5,
-      "finalScore": 3,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Healthy",
-      "reasoning": [
-        "Low volume (7 touches)",
-        "No defensive data available",
-        "Good scoring game expected (24+ points)",
-        "Volume trending up; Red zone usage decreasing"
-      ]
-    },
-    {
       "playerName": "Keenan Allen",
       "team": "Los Angeles Chargers",
       "position": "WR",
@@ -418,69 +394,24 @@
       ]
     },
     {
-      "playerName": "Davante Adams",
+      "playerName": "Puka Nacua",
       "team": "Los Angeles Rams",
       "position": "WR",
-      "opponent": "Unknown",
-      "targets": 8,
+      "opponent": "San Francisco 49ers",
+      "targets": 9,
       "carries": 0,
-      "redZoneOpportunities": 2,
-      "volumeScore": 2,
-      "defenseScore": 5,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 3.25,
       "gameScriptScore": 6,
-      "usageTrendScore": 6,
+      "usageTrendScore": 5,
       "finalScore": 2,
       "prediction": "Dart Throw",
-      "injuryStatus": "Doubtful (Hamstring)",
+      "injuryStatus": "Healthy",
       "reasoning": [
-        "Low volume (8 touches)",
-        "Good red zone usage (2 opportunities)",
-        "No defensive data available",
+        "Low volume (9 touches)",
+        "Average pass defense (1.3 TDs/game allowed)",
         "Good scoring game expected (26+ points)",
-        "Volume trending up"
-      ]
-    },
-    {
-      "playerName": "Malik Nabers",
-      "team": "New York Giants",
-      "position": "WR",
-      "opponent": "NY Giants",
-      "targets": 8,
-      "carries": 0,
-      "redZoneOpportunities": 0,
-      "volumeScore": 0,
-      "defenseScore": 3.25,
-      "gameScriptScore": 6,
-      "usageTrendScore": 5,
-      "finalScore": 2,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Healthy",
-      "reasoning": [
-        "Low volume (8 touches)",
-        "Average pass defense (1.3 TDs/game allowed)",
-        "Good scoring game expected (24+ points)",
-        "Volume trending up; Red zone usage decreasing"
-      ]
-    },
-    {
-      "playerName": "Garrett Wilson",
-      "team": "New York Jets",
-      "position": "WR",
-      "opponent": "NY Giants",
-      "targets": 8,
-      "carries": 0,
-      "redZoneOpportunities": 0,
-      "volumeScore": 0,
-      "defenseScore": 3.25,
-      "gameScriptScore": 6,
-      "usageTrendScore": 5,
-      "finalScore": 2,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Healthy",
-      "reasoning": [
-        "Low volume (8 touches)",
-        "Average pass defense (1.3 TDs/game allowed)",
-        "Good scoring game expected (24+ points)",
         "Volume trending up; Red zone usage decreasing"
       ]
     },
@@ -504,6 +435,29 @@
         "Solid pass defense (1.0 TDs/game allowed)",
         "Good scoring game expected (24+ points)",
         "Volume trending up; Red zone usage decreasing"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "Los Angeles Rams",
+      "position": "WR",
+      "opponent": "San Francisco 49ers",
+      "targets": 8,
+      "carries": 0,
+      "redZoneOpportunities": 2,
+      "volumeScore": 2,
+      "defenseScore": 3.25,
+      "gameScriptScore": 6,
+      "usageTrendScore": 6,
+      "finalScore": 1,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Doubtful (Hamstring)",
+      "reasoning": [
+        "Low volume (8 touches)",
+        "Good red zone usage (2 opportunities)",
+        "Average pass defense (1.3 TDs/game allowed)",
+        "Good scoring game expected (26+ points)",
+        "Volume trending up"
       ]
     },
     {

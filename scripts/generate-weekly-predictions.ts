@@ -15,6 +15,7 @@ import { getShortTeamName, getFullTeamName } from './lib/team-mappings.js';
 import { writeFileSync } from 'fs';
 import { join } from 'path';
 import { DynamicPlayerValidator } from './lib/dynamic-player-validator.js';
+import { ByeWeekFilter } from './lib/bye-week-filter.js';
 
 interface SeasonData {
   rushingPlayers: Player[];
@@ -260,15 +261,23 @@ async function generateWeeklyPredictions(config: WeeklyConfig): Promise<{current
   
   // Combine the datasets
   const combinedData = combineSeasonData(season2024, season2025);
-  
+
   // Load opponent defensive stats and matchups
   const { rushTDs, passTDs } = await loadOpponentStats();
   const matchups = await loadMatchups(config.targetWeek);
+
+  // Filter out players from teams on bye week
+  const byeWeekFilter = new ByeWeekFilter();
+  const filteredRushing = byeWeekFilter.filterPlayers(combinedData.rushingPlayers);
+  const filteredReceiving = byeWeekFilter.filterPlayers(combinedData.receivingPlayers);
+
+  console.log(`🚫 Filtered out ${combinedData.rushingPlayers.length - filteredRushing.length} rushing players on bye`);
+  console.log(`🚫 Filtered out ${combinedData.receivingPlayers.length - filteredReceiving.length} receiving players on bye`);
   
   // Create analysis data structure
   const analysisData: AnalysisData = {
-    rushingPlayers: combinedData.rushingPlayers,
-    receivingPlayers: combinedData.receivingPlayers,
+    rushingPlayers: filteredRushing,
+    receivingPlayers: filteredReceiving,
     opponentRushTDs: rushTDs,
     opponentPassTDs: passTDs,
     matchups: matchups

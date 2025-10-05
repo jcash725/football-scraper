@@ -1,7 +1,7 @@
 {
   "week": 5,
   "season": 2025,
-  "generatedAt": "2025-09-30T18:20:29.003Z",
+  "generatedAt": "2025-10-05T15:25:53.185Z",
   "methodology": "Combined 2024 season data with 2025 previous weeks - Dual Model System",
   "currentModel": {
     "totalRecommendations": 20,
@@ -41,18 +41,6 @@
         "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
         "Reason": "Rookie with 2.0 TD/game consistency",
         "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
-      },
-      {
-        "Player": "Kenneth Gainwell",
-        "Team": "Pittsburgh Steelers",
-        "Opponent": "TBD",
-        "Player TDs YTD": 3,
-        "Player 2025 TDs": 3,
-        "Opponent Stat Value": 5.5,
-        "Basis": "Rush TD - Rookie hotstreak",
-        "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-        "Reason": "Rookie with 1.5 TD/game consistency",
-        "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
       },
       {
         "Player": "Emeka Egbuka",
@@ -112,7 +100,8 @@
         "Basis": "Rush TD - Rookie hotstreak",
         "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
         "Reason": "Rookie with 1.0 TD/game consistency",
-        "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+        "Rookie Boost": "MASSIVE boost (1.0 TD/game)",
+        "actualResult": false
       },
       {
         "Player": "Omarion Hampton",
@@ -160,7 +149,8 @@
         "Basis": "Pass TD - Rookie hotstreak",
         "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
         "Reason": "Rookie with 1.0 TD/game consistency",
-        "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+        "Rookie Boost": "MASSIVE boost (1.0 TD/game)",
+        "actualResult": true
       },
       {
         "Player": "Elic Ayomanor",
@@ -184,7 +174,8 @@
         "Basis": "Pass TD - Rookie hotstreak",
         "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
         "Reason": "Rookie with 1.0 TD/game consistency",
-        "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+        "Rookie Boost": "MASSIVE boost (1.0 TD/game)",
+        "actualResult": true
       },
       {
         "Player": "Tory Horton",
@@ -242,6 +233,17 @@
         "Player 2025 TDs": 0,
         "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
         "Reason": "Detroit Lions vs Cincinnati - opponent allows 1.8 pass TDs/game"
+      },
+      {
+        "Player": "Mark Andrews",
+        "Team": "Baltimore Ravens",
+        "Opponent": "Houston",
+        "Basis": "Opp Pass TD/G",
+        "Opponent Stat Value": 1.7,
+        "Player TDs YTD": 13,
+        "Player 2025 TDs": 2,
+        "TDs vs Opponent Last Year (2024)": "1",
+        "Reason": "Baltimore Ravens vs Houston - opponent allows 1.7 pass TDs/game"
       }
     ]
   },
@@ -266,7 +268,8 @@
         "actual2024TDs": 13,
         "actual2024Games": 9,
         "vsOpponentTDs": 3,
-        "basis": "2024 Data: 13 TDs in 9 games"
+        "basis": "2024 Data: 13 TDs in 9 games",
+        "actualResult": true
       },
       {
         "player": "Ja'Marr Chase",
@@ -346,7 +349,8 @@
         "actual2024TDs": 10,
         "actual2024Games": 8,
         "vsOpponentTDs": 0,
-        "basis": "2024 Data: 10 TDs in 8 games"
+        "basis": "2024 Data: 10 TDs in 8 games",
+        "actualResult": false
       },
       {
         "player": "Jalen Hurts",
@@ -466,7 +470,8 @@
         "actual2024TDs": 10,
         "actual2024Games": 7,
         "vsOpponentTDs": 0,
-        "basis": "2024 Data: 10 TDs in 7 games"
+        "basis": "2024 Data: 10 TDs in 7 games",
+        "actualResult": false
       },
       {
         "player": "Chuba Hubbard",
@@ -689,18 +694,6 @@
         "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
       },
       {
-        "Player": "Kenneth Gainwell",
-        "Team": "Pittsburgh Steelers",
-        "Opponent": "TBD",
-        "Player TDs YTD": 3,
-        "Player 2025 TDs": 3,
-        "Opponent Stat Value": 5.5,
-        "Basis": "Rush TD - Rookie hotstreak",
-        "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-        "Reason": "Rookie with 1.5 TD/game consistency",
-        "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
-      },
-      {
         "Player": "Emeka Egbuka",
         "Team": "Tampa Bay Buccaneers",
         "Opponent": "Seattle",
@@ -888,6 +881,17 @@
         "Player 2025 TDs": 0,
         "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
         "Reason": "Detroit Lions vs Cincinnati - opponent allows 1.8 pass TDs/game"
+      },
+      {
+        "Player": "Mark Andrews",
+        "Team": "Baltimore Ravens",
+        "Opponent": "Houston",
+        "Basis": "Opp Pass TD/G",
+        "Opponent Stat Value": 1.7,
+        "Player TDs YTD": 13,
+        "Player 2025 TDs": 2,
+        "TDs vs Opponent Last Year (2024)": "1",
+        "Reason": "Baltimore Ravens vs Houston - opponent allows 1.7 pass TDs/game"
       }
     ],
     "mlModel": [
@@ -1292,13 +1296,12 @@
         "basis": "2024 Data: 11 TDs in 10 games"
       }
     ],
-    "agreement": 5,
+    "agreement": 10,
     "differences": {
       "onlyInCurrent": [
         "Ashton Jeanty",
         "Woody Marks",
         "Darren Waller",
-        "Kenneth Gainwell",
         "Emeka Egbuka",
         "Jacory Croskey-Merritt",
         "Bhayshul Tuten",
@@ -1318,7 +1321,6 @@
       "onlyInML": [
         "Kyren Williams",
         "Ja'Marr Chase",
-        "Mark Andrews",
         "Derrick Henry",
         "Justin Jefferson",
         "Jalen Hurts",
@@ -1338,10 +1340,16 @@
       ],
       "rankingDifferences": [
         {
+          "player": "Mark Andrews",
+          "currentRank": 20,
+          "mlRank": 3,
+          "difference": 17
+        },
+        {
           "player": "Amon-Ra St. Brown",
-          "currentRank": 19,
+          "currentRank": 18,
           "mlRank": 20,
-          "difference": 1
+          "difference": 2
         }
       ]
     }

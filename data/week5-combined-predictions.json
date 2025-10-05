@@ -1,48 +1,26 @@
 {
   "week": 5,
-  "generatedAt": "2025-09-30T20:16:44.614Z",
+  "generatedAt": "2025-10-05T16:23:24.379Z",
   "predictions": [
-    {
-      "playerName": "Josh Jacobs",
-      "team": "Green Bay Packers",
-      "position": "RB",
-      "opponent": "Unknown",
-      "targets": 4,
-      "carries": 18,
-      "redZoneOpportunities": 3,
-      "volumeScore": 10,
-      "defenseScore": 5,
-      "historicalScore": 5,
-      "finalScore": 8,
-      "prediction": "Strong Play",
-      "injuryStatus": "Healthy",
-      "reasoning": [
-        "High volume (22 touches)",
-        "High red zone usage (3 opportunities)",
-        "Dual-threat usage",
-        "No defensive data available",
-        "Hot recent form (3 TDs in last 3 games)"
-      ]
-    },
     {
       "playerName": "Christian McCaffrey",
       "team": "San Francisco 49ers",
       "position": "RB",
-      "opponent": "LA Rams",
+      "opponent": "Los Angeles Rams",
       "targets": 8,
       "carries": 20,
       "redZoneOpportunities": 6,
       "volumeScore": 10,
-      "defenseScore": 1,
+      "defenseScore": 5,
       "historicalScore": 3,
-      "finalScore": 7,
-      "prediction": "Solid Play",
+      "finalScore": 8,
+      "prediction": "Strong Play",
       "injuryStatus": "Healthy",
       "reasoning": [
         "High volume (28 touches)",
         "High red zone usage (6 opportunities)",
         "Dual-threat usage",
-        "Strong rush defense (0.5 TDs/game allowed)",
+        "No defensive data available",
         "Good recent form (2 TDs in last 3 games)"
       ]
     },
@@ -50,7 +28,7 @@
       "playerName": "Saquon Barkley",
       "team": "Philadelphia Eagles",
       "position": "RB",
-      "opponent": "San Francisco",
+      "opponent": "Denver",
       "targets": 5,
       "carries": 19,
       "redZoneOpportunities": 3,
@@ -199,15 +177,36 @@
       ]
     },
     {
-      "playerName": "Davante Adams",
-      "team": "Los Angeles Rams",
-      "position": "WR",
-      "opponent": "Unknown",
+      "playerName": "Jake Ferguson",
+      "team": "Dallas Cowboys",
+      "position": "TE",
+      "opponent": "NY Jets",
       "targets": 8,
       "carries": 0,
       "redZoneOpportunities": 2,
       "volumeScore": 2,
-      "defenseScore": 5,
+      "defenseScore": 5.5,
+      "historicalScore": 1,
+      "finalScore": 3,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (8 touches)",
+        "Good red zone usage (2 opportunities)",
+        "Weak pass defense (1.8 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "Los Angeles Rams",
+      "position": "WR",
+      "opponent": "San Francisco 49ers",
+      "targets": 8,
+      "carries": 0,
+      "redZoneOpportunities": 2,
+      "volumeScore": 2,
+      "defenseScore": 3.25,
       "historicalScore": 5,
       "finalScore": 3,
       "prediction": "Dart Throw",
@@ -215,7 +214,7 @@
       "reasoning": [
         "Low volume (8 touches)",
         "Good red zone usage (2 opportunities)",
-        "No defensive data available",
+        "Average pass defense (1.3 TDs/game allowed)",
         "Hot recent form (3 TDs in last 3 games)"
       ]
     },
@@ -240,24 +239,43 @@
       ]
     },
     {
-      "playerName": "Jake Ferguson",
-      "team": "Dallas Cowboys",
-      "position": "TE",
-      "opponent": "San Francisco",
+      "playerName": "Malik Nabers",
+      "team": "New York Giants",
+      "position": "WR",
+      "opponent": "New Orleans",
       "targets": 8,
       "carries": 0,
-      "redZoneOpportunities": 2,
-      "volumeScore": 2,
-      "defenseScore": 3.25,
-      "historicalScore": 1,
-      "finalScore": 2,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 7.75,
+      "historicalScore": 3,
+      "finalScore": 3,
       "prediction": "Dart Throw",
       "injuryStatus": "Healthy",
       "reasoning": [
         "Low volume (8 touches)",
-        "Good red zone usage (2 opportunities)",
-        "Average pass defense (1.3 TDs/game allowed)",
-        "Some recent production (1 TD in last 3 games)"
+        "Very Weak pass defense (2.3 TDs/game allowed)",
+        "Good recent form (2 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Garrett Wilson",
+      "team": "New York Jets",
+      "position": "WR",
+      "opponent": "Dallas",
+      "targets": 8,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 8.25,
+      "historicalScore": 3,
+      "finalScore": 3,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (8 touches)",
+        "Very Weak pass defense (2.5 TDs/game allowed)",
+        "Good recent form (2 TDs in last 3 games)"
       ]
     },
     {
@@ -278,26 +296,6 @@
         "Moderate volume (10 touches)",
         "Average pass defense (1.3 TDs/game allowed)",
         "Some recent production (1 TD in last 3 games)"
-      ]
-    },
-    {
-      "playerName": "Puka Nacua",
-      "team": "Los Angeles Rams",
-      "position": "WR",
-      "opponent": "Unknown",
-      "targets": 9,
-      "carries": 0,
-      "redZoneOpportunities": 0,
-      "volumeScore": 0,
-      "defenseScore": 5,
-      "historicalScore": 3,
-      "finalScore": 2,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Healthy",
-      "reasoning": [
-        "Low volume (9 touches)",
-        "No defensive data available",
-        "Good recent form (2 TDs in last 3 games)"
       ]
     },
     {
@@ -361,26 +359,6 @@
       ]
     },
     {
-      "playerName": "Rome Odunze",
-      "team": "Chicago Bears",
-      "position": "WR",
-      "opponent": "Unknown",
-      "targets": 7,
-      "carries": 0,
-      "redZoneOpportunities": 0,
-      "volumeScore": 0,
-      "defenseScore": 5,
-      "historicalScore": 5,
-      "finalScore": 2,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Healthy",
-      "reasoning": [
-        "Low volume (7 touches)",
-        "No defensive data available",
-        "Hot recent form (4 TDs in last 3 games)"
-      ]
-    },
-    {
       "playerName": "Keenan Allen",
       "team": "Los Angeles Chargers",
       "position": "WR",
@@ -401,11 +379,11 @@
       ]
     },
     {
-      "playerName": "Malik Nabers",
-      "team": "New York Giants",
+      "playerName": "Puka Nacua",
+      "team": "Los Angeles Rams",
       "position": "WR",
-      "opponent": "NY Giants",
-      "targets": 8,
+      "opponent": "San Francisco 49ers",
+      "targets": 9,
       "carries": 0,
       "redZoneOpportunities": 0,
       "volumeScore": 0,
@@ -415,27 +393,7 @@
       "prediction": "Dart Throw",
       "injuryStatus": "Healthy",
       "reasoning": [
-        "Low volume (8 touches)",
-        "Average pass defense (1.3 TDs/game allowed)",
-        "Good recent form (2 TDs in last 3 games)"
-      ]
-    },
-    {
-      "playerName": "Garrett Wilson",
-      "team": "New York Jets",
-      "position": "WR",
-      "opponent": "NY Giants",
-      "targets": 8,
-      "carries": 0,
-      "redZoneOpportunities": 0,
-      "volumeScore": 0,
-      "defenseScore": 3.25,
-      "historicalScore": 3,
-      "finalScore": 1,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Healthy",
-      "reasoning": [
-        "Low volume (8 touches)",
+        "Low volume (9 touches)",
         "Average pass defense (1.3 TDs/game allowed)",
         "Good recent form (2 TDs in last 3 games)"
       ]
