@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-10-04T08:13:44.895Z",
+  "lastUpdated": "2025-10-05T08:13:10.474Z",
   "weeks": [
     {
       "week": 1,
@@ -1344,7 +1344,7 @@
     {
       "week": 5,
       "year": 2025,
-      "generatedAt": "2025-10-04T08:13:44.895Z",
+      "generatedAt": "2025-10-05T08:13:10.474Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -1581,19 +1581,6 @@
         },
         {
           "rank": 8,
-          "player": "Rashod Bateman",
-          "team": "Baltimore Ravens",
-          "opponent": "Houston Texans",
-          "probability": 0.5253333333333334,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (11 TDs)",
-            "Weak opponent defense (4.4 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 9,
           "player": "James Cook",
           "team": "Buffalo Bills",
           "opponent": "New England",
@@ -1606,7 +1593,7 @@
           ]
         },
         {
-          "rank": 10,
+          "rank": 9,
           "player": "Brian Thomas Jr.",
           "team": "Jacksonville Jaguars",
           "opponent": "Kansas City",
@@ -1619,7 +1606,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 10,
           "player": "Garrett Wilson",
           "team": "New York Jets",
           "opponent": "Dallas Cowboys",
@@ -1632,7 +1619,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 11,
           "player": "Chuba Hubbard",
           "team": "Carolina Panthers",
           "opponent": "Miami Dolphins",
@@ -1645,7 +1632,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 12,
           "player": "Tee Higgins",
           "team": "Cincinnati Bengals",
           "opponent": "Detroit Lions",
@@ -1658,7 +1645,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 13,
           "player": "A.J. Brown",
           "team": "Philadelphia Eagles",
           "opponent": "Denver Broncos",
@@ -1671,7 +1658,7 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 14,
           "player": "Chase Brown",
           "team": "Cincinnati Bengals",
           "opponent": "Detroit Lions",
@@ -1684,7 +1671,7 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 15,
           "player": "Mike Evans",
           "team": "Tampa Bay Buccaneers",
           "opponent": "Seattle Seahawks",
@@ -1697,7 +1684,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 16,
           "player": "Amon-Ra St. Brown",
           "team": "Detroit Lions",
           "opponent": "Cincinnati Bengals",
@@ -1710,7 +1697,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 17,
           "player": "Saquon Barkley",
           "team": "Philadelphia Eagles",
           "opponent": "Denver Broncos",
@@ -1723,7 +1710,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 18,
           "player": "De'Von Achane",
           "team": "Miami Dolphins",
           "opponent": "Carolina Panthers",
@@ -1736,7 +1723,7 @@
           ]
         },
         {
-          "rank": 20,
+          "rank": 19,
           "player": "Courtland Sutton",
           "team": "Denver Broncos",
           "opponent": "Philadelphia Eagles",
@@ -1745,6 +1732,19 @@
           "keyFactors": [
             "Strong 2024 production (8 TDs)",
             "Weak opponent defense (3.3 TDs/game allowed)",
+            "Hot recent form (6 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 20,
+          "player": "Nico Collins",
+          "team": "Houston Texans",
+          "opponent": "Baltimore Ravens",
+          "probability": 0.4593333333333333,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (8 TDs)",
+            "Weak opponent defense (3.2 TDs/game allowed)",
             "Hot recent form (6 TDs in recent games)"
           ]
         }
