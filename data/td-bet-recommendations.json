@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-01T08:16:04.620Z",
+  "generatedAt": "2025-10-06T08:16:31.008Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -113,6 +113,30 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
+      "Player": "Jake Tonges",
+      "Team": "San Francisco 49ers",
+      "Opponent": "LA Rams",
+      "Player TDs YTD": 3,
+      "Player 2025 TDs": 3,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "Christian McCaffrey",
+      "Team": "San Francisco 49ers",
+      "Opponent": "LA Rams",
+      "Player TDs YTD": 3,
+      "Player 2025 TDs": 3,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
       "Player": "Tyquan Thornton",
       "Team": "Kansas City Chiefs",
       "Opponent": "Jacksonville",
@@ -137,33 +161,9 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Jake Tonges",
-      "Team": "San Francisco 49ers",
-      "Opponent": "LA Rams",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
       "Player": "Elic Ayomanor",
       "Team": "Tennessee Titans",
       "Opponent": "Arizona",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Christian McCaffrey",
-      "Team": "San Francisco 49ers",
-      "Opponent": "LA Rams",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -202,7 +202,7 @@
       "Opponent": "Seattle",
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 4.833333333333333,
-      "Player TDs YTD": 4,
+      "Player TDs YTD": 5,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Tampa Bay Buccaneers vs Seattle - opponent allows 1.5 pass TDs/game",
@@ -220,6 +220,17 @@
       "Reason": "Detroit Lions vs Cincinnati - opponent allows 1.8 pass TDs/game"
     },
     {
+      "Player": "Michael Pittman Jr.",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Las Vegas",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.7,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Indianapolis Colts vs Las Vegas - opponent allows 1.7 pass TDs/game"
+    },
+    {
       "Player": "Tre Tucker",
       "Team": "Las Vegas Raiders",
       "Opponent": "Indianapolis",
@@ -229,17 +240,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Las Vegas Raiders vs Indianapolis - opponent allows 1.6 pass TDs/game"
-    },
-    {
-      "Player": "Quentin Johnston",
-      "Team": "Los Angeles Chargers",
-      "Opponent": "Washington",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.5,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Los Angeles Chargers vs Washington - opponent allows 1.5 pass TDs/game"
     }
   ]
 }
