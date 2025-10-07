@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-06T08:16:31.008Z",
+  "generatedAt": "2025-10-07T08:16:20.874Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -7,7 +7,7 @@
     {
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
-      "Opponent": "Indianapolis",
+      "Opponent": "Tennessee",
       "Player TDs YTD": 4,
       "Player 2025 TDs": 4,
       "Opponent Stat Value": 6,
@@ -19,7 +19,7 @@
     {
       "Player": "Woody Marks",
       "Team": "Houston Texans",
-      "Opponent": "Baltimore",
+      "Opponent": "TBD",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 6,
@@ -31,7 +31,7 @@
     {
       "Player": "Darren Waller",
       "Team": "Miami Dolphins",
-      "Opponent": "Carolina",
+      "Opponent": "LA Chargers",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 6,
@@ -43,7 +43,7 @@
     {
       "Player": "Kenneth Gainwell",
       "Team": "Pittsburgh Steelers",
-      "Opponent": "TBD",
+      "Opponent": "Cleveland",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5.5,
@@ -55,7 +55,7 @@
     {
       "Player": "Jacory Croskey-Merritt",
       "Team": "Washington Commanders",
-      "Opponent": "LA Chargers",
+      "Opponent": "Chicago",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -67,7 +67,7 @@
     {
       "Player": "Bhayshul Tuten",
       "Team": "Jacksonville Jaguars",
-      "Opponent": "Kansas City",
+      "Opponent": "Seattle",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -79,7 +79,7 @@
     {
       "Player": "Cam Skattebo",
       "Team": "New York Giants",
-      "Opponent": "New Orleans",
+      "Opponent": "Philadelphia",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -91,7 +91,7 @@
     {
       "Player": "Quinshon Judkins",
       "Team": "Cleveland Browns",
-      "Opponent": "Minnesota",
+      "Opponent": "Pittsburgh",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -103,7 +103,7 @@
     {
       "Player": "Omarion Hampton",
       "Team": "Los Angeles Chargers",
-      "Opponent": "Washington",
+      "Opponent": "Miami",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -115,7 +115,7 @@
     {
       "Player": "Jake Tonges",
       "Team": "San Francisco 49ers",
-      "Opponent": "LA Rams",
+      "Opponent": "Tampa Bay",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
@@ -127,7 +127,7 @@
     {
       "Player": "Christian McCaffrey",
       "Team": "San Francisco 49ers",
-      "Opponent": "LA Rams",
+      "Opponent": "Tampa Bay",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
@@ -139,7 +139,7 @@
     {
       "Player": "Tyquan Thornton",
       "Team": "Kansas City Chiefs",
-      "Opponent": "Jacksonville",
+      "Opponent": "Detroit",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
@@ -151,7 +151,7 @@
     {
       "Player": "Hunter Long",
       "Team": "Jacksonville Jaguars",
-      "Opponent": "Kansas City",
+      "Opponent": "Seattle",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -163,7 +163,7 @@
     {
       "Player": "Elic Ayomanor",
       "Team": "Tennessee Titans",
-      "Opponent": "Arizona",
+      "Opponent": "Las Vegas",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -175,7 +175,7 @@
     {
       "Player": "Tory Horton",
       "Team": "Seattle Seahawks",
-      "Opponent": "Tampa Bay",
+      "Opponent": "Jacksonville",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -187,7 +187,7 @@
     {
       "Player": "Luke McCaffrey",
       "Team": "Washington Commanders",
-      "Opponent": "LA Chargers",
+      "Opponent": "Chicago",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -199,47 +199,47 @@
     {
       "Player": "Emeka Egbuka",
       "Team": "Tampa Bay Buccaneers",
-      "Opponent": "Seattle",
+      "Opponent": "San Francisco",
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 4.833333333333333,
       "Player TDs YTD": 5,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Tampa Bay Buccaneers vs Seattle - opponent allows 1.5 pass TDs/game",
+      "Reason": "Tampa Bay Buccaneers vs San Francisco - opponent allows 1.5 pass TDs/game",
       "Rookie Boost": "+3.3 (1.3 TD/game)"
     },
     {
-      "Player": "Amon-Ra St. Brown",
-      "Team": "Detroit Lions",
+      "Player": "George Pickens",
+      "Team": "Dallas Cowboys",
+      "Opponent": "Carolina",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 2.1,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Dallas Cowboys vs Carolina - opponent allows 2.1 pass TDs/game"
+    },
+    {
+      "Player": "Romeo Doubs",
+      "Team": "Green Bay Packers",
       "Opponent": "Cincinnati",
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 1.8,
-      "Player TDs YTD": 6,
+      "Player TDs YTD": 4,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Detroit Lions vs Cincinnati - opponent allows 1.8 pass TDs/game"
+      "Reason": "Green Bay Packers vs Cincinnati - opponent allows 1.8 pass TDs/game"
     },
     {
-      "Player": "Michael Pittman Jr.",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Las Vegas",
+      "Player": "AJ Barner",
+      "Team": "Seattle Seahawks",
+      "Opponent": "Jacksonville",
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 1.7,
       "Player TDs YTD": 4,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Indianapolis Colts vs Las Vegas - opponent allows 1.7 pass TDs/game"
-    },
-    {
-      "Player": "Tre Tucker",
-      "Team": "Las Vegas Raiders",
-      "Opponent": "Indianapolis",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.6,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs Indianapolis - opponent allows 1.6 pass TDs/game"
+      "Reason": "Seattle Seahawks vs Jacksonville - opponent allows 1.7 pass TDs/game"
     }
   ]
 }

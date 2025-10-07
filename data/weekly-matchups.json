@@ -1,7 +1,7 @@
 {
   "url": "https://www.teamrankings.com/nfl/schedules/season/",
-  "scrapedAt": "2025-09-30T08:16:23.229Z",
-  "note": "Found 14 matchups",
+  "scrapedAt": "2025-10-07T08:15:46.087Z",
+  "note": "Found 15 matchups",
   "columns": [
     "away_team",
     "home_team",
@@ -10,87 +10,93 @@
   ],
   "rows": [
     {
-      "away_team": "San Francisco",
-      "home_team": "LA Rams",
-      "date": "Thu Oct  2",
+      "away_team": "Philadelphia",
+      "home_team": "NY Giants",
+      "date": "Thu Oct  9",
       "time": "8:15 PM"
     },
     {
-      "away_team": "Cleveland",
-      "home_team": "Minnesota",
-      "date": "Thu Oct  2",
+      "away_team": "NY Jets",
+      "home_team": "Denver",
+      "date": "Thu Oct  9",
       "time": "9:30 AM"
     },
     {
-      "away_team": "Houston",
+      "away_team": "New England",
+      "home_team": "New Orleans",
+      "date": "Thu Oct  9",
+      "time": "1:00 PM"
+    },
+    {
+      "away_team": "LA Rams",
       "home_team": "Baltimore",
-      "date": "Thu Oct  2",
+      "date": "Thu Oct  9",
       "time": "1:00 PM"
     },
     {
-      "away_team": "Miami",
-      "home_team": "Carolina",
-      "date": "Thu Oct  2",
-      "time": "1:00 PM"
-    },
-    {
-      "away_team": "Denver",
-      "home_team": "Philadelphia",
-      "date": "Thu Oct  2",
+      "away_team": "Seattle",
+      "home_team": "Jacksonville",
+      "date": "Thu Oct  9",
       "time": "1:00 PM"
     },
     {
       "away_team": "Dallas",
-      "home_team": "NY Jets",
-      "date": "Thu Oct  2",
+      "home_team": "Carolina",
+      "date": "Thu Oct  9",
       "time": "1:00 PM"
     },
     {
-      "away_team": "NY Giants",
-      "home_team": "New Orleans",
-      "date": "Thu Oct  2",
+      "away_team": "Cleveland",
+      "home_team": "Pittsburgh",
+      "date": "Thu Oct  9",
       "time": "1:00 PM"
     },
     {
-      "away_team": "Las Vegas",
+      "away_team": "LA Chargers",
+      "home_team": "Miami",
+      "date": "Thu Oct  9",
+      "time": "1:00 PM"
+    },
+    {
+      "away_team": "Arizona",
       "home_team": "Indianapolis",
-      "date": "Thu Oct  2",
+      "date": "Thu Oct  9",
       "time": "1:00 PM"
     },
     {
       "away_team": "Tennessee",
-      "home_team": "Arizona",
-      "date": "Thu Oct  2",
+      "home_team": "Las Vegas",
+      "date": "Thu Oct  9",
       "time": "4:05 PM"
     },
     {
-      "away_team": "Tampa Bay",
-      "home_team": "Seattle",
-      "date": "Thu Oct  2",
-      "time": "4:05 PM"
+      "away_team": "San Francisco",
+      "home_team": "Tampa Bay",
+      "date": "Thu Oct  9",
+      "time": "4:25 PM"
+    },
+    {
+      "away_team": "Cincinnati",
+      "home_team": "Green Bay",
+      "date": "Thu Oct  9",
+      "time": "4:25 PM"
     },
     {
       "away_team": "Detroit",
-      "home_team": "Cincinnati",
-      "date": "Thu Oct  2",
-      "time": "4:25 PM"
-    },
-    {
-      "away_team": "Washington",
-      "home_team": "LA Chargers",
-      "date": "Thu Oct  2",
-      "time": "4:25 PM"
-    },
-    {
-      "away_team": "New England",
-      "home_team": "Buffalo",
-      "date": "Thu Oct  2",
+      "home_team": "Kansas City",
+      "date": "Thu Oct  9",
       "time": "8:20 PM"
     },
     {
-      "away_team": "Kansas City",
-      "home_team": "Jacksonville",
-      "date": "Thu Oct  2",
+      "away_team": "Buffalo",
+      "home_team": "Atlanta",
+      "date": "Thu Oct  9",
+      "time": "7:15 PM"
+    },
+    {
+      "away_team": "Chicago",
+      "home_team": "Washington",
+      "date": "Thu Oct  9",
       "time": "8:15 PM"
     }
   ]
