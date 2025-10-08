@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-09-30T18:15:56.896Z",
-  "week": 5,
+  "generatedAt": "2025-10-08T18:14:39.182Z",
+  "week": 6,
   "season": 2025,
   "reports": [
     {
@@ -1077,6 +1077,1206 @@
       "status": "Healthy",
       "injury": "None",
       "lastUpdated": "2025-09-30T18:15:56.895Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:36:29.417Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "CeeDee Lamb",
+      "team": "Dallas Cowboys",
+      "status": "Out",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T17:36:29.418Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Travis Kelce",
+      "team": "Kansas City Chiefs",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:36:29.418Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "Las Vegas Raiders",
+      "status": "Doubtful",
+      "injury": "Hamstring",
+      "lastUpdated": "2025-10-08T17:36:29.418Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Limited"
+      ]
+    },
+    {
+      "playerName": "Tyreek Hill",
+      "team": "Miami Dolphins",
+      "status": "Questionable",
+      "injury": "Hip",
+      "lastUpdated": "2025-10-08T17:36:29.418Z",
+      "practiceStatus": [
+        "Limited",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Josh Jacobs",
+      "team": "Green Bay Packers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:36:29.418Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Mark Andrews",
+      "team": "Baltimore Ravens",
+      "status": "Questionable",
+      "injury": "Knee",
+      "lastUpdated": "2025-10-08T17:36:29.418Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "New York Jets",
+      "status": "Out",
+      "injury": "Trade Request",
+      "lastUpdated": "2025-10-08T17:36:29.418Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Cooper Kupp",
+      "team": "Los Angeles Rams",
+      "status": "Questionable",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T17:36:29.418Z",
+      "practiceStatus": [
+        "Limited",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Saquon Barkley",
+      "team": "Philadelphia Eagles",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:36:29.418Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:49:48.436Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "CeeDee Lamb",
+      "team": "Dallas Cowboys",
+      "status": "Out",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T17:49:48.437Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Travis Kelce",
+      "team": "Kansas City Chiefs",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:49:48.437Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "Las Vegas Raiders",
+      "status": "Doubtful",
+      "injury": "Hamstring",
+      "lastUpdated": "2025-10-08T17:49:48.437Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Limited"
+      ]
+    },
+    {
+      "playerName": "Tyreek Hill",
+      "team": "Miami Dolphins",
+      "status": "Questionable",
+      "injury": "Hip",
+      "lastUpdated": "2025-10-08T17:49:48.437Z",
+      "practiceStatus": [
+        "Limited",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Josh Jacobs",
+      "team": "Green Bay Packers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:49:48.437Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Mark Andrews",
+      "team": "Baltimore Ravens",
+      "status": "Questionable",
+      "injury": "Knee",
+      "lastUpdated": "2025-10-08T17:49:48.437Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "New York Jets",
+      "status": "Out",
+      "injury": "Trade Request",
+      "lastUpdated": "2025-10-08T17:49:48.437Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Cooper Kupp",
+      "team": "Los Angeles Rams",
+      "status": "Questionable",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T17:49:48.437Z",
+      "practiceStatus": [
+        "Limited",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Saquon Barkley",
+      "team": "Philadelphia Eagles",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:49:48.437Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:50:39.324Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "CeeDee Lamb",
+      "team": "Dallas Cowboys",
+      "status": "Out",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T17:50:39.325Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Travis Kelce",
+      "team": "Kansas City Chiefs",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:50:39.325Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "Las Vegas Raiders",
+      "status": "Doubtful",
+      "injury": "Hamstring",
+      "lastUpdated": "2025-10-08T17:50:39.325Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Limited"
+      ]
+    },
+    {
+      "playerName": "Tyreek Hill",
+      "team": "Miami Dolphins",
+      "status": "Questionable",
+      "injury": "Hip",
+      "lastUpdated": "2025-10-08T17:50:39.325Z",
+      "practiceStatus": [
+        "Limited",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Josh Jacobs",
+      "team": "Green Bay Packers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:50:39.325Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Mark Andrews",
+      "team": "Baltimore Ravens",
+      "status": "Questionable",
+      "injury": "Knee",
+      "lastUpdated": "2025-10-08T17:50:39.325Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "New York Jets",
+      "status": "Out",
+      "injury": "Trade Request",
+      "lastUpdated": "2025-10-08T17:50:39.325Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Cooper Kupp",
+      "team": "Los Angeles Rams",
+      "status": "Questionable",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T17:50:39.325Z",
+      "practiceStatus": [
+        "Limited",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Saquon Barkley",
+      "team": "Philadelphia Eagles",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:50:39.325Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:50:43.842Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "CeeDee Lamb",
+      "team": "Dallas Cowboys",
+      "status": "Out",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T17:50:43.843Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Travis Kelce",
+      "team": "Kansas City Chiefs",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:50:43.843Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "Las Vegas Raiders",
+      "status": "Doubtful",
+      "injury": "Hamstring",
+      "lastUpdated": "2025-10-08T17:50:43.843Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Limited"
+      ]
+    },
+    {
+      "playerName": "Tyreek Hill",
+      "team": "Miami Dolphins",
+      "status": "Questionable",
+      "injury": "Hip",
+      "lastUpdated": "2025-10-08T17:50:43.843Z",
+      "practiceStatus": [
+        "Limited",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Josh Jacobs",
+      "team": "Green Bay Packers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:50:43.843Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Mark Andrews",
+      "team": "Baltimore Ravens",
+      "status": "Questionable",
+      "injury": "Knee",
+      "lastUpdated": "2025-10-08T17:50:43.843Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "New York Jets",
+      "status": "Out",
+      "injury": "Trade Request",
+      "lastUpdated": "2025-10-08T17:50:43.843Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Cooper Kupp",
+      "team": "Los Angeles Rams",
+      "status": "Questionable",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T17:50:43.843Z",
+      "practiceStatus": [
+        "Limited",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Saquon Barkley",
+      "team": "Philadelphia Eagles",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:50:43.843Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:50:48.408Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "CeeDee Lamb",
+      "team": "Dallas Cowboys",
+      "status": "Out",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T17:50:48.409Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Travis Kelce",
+      "team": "Kansas City Chiefs",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:50:48.409Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "Las Vegas Raiders",
+      "status": "Doubtful",
+      "injury": "Hamstring",
+      "lastUpdated": "2025-10-08T17:50:48.409Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Limited"
+      ]
+    },
+    {
+      "playerName": "Tyreek Hill",
+      "team": "Miami Dolphins",
+      "status": "Questionable",
+      "injury": "Hip",
+      "lastUpdated": "2025-10-08T17:50:48.409Z",
+      "practiceStatus": [
+        "Limited",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Josh Jacobs",
+      "team": "Green Bay Packers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:50:48.409Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Mark Andrews",
+      "team": "Baltimore Ravens",
+      "status": "Questionable",
+      "injury": "Knee",
+      "lastUpdated": "2025-10-08T17:50:48.409Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "New York Jets",
+      "status": "Out",
+      "injury": "Trade Request",
+      "lastUpdated": "2025-10-08T17:50:48.409Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Cooper Kupp",
+      "team": "Los Angeles Rams",
+      "status": "Questionable",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T17:50:48.409Z",
+      "practiceStatus": [
+        "Limited",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Saquon Barkley",
+      "team": "Philadelphia Eagles",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T17:50:48.409Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:12:12.130Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "CeeDee Lamb",
+      "team": "Dallas Cowboys",
+      "status": "Out",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T18:12:12.132Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Travis Kelce",
+      "team": "Kansas City Chiefs",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:12:12.132Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "Las Vegas Raiders",
+      "status": "Doubtful",
+      "injury": "Hamstring",
+      "lastUpdated": "2025-10-08T18:12:12.132Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Limited"
+      ]
+    },
+    {
+      "playerName": "Tyreek Hill",
+      "team": "Miami Dolphins",
+      "status": "Questionable",
+      "injury": "Hip",
+      "lastUpdated": "2025-10-08T18:12:12.132Z",
+      "practiceStatus": [
+        "Limited",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Josh Jacobs",
+      "team": "Green Bay Packers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:12:12.132Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Mark Andrews",
+      "team": "Baltimore Ravens",
+      "status": "Questionable",
+      "injury": "Knee",
+      "lastUpdated": "2025-10-08T18:12:12.132Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "New York Jets",
+      "status": "Out",
+      "injury": "Trade Request",
+      "lastUpdated": "2025-10-08T18:12:12.132Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Cooper Kupp",
+      "team": "Los Angeles Rams",
+      "status": "Questionable",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T18:12:12.132Z",
+      "practiceStatus": [
+        "Limited",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Saquon Barkley",
+      "team": "Philadelphia Eagles",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:12:12.132Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:13:37.749Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "CeeDee Lamb",
+      "team": "Dallas Cowboys",
+      "status": "Out",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T18:13:37.751Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Travis Kelce",
+      "team": "Kansas City Chiefs",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:13:37.751Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "Las Vegas Raiders",
+      "status": "Doubtful",
+      "injury": "Hamstring",
+      "lastUpdated": "2025-10-08T18:13:37.751Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Limited"
+      ]
+    },
+    {
+      "playerName": "Tyreek Hill",
+      "team": "Miami Dolphins",
+      "status": "Questionable",
+      "injury": "Hip",
+      "lastUpdated": "2025-10-08T18:13:37.751Z",
+      "practiceStatus": [
+        "Limited",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Josh Jacobs",
+      "team": "Green Bay Packers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:13:37.751Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Mark Andrews",
+      "team": "Baltimore Ravens",
+      "status": "Questionable",
+      "injury": "Knee",
+      "lastUpdated": "2025-10-08T18:13:37.751Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "New York Jets",
+      "status": "Out",
+      "injury": "Trade Request",
+      "lastUpdated": "2025-10-08T18:13:37.751Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Cooper Kupp",
+      "team": "Los Angeles Rams",
+      "status": "Questionable",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T18:13:37.751Z",
+      "practiceStatus": [
+        "Limited",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Saquon Barkley",
+      "team": "Philadelphia Eagles",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:13:37.751Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:14:29.700Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "CeeDee Lamb",
+      "team": "Dallas Cowboys",
+      "status": "Out",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T18:14:29.701Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Travis Kelce",
+      "team": "Kansas City Chiefs",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:14:29.701Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "Las Vegas Raiders",
+      "status": "Doubtful",
+      "injury": "Hamstring",
+      "lastUpdated": "2025-10-08T18:14:29.701Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Limited"
+      ]
+    },
+    {
+      "playerName": "Tyreek Hill",
+      "team": "Miami Dolphins",
+      "status": "Questionable",
+      "injury": "Hip",
+      "lastUpdated": "2025-10-08T18:14:29.701Z",
+      "practiceStatus": [
+        "Limited",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Josh Jacobs",
+      "team": "Green Bay Packers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:14:29.701Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Mark Andrews",
+      "team": "Baltimore Ravens",
+      "status": "Questionable",
+      "injury": "Knee",
+      "lastUpdated": "2025-10-08T18:14:29.701Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "New York Jets",
+      "status": "Out",
+      "injury": "Trade Request",
+      "lastUpdated": "2025-10-08T18:14:29.701Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Cooper Kupp",
+      "team": "Los Angeles Rams",
+      "status": "Questionable",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T18:14:29.701Z",
+      "practiceStatus": [
+        "Limited",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Saquon Barkley",
+      "team": "Philadelphia Eagles",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:14:29.701Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:14:34.494Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "CeeDee Lamb",
+      "team": "Dallas Cowboys",
+      "status": "Out",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T18:14:34.496Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Travis Kelce",
+      "team": "Kansas City Chiefs",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:14:34.496Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "Las Vegas Raiders",
+      "status": "Doubtful",
+      "injury": "Hamstring",
+      "lastUpdated": "2025-10-08T18:14:34.496Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Limited"
+      ]
+    },
+    {
+      "playerName": "Tyreek Hill",
+      "team": "Miami Dolphins",
+      "status": "Questionable",
+      "injury": "Hip",
+      "lastUpdated": "2025-10-08T18:14:34.496Z",
+      "practiceStatus": [
+        "Limited",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Josh Jacobs",
+      "team": "Green Bay Packers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:14:34.496Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Mark Andrews",
+      "team": "Baltimore Ravens",
+      "status": "Questionable",
+      "injury": "Knee",
+      "lastUpdated": "2025-10-08T18:14:34.496Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "New York Jets",
+      "status": "Out",
+      "injury": "Trade Request",
+      "lastUpdated": "2025-10-08T18:14:34.496Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Cooper Kupp",
+      "team": "Los Angeles Rams",
+      "status": "Questionable",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T18:14:34.496Z",
+      "practiceStatus": [
+        "Limited",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Saquon Barkley",
+      "team": "Philadelphia Eagles",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:14:34.496Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:14:39.180Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "CeeDee Lamb",
+      "team": "Dallas Cowboys",
+      "status": "Out",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T18:14:39.181Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Travis Kelce",
+      "team": "Kansas City Chiefs",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:14:39.181Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "Las Vegas Raiders",
+      "status": "Doubtful",
+      "injury": "Hamstring",
+      "lastUpdated": "2025-10-08T18:14:39.181Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Limited"
+      ]
+    },
+    {
+      "playerName": "Tyreek Hill",
+      "team": "Miami Dolphins",
+      "status": "Questionable",
+      "injury": "Hip",
+      "lastUpdated": "2025-10-08T18:14:39.181Z",
+      "practiceStatus": [
+        "Limited",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Josh Jacobs",
+      "team": "Green Bay Packers",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:14:39.181Z",
+      "practiceStatus": [
+        "Full",
+        "Full",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Mark Andrews",
+      "team": "Baltimore Ravens",
+      "status": "Questionable",
+      "injury": "Knee",
+      "lastUpdated": "2025-10-08T18:14:39.181Z",
+      "practiceStatus": [
+        "DNP",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Davante Adams",
+      "team": "New York Jets",
+      "status": "Out",
+      "injury": "Trade Request",
+      "lastUpdated": "2025-10-08T18:14:39.181Z",
+      "practiceStatus": [
+        "DNP",
+        "DNP",
+        "DNP"
+      ]
+    },
+    {
+      "playerName": "Cooper Kupp",
+      "team": "Los Angeles Rams",
+      "status": "Questionable",
+      "injury": "Ankle",
+      "lastUpdated": "2025-10-08T18:14:39.181Z",
+      "practiceStatus": [
+        "Limited",
+        "Limited",
+        "Full"
+      ]
+    },
+    {
+      "playerName": "Saquon Barkley",
+      "team": "Philadelphia Eagles",
+      "status": "Healthy",
+      "injury": "None",
+      "lastUpdated": "2025-10-08T18:14:39.181Z",
       "practiceStatus": [
         "Full",
         "Full",

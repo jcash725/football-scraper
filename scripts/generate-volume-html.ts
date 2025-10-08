@@ -6,6 +6,10 @@ import { SimpleTouchdownTracker } from './lib/simple-touchdown-tracker.js';
 import { InjuryChecker } from './lib/injury-checker.js';
 import fs from 'fs';
 import path from 'path';
+import { exec } from 'child_process';
+import { promisify } from 'util';
+
+const execAsync = promisify(exec);
 
 interface PlayerWithInjury {
   playerName: string;
@@ -31,6 +35,15 @@ async function main() {
   }
 
   console.log(`🏈 Generating Volume Analysis HTML for Week ${week}...\n`);
+
+  // Auto-update injury data before generating volume analysis
+  console.log(`🏥 Updating injury data for Week ${week}...`);
+  try {
+    await execAsync(`npx tsx scripts/setup-injury-data.ts ${week}`);
+    console.log('✅ Injury data updated\n');
+  } catch (error) {
+    console.warn('⚠️ Could not update injury data, continuing with existing data\n');
+  }
 
   const volumeTracker = new ManualVolumeTracker();
   const touchdownTracker = new SimpleTouchdownTracker();

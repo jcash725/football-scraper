@@ -2,6 +2,10 @@
 
 import fs from 'fs';
 import path from 'path';
+import { exec } from 'child_process';
+import { promisify } from 'util';
+
+const execAsync = promisify(exec);
 
 function readJsonFile(filename: string): any {
   const fullPath = path.join(process.cwd(), filename);
@@ -699,23 +703,32 @@ async function main() {
   try {
     const args = process.argv.slice(2);
     const targetWeek = args.length > 0 ? parseInt(args[0]) : 2;
-    
+
     if (isNaN(targetWeek) || targetWeek < 1 || targetWeek > 18) {
       console.error('Please provide a valid week number (1-18)');
       process.exit(1);
     }
-    
+
+    // Auto-update injury data before generating predictions
+    console.log(`🏥 Updating injury data for Week ${targetWeek}...`);
+    try {
+      await execAsync(`npx tsx scripts/setup-injury-data.ts ${targetWeek}`);
+      console.log('✅ Injury data updated\n');
+    } catch (error) {
+      console.warn('⚠️ Could not update injury data, continuing with existing data\n');
+    }
+
     const config: WeeklyConfig = {
       targetWeek,
       season: 2025
     };
-    
+
     const results = await generateWeeklyPredictions(config);
     await saveResults(targetWeek, results.currentTop20, results.mlPredictions, results.comparison);
-    
+
     console.log(`\n✅ Week ${targetWeek} predictions generated successfully!`);
     console.log(`View results: data/week${targetWeek}-predictions.html`);
-    
+
   } catch (error) {
     console.error('Error generating predictions:', error);
     process.exit(1);

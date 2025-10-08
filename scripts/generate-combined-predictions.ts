@@ -4,6 +4,10 @@
 import { VolumeDefensePredictor } from './lib/volume-defense-predictor.js';
 import fs from 'fs';
 import path from 'path';
+import { exec } from 'child_process';
+import { promisify } from 'util';
+
+const execAsync = promisify(exec);
 
 interface CombinedPrediction {
   playerName: string;
@@ -32,6 +36,15 @@ async function main() {
   }
 
   console.log(`🏈 Generating Combined Volume + Defense Predictions for Week ${week}...\n`);
+
+  // Auto-update injury data before generating predictions
+  console.log(`🏥 Updating injury data for Week ${week}...`);
+  try {
+    await execAsync(`npx tsx scripts/setup-injury-data.ts ${week}`);
+    console.log('✅ Injury data updated\n');
+  } catch (error) {
+    console.warn('⚠️ Could not update injury data, continuing with existing data\n');
+  }
 
   const predictor = new VolumeDefensePredictor();
   const predictions = predictor.generatePredictions(week);

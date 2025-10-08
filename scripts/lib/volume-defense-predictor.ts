@@ -6,7 +6,7 @@ import { ManualVolumeTracker } from './manual-volume-tracker.js';
 import { SimpleTouchdownTracker } from './simple-touchdown-tracker.js';
 import { InjuryChecker } from './injury-checker.js';
 import { ByeWeekFilter } from './bye-week-filter.js';
-import { TeamNameStandardizer } from './team-name-standardizer.js';
+import { TeamNameStandardizer as TeamNameStandardizer } from './team-name-dictionary.js';
 import fs from 'fs';
 
 interface Matchup {
@@ -47,11 +47,13 @@ export class VolumeDefensePredictor {
   private rushDefenseData: DefenseData[];
   private passDefenseData: DefenseData[];
   private matchups: Matchup[];
+  private teamStandardizer: TeamNameStandardizer;
 
   constructor() {
     this.volumeTracker = new ManualVolumeTracker();
     this.touchdownTracker = new SimpleTouchdownTracker();
     this.injuryChecker = new InjuryChecker();
+    this.teamStandardizer = new TeamNameStandardizer();
     this.loadDefenseData();
     this.matchups = [];
   }
@@ -87,122 +89,48 @@ export class VolumeDefensePredictor {
     // First try to get opponent from touchdown data for this specific week
     if (touchdownData) {
       const teamGames = touchdownData.playerGameStats.filter((stat: any) =>
-        stat.week === week && this.normalizeTeamName(stat.team) === this.normalizeTeamName(team)
+        stat.week === week && this.teamStandardizer.isSameTeam(stat.team, team)
       );
 
       if (teamGames.length > 0) {
-        return teamGames[0].opponent;
+        return this.teamStandardizer.getCity(teamGames[0].opponent);
       }
     }
 
-    // Fallback to matchup data
-    const normalizedTeam = this.normalizeTeamName(team);
+    // Fallback to matchup data using standardized team names
+    const standardizedTeam = this.teamStandardizer.standardize(team);
 
     const matchup = this.matchups.find(m => {
-      const normalizedAway = this.normalizeTeamName(m.away_team || '');
-      const normalizedHome = this.normalizeTeamName(m.home_team || '');
+      const standardizedAway = this.teamStandardizer.standardize(m.away_team || '');
+      const standardizedHome = this.teamStandardizer.standardize(m.home_team || '');
 
-      return normalizedTeam === normalizedAway || normalizedTeam === normalizedHome;
+      return this.teamStandardizer.isSameTeam(standardizedTeam, standardizedAway) ||
+             this.teamStandardizer.isSameTeam(standardizedTeam, standardizedHome);
     });
 
     if (!matchup) {
-      // Fallback: try city-based matching if exact match fails
-      const partialMatchup = this.matchups.find(m => {
-        const normalizedAway = this.normalizeTeamName(m.away_team || '');
-        const normalizedHome = this.normalizeTeamName(m.home_team || '');
-
-        // Special handling for multi-word cities and abbreviations
-        const getTeamKey = (team: string) => {
-          const words = team.split(' ');
-
-          // Handle NY teams specifically - include team name to distinguish
-          if (words[0] === 'ny') {
-            return team; // "ny giants" or "ny jets"
-          }
-          if (words.length >= 2 && words[0] === 'new' && words[1] === 'york') {
-            // Convert "new york giants" to "ny giants" for matching
-            return 'ny ' + words.slice(2).join(' ');
-          }
-
-          // Handle other multi-word cities
-          if (words.length >= 2 && (words[0] === 'los' || words[0] === 'san')) {
-            return words.slice(0, 2).join(' '); // "los angeles", "san francisco"
-          }
-
-          return words[0]; // single word like "dallas", "miami"
-        };
-
-        const teamKey = getTeamKey(normalizedTeam);
-        const awayKey = getTeamKey(normalizedAway);
-        const homeKey = getTeamKey(normalizedHome);
-
-        return teamKey === awayKey || teamKey === homeKey;
-      });
-
-      if (partialMatchup) {
-        const normalizedAway = this.normalizeTeamName(partialMatchup.away_team || '');
-
-        // Use same team key logic to determine which team this is
-        const getTeamKey = (team: string) => {
-          const words = team.split(' ');
-
-          // Handle NY teams specifically - include team name to distinguish
-          if (words[0] === 'ny') {
-            return team; // "ny giants" or "ny jets"
-          }
-          if (words.length >= 2 && words[0] === 'new' && words[1] === 'york') {
-            // Convert "new york giants" to "ny giants" for matching
-            return 'ny ' + words.slice(2).join(' ');
-          }
-
-          // Handle other multi-word cities
-          if (words.length >= 2 && (words[0] === 'los' || words[0] === 'san')) {
-            return words.slice(0, 2).join(' ');
-          }
-
-          return words[0];
-        };
-
-        const teamKey = getTeamKey(normalizedTeam);
-        const awayKey = getTeamKey(normalizedAway);
-
-        if (teamKey === awayKey) {
-          return partialMatchup.home_team || 'Unknown';
-        } else {
-          return partialMatchup.away_team || 'Unknown';
-        }
-      }
-
       return 'Unknown';
     }
 
-    // Return the opponent team
-    const normalizedAway = this.normalizeTeamName(matchup.away_team || '');
+    // Return the opponent team city name
+    const standardizedAway = this.teamStandardizer.standardize(matchup.away_team || '');
 
-    if (normalizedTeam === normalizedAway) {
-      return matchup.home_team || 'Unknown';
+    if (this.teamStandardizer.isSameTeam(standardizedTeam, standardizedAway)) {
+      return this.teamStandardizer.getCity(matchup.home_team || 'Unknown');
     } else {
-      return matchup.away_team || 'Unknown';
+      return this.teamStandardizer.getCity(matchup.away_team || 'Unknown');
     }
   }
 
-  private normalizeTeamName(teamName: string): string {
-    return teamName
-      .toLowerCase()
-      .replace(/\s+(football\s+team|football\s+club|fc|football)/g, '')
-      .replace(/\s+/g, ' ')
-      .trim();
-  }
 
   private getDefenseScore(opponent: string, position: string): { score: number, reasoning: string } {
     const isRunningBack = position === 'RB';
     const defenseData = isRunningBack ? this.rushDefenseData : this.passDefenseData;
 
-    // Find opponent's defensive stats
+    // Find opponent's defensive stats using standardized team names
     const opponentData = defenseData.find(team =>
       team.Team && opponent &&
-      (team.Team.toLowerCase().includes(opponent.toLowerCase()) ||
-       opponent.toLowerCase().includes(team.Team.toLowerCase()))
+      this.teamStandardizer.isSameTeam(team.Team, opponent)
     );
 
     if (!opponentData) {
