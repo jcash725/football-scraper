@@ -556,6 +556,109 @@ function generateCombinedInterface(week: number, season: number = 2025) {
             </div>
         </div>
 
+        ${(() => {
+            // Find common players across all models
+            const normalizePlayerName = (name: string) => name.toLowerCase().trim().replace(/[^a-z ]/g, '');
+
+            // Create player sets for each model
+            const traditionalPlayers = new Set(traditionalData.predictions.map(p => normalizePlayerName(p.Player)));
+            const mlPlayers = new Set(mlData.predictions.map(p => normalizePlayerName(p.Player)));
+            const volumePlayers = new Set(volumeData.predictions.map(p => normalizePlayerName(p.playerName || p.Player)));
+            const combinedPlayers = new Set(combinedData.predictions.map(p => normalizePlayerName(p.playerName)));
+            const enhancedPlayers = new Set(enhancedData.predictions.map(p => normalizePlayerName(p.playerName)));
+
+            // Find players common to at least 2 models
+            const allPlayers = new Set([
+                ...traditionalPlayers,
+                ...mlPlayers,
+                ...volumePlayers,
+                ...combinedPlayers,
+                ...enhancedPlayers
+            ]);
+
+            const commonPlayers: {name: string, count: number, models: string[], team: string}[] = [];
+
+            allPlayers.forEach(playerName => {
+                let count = 0;
+                const models: string[] = [];
+                let team = '';
+
+                if (traditionalPlayers.has(playerName)) {
+                    count++;
+                    models.push('Current');
+                    const p = traditionalData.predictions.find(p => normalizePlayerName(p.Player) === playerName);
+                    if (p) team = p.Team;
+                }
+                if (mlPlayers.has(playerName)) {
+                    count++;
+                    models.push('ML');
+                    const p = mlData.predictions.find(p => normalizePlayerName(p.Player) === playerName);
+                    if (p && !team) team = p.Team;
+                }
+                if (volumePlayers.has(playerName)) {
+                    count++;
+                    models.push('Volume');
+                    const p = volumeData.predictions.find(p => normalizePlayerName(p.playerName || p.Player) === playerName);
+                    if (p && !team) team = p.team || p.Team;
+                }
+                if (combinedPlayers.has(playerName)) {
+                    count++;
+                    models.push('Combined');
+                    const p = combinedData.predictions.find(p => normalizePlayerName(p.playerName) === playerName);
+                    if (p && !team) team = p.team;
+                }
+                if (enhancedPlayers.has(playerName)) {
+                    count++;
+                    models.push('Enhanced');
+                    const p = enhancedData.predictions.find(p => normalizePlayerName(p.playerName) === playerName);
+                    if (p && !team) team = p.team;
+                }
+
+                if (count >= 2) {
+                    // Get the properly capitalized name
+                    let displayName = playerName;
+                    const trad = traditionalData.predictions.find(p => normalizePlayerName(p.Player) === playerName);
+                    const ml = mlData.predictions.find(p => normalizePlayerName(p.Player) === playerName);
+                    const vol = volumeData.predictions.find(p => normalizePlayerName(p.playerName || p.Player) === playerName);
+                    const comb = combinedData.predictions.find(p => normalizePlayerName(p.playerName) === playerName);
+                    const enh = enhancedData.predictions.find(p => normalizePlayerName(p.playerName) === playerName);
+
+                    displayName = trad?.Player || ml?.Player || vol?.playerName || vol?.Player || comb?.playerName || enh?.playerName || playerName;
+
+                    commonPlayers.push({ name: displayName, count, models, team });
+                }
+            });
+
+            // Sort by count (most models first), then by name
+            commonPlayers.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+
+            return `
+        <div class="model-info" style="margin-top: 30px;">
+            <h3>🎯 Common Players Across Models</h3>
+            <p>Players that appear in multiple prediction models (${commonPlayers.length} total)</p>
+        </div>
+
+        <table style="margin-bottom: 30px;">
+            <thead>
+                <tr>
+                    <th>Player</th>
+                    <th>Team</th>
+                    <th>Models</th>
+                    <th>Appears In</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${commonPlayers.map(cp => `
+                <tr>
+                    <td class="player-name">${cp.name}</td>
+                    <td>${cp.team}</td>
+                    <td><span class="score">${cp.count}/5</span> models</td>
+                    <td>${cp.models.map(m => `<span class="model-badge ${m.toLowerCase()}-badge">${m}</span>`).join(' ')}</td>
+                </tr>
+                `).join('')}
+            </tbody>
+        </table>
+
         <div class="comparison-view">
             <div class="model-column">
                 <h4>📊 Top Current Picks</h4>
@@ -592,6 +695,9 @@ function generateCombinedInterface(week: number, season: number = 2025) {
                 `).join('')}
             </div>
         </div>
+        `;
+        })()}
+    </div>
     </div>
 
     <script>
