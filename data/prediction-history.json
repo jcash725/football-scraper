@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-10-08T08:16:42.865Z",
+  "lastUpdated": "2025-10-09T08:15:49.462Z",
   "weeks": [
     {
       "week": 1,
@@ -1753,7 +1753,7 @@
     {
       "week": 6,
       "year": 2025,
-      "generatedAt": "2025-10-08T08:16:42.865Z",
+      "generatedAt": "2025-10-09T08:15:49.462Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -1771,9 +1771,9 @@
         },
         {
           "rank": 3,
-          "player": "Darren Waller",
-          "team": "Miami Dolphins",
-          "opponent": "LA Chargers",
+          "player": "Xavier Hutchinson",
+          "team": "Houston Texans",
+          "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
@@ -1792,108 +1792,108 @@
         },
         {
           "rank": 6,
+          "player": "Jake Ferguson",
+          "team": "Dallas Cowboys",
+          "opponent": "Carolina",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 7,
+          "player": "Darren Waller",
+          "team": "Miami Dolphins",
+          "opponent": "LA Chargers",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 8,
           "player": "Bhayshul Tuten",
           "team": "Jacksonville Jaguars",
           "opponent": "Seattle",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 7,
+          "rank": 9,
           "player": "Cam Skattebo",
           "team": "New York Giants",
           "opponent": "Philadelphia",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 8,
+          "rank": 10,
           "player": "Quinshon Judkins",
           "team": "Cleveland Browns",
           "opponent": "Pittsburgh",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 9,
-          "player": "Omarion Hampton",
-          "team": "Los Angeles Chargers",
-          "opponent": "Miami",
+          "rank": 11,
+          "player": "Tyler Warren",
+          "team": "Indianapolis Colts",
+          "opponent": "Arizona",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 10,
+          "rank": 12,
           "player": "Jake Tonges",
           "team": "San Francisco 49ers",
           "opponent": "Tampa Bay",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 11,
+          "rank": 13,
           "player": "Christian McCaffrey",
           "team": "San Francisco 49ers",
           "opponent": "Tampa Bay",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 12,
-          "player": "Tyquan Thornton",
-          "team": "Kansas City Chiefs",
-          "opponent": "Detroit",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 13,
-          "player": "Hunter Long",
-          "team": "Jacksonville Jaguars",
-          "opponent": "Seattle",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
           "rank": 14,
-          "player": "Elic Ayomanor",
-          "team": "Tennessee Titans",
-          "opponent": "Las Vegas",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 15,
           "player": "Tory Horton",
           "team": "Seattle Seahawks",
           "opponent": "Jacksonville",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
+          "rank": 15,
+          "player": "Tyquan Thornton",
+          "team": "Kansas City Chiefs",
+          "opponent": "Detroit",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
           "rank": 16,
+          "player": "Hunter Long",
+          "team": "Jacksonville Jaguars",
+          "opponent": "Seattle",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 17,
+          "player": "Isaac TeSlaa",
+          "team": "Detroit Lions",
+          "opponent": "Kansas City",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 18,
+          "player": "Elic Ayomanor",
+          "team": "Tennessee Titans",
+          "opponent": "Las Vegas",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 19,
           "player": "Luke McCaffrey",
           "team": "Washington Commanders",
           "opponent": "Chicago",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 17,
-          "player": "Emeka Egbuka",
-          "team": "Tampa Bay Buccaneers",
-          "opponent": "San Francisco",
-          "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 18,
-          "player": "George Pickens",
-          "team": "Dallas Cowboys",
-          "opponent": "Carolina",
-          "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 19,
-          "player": "Romeo Doubs",
-          "team": "Green Bay Packers",
-          "opponent": "Cincinnati",
-          "basis": "Opp Pass TD/G"
-        },
-        {
           "rank": 20,
-          "player": "AJ Barner",
-          "team": "Seattle Seahawks",
-          "opponent": "Jacksonville",
-          "basis": "Opp Pass TD/G"
+          "player": "Mitchell Evans",
+          "team": "Carolina Panthers",
+          "opponent": "Dallas",
+          "basis": "Pass TD - Rookie hotstreak"
         }
       ],
       "mlModelPredictions": [

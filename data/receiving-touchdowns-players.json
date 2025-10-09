@@ -1,10 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/receiving-touchdowns",
-<<<<<<< HEAD
-  "scrapedAt": "2025-10-08T08:16:09.717Z",
-=======
-  "scrapedAt": "2025-10-08T17:24:25.372Z",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
+  "scrapedAt": "2025-10-09T08:15:12.425Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -23,16 +19,6 @@
     },
     {
       "Rank": 2,
-<<<<<<< HEAD
-=======
-      "Player": "George Pickens",
-      "Team": "Dallas Cowboys",
-      "Pos": "WR",
-      "Value": 5
-    },
-    {
-      "Rank": 2,
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
       "Player": "Emeka Egbuka",
       "Team": "Tampa Bay Buccaneers",
       "Pos": "WR",
@@ -46,32 +32,11 @@
       "Value": 5
     },
     {
-<<<<<<< HEAD
       "Rank": 2,
       "Player": "George Pickens",
       "Team": "Dallas Cowboys",
       "Pos": "WR",
       "Value": 5
-=======
-      "Rank": 5,
-      "Player": "Quentin Johnston",
-      "Team": "Los Angeles Chargers",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 5,
-      "Player": "AJ Barner",
-      "Team": "Seattle Seahawks",
-      "Pos": "TE",
-      "Value": 4
-    },
-    {
-      "Rank": 5,
-      "Player": "Michael Pittman Jr.",
-      "Team": "Indianapolis Colts",
-      "Pos": "WR",
-      "Value": 4
     },
     {
       "Rank": 5,
@@ -82,11 +47,10 @@
     },
     {
       "Rank": 5,
-      "Player": "Garrett Wilson",
-      "Team": "New York Jets",
+      "Player": "Michael Pittman Jr.",
+      "Team": "Indianapolis Colts",
       "Pos": "WR",
       "Value": 4
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
     },
     {
       "Rank": 5,
@@ -97,33 +61,8 @@
     },
     {
       "Rank": 5,
-<<<<<<< HEAD
-      "Player": "Tre Tucker",
-      "Team": "Las Vegas Raiders",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 5,
-=======
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Player": "Dallas Goedert",
-      "Team": "Philadelphia Eagles",
-      "Pos": "TE",
-      "Value": 4
-    },
-    {
-<<<<<<< HEAD
-      "Rank": 5,
       "Player": "Garrett Wilson",
       "Team": "New York Jets",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 5,
-      "Player": "Michael Pittman Jr.",
-      "Team": "Indianapolis Colts",
       "Pos": "WR",
       "Value": 4
     },
@@ -142,10 +81,24 @@
       "Value": 4
     },
     {
-      "Rank": 12,
-      "Player": "Jake Ferguson",
-      "Team": "Dallas Cowboys",
+      "Rank": 5,
+      "Player": "Dallas Goedert",
+      "Team": "Philadelphia Eagles",
       "Pos": "TE",
+      "Value": 4
+    },
+    {
+      "Rank": 12,
+      "Player": "Courtland Sutton",
+      "Team": "Denver Broncos",
+      "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 12,
+      "Player": "Ja'Marr Chase",
+      "Team": "Cincinnati Bengals",
+      "Pos": "WR",
       "Value": 3
     },
     {
@@ -164,20 +117,29 @@
     },
     {
       "Rank": 12,
-      "Player": "Deebo Samuel",
-      "Team": "Washington Commanders",
-=======
-      "Rank": 12,
-      "Player": "Kyren Williams",
-      "Team": "Los Angeles Rams",
+      "Player": "Christian McCaffrey",
+      "Team": 49,
       "Pos": "RB",
       "Value": 3
     },
     {
       "Rank": 12,
-      "Player": "Tory Horton",
-      "Team": "Seattle Seahawks",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
+      "Player": "Nico Collins",
+      "Team": "Houston Texans",
+      "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 12,
+      "Player": "Jake Ferguson",
+      "Team": "Dallas Cowboys",
+      "Pos": "TE",
+      "Value": 3
+    },
+    {
+      "Rank": 12,
+      "Player": "Davante Adams",
+      "Team": "Los Angeles Rams",
       "Pos": "WR",
       "Value": 3
     },
@@ -190,21 +152,6 @@
     },
     {
       "Rank": 12,
-<<<<<<< HEAD
-      "Player": "DK Metcalf",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 12,
-      "Player": "Davante Adams",
-      "Team": "Los Angeles Rams",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 12,
       "Player": "Dalton Kincaid",
       "Team": "Buffalo Bills",
       "Pos": "TE",
@@ -212,17 +159,13 @@
     },
     {
       "Rank": 12,
-=======
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Player": "Courtland Sutton",
-      "Team": "Denver Broncos",
-      "Pos": "WR",
+      "Player": "De'Von Achane",
+      "Team": "Miami Dolphins",
+      "Pos": "RB",
       "Value": 3
     },
     {
       "Rank": 12,
-<<<<<<< HEAD
-=======
       "Player": "DK Metcalf",
       "Team": "Pittsburgh Steelers",
       "Pos": "WR",
@@ -230,38 +173,9 @@
     },
     {
       "Rank": 12,
-      "Player": "Christian McCaffrey",
-      "Team": 49,
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 12,
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Player": "Jake Tonges",
-      "Team": 49,
-      "Pos": "TE",
-      "Value": 3
-    },
-    {
-      "Rank": 12,
-<<<<<<< HEAD
-      "Player": "Jaylen Waddle",
-      "Team": "Miami Dolphins",
+      "Player": "Deebo Samuel",
+      "Team": "Washington Commanders",
       "Pos": "WR",
-=======
-      "Player": "Hunter Henry",
-      "Team": "New England Patriots",
-      "Pos": "TE",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Value": 3
-    },
-    {
-      "Rank": 12,
-<<<<<<< HEAD
-      "Player": "Christian McCaffrey",
-      "Team": 49,
-      "Pos": "RB",
       "Value": 3
     },
     {
@@ -280,36 +194,20 @@
     },
     {
       "Rank": 12,
-      "Player": "Ja'Marr Chase",
-      "Team": "Cincinnati Bengals",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 12,
-=======
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Player": "De'Von Achane",
-      "Team": "Miami Dolphins",
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 12,
-<<<<<<< HEAD
       "Player": "Hunter Henry",
       "Team": "New England Patriots",
-=======
-      "Player": "Theo Johnson",
-      "Team": "New York Giants",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
       "Pos": "TE",
       "Value": 3
     },
     {
       "Rank": 12,
-<<<<<<< HEAD
-=======
+      "Player": "Jake Tonges",
+      "Team": 49,
+      "Pos": "TE",
+      "Value": 3
+    },
+    {
+      "Rank": 12,
       "Player": "Jaylen Waddle",
       "Team": "Miami Dolphins",
       "Pos": "WR",
@@ -317,253 +215,16 @@
     },
     {
       "Rank": 12,
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
       "Player": "Keenan Allen",
       "Team": "Los Angeles Chargers",
       "Pos": "WR",
       "Value": 3
     },
     {
-      "Rank": 12,
-<<<<<<< HEAD
-=======
-      "Player": "Ja'Marr Chase",
-      "Team": "Cincinnati Bengals",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 12,
-      "Player": "Darren Waller",
-      "Team": "Miami Dolphins",
-      "Pos": "TE",
-      "Value": 3
-    },
-    {
-      "Rank": 12,
-      "Player": "Deebo Samuel",
-      "Team": "Washington Commanders",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 12,
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Player": "Nico Collins",
-      "Team": "Houston Texans",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-<<<<<<< HEAD
-      "Rank": 31,
-      "Player": "Mack Hollins",
-      "Team": "New England Patriots",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Zach Ertz",
-      "Team": "Washington Commanders",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Mitchell Evans",
-      "Team": "Carolina Panthers",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Rashid Shaheed",
-      "Team": "New Orleans Saints",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Calvin Austin III",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Tee Higgins",
-      "Team": "Cincinnati Bengals",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "DeAndre Hopkins",
-      "Team": "Baltimore Ravens",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Xavier Hutchinson",
-      "Team": "Houston Texans",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Josh Oliver",
-      "Team": "Minnesota Vikings",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Davis Allen",
-      "Team": "Los Angeles Rams",
-      "Pos": "TE",
-=======
-      "Rank": 12,
-      "Player": "Dalton Kincaid",
-      "Team": "Buffalo Bills",
-      "Pos": "TE",
-      "Value": 3
-    },
-    {
-      "Rank": 12,
-      "Player": "Jake Ferguson",
-      "Team": "Dallas Cowboys",
-      "Pos": "TE",
-      "Value": 3
-    },
-    {
-      "Rank": 12,
-      "Player": "Davante Adams",
-      "Team": "Los Angeles Rams",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 31,
-      "Player": "Ashton Jeanty",
-      "Team": "Las Vegas Raiders",
-      "Pos": "RB",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-<<<<<<< HEAD
-      "Player": "Jaxon Smith-Njigba",
-      "Team": "Seattle Seahawks",
-=======
-      "Player": "Malik Nabers",
-      "Team": "New York Giants",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-<<<<<<< HEAD
-      "Player": "Hunter Long",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Isaac TeSlaa",
-      "Team": "Detroit Lions",
-=======
-      "Player": "Elic Ayomanor",
-      "Team": "Tennessee Titans",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-<<<<<<< HEAD
-      "Player": "Hunter Renfrow",
-=======
-      "Player": "Hunter Long",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Keon Coleman",
-      "Team": "Buffalo Bills",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Mark Andrews",
-      "Team": "Baltimore Ravens",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Marvin Harrison Jr.",
-      "Team": "Arizona Cardinals",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Devontez Walker",
-      "Team": "Baltimore Ravens",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Brock Wright",
-      "Team": "Detroit Lions",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Travis Kelce",
-      "Team": "Kansas City Chiefs",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Cedric Tillman",
-      "Team": "Cleveland Browns",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
       "Rank": 31,
       "Player": "Chuba Hubbard",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
       "Team": "Carolina Panthers",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-<<<<<<< HEAD
-=======
-      "Player": "Xavier Hutchinson",
-      "Team": "Houston Texans",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Davis Allen",
-      "Team": "Los Angeles Rams",
-      "Pos": "TE",
+      "Pos": "RB",
       "Value": 2
     },
     {
@@ -589,6 +250,41 @@
     },
     {
       "Rank": 31,
+      "Player": "Isaac TeSlaa",
+      "Team": "Detroit Lions",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
+      "Player": "Mark Andrews",
+      "Team": "Baltimore Ravens",
+      "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
+      "Player": "DeAndre Hopkins",
+      "Team": "Baltimore Ravens",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
+      "Player": "Xavier Hutchinson",
+      "Team": "Houston Texans",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
+      "Player": "Davis Allen",
+      "Team": "Los Angeles Rams",
+      "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
       "Player": "Jaxon Smith-Njigba",
       "Team": "Seattle Seahawks",
       "Pos": "WR",
@@ -596,14 +292,48 @@
     },
     {
       "Rank": 31,
-      "Player": "Mitchell Evans",
-      "Team": "Carolina Panthers",
-      "Pos": "TE",
+      "Player": "Rashid Shaheed",
+      "Team": "New Orleans Saints",
+      "Pos": "WR",
       "Value": 2
     },
     {
       "Rank": 31,
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
+      "Player": "Ashton Jeanty",
+      "Team": "Las Vegas Raiders",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
+      "Player": "Elic Ayomanor",
+      "Team": "Tennessee Titans",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
+      "Player": "Keon Coleman",
+      "Team": "Buffalo Bills",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
+      "Player": "Tee Higgins",
+      "Team": "Cincinnati Bengals",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
+      "Player": "Hunter Renfrow",
+      "Team": "Carolina Panthers",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
       "Player": "Puka Nacua",
       "Team": "Los Angeles Rams",
       "Pos": "WR",
@@ -611,95 +341,16 @@
     },
     {
       "Rank": 31,
-<<<<<<< HEAD
-=======
-      "Player": "DeAndre Hopkins",
-      "Team": "Baltimore Ravens",
+      "Player": "Calvin Austin III",
+      "Team": "Pittsburgh Steelers",
       "Pos": "WR",
       "Value": 2
     },
     {
       "Rank": 31,
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
       "Player": "Tucker Kraft",
       "Team": "Green Bay Packers",
       "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-<<<<<<< HEAD
-      "Player": "Brock Wright",
-      "Team": "Detroit Lions",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Elic Ayomanor",
-      "Team": "Tennessee Titans",
-=======
-      "Player": "Josh Oliver",
-      "Team": "Minnesota Vikings",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Rashid Shaheed",
-      "Team": "New Orleans Saints",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Isaac TeSlaa",
-      "Team": "Detroit Lions",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-<<<<<<< HEAD
-      "Player": "Ashton Jeanty",
-      "Team": "Las Vegas Raiders",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Cedric Tillman",
-      "Team": "Cleveland Browns",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Keon Coleman",
-      "Team": "Buffalo Bills",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Mark Andrews",
-      "Team": "Baltimore Ravens",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Bucky Irving",
-      "Team": "Tampa Bay Buccaneers",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Luke McCaffrey",
-      "Team": "Washington Commanders",
-      "Pos": "WR",
       "Value": 2
     },
     {
@@ -711,16 +362,44 @@
     },
     {
       "Rank": 31,
-      "Player": "Chuba Hubbard",
-      "Team": "Carolina Panthers",
+      "Player": "Hunter Long",
+      "Team": "Jacksonville Jaguars",
+      "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
+      "Player": "Luke McCaffrey",
+      "Team": "Washington Commanders",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
+      "Player": "Bucky Irving",
+      "Team": "Tampa Bay Buccaneers",
       "Pos": "RB",
       "Value": 2
     },
     {
       "Rank": 31,
-      "Player": "Khalil Shakir",
-      "Team": "Buffalo Bills",
-      "Pos": "WR",
+      "Player": "Josh Oliver",
+      "Team": "Minnesota Vikings",
+      "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
+      "Player": "Brock Wright",
+      "Team": "Detroit Lions",
+      "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
+      "Player": "Mitchell Evans",
+      "Team": "Carolina Panthers",
+      "Pos": "TE",
       "Value": 2
     },
     {
@@ -739,6 +418,13 @@
     },
     {
       "Rank": 31,
+      "Player": "Cedric Tillman",
+      "Team": "Cleveland Browns",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 31,
       "Player": "Marvin Harrison Jr.",
       "Team": "Arizona Cardinals",
       "Pos": "WR",
@@ -746,99 +432,36 @@
     },
     {
       "Rank": 61,
-      "Player": "Sterling Shepard",
-      "Team": "Tampa Bay Buccaneers",
-=======
-      "Player": "Calvin Austin III",
-      "Team": "Pittsburgh Steelers",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Pos": "WR",
-      "Value": 2
+      "Player": "Jack Stoll",
+      "Team": "New Orleans Saints",
+      "Pos": "TE",
+      "Value": 1
     },
     {
-<<<<<<< HEAD
+      "Rank": 61,
+      "Player": "Sterling Shepard",
+      "Team": "Tampa Bay Buccaneers",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
       "Rank": 61,
       "Player": "Devaughn Vele",
       "Team": "New Orleans Saints",
-=======
-      "Rank": 31,
-      "Player": "Tee Higgins",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Mitchell Tinsley",
       "Team": "Cincinnati Bengals",
       "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Hunter Renfrow",
-      "Team": "Carolina Panthers",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Luke McCaffrey",
-      "Team": "Washington Commanders",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 31,
-      "Player": "Bucky Irving",
-      "Team": "Tampa Bay Buccaneers",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 61,
-      "Player": "Kyle Juszczyk",
-      "Team": 49,
-      "Pos": "FB",
       "Value": 1
     },
     {
       "Rank": 61,
-      "Player": "Zavier Scott",
-      "Team": "Minnesota Vikings",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "George Kittle",
-      "Team": 49,
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Cole Kmet",
-      "Team": "Chicago Bears",
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Javonte Williams",
-      "Team": "Dallas Cowboys",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "DeVonta Smith",
-      "Team": "Philadelphia Eagles",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-<<<<<<< HEAD
-      "Player": "Dyami Brown",
-      "Team": "Jacksonville Jaguars",
-=======
-      "Player": "Jonathan Taylor",
-      "Team": "Indianapolis Colts",
+      "Player": "Isiah Pacheco",
+      "Team": "Kansas City Chiefs",
       "Pos": "RB",
       "Value": 1
     },
@@ -851,43 +474,106 @@
     },
     {
       "Rank": 61,
-      "Player": "John FitzPatrick",
-      "Team": "Green Bay Packers",
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Tutu Atwell",
-      "Team": "Los Angeles Rams",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-<<<<<<< HEAD
-      "Player": "Jackson Hawes",
-      "Team": "Buffalo Bills",
-=======
-      "Player": "Mike Evans",
-      "Team": "Tampa Bay Buccaneers",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "David Njoku",
-      "Team": "Cleveland Browns",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-<<<<<<< HEAD
-      "Player": "Mitchell Tinsley",
+      "Player": "Noah Fant",
       "Team": "Cincinnati Bengals",
+      "Pos": "TE",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Travis Etienne Jr.",
+      "Team": "Jacksonville Jaguars",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Trey McBride",
+      "Team": "Arizona Cardinals",
+      "Pos": "TE",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Zay Flowers",
+      "Team": "Baltimore Ravens",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Emari Demercado",
+      "Team": "Arizona Cardinals",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Jameson Williams",
+      "Team": "Detroit Lions",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Rashod Bateman",
+      "Team": "Baltimore Ravens",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Xavier Legette",
+      "Team": "Carolina Panthers",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Jahmyr Gibbs",
+      "Team": "Detroit Lions",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Ladd McConkey",
+      "Team": "Los Angeles Chargers",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "DJ Moore",
+      "Team": "Chicago Bears",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Chris Olave",
+      "Team": "New Orleans Saints",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Aaron Jones",
+      "Team": "Minnesota Vikings",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Andrew Beck",
+      "Team": "New York Jets",
+      "Pos": "FB",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Dyami Brown",
+      "Team": "Jacksonville Jaguars",
       "Pos": "WR",
       "Value": 1
     },
@@ -900,178 +586,9 @@
     },
     {
       "Rank": 61,
-      "Player": "Michael Wilson",
-      "Team": "Arizona Cardinals",
-=======
-      "Player": "James Conner",
-      "Team": "Arizona Cardinals",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "A.J. Brown",
-      "Team": "Philadelphia Eagles",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
+      "Player": "Wan'Dale Robinson",
+      "Team": "New York Giants",
       "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-<<<<<<< HEAD
-      "Player": "Jauan Jennings",
-      "Team": 49,
-=======
-      "Player": "Jayden Reed",
-      "Team": "Green Bay Packers",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-<<<<<<< HEAD
-      "Player": "Luther Burden III",
-=======
-      "Player": "Jonnu Smith",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "DJ Moore",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Team": "Chicago Bears",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-<<<<<<< HEAD
-      "Player": "Justice Hill",
-      "Team": "Baltimore Ravens",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Zay Flowers",
-      "Team": "Baltimore Ravens",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Dylan Sampson",
-      "Team": "Cleveland Browns",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Juwan Johnson",
-      "Team": "New Orleans Saints",
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Jahmyr Gibbs",
-      "Team": "Detroit Lions",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Ben Skowronek",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "KaVontae Turpin",
-      "Team": "Dallas Cowboys",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Xavier Legette",
-      "Team": "Carolina Panthers",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Ladd McConkey",
-      "Team": "Los Angeles Chargers",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Jeremy Ruckert",
-      "Team": "New York Jets",
-=======
-      "Player": "Tommy Tremble",
-      "Team": "Carolina Panthers",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-<<<<<<< HEAD
-      "Player": "Aaron Jones",
-      "Team": "Minnesota Vikings",
-      "Pos": "RB",
-=======
-      "Player": "Justin Jefferson",
-      "Team": "Minnesota Vikings",
-      "Pos": "WR",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-<<<<<<< HEAD
-      "Player": "JuJu Smith-Schuster",
-=======
-      "Player": "Parker Washington",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Devaughn Vele",
-      "Team": "New Orleans Saints",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Andrew Beck",
-      "Team": "New York Jets",
-      "Pos": "FB",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Hollywood Brown",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Team": "Kansas City Chiefs",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-<<<<<<< HEAD
-      "Player": "Cole Kmet",
-      "Team": "Chicago Bears",
-      "Pos": "TE",
       "Value": 1
     },
     {
@@ -1083,129 +600,15 @@
     },
     {
       "Rank": 61,
-      "Player": "Javonte Williams",
-      "Team": "Dallas Cowboys",
-=======
-      "Player": "Woody Marks",
-      "Team": "Houston Texans",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-<<<<<<< HEAD
       "Player": "Jaylin Noel",
-=======
-      "Player": "Mitchell Tinsley",
-      "Team": "Cincinnati Bengals",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Kyle Pitts",
-      "Team": "Atlanta Falcons",
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Bhayshul Tuten",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Tyreek Hill",
-      "Team": "Miami Dolphins",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Luke Farrell",
-      "Team": 49,
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Harold Fannin Jr.",
-      "Team": "Cleveland Browns",
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Zay Flowers",
-      "Team": "Baltimore Ravens",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "T.J. Hockenson",
-      "Team": "Minnesota Vikings",
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Xavier Legette",
-      "Team": "Carolina Panthers",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Jahmyr Gibbs",
-      "Team": "Detroit Lions",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Ladd McConkey",
-      "Team": "Los Angeles Chargers",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Curtis Samuel",
-      "Team": "Buffalo Bills",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Jayden Higgins",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
       "Team": "Houston Texans",
       "Pos": "WR",
       "Value": 1
     },
     {
       "Rank": 61,
-<<<<<<< HEAD
-      "Player": "Zavier Scott",
-      "Team": "Minnesota Vikings",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Wan'Dale Robinson",
-      "Team": "New York Giants",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "DeVonta Smith",
-      "Team": "Philadelphia Eagles",
+      "Player": "Michael Wilson",
+      "Team": "Arizona Cardinals",
       "Pos": "WR",
       "Value": 1
     },
@@ -1218,47 +621,16 @@
     },
     {
       "Rank": 61,
-      "Player": "Jonathan Taylor",
-      "Team": "Indianapolis Colts",
+      "Player": "Justice Hill",
+      "Team": "Baltimore Ravens",
       "Pos": "RB",
       "Value": 1
     },
     {
       "Rank": 61,
-      "Player": "John FitzPatrick",
-      "Team": "Green Bay Packers",
-=======
-      "Player": "Jackson Hawes",
-      "Team": "Buffalo Bills",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-<<<<<<< HEAD
-      "Player": "Drew Sample",
-      "Team": "Cincinnati Bengals",
-=======
-      "Player": "Jack Stoll",
-      "Team": "New Orleans Saints",
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-<<<<<<< HEAD
-      "Player": "Jameson Williams",
-      "Team": "Detroit Lions",
+      "Player": "Tyreek Hill",
+      "Team": "Miami Dolphins",
       "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Trey McBride",
-      "Team": "Arizona Cardinals",
-      "Pos": "TE",
       "Value": 1
     },
     {
@@ -1270,22 +642,29 @@
     },
     {
       "Rank": 61,
-      "Player": "A.J. Brown",
-      "Team": "Philadelphia Eagles",
+      "Player": "Ben Skowronek",
+      "Team": "Pittsburgh Steelers",
       "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 61,
-      "Player": "Tommy Tremble",
-      "Team": "Carolina Panthers",
-      "Pos": "TE",
       "Value": 1
     },
     {
       "Rank": 61,
       "Player": "Ryan Miller",
       "Team": "Tampa Bay Buccaneers",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Curtis Samuel",
+      "Team": "Buffalo Bills",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Marvin Mims Jr.",
+      "Team": "Denver Broncos",
       "Pos": "WR",
       "Value": 1
     },
@@ -1298,16 +677,38 @@
     },
     {
       "Rank": 61,
+      "Player": "Jeremy Ruckert",
+      "Team": "New York Jets",
+      "Pos": "TE",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
       "Player": "Demario Douglas",
       "Team": "New England Patriots",
       "Pos": "WR",
       "Value": 1
-=======
-      "Player": "Sterling Shepard",
-      "Team": "Tampa Bay Buccaneers",
+    },
+    {
+      "Rank": 61,
+      "Player": "Kayshon Boutte",
+      "Team": "New England Patriots",
       "Pos": "WR",
       "Value": 1
->>>>>>> 4fca7ec (Implement comprehensive team name standardization and regenerate Week 6 predictions)
+    },
+    {
+      "Rank": 61,
+      "Player": "Kyle Juszczyk",
+      "Team": 49,
+      "Pos": "FB",
+      "Value": 1
+    },
+    {
+      "Rank": 61,
+      "Player": "Woody Marks",
+      "Team": "Houston Texans",
+      "Pos": "RB",
+      "Value": 1
     }
   ]
 }
