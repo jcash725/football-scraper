@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-09T08:15:49.464Z",
+  "generatedAt": "2025-10-10T08:16:13.966Z",
   "currentModel": [
     {
       "Player": "Ashton Jeanty",
@@ -89,18 +89,6 @@
       "Player": "Bhayshul Tuten",
       "Team": "Jacksonville Jaguars",
       "Opponent": "Seattle",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Cam Skattebo",
-      "Team": "New York Giants",
-      "Opponent": "Philadelphia",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -240,6 +228,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "Emeka Egbuka",
+      "Team": "Tampa Bay Buccaneers",
+      "Opponent": "San Francisco",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.75,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Tampa Bay Buccaneers vs San Francisco - opponent allows 1.5 pass TDs/game",
+      "Rookie Boost": "+3.3 (1.3 TD/game)"
     }
   ],
   "mlModel": [
@@ -434,25 +434,6 @@
       "basis": "2024 Data: 7 TDs in 6 games"
     },
     {
-      "player": "Sam LaPorta",
-      "team": "Detroit Lions",
-      "opponent": "Kansas City",
-      "position": "TE",
-      "mlProbability": 0.4593333333333333,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (8 TDs)",
-        "Weak opponent defense (3.5 TDs/game allowed)",
-        "Hot recent form (6 TDs in recent games)"
-      ],
-      "mlRank": 11,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 8,
-      "actual2024Games": 7,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 8 TDs in 7 games"
-    },
-    {
       "player": "Calvin Austin III",
       "team": "Pittsburgh Steelers",
       "opponent": "Cleveland Browns",
@@ -464,7 +445,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.9 TDs/game allowed)"
       ],
-      "mlRank": 12,
+      "mlRank": 11,
       "playerTDsYTD": 2,
       "actual2024TDs": 4,
       "actual2024Games": 4,
@@ -483,7 +464,7 @@
         "Weak opponent defense (4.1 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 13,
+      "mlRank": 12,
       "playerTDsYTD": 1,
       "actual2024TDs": 7,
       "actual2024Games": 5,
@@ -502,7 +483,7 @@
         "Weak opponent defense (3.2 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 14,
+      "mlRank": 13,
       "playerTDsYTD": 2,
       "actual2024TDs": 10,
       "actual2024Games": 7,
@@ -521,7 +502,7 @@
         "Weak opponent defense (3.5 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 15,
+      "mlRank": 14,
       "playerTDsYTD": 4,
       "actual2024TDs": 7,
       "actual2024Games": 6,
@@ -540,7 +521,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 16,
+      "mlRank": 15,
       "playerTDsYTD": 4,
       "actual2024TDs": 7,
       "actual2024Games": 6,
@@ -559,7 +540,7 @@
         "Weak opponent defense (3.0 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 17,
+      "mlRank": 16,
       "playerTDsYTD": 6,
       "actual2024TDs": 6,
       "actual2024Games": 5,
@@ -578,7 +559,7 @@
         "Weak opponent defense (3.5 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 18,
+      "mlRank": 17,
       "playerTDsYTD": 4,
       "actual2024TDs": 9,
       "actual2024Games": 8,
@@ -597,7 +578,7 @@
         "Weak opponent defense (3.2 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 19,
+      "mlRank": 18,
       "playerTDsYTD": 1,
       "actual2024TDs": 9,
       "actual2024Games": 8,
@@ -616,12 +597,31 @@
         "Hot recent form (7 TDs in recent games)",
         "Home field advantage"
       ],
-      "mlRank": 20,
+      "mlRank": 19,
       "playerTDsYTD": 4,
       "actual2024TDs": 14,
       "actual2024Games": 10,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 14 TDs in 10 games"
+    },
+    {
+      "player": "David Njoku",
+      "team": "Cleveland Browns",
+      "opponent": "Pittsburgh Steelers",
+      "position": "TE",
+      "mlProbability": 0.41333333333333333,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Moderate 2024 production (5 TDs)",
+        "Previous success vs opponent (1 TDs)",
+        "Weak opponent defense (3.6 TDs/game allowed)"
+      ],
+      "mlRank": 20,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 5,
+      "actual2024Games": 4,
+      "vsOpponentTDs": 1,
+      "basis": "2024 Data: 5 TDs in 4 games"
     }
   ],
   "agreement": 0,
@@ -635,7 +635,6 @@
       "Jake Ferguson",
       "Darren Waller",
       "Bhayshul Tuten",
-      "Cam Skattebo",
       "Quinshon Judkins",
       "Tyler Warren",
       "Jake Tonges",
@@ -646,7 +645,8 @@
       "Isaac TeSlaa",
       "Elic Ayomanor",
       "Luke McCaffrey",
-      "Mitchell Evans"
+      "Mitchell Evans",
+      "Emeka Egbuka"
     ],
     "onlyInML": [
       "Ja'Marr Chase",
@@ -659,7 +659,6 @@
       "Alvin Kamara",
       "Amon-Ra St. Brown",
       "Rachaad White",
-      "Sam LaPorta",
       "Calvin Austin III",
       "Bijan Robinson",
       "Tee Higgins",
@@ -668,7 +667,8 @@
       "Jonathan Taylor",
       "Jahmyr Gibbs",
       "Chase Brown",
-      "Derrick Henry"
+      "Derrick Henry",
+      "David Njoku"
     ],
     "rankingDifferences": []
   }
