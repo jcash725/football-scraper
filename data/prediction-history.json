@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-10-10T08:16:13.965Z",
+  "lastUpdated": "2025-10-11T08:13:47.894Z",
   "weeks": [
     {
       "week": 1,
@@ -1753,7 +1753,7 @@
     {
       "week": 6,
       "year": 2025,
-      "generatedAt": "2025-10-10T08:16:13.965Z",
+      "generatedAt": "2025-10-11T08:13:47.894Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -2146,15 +2146,15 @@
         },
         {
           "rank": 20,
-          "player": "David Njoku",
-          "team": "Cleveland Browns",
-          "opponent": "Pittsburgh Steelers",
-          "probability": 0.41333333333333333,
-          "confidence": 0.9,
+          "player": "Ladd McConkey",
+          "team": "Los Angeles Chargers",
+          "opponent": "Miami Dolphins",
+          "probability": 0.4093333333333333,
+          "confidence": 0.8,
           "keyFactors": [
-            "Moderate 2024 production (5 TDs)",
-            "Previous success vs opponent (1 TDs)",
-            "Weak opponent defense (3.6 TDs/game allowed)"
+            "Strong 2024 production (8 TDs)",
+            "Weak opponent defense (3.1 TDs/game allowed)",
+            "Hot recent form (7 TDs in recent games)"
           ]
         }
       ]
