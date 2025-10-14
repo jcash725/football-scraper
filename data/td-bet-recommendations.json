@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-13T08:17:50.338Z",
+  "generatedAt": "2025-10-14T08:14:44.661Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -7,7 +7,7 @@
     {
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
-      "Opponent": "Tennessee",
+      "Opponent": "Kansas City",
       "Player TDs YTD": 4,
       "Player 2025 TDs": 4,
       "Opponent Stat Value": 6,
@@ -19,7 +19,7 @@
     {
       "Player": "Woody Marks",
       "Team": "Houston Texans",
-      "Opponent": "TBD",
+      "Opponent": "Seattle",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 6,
@@ -31,7 +31,7 @@
     {
       "Player": "Xavier Hutchinson",
       "Team": "Houston Texans",
-      "Opponent": "TBD",
+      "Opponent": "Seattle",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 6,
@@ -43,7 +43,7 @@
     {
       "Player": "Kenneth Gainwell",
       "Team": "Pittsburgh Steelers",
-      "Opponent": "Cleveland",
+      "Opponent": "Cincinnati",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5.5,
@@ -53,21 +53,9 @@
       "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
     },
     {
-      "Player": "Jake Ferguson",
-      "Team": "Dallas Cowboys",
-      "Opponent": "Carolina",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 5.6,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Dallas Cowboys vs Carolina - opponent allows 2.1 pass TDs/game",
-      "Rookie Boost": "+3.5 (1.5 TD/game)"
-    },
-    {
       "Player": "Jacory Croskey-Merritt",
       "Team": "Washington Commanders",
-      "Opponent": "Chicago",
+      "Opponent": "Dallas",
       "Player TDs YTD": 4,
       "Player 2025 TDs": 4,
       "Opponent Stat Value": 5.333333333333333,
@@ -79,7 +67,7 @@
     {
       "Player": "Bhayshul Tuten",
       "Team": "Jacksonville Jaguars",
-      "Opponent": "Seattle",
+      "Opponent": "LA Rams",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -91,7 +79,7 @@
     {
       "Player": "Quinshon Judkins",
       "Team": "Cleveland Browns",
-      "Opponent": "Pittsburgh",
+      "Opponent": "Miami",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -103,7 +91,7 @@
     {
       "Player": "Tyler Warren",
       "Team": "Indianapolis Colts",
-      "Opponent": "Arizona",
+      "Opponent": "LA Chargers",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -113,9 +101,33 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
+      "Player": "Jake Ferguson",
+      "Team": "Dallas Cowboys",
+      "Opponent": "Washington",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 5,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Dallas Cowboys vs Washington - opponent allows 1.5 pass TDs/game",
+      "Rookie Boost": "+3.5 (1.5 TD/game)"
+    },
+    {
+      "Player": "Darren Waller",
+      "Team": "Miami Dolphins",
+      "Opponent": "Cleveland",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 5,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Miami Dolphins vs Cleveland - opponent allows 1.5 pass TDs/game",
+      "Rookie Boost": "+3.5 (1.5 TD/game)"
+    },
+    {
       "Player": "Jake Tonges",
       "Team": "San Francisco 49ers",
-      "Opponent": "Tampa Bay",
+      "Opponent": "Atlanta",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
@@ -127,7 +139,7 @@
     {
       "Player": "Christian McCaffrey",
       "Team": "San Francisco 49ers",
-      "Opponent": "Tampa Bay",
+      "Opponent": "Atlanta",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
@@ -139,7 +151,7 @@
     {
       "Player": "Tory Horton",
       "Team": "Seattle Seahawks",
-      "Opponent": "Jacksonville",
+      "Opponent": "Houston",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
@@ -151,7 +163,7 @@
     {
       "Player": "Tyquan Thornton",
       "Team": "Kansas City Chiefs",
-      "Opponent": "Detroit",
+      "Opponent": "Las Vegas",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
@@ -163,7 +175,7 @@
     {
       "Player": "Hunter Long",
       "Team": "Jacksonville Jaguars",
-      "Opponent": "Seattle",
+      "Opponent": "LA Rams",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -175,7 +187,7 @@
     {
       "Player": "Isaac TeSlaa",
       "Team": "Detroit Lions",
-      "Opponent": "Kansas City",
+      "Opponent": "Tampa Bay",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -187,7 +199,7 @@
     {
       "Player": "Elic Ayomanor",
       "Team": "Tennessee Titans",
-      "Opponent": "Las Vegas",
+      "Opponent": "New England",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -199,7 +211,7 @@
     {
       "Player": "Luke McCaffrey",
       "Team": "Washington Commanders",
-      "Opponent": "Chicago",
+      "Opponent": "Dallas",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -211,7 +223,7 @@
     {
       "Player": "Mitchell Evans",
       "Team": "Carolina Panthers",
-      "Opponent": "Dallas",
+      "Opponent": "NY Jets",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -221,27 +233,15 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Darren Waller",
-      "Team": "Miami Dolphins",
-      "Opponent": "LA Chargers",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.9,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Miami Dolphins vs LA Chargers - opponent allows 1.4 pass TDs/game",
-      "Rookie Boost": "+3.5 (1.5 TD/game)"
-    },
-    {
       "Player": "Emeka Egbuka",
       "Team": "Tampa Bay Buccaneers",
-      "Opponent": "San Francisco",
+      "Opponent": "Detroit",
       "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.75,
+      "Opponent Stat Value": 4.35,
       "Player TDs YTD": 5,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Tampa Bay Buccaneers vs San Francisco - opponent allows 1.5 pass TDs/game",
+      "Reason": "Tampa Bay Buccaneers vs Detroit - opponent allows 1.1 pass TDs/game",
       "Rookie Boost": "+3.3 (1.3 TD/game)"
     }
   ]
