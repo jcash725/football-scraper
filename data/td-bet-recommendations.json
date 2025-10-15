@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-14T08:14:44.661Z",
+  "generatedAt": "2025-10-15T08:16:44.507Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -101,18 +101,6 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Jake Ferguson",
-      "Team": "Dallas Cowboys",
-      "Opponent": "Washington",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 5,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Dallas Cowboys vs Washington - opponent allows 1.5 pass TDs/game",
-      "Rookie Boost": "+3.5 (1.5 TD/game)"
-    },
-    {
       "Player": "Darren Waller",
       "Team": "Miami Dolphins",
       "Opponent": "Cleveland",
@@ -122,6 +110,18 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Miami Dolphins vs Cleveland - opponent allows 1.5 pass TDs/game",
+      "Rookie Boost": "+3.5 (1.5 TD/game)"
+    },
+    {
+      "Player": "Jake Ferguson",
+      "Team": "Dallas Cowboys",
+      "Opponent": "Washington",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 5,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Dallas Cowboys vs Washington - opponent allows 1.5 pass TDs/game",
       "Rookie Boost": "+3.5 (1.5 TD/game)"
     },
     {

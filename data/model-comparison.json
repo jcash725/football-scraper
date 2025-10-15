@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-14T08:14:44.662Z",
+  "generatedAt": "2025-10-15T08:16:44.507Z",
   "currentModel": [
     {
       "Player": "Ashton Jeanty",
@@ -98,18 +98,6 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Jake Ferguson",
-      "Team": "Dallas Cowboys",
-      "Opponent": "Washington",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 5,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Dallas Cowboys vs Washington - opponent allows 1.5 pass TDs/game",
-      "Rookie Boost": "+3.5 (1.5 TD/game)"
-    },
-    {
       "Player": "Darren Waller",
       "Team": "Miami Dolphins",
       "Opponent": "Cleveland",
@@ -119,6 +107,18 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Miami Dolphins vs Cleveland - opponent allows 1.5 pass TDs/game",
+      "Rookie Boost": "+3.5 (1.5 TD/game)"
+    },
+    {
+      "Player": "Jake Ferguson",
+      "Team": "Dallas Cowboys",
+      "Opponent": "Washington",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 5,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Dallas Cowboys vs Washington - opponent allows 1.5 pass TDs/game",
       "Rookie Boost": "+3.5 (1.5 TD/game)"
     },
     {
@@ -472,25 +472,6 @@
       "basis": "2024 Data: 9 TDs in 8 games"
     },
     {
-      "player": "DeVonta Smith",
-      "team": "Philadelphia Eagles",
-      "opponent": "Minnesota Vikings",
-      "position": "WR",
-      "mlProbability": 0.47800000000000004,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (9 TDs)",
-        "Weak opponent defense (3.1 TDs/game allowed)",
-        "Hot recent form (6 TDs in recent games)"
-      ],
-      "mlRank": 13,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 9,
-      "actual2024Games": 8,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 9 TDs in 8 games"
-    },
-    {
       "player": "Kareem Hunt",
       "team": "Kansas City Chiefs",
       "opponent": "Las Vegas",
@@ -502,31 +483,12 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.8 TDs/game allowed)"
       ],
-      "mlRank": 14,
+      "mlRank": 13,
       "playerTDsYTD": 3,
       "actual2024TDs": 5,
       "actual2024Games": 4,
       "vsOpponentTDs": 1,
       "basis": "2024 Data: 5 TDs in 4 games"
-    },
-    {
-      "player": "Mike Evans",
-      "team": "Tampa Bay Buccaneers",
-      "opponent": "Detroit Lions",
-      "position": "WR",
-      "mlProbability": 0.47133812949640286,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (12 TDs)",
-        "Weak opponent defense (2.8 TDs/game allowed)",
-        "Hot recent form (7 TDs in recent games)"
-      ],
-      "mlRank": 15,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 12,
-      "actual2024Games": 8,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 12 TDs in 8 games"
     },
     {
       "player": "Ladd McConkey",
@@ -540,7 +502,7 @@
         "Weak opponent defense (3.6 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 16,
+      "mlRank": 14,
       "playerTDsYTD": 2,
       "actual2024TDs": 8,
       "actual2024Games": 6,
@@ -559,7 +521,7 @@
         "Weak opponent defense (3.9 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 17,
+      "mlRank": 15,
       "playerTDsYTD": 3,
       "actual2024TDs": 8,
       "actual2024Games": 6,
@@ -578,8 +540,27 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.8 TDs/game allowed)"
       ],
-      "mlRank": 18,
+      "mlRank": 16,
       "playerTDsYTD": 2,
+      "actual2024TDs": 4,
+      "actual2024Games": 4,
+      "vsOpponentTDs": 1,
+      "basis": "2024 Data: 4 TDs in 4 games"
+    },
+    {
+      "player": "Michael Wilson",
+      "team": "Arizona Cardinals",
+      "opponent": "Green Bay",
+      "position": "WR",
+      "mlProbability": 0.4546666666666666,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Moderate 2024 production (4 TDs)",
+        "Previous success vs opponent (1 TDs)",
+        "Weak opponent defense (3.2 TDs/game allowed)"
+      ],
+      "mlRank": 17,
+      "playerTDsYTD": 1,
       "actual2024TDs": 4,
       "actual2024Games": 4,
       "vsOpponentTDs": 1,
@@ -597,7 +578,7 @@
         "Previous success vs opponent (2 TDs)",
         "Weak opponent defense (3.0 TDs/game allowed)"
       ],
-      "mlRank": 19,
+      "mlRank": 18,
       "playerTDsYTD": 4,
       "actual2024TDs": 4,
       "actual2024Games": 2,
@@ -616,12 +597,31 @@
         "Weak opponent defense (2.8 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 20,
+      "mlRank": 19,
       "playerTDsYTD": 3,
       "actual2024TDs": 8,
       "actual2024Games": 7,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 8 TDs in 7 games"
+    },
+    {
+      "player": "Zach Charbonnet",
+      "team": "Seattle Seahawks",
+      "opponent": "Houston Texans",
+      "position": "RB",
+      "mlProbability": 0.432,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Moderate 2024 production (6 TDs)",
+        "Weak opponent defense (4.4 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 20,
+      "playerTDsYTD": 3,
+      "actual2024TDs": 6,
+      "actual2024Games": 5,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 6 TDs in 5 games"
     }
   ],
   "agreement": 0,
@@ -635,8 +635,8 @@
       "Bhayshul Tuten",
       "Quinshon Judkins",
       "Tyler Warren",
-      "Jake Ferguson",
       "Darren Waller",
+      "Jake Ferguson",
       "Jake Tonges",
       "Christian McCaffrey",
       "Tory Horton",
@@ -661,14 +661,14 @@
       "Jalen Hurts",
       "Jahmyr Gibbs",
       "Chase Brown",
-      "DeVonta Smith",
       "Kareem Hunt",
-      "Mike Evans",
       "Ladd McConkey",
       "De'Von Achane",
       "Travis Kelce",
+      "Michael Wilson",
       "Romeo Doubs",
-      "Nico Collins"
+      "Nico Collins",
+      "Zach Charbonnet"
     ],
     "rankingDifferences": []
   }

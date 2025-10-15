@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-10-14T08:14:44.660Z",
+  "lastUpdated": "2025-10-15T08:16:44.506Z",
   "weeks": [
     {
       "week": 1,
@@ -2162,7 +2162,7 @@
     {
       "week": 7,
       "year": 2025,
-      "generatedAt": "2025-10-14T08:14:44.660Z",
+      "generatedAt": "2025-10-15T08:16:44.505Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -2222,16 +2222,16 @@
         },
         {
           "rank": 9,
-          "player": "Jake Ferguson",
-          "team": "Dallas Cowboys",
-          "opponent": "Washington",
+          "player": "Darren Waller",
+          "team": "Miami Dolphins",
+          "opponent": "Cleveland",
           "basis": "Opp Pass TD/G"
         },
         {
           "rank": 10,
-          "player": "Darren Waller",
-          "team": "Miami Dolphins",
-          "opponent": "Cleveland",
+          "player": "Jake Ferguson",
+          "team": "Dallas Cowboys",
+          "opponent": "Washington",
           "basis": "Opp Pass TD/G"
         },
         {
@@ -2464,19 +2464,6 @@
         },
         {
           "rank": 13,
-          "player": "DeVonta Smith",
-          "team": "Philadelphia Eagles",
-          "opponent": "Minnesota Vikings",
-          "probability": 0.47800000000000004,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (9 TDs)",
-            "Weak opponent defense (3.1 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 14,
           "player": "Kareem Hunt",
           "team": "Kansas City Chiefs",
           "opponent": "Las Vegas",
@@ -2489,20 +2476,7 @@
           ]
         },
         {
-          "rank": 15,
-          "player": "Mike Evans",
-          "team": "Tampa Bay Buccaneers",
-          "opponent": "Detroit Lions",
-          "probability": 0.47133812949640286,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (12 TDs)",
-            "Weak opponent defense (2.8 TDs/game allowed)",
-            "Hot recent form (7 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 16,
+          "rank": 14,
           "player": "Ladd McConkey",
           "team": "Los Angeles Chargers",
           "opponent": "Indianapolis Colts",
@@ -2515,7 +2489,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 15,
           "player": "De'Von Achane",
           "team": "Miami Dolphins",
           "opponent": "Cleveland Browns",
@@ -2528,7 +2502,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 16,
           "player": "Travis Kelce",
           "team": "Kansas City Chiefs",
           "opponent": "Las Vegas",
@@ -2541,7 +2515,20 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 17,
+          "player": "Michael Wilson",
+          "team": "Arizona Cardinals",
+          "opponent": "Green Bay",
+          "probability": 0.4546666666666666,
+          "confidence": 0.9,
+          "keyFactors": [
+            "Moderate 2024 production (4 TDs)",
+            "Previous success vs opponent (1 TDs)",
+            "Weak opponent defense (3.2 TDs/game allowed)"
+          ]
+        },
+        {
+          "rank": 18,
           "player": "Romeo Doubs",
           "team": "Green Bay Packers",
           "opponent": "Arizona Cardinals",
@@ -2554,7 +2541,7 @@
           ]
         },
         {
-          "rank": 20,
+          "rank": 19,
           "player": "Nico Collins",
           "team": "Houston Texans",
           "opponent": "Seattle Seahawks",
@@ -2563,6 +2550,19 @@
           "keyFactors": [
             "Strong 2024 production (8 TDs)",
             "Weak opponent defense (2.8 TDs/game allowed)",
+            "Hot recent form (6 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 20,
+          "player": "Zach Charbonnet",
+          "team": "Seattle Seahawks",
+          "opponent": "Houston Texans",
+          "probability": 0.432,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Moderate 2024 production (6 TDs)",
+            "Weak opponent defense (4.4 TDs/game allowed)",
             "Hot recent form (6 TDs in recent games)"
           ]
         }
