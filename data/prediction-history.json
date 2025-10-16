@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-10-16T08:17:20.338Z",
+  "lastUpdated": "2025-10-16T19:46:24.539Z",
   "weeks": [
     {
       "week": 1,
@@ -1908,7 +1908,8 @@
             "Strong 2024 production (17 TDs)",
             "Weak opponent defense (3.2 TDs/game allowed)",
             "Hot recent form (7 TDs in recent games)"
-          ]
+          ],
+          "actualResult": true
         },
         {
           "rank": 2,
@@ -2155,7 +2156,8 @@
             "Strong 2024 production (14 TDs)",
             "Hot recent form (7 TDs in recent games)",
             "Home field advantage"
-          ]
+          ],
+          "actualResult": true
         }
       ]
     },
@@ -2574,16 +2576,16 @@
       "totalPredictions": 20,
       "correctPredictions": 5,
       "accuracy": 25,
-      "top5Accuracy": 10,
+      "top5Accuracy": 5,
       "top10Accuracy": 10
     },
     "mlModelStats": {
-      "totalPredictions": 20,
-      "correctPredictions": 7,
-      "accuracy": 35,
-      "top5Accuracy": 20,
-      "top10Accuracy": 10,
-      "avgProbabilityCorrect": 0.6140870161014045,
+      "totalPredictions": 22,
+      "correctPredictions": 9,
+      "accuracy": 40.909090909090914,
+      "top5Accuracy": 13.636363636363635,
+      "top10Accuracy": 13.636363636363635,
+      "avgProbabilityCorrect": 0.5844380495603516,
       "avgProbabilityIncorrect": 0.6284098874746357
     }
   }

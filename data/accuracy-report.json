@@ -1,28 +1,92 @@
 {
-  "generatedAt": "2025-09-10T00:36:23.634Z",
-  "totalWeeks": 2,
+  "generatedAt": "2025-10-16T19:46:24.543Z",
+  "totalWeeks": 7,
   "currentModelStats": {
-    "totalPredictions": 0,
-    "correctPredictions": 0,
-    "accuracy": 0,
-    "top5Accuracy": 0,
-    "top10Accuracy": 0
+    "totalPredictions": 20,
+    "correctPredictions": 5,
+    "accuracy": 25,
+    "top5Accuracy": 5,
+    "top10Accuracy": 10
   },
   "mlModelStats": {
-    "totalPredictions": 3,
-    "correctPredictions": 2,
-    "accuracy": 66.66666666666666,
-    "top5Accuracy": 66.66666666666666,
-    "top10Accuracy": 66.66666666666666,
-    "avgProbabilityCorrect": 0.7033333333333333,
-    "avgProbabilityIncorrect": 0.7233333333333332
+    "totalPredictions": 22,
+    "correctPredictions": 9,
+    "accuracy": 40.909090909090914,
+    "top5Accuracy": 13.636363636363635,
+    "top10Accuracy": 13.636363636363635,
+    "avgProbabilityCorrect": 0.5844380495603516,
+    "avgProbabilityIncorrect": 0.6284098874746357
   },
   "weeklyBreakdown": [
     {
       "week": 1,
       "year": 2025,
+      "currentModelAccuracy": 25,
+      "mlModelAccuracy": 35,
+      "correctPredictions": {
+        "current": [
+          "Brian Thomas Jr.",
+          "Jalen Hurts",
+          "Jonnu Smith",
+          "Courtland Sutton",
+          "Zach Charbonnet"
+        ],
+        "ml": [
+          "Jalen Hurts",
+          "Derrick Henry",
+          "Keenan Allen",
+          "Kyren Williams",
+          "Justin Jefferson",
+          "Courtland Sutton",
+          "Zach Ertz"
+        ]
+      }
+    },
+    {
+      "week": 2,
+      "year": 2025,
       "currentModelAccuracy": 0,
-      "mlModelAccuracy": 66.66666666666666,
+      "mlModelAccuracy": 0,
+      "correctPredictions": {
+        "current": [],
+        "ml": []
+      }
+    },
+    {
+      "week": 3,
+      "year": 2025,
+      "currentModelAccuracy": 0,
+      "mlModelAccuracy": 0,
+      "correctPredictions": {
+        "current": [],
+        "ml": []
+      }
+    },
+    {
+      "week": 4,
+      "year": 2025,
+      "currentModelAccuracy": 0,
+      "mlModelAccuracy": 0,
+      "correctPredictions": {
+        "current": [],
+        "ml": []
+      }
+    },
+    {
+      "week": 5,
+      "year": 2025,
+      "currentModelAccuracy": 0,
+      "mlModelAccuracy": 0,
+      "correctPredictions": {
+        "current": [],
+        "ml": []
+      }
+    },
+    {
+      "week": 6,
+      "year": 2025,
+      "currentModelAccuracy": 0,
+      "mlModelAccuracy": 100,
       "correctPredictions": {
         "current": [],
         "ml": [
@@ -32,7 +96,7 @@
       }
     },
     {
-      "week": 2,
+      "week": 7,
       "year": 2025,
       "currentModelAccuracy": 0,
       "mlModelAccuracy": 0,
