@@ -22,7 +22,7 @@ export interface InjuryDatabase {
 
 export class InjuryChecker {
   private dataDir = path.join(process.cwd(), 'data');
-  private fileName = 'injury-reports.json';
+  private fileName = 'injury-report.json'; // Changed from injury-reports.json to match InjuryTracker
 
   constructor() {
     // Ensure data directory exists
@@ -53,20 +53,48 @@ export class InjuryChecker {
   }
 
   getPlayerInjuryStatus(playerName: string): InjuryReport | null {
-    const database = this.loadInjuryDatabase();
+    try {
+      // Try to load from InjuryTracker format first (injury-report.json with 'players' array)
+      const trackerFilePath = path.join(this.dataDir, 'injury-report.json');
+      if (fs.existsSync(trackerFilePath)) {
+        const trackerData = JSON.parse(fs.readFileSync(trackerFilePath, 'utf8'));
+        if (trackerData.players && Array.isArray(trackerData.players)) {
+          const matchingPlayers = trackerData.players.filter((p: any) =>
+            p.playerName.toLowerCase().includes(playerName.toLowerCase()) ||
+            playerName.toLowerCase().includes(p.playerName.toLowerCase())
+          );
 
-    // Find all matching reports and return the most recent one
-    const matchingReports = database.reports.filter(report =>
-      report.playerName.toLowerCase().includes(playerName.toLowerCase()) ||
-      playerName.toLowerCase().includes(report.playerName.toLowerCase())
-    );
+          if (matchingPlayers.length > 0) {
+            const player = matchingPlayers[0];
+            // Convert InjuryTracker format to InjuryChecker format
+            return {
+              playerName: player.playerName,
+              team: player.team,
+              status: player.injuryStatus,
+              injury: player.injuryType || player.notes || 'Unknown',
+              lastUpdated: player.lastUpdated,
+              practiceStatus: []
+            };
+          }
+        }
+      }
 
-    if (matchingReports.length === 0) return null;
+      // Fall back to old format (injury-reports.json with 'reports' array)
+      const database = this.loadInjuryDatabase();
+      const matchingReports = database.reports.filter(report =>
+        report.playerName.toLowerCase().includes(playerName.toLowerCase()) ||
+        playerName.toLowerCase().includes(report.playerName.toLowerCase())
+      );
 
-    // Sort by lastUpdated timestamp and return the most recent
-    return matchingReports.sort((a, b) =>
-      new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime()
-    )[0];
+      if (matchingReports.length === 0) return null;
+
+      return matchingReports.sort((a, b) =>
+        new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime()
+      )[0];
+    } catch (error) {
+      console.error(`Error loading injury status for ${playerName}:`, error);
+      return null;
+    }
   }
 
   addInjuryReports(week: number, reports: InjuryReport[]): void {

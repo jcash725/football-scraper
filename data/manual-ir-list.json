@@ -1,0 +1,14 @@
+{
+  "season": 2025,
+  "lastUpdated": "2025-10-12",
+  "note": "Manual list of players on IR or out for season that ESPN API doesn't catch",
+  "players": [
+    {
+      "playerName": "Tyreek Hill",
+      "team": "Miami Dolphins",
+      "position": "WR",
+      "status": "IR",
+      "reason": "Out for season"
+    }
+  ]
+}

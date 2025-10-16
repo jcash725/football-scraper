@@ -1,10 +1,11 @@
 #!/usr/bin/env tsx
-// Setup injury data for testing
+// Setup injury data by fetching live data from ESPN API
 
-import { InjuryChecker } from './lib/injury-checker.js';
+import { InjuryTracker } from './lib/injury-tracker.js';
 
 async function main() {
   const [week] = [parseInt(process.argv[2])];
+  const season = 2025;
 
   if (!week) {
     console.log('Usage: npx tsx setup-injury-data.ts <week>');
@@ -12,19 +13,26 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`🏥 Setting up injury data for Week ${week}...\n`);
+  console.log(`🏥 Fetching live injury data for Week ${week}...\n`);
 
-  const injuryChecker = new InjuryChecker();
+  const injuryTracker = new InjuryTracker();
 
-  // Add mock injury data
-  const mockReports = injuryChecker.getMockInjuryReports(week);
-  injuryChecker.addInjuryReports(week, mockReports);
+  try {
+    // Fetch and save current injury data from ESPN API
+    await injuryTracker.saveInjuryReport(week, season);
 
-  // Generate injury report
-  injuryChecker.generateInjuryReport(week);
+    console.log(`\n✅ Injury data successfully updated from ESPN API`);
+    console.log(`   Week: ${week}`);
+    console.log(`   Season: ${season}`);
 
-  console.log(`\n💡 Injury data is now available for volume analysis`);
-  console.log(`   Run: npx tsx generate-volume-html.ts ${week}`);
+    // Display injury report summary
+    console.log(injuryTracker.getInjuryReport());
+
+  } catch (error) {
+    console.error('❌ Failed to fetch injury data:', error);
+    console.log('\n⚠️ Consider using mock data as fallback');
+    process.exit(1);
+  }
 }
 
 main().catch(console.error);

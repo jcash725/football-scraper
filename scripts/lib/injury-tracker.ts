@@ -163,14 +163,52 @@ export class InjuryTracker {
 
   async saveInjuryReport(week: number, season: number = 2025): Promise<void> {
     const injuries = await this.fetchCurrentInjuries();
-    
+
+    // Merge with manual IR list
+    const manualIRFile = path.join(this.dataDir, 'manual-ir-list.json');
+    if (fs.existsSync(manualIRFile)) {
+      try {
+        const manualIR = JSON.parse(fs.readFileSync(manualIRFile, 'utf8'));
+        if (manualIR.players && Array.isArray(manualIR.players)) {
+          for (const irPlayer of manualIR.players) {
+            // Check if player already exists in ESPN data
+            const existing = injuries.find(p =>
+              p.playerName.toLowerCase() === irPlayer.playerName.toLowerCase() &&
+              p.team.toLowerCase().includes(irPlayer.team.toLowerCase().split(' ').pop())
+            );
+
+            if (!existing) {
+              // Add manual IR player to the list
+              injuries.push({
+                playerName: irPlayer.playerName,
+                team: irPlayer.team,
+                position: irPlayer.position,
+                injuryStatus: 'IR',
+                notes: irPlayer.reason || 'Manually added to IR list',
+                lastUpdated: manualIR.lastUpdated || new Date().toISOString(),
+                impactLevel: 'High'
+              });
+            } else if (existing.injuryStatus !== 'IR') {
+              // Update existing player to IR status
+              existing.injuryStatus = 'IR';
+              existing.impactLevel = 'High';
+              existing.notes = `${existing.notes || ''} | ${irPlayer.reason || 'On IR'}`.trim();
+            }
+          }
+          console.log(`✅ Merged ${manualIR.players.length} manual IR entries`);
+        }
+      } catch (error) {
+        console.warn('⚠️ Could not load manual IR list:', error);
+      }
+    }
+
     const report: InjuryReport = {
       generatedAt: new Date().toISOString(),
       season,
       week,
       players: injuries
     };
-    
+
     fs.writeFileSync(this.injuryFile, JSON.stringify(report, null, 2));
     console.log(`💾 Saved injury report to ${this.injuryFile}`);
     console.log(`📊 Summary: ${injuries.filter(p => p.injuryStatus !== 'Active').length} players with injury concerns`);
