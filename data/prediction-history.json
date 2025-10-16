@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-10-15T08:16:44.506Z",
+  "lastUpdated": "2025-10-16T08:17:20.338Z",
   "weeks": [
     {
       "week": 1,
@@ -2162,7 +2162,7 @@
     {
       "week": 7,
       "year": 2025,
-      "generatedAt": "2025-10-15T08:16:44.505Z",
+      "generatedAt": "2025-10-16T08:17:20.338Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -2412,6 +2412,19 @@
         },
         {
           "rank": 9,
+          "player": "Jordan Addison",
+          "team": "Minnesota Vikings",
+          "opponent": "Philadelphia Eagles",
+          "probability": 0.5066666666666666,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (10 TDs)",
+            "Weak opponent defense (3.3 TDs/game allowed)",
+            "Hot recent form (7 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 10,
           "player": "Garrett Wilson",
           "team": "New York Jets",
           "opponent": "Carolina Panthers",
@@ -2424,7 +2437,7 @@
           ]
         },
         {
-          "rank": 10,
+          "rank": 11,
           "player": "Jalen Hurts",
           "team": "Philadelphia Eagles",
           "opponent": "Minnesota Vikings",
@@ -2437,7 +2450,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 12,
           "player": "Jahmyr Gibbs",
           "team": "Detroit Lions",
           "opponent": "Tampa Bay",
@@ -2450,7 +2463,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 13,
           "player": "Chase Brown",
           "team": "Cincinnati Bengals",
           "opponent": "Pittsburgh Steelers",
@@ -2463,7 +2476,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 14,
           "player": "Kareem Hunt",
           "team": "Kansas City Chiefs",
           "opponent": "Las Vegas",
@@ -2476,7 +2489,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 15,
           "player": "Ladd McConkey",
           "team": "Los Angeles Chargers",
           "opponent": "Indianapolis Colts",
@@ -2489,7 +2502,7 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 16,
           "player": "De'Von Achane",
           "team": "Miami Dolphins",
           "opponent": "Cleveland Browns",
@@ -2502,7 +2515,7 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 17,
           "player": "Travis Kelce",
           "team": "Kansas City Chiefs",
           "opponent": "Las Vegas",
@@ -2515,7 +2528,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 18,
           "player": "Michael Wilson",
           "team": "Arizona Cardinals",
           "opponent": "Green Bay",
@@ -2528,7 +2541,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 19,
           "player": "Romeo Doubs",
           "team": "Green Bay Packers",
           "opponent": "Arizona Cardinals",
@@ -2541,7 +2554,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 20,
           "player": "Nico Collins",
           "team": "Houston Texans",
           "opponent": "Seattle Seahawks",
@@ -2550,19 +2563,6 @@
           "keyFactors": [
             "Strong 2024 production (8 TDs)",
             "Weak opponent defense (2.8 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "Zach Charbonnet",
-          "team": "Seattle Seahawks",
-          "opponent": "Houston Texans",
-          "probability": 0.432,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (6 TDs)",
-            "Weak opponent defense (4.4 TDs/game allowed)",
             "Hot recent form (6 TDs in recent games)"
           ]
         }
