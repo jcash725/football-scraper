@@ -18,24 +18,50 @@ npx tsx scripts/analyze-td-bets.ts
 ### Step 2: Collect Completed Week's Touchdown Data
 ```bash
 # After games are complete, collect actual TD data
-npx tsx scripts/collect-weekly-touchdowns.ts 1 2025
+# Replace WEEK with actual week number (e.g., 7)
+npx tsx scripts/collect-weekly-touchdowns.ts WEEK 2025
 ```
 **What this does:**
 - Fetches all games from the completed week
 - Extracts touchdown performances from each game
-- Updates the master touchdown database
+- Updates the master touchdown database (data/touchdown-history-2025.json)
 - Shows summary of who actually scored TDs
 
-### Step 3: Record Actual Results vs Predictions
+### Step 3: Update Week Predictions HTML with Results
 ```bash
-# Compare predictions to actual results
-npx tsx scripts/record-weekly-results.ts 1 2025
+# Update the all-predictions HTML file with checkmarks and accuracy
+# Replace WEEK with actual week number (e.g., 7)
+npx tsx scripts/auto-record-results.ts WEEK 2025
 ```
 **What this does:**
-- Matches actual TD scorers to previous week's predictions
-- Records which predictions were correct/incorrect
-- Calculates updated accuracy statistics
-- Generates weekly accuracy report
+- Adds ✅ and ❌ markers to all player predictions
+- Calculates accuracy for each model tab
+- Updates the main predictions HTML file with results summary
+
+### Step 4: Clean Up and Prepare for Commit
+```bash
+# Remove individual model HTML files (keep only all-predictions)
+rm data/week7-predictions.html data/week7-volume-analysis.html data/week7-combined-predictions.html data/week7-enhanced-predictions.html
+
+# Stage and commit changes
+git add data/touchdown-history-2025.json data/week7-all-predictions.html data/accuracy-report.json data/prediction-history.json data/week7-predictions.json
+git add -u data/week7*.html
+git commit -m "Update Week 7 results with touchdown data and accuracy tracking"
+git push origin main
+```
+
+## 📝 Quick Command for Week Results (One-Liner)
+```bash
+# After all Week X games are complete, run these commands:
+WEEK=7
+npx tsx scripts/collect-weekly-touchdowns.ts $WEEK 2025 && \
+npx tsx scripts/auto-record-results.ts $WEEK 2025 && \
+rm data/week${WEEK}-predictions.html data/week${WEEK}-volume-analysis.html data/week${WEEK}-combined-predictions.html data/week${WEEK}-enhanced-predictions.html 2>/dev/null; \
+git add data/touchdown-history-2025.json data/week${WEEK}-all-predictions.html data/accuracy-report.json data/prediction-history.json data/week${WEEK}-predictions.json && \
+git add -u data/week${WEEK}*.html && \
+git commit -m "Update Week ${WEEK} results with touchdown data and accuracy tracking" && \
+git push origin main
+```
 
 ## 📊 Accuracy Tracking Features
 
