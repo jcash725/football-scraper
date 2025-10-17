@@ -1,5 +1,6 @@
 #!/usr/bin/env tsx
 // Scrape Pro Football Reference red zone data
+import * as cheerio from 'cheerio';
 
 interface RedZoneData {
   playerName: string;
@@ -9,43 +10,56 @@ interface RedZoneData {
 }
 
 export async function scrapeRedZoneData(): Promise<RedZoneData[]> {
-  console.log('🔴 Using Pro Football Reference red zone data...\n');
+  console.log('🔴 Using current 2025 red zone data from Pro Football Reference...\n');
 
-  // For now, use the data I extracted from WebFetch
-  // TODO: Implement proper scraping once we can parse PFR tables
-  const redZoneData: RedZoneData[] = [
-    // Red zone receiving leaders
-    { playerName: "Davante Adams", team: "LAR", redZoneTargets: 8 },
-    { playerName: "Amon-Ra St. Brown", team: "DET", redZoneTargets: 8 },
-    { playerName: "George Pickens", team: "DAL", redZoneTargets: 7 },
-    { playerName: "Christian McCaffrey", team: "SFO", redZoneTargets: 6 },
-    { playerName: "Hunter Renfrow", team: "CAR", redZoneTargets: 6 },
-    { playerName: "Trey McBride", team: "ARI", redZoneTargets: 5 },
-    { playerName: "Jake Ferguson", team: "DAL", redZoneTargets: 5 },
-    { playerName: "Travis Kelce", team: "KAN", redZoneTargets: 5 },
-    { playerName: "Mark Andrews", team: "BAL", redZoneTargets: 4 },
-    { playerName: "CeeDee Lamb", team: "DAL", redZoneTargets: 4 },
+  // Current Week 6 data (manually updated from PFR)
+  // URLs: https://www.pro-football-reference.com/years/2025/redzone-receiving.htm
+  //       https://www.pro-football-reference.com/years/2025/redzone-rushing.htm
 
-    // Red zone rushing leaders
-    { playerName: "Jonathan Taylor", team: "IND", redZoneCarries: 16 },
-    { playerName: "Jahmyr Gibbs", team: "DET", redZoneCarries: 15 },
-    { playerName: "Christian McCaffrey", team: "SFO", redZoneCarries: 13 },
-    { playerName: "James Cook", team: "BUF", redZoneCarries: 12 },
-    { playerName: "Josh Jacobs", team: "GNB", redZoneCarries: 12 },
-    { playerName: "Jaylen Warren", team: "PIT", redZoneCarries: 12 },
-    { playerName: "Saquon Barkley", team: "PHI", redZoneCarries: 11 },
-    { playerName: "Zach Charbonnet", team: "SEA", redZoneCarries: 10 },
-    { playerName: "Travis Etienne", team: "JAX", redZoneCarries: 10 },
-    { playerName: "Jalen Hurts", team: "PHI", redZoneCarries: 10 },
-    { playerName: "Derrick Henry", team: "BAL", redZoneCarries: 9 },
-    { playerName: "Kenneth Walker III", team: "SEA", redZoneCarries: 8 },
-    { playerName: "De'Von Achane", team: "MIA", redZoneCarries: 7 }
+  const receivingData: RedZoneData[] = [
+    { playerName: "Amon-Ra St. Brown", team: "DET", redZoneTargets: 10 },
+    { playerName: "Davante Adams", team: "LAR", redZoneTargets: 9 },
+    { playerName: "Christian McCaffrey", team: "SFO", redZoneTargets: 9 },
+    { playerName: "Theo Johnson", team: "NYG", redZoneTargets: 8 },
+    { playerName: "George Pickens", team: "DAL", redZoneTargets: 8 },
+    { playerName: "Keenan Allen", team: "LAC", redZoneTargets: 7 },
+    { playerName: "Troy Franklin", team: "DEN", redZoneTargets: 7 },
+    { playerName: "Hunter Henry", team: "NWE", redZoneTargets: 7 },
+    { playerName: "Khalil Shakir", team: "BUF", redZoneTargets: 7 },
+    { playerName: "Jaylen Waddle", team: "MIA", redZoneTargets: 7 },
+    { playerName: "Romeo Doubs", team: "GNB", redZoneTargets: 6 },
+    { playerName: "Ashton Jeanty", team: "LVR", redZoneTargets: 6 },
+    { playerName: "Jalen Nailor", team: "MIN", redZoneTargets: 6 },
+    { playerName: "Rome Odunze", team: "CHI", redZoneTargets: 6 },
+    { playerName: "Chris Olave", team: "NOR", redZoneTargets: 6 },
+    { playerName: "Hunter Renfrow", team: "CAR", redZoneTargets: 6 }
+  ];
+
+  const rushingData: RedZoneData[] = [
+    { playerName: "Jonathan Taylor", team: "IND", redZoneCarries: 26 },
+    { playerName: "Jahmyr Gibbs", team: "DET", redZoneCarries: 23 },
+    { playerName: "Cam Skattebo", team: "NYG", redZoneCarries: 22 },
+    { playerName: "Christian McCaffrey", team: "SFO", redZoneCarries: 21 },
+    { playerName: "James Cook", team: "BUF", redZoneCarries: 19 },
+    { playerName: "Josh Jacobs", team: "GNB", redZoneCarries: 19 },
+    { playerName: "David Montgomery", team: "DET", redZoneCarries: 17 },
+    { playerName: "Jalen Hurts", team: "PHI", redZoneCarries: 15 },
+    { playerName: "Saquon Barkley", team: "PHI", redZoneCarries: 14 },
+    { playerName: "Quinshon Judkins", team: "CLE", redZoneCarries: 14 },
+    { playerName: "Kyren Williams", team: "LAR", redZoneCarries: 14 },
+    { playerName: "Zach Charbonnet", team: "SEA", redZoneCarries: 13 },
+    { playerName: "Travis Etienne", team: "JAX", redZoneCarries: 13 },
+    { playerName: "Javonte Williams", team: "DAL", redZoneCarries: 13 },
+    { playerName: "Josh Allen", team: "BUF", redZoneCarries: 12 },
+    { playerName: "J.K. Dobbins", team: "DEN", redZoneCarries: 12 },
+    { playerName: "Kenneth Walker", team: "SEA", redZoneCarries: 12 },
+    { playerName: "Jaylen Warren", team: "PIT", redZoneCarries: 12 }
   ];
 
   // Merge players with both targets and carries
   const playerMap = new Map<string, RedZoneData>();
 
-  redZoneData.forEach(player => {
+  [...receivingData, ...rushingData].forEach(player => {
     const key = player.playerName.toLowerCase();
     const existing = playerMap.get(key);
 
@@ -59,69 +73,90 @@ export async function scrapeRedZoneData(): Promise<RedZoneData[]> {
   });
 
   const finalData = Array.from(playerMap.values());
-  console.log(`✅ Loaded ${finalData.length} players with red zone data`);
+  console.log(`✅ Loaded ${finalData.length} players with red zone data (manually updated from PFR)`);
+  console.log(`   ${receivingData.length} with RZ targets, ${rushingData.length} with RZ carries\n`);
 
   return finalData;
 }
 
 function parseRedZoneReceiving(html: string): RedZoneData[] {
   const players: RedZoneData[] = [];
+  const $ = cheerio.load(html);
 
-  // Look for table rows with player data
-  const patterns = [
-    // Standard PFR table format
-    /<tr[^>]*>[\s\S]*?<td[^>]*data-stat="player"[^>]*><a[^>]*>([^<]+)<\/a>[\s\S]*?<td[^>]*data-stat="team"[^>]*>([^<]+)<\/td>[\s\S]*?<td[^>]*data-stat="targets"[^>]*>(\d+)<\/td>/g,
-    // Alternative format
-    /<td[^>]*><a[^>]*>([^<]+)<\/a><\/td>[\s\S]*?<td[^>]*>([A-Z]{3})<\/td>[\s\S]*?<td[^>]*>(\d+)<\/td>/g
-  ];
+  // Try multiple selectors for the table
+  let $table = $('table#redzone-receiving');
 
-  for (const pattern of patterns) {
-    let match;
-    while ((match = pattern.exec(html)) !== null && players.length < 50) {
-      const [, name, team, targets] = match;
-      const targetNum = parseInt(targets);
+  if ($table.length === 0) {
+    $table = $('table.stats_table').first();
+  }
 
-      if (name && team && targetNum > 0) {
+  if ($table.length === 0) {
+    $table = $('table').first();
+  }
+
+  // Find all table rows
+  $table.find('tbody tr').each((_, row) => {
+    const $row = $(row);
+
+    // Skip header rows
+    if ($row.hasClass('thead') || $row.hasClass('over_header')) return;
+
+    const playerName = $row.find('td[data-stat="player"] a').text().trim();
+    const team = $row.find('td[data-stat="team"] a').text().trim();
+    const targetsText = $row.find('td[data-stat="rec_tgt"]').text().trim();
+
+    if (playerName && team && targetsText) {
+      const targets = parseInt(targetsText);
+      if (!isNaN(targets) && targets > 0) {
         players.push({
-          playerName: name.trim(),
-          team: team.trim(),
-          redZoneTargets: targetNum
+          playerName,
+          team,
+          redZoneTargets: targets
         });
       }
     }
-    if (players.length > 10) break;
-  }
+  });
 
   return players;
 }
 
 function parseRedZoneRushing(html: string): RedZoneData[] {
   const players: RedZoneData[] = [];
+  const $ = cheerio.load(html);
 
-  // Look for table rows with player data
-  const patterns = [
-    // Standard PFR table format
-    /<tr[^>]*>[\s\S]*?<td[^>]*data-stat="player"[^>]*><a[^>]*>([^<]+)<\/a>[\s\S]*?<td[^>]*data-stat="team"[^>]*>([^<]+)<\/td>[\s\S]*?<td[^>]*data-stat="rush_att"[^>]*>(\d+)<\/td>/g,
-    // Alternative format
-    /<td[^>]*><a[^>]*>([^<]+)<\/a><\/td>[\s\S]*?<td[^>]*>([A-Z]{3})<\/td>[\s\S]*?<td[^>]*>(\d+)<\/td>/g
-  ];
+  // Try multiple selectors for the table
+  let $table = $('table#redzone-rushing');
 
-  for (const pattern of patterns) {
-    let match;
-    while ((match = pattern.exec(html)) !== null && players.length < 50) {
-      const [, name, team, carries] = match;
-      const carryNum = parseInt(carries);
+  if ($table.length === 0) {
+    $table = $('table.stats_table').first();
+  }
 
-      if (name && team && carryNum > 0) {
+  if ($table.length === 0) {
+    $table = $('table').first();
+  }
+
+  // Find all table rows
+  $table.find('tbody tr').each((_, row) => {
+    const $row = $(row);
+
+    // Skip header rows
+    if ($row.hasClass('thead') || $row.hasClass('over_header')) return;
+
+    const playerName = $row.find('td[data-stat="player"] a').text().trim();
+    const team = $row.find('td[data-stat="team"] a').text().trim();
+    const carriesText = $row.find('td[data-stat="rush_att"]').text().trim();
+
+    if (playerName && team && carriesText) {
+      const carries = parseInt(carriesText);
+      if (!isNaN(carries) && carries > 0) {
         players.push({
-          playerName: name.trim(),
-          team: team.trim(),
-          redZoneCarries: carryNum
+          playerName,
+          team,
+          redZoneCarries: carries
         });
       }
     }
-    if (players.length > 10) break;
-  }
+  });
 
   return players;
 }

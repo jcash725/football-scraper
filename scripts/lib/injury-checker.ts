@@ -81,16 +81,20 @@ export class InjuryChecker {
 
       // Fall back to old format (injury-reports.json with 'reports' array)
       const database = this.loadInjuryDatabase();
-      const matchingReports = database.reports.filter(report =>
-        report.playerName.toLowerCase().includes(playerName.toLowerCase()) ||
-        playerName.toLowerCase().includes(report.playerName.toLowerCase())
-      );
+      if (database && database.reports && Array.isArray(database.reports)) {
+        const matchingReports = database.reports.filter(report =>
+          report.playerName.toLowerCase().includes(playerName.toLowerCase()) ||
+          playerName.toLowerCase().includes(report.playerName.toLowerCase())
+        );
 
-      if (matchingReports.length === 0) return null;
+        if (matchingReports.length > 0) {
+          return matchingReports.sort((a, b) =>
+            new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime()
+          )[0];
+        }
+      }
 
-      return matchingReports.sort((a, b) =>
-        new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime()
-      )[0];
+      return null;
     } catch (error) {
       console.error(`Error loading injury status for ${playerName}:`, error);
       return null;
