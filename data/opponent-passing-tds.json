@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/stat/opponent-passing-touchdowns-per-game",
-  "scrapedAt": "2025-10-16T23:18:21.641Z",
+  "scrapedAt": "2025-10-17T08:16:26.232Z",
   "note": "Sorted by Rank (desc)",
   "columns": [
     "Rank",
@@ -34,9 +34,19 @@
       "Away": 2.3
     },
     {
+      "2024": 1.8,
+      "2025": 2.4,
+      "Rank": 30,
+      "Team": "Cincinnati",
+      "Last 3": 3,
+      "Last 1": 4,
+      "Home": 3.7,
+      "Away": 1.5
+    },
+    {
       "2024": 1.1,
       "2025": 2.3,
-      "Rank": 29,
+      "Rank": 28,
       "Team": "New Orleans",
       "Last 3": 2.3,
       "Last 1": 3,
@@ -46,7 +56,7 @@
     {
       "2024": 1.5,
       "2025": 2.3,
-      "Rank": 29,
+      "Rank": 28,
       "Team": "Baltimore",
       "Last 3": 3,
       "Last 1": 1,
@@ -62,16 +72,6 @@
       "Last 1": 3,
       "Home": 1,
       "Away": 2.8
-    },
-    {
-      "2024": 1.8,
-      "2025": 2.2,
-      "Rank": 27,
-      "Team": "Cincinnati",
-      "Last 3": 2.3,
-      "Last 1": 1,
-      "Home": 3.5,
-      "Away": 1.5
     },
     {
       "2024": 1.1,
@@ -106,7 +106,7 @@
     {
       "2024": 1.6,
       "2025": 1.7,
-      "Rank": 18,
+      "Rank": 17,
       "Team": "Indianapolis",
       "Last 3": 1.7,
       "Last 1": 2,
@@ -114,9 +114,19 @@
       "Away": 2
     },
     {
+      "2024": 1.4,
+      "2025": 1.7,
+      "Rank": 17,
+      "Team": "Pittsburgh",
+      "Last 3": 1.7,
+      "Last 1": 3,
+      "Home": 1,
+      "Away": 2
+    },
+    {
       "2024": 1.7,
       "2025": 1.7,
-      "Rank": 18,
+      "Rank": 17,
       "Team": "Jacksonville",
       "Last 3": 1.7,
       "Last 1": 2,
@@ -126,7 +136,7 @@
     {
       "2024": 1.5,
       "2025": 1.7,
-      "Rank": 18,
+      "Rank": 17,
       "Team": "San Francisco",
       "Last 3": 2,
       "Last 1": 2,
@@ -136,7 +146,7 @@
     {
       "2024": 1.6,
       "2025": 1.7,
-      "Rank": 18,
+      "Rank": 17,
       "Team": "Tampa Bay",
       "Last 3": 2,
       "Last 1": 0,
@@ -146,7 +156,7 @@
     {
       "2024": 2.1,
       "2025": 1.7,
-      "Rank": 18,
+      "Rank": 17,
       "Team": "Carolina",
       "Last 3": 2.7,
       "Last 1": 3,
@@ -156,7 +166,7 @@
     {
       "2024": 1.5,
       "2025": 1.7,
-      "Rank": 18,
+      "Rank": 17,
       "Team": "Seattle",
       "Last 3": 2,
       "Last 1": 2,
@@ -166,7 +176,7 @@
     {
       "2024": 1.4,
       "2025": 1.6,
-      "Rank": 17,
+      "Rank": 16,
       "Team": "Green Bay",
       "Last 3": 1.7,
       "Last 1": 2,
@@ -176,7 +186,7 @@
     {
       "2024": 1.5,
       "2025": 1.5,
-      "Rank": 15,
+      "Rank": 14,
       "Team": "Washington",
       "Last 3": 1.3,
       "Last 1": 1,
@@ -186,7 +196,7 @@
     {
       "2024": 1.6,
       "2025": 1.5,
-      "Rank": 15,
+      "Rank": 14,
       "Team": "New England",
       "Last 3": 1.3,
       "Last 1": 0,
@@ -202,16 +212,6 @@
       "Last 1": 2,
       "Home": 2.3,
       "Away": 0
-    },
-    {
-      "2024": 1.4,
-      "2025": 1.4,
-      "Rank": 13,
-      "Team": "Pittsburgh",
-      "Last 3": 1.3,
-      "Last 1": 0,
-      "Home": 1,
-      "Away": 1.7
     },
     {
       "2024": 1.7,
