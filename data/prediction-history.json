@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-10-17T08:17:01.334Z",
+  "lastUpdated": "2025-10-18T08:14:11.006Z",
   "weeks": [
     {
       "week": 1,
@@ -2164,7 +2164,7 @@
     {
       "week": 7,
       "year": 2025,
-      "generatedAt": "2025-10-17T08:17:01.333Z",
+      "generatedAt": "2025-10-18T08:14:11.006Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -2301,9 +2301,9 @@
         },
         {
           "rank": 20,
-          "player": "Jake Ferguson",
-          "team": "Dallas Cowboys",
-          "opponent": "Washington",
+          "player": "Darren Waller",
+          "team": "Miami Dolphins",
+          "opponent": "Cleveland",
           "basis": "Opp Pass TD/G"
         }
       ],
@@ -2375,6 +2375,19 @@
         },
         {
           "rank": 6,
+          "player": "Justin Jefferson",
+          "team": "Minnesota Vikings",
+          "opponent": "Philadelphia Eagles",
+          "probability": 0.5566666666666666,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (10 TDs)",
+            "Weak opponent defense (3.3 TDs/game allowed)",
+            "Hot recent form (7 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 7,
           "player": "Amon-Ra St. Brown",
           "team": "Detroit Lions",
           "opponent": "Tampa Bay",
@@ -2387,7 +2400,7 @@
           ]
         },
         {
-          "rank": 7,
+          "rank": 8,
           "player": "Sam LaPorta",
           "team": "Detroit Lions",
           "opponent": "Tampa Bay",
@@ -2400,7 +2413,7 @@
           ]
         },
         {
-          "rank": 8,
+          "rank": 9,
           "player": "Rhamondre Stevenson",
           "team": "New England Patriots",
           "opponent": "Tennessee Titans",
@@ -2413,7 +2426,7 @@
           ]
         },
         {
-          "rank": 9,
+          "rank": 10,
           "player": "Pat Freiermuth",
           "team": "Pittsburgh Steelers",
           "opponent": "Cincinnati Bengals",
@@ -2423,19 +2436,6 @@
             "Moderate 2024 production (7 TDs)",
             "Previous success vs opponent (2 TDs)",
             "Weak opponent defense (4.5 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 10,
-          "player": "Jordan Addison",
-          "team": "Minnesota Vikings",
-          "opponent": "Philadelphia Eagles",
-          "probability": 0.5066666666666666,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (10 TDs)",
-            "Weak opponent defense (3.3 TDs/game allowed)",
-            "Hot recent form (7 TDs in recent games)"
           ]
         },
         {
