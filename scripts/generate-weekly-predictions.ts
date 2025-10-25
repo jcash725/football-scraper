@@ -524,9 +524,9 @@ async function saveResults(week: number, currentTop20: TDRecommendation[], mlPre
   
   writeFileSync(outputPath, JSON.stringify(output, null, 2));
   console.log(`\nPredictions saved to: ${outputPath}`);
-  
-  // Also create HTML output with both models
-  await generateHTML(week, currentTop20, mlPredictions, comparison);
+
+  // HTML generation disabled - only week{week}-all-predictions.html should be used
+  // await generateHTML(week, currentTop20, mlPredictions, comparison);
 }
 
 async function generateHTML(week: number, currentTop20: TDRecommendation[], mlPredictions: any[], comparison: any): Promise<void> {

@@ -55,17 +55,11 @@ async function main() {
     return;
   }
 
-  // Generate HTML
-  const html = generateHTML(week, predictions);
+  // HTML generation disabled - only week{week}-all-predictions.html should be used
+  // const html = generateHTML(week, predictions);
 
-  // Save HTML file
+  // Save JSON for analysis only
   const outputDir = path.join(process.cwd(), 'data');
-  const fileName = `week${week}-enhanced-predictions.html`;
-  const filePath = path.join(outputDir, fileName);
-
-  fs.writeFileSync(filePath, html);
-
-  // Also save JSON for analysis
   const jsonFileName = `week${week}-enhanced-predictions.json`;
   const jsonFilePath = path.join(outputDir, jsonFileName);
   fs.writeFileSync(jsonFilePath, JSON.stringify({
@@ -76,7 +70,6 @@ async function main() {
   }, null, 2));
 
   console.log(`✅ Enhanced predictions generated:`);
-  console.log(`📄 HTML: ${fileName}`);
   console.log(`📊 JSON: ${jsonFileName}`);
   console.log(`🎯 Top predictions: ${predictions.slice(0, 10).map(p => `${p.playerName} (${p.finalScore})`).join(', ')}`);
 }
