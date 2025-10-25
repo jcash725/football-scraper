@@ -1,6 +1,6 @@
 {
   "week": 7,
-  "generatedAt": "2025-10-16T23:20:33.833Z",
+  "generatedAt": "2025-10-19T16:47:56.896Z",
   "predictions": [
     {
       "playerName": "Christian McCaffrey",
@@ -37,7 +37,7 @@
       "historicalScore": 5,
       "finalScore": 7,
       "prediction": "Solid Play",
-      "injuryStatus": "Questionable (Jacobs (illness) practiced in a limited capacity Thursday, Matt Schneidman of The Athletic reports.)",
+      "injuryStatus": "Questionable (Jacobs (illness), who remains listed as questionable for Sunday's matchup against the Cardinals, is considered a \"true game-time decision,\" a league source tells Adam Schefter of ESPN.)",
       "reasoning": [
         "High volume (22 touches)",
         "High red zone usage (5 opportunities)",
@@ -122,7 +122,7 @@
       "historicalScore": 1,
       "finalScore": 4,
       "prediction": "Dart Throw",
-      "injuryStatus": "Active (Adams recorded four receptions on nine targets for 39 yards in Sunday's 17-3 win over the Ravens.)",
+      "injuryStatus": "Active (Ankle)",
       "reasoning": [
         "Low volume (8 touches)",
         "High red zone usage (3 opportunities)",
@@ -214,26 +214,6 @@
       ]
     },
     {
-      "playerName": "Puka Nacua",
-      "team": "Los Angeles Rams",
-      "position": "WR",
-      "opponent": "Jacksonville",
-      "targets": 9,
-      "carries": 0,
-      "redZoneOpportunities": 0,
-      "volumeScore": 0,
-      "defenseScore": 5.25,
-      "historicalScore": 3,
-      "finalScore": 2,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Questionable (Ankle)",
-      "reasoning": [
-        "Low volume (9 touches)",
-        "Weak pass defense (1.7 TDs/game allowed)",
-        "Good recent form (2 TDs in last 3 games)"
-      ]
-    },
-    {
       "playerName": "Trey McBride",
       "team": "Arizona Cardinals",
       "position": "TE",
@@ -274,26 +254,6 @@
       ]
     },
     {
-      "playerName": "Garrett Wilson",
-      "team": "New York Jets",
-      "position": "WR",
-      "opponent": "Carolina",
-      "targets": 8,
-      "carries": 0,
-      "redZoneOpportunities": 0,
-      "volumeScore": 0,
-      "defenseScore": 5.25,
-      "historicalScore": 3,
-      "finalScore": 2,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Doubtful (Knee)",
-      "reasoning": [
-        "Low volume (8 touches)",
-        "Weak pass defense (1.7 TDs/game allowed)",
-        "Good recent form (2 TDs in last 3 games)"
-      ]
-    },
-    {
       "playerName": "Ja'Marr Chase",
       "team": "Cincinnati Bengals",
       "position": "WR",
@@ -306,7 +266,7 @@
       "historicalScore": 5,
       "finalScore": 2,
       "prediction": "Dart Throw",
-      "injuryStatus": "Healthy",
+      "injuryStatus": "Active (Chase secured 16 of 23 targets for 161 yards and a touchdown in the Bengals' 33-31 win over the Steelers on Thursday night.)",
       "reasoning": [
         "Low volume (7 touches)",
         "Average pass defense (1.4 TDs/game allowed)",
@@ -326,7 +286,7 @@
       "historicalScore": 1,
       "finalScore": 2,
       "prediction": "Dart Throw",
-      "injuryStatus": "Questionable (Concussion)",
+      "injuryStatus": "Active (Concussion)",
       "reasoning": [
         "Low volume (7 touches)",
         "Weak pass defense (1.6 TDs/game allowed)",
@@ -386,7 +346,7 @@
       "historicalScore": 0,
       "finalScore": 1,
       "prediction": "Dart Throw",
-      "injuryStatus": "Questionable (Ankle)",
+      "injuryStatus": "Active (Ankle)",
       "reasoning": [
         "Low volume (6 touches)",
         "Weak pass defense (1.5 TDs/game allowed)"

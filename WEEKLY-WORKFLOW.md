@@ -4,16 +4,21 @@ This guide outlines the weekly process for generating predictions, collecting ac
 
 ## 🏈 Weekly Process (Every Tuesday after MNF)
 
-### Step 1: Generate Weekly Predictions
+### Step 1: Generate Weekly Predictions (ALL MODELS)
 ```bash
-# This automatically saves predictions to prediction-history.json
-npx tsx scripts/analyze-td-bets.ts
+# IMPORTANT: This generates ALL 5 models (Current, ML, Volume, Combined, Enhanced)
+npx tsx scripts/generate-all-week-predictions.ts WEEK
+
+# Example for Week 8:
+npx tsx scripts/generate-all-week-predictions.ts 8
 ```
 **What this does:**
-- Generates top 20 predictions from both Current Model and Enhanced ML Model
-- Saves predictions with probabilities and key factors
-- Updates HTML recommendations file
-- Tracks predictions for accuracy measurement
+- Generates Current Model (rookie-focused) + ML Model (2024 data)
+- Generates Volume Model (targets/carries + defense)
+- Generates Combined Model (volume + defense weighted)
+- Generates Enhanced Model (volume + defense + game script)
+- Creates unified week{WEEK}-all-predictions.html with all 5 models in tabs
+- Saves predictions to prediction-history.json for tracking
 
 ### Step 2: Collect Completed Week's Touchdown Data
 ```bash
@@ -27,24 +32,29 @@ npx tsx scripts/collect-weekly-touchdowns.ts WEEK 2025
 - Updates the master touchdown database (data/touchdown-history-2025.json)
 - Shows summary of who actually scored TDs
 
-### Step 3: Update Week Predictions HTML with Results
+### Step 3: Process Week Results and Update HTML
 ```bash
-# Update the all-predictions HTML file with checkmarks and accuracy
+# Process results and update the all-predictions HTML file
 # Replace WEEK with actual week number (e.g., 7)
-npx tsx scripts/auto-record-results.ts WEEK 2025
+npx tsx scripts/process-weekly-results.ts WEEK 2025
 ```
 **What this does:**
 - Adds ✅ and ❌ markers to all player predictions
-- Calculates accuracy for each model tab
-- Updates the main predictions HTML file with results summary
+- Calculates accuracy for EACH individual model/tab
+- Displays accuracy percentage inside each tab (not at the top)
+- Removes duplicate headers
+- Updates only the week{WEEK}-all-predictions.html file
+- Auto-scrapes volume data for next week
+- Generates predictions for next week (if scripts exist)
 
 ### Step 4: Clean Up and Prepare for Commit
 ```bash
 # Remove individual model HTML files (keep only all-predictions)
-rm data/week7-predictions.html data/week7-volume-analysis.html data/week7-combined-predictions.html data/week7-enhanced-predictions.html
+# Note: process-weekly-results.ts already handles most cleanup
+rm data/week7-predictions.html data/week7-combined-predictions.html data/week7-enhanced-predictions.html 2>/dev/null
 
 # Stage and commit changes
-git add data/touchdown-history-2025.json data/week7-all-predictions.html data/accuracy-report.json data/prediction-history.json data/week7-predictions.json
+git add data/touchdown-history-2025.json data/week7-all-predictions.html data/week7-predictions.json
 git add -u data/week7*.html
 git commit -m "Update Week 7 results with touchdown data and accuracy tracking"
 git push origin main
@@ -52,16 +62,21 @@ git push origin main
 
 ## 📝 Quick Command for Week Results (One-Liner)
 ```bash
-# After all Week X games are complete, run these commands:
+# After all Week X games are complete, run this command:
 WEEK=7
-npx tsx scripts/collect-weekly-touchdowns.ts $WEEK 2025 && \
-npx tsx scripts/auto-record-results.ts $WEEK 2025 && \
-rm data/week${WEEK}-predictions.html data/week${WEEK}-volume-analysis.html data/week${WEEK}-combined-predictions.html data/week${WEEK}-enhanced-predictions.html 2>/dev/null; \
-git add data/touchdown-history-2025.json data/week${WEEK}-all-predictions.html data/accuracy-report.json data/prediction-history.json data/week${WEEK}-predictions.json && \
+npx tsx scripts/process-weekly-results.ts $WEEK 2025 && \
+rm data/week${WEEK}-predictions.html data/week${WEEK}-combined-predictions.html data/week${WEEK}-enhanced-predictions.html 2>/dev/null && \
+git add data/touchdown-history-2025.json data/week${WEEK}-all-predictions.html data/week${WEEK}-predictions.json && \
 git add -u data/week${WEEK}*.html && \
 git commit -m "Update Week ${WEEK} results with touchdown data and accuracy tracking" && \
 git push origin main
 ```
+
+**Important Notes:**
+- **Always use `process-weekly-results.ts`** instead of `auto-record-results.ts`
+- This ensures accuracy is calculated **per tab** and displayed inside each tab
+- No duplicate headers will appear at the top
+- Only `week{WEEK}-all-predictions.html` will contain results
 
 ## 📊 Accuracy Tracking Features
 

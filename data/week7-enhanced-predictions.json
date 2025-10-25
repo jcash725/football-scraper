@@ -1,6 +1,6 @@
 {
   "week": 7,
-  "generatedAt": "2025-10-16T23:20:39.012Z",
+  "generatedAt": "2025-10-19T16:48:10.713Z",
   "methodology": "Volume (50%) + Defense (25%) + Game Script (15%) + Usage Trends (10%)",
   "predictions": [
     {
@@ -65,7 +65,7 @@
       "usageTrendScore": 6,
       "finalScore": 6,
       "prediction": "Solid Play",
-      "injuryStatus": "Questionable (Jacobs (illness) practiced in a limited capacity Thursday, Matt Schneidman of The Athletic reports.)",
+      "injuryStatus": "Questionable (Jacobs (illness), who remains listed as questionable for Sunday's matchup against the Cardinals, is considered a \"true game-time decision,\" a league source tells Adam Schefter of ESPN.)",
       "reasoning": [
         "High volume (22 touches)",
         "High red zone usage (5 opportunities)",
@@ -112,7 +112,7 @@
       "usageTrendScore": 6,
       "finalScore": 5,
       "prediction": "Speculative Play",
-      "injuryStatus": "Active (Adams recorded four receptions on nine targets for 39 yards in Sunday's 17-3 win over the Ravens.)",
+      "injuryStatus": "Active (Ankle)",
       "reasoning": [
         "Low volume (8 touches)",
         "High red zone usage (3 opportunities)",
@@ -281,6 +281,50 @@
       ]
     },
     {
+      "playerName": "CeeDee Lamb",
+      "team": "Dallas Cowboys",
+      "position": "WR",
+      "opponent": "Washington Commanders",
+      "targets": 6,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 4.75,
+      "gameScriptScore": 6,
+      "usageTrendScore": 5,
+      "finalScore": 3,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Active (Ankle)",
+      "reasoning": [
+        "Low volume (6 touches)",
+        "Weak pass defense (1.5 TDs/game allowed)",
+        "Good scoring game expected (24+ points)",
+        "Volume trending up; Red zone usage decreasing"
+      ]
+    },
+    {
+      "playerName": "Marvin Harrison Jr.",
+      "team": "Arizona Cardinals",
+      "position": "WR",
+      "opponent": "Green Bay Packers",
+      "targets": 7,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 5,
+      "gameScriptScore": 6,
+      "usageTrendScore": 5,
+      "finalScore": 3,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Active (Concussion)",
+      "reasoning": [
+        "Low volume (7 touches)",
+        "Weak pass defense (1.6 TDs/game allowed)",
+        "Good scoring game expected (24+ points)",
+        "Volume trending up; Red zone usage decreasing"
+      ]
+    },
+    {
       "playerName": "Brian Thomas Jr.",
       "team": "Jacksonville Jaguars",
       "position": "WR",
@@ -321,28 +365,6 @@
         "Low volume (7 touches)",
         "Weak pass defense (1.7 TDs/game allowed)",
         "Good scoring game expected (24+ points)",
-        "Volume trending up; Red zone usage decreasing"
-      ]
-    },
-    {
-      "playerName": "Puka Nacua",
-      "team": "Los Angeles Rams",
-      "position": "WR",
-      "opponent": "Jacksonville Jaguars",
-      "targets": 9,
-      "carries": 0,
-      "redZoneOpportunities": 0,
-      "volumeScore": 0,
-      "defenseScore": 5.25,
-      "gameScriptScore": 6,
-      "usageTrendScore": 5,
-      "finalScore": 2,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Questionable (Ankle)",
-      "reasoning": [
-        "Low volume (9 touches)",
-        "Weak pass defense (1.7 TDs/game allowed)",
-        "Good scoring game expected (26+ points)",
         "Volume trending up; Red zone usage decreasing"
       ]
     },
@@ -404,54 +426,10 @@
       "usageTrendScore": 5,
       "finalScore": 2,
       "prediction": "Dart Throw",
-      "injuryStatus": "Healthy",
+      "injuryStatus": "Active (Chase secured 16 of 23 targets for 161 yards and a touchdown in the Bengals' 33-31 win over the Steelers on Thursday night.)",
       "reasoning": [
         "Low volume (7 touches)",
         "Average pass defense (1.4 TDs/game allowed)",
-        "Good scoring game expected (24+ points)",
-        "Volume trending up; Red zone usage decreasing"
-      ]
-    },
-    {
-      "playerName": "CeeDee Lamb",
-      "team": "Dallas Cowboys",
-      "position": "WR",
-      "opponent": "Washington Commanders",
-      "targets": 6,
-      "carries": 0,
-      "redZoneOpportunities": 0,
-      "volumeScore": 0,
-      "defenseScore": 4.75,
-      "gameScriptScore": 6,
-      "usageTrendScore": 5,
-      "finalScore": 2,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Questionable (Ankle)",
-      "reasoning": [
-        "Low volume (6 touches)",
-        "Weak pass defense (1.5 TDs/game allowed)",
-        "Good scoring game expected (24+ points)",
-        "Volume trending up; Red zone usage decreasing"
-      ]
-    },
-    {
-      "playerName": "Marvin Harrison Jr.",
-      "team": "Arizona Cardinals",
-      "position": "WR",
-      "opponent": "Green Bay Packers",
-      "targets": 7,
-      "carries": 0,
-      "redZoneOpportunities": 0,
-      "volumeScore": 0,
-      "defenseScore": 5,
-      "gameScriptScore": 6,
-      "usageTrendScore": 5,
-      "finalScore": 2,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Questionable (Concussion)",
-      "reasoning": [
-        "Low volume (7 touches)",
-        "Weak pass defense (1.6 TDs/game allowed)",
         "Good scoring game expected (24+ points)",
         "Volume trending up; Red zone usage decreasing"
       ]
@@ -475,28 +453,6 @@
         "Low volume (6 touches)",
         "Average pass defense (1.3 TDs/game allowed)",
         "Good scoring game expected (27+ points); Favored team (positive game script)",
-        "Volume trending up; Red zone usage decreasing"
-      ]
-    },
-    {
-      "playerName": "Garrett Wilson",
-      "team": "New York Jets",
-      "position": "WR",
-      "opponent": "Carolina Panthers",
-      "targets": 8,
-      "carries": 0,
-      "redZoneOpportunities": 0,
-      "volumeScore": 0,
-      "defenseScore": 5.25,
-      "gameScriptScore": 6,
-      "usageTrendScore": 5,
-      "finalScore": 1,
-      "prediction": "Dart Throw",
-      "injuryStatus": "Doubtful (Knee)",
-      "reasoning": [
-        "Low volume (8 touches)",
-        "Weak pass defense (1.7 TDs/game allowed)",
-        "Good scoring game expected (24+ points)",
         "Volume trending up; Red zone usage decreasing"
       ]
     }

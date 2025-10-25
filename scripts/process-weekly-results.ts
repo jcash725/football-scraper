@@ -56,9 +56,13 @@ async function main() {
 
         let htmlContent = fs.readFileSync(allPredictionsFile, 'utf8');
 
-        // Clean up existing marks
+        // Clean up existing marks and percentages
         htmlContent = htmlContent.replace(/( ✅)+/g, '');
         htmlContent = htmlContent.replace(/( ❌)+/g, '');
+        htmlContent = htmlContent.replace(/ - \d+%/g, ''); // Remove old percentages from tabs
+        htmlContent = htmlContent.replace(/<p><strong>Accuracy:<\/strong>.*?<\/p>\n?/g, ''); // Remove old accuracy lines
+        // Remove ALL results headers from the top (we show results in each tab instead)
+        htmlContent = htmlContent.replace(/<div style="background-color: #2d5a3d[^>]*>[\s\S]*?📊 Week \d+ Final Results[\s\S]*?<\/div>/g, '');
 
         // Add checkmarks and X marks
         weekScorers.forEach(scorer => {
@@ -89,20 +93,66 @@ async function main() {
           });
         }
 
-        // Update tab titles with accuracy percentages (simplified calculation)
-        const totalPredictions = (htmlContent.match(/<td class="player-name">/g) || []).length;
-        const correctPredictions = (htmlContent.match(/✅/g) || []).length;
-        const accuracy = totalPredictions > 0 ? ((correctPredictions / totalPredictions) * 100).toFixed(1) : '0.0';
+        // Calculate accuracy per tab
+        const calculateTabAccuracy = (tabId: string): { correct: number, total: number, percentage: string } => {
+          // Find the start of this tab
+          const tabStart = htmlContent.indexOf(`<div id="${tabId}"`);
+          if (tabStart === -1) return { correct: 0, total: 0, percentage: '0' };
 
-        // Update the header with results summary
-        const resultsHeader = `
-        <div style="background-color: #2d5a3d; padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #90EE90;">
-          <h3 style="color: #90EE90; margin: 0 0 10px 0;">📊 Week ${week} Final Results</h3>
-          <p style="margin: 5px 0; color: white;"><strong>Overall Accuracy:</strong> ${correctPredictions}/${totalPredictions} correct (${accuracy}%)</p>
-          <p style="margin: 5px 0; color: white;"><strong>Players who scored TDs:</strong> ${weekScorers.map(s => s.player).join(', ')}</p>
-        </div>`;
+          // Find the end (next tab or script section)
+          let tabEnd = htmlContent.indexOf('<div id="', tabStart + 10);
+          if (tabEnd === -1) {
+            tabEnd = htmlContent.indexOf('<script>', tabStart);
+          }
+          if (tabEnd === -1) tabEnd = htmlContent.length;
 
-        htmlContent = htmlContent.replace(/(<h1[^>]*>.*?<\/h1>)/i, '$1' + resultsHeader);
+          const tabContent = htmlContent.substring(tabStart, tabEnd);
+          const total = (tabContent.match(/<td class="player-name">/g) || []).length;
+          const correct = (tabContent.match(/✅/g) || []).length;
+          const percentage = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+          return { correct, total, percentage: percentage.toString() };
+        };
+
+        // Calculate accuracy for each tab
+        const currentStats = calculateTabAccuracy('traditional');
+        const mlStats = calculateTabAccuracy('ml');
+        const volumeStats = calculateTabAccuracy('volume');
+        const combinedStats = calculateTabAccuracy('combined');
+        const enhancedStats = calculateTabAccuracy('enhanced');
+
+        // Add accuracy to each tab's model-info section
+        // Traditional tab
+        htmlContent = htmlContent.replace(
+          /(<div id="traditional"[^>]*>[\s\S]*?<div class="model-info">[\s\S]*?<p><strong>Total Predictions:<\/strong> \d+<\/p>)/,
+          `$1\n            <p><strong>Accuracy:</strong> ${currentStats.correct}/${currentStats.total} correct (${currentStats.percentage}%)</p>`
+        );
+
+        // ML tab
+        htmlContent = htmlContent.replace(
+          /(<div id="ml"[^>]*>[\s\S]*?<div class="model-info">[\s\S]*?<p><strong>Total Predictions:<\/strong> \d+<\/p>)/,
+          `$1\n            <p><strong>Accuracy:</strong> ${mlStats.correct}/${mlStats.total} correct (${mlStats.percentage}%)</p>`
+        );
+
+        // Volume tab
+        htmlContent = htmlContent.replace(
+          /(<div id="volume"[^>]*>[\s\S]*?<div class="model-info">[\s\S]*?<p><strong>Total Predictions:<\/strong> \d+<\/p>)/,
+          `$1\n            <p><strong>Accuracy:</strong> ${volumeStats.correct}/${volumeStats.total} correct (${volumeStats.percentage}%)</p>`
+        );
+
+        // Combined tab
+        htmlContent = htmlContent.replace(
+          /(<div id="combined"[^>]*>[\s\S]*?<div class="model-info">[\s\S]*?<p><strong>Total Predictions:<\/strong> \d+<\/p>)/,
+          `$1\n            <p><strong>Accuracy:</strong> ${combinedStats.correct}/${combinedStats.total} correct (${combinedStats.percentage}%)</p>`
+        );
+
+        // Enhanced tab
+        htmlContent = htmlContent.replace(
+          /(<div id="enhanced"[^>]*>[\s\S]*?<div class="model-info">[\s\S]*?<p><strong>Total Predictions:<\/strong> \d+<\/p>)/,
+          `$1\n            <p><strong>Accuracy:</strong> ${enhancedStats.correct}/${enhancedStats.total} correct (${enhancedStats.percentage}%)</p>`
+        );
+
+        // Don't add a global results header - results are shown in each tab instead
 
         fs.writeFileSync(allPredictionsFile, htmlContent);
         console.log(`✅ Updated ${allPredictionsFile} with results`);

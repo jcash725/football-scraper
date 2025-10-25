@@ -1,0 +1,296 @@
+{
+  "week": 8,
+  "generatedAt": "2025-10-25T16:32:43.577Z",
+  "predictions": [
+    {
+      "playerName": "Christian McCaffrey",
+      "team": "San Francisco 49ers",
+      "position": "RB",
+      "opponent": "Houston",
+      "targets": 8,
+      "carries": 20,
+      "redZoneOpportunities": 9,
+      "volumeScore": 10,
+      "defenseScore": 2,
+      "historicalScore": 5,
+      "finalScore": 7,
+      "prediction": "Solid Play",
+      "injuryStatus": "Active (McCaffrey rushed 24 times for 129 yards and two touchdowns while bringing in seven of eight targets for 72 yards in Sunday's 20-10 win over the Falcons.)",
+      "reasoning": [
+        "High volume (28 touches)",
+        "High red zone usage (9 opportunities)",
+        "Dual-threat usage",
+        "Solid rush defense (1.2 TDs/game allowed)",
+        "Hot recent form (4 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Josh Jacobs",
+      "team": "Green Bay Packers",
+      "position": "RB",
+      "opponent": "Pittsburgh",
+      "targets": 4,
+      "carries": 18,
+      "redZoneOpportunities": 5,
+      "volumeScore": 10,
+      "defenseScore": 1,
+      "historicalScore": 5,
+      "finalScore": 7,
+      "prediction": "Solid Play",
+      "injuryStatus": "Active (Calf)",
+      "reasoning": [
+        "High volume (22 touches)",
+        "High red zone usage (5 opportunities)",
+        "Dual-threat usage",
+        "Strong rush defense (0.7 TDs/game allowed)",
+        "Hot recent form (4 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Saquon Barkley",
+      "team": "Philadelphia Eagles",
+      "position": "RB",
+      "opponent": "New York",
+      "targets": 5,
+      "carries": 19,
+      "redZoneOpportunities": 4,
+      "volumeScore": 10,
+      "defenseScore": 3.25,
+      "historicalScore": 1,
+      "finalScore": 7,
+      "prediction": "Solid Play",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "High volume (24 touches)",
+        "High red zone usage (4 opportunities)",
+        "Dual-threat usage",
+        "Average rush defense (1.3 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "James Cook",
+      "team": "Buffalo Bills",
+      "position": "RB",
+      "opponent": "Carolina",
+      "targets": 5,
+      "carries": 15,
+      "redZoneOpportunities": 5,
+      "volumeScore": 10,
+      "defenseScore": 1,
+      "historicalScore": 0,
+      "finalScore": 6,
+      "prediction": "Solid Play",
+      "injuryStatus": "Active (Cook rushed 17 times for 87 yards and didn't draw a target in the Bills' 24-14 loss to the Falcons on Monday night.)",
+      "reasoning": [
+        "High volume (20 touches)",
+        "High red zone usage (5 opportunities)",
+        "Dual-threat usage",
+        "Strong rush defense (0.7 TDs/game allowed)"
+      ]
+    },
+    {
+      "playerName": "Derrick Henry",
+      "team": "Baltimore Ravens",
+      "position": "RB",
+      "opponent": "Chicago",
+      "targets": 2,
+      "carries": 22,
+      "redZoneOpportunities": 0,
+      "volumeScore": 7,
+      "defenseScore": 1,
+      "historicalScore": 1,
+      "finalScore": 5,
+      "prediction": "Speculative Play",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "High volume (24 touches)",
+        "Dual-threat usage",
+        "Strong rush defense (0.7 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Chris Olave",
+      "team": "New Orleans Saints",
+      "position": "WR",
+      "opponent": "Tampa Bay",
+      "targets": 10,
+      "carries": 0,
+      "redZoneOpportunities": 2,
+      "volumeScore": 4,
+      "defenseScore": 5,
+      "historicalScore": 3,
+      "finalScore": 4,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Active (Ankle)",
+      "reasoning": [
+        "Moderate volume (10 touches)",
+        "Good red zone usage (2 opportunities)",
+        "Weak pass defense (1.6 TDs/game allowed)",
+        "Good recent form (2 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Rome Odunze",
+      "team": "Chicago Bears",
+      "position": "WR",
+      "opponent": "Baltimore",
+      "targets": 7,
+      "carries": 0,
+      "redZoneOpportunities": 2,
+      "volumeScore": 2,
+      "defenseScore": 7.75,
+      "historicalScore": 0,
+      "finalScore": 4,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (7 touches)",
+        "Good red zone usage (2 opportunities)",
+        "Very Weak pass defense (2.3 TDs/game allowed)"
+      ]
+    },
+    {
+      "playerName": "De'Von Achane",
+      "team": "Miami Dolphins",
+      "position": "RB",
+      "opponent": "Atlanta",
+      "targets": 6,
+      "carries": 12,
+      "redZoneOpportunities": 0,
+      "volumeScore": 5,
+      "defenseScore": 1,
+      "historicalScore": 5,
+      "finalScore": 4,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Good volume (18 touches)",
+        "Dual-threat usage",
+        "Strong rush defense (0.7 TDs/game allowed)",
+        "Hot recent form (3 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Keenan Allen",
+      "team": "Los Angeles Chargers",
+      "position": "WR",
+      "opponent": "Minnesota",
+      "targets": 7,
+      "carries": 0,
+      "redZoneOpportunities": 2,
+      "volumeScore": 2,
+      "defenseScore": 5,
+      "historicalScore": 1,
+      "finalScore": 3,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Active (Allen brought in four of five targets for 44 yards in the Chargers' 37-10 win over the Vikings on Thursday night.)",
+      "reasoning": [
+        "Low volume (7 touches)",
+        "Good red zone usage (2 opportunities)",
+        "Weak pass defense (1.6 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Travis Kelce",
+      "team": "Kansas City Chiefs",
+      "position": "TE",
+      "opponent": "Washington",
+      "targets": 6,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 5.25,
+      "historicalScore": 1,
+      "finalScore": 2,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Active (Kelce recorded three receptions on three targets for 54 yards in Sunday's 31-0 win over the Raiders.)",
+      "reasoning": [
+        "Low volume (6 touches)",
+        "Weak pass defense (1.7 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Jake Ferguson",
+      "team": "Dallas Cowboys",
+      "position": "TE",
+      "opponent": "Denver",
+      "targets": 8,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 1.5,
+      "historicalScore": 5,
+      "finalScore": 1,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (8 touches)",
+        "Solid pass defense (1.0 TDs/game allowed)",
+        "Hot recent form (5 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Ja'Marr Chase",
+      "team": "Cincinnati Bengals",
+      "position": "WR",
+      "opponent": "New York",
+      "targets": 7,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 3.25,
+      "historicalScore": 5,
+      "finalScore": 1,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Active (Chase secured 16 of 23 targets for 161 yards and a touchdown in the Bengals' 33-31 win over the Steelers on Thursday night.)",
+      "reasoning": [
+        "Low volume (7 touches)",
+        "Average pass defense (1.3 TDs/game allowed)",
+        "Hot recent form (4 TDs in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "CeeDee Lamb",
+      "team": "Dallas Cowboys",
+      "position": "WR",
+      "opponent": "Denver",
+      "targets": 6,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 1.5,
+      "historicalScore": 1,
+      "finalScore": 1,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (6 touches)",
+        "Solid pass defense (1.0 TDs/game allowed)",
+        "Some recent production (1 TD in last 3 games)"
+      ]
+    },
+    {
+      "playerName": "Malik Nabers",
+      "team": "New York Giants",
+      "position": "WR",
+      "opponent": "Philadelphia",
+      "targets": 8,
+      "carries": 0,
+      "redZoneOpportunities": 0,
+      "volumeScore": 0,
+      "defenseScore": 1.5,
+      "historicalScore": 0,
+      "finalScore": 0,
+      "prediction": "Dart Throw",
+      "injuryStatus": "Healthy",
+      "reasoning": [
+        "Low volume (8 touches)",
+        "Solid pass defense (1.0 TDs/game allowed)"
+      ]
+    }
+  ]
+}
