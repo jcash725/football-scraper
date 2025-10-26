@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/stat/opponent-passing-touchdowns-per-game",
-  "scrapedAt": "2025-10-25T16:31:15.438Z",
+  "scrapedAt": "2025-10-26T08:13:51.870Z",
   "note": "Sorted by Rank (desc)",
   "columns": [
     "Rank",
@@ -144,6 +144,16 @@
       "Away": 2
     },
     {
+      "2024": 1.6,
+      "2025": 1.6,
+      "Rank": 14,
+      "Team": "Tampa Bay",
+      "Last 3": 1.7,
+      "Last 1": 1,
+      "Home": 1.3,
+      "Away": 1.8
+    },
+    {
       "2024": 1.5,
       "2025": 1.6,
       "Rank": 14,
@@ -195,16 +205,6 @@
     },
     {
       "2024": 1.6,
-      "2025": 1.6,
-      "Rank": 14,
-      "Team": "Tampa Bay",
-      "Last 3": 1.7,
-      "Last 1": 1,
-      "Home": 1.3,
-      "Away": 1.8
-    },
-    {
-      "2024": 1.6,
       "2025": 1.4,
       "Rank": 12,
       "Team": "New England",
@@ -244,6 +244,16 @@
       "Away": 1
     },
     {
+      "2024": 1.6,
+      "2025": 1.2,
+      "Rank": 8,
+      "Team": "Buffalo",
+      "Last 3": 0.7,
+      "Last 1": 1,
+      "Home": 1.3,
+      "Away": 1
+    },
+    {
       "2024": 2,
       "2025": 1.2,
       "Rank": 8,
@@ -254,11 +264,11 @@
       "Away": 0
     },
     {
-      "2024": 1.6,
-      "2025": 1.2,
-      "Rank": 8,
-      "Team": "Buffalo",
-      "Last 3": 0.7,
+      "2024": 1.2,
+      "2025": 1.1,
+      "Rank": 6,
+      "Team": "Arizona",
+      "Last 3": 1,
       "Last 1": 1,
       "Home": 1.3,
       "Away": 1
@@ -274,13 +284,23 @@
       "Away": 1.3
     },
     {
-      "2024": 1.2,
-      "2025": 1.1,
-      "Rank": 6,
-      "Team": "Arizona",
+      "2024": 1.4,
+      "2025": 1,
+      "Rank": 2,
+      "Team": "Kansas City",
       "Last 3": 1,
-      "Last 1": 1,
-      "Home": 1.3,
+      "Last 1": 0,
+      "Home": 0.8,
+      "Away": 1.3
+    },
+    {
+      "2024": 1.3,
+      "2025": 1,
+      "Rank": 2,
+      "Team": "Denver",
+      "Last 3": 1.7,
+      "Last 1": 3,
+      "Home": 1,
       "Away": 1
     },
     {
@@ -300,26 +320,6 @@
       "Team": "Philadelphia",
       "Last 3": 0.7,
       "Last 1": 0,
-      "Home": 1,
-      "Away": 1
-    },
-    {
-      "2024": 1.4,
-      "2025": 1,
-      "Rank": 2,
-      "Team": "Kansas City",
-      "Last 3": 1,
-      "Last 1": 0,
-      "Home": 0.8,
-      "Away": 1.3
-    },
-    {
-      "2024": 1.3,
-      "2025": 1,
-      "Rank": 2,
-      "Team": "Denver",
-      "Last 3": 1.7,
-      "Last 1": 3,
       "Home": 1,
       "Away": 1
     },

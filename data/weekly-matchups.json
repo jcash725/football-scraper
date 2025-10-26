@@ -1,107 +1,91 @@
 {
-  "url": "ESPN API Week 8 2025",
-  "scrapedAt": "2025-10-25T16:31:18.289Z",
-  "note": "Found 13 matchups for Week 8 2025",
-  "week": 8,
-  "year": 2025,
+  "url": "https://www.teamrankings.com/nfl/schedules/season/",
+  "scrapedAt": "2025-10-26T08:13:52.430Z",
+  "note": "Found 13 matchups",
   "columns": [
     "away_team",
     "home_team",
     "date",
-    "time",
-    "gameId"
+    "time"
   ],
   "rows": [
     {
-      "away_team": "Minnesota Vikings",
-      "home_team": "Los Angeles Chargers",
-      "date": "Thu, Oct 23",
-      "time": "8:15 PM EDT",
-      "gameId": "401772942"
+      "away_team": "Minnesota",
+      "home_team": "LA Chargers",
+      "date": "Thu Oct 23",
+      "time": "5:15 PM"
     },
     {
-      "away_team": "Miami Dolphins",
-      "home_team": "Atlanta Falcons",
-      "date": "Sun, Oct 26",
-      "time": "1:00 PM EDT",
-      "gameId": "401772760"
+      "away_team": "San Francisco",
+      "home_team": "Houston",
+      "date": "Thu Oct 23",
+      "time": "1:00 PM"
     },
     {
-      "away_team": "New York Jets",
-      "home_team": "Cincinnati Bengals",
-      "date": "Sun, Oct 26",
-      "time": "1:00 PM EDT",
-      "gameId": "401772758"
+      "away_team": "Chicago",
+      "home_team": "Baltimore",
+      "date": "Thu Oct 23",
+      "time": "1:00 PM"
     },
     {
-      "away_team": "Cleveland Browns",
-      "home_team": "New England Patriots",
-      "date": "Sun, Oct 26",
-      "time": "1:00 PM EDT",
-      "gameId": "401772868"
+      "away_team": "Buffalo",
+      "home_team": "Carolina",
+      "date": "Thu Oct 23",
+      "time": "1:00 PM"
     },
     {
-      "away_team": "New York Giants",
-      "home_team": "Philadelphia Eagles",
-      "date": "Sun, Oct 26",
-      "time": "1:00 PM EDT",
-      "gameId": "401772867"
+      "away_team": "NY Giants",
+      "home_team": "Philadelphia",
+      "date": "Thu Oct 23",
+      "time": "1:00 PM"
     },
     {
-      "away_team": "Buffalo Bills",
-      "home_team": "Carolina Panthers",
-      "date": "Sun, Oct 26",
-      "time": "1:00 PM EDT",
-      "gameId": "401772865"
+      "away_team": "Cleveland",
+      "home_team": "New England",
+      "date": "Thu Oct 23",
+      "time": "1:00 PM"
     },
     {
-      "away_team": "Chicago Bears",
-      "home_team": "Baltimore Ravens",
-      "date": "Sun, Oct 26",
-      "time": "1:00 PM EDT",
-      "gameId": "401772759"
+      "away_team": "NY Jets",
+      "home_team": "Cincinnati",
+      "date": "Thu Oct 23",
+      "time": "1:00 PM"
     },
     {
-      "away_team": "San Francisco 49ers",
-      "home_team": "Houston Texans",
-      "date": "Sun, Oct 26",
-      "time": "1:00 PM EDT",
-      "gameId": "401772866"
+      "away_team": "Miami",
+      "home_team": "Atlanta",
+      "date": "Thu Oct 23",
+      "time": "1:00 PM"
     },
     {
-      "away_team": "Tampa Bay Buccaneers",
-      "home_team": "New Orleans Saints",
-      "date": "Sun, Oct 26",
-      "time": "4:05 PM EDT",
-      "gameId": "401772869"
+      "away_team": "Tampa Bay",
+      "home_team": "New Orleans",
+      "date": "Thu Oct 23",
+      "time": "4:05 PM"
     },
     {
-      "away_team": "Dallas Cowboys",
-      "home_team": "Denver Broncos",
-      "date": "Sun, Oct 26",
-      "time": "4:25 PM EDT",
-      "gameId": "401772762"
+      "away_team": "Dallas",
+      "home_team": "Denver",
+      "date": "Thu Oct 23",
+      "time": "4:25 PM"
     },
     {
-      "away_team": "Tennessee Titans",
-      "home_team": "Indianapolis Colts",
-      "date": "Sun, Oct 26",
-      "time": "4:25 PM EDT",
-      "gameId": "401772761"
+      "away_team": "Tennessee",
+      "home_team": "Indianapolis",
+      "date": "Thu Oct 23",
+      "time": "4:25 PM"
     },
     {
-      "away_team": "Green Bay Packers",
-      "home_team": "Pittsburgh Steelers",
-      "date": "Sun, Oct 26",
-      "time": "8:20 PM EDT",
-      "gameId": "401772925"
+      "away_team": "Green Bay",
+      "home_team": "Pittsburgh",
+      "date": "Thu Oct 23",
+      "time": "8:20 PM"
     },
     {
-      "away_team": "Washington Commanders",
-      "home_team": "Kansas City Chiefs",
-      "date": "Mon, Oct 27",
-      "time": "8:15 PM EDT",
-      "gameId": "401772817"
+      "away_team": "Washington",
+      "home_team": "Kansas City",
+      "date": "Thu Oct 23",
+      "time": "8:15 PM"
     }
   ]
 }
