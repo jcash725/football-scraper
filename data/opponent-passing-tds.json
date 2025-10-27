@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/stat/opponent-passing-touchdowns-per-game",
-  "scrapedAt": "2025-10-26T08:13:51.870Z",
+  "scrapedAt": "2025-10-27T08:16:51.110Z",
   "note": "Sorted by Rank (desc)",
   "columns": [
     "Rank",
@@ -14,49 +14,39 @@
   ],
   "rows": [
     {
-      "2024": 1,
+      "2024": 1.6,
       "2025": 2.5,
       "Rank": 32,
-      "Team": "Chicago",
-      "Last 3": 2.3,
-      "Last 1": 2,
-      "Home": 1.7,
-      "Away": 3.3
+      "Team": "Dallas",
+      "Last 3": 2.7,
+      "Last 1": 4,
+      "Home": 2.3,
+      "Away": 2.6
     },
     {
       "2024": 1.8,
       "2025": 2.4,
       "Rank": 31,
       "Team": "Cincinnati",
-      "Last 3": 3,
-      "Last 1": 4,
-      "Home": 3.7,
+      "Last 3": 2.3,
+      "Last 1": 2,
+      "Home": 3.3,
       "Away": 1.5
     },
     {
-      "2024": 1.5,
+      "2024": 1,
       "2025": 2.3,
       "Rank": 30,
-      "Team": "Baltimore",
-      "Last 3": 3,
-      "Last 1": 1,
-      "Home": 2,
-      "Away": 3
-    },
-    {
-      "2024": 1.6,
-      "2025": 2.3,
-      "Rank": 29,
-      "Team": "Dallas",
+      "Team": "Chicago",
       "Last 3": 2,
       "Last 1": 1,
-      "Home": 2.3,
-      "Away": 2.3
+      "Home": 1.7,
+      "Away": 2.8
     },
     {
       "2024": 1.7,
       "2025": 2.1,
-      "Rank": 28,
+      "Rank": 29,
       "Team": "Jacksonville",
       "Last 3": 2.7,
       "Last 1": 5,
@@ -64,19 +54,19 @@
       "Away": 3.3
     },
     {
-      "2024": 1.1,
+      "2024": 1.5,
       "2025": 2,
-      "Rank": 26,
-      "Team": "New Orleans",
+      "Rank": 27,
+      "Team": "Baltimore",
       "Last 3": 1.7,
       "Last 1": 0,
-      "Home": 2.5,
-      "Away": 1.3
+      "Home": 1.6,
+      "Away": 3
     },
     {
       "2024": 1.1,
       "2025": 2,
-      "Rank": 26,
+      "Rank": 27,
       "Team": "Detroit",
       "Last 3": 2.3,
       "Last 1": 1,
@@ -84,29 +74,69 @@
       "Away": 2.8
     },
     {
-      "2024": 1.6,
+      "2024": 1.1,
       "2025": 1.9,
-      "Rank": 24,
-      "Team": "Indianapolis",
+      "Rank": 25,
+      "Team": "NY Jets",
+      "Last 3": 1.3,
+      "Last 1": 2,
+      "Home": 2.3,
+      "Away": 1.5
+    },
+    {
+      "2024": 1.5,
+      "2025": 1.9,
+      "Rank": 25,
+      "Team": "Cleveland",
       "Last 3": 1.7,
       "Last 1": 3,
-      "Home": 1.5,
+      "Home": 0.7,
+      "Away": 2.6
+    },
+    {
+      "2024": 1.4,
+      "2025": 1.9,
+      "Rank": 24,
+      "Team": "Pittsburgh",
+      "Last 3": 2,
+      "Last 1": 3,
+      "Home": 1.7,
+      "Away": 2
+    },
+    {
+      "2024": 1.6,
+      "2025": 1.8,
+      "Rank": 22,
+      "Team": "Indianapolis",
+      "Last 3": 2,
+      "Last 1": 1,
+      "Home": 1.4,
       "Away": 2.3
     },
     {
       "2024": 1.1,
-      "2025": 1.9,
-      "Rank": 24,
-      "Team": "NY Jets",
-      "Last 3": 2,
-      "Last 1": 1,
-      "Home": 2.3,
+      "2025": 1.8,
+      "Rank": 22,
+      "Team": "New Orleans",
+      "Last 3": 1,
+      "Last 1": 0,
+      "Home": 2,
       "Away": 1.3
+    },
+    {
+      "2024": 1.4,
+      "2025": 1.7,
+      "Rank": 20,
+      "Team": "Green Bay",
+      "Last 3": 2,
+      "Last 1": 2,
+      "Home": 1.7,
+      "Away": 1.8
     },
     {
       "2024": 1.5,
       "2025": 1.7,
-      "Rank": 22,
+      "Rank": 20,
       "Team": "Washington",
       "Last 3": 1.7,
       "Last 1": 3,
@@ -114,44 +144,24 @@
       "Away": 2
     },
     {
-      "2024": 1.5,
-      "2025": 1.7,
-      "Rank": 22,
-      "Team": "Cleveland",
-      "Last 3": 1.3,
-      "Last 1": 0,
-      "Home": 0.7,
-      "Away": 2.5
-    },
-    {
       "2024": 1.4,
-      "2025": 1.7,
-      "Rank": 20,
-      "Team": "Green Bay",
+      "2025": 1.6,
+      "Rank": 18,
+      "Team": "NY Giants",
       "Last 3": 2.3,
-      "Last 1": 2,
-      "Home": 1.7,
-      "Away": 1.7
-    },
-    {
-      "2024": 1.4,
-      "2025": 1.7,
-      "Rank": 20,
-      "Team": "Pittsburgh",
-      "Last 3": 1.7,
-      "Last 1": 3,
+      "Last 1": 4,
       "Home": 1,
       "Away": 2
     },
     {
-      "2024": 1.6,
+      "2024": 1.5,
       "2025": 1.6,
-      "Rank": 14,
-      "Team": "Tampa Bay",
+      "Rank": 18,
+      "Team": "San Francisco",
       "Last 3": 1.7,
-      "Last 1": 1,
-      "Home": 1.3,
-      "Away": 1.8
+      "Last 1": 2,
+      "Home": 1,
+      "Away": 2
     },
     {
       "2024": 1.5,
@@ -174,6 +184,16 @@
       "Away": 1.8
     },
     {
+      "2024": 2,
+      "2025": 1.6,
+      "Rank": 14,
+      "Team": "Atlanta",
+      "Last 3": 2,
+      "Last 1": 4,
+      "Home": 2.8,
+      "Away": 0
+    },
+    {
       "2024": 1.7,
       "2025": 1.6,
       "Rank": 14,
@@ -184,99 +204,59 @@
       "Away": 1.8
     },
     {
-      "2024": 1.5,
-      "2025": 1.6,
-      "Rank": 14,
-      "Team": "San Francisco",
+      "2024": 1.6,
+      "2025": 1.5,
+      "Rank": 12,
+      "Team": "Tennessee",
       "Last 3": 2,
-      "Last 1": 1,
-      "Home": 1,
-      "Away": 2
+      "Last 1": 3,
+      "Home": 1.7,
+      "Away": 1.4
+    },
+    {
+      "2024": 1.6,
+      "2025": 1.5,
+      "Rank": 12,
+      "Team": "New England",
+      "Last 3": 1,
+      "Last 1": 2,
+      "Home": 1.8,
+      "Away": 1.3
     },
     {
       "2024": 1.3,
-      "2025": 1.6,
-      "Rank": 14,
+      "2025": 1.4,
+      "Rank": 9,
       "Team": "Miami",
-      "Last 3": 1.3,
+      "Last 3": 0.7,
       "Last 1": 0,
       "Home": 1.7,
-      "Away": 1.5
+      "Away": 1.2
     },
     {
       "2024": 1.6,
       "2025": 1.4,
-      "Rank": 12,
-      "Team": "New England",
-      "Last 3": 1,
-      "Last 1": 1,
-      "Home": 1.7,
-      "Away": 1.3
+      "Rank": 9,
+      "Team": "Tampa Bay",
+      "Last 3": 0.3,
+      "Last 1": 0,
+      "Home": 1.3,
+      "Away": 1.4
     },
     {
       "2024": 2.1,
       "2025": 1.4,
-      "Rank": 12,
+      "Rank": 9,
       "Team": "Carolina",
-      "Last 3": 2,
-      "Last 1": 0,
-      "Home": 2,
-      "Away": 1
-    },
-    {
-      "2024": 1.4,
-      "2025": 1.3,
-      "Rank": 10,
-      "Team": "NY Giants",
       "Last 3": 1.3,
-      "Last 1": 2,
-      "Home": 1,
-      "Away": 1.5
-    },
-    {
-      "2024": 1.6,
-      "2025": 1.3,
-      "Rank": 10,
-      "Team": "Tennessee",
-      "Last 3": 1,
-      "Last 1": 2,
-      "Home": 1.7,
-      "Away": 1
-    },
-    {
-      "2024": 1.6,
-      "2025": 1.2,
-      "Rank": 8,
-      "Team": "Buffalo",
-      "Last 3": 0.7,
       "Last 1": 1,
-      "Home": 1.3,
-      "Away": 1
-    },
-    {
-      "2024": 2,
-      "2025": 1.2,
-      "Rank": 8,
-      "Team": "Atlanta",
-      "Last 3": 1.3,
-      "Last 1": 0,
-      "Home": 2.3,
-      "Away": 0
-    },
-    {
-      "2024": 1.2,
-      "2025": 1.1,
-      "Rank": 6,
-      "Team": "Arizona",
-      "Last 3": 1,
-      "Last 1": 1,
-      "Home": 1.3,
+      "Home": 1.8,
       "Away": 1
     },
     {
       "2024": 1.6,
       "2025": 1.1,
-      "Rank": 6,
+      "Rank": 7,
       "Team": "LA Rams",
       "Last 3": 1,
       "Last 1": 1,
@@ -284,23 +264,13 @@
       "Away": 1.3
     },
     {
-      "2024": 1.4,
-      "2025": 1,
-      "Rank": 2,
-      "Team": "Kansas City",
+      "2024": 1.2,
+      "2025": 1.1,
+      "Rank": 7,
+      "Team": "Arizona",
       "Last 3": 1,
-      "Last 1": 0,
-      "Home": 0.8,
-      "Away": 1.3
-    },
-    {
-      "2024": 1.3,
-      "2025": 1,
-      "Rank": 2,
-      "Team": "Denver",
-      "Last 3": 1.7,
-      "Last 1": 3,
-      "Home": 1,
+      "Last 1": 1,
+      "Home": 1.3,
       "Away": 1
     },
     {
@@ -319,18 +289,48 @@
       "Rank": 2,
       "Team": "Philadelphia",
       "Last 3": 0.7,
-      "Last 1": 0,
+      "Last 1": 1,
       "Home": 1,
       "Away": 1
     },
     {
-      "2024": 1.7,
-      "2025": 0.7,
-      "Rank": 1,
-      "Team": "Houston",
-      "Last 3": 0.3,
+      "2024": 1.4,
+      "2025": 1,
+      "Rank": 2,
+      "Team": "Kansas City",
+      "Last 3": 1,
+      "Last 1": 0,
+      "Home": 0.8,
+      "Away": 1.3
+    },
+    {
+      "2024": 1.3,
+      "2025": 1,
+      "Rank": 2,
+      "Team": "Denver",
+      "Last 3": 1.3,
       "Last 1": 1,
       "Home": 1,
+      "Away": 1
+    },
+    {
+      "2024": 1.6,
+      "2025": 1,
+      "Rank": 2,
+      "Team": "Buffalo",
+      "Last 3": 0.3,
+      "Last 1": 0,
+      "Home": 1.3,
+      "Away": 0.7
+    },
+    {
+      "2024": 1.7,
+      "2025": 0.9,
+      "Rank": 1,
+      "Team": "Houston",
+      "Last 3": 1,
+      "Last 1": 2,
+      "Home": 1.3,
       "Away": 0.5
     }
   ]
