@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-10-29T08:17:00.279Z",
+  "lastUpdated": "2025-10-30T08:15:57.588Z",
   "weeks": [
     {
       "week": 1,
@@ -2982,7 +2982,7 @@
     {
       "week": 9,
       "year": 2025,
-      "generatedAt": "2025-10-29T08:17:00.278Z",
+      "generatedAt": "2025-10-30T08:15:57.588Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -3180,6 +3180,19 @@
         },
         {
           "rank": 5,
+          "player": "Terry McLaurin",
+          "team": "Washington Commanders",
+          "opponent": "Seattle Seahawks",
+          "probability": 0.5373381294964028,
+          "confidence": 0.9,
+          "keyFactors": [
+            "Strong 2024 production (16 TDs)",
+            "Weak opponent defense (2.8 TDs/game allowed)",
+            "Hot recent form (5 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 6,
           "player": "Derrick Henry",
           "team": "Baltimore Ravens",
           "opponent": "Miami Dolphins",
@@ -3192,7 +3205,7 @@
           ]
         },
         {
-          "rank": 6,
+          "rank": 7,
           "player": "De'Von Achane",
           "team": "Miami Dolphins",
           "opponent": "Baltimore Ravens",
@@ -3205,7 +3218,7 @@
           ]
         },
         {
-          "rank": 7,
+          "rank": 8,
           "player": "Sam LaPorta",
           "team": "Detroit Lions",
           "opponent": "Minnesota Vikings",
@@ -3218,7 +3231,7 @@
           ]
         },
         {
-          "rank": 8,
+          "rank": 9,
           "player": "Pat Freiermuth",
           "team": "Pittsburgh Steelers",
           "opponent": "Indianapolis Colts",
@@ -3231,7 +3244,7 @@
           ]
         },
         {
-          "rank": 9,
+          "rank": 10,
           "player": "Zach Ertz",
           "team": "Washington Commanders",
           "opponent": "Seattle Seahawks",
@@ -3244,7 +3257,7 @@
           ]
         },
         {
-          "rank": 10,
+          "rank": 11,
           "player": "David Montgomery",
           "team": "Detroit Lions",
           "opponent": "Minnesota Vikings",
@@ -3257,7 +3270,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 12,
           "player": "Tee Higgins",
           "team": "Cincinnati Bengals",
           "opponent": "Chicago Bears",
@@ -3270,7 +3283,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 13,
           "player": "Drake London",
           "team": "Atlanta Falcons",
           "opponent": "New England",
@@ -3283,7 +3296,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 14,
           "player": "Mark Andrews",
           "team": "Baltimore Ravens",
           "opponent": "Miami Dolphins",
@@ -3296,7 +3309,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 15,
           "player": "Chase Brown",
           "team": "Cincinnati Bengals",
           "opponent": "Chicago Bears",
@@ -3309,7 +3322,7 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 16,
           "player": "Courtland Sutton",
           "team": "Denver Broncos",
           "opponent": "Houston Texans",
@@ -3322,7 +3335,7 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 17,
           "player": "James Cook",
           "team": "Buffalo Bills",
           "opponent": "Kansas City",
@@ -3335,7 +3348,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 18,
           "player": "Josh Allen",
           "team": "Buffalo Bills",
           "opponent": "Kansas City",
@@ -3348,7 +3361,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 19,
           "player": "Rhamondre Stevenson",
           "team": "New England Patriots",
           "opponent": "Atlanta Falcons",
@@ -3361,7 +3374,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 20,
           "player": "Malik Nabers",
           "team": "New York Giants",
           "opponent": "San Francisco",
@@ -3371,19 +3384,6 @@
             "Moderate 2024 production (7 TDs)",
             "Weak opponent defense (3.1 TDs/game allowed)",
             "Hot recent form (7 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "Chuba Hubbard",
-          "team": "Carolina Panthers",
-          "opponent": "Green Bay",
-          "probability": 0.4406666666666667,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (7 TDs)",
-            "Weak opponent defense (3.2 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
           ]
         }
       ]
