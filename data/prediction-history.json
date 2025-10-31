@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-10-30T08:15:57.588Z",
+  "lastUpdated": "2025-10-31T08:15:40.832Z",
   "weeks": [
     {
       "week": 1,
@@ -2982,7 +2982,7 @@
     {
       "week": 9,
       "year": 2025,
-      "generatedAt": "2025-10-30T08:15:57.588Z",
+      "generatedAt": "2025-10-31T08:15:40.832Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -3180,19 +3180,6 @@
         },
         {
           "rank": 5,
-          "player": "Terry McLaurin",
-          "team": "Washington Commanders",
-          "opponent": "Seattle Seahawks",
-          "probability": 0.5373381294964028,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Strong 2024 production (16 TDs)",
-            "Weak opponent defense (2.8 TDs/game allowed)",
-            "Hot recent form (5 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 6,
           "player": "Derrick Henry",
           "team": "Baltimore Ravens",
           "opponent": "Miami Dolphins",
@@ -3205,7 +3192,7 @@
           ]
         },
         {
-          "rank": 7,
+          "rank": 6,
           "player": "De'Von Achane",
           "team": "Miami Dolphins",
           "opponent": "Baltimore Ravens",
@@ -3218,7 +3205,7 @@
           ]
         },
         {
-          "rank": 8,
+          "rank": 7,
           "player": "Sam LaPorta",
           "team": "Detroit Lions",
           "opponent": "Minnesota Vikings",
@@ -3231,7 +3218,7 @@
           ]
         },
         {
-          "rank": 9,
+          "rank": 8,
           "player": "Pat Freiermuth",
           "team": "Pittsburgh Steelers",
           "opponent": "Indianapolis Colts",
@@ -3244,7 +3231,7 @@
           ]
         },
         {
-          "rank": 10,
+          "rank": 9,
           "player": "Zach Ertz",
           "team": "Washington Commanders",
           "opponent": "Seattle Seahawks",
@@ -3257,7 +3244,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 10,
           "player": "David Montgomery",
           "team": "Detroit Lions",
           "opponent": "Minnesota Vikings",
@@ -3270,7 +3257,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 11,
           "player": "Tee Higgins",
           "team": "Cincinnati Bengals",
           "opponent": "Chicago Bears",
@@ -3283,7 +3270,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 12,
           "player": "Drake London",
           "team": "Atlanta Falcons",
           "opponent": "New England",
@@ -3296,7 +3283,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 13,
           "player": "Mark Andrews",
           "team": "Baltimore Ravens",
           "opponent": "Miami Dolphins",
@@ -3306,6 +3293,19 @@
             "Strong 2024 production (11 TDs)",
             "Weak opponent defense (3.1 TDs/game allowed)",
             "Hot recent form (5 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 14,
+          "player": "Rashod Bateman",
+          "team": "Baltimore Ravens",
+          "opponent": "Miami Dolphins",
+          "probability": 0.4653333333333334,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (11 TDs)",
+            "Weak opponent defense (3.1 TDs/game allowed)",
+            "Hot recent form (6 TDs in recent games)"
           ]
         },
         {
