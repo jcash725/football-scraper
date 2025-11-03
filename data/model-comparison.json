@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-29T08:17:00.280Z",
+  "generatedAt": "2025-11-03T08:17:55.709Z",
   "currentModel": [
     {
       "Player": "Xavier Hutchinson",
@@ -122,25 +122,13 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Jaxson Dart",
-      "Team": "New York Giants",
-      "Opponent": "San Francisco",
-      "Player TDs YTD": 3,
-      "Player 2025 TDs": 3,
+      "Player": "Caleb Williams",
+      "Team": "Chicago Bears",
+      "Opponent": "Cincinnati",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
       "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Tory Horton",
-      "Team": "Seattle Seahawks",
-      "Opponent": "Washington",
-      "Player TDs YTD": 3,
-      "Player 2025 TDs": 3,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
@@ -218,18 +206,6 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "RJ Harvey",
-      "Team": "Denver Broncos",
-      "Opponent": "Houston",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
       "Player": "Tez Johnson",
       "Team": "Tampa Bay Buccaneers",
       "Opponent": "TBD",
@@ -240,6 +216,30 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "Hollywood Brown",
+      "Team": "Kansas City Chiefs",
+      "Opponent": "Buffalo",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.933333333333334,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Kansas City Chiefs vs Buffalo - opponent allows 1.6 pass TDs/game",
+      "Rookie Boost": "+3.3 (1.3 TD/game)"
+    },
+    {
+      "Player": "Jake Ferguson",
+      "Team": "Dallas Cowboys",
+      "Opponent": "Arizona",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.7,
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Dallas Cowboys vs Arizona - opponent allows 1.2 pass TDs/game",
+      "Rookie Boost": "+3.5 (1.5 TD/game)"
     }
   ],
   "mlModel": [
@@ -313,11 +313,30 @@
         "Hot recent form (7 TDs in recent games)"
       ],
       "mlRank": 4,
-      "playerTDsYTD": 2,
+      "playerTDsYTD": 3,
       "actual2024TDs": 13,
       "actual2024Games": 9,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 13 TDs in 9 games"
+    },
+    {
+      "player": "Justin Jefferson",
+      "team": "Minnesota Vikings",
+      "opponent": "Detroit Lions",
+      "position": "WR",
+      "mlProbability": 0.5440047961630696,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Strong 2024 production (10 TDs)",
+        "Previous success vs opponent (1 TDs)",
+        "Weak opponent defense (2.8 TDs/game allowed)"
+      ],
+      "mlRank": 5,
+      "playerTDsYTD": 2,
+      "actual2024TDs": 10,
+      "actual2024Games": 8,
+      "vsOpponentTDs": 1,
+      "basis": "2024 Data: 10 TDs in 8 games"
     },
     {
       "player": "Derrick Henry",
@@ -331,7 +350,7 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 5,
+      "mlRank": 6,
       "playerTDsYTD": 6,
       "actual2024TDs": 14,
       "actual2024Games": 10,
@@ -350,7 +369,7 @@
         "Weak opponent defense (3.2 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 6,
+      "mlRank": 7,
       "playerTDsYTD": 3,
       "actual2024TDs": 8,
       "actual2024Games": 6,
@@ -369,8 +388,8 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 7,
-      "playerTDsYTD": 2,
+      "mlRank": 8,
+      "playerTDsYTD": 3,
       "actual2024TDs": 8,
       "actual2024Games": 7,
       "vsOpponentTDs": 0,
@@ -388,8 +407,8 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.6 TDs/game allowed)"
       ],
-      "mlRank": 8,
-      "playerTDsYTD": 2,
+      "mlRank": 9,
+      "playerTDsYTD": 3,
       "actual2024TDs": 7,
       "actual2024Games": 7,
       "vsOpponentTDs": 1,
@@ -407,7 +426,7 @@
         "Weak opponent defense (2.8 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 9,
+      "mlRank": 10,
       "playerTDsYTD": 4,
       "actual2024TDs": 8,
       "actual2024Games": 7,
@@ -426,8 +445,8 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 10,
-      "playerTDsYTD": 4,
+      "mlRank": 11,
+      "playerTDsYTD": 5,
       "actual2024TDs": 7,
       "actual2024Games": 6,
       "vsOpponentTDs": 0,
@@ -445,8 +464,8 @@
         "Weak opponent defense (2.5 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 11,
-      "playerTDsYTD": 4,
+      "mlRank": 12,
+      "playerTDsYTD": 6,
       "actual2024TDs": 10,
       "actual2024Games": 7,
       "vsOpponentTDs": 0,
@@ -464,8 +483,8 @@
         "Weak opponent defense (3.7 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 12,
-      "playerTDsYTD": 2,
+      "mlRank": 13,
+      "playerTDsYTD": 5,
       "actual2024TDs": 9,
       "actual2024Games": 8,
       "vsOpponentTDs": 0,
@@ -483,7 +502,26 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 13,
+      "mlRank": 14,
+      "playerTDsYTD": 4,
+      "actual2024TDs": 11,
+      "actual2024Games": 10,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 11 TDs in 10 games"
+    },
+    {
+      "player": "Rashod Bateman",
+      "team": "Baltimore Ravens",
+      "opponent": "Miami Dolphins",
+      "position": "WR",
+      "mlProbability": 0.4653333333333334,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (11 TDs)",
+        "Weak opponent defense (3.1 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 15,
       "playerTDsYTD": 2,
       "actual2024TDs": 11,
       "actual2024Games": 10,
@@ -502,7 +540,7 @@
         "Weak opponent defense (2.5 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 14,
+      "mlRank": 16,
       "playerTDsYTD": 2,
       "actual2024TDs": 9,
       "actual2024Games": 8,
@@ -521,8 +559,8 @@
         "Weak opponent defense (4.4 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 15,
-      "playerTDsYTD": 3,
+      "mlRank": 17,
+      "playerTDsYTD": 4,
       "actual2024TDs": 8,
       "actual2024Games": 7,
       "vsOpponentTDs": 0,
@@ -540,7 +578,7 @@
         "Weak opponent defense (3.5 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 16,
+      "mlRank": 18,
       "playerTDsYTD": 7,
       "actual2024TDs": 10,
       "actual2024Games": 7,
@@ -559,8 +597,8 @@
         "Weak opponent defense (3.5 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 17,
-      "playerTDsYTD": 5,
+      "mlRank": 19,
+      "playerTDsYTD": 7,
       "actual2024TDs": 7,
       "actual2024Games": 4,
       "vsOpponentTDs": 0,
@@ -578,50 +616,12 @@
         "Weak opponent defense (3.5 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 18,
+      "mlRank": 20,
       "playerTDsYTD": 3,
       "actual2024TDs": 7,
       "actual2024Games": 5,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 7 TDs in 5 games"
-    },
-    {
-      "player": "Malik Nabers",
-      "team": "New York Giants",
-      "opponent": "San Francisco",
-      "position": "WR",
-      "mlProbability": 0.4506666666666667,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Moderate 2024 production (7 TDs)",
-        "Weak opponent defense (3.1 TDs/game allowed)",
-        "Hot recent form (7 TDs in recent games)"
-      ],
-      "mlRank": 19,
-      "playerTDsYTD": 2,
-      "actual2024TDs": 7,
-      "actual2024Games": 5,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 7 TDs in 5 games"
-    },
-    {
-      "player": "Chuba Hubbard",
-      "team": "Carolina Panthers",
-      "opponent": "Green Bay",
-      "position": "RB",
-      "mlProbability": 0.4406666666666667,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Moderate 2024 production (7 TDs)",
-        "Weak opponent defense (3.2 TDs/game allowed)",
-        "Hot recent form (6 TDs in recent games)"
-      ],
-      "mlRank": 20,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 7,
-      "actual2024Games": 6,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 7 TDs in 6 games"
     }
   ],
   "agreement": 0,
@@ -637,22 +637,23 @@
       "Christian McCaffrey",
       "Emeka Egbuka",
       "Tyler Warren",
-      "Jaxson Dart",
-      "Tory Horton",
+      "Caleb Williams",
       "Tyquan Thornton",
       "Luke McCaffrey",
       "Hunter Long",
       "Isaac TeSlaa",
       "Elic Ayomanor",
       "Mitchell Evans",
-      "RJ Harvey",
-      "Tez Johnson"
+      "Tez Johnson",
+      "Hollywood Brown",
+      "Jake Ferguson"
     ],
     "onlyInML": [
       "Jahmyr Gibbs",
       "Amon-Ra St. Brown",
       "Ja'Marr Chase",
       "Kyren Williams",
+      "Justin Jefferson",
       "Derrick Henry",
       "De'Von Achane",
       "Sam LaPorta",
@@ -662,13 +663,12 @@
       "Tee Higgins",
       "Drake London",
       "Mark Andrews",
+      "Rashod Bateman",
       "Chase Brown",
       "Courtland Sutton",
       "James Cook",
       "Josh Allen",
-      "Rhamondre Stevenson",
-      "Malik Nabers",
-      "Chuba Hubbard"
+      "Rhamondre Stevenson"
     ],
     "rankingDifferences": []
   }
