@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2025-11-05T08:16:43.364Z",
+  "scrapedAt": "2025-11-06T08:16:27.989Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -264,15 +264,15 @@
     },
     {
       "Rank": 35,
-      "Player": "Sean Tucker",
-      "Team": "Tampa Bay Buccaneers",
+      "Player": "Chris Rodriguez Jr.",
+      "Team": "Washington Commanders",
       "Pos": "RB",
       "Value": 2
     },
     {
       "Rank": 35,
-      "Player": "Chris Rodriguez Jr.",
-      "Team": "Washington Commanders",
+      "Player": "Sean Tucker",
+      "Team": "Tampa Bay Buccaneers",
       "Pos": "RB",
       "Value": 2
     },
@@ -439,13 +439,6 @@
     },
     {
       "Rank": 52,
-      "Player": "Brian Thomas Jr.",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 52,
       "Player": "Bryce Young",
       "Team": "Carolina Panthers",
       "Pos": "QB",
@@ -456,6 +449,13 @@
       "Player": "Antonio Gibson",
       "Team": "New England Patriots",
       "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 52,
+      "Player": "Brian Thomas Jr.",
+      "Team": "Jacksonville Jaguars",
+      "Pos": "WR",
       "Value": 1
     },
     {
@@ -481,15 +481,15 @@
     },
     {
       "Rank": 52,
-      "Player": "Miles Sanders",
-      "Team": "Dallas Cowboys",
+      "Player": "Woody Marks",
+      "Team": "Houston Texans",
       "Pos": "RB",
       "Value": 1
     },
     {
       "Rank": 52,
-      "Player": "Woody Marks",
-      "Team": "Houston Texans",
+      "Player": "Miles Sanders",
+      "Team": "Dallas Cowboys",
       "Pos": "RB",
       "Value": 1
     },
@@ -614,6 +614,13 @@
     },
     {
       "Rank": 52,
+      "Player": "Elijah Moore",
+      "Team": "Buffalo Bills",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 52,
       "Player": "Raheim Sanders",
       "Team": "Cleveland Browns",
       "Pos": "RB",
@@ -635,13 +642,6 @@
     },
     {
       "Rank": 52,
-      "Player": "Elijah Moore",
-      "Team": "Buffalo Bills",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 52,
       "Player": "Rashee Rice",
       "Team": "Kansas City Chiefs",
       "Pos": "WR",
@@ -656,13 +656,6 @@
     },
     {
       "Rank": 52,
-      "Player": "Tyrone Tracy Jr.",
-      "Team": "New York Giants",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 52,
       "Player": "Kimani Vidal",
       "Team": "Los Angeles Chargers",
       "Pos": "RB",
@@ -670,8 +663,8 @@
     },
     {
       "Rank": 52,
-      "Player": "Michael Carter",
-      "Team": "Arizona Cardinals",
+      "Player": "Tyrone Tracy Jr.",
+      "Team": "New York Giants",
       "Pos": "RB",
       "Value": 1
     },
@@ -684,6 +677,13 @@
     },
     {
       "Rank": 52,
+      "Player": "Michael Carter",
+      "Team": "Arizona Cardinals",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 52,
       "Player": "Braelon Allen",
       "Team": "New York Jets",
       "Pos": "RB",
@@ -691,23 +691,23 @@
     },
     {
       "Rank": 98,
-      "Player": "Colston Loveland",
+      "Player": "Theo Benedet",
       "Team": "Chicago Bears",
-      "Pos": "TE",
+      "Pos": "OL",
       "Value": 0
     },
     {
       "Rank": 98,
-      "Player": "Jihad Ward",
-      "Team": "Tennessee Titans",
-      "Pos": "LB",
+      "Player": "Malachi Moore",
+      "Team": "New York Jets",
+      "Pos": "DB",
       "Value": 0
     },
     {
       "Rank": 98,
-      "Player": "Upton Stout",
-      "Team": 49,
-      "Pos": "CB",
+      "Player": "Mitchell Fraboni",
+      "Team": "Denver Broncos",
+      "Pos": "LS",
       "Value": 0
     }
   ]
