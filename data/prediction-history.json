@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-11-06T08:17:04.905Z",
+  "lastUpdated": "2025-11-07T08:17:12.206Z",
   "weeks": [
     {
       "week": 1,
@@ -3391,7 +3391,7 @@
     {
       "week": 10,
       "year": 2025,
-      "generatedAt": "2025-11-06T08:17:04.905Z",
+      "generatedAt": "2025-11-07T08:17:12.205Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -3693,6 +3693,19 @@
         },
         {
           "rank": 13,
+          "player": "Jordan Addison",
+          "team": "Minnesota Vikings",
+          "opponent": "Baltimore Ravens",
+          "probability": 0.5066666666666666,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (10 TDs)",
+            "Weak opponent defense (3.2 TDs/game allowed)",
+            "Hot recent form (7 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 14,
           "player": "Jalen Hurts",
           "team": "Philadelphia Eagles",
           "opponent": "Green Bay",
@@ -3705,7 +3718,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 15,
           "player": "Quentin Johnston",
           "team": "Los Angeles Chargers",
           "opponent": "Pittsburgh Steelers",
@@ -3715,19 +3728,6 @@
             "Strong 2024 production (8 TDs)",
             "Previous success vs opponent (1 TDs)",
             "Weak opponent defense (3.6 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 15,
-          "player": "DeVonta Smith",
-          "team": "Philadelphia Eagles",
-          "opponent": "Green Bay",
-          "probability": 0.47800000000000004,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (9 TDs)",
-            "Weak opponent defense (3.2 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
           ]
         },
         {
