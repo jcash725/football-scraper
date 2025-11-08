@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/stat/opponent-passing-touchdowns-per-game",
-  "scrapedAt": "2025-11-07T08:16:35.549Z",
+  "scrapedAt": "2025-11-08T08:13:39.251Z",
   "note": "Sorted by Rank (desc)",
   "columns": [
     "Rank",
@@ -124,16 +124,6 @@
       "Away": 2
     },
     {
-      "2024": 1.6,
-      "2025": 1.7,
-      "Rank": 17,
-      "Team": "New England",
-      "Last 3": 2,
-      "Last 1": 3,
-      "Home": 2,
-      "Away": 1.3
-    },
-    {
       "2024": 1.4,
       "2025": 1.7,
       "Rank": 17,
@@ -172,6 +162,16 @@
       "Last 1": 4,
       "Home": 2.3,
       "Away": 1.2
+    },
+    {
+      "2024": 1.6,
+      "2025": 1.7,
+      "Rank": 17,
+      "Team": "New England",
+      "Last 3": 2,
+      "Last 1": 3,
+      "Home": 2,
+      "Away": 1.3
     },
     {
       "2024": 1.4,
@@ -214,16 +214,6 @@
       "Away": 1.8
     },
     {
-      "2024": 1.6,
-      "2025": 1.4,
-      "Rank": 11,
-      "Team": "Tampa Bay",
-      "Last 3": 0.3,
-      "Last 1": 0,
-      "Home": 1.3,
-      "Away": 1.4
-    },
-    {
       "2024": 1.5,
       "2025": 1.4,
       "Rank": 11,
@@ -232,6 +222,16 @@
       "Last 1": 0,
       "Home": 1.5,
       "Away": 1.3
+    },
+    {
+      "2024": 1.6,
+      "2025": 1.4,
+      "Rank": 11,
+      "Team": "Tampa Bay",
+      "Last 3": 0.3,
+      "Last 1": 0,
+      "Home": 1.3,
+      "Away": 1.4
     },
     {
       "2024": 1.7,
@@ -254,6 +254,16 @@
       "Away": 0.8
     },
     {
+      "2024": 1.6,
+      "2025": 1.1,
+      "Rank": 7,
+      "Team": "LA Rams",
+      "Last 3": 0.7,
+      "Last 1": 1,
+      "Home": 1,
+      "Away": 1.3
+    },
+    {
       "2024": 1.2,
       "2025": 1.1,
       "Rank": 7,
@@ -264,14 +274,14 @@
       "Away": 1
     },
     {
-      "2024": 1.6,
-      "2025": 1.1,
-      "Rank": 7,
-      "Team": "LA Rams",
+      "2024": 1.3,
+      "2025": 1,
+      "Rank": 4,
+      "Team": "Philadelphia",
       "Last 3": 0.7,
       "Last 1": 1,
       "Home": 1,
-      "Away": 1.3
+      "Away": 1
     },
     {
       "2024": 1.7,
@@ -292,16 +302,6 @@
       "Last 1": 1,
       "Home": 0.8,
       "Away": 1.3
-    },
-    {
-      "2024": 1.3,
-      "2025": 1,
-      "Rank": 4,
-      "Team": "Philadelphia",
-      "Last 3": 0.7,
-      "Last 1": 1,
-      "Home": 1,
-      "Away": 1
     },
     {
       "2024": 1.4,

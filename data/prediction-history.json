@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-11-07T08:17:12.206Z",
+  "lastUpdated": "2025-11-08T08:14:14.598Z",
   "weeks": [
     {
       "week": 1,
@@ -3391,7 +3391,7 @@
     {
       "week": 10,
       "year": 2025,
-      "generatedAt": "2025-11-07T08:17:12.205Z",
+      "generatedAt": "2025-11-08T08:14:14.598Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -3732,6 +3732,19 @@
         },
         {
           "rank": 16,
+          "player": "DeVonta Smith",
+          "team": "Philadelphia Eagles",
+          "opponent": "Green Bay",
+          "probability": 0.47800000000000004,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (9 TDs)",
+            "Weak opponent defense (3.2 TDs/game allowed)",
+            "Hot recent form (6 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 17,
           "player": "Bo Nix",
           "team": "Denver Broncos",
           "opponent": "Las Vegas",
@@ -3744,7 +3757,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 18,
           "player": "Alvin Kamara",
           "team": "New Orleans Saints",
           "opponent": "Carolina Panthers",
@@ -3757,7 +3770,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 19,
           "player": "Ladd McConkey",
           "team": "Los Angeles Chargers",
           "opponent": "Pittsburgh Steelers",
@@ -3770,7 +3783,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 20,
           "player": "Amon-Ra St. Brown",
           "team": "Detroit Lions",
           "opponent": "Washington Commanders",
@@ -3780,19 +3793,6 @@
             "Strong 2024 production (11 TDs)",
             "Weak opponent defense (4.0 TDs/game allowed)",
             "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "Mark Andrews",
-          "team": "Baltimore Ravens",
-          "opponent": "Minnesota Vikings",
-          "probability": 0.4653333333333334,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (11 TDs)",
-            "Weak opponent defense (3.1 TDs/game allowed)",
-            "Hot recent form (5 TDs in recent games)"
           ]
         }
       ]
