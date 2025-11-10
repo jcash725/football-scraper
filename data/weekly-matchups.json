@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/schedules/season/",
-  "scrapedAt": "2025-11-04T08:16:33.256Z",
+  "scrapedAt": "2025-11-10T08:17:47.202Z",
   "note": "Found 14 matchups",
   "columns": [
     "away_team",
@@ -46,12 +46,6 @@
       "time": "1:00 PM"
     },
     {
-      "away_team": "Jacksonville",
-      "home_team": "Houston",
-      "date": "Thu Nov  6",
-      "time": "1:00 PM"
-    },
-    {
       "away_team": "New Orleans",
       "home_team": "Carolina",
       "date": "Thu Nov  6",
@@ -62,6 +56,12 @@
       "home_team": "Chicago",
       "date": "Thu Nov  6",
       "time": "1:00 PM"
+    },
+    {
+      "away_team": "Jacksonville",
+      "home_team": "Houston",
+      "date": "Thu Nov  6",
+      "time": "1:03 PM"
     },
     {
       "away_team": "Arizona",

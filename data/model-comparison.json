@@ -1,22 +1,10 @@
 {
-  "generatedAt": "2025-11-09T08:14:02.828Z",
+  "generatedAt": "2025-11-10T08:18:24.354Z",
   "currentModel": [
     {
       "Player": "Xavier Hutchinson",
       "Team": "Houston Texans",
       "Opponent": "Jacksonville",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 6,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 2.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
-    },
-    {
-      "Player": "Tetairoa McMillan",
-      "Team": "Carolina Panthers",
-      "Opponent": "New Orleans",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 6,
@@ -206,40 +194,52 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "RJ Harvey",
-      "Team": "Denver Broncos",
-      "Opponent": "Las Vegas",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Tez Johnson",
-      "Team": "Tampa Bay Buccaneers",
-      "Opponent": "New England",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
       "Player": "Emeka Egbuka",
       "Team": "Tampa Bay Buccaneers",
       "Opponent": "New England",
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 4.85,
-      "Player TDs YTD": 5,
+      "Player TDs YTD": 6,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Tampa Bay Buccaneers vs New England - opponent allows 1.6 pass TDs/game",
       "Rookie Boost": "+3.3 (1.3 TD/game)"
+    },
+    {
+      "Player": "Christian McCaffrey",
+      "Team": 49,
+      "Opponent": "LA Rams",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.800000000000001,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "49 vs LA Rams - opponent allows 1.6 pass TDs/game",
+      "Rookie Boost": "+3.2 (1.2 TD/game)"
+    },
+    {
+      "Player": "RJ Harvey",
+      "Team": "Denver Broncos",
+      "Opponent": "Las Vegas",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.7,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Denver Broncos vs Las Vegas - opponent allows 1.7 pass TDs/game",
+      "Rookie Boost": "+3.0 (1.0 TD/game)"
+    },
+    {
+      "Player": "Jake Tonges",
+      "Team": 49,
+      "Opponent": "LA Rams",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.6,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "49 vs LA Rams - opponent allows 1.6 pass TDs/game",
+      "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ],
   "mlModel": [
@@ -256,7 +256,7 @@
         "Weak opponent defense (4.1 TDs/game allowed)"
       ],
       "mlRank": 1,
-      "playerTDsYTD": 3,
+      "playerTDsYTD": 5,
       "actual2024TDs": 8,
       "actual2024Games": 6,
       "vsOpponentTDs": 3,
@@ -275,7 +275,7 @@
         "Weak opponent defense (3.1 TDs/game allowed)"
       ],
       "mlRank": 2,
-      "playerTDsYTD": 3,
+      "playerTDsYTD": 5,
       "actual2024TDs": 13,
       "actual2024Games": 9,
       "vsOpponentTDs": 3,
@@ -377,25 +377,6 @@
       "basis": "2024 Data: 8 TDs in 7 games"
     },
     {
-      "player": "Justin Jefferson",
-      "team": "Minnesota Vikings",
-      "opponent": "Baltimore Ravens",
-      "position": "WR",
-      "mlProbability": 0.5566666666666666,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (10 TDs)",
-        "Weak opponent defense (3.2 TDs/game allowed)",
-        "Hot recent form (7 TDs in recent games)"
-      ],
-      "mlRank": 8,
-      "playerTDsYTD": 2,
-      "actual2024TDs": 10,
-      "actual2024Games": 8,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 10 TDs in 8 games"
-    },
-    {
       "player": "Jaxon Smith-Njigba",
       "team": "Seattle Seahawks",
       "opponent": "Arizona Cardinals",
@@ -407,8 +388,8 @@
         "Previous success vs opponent (2 TDs)",
         "Weak opponent defense (3.0 TDs/game allowed)"
       ],
-      "mlRank": 9,
-      "playerTDsYTD": 4,
+      "mlRank": 8,
+      "playerTDsYTD": 5,
       "actual2024TDs": 6,
       "actual2024Games": 5,
       "vsOpponentTDs": 2,
@@ -426,8 +407,8 @@
         "Weak opponent defense (3.6 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 10,
-      "playerTDsYTD": 5,
+      "mlRank": 9,
+      "playerTDsYTD": 6,
       "actual2024TDs": 9,
       "actual2024Games": 8,
       "vsOpponentTDs": 0,
@@ -445,7 +426,7 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 11,
+      "mlRank": 10,
       "playerTDsYTD": 6,
       "actual2024TDs": 14,
       "actual2024Games": 10,
@@ -464,12 +445,31 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (4.0 TDs/game allowed)"
       ],
-      "mlRank": 12,
+      "mlRank": 11,
       "playerTDsYTD": 3,
       "actual2024TDs": 8,
       "actual2024Games": 7,
       "vsOpponentTDs": 1,
       "basis": "2024 Data: 8 TDs in 7 games"
+    },
+    {
+      "player": "Jordan Addison",
+      "team": "Minnesota Vikings",
+      "opponent": "Baltimore Ravens",
+      "position": "WR",
+      "mlProbability": 0.5066666666666666,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (10 TDs)",
+        "Weak opponent defense (3.2 TDs/game allowed)",
+        "Hot recent form (7 TDs in recent games)"
+      ],
+      "mlRank": 12,
+      "playerTDsYTD": 2,
+      "actual2024TDs": 10,
+      "actual2024Games": 7,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 10 TDs in 7 games"
     },
     {
       "player": "Jalen Hurts",
@@ -510,25 +510,6 @@
       "basis": "2024 Data: 8 TDs in 7 games"
     },
     {
-      "player": "DeVonta Smith",
-      "team": "Philadelphia Eagles",
-      "opponent": "Green Bay",
-      "position": "WR",
-      "mlProbability": 0.47800000000000004,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (9 TDs)",
-        "Weak opponent defense (3.2 TDs/game allowed)",
-        "Hot recent form (6 TDs in recent games)"
-      ],
-      "mlRank": 15,
-      "playerTDsYTD": 2,
-      "actual2024TDs": 9,
-      "actual2024Games": 8,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 9 TDs in 8 games"
-    },
-    {
       "player": "Bo Nix",
       "team": "Denver Broncos",
       "opponent": "Las Vegas",
@@ -540,7 +521,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.8 TDs/game allowed)"
       ],
-      "mlRank": 16,
+      "mlRank": 15,
       "playerTDsYTD": 3,
       "actual2024TDs": 5,
       "actual2024Games": 5,
@@ -559,7 +540,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (4.9 TDs/game allowed)"
       ],
-      "mlRank": 17,
+      "mlRank": 16,
       "playerTDsYTD": 1,
       "actual2024TDs": 8,
       "actual2024Games": 5,
@@ -578,8 +559,8 @@
         "Weak opponent defense (3.6 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 18,
-      "playerTDsYTD": 3,
+      "mlRank": 17,
+      "playerTDsYTD": 4,
       "actual2024TDs": 8,
       "actual2024Games": 6,
       "vsOpponentTDs": 0,
@@ -597,8 +578,8 @@
         "Weak opponent defense (4.0 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 19,
-      "playerTDsYTD": 7,
+      "mlRank": 18,
+      "playerTDsYTD": 8,
       "actual2024TDs": 11,
       "actual2024Games": 10,
       "vsOpponentTDs": 0,
@@ -616,8 +597,27 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
+      "mlRank": 19,
+      "playerTDsYTD": 5,
+      "actual2024TDs": 11,
+      "actual2024Games": 10,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 11 TDs in 10 games"
+    },
+    {
+      "player": "Rashod Bateman",
+      "team": "Baltimore Ravens",
+      "opponent": "Minnesota Vikings",
+      "position": "WR",
+      "mlProbability": 0.4653333333333334,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (11 TDs)",
+        "Weak opponent defense (3.1 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
       "mlRank": 20,
-      "playerTDsYTD": 4,
+      "playerTDsYTD": 2,
       "actual2024TDs": 11,
       "actual2024Games": 10,
       "vsOpponentTDs": 0,
@@ -628,7 +628,6 @@
   "differences": {
     "onlyInCurrent": [
       "Xavier Hutchinson",
-      "Tetairoa McMillan",
       "Ashton Jeanty",
       "Kenneth Gainwell",
       "Woody Marks",
@@ -644,9 +643,10 @@
       "Isaac TeSlaa",
       "Elic Ayomanor",
       "Mitchell Evans",
+      "Emeka Egbuka",
+      "Christian McCaffrey",
       "RJ Harvey",
-      "Tez Johnson",
-      "Emeka Egbuka"
+      "Jake Tonges"
     ],
     "onlyInML": [
       "De'Von Achane",
@@ -656,19 +656,19 @@
       "Saquon Barkley",
       "James Cook",
       "Zach Ertz",
-      "Justin Jefferson",
       "Jaxon Smith-Njigba",
       "Drake London",
       "Derrick Henry",
       "Sam LaPorta",
+      "Jordan Addison",
       "Jalen Hurts",
       "Quentin Johnston",
-      "DeVonta Smith",
       "Bo Nix",
       "Alvin Kamara",
       "Ladd McConkey",
       "Amon-Ra St. Brown",
-      "Mark Andrews"
+      "Mark Andrews",
+      "Rashod Bateman"
     ],
     "rankingDifferences": []
   }
