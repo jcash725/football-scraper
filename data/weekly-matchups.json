@@ -1,7 +1,7 @@
 {
   "url": "https://www.teamrankings.com/nfl/schedules/season/",
-  "scrapedAt": "2025-11-10T08:17:47.202Z",
-  "note": "Found 14 matchups",
+  "scrapedAt": "2025-11-11T08:16:24.244Z",
+  "note": "Found 15 matchups",
   "columns": [
     "away_team",
     "home_team",
@@ -10,87 +10,93 @@
   ],
   "rows": [
     {
-      "away_team": "Las Vegas",
-      "home_team": "Denver",
-      "date": "Thu Nov  6",
+      "away_team": "NY Jets",
+      "home_team": "New England",
+      "date": "Thu Nov 13",
       "time": "8:15 PM"
     },
     {
-      "away_team": "Indianapolis",
-      "home_team": "Atlanta",
-      "date": "Thu Nov  6",
+      "away_team": "Miami",
+      "home_team": "Washington",
+      "date": "Thu Nov 13",
       "time": "9:30 AM"
     },
     {
-      "away_team": "New England",
-      "home_team": "Tampa Bay",
-      "date": "Thu Nov  6",
+      "away_team": "LA Chargers",
+      "home_team": "Jacksonville",
+      "date": "Thu Nov 13",
       "time": "1:00 PM"
     },
     {
-      "away_team": "Cleveland",
-      "home_team": "NY Jets",
-      "date": "Thu Nov  6",
+      "away_team": "Cincinnati",
+      "home_team": "Pittsburgh",
+      "date": "Thu Nov 13",
       "time": "1:00 PM"
     },
     {
-      "away_team": "Baltimore",
+      "away_team": "Green Bay",
+      "home_team": "NY Giants",
+      "date": "Thu Nov 13",
+      "time": "1:00 PM"
+    },
+    {
+      "away_team": "Chicago",
       "home_team": "Minnesota",
-      "date": "Thu Nov  6",
+      "date": "Thu Nov 13",
       "time": "1:00 PM"
     },
     {
-      "away_team": "Buffalo",
-      "home_team": "Miami",
-      "date": "Thu Nov  6",
+      "away_team": "Houston",
+      "home_team": "Tennessee",
+      "date": "Thu Nov 13",
       "time": "1:00 PM"
     },
     {
-      "away_team": "New Orleans",
-      "home_team": "Carolina",
-      "date": "Thu Nov  6",
+      "away_team": "Tampa Bay",
+      "home_team": "Buffalo",
+      "date": "Thu Nov 13",
       "time": "1:00 PM"
     },
     {
-      "away_team": "NY Giants",
-      "home_team": "Chicago",
-      "date": "Thu Nov  6",
+      "away_team": "Carolina",
+      "home_team": "Atlanta",
+      "date": "Thu Nov 13",
       "time": "1:00 PM"
     },
     {
-      "away_team": "Jacksonville",
-      "home_team": "Houston",
-      "date": "Thu Nov  6",
-      "time": "1:03 PM"
-    },
-    {
-      "away_team": "Arizona",
-      "home_team": "Seattle",
-      "date": "Thu Nov  6",
+      "away_team": "Seattle",
+      "home_team": "LA Rams",
+      "date": "Thu Nov 13",
       "time": "4:05 PM"
     },
     {
-      "away_team": "LA Rams",
-      "home_team": "San Francisco",
-      "date": "Thu Nov  6",
+      "away_team": "San Francisco",
+      "home_team": "Arizona",
+      "date": "Thu Nov 13",
+      "time": "4:05 PM"
+    },
+    {
+      "away_team": "Baltimore",
+      "home_team": "Cleveland",
+      "date": "Thu Nov 13",
+      "time": "4:25 PM"
+    },
+    {
+      "away_team": "Kansas City",
+      "home_team": "Denver",
+      "date": "Thu Nov 13",
       "time": "4:25 PM"
     },
     {
       "away_team": "Detroit",
-      "home_team": "Washington",
-      "date": "Thu Nov  6",
-      "time": "4:25 PM"
-    },
-    {
-      "away_team": "Pittsburgh",
-      "home_team": "LA Chargers",
-      "date": "Thu Nov  6",
+      "home_team": "Philadelphia",
+      "date": "Thu Nov 13",
       "time": "8:20 PM"
     },
     {
-      "away_team": "Philadelphia",
-      "home_team": "Green Bay",
-      "date": "Thu Nov  6",
+      "away_team": "Dallas",
+      "home_team": "Las Vegas",
+      "date": "Thu Nov 13",
       "time": "8:15 PM"
     }
   ]

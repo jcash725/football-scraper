@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/receiving-touchdowns",
-  "scrapedAt": "2025-11-10T08:17:47.099Z",
+  "scrapedAt": "2025-11-11T08:16:24.121Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -33,6 +33,13 @@
     },
     {
       "Rank": 4,
+      "Player": "Drake London",
+      "Team": "Atlanta Falcons",
+      "Pos": "WR",
+      "Value": 6
+    },
+    {
+      "Rank": 4,
       "Player": "George Pickens",
       "Team": "Dallas Cowboys",
       "Pos": "WR",
@@ -42,6 +49,20 @@
       "Rank": 4,
       "Player": "Tucker Kraft",
       "Team": "Green Bay Packers",
+      "Pos": "TE",
+      "Value": 6
+    },
+    {
+      "Rank": 4,
+      "Player": "Michael Pittman Jr.",
+      "Team": "Indianapolis Colts",
+      "Pos": "WR",
+      "Value": 6
+    },
+    {
+      "Rank": 4,
+      "Player": "Jake Ferguson",
+      "Team": "Dallas Cowboys",
       "Pos": "TE",
       "Value": 6
     },
@@ -61,16 +82,16 @@
     },
     {
       "Rank": 4,
-      "Player": "Tee Higgins",
-      "Team": "Cincinnati Bengals",
-      "Pos": "WR",
+      "Player": "Trey McBride",
+      "Team": "Arizona Cardinals",
+      "Pos": "TE",
       "Value": 6
     },
     {
       "Rank": 4,
-      "Player": "Trey McBride",
-      "Team": "Arizona Cardinals",
-      "Pos": "TE",
+      "Player": "Tee Higgins",
+      "Team": "Cincinnati Bengals",
+      "Pos": "WR",
       "Value": 6
     },
     {
@@ -81,30 +102,23 @@
       "Value": 6
     },
     {
-      "Rank": 4,
-      "Player": "Michael Pittman Jr.",
-      "Team": "Indianapolis Colts",
+      "Rank": 14,
+      "Player": "DK Metcalf",
+      "Team": "Pittsburgh Steelers",
       "Pos": "WR",
-      "Value": 6
-    },
-    {
-      "Rank": 4,
-      "Player": "Drake London",
-      "Team": "Atlanta Falcons",
-      "Pos": "WR",
-      "Value": 6
-    },
-    {
-      "Rank": 4,
-      "Player": "Jake Ferguson",
-      "Team": "Dallas Cowboys",
-      "Pos": "TE",
-      "Value": 6
+      "Value": 5
     },
     {
       "Rank": 14,
       "Player": "Tory Horton",
       "Team": "Seattle Seahawks",
+      "Pos": "WR",
+      "Value": 5
+    },
+    {
+      "Rank": 14,
+      "Player": "Jaylen Waddle",
+      "Team": "Miami Dolphins",
       "Pos": "WR",
       "Value": 5
     },
@@ -117,23 +131,9 @@
     },
     {
       "Rank": 14,
-      "Player": "Ja'Marr Chase",
-      "Team": "Cincinnati Bengals",
-      "Pos": "WR",
-      "Value": 5
-    },
-    {
-      "Rank": 14,
       "Player": "Troy Franklin",
       "Team": "Denver Broncos",
       "Pos": "WR",
-      "Value": 5
-    },
-    {
-      "Rank": 14,
-      "Player": "Mark Andrews",
-      "Team": "Baltimore Ravens",
-      "Pos": "TE",
       "Value": 5
     },
     {
@@ -145,29 +145,36 @@
     },
     {
       "Rank": 14,
+      "Player": "Mark Andrews",
+      "Team": "Baltimore Ravens",
+      "Pos": "TE",
+      "Value": 5
+    },
+    {
+      "Rank": 14,
+      "Player": "Ja'Marr Chase",
+      "Team": "Cincinnati Bengals",
+      "Pos": "WR",
+      "Value": 5
+    },
+    {
+      "Rank": 14,
       "Player": "Jaxon Smith-Njigba",
       "Team": "Seattle Seahawks",
       "Pos": "WR",
       "Value": 5
     },
     {
-      "Rank": 14,
-      "Player": "DK Metcalf",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "WR",
-      "Value": 5
-    },
-    {
-      "Rank": 14,
-      "Player": "Jaylen Waddle",
-      "Team": "Miami Dolphins",
-      "Pos": "WR",
-      "Value": 5
+      "Rank": 23,
+      "Player": "Zach Ertz",
+      "Team": "Washington Commanders",
+      "Pos": "TE",
+      "Value": 4
     },
     {
       "Rank": 23,
-      "Player": "Deebo Samuel",
-      "Team": "Washington Commanders",
+      "Player": "Courtland Sutton",
+      "Team": "Denver Broncos",
       "Pos": "WR",
       "Value": 4
     },
@@ -176,83 +183,6 @@
       "Player": "Dalton Kincaid",
       "Team": "Buffalo Bills",
       "Pos": "TE",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
-      "Player": "Christian McCaffrey",
-      "Team": 49,
-      "Pos": "RB",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
-      "Player": "Tre Tucker",
-      "Team": "Las Vegas Raiders",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
-      "Player": "De'Von Achane",
-      "Team": "Miami Dolphins",
-      "Pos": "RB",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
-      "Player": "Puka Nacua",
-      "Team": "Los Angeles Rams",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
-      "Player": "Marvin Harrison Jr.",
-      "Team": "Arizona Cardinals",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
-      "Player": "Hollywood Brown",
-      "Team": "Kansas City Chiefs",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
-      "Player": "Darren Waller",
-      "Team": "Miami Dolphins",
-      "Pos": "TE",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
-      "Player": "Romeo Doubs",
-      "Team": "Green Bay Packers",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
-      "Player": "RJ Harvey",
-      "Team": "Denver Broncos",
-      "Pos": "RB",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
-      "Player": "Hunter Henry",
-      "Team": "New England Patriots",
-      "Pos": "TE",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
-      "Player": "Keenan Allen",
-      "Team": "Los Angeles Chargers",
-      "Pos": "WR",
       "Value": 4
     },
     {
@@ -271,8 +201,85 @@
     },
     {
       "Rank": 23,
-      "Player": "Courtland Sutton",
+      "Player": "Tre Tucker",
+      "Team": "Las Vegas Raiders",
+      "Pos": "WR",
+      "Value": 4
+    },
+    {
+      "Rank": 23,
+      "Player": "De'Von Achane",
+      "Team": "Miami Dolphins",
+      "Pos": "RB",
+      "Value": 4
+    },
+    {
+      "Rank": 23,
+      "Player": "Deebo Samuel",
+      "Team": "Washington Commanders",
+      "Pos": "WR",
+      "Value": 4
+    },
+    {
+      "Rank": 23,
+      "Player": "Puka Nacua",
+      "Team": "Los Angeles Rams",
+      "Pos": "WR",
+      "Value": 4
+    },
+    {
+      "Rank": 23,
+      "Player": "Marvin Harrison Jr.",
+      "Team": "Arizona Cardinals",
+      "Pos": "WR",
+      "Value": 4
+    },
+    {
+      "Rank": 23,
+      "Player": "Christian McCaffrey",
+      "Team": 49,
+      "Pos": "RB",
+      "Value": 4
+    },
+    {
+      "Rank": 23,
+      "Player": "RJ Harvey",
       "Team": "Denver Broncos",
+      "Pos": "RB",
+      "Value": 4
+    },
+    {
+      "Rank": 23,
+      "Player": "Romeo Doubs",
+      "Team": "Green Bay Packers",
+      "Pos": "WR",
+      "Value": 4
+    },
+    {
+      "Rank": 23,
+      "Player": "Darren Waller",
+      "Team": "Miami Dolphins",
+      "Pos": "TE",
+      "Value": 4
+    },
+    {
+      "Rank": 23,
+      "Player": "Hollywood Brown",
+      "Team": "Kansas City Chiefs",
+      "Pos": "WR",
+      "Value": 4
+    },
+    {
+      "Rank": 23,
+      "Player": "Hunter Henry",
+      "Team": "New England Patriots",
+      "Pos": "TE",
+      "Value": 4
+    },
+    {
+      "Rank": 23,
+      "Player": "Keenan Allen",
+      "Team": "Los Angeles Chargers",
       "Pos": "WR",
       "Value": 4
     },
@@ -280,13 +287,6 @@
       "Rank": 23,
       "Player": "AJ Barner",
       "Team": "Seattle Seahawks",
-      "Pos": "TE",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
-      "Player": "Zach Ertz",
-      "Team": "Washington Commanders",
       "Pos": "TE",
       "Value": 4
     },
@@ -306,30 +306,44 @@
     },
     {
       "Rank": 23,
-      "Player": "Tez Johnson",
-      "Team": "Tampa Bay Buccaneers",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
       "Player": "Ladd McConkey",
       "Team": "Los Angeles Chargers",
       "Pos": "WR",
       "Value": 4
     },
     {
+      "Rank": 23,
+      "Player": "Tez Johnson",
+      "Team": "Tampa Bay Buccaneers",
+      "Pos": "WR",
+      "Value": 4
+    },
+    {
       "Rank": 45,
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
+      "Player": "Xavier Hutchinson",
+      "Team": "Houston Texans",
+      "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 45,
+      "Player": "George Kittle",
+      "Team": 49,
       "Pos": "TE",
       "Value": 3
     },
     {
       "Rank": 45,
-      "Player": "Tyquan Thornton",
-      "Team": "Kansas City Chiefs",
+      "Player": "Stefon Diggs",
+      "Team": "New England Patriots",
       "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 45,
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Pos": "TE",
       "Value": 3
     },
     {
@@ -355,9 +369,23 @@
     },
     {
       "Rank": 45,
-      "Player": "Pat Freiermuth",
-      "Team": "Pittsburgh Steelers",
+      "Player": "Noah Fant",
+      "Team": "Cincinnati Bengals",
       "Pos": "TE",
+      "Value": 3
+    },
+    {
+      "Rank": 45,
+      "Player": "DeVonta Smith",
+      "Team": "Philadelphia Eagles",
+      "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 45,
+      "Player": "Jauan Jennings",
+      "Team": 49,
+      "Pos": "WR",
       "Value": 3
     },
     {
@@ -369,8 +397,8 @@
     },
     {
       "Rank": 45,
-      "Player": "A.J. Brown",
-      "Team": "Philadelphia Eagles",
+      "Player": "Nico Collins",
+      "Team": "Houston Texans",
       "Pos": "WR",
       "Value": 3
     },
@@ -390,20 +418,6 @@
     },
     {
       "Rank": 45,
-      "Player": "Juwan Johnson",
-      "Team": "New Orleans Saints",
-      "Pos": "TE",
-      "Value": 3
-    },
-    {
-      "Rank": 45,
-      "Player": "Khalil Shakir",
-      "Team": "Buffalo Bills",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 45,
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
       "Pos": "RB",
@@ -411,15 +425,22 @@
     },
     {
       "Rank": 45,
-      "Player": "Sam LaPorta",
-      "Team": "Detroit Lions",
-      "Pos": "TE",
+      "Player": "Tyquan Thornton",
+      "Team": "Kansas City Chiefs",
+      "Pos": "WR",
       "Value": 3
     },
     {
       "Rank": 45,
-      "Player": "David Njoku",
-      "Team": "Cleveland Browns",
+      "Player": "A.J. Brown",
+      "Team": "Philadelphia Eagles",
+      "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 45,
+      "Player": "Sam LaPorta",
+      "Team": "Detroit Lions",
       "Pos": "TE",
       "Value": 3
     },
@@ -432,9 +453,23 @@
     },
     {
       "Rank": 45,
+      "Player": "Pat Freiermuth",
+      "Team": "Pittsburgh Steelers",
+      "Pos": "TE",
+      "Value": 3
+    },
+    {
+      "Rank": 45,
       "Player": "Luke McCaffrey",
       "Team": "Washington Commanders",
       "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 45,
+      "Player": "David Njoku",
+      "Team": "Cleveland Browns",
+      "Pos": "TE",
       "Value": 3
     },
     {
@@ -453,261 +488,226 @@
     },
     {
       "Rank": 45,
-      "Player": "George Kittle",
-      "Team": 49,
+      "Player": "Juwan Johnson",
+      "Team": "New Orleans Saints",
       "Pos": "TE",
       "Value": 3
     },
     {
       "Rank": 45,
-      "Player": "Noah Fant",
-      "Team": "Cincinnati Bengals",
-      "Pos": "TE",
-      "Value": 3
-    },
-    {
-      "Rank": 45,
-      "Player": "Stefon Diggs",
-      "Team": "New England Patriots",
+      "Player": "Khalil Shakir",
+      "Team": "Buffalo Bills",
       "Pos": "WR",
       "Value": 3
     },
     {
-      "Rank": 45,
-      "Player": "Xavier Hutchinson",
-      "Team": "Houston Texans",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 45,
-      "Player": "Jauan Jennings",
-      "Team": 49,
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 45,
-      "Player": "Nico Collins",
-      "Team": "Houston Texans",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 70,
-      "Player": "Calvin Austin III",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Jordan Addison",
+      "Rank": 71,
+      "Player": "Jalen Nailor",
       "Team": "Minnesota Vikings",
       "Pos": "WR",
       "Value": 2
     },
     {
-      "Rank": 70,
-      "Player": "Rashod Bateman",
-      "Team": "Baltimore Ravens",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Rashid Shaheed",
-      "Team": "Seattle Seahawks",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Charlie Kolar",
-      "Team": "Baltimore Ravens",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Wan'Dale Robinson",
-      "Team": "New York Giants",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Mitchell Evans",
-      "Team": "Carolina Panthers",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Oronde Gadsden II",
-      "Team": "Los Angeles Chargers",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Devontez Walker",
-      "Team": "Baltimore Ravens",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Malik Nabers",
-      "Team": "New York Giants",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Jonathan Taylor",
-      "Team": "Indianapolis Colts",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Brock Wright",
-      "Team": "Detroit Lions",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Parker Washington",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Cedric Tillman",
-      "Team": "Cleveland Browns",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Tyler Higbee",
-      "Team": "Los Angeles Rams",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Jackson Hawes",
-      "Team": "Buffalo Bills",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Woody Marks",
-      "Team": "Houston Texans",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Isaac TeSlaa",
-      "Team": "Detroit Lions",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Roman Wilson",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Bijan Robinson",
-      "Team": "Atlanta Falcons",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Cam Skattebo",
-      "Team": "New York Giants",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
+      "Rank": 71,
       "Player": "Hunter Long",
       "Team": "Jacksonville Jaguars",
       "Pos": "TE",
       "Value": 2
     },
     {
-      "Rank": 70,
-      "Player": "Bucky Irving",
-      "Team": "Tampa Bay Buccaneers",
-      "Pos": "RB",
+      "Rank": 71,
+      "Player": "Jonnu Smith",
+      "Team": "Pittsburgh Steelers",
+      "Pos": "TE",
       "Value": 2
     },
     {
-      "Rank": 70,
-      "Player": "Mack Hollins",
-      "Team": "New England Patriots",
+      "Rank": 71,
+      "Player": "Jordan Addison",
+      "Team": "Minnesota Vikings",
       "Pos": "WR",
       "Value": 2
     },
     {
-      "Rank": 70,
+      "Rank": 71,
+      "Player": "DeAndre Hopkins",
+      "Team": "Baltimore Ravens",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Hunter Renfrow",
+      "Team": "Carolina Panthers",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
       "Player": "T.J. Hockenson",
       "Team": "Minnesota Vikings",
       "Pos": "TE",
       "Value": 2
     },
     {
-      "Rank": 70,
-      "Player": "Chuba Hubbard",
+      "Rank": 71,
+      "Player": "Wan'Dale Robinson",
+      "Team": "New York Giants",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Mitchell Evans",
       "Team": "Carolina Panthers",
+      "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Oronde Gadsden II",
+      "Team": "Los Angeles Chargers",
+      "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Devontez Walker",
+      "Team": "Baltimore Ravens",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Calvin Austin III",
+      "Team": "Pittsburgh Steelers",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Josh Oliver",
+      "Team": "Minnesota Vikings",
+      "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Malik Nabers",
+      "Team": "New York Giants",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Justin Jefferson",
+      "Team": "Minnesota Vikings",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Parker Washington",
+      "Team": "Jacksonville Jaguars",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Charlie Kolar",
+      "Team": "Baltimore Ravens",
+      "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Luke Farrell",
+      "Team": 49,
+      "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Woody Marks",
+      "Team": "Houston Texans",
       "Pos": "RB",
       "Value": 2
     },
     {
-      "Rank": 70,
-      "Player": "Xavier Legette",
-      "Team": "Carolina Panthers",
-      "Pos": "WR",
+      "Rank": 71,
+      "Player": "Saquon Barkley",
+      "Team": "Philadelphia Eagles",
+      "Pos": "RB",
       "Value": 2
     },
     {
-      "Rank": 70,
-      "Player": "Elic Ayomanor",
-      "Team": "Tennessee Titans",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 70,
-      "Player": "Harold Fannin Jr.",
-      "Team": "Cleveland Browns",
+      "Rank": 71,
+      "Player": "Jackson Hawes",
+      "Team": "Buffalo Bills",
       "Pos": "TE",
       "Value": 2
     },
     {
-      "Rank": 70,
-      "Player": "Malik Washington",
-      "Team": "Miami Dolphins",
+      "Rank": 71,
+      "Player": "Brock Wright",
+      "Team": "Detroit Lions",
+      "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Isaac TeSlaa",
+      "Team": "Detroit Lions",
       "Pos": "WR",
       "Value": 2
     },
     {
-      "Rank": 70,
-      "Player": "Jonnu Smith",
+      "Rank": 71,
+      "Player": "Roman Wilson",
       "Team": "Pittsburgh Steelers",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Bijan Robinson",
+      "Team": "Atlanta Falcons",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Cam Skattebo",
+      "Team": "New York Giants",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Rashod Bateman",
+      "Team": "Baltimore Ravens",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Bucky Irving",
+      "Team": "Tampa Bay Buccaneers",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Tyler Higbee",
+      "Team": "Los Angeles Rams",
       "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Rashid Shaheed",
+      "Team": "Seattle Seahawks",
+      "Pos": "WR",
       "Value": 2
     }
   ]
