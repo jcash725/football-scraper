@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-11-12T08:17:29.672Z",
+  "lastUpdated": "2025-11-13T08:16:52.891Z",
   "weeks": [
     {
       "week": 1,
@@ -3800,7 +3800,7 @@
     {
       "week": 11,
       "year": 2025,
-      "generatedAt": "2025-11-12T08:17:29.672Z",
+      "generatedAt": "2025-11-13T08:16:52.891Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -3811,100 +3811,100 @@
         },
         {
           "rank": 2,
-          "player": "Tetairoa McMillan",
-          "team": "Carolina Panthers",
-          "opponent": "Atlanta",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 3,
           "player": "Ashton Jeanty",
           "team": "Las Vegas Raiders",
           "opponent": "Dallas",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "player": "Kenneth Gainwell",
           "team": "Pittsburgh Steelers",
           "opponent": "Cincinnati",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "player": "Woody Marks",
           "team": "Houston Texans",
           "opponent": "Tennessee",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "player": "Jacory Croskey-Merritt",
           "team": "Washington Commanders",
           "opponent": "Miami",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "player": "Christian McCaffrey",
           "team": "San Francisco 49ers",
           "opponent": "Arizona",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "player": "Jake Ferguson",
           "team": "Dallas Cowboys",
           "opponent": "Las Vegas",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "player": "Tyler Warren",
           "team": "Indianapolis Colts",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "player": "Caleb Williams",
           "team": "Chicago Bears",
           "opponent": "Minnesota",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "player": "Bhayshul Tuten",
           "team": "Jacksonville Jaguars",
           "opponent": "LA Chargers",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "player": "Tyquan Thornton",
           "team": "Kansas City Chiefs",
           "opponent": "Denver",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "player": "Hunter Long",
           "team": "Jacksonville Jaguars",
           "opponent": "LA Chargers",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "player": "Isaac TeSlaa",
           "team": "Detroit Lions",
           "opponent": "Philadelphia",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "player": "Elic Ayomanor",
           "team": "Tennessee Titans",
           "opponent": "Houston",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 15,
+          "player": "Mitchell Evans",
+          "team": "Carolina Panthers",
+          "opponent": "Atlanta",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
@@ -3937,9 +3937,9 @@
         },
         {
           "rank": 20,
-          "player": "RJ Harvey",
-          "team": "Denver Broncos",
-          "opponent": "Kansas City",
+          "player": "Christian McCaffrey",
+          "team": 49,
+          "opponent": "Arizona",
           "basis": "Opp Pass TD/G"
         }
       ],
@@ -3985,6 +3985,19 @@
         },
         {
           "rank": 4,
+          "player": "Justin Jefferson",
+          "team": "Minnesota Vikings",
+          "opponent": "Chicago Bears",
+          "probability": 0.5917266187050361,
+          "confidence": 0.9,
+          "keyFactors": [
+            "Strong 2024 production (10 TDs)",
+            "Previous success vs opponent (1 TDs)",
+            "Weak opponent defense (2.5 TDs/game allowed)"
+          ]
+        },
+        {
+          "rank": 5,
           "player": "Mark Andrews",
           "team": "Baltimore Ravens",
           "opponent": "Cleveland Browns",
@@ -3997,7 +4010,7 @@
           ]
         },
         {
-          "rank": 5,
+          "rank": 6,
           "player": "Derrick Henry",
           "team": "Baltimore Ravens",
           "opponent": "Cleveland Browns",
@@ -4010,7 +4023,7 @@
           ]
         },
         {
-          "rank": 6,
+          "rank": 7,
           "player": "Bijan Robinson",
           "team": "Atlanta Falcons",
           "opponent": "Carolina Panthers",
@@ -4023,7 +4036,7 @@
           ]
         },
         {
-          "rank": 7,
+          "rank": 8,
           "player": "Pat Freiermuth",
           "team": "Pittsburgh Steelers",
           "opponent": "Cincinnati Bengals",
@@ -4036,7 +4049,20 @@
           ]
         },
         {
-          "rank": 8,
+          "rank": 9,
+          "player": "Marvin Mims Jr.",
+          "team": "Denver Broncos",
+          "opponent": "Kansas City",
+          "probability": 0.552,
+          "confidence": 0.9,
+          "keyFactors": [
+            "Moderate 2024 production (6 TDs)",
+            "Previous success vs opponent (2 TDs)",
+            "Weak opponent defense (3.5 TDs/game allowed)"
+          ]
+        },
+        {
+          "rank": 10,
           "player": "Kyren Williams",
           "team": "Los Angeles Rams",
           "opponent": "Seattle Seahawks",
@@ -4049,7 +4075,7 @@
           ]
         },
         {
-          "rank": 9,
+          "rank": 11,
           "player": "Jalen Hurts",
           "team": "Philadelphia Eagles",
           "opponent": "Detroit Lions",
@@ -4062,7 +4088,20 @@
           ]
         },
         {
-          "rank": 10,
+          "rank": 12,
+          "player": "Jordan Addison",
+          "team": "Minnesota Vikings",
+          "opponent": "Chicago Bears",
+          "probability": 0.541726618705036,
+          "confidence": 0.9,
+          "keyFactors": [
+            "Strong 2024 production (10 TDs)",
+            "Previous success vs opponent (1 TDs)",
+            "Weak opponent defense (2.5 TDs/game allowed)"
+          ]
+        },
+        {
+          "rank": 13,
           "player": "DeVonta Smith",
           "team": "Philadelphia Eagles",
           "opponent": "Detroit Lions",
@@ -4075,7 +4114,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 14,
           "player": "Rashod Bateman",
           "team": "Baltimore Ravens",
           "opponent": "Cleveland Browns",
@@ -4088,7 +4127,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 15,
           "player": "Zach Ertz",
           "team": "Washington Commanders",
           "opponent": "Miami Dolphins",
@@ -4101,7 +4140,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 16,
           "player": "Tee Higgins",
           "team": "Cincinnati Bengals",
           "opponent": "Pittsburgh Steelers",
@@ -4114,7 +4153,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 17,
           "player": "Greg Dortch",
           "team": "Arizona Cardinals",
           "opponent": "San Francisco",
@@ -4127,20 +4166,7 @@
           ]
         },
         {
-          "rank": 15,
-          "player": "Cedric Tillman",
-          "team": "Cleveland Browns",
-          "opponent": "Baltimore Ravens",
-          "probability": 0.49599999999999994,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Previous success vs opponent (2 TDs)",
-            "Weak opponent defense (3.2 TDs/game allowed)",
-            "Hot recent form (3 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 16,
+          "rank": 18,
           "player": "Marvin Harrison Jr.",
           "team": "Arizona Cardinals",
           "opponent": "San Francisco",
@@ -4153,7 +4179,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 19,
           "player": "Jalen Nailor",
           "team": "Minnesota Vikings",
           "opponent": "Chicago Bears",
@@ -4166,7 +4192,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 20,
           "player": "Amon-Ra St. Brown",
           "team": "Detroit Lions",
           "opponent": "Philadelphia Eagles",
@@ -4174,32 +4200,6 @@
           "confidence": 0.8,
           "keyFactors": [
             "Strong 2024 production (11 TDs)",
-            "Weak opponent defense (3.3 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 19,
-          "player": "De'Von Achane",
-          "team": "Miami Dolphins",
-          "opponent": "Washington Commanders",
-          "probability": 0.4593333333333333,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (8 TDs)",
-            "Weak opponent defense (4.0 TDs/game allowed)",
-            "Hot recent form (7 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "Sam LaPorta",
-          "team": "Detroit Lions",
-          "opponent": "Philadelphia Eagles",
-          "probability": 0.4593333333333333,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (8 TDs)",
             "Weak opponent defense (3.3 TDs/game allowed)",
             "Hot recent form (6 TDs in recent games)"
           ]
