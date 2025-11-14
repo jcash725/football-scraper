@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/receiving-touchdowns",
-  "scrapedAt": "2025-11-13T08:16:15.334Z",
+  "scrapedAt": "2025-11-14T08:16:13.702Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -208,23 +208,16 @@
     },
     {
       "Rank": 23,
-      "Player": "Hollywood Brown",
-      "Team": "Kansas City Chiefs",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
-      "Player": "De'Von Achane",
-      "Team": "Miami Dolphins",
-      "Pos": "RB",
-      "Value": 4
-    },
-    {
-      "Rank": 23,
       "Player": "Darren Waller",
       "Team": "Miami Dolphins",
       "Pos": "TE",
+      "Value": 4
+    },
+    {
+      "Rank": 23,
+      "Player": "Hollywood Brown",
+      "Team": "Kansas City Chiefs",
+      "Pos": "WR",
       "Value": 4
     },
     {
@@ -271,6 +264,13 @@
     },
     {
       "Rank": 23,
+      "Player": "De'Von Achane",
+      "Team": "Miami Dolphins",
+      "Pos": "RB",
+      "Value": 4
+    },
+    {
+      "Rank": 23,
       "Player": "Zach Ertz",
       "Team": "Washington Commanders",
       "Pos": "TE",
@@ -306,15 +306,15 @@
     },
     {
       "Rank": 23,
-      "Player": "Tez Johnson",
-      "Team": "Tampa Bay Buccaneers",
+      "Player": "Ladd McConkey",
+      "Team": "Los Angeles Chargers",
       "Pos": "WR",
       "Value": 4
     },
     {
       "Rank": 23,
-      "Player": "Ladd McConkey",
-      "Team": "Los Angeles Chargers",
+      "Player": "Tez Johnson",
+      "Team": "Tampa Bay Buccaneers",
       "Pos": "WR",
       "Value": 4
     },
@@ -348,16 +348,16 @@
     },
     {
       "Rank": 45,
-      "Player": "Travis Kelce",
-      "Team": "Kansas City Chiefs",
-      "Pos": "TE",
+      "Player": "Jauan Jennings",
+      "Team": 49,
+      "Pos": "WR",
       "Value": 3
     },
     {
       "Rank": 45,
-      "Player": "Jauan Jennings",
-      "Team": 49,
-      "Pos": "WR",
+      "Player": "Travis Kelce",
+      "Team": "Kansas City Chiefs",
+      "Pos": "TE",
       "Value": 3
     },
     {
@@ -551,13 +551,6 @@
     },
     {
       "Rank": 71,
-      "Player": "Oronde Gadsden II",
-      "Team": "Los Angeles Chargers",
-      "Pos": "TE",
-      "Value": 2
-    },
-    {
-      "Rank": 71,
       "Player": "Wan'Dale Robinson",
       "Team": "New York Giants",
       "Pos": "WR",
@@ -567,6 +560,13 @@
       "Rank": 71,
       "Player": "Mitchell Evans",
       "Team": "Carolina Panthers",
+      "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Oronde Gadsden II",
+      "Team": "Los Angeles Chargers",
       "Pos": "TE",
       "Value": 2
     },
@@ -614,22 +614,8 @@
     },
     {
       "Rank": 71,
-      "Player": "Woody Marks",
-      "Team": "Houston Texans",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 71,
       "Player": "Mack Hollins",
       "Team": "New England Patriots",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 71,
-      "Player": "Roman Wilson",
-      "Team": "Pittsburgh Steelers",
       "Pos": "WR",
       "Value": 2
     },
@@ -642,22 +628,22 @@
     },
     {
       "Rank": 71,
-      "Player": "Isaac TeSlaa",
-      "Team": "Detroit Lions",
+      "Player": "Roman Wilson",
+      "Team": "Pittsburgh Steelers",
       "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 71,
-      "Player": "Cam Skattebo",
-      "Team": "New York Giants",
-      "Pos": "RB",
       "Value": 2
     },
     {
       "Rank": 71,
       "Player": "Bijan Robinson",
       "Team": "Atlanta Falcons",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Cam Skattebo",
+      "Team": "New York Giants",
       "Pos": "RB",
       "Value": 2
     },
@@ -705,8 +691,22 @@
     },
     {
       "Rank": 71,
-      "Player": "Elic Ayomanor",
-      "Team": "Tennessee Titans",
+      "Player": "Woody Marks",
+      "Team": "Houston Texans",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Harold Fannin Jr.",
+      "Team": "Cleveland Browns",
+      "Pos": "TE",
+      "Value": 2
+    },
+    {
+      "Rank": 71,
+      "Player": "Malik Washington",
+      "Team": "Miami Dolphins",
       "Pos": "WR",
       "Value": 2
     }
