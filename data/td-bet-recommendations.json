@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-14T08:16:52.193Z",
+  "generatedAt": "2025-11-15T08:14:22.864Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -8,6 +8,18 @@
       "Player": "Xavier Hutchinson",
       "Team": "Houston Texans",
       "Opponent": "Tennessee",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 6,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 2.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
+    },
+    {
+      "Player": "Tetairoa McMillan",
+      "Team": "Carolina Panthers",
+      "Opponent": "Atlanta",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 6,
@@ -149,9 +161,45 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
+      "Player": "Isaac TeSlaa",
+      "Team": "Detroit Lions",
+      "Opponent": "Philadelphia",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "Elic Ayomanor",
+      "Team": "Tennessee Titans",
+      "Opponent": "Houston",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
       "Player": "Mitchell Evans",
       "Team": "Carolina Panthers",
       "Opponent": "Atlanta",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "RJ Harvey",
+      "Team": "Denver Broncos",
+      "Opponent": "Kansas City",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -194,54 +242,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Seattle Seahawks vs LA Rams - opponent allows 1.6 pass TDs/game",
-      "Rookie Boost": "+3.0 (1.0 TD/game)"
-    },
-    {
-      "Player": "Tez Johnson",
-      "Team": "Tampa Bay Buccaneers",
-      "Opponent": "Buffalo",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.6,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Tampa Bay Buccaneers vs Buffalo - opponent allows 1.6 pass TDs/game",
-      "Rookie Boost": "+3.0 (1.0 TD/game)"
-    },
-    {
-      "Player": "Christian McCaffrey",
-      "Team": 49,
-      "Opponent": "Arizona",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.4,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "49 vs Arizona - opponent allows 1.2 pass TDs/game",
-      "Rookie Boost": "+3.2 (1.2 TD/game)"
-    },
-    {
-      "Player": "RJ Harvey",
-      "Team": "Denver Broncos",
-      "Opponent": "Kansas City",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.4,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Denver Broncos vs Kansas City - opponent allows 1.4 pass TDs/game",
-      "Rookie Boost": "+3.0 (1.0 TD/game)"
-    },
-    {
-      "Player": "Jake Tonges",
-      "Team": 49,
-      "Opponent": "Arizona",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.2,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "49 vs Arizona - opponent allows 1.2 pass TDs/game",
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ]

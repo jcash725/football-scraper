@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2025-11-14T08:16:52.193Z",
+  "generatedAt": "2025-11-15T08:14:22.864Z",
   "currentModel": [
     {
       "Player": "Xavier Hutchinson",
       "Team": "Houston Texans",
       "Opponent": "Tennessee",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 6,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 2.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
+    },
+    {
+      "Player": "Tetairoa McMillan",
+      "Team": "Carolina Panthers",
+      "Opponent": "Atlanta",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 6,
@@ -146,9 +158,45 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
+      "Player": "Isaac TeSlaa",
+      "Team": "Detroit Lions",
+      "Opponent": "Philadelphia",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "Elic Ayomanor",
+      "Team": "Tennessee Titans",
+      "Opponent": "Houston",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
       "Player": "Mitchell Evans",
       "Team": "Carolina Panthers",
       "Opponent": "Atlanta",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "RJ Harvey",
+      "Team": "Denver Broncos",
+      "Opponent": "Kansas City",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -191,54 +239,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Seattle Seahawks vs LA Rams - opponent allows 1.6 pass TDs/game",
-      "Rookie Boost": "+3.0 (1.0 TD/game)"
-    },
-    {
-      "Player": "Tez Johnson",
-      "Team": "Tampa Bay Buccaneers",
-      "Opponent": "Buffalo",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.6,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Tampa Bay Buccaneers vs Buffalo - opponent allows 1.6 pass TDs/game",
-      "Rookie Boost": "+3.0 (1.0 TD/game)"
-    },
-    {
-      "Player": "Christian McCaffrey",
-      "Team": 49,
-      "Opponent": "Arizona",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.4,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "49 vs Arizona - opponent allows 1.2 pass TDs/game",
-      "Rookie Boost": "+3.2 (1.2 TD/game)"
-    },
-    {
-      "Player": "RJ Harvey",
-      "Team": "Denver Broncos",
-      "Opponent": "Kansas City",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.4,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Denver Broncos vs Kansas City - opponent allows 1.4 pass TDs/game",
-      "Rookie Boost": "+3.0 (1.0 TD/game)"
-    },
-    {
-      "Player": "Jake Tonges",
-      "Team": 49,
-      "Opponent": "Arizona",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.2,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "49 vs Arizona - opponent allows 1.2 pass TDs/game",
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ],
@@ -491,25 +491,6 @@
       "basis": "2024 Data: 9 TDs in 8 games"
     },
     {
-      "player": "Rashod Bateman",
-      "team": "Baltimore Ravens",
-      "opponent": "Cleveland Browns",
-      "position": "WR",
-      "mlProbability": 0.5253333333333333,
-      "mlConfidence": 0.9,
-      "keyFactors": [
-        "Strong 2024 production (11 TDs)",
-        "Previous success vs opponent (1 TDs)",
-        "Weak opponent defense (3.9 TDs/game allowed)"
-      ],
-      "mlRank": 14,
-      "playerTDsYTD": 2,
-      "actual2024TDs": 11,
-      "actual2024Games": 10,
-      "vsOpponentTDs": 1,
-      "basis": "2024 Data: 11 TDs in 10 games"
-    },
-    {
       "player": "Zach Ertz",
       "team": "Washington Commanders",
       "opponent": "Miami Dolphins",
@@ -521,7 +502,7 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 15,
+      "mlRank": 14,
       "playerTDsYTD": 4,
       "actual2024TDs": 8,
       "actual2024Games": 7,
@@ -540,7 +521,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.6 TDs/game allowed)"
       ],
-      "mlRank": 16,
+      "mlRank": 15,
       "playerTDsYTD": 6,
       "actual2024TDs": 10,
       "actual2024Games": 7,
@@ -559,8 +540,27 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (3 TDs in recent games)"
       ],
-      "mlRank": 17,
+      "mlRank": 16,
       "playerTDsYTD": 1,
+      "actual2024TDs": 3,
+      "actual2024Games": 2,
+      "vsOpponentTDs": 2,
+      "basis": "2024 Data: 3 TDs in 2 games"
+    },
+    {
+      "player": "Cedric Tillman",
+      "team": "Cleveland Browns",
+      "opponent": "Baltimore Ravens",
+      "position": "WR",
+      "mlProbability": 0.49599999999999994,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Previous success vs opponent (2 TDs)",
+        "Weak opponent defense (3.2 TDs/game allowed)",
+        "Hot recent form (3 TDs in recent games)"
+      ],
+      "mlRank": 17,
+      "playerTDsYTD": 2,
       "actual2024TDs": 3,
       "actual2024Games": 2,
       "vsOpponentTDs": 2,
@@ -628,6 +628,7 @@
   "differences": {
     "onlyInCurrent": [
       "Xavier Hutchinson",
+      "Tetairoa McMillan",
       "Ashton Jeanty",
       "Kenneth Gainwell",
       "Woody Marks",
@@ -639,14 +640,13 @@
       "Bhayshul Tuten",
       "Tyquan Thornton",
       "Hunter Long",
+      "Isaac TeSlaa",
+      "Elic Ayomanor",
       "Mitchell Evans",
+      "RJ Harvey",
       "Emeka Egbuka",
       "Hollywood Brown",
-      "Tory Horton",
-      "Tez Johnson",
-      "Christian McCaffrey",
-      "RJ Harvey",
-      "Jake Tonges"
+      "Tory Horton"
     ],
     "onlyInML": [
       "Drake London",
@@ -662,10 +662,10 @@
       "Jalen Hurts",
       "Jordan Addison",
       "DeVonta Smith",
-      "Rashod Bateman",
       "Zach Ertz",
       "Tee Higgins",
       "Greg Dortch",
+      "Cedric Tillman",
       "Marvin Harrison Jr.",
       "Jalen Nailor",
       "Amon-Ra St. Brown"
