@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2025-11-15T08:13:46.529Z",
+  "scrapedAt": "2025-11-16T08:14:15.766Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -26,17 +26,24 @@
     },
     {
       "Rank": 3,
+      "Player": "Javonte Williams",
+      "Team": "Dallas Cowboys",
+      "Pos": "RB",
+      "Value": 8
+    },
+    {
+      "Rank": 3,
       "Player": "Jahmyr Gibbs",
       "Team": "Detroit Lions",
       "Pos": "RB",
       "Value": 8
     },
     {
-      "Rank": 3,
-      "Player": "Javonte Williams",
-      "Team": "Dallas Cowboys",
-      "Pos": "RB",
-      "Value": 8
+      "Rank": 5,
+      "Player": "Josh Allen",
+      "Team": "Buffalo Bills",
+      "Pos": "QB",
+      "Value": 7
     },
     {
       "Rank": 5,
@@ -53,11 +60,11 @@
       "Value": 7
     },
     {
-      "Rank": 5,
-      "Player": "Josh Allen",
-      "Team": "Buffalo Bills",
-      "Pos": "QB",
-      "Value": 7
+      "Rank": 8,
+      "Player": "Tyler Allgeier",
+      "Team": "Atlanta Falcons",
+      "Pos": "RB",
+      "Value": 6
     },
     {
       "Rank": 8,
@@ -74,11 +81,25 @@
       "Value": 6
     },
     {
-      "Rank": 8,
-      "Player": "Tyler Allgeier",
-      "Team": "Atlanta Falcons",
+      "Rank": 11,
+      "Player": "Kareem Hunt",
+      "Team": "Kansas City Chiefs",
       "Pos": "RB",
-      "Value": 6
+      "Value": 5
+    },
+    {
+      "Rank": 11,
+      "Player": "Cam Skattebo",
+      "Team": "New York Giants",
+      "Pos": "RB",
+      "Value": 5
+    },
+    {
+      "Rank": 11,
+      "Player": "De'Von Achane",
+      "Team": "Miami Dolphins",
+      "Pos": "RB",
+      "Value": 5
     },
     {
       "Rank": 11,
@@ -130,25 +151,11 @@
       "Value": 5
     },
     {
-      "Rank": 11,
-      "Player": "Kareem Hunt",
-      "Team": "Kansas City Chiefs",
+      "Rank": 21,
+      "Player": "Ashton Jeanty",
+      "Team": "Las Vegas Raiders",
       "Pos": "RB",
-      "Value": 5
-    },
-    {
-      "Rank": 11,
-      "Player": "Cam Skattebo",
-      "Team": "New York Giants",
-      "Pos": "RB",
-      "Value": 5
-    },
-    {
-      "Rank": 11,
-      "Player": "De'Von Achane",
-      "Team": "Miami Dolphins",
-      "Pos": "RB",
-      "Value": 5
+      "Value": 4
     },
     {
       "Rank": 21,
@@ -221,11 +228,18 @@
       "Value": 4
     },
     {
-      "Rank": 21,
-      "Player": "Ashton Jeanty",
-      "Team": "Las Vegas Raiders",
+      "Rank": 32,
+      "Player": "Bo Nix",
+      "Team": "Denver Broncos",
+      "Pos": "QB",
+      "Value": 3
+    },
+    {
+      "Rank": 32,
+      "Player": "Kenneth Gainwell",
+      "Team": "Pittsburgh Steelers",
       "Pos": "RB",
-      "Value": 4
+      "Value": 3
     },
     {
       "Rank": 32,
@@ -263,18 +277,39 @@
       "Value": 3
     },
     {
-      "Rank": 32,
-      "Player": "Bo Nix",
-      "Team": "Denver Broncos",
-      "Pos": "QB",
-      "Value": 3
+      "Rank": 39,
+      "Player": "Tony Pollard",
+      "Team": "Tennessee Titans",
+      "Pos": "RB",
+      "Value": 2
     },
     {
-      "Rank": 32,
-      "Player": "Kenneth Gainwell",
-      "Team": "Pittsburgh Steelers",
+      "Rank": 39,
+      "Player": "RJ Harvey",
+      "Team": "Denver Broncos",
       "Pos": "RB",
-      "Value": 3
+      "Value": 2
+    },
+    {
+      "Rank": 39,
+      "Player": "Bijan Robinson",
+      "Team": "Atlanta Falcons",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 39,
+      "Player": "Nick Chubb",
+      "Team": "Houston Texans",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 39,
+      "Player": "Bhayshul Tuten",
+      "Team": "Jacksonville Jaguars",
+      "Pos": "RB",
+      "Value": 2
     },
     {
       "Rank": 39,
@@ -375,39 +410,81 @@
       "Value": 2
     },
     {
-      "Rank": 39,
-      "Player": "Tony Pollard",
-      "Team": "Tennessee Titans",
+      "Rank": 58,
+      "Player": "Tyrone Tracy Jr.",
+      "Team": "New York Giants",
       "Pos": "RB",
-      "Value": 2
+      "Value": 1
     },
     {
-      "Rank": 39,
-      "Player": "RJ Harvey",
-      "Team": "Denver Broncos",
+      "Rank": 58,
+      "Player": "Aaron Jones",
+      "Team": "Minnesota Vikings",
       "Pos": "RB",
-      "Value": 2
+      "Value": 1
     },
     {
-      "Rank": 39,
-      "Player": "Bijan Robinson",
-      "Team": "Atlanta Falcons",
+      "Rank": 58,
+      "Player": "Alvin Kamara",
+      "Team": "New Orleans Saints",
       "Pos": "RB",
-      "Value": 2
+      "Value": 1
     },
     {
-      "Rank": 39,
-      "Player": "Nick Chubb",
-      "Team": "Houston Texans",
+      "Rank": 58,
+      "Player": "George Holani",
+      "Team": "Seattle Seahawks",
       "Pos": "RB",
-      "Value": 2
+      "Value": 1
     },
     {
-      "Rank": 39,
-      "Player": "Bhayshul Tuten",
-      "Team": "Jacksonville Jaguars",
+      "Rank": 58,
+      "Player": "Miles Sanders",
+      "Team": "Dallas Cowboys",
       "Pos": "RB",
-      "Value": 2
+      "Value": 1
+    },
+    {
+      "Rank": 58,
+      "Player": "Elijah Moore",
+      "Team": "Buffalo Bills",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 58,
+      "Player": "Braelon Allen",
+      "Team": "New York Jets",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 58,
+      "Player": "Greg Dortch",
+      "Team": "Arizona Cardinals",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 58,
+      "Player": "Samaje Perine",
+      "Team": "Cincinnati Bengals",
+      "Pos": "HB",
+      "Value": 1
+    },
+    {
+      "Rank": 58,
+      "Player": "Isiah Pacheco",
+      "Team": "Kansas City Chiefs",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 58,
+      "Player": "Terrell Jennings",
+      "Team": "New England Patriots",
+      "Pos": "RB",
+      "Value": 1
     },
     {
       "Rank": 58,
@@ -544,6 +621,13 @@
     },
     {
       "Rank": 58,
+      "Player": "Kyler Murray",
+      "Team": "Arizona Cardinals",
+      "Pos": "QB",
+      "Value": 1
+    },
+    {
+      "Rank": 58,
       "Player": "Lamar Jackson",
       "Team": "Baltimore Ravens",
       "Pos": "QB",
@@ -568,13 +652,6 @@
       "Player": "Tyler Warren",
       "Team": "Indianapolis Colts",
       "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 58,
-      "Player": "Kyler Murray",
-      "Team": "Arizona Cardinals",
-      "Pos": "QB",
       "Value": 1
     },
     {
@@ -630,83 +707,6 @@
       "Rank": 58,
       "Player": "Ty Johnson",
       "Team": "Buffalo Bills",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 58,
-      "Player": "Puka Nacua",
-      "Team": "Los Angeles Rams",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 58,
-      "Player": "Aaron Jones",
-      "Team": "Minnesota Vikings",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 58,
-      "Player": "Alvin Kamara",
-      "Team": "New Orleans Saints",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 58,
-      "Player": "George Holani",
-      "Team": "Seattle Seahawks",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 58,
-      "Player": "Tyrone Tracy Jr.",
-      "Team": "New York Giants",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 58,
-      "Player": "Miles Sanders",
-      "Team": "Dallas Cowboys",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 58,
-      "Player": "Elijah Moore",
-      "Team": "Buffalo Bills",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 58,
-      "Player": "Braelon Allen",
-      "Team": "New York Jets",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 58,
-      "Player": "Greg Dortch",
-      "Team": "Arizona Cardinals",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 58,
-      "Player": "Samaje Perine",
-      "Team": "Cincinnati Bengals",
-      "Pos": "HB",
-      "Value": 1
-    },
-    {
-      "Rank": 58,
-      "Player": "Isiah Pacheco",
-      "Team": "Kansas City Chiefs",
       "Pos": "RB",
       "Value": 1
     }
