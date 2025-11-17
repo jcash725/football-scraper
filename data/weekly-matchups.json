@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/schedules/season/",
-  "scrapedAt": "2025-11-11T08:16:24.244Z",
+  "scrapedAt": "2025-11-17T08:18:16.900Z",
   "note": "Found 15 matchups",
   "columns": [
     "away_team",
@@ -64,6 +64,12 @@
       "time": "1:00 PM"
     },
     {
+      "away_team": "Kansas City",
+      "home_team": "Denver",
+      "date": "Thu Nov 13",
+      "time": "2:25 PM"
+    },
+    {
       "away_team": "Seattle",
       "home_team": "LA Rams",
       "date": "Thu Nov 13",
@@ -78,12 +84,6 @@
     {
       "away_team": "Baltimore",
       "home_team": "Cleveland",
-      "date": "Thu Nov 13",
-      "time": "4:25 PM"
-    },
-    {
-      "away_team": "Kansas City",
-      "home_team": "Denver",
       "date": "Thu Nov 13",
       "time": "4:25 PM"
     },
