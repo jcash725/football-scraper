@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/stat/opponent-rushing-touchdowns-per-game",
-  "scrapedAt": "2025-11-17T08:18:16.122Z",
+  "scrapedAt": "2025-11-18T08:16:34.876Z",
   "note": "Sorted by Rank (desc)",
   "columns": [
     "Rank",
@@ -44,19 +44,9 @@
       "Away": 1.5
     },
     {
-      "2024": 0.8,
-      "2025": 1.3,
-      "Rank": 29,
-      "Team": "Las Vegas",
-      "Last 3": 1.3,
-      "Last 1": 0,
-      "Home": 1,
-      "Away": 1.6
-    },
-    {
       "2024": 0.4,
       "2025": 1.3,
-      "Rank": 28,
+      "Rank": 29,
       "Team": "LA Chargers",
       "Last 3": 1.3,
       "Last 1": 4,
@@ -64,19 +54,9 @@
       "Away": 1.3
     },
     {
-      "2024": 1.5,
-      "2025": 1.2,
-      "Rank": 27,
-      "Team": "Dallas",
-      "Last 3": 1.7,
-      "Last 1": 1,
-      "Home": 1.5,
-      "Away": 1
-    },
-    {
       "2024": 0.7,
       "2025": 1.2,
-      "Rank": 25,
+      "Rank": 26,
       "Team": "Tampa Bay",
       "Last 3": 1.7,
       "Last 1": 3,
@@ -86,7 +66,7 @@
     {
       "2024": 1.2,
       "2025": 1.2,
-      "Rank": 25,
+      "Rank": 26,
       "Team": "Cincinnati",
       "Last 3": 1.3,
       "Last 1": 0,
@@ -94,9 +74,19 @@
       "Away": 1.4
     },
     {
+      "2024": 0.8,
+      "2025": 1.2,
+      "Rank": 26,
+      "Team": "Las Vegas",
+      "Last 3": 1,
+      "Last 1": 0,
+      "Home": 0.8,
+      "Away": 1.6
+    },
+    {
       "2024": 1.4,
       "2025": 1.2,
-      "Rank": 24,
+      "Rank": 25,
       "Team": "Carolina",
       "Last 3": 1.3,
       "Last 1": 3,
@@ -132,6 +122,16 @@
       "Last 1": 0,
       "Home": 0.8,
       "Away": 1.4
+    },
+    {
+      "2024": 1.5,
+      "2025": 1.1,
+      "Rank": 21,
+      "Team": "Dallas",
+      "Last 3": 1,
+      "Last 1": 0,
+      "Home": 1.5,
+      "Away": 0.8
     },
     {
       "2024": 0.9,
