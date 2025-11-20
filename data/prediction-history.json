@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-11-19T08:16:37.843Z",
+  "lastUpdated": "2025-11-20T08:17:37.081Z",
   "weeks": [
     {
       "week": 1,
@@ -4209,7 +4209,7 @@
     {
       "week": 12,
       "year": 2025,
-      "generatedAt": "2025-11-19T08:16:37.843Z",
+      "generatedAt": "2025-11-20T08:17:37.081Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -4563,6 +4563,19 @@
         },
         {
           "rank": 17,
+          "player": "Jalen Nailor",
+          "team": "Minnesota Vikings",
+          "opponent": "Green Bay",
+          "probability": 0.43200000000000005,
+          "confidence": 0.9,
+          "keyFactors": [
+            "Moderate 2024 production (6 TDs)",
+            "Previous success vs opponent (1 TDs)",
+            "Weak opponent defense (3.2 TDs/game allowed)"
+          ]
+        },
+        {
+          "rank": 18,
           "player": "DJ Moore",
           "team": "Chicago Bears",
           "opponent": "Pittsburgh Steelers",
@@ -4575,7 +4588,20 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 19,
+          "player": "James Conner",
+          "team": "Arizona Cardinals",
+          "opponent": "Jacksonville Jaguars",
+          "probability": 0.432,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Moderate 2024 production (6 TDs)",
+            "Weak opponent defense (3.9 TDs/game allowed)",
+            "Hot recent form (5 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 20,
           "player": "CeeDee Lamb",
           "team": "Dallas Cowboys",
           "opponent": "Philadelphia Eagles",
@@ -4585,32 +4611,6 @@
             "Moderate 2024 production (6 TDs)",
             "Weak opponent defense (3.3 TDs/game allowed)",
             "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 19,
-          "player": "Derrick Henry",
-          "team": "Baltimore Ravens",
-          "opponent": "NY Jets",
-          "probability": 0.4213333333333334,
-          "confidence": 0.75,
-          "keyFactors": [
-            "Strong 2024 production (14 TDs)",
-            "Hot recent form (7 TDs in recent games)",
-            "Home field advantage"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "Marvin Harrison Jr.",
-          "team": "Arizona Cardinals",
-          "opponent": "Jacksonville Jaguars",
-          "probability": 0.41933333333333334,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (8 TDs)",
-            "Weak opponent defense (3.9 TDs/game allowed)",
-            "Hot recent form (5 TDs in recent games)"
           ]
         }
       ]
