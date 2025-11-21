@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-19T08:16:37.845Z",
+  "generatedAt": "2025-11-21T08:17:27.486Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -161,21 +161,9 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Hunter Long",
-      "Team": "Jacksonville Jaguars",
-      "Opponent": "Arizona",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Isaac TeSlaa",
-      "Team": "Detroit Lions",
-      "Opponent": "NY Giants",
+      "Player": "Mitchell Evans",
+      "Team": "Carolina Panthers",
+      "Opponent": "San Francisco",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -242,6 +230,18 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Seattle Seahawks vs Tennessee - opponent allows 1.6 pass TDs/game",
+      "Rookie Boost": "+3.0 (1.0 TD/game)"
+    },
+    {
+      "Player": "Tez Johnson",
+      "Team": "Tampa Bay Buccaneers",
+      "Opponent": "LA Rams",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.6,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Tampa Bay Buccaneers vs LA Rams - opponent allows 1.6 pass TDs/game",
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ]

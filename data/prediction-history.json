@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-11-20T08:17:37.081Z",
+  "lastUpdated": "2025-11-21T08:17:27.484Z",
   "weeks": [
     {
       "week": 1,
@@ -4209,7 +4209,7 @@
     {
       "week": 12,
       "year": 2025,
-      "generatedAt": "2025-11-20T08:17:37.081Z",
+      "generatedAt": "2025-11-21T08:17:27.484Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -4304,51 +4304,51 @@
         },
         {
           "rank": 14,
-          "player": "Hunter Long",
-          "team": "Jacksonville Jaguars",
-          "opponent": "Arizona",
+          "player": "Mitchell Evans",
+          "team": "Carolina Panthers",
+          "opponent": "San Francisco",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
           "rank": 15,
-          "player": "Isaac TeSlaa",
-          "team": "Detroit Lions",
-          "opponent": "NY Giants",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 16,
           "player": "RJ Harvey",
           "team": "Denver Broncos",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "player": "Hollywood Brown",
           "team": "Kansas City Chiefs",
           "opponent": "Indianapolis",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "player": "Emeka Egbuka",
           "team": "Tampa Bay Buccaneers",
           "opponent": "LA Rams",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "player": "Jake Ferguson",
           "team": "Dallas Cowboys",
           "opponent": "Philadelphia",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "player": "Tory Horton",
           "team": "Seattle Seahawks",
           "opponent": "Tennessee",
+          "basis": "Opp Pass TD/G"
+        },
+        {
+          "rank": 20,
+          "player": "Tez Johnson",
+          "team": "Tampa Bay Buccaneers",
+          "opponent": "LA Rams",
           "basis": "Opp Pass TD/G"
         }
       ],
@@ -4420,6 +4420,19 @@
         },
         {
           "rank": 6,
+          "player": "Justin Jefferson",
+          "team": "Minnesota Vikings",
+          "opponent": "Green Bay",
+          "probability": 0.5566666666666668,
+          "confidence": 0.9,
+          "keyFactors": [
+            "Strong 2024 production (10 TDs)",
+            "Previous success vs opponent (1 TDs)",
+            "Weak opponent defense (3.2 TDs/game allowed)"
+          ]
+        },
+        {
+          "rank": 7,
           "player": "Alvin Kamara",
           "team": "New Orleans Saints",
           "opponent": "Atlanta Falcons",
@@ -4432,7 +4445,7 @@
           ]
         },
         {
-          "rank": 7,
+          "rank": 8,
           "player": "Tee Higgins",
           "team": "Cincinnati Bengals",
           "opponent": "New England",
@@ -4445,7 +4458,7 @@
           ]
         },
         {
-          "rank": 8,
+          "rank": 9,
           "player": "Bijan Robinson",
           "team": "Atlanta Falcons",
           "opponent": "New Orleans",
@@ -4458,7 +4471,7 @@
           ]
         },
         {
-          "rank": 9,
+          "rank": 10,
           "player": "Chase Brown",
           "team": "Cincinnati Bengals",
           "opponent": "New England",
@@ -4471,7 +4484,7 @@
           ]
         },
         {
-          "rank": 10,
+          "rank": 11,
           "player": "Drake London",
           "team": "Atlanta Falcons",
           "opponent": "New Orleans",
@@ -4484,7 +4497,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 12,
           "player": "Tucker Kraft",
           "team": "Green Bay Packers",
           "opponent": "Minnesota Vikings",
@@ -4497,7 +4510,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 13,
           "player": "James Cook",
           "team": "Buffalo Bills",
           "opponent": "Houston Texans",
@@ -4510,7 +4523,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 14,
           "player": "Tre Tucker",
           "team": "Las Vegas Raiders",
           "opponent": "Cleveland Browns",
@@ -4523,7 +4536,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 15,
           "player": "Rhamondre Stevenson",
           "team": "New England Patriots",
           "opponent": "Cincinnati Bengals",
@@ -4536,7 +4549,7 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 16,
           "player": "Chuba Hubbard",
           "team": "Carolina Panthers",
           "opponent": "San Francisco",
@@ -4549,7 +4562,7 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 17,
           "player": "Taysom Hill",
           "team": "New Orleans Saints",
           "opponent": "Atlanta Falcons",
@@ -4562,7 +4575,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 18,
           "player": "Jalen Nailor",
           "team": "Minnesota Vikings",
           "opponent": "Green Bay",
@@ -4575,7 +4588,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 19,
           "player": "DJ Moore",
           "team": "Chicago Bears",
           "opponent": "Pittsburgh Steelers",
@@ -4588,7 +4601,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 20,
           "player": "James Conner",
           "team": "Arizona Cardinals",
           "opponent": "Jacksonville Jaguars",
@@ -4598,19 +4611,6 @@
             "Moderate 2024 production (6 TDs)",
             "Weak opponent defense (3.9 TDs/game allowed)",
             "Hot recent form (5 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "CeeDee Lamb",
-          "team": "Dallas Cowboys",
-          "opponent": "Philadelphia Eagles",
-          "probability": 0.432,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (6 TDs)",
-            "Weak opponent defense (3.3 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
           ]
         }
       ]
