@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-11-21T08:17:27.484Z",
+  "lastUpdated": "2025-11-22T08:15:01.883Z",
   "weeks": [
     {
       "week": 1,
@@ -4209,7 +4209,7 @@
     {
       "week": 12,
       "year": 2025,
-      "generatedAt": "2025-11-21T08:17:27.484Z",
+      "generatedAt": "2025-11-22T08:15:01.882Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -4304,51 +4304,51 @@
         },
         {
           "rank": 14,
+          "player": "Hunter Long",
+          "team": "Jacksonville Jaguars",
+          "opponent": "Arizona",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 15,
+          "player": "Elic Ayomanor",
+          "team": "Tennessee Titans",
+          "opponent": "Seattle",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 16,
           "player": "Mitchell Evans",
           "team": "Carolina Panthers",
           "opponent": "San Francisco",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 15,
+          "rank": 17,
           "player": "RJ Harvey",
           "team": "Denver Broncos",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 16,
+          "rank": 18,
           "player": "Hollywood Brown",
           "team": "Kansas City Chiefs",
           "opponent": "Indianapolis",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 17,
+          "rank": 19,
           "player": "Emeka Egbuka",
           "team": "Tampa Bay Buccaneers",
           "opponent": "LA Rams",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 18,
+          "rank": 20,
           "player": "Jake Ferguson",
           "team": "Dallas Cowboys",
           "opponent": "Philadelphia",
-          "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 19,
-          "player": "Tory Horton",
-          "team": "Seattle Seahawks",
-          "opponent": "Tennessee",
-          "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 20,
-          "player": "Tez Johnson",
-          "team": "Tampa Bay Buccaneers",
-          "opponent": "LA Rams",
           "basis": "Opp Pass TD/G"
         }
       ],
@@ -4576,19 +4576,6 @@
         },
         {
           "rank": 18,
-          "player": "Jalen Nailor",
-          "team": "Minnesota Vikings",
-          "opponent": "Green Bay",
-          "probability": 0.43200000000000005,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Moderate 2024 production (6 TDs)",
-            "Previous success vs opponent (1 TDs)",
-            "Weak opponent defense (3.2 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 19,
           "player": "DJ Moore",
           "team": "Chicago Bears",
           "opponent": "Pittsburgh Steelers",
@@ -4601,7 +4588,7 @@
           ]
         },
         {
-          "rank": 20,
+          "rank": 19,
           "player": "James Conner",
           "team": "Arizona Cardinals",
           "opponent": "Jacksonville Jaguars",
@@ -4611,6 +4598,19 @@
             "Moderate 2024 production (6 TDs)",
             "Weak opponent defense (3.9 TDs/game allowed)",
             "Hot recent form (5 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 20,
+          "player": "Derrick Henry",
+          "team": "Baltimore Ravens",
+          "opponent": "NY Jets",
+          "probability": 0.4213333333333334,
+          "confidence": 0.75,
+          "keyFactors": [
+            "Strong 2024 production (14 TDs)",
+            "Hot recent form (7 TDs in recent games)",
+            "Home field advantage"
           ]
         }
       ]
