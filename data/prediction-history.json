@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-11-22T08:15:01.883Z",
+  "lastUpdated": "2025-11-23T08:14:57.814Z",
   "weeks": [
     {
       "week": 1,
@@ -4209,7 +4209,7 @@
     {
       "week": 12,
       "year": 2025,
-      "generatedAt": "2025-11-22T08:15:01.882Z",
+      "generatedAt": "2025-11-23T08:14:57.813Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -4262,31 +4262,31 @@
         },
         {
           "rank": 8,
-          "player": "Tyler Warren",
-          "team": "Indianapolis Colts",
-          "opponent": "Kansas City",
-          "basis": "Rush TD - Rookie hotstreak"
-        },
-        {
-          "rank": 9,
           "player": "Caleb Williams",
           "team": "Chicago Bears",
           "opponent": "Pittsburgh",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "player": "Bhayshul Tuten",
           "team": "Jacksonville Jaguars",
           "opponent": "Arizona",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "player": "Bam Knight",
           "team": "Arizona Cardinals",
           "opponent": "Jacksonville",
           "basis": "Rush TD - Rookie hotstreak"
+        },
+        {
+          "rank": 11,
+          "player": "Tyler Warren",
+          "team": "Indianapolis Colts",
+          "opponent": "Kansas City",
+          "basis": "Pass TD - Rookie hotstreak"
         },
         {
           "rank": 12,

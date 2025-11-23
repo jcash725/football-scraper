@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/stat/opponent-passing-touchdowns-per-game",
-  "scrapedAt": "2025-11-22T08:14:26.122Z",
+  "scrapedAt": "2025-11-23T08:14:19.792Z",
   "note": "Sorted by Rank (desc)",
   "columns": [
     "Rank",
@@ -77,16 +77,6 @@
       "2024": 1.1,
       "2025": 1.8,
       "Rank": 24,
-      "Team": "New Orleans",
-      "Last 3": 1.3,
-      "Last 1": 0,
-      "Home": 2,
-      "Away": 1.6
-    },
-    {
-      "2024": 1.1,
-      "2025": 1.8,
-      "Rank": 24,
       "Team": "Detroit",
       "Last 3": 1.3,
       "Last 1": 0,
@@ -102,6 +92,16 @@
       "Last 1": 1,
       "Home": 2.2,
       "Away": 1.4
+    },
+    {
+      "2024": 1.1,
+      "2025": 1.8,
+      "Rank": 24,
+      "Team": "New Orleans",
+      "Last 3": 1.3,
+      "Last 1": 0,
+      "Home": 2,
+      "Away": 1.6
     },
     {
       "2024": 1.6,
@@ -144,6 +144,16 @@
       "Away": 1.2
     },
     {
+      "2024": 1.5,
+      "2025": 1.6,
+      "Rank": 15,
+      "Team": "Cleveland",
+      "Last 3": 1.3,
+      "Last 1": 0,
+      "Home": 0.5,
+      "Away": 2.3
+    },
+    {
       "2024": 1.6,
       "2025": 1.6,
       "Rank": 15,
@@ -184,14 +194,14 @@
       "Away": 1.6
     },
     {
-      "2024": 1.5,
-      "2025": 1.6,
-      "Rank": 15,
-      "Team": "Cleveland",
-      "Last 3": 1.3,
-      "Last 1": 0,
-      "Home": 0.5,
-      "Away": 2.3
+      "2024": 1.6,
+      "2025": 1.5,
+      "Rank": 12,
+      "Team": "Tennessee",
+      "Last 3": 2,
+      "Last 1": 1,
+      "Home": 1.6,
+      "Away": 1.4
     },
     {
       "2024": 1.5,
@@ -210,16 +220,6 @@
       "Team": "Seattle",
       "Last 3": 1.3,
       "Last 1": 2,
-      "Home": 1.6,
-      "Away": 1.4
-    },
-    {
-      "2024": 1.6,
-      "2025": 1.5,
-      "Rank": 12,
-      "Team": "Tennessee",
-      "Last 3": 2,
-      "Last 1": 1,
       "Home": 1.6,
       "Away": 1.4
     },

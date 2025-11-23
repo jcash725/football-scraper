@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-22T08:15:01.884Z",
+  "generatedAt": "2025-11-23T08:14:57.815Z",
   "currentModel": [
     {
       "Player": "Xavier Hutchinson",
@@ -86,18 +86,6 @@
       "Rookie Boost": "+3.2 (1.2 TD/game)"
     },
     {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Kansas City",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
       "Player": "Caleb Williams",
       "Team": "Chicago Bears",
       "Opponent": "Pittsburgh",
@@ -129,6 +117,18 @@
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
       "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Kansas City",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
@@ -634,10 +634,10 @@
       "Jacory Croskey-Merritt",
       "Tetairoa McMillan",
       "Christian McCaffrey",
-      "Tyler Warren",
       "Caleb Williams",
       "Bhayshul Tuten",
       "Bam Knight",
+      "Tyler Warren",
       "Jake Tonges",
       "Tyquan Thornton",
       "Hunter Long",
