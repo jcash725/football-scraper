@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/stat/opponent-passing-touchdowns-per-game",
-  "scrapedAt": "2025-11-26T08:17:02.064Z",
+  "scrapedAt": "2025-11-27T08:17:58.326Z",
   "note": "Sorted by Rank (desc)",
   "columns": [
     "Rank",
@@ -104,16 +104,6 @@
       "Away": 1.9
     },
     {
-      "2024": 1.4,
-      "2025": 1.7,
-      "Rank": 22,
-      "Team": "Pittsburgh",
-      "Last 3": 1.7,
-      "Last 1": 3,
-      "Home": 1.4,
-      "Away": 2
-    },
-    {
       "2024": 1.6,
       "2025": 1.7,
       "Rank": 22,
@@ -122,6 +112,16 @@
       "Last 1": 3,
       "Home": 1.5,
       "Away": 1.9
+    },
+    {
+      "2024": 1.4,
+      "2025": 1.7,
+      "Rank": 22,
+      "Team": "Pittsburgh",
+      "Last 3": 1.7,
+      "Last 1": 3,
+      "Home": 1.4,
+      "Away": 2
     },
     {
       "2024": 1.6,
@@ -194,16 +194,6 @@
       "Away": 2.1
     },
     {
-      "2024": 1.6,
-      "2025": 1.5,
-      "Rank": 11,
-      "Team": "Indianapolis",
-      "Last 3": 0.7,
-      "Last 1": 0,
-      "Home": 1.4,
-      "Away": 1.5
-    },
-    {
       "2024": 1.2,
       "2025": 1.5,
       "Rank": 11,
@@ -232,6 +222,16 @@
       "Last 1": 1,
       "Home": 1.6,
       "Away": 1.3
+    },
+    {
+      "2024": 1.6,
+      "2025": 1.5,
+      "Rank": 11,
+      "Team": "Indianapolis",
+      "Last 3": 0.7,
+      "Last 1": 0,
+      "Home": 1.4,
+      "Away": 1.5
     },
     {
       "2024": 1.4,

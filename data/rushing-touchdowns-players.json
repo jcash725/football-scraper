@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2025-11-26T08:17:02.264Z",
+  "scrapedAt": "2025-11-27T08:17:58.544Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -117,15 +117,15 @@
     },
     {
       "Rank": 16,
-      "Player": "Jordan Mason",
-      "Team": "Minnesota Vikings",
+      "Player": "De'Von Achane",
+      "Team": "Miami Dolphins",
       "Pos": "RB",
       "Value": 5
     },
     {
       "Rank": 16,
-      "Player": "De'Von Achane",
-      "Team": "Miami Dolphins",
+      "Player": "Jordan Mason",
+      "Team": "Minnesota Vikings",
       "Pos": "RB",
       "Value": 5
     },
@@ -327,16 +327,16 @@
     },
     {
       "Rank": 46,
-      "Player": "Breece Hall",
-      "Team": "New York Jets",
-      "Pos": "RB",
+      "Player": "Jayden Daniels",
+      "Team": "Washington Commanders",
+      "Pos": "QB",
       "Value": 2
     },
     {
       "Rank": 46,
-      "Player": "Jayden Daniels",
-      "Team": "Washington Commanders",
-      "Pos": "QB",
+      "Player": "Breece Hall",
+      "Team": "New York Jets",
+      "Pos": "RB",
       "Value": 2
     },
     {
@@ -418,15 +418,15 @@
     },
     {
       "Rank": 46,
-      "Player": "Ollie Gordon II",
-      "Team": "Miami Dolphins",
+      "Player": "Brian Robinson Jr.",
+      "Team": 49,
       "Pos": "RB",
       "Value": 2
     },
     {
       "Rank": 46,
-      "Player": "Brian Robinson Jr.",
-      "Team": 49,
+      "Player": "Ollie Gordon II",
+      "Team": "Miami Dolphins",
       "Pos": "RB",
       "Value": 2
     },
@@ -460,13 +460,6 @@
     },
     {
       "Rank": 62,
-      "Player": "Baker Mayfield",
-      "Team": "Tampa Bay Buccaneers",
-      "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 62,
       "Player": "Michael Carter",
       "Team": "Arizona Cardinals",
       "Pos": "RB",
@@ -474,9 +467,23 @@
     },
     {
       "Rank": 62,
+      "Player": "Baker Mayfield",
+      "Team": "Tampa Bay Buccaneers",
+      "Pos": "QB",
+      "Value": 1
+    },
+    {
+      "Rank": 62,
       "Player": "Miles Sanders",
       "Team": "Dallas Cowboys",
       "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 62,
+      "Player": "Samaje Perine",
+      "Team": "Cincinnati Bengals",
+      "Pos": "HB",
       "Value": 1
     },
     {
@@ -495,16 +502,16 @@
     },
     {
       "Rank": 62,
-      "Player": "Samaje Perine",
-      "Team": "Cincinnati Bengals",
-      "Pos": "HB",
+      "Player": "Jameis Winston",
+      "Team": "New York Giants",
+      "Pos": "QB",
       "Value": 1
     },
     {
       "Rank": 62,
-      "Player": "Jameis Winston",
-      "Team": "New York Giants",
-      "Pos": "QB",
+      "Player": "Taysom Hill",
+      "Team": "New Orleans Saints",
+      "Pos": "TE",
       "Value": 1
     },
     {
@@ -530,22 +537,15 @@
     },
     {
       "Rank": 62,
-      "Player": "Taysom Hill",
-      "Team": "New Orleans Saints",
-      "Pos": "TE",
+      "Player": "Isiah Pacheco",
+      "Team": "Kansas City Chiefs",
+      "Pos": "RB",
       "Value": 1
     },
     {
       "Rank": 62,
       "Player": "Aaron Jones",
       "Team": "Minnesota Vikings",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 62,
-      "Player": "Isiah Pacheco",
-      "Team": "Kansas City Chiefs",
       "Pos": "RB",
       "Value": 1
     },
@@ -586,13 +586,6 @@
     },
     {
       "Rank": 62,
-      "Player": "Cam Ward",
-      "Team": "Tennessee Titans",
-      "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 62,
       "Player": "DK Metcalf",
       "Team": "Pittsburgh Steelers",
       "Pos": "WR",
@@ -600,9 +593,23 @@
     },
     {
       "Rank": 62,
+      "Player": "Cam Ward",
+      "Team": "Tennessee Titans",
+      "Pos": "QB",
+      "Value": 1
+    },
+    {
+      "Rank": 62,
       "Player": "Ameer Abdullah",
       "Team": "Indianapolis Colts",
       "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 62,
+      "Player": "Davis Mills",
+      "Team": "Houston Texans",
+      "Pos": "QB",
       "Value": 1
     },
     {
@@ -616,13 +623,6 @@
       "Rank": 62,
       "Player": "Bryce Young",
       "Team": "Carolina Panthers",
-      "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 62,
-      "Player": "Davis Mills",
-      "Team": "Houston Texans",
       "Pos": "QB",
       "Value": 1
     },
@@ -642,6 +642,13 @@
     },
     {
       "Rank": 62,
+      "Player": "Elijah Moore",
+      "Team": "Buffalo Bills",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 62,
       "Player": "Puka Nacua",
       "Team": "Los Angeles Rams",
       "Pos": "WR",
@@ -651,13 +658,6 @@
       "Rank": 62,
       "Player": "Marvin Mims Jr.",
       "Team": "Denver Broncos",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 62,
-      "Player": "Elijah Moore",
-      "Team": "Buffalo Bills",
       "Pos": "WR",
       "Value": 1
     },
