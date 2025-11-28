@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-27T08:18:38.588Z",
+  "generatedAt": "2025-11-28T08:17:45.466Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -89,18 +89,6 @@
       "Rookie Boost": "+3.7 (1.7 TD/game)"
     },
     {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Houston",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
       "Player": "Caleb Williams",
       "Team": "Chicago Bears",
       "Opponent": "Philadelphia",
@@ -125,6 +113,18 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
+      "Player": "Bam Knight",
+      "Team": "Arizona Cardinals",
+      "Opponent": "Tampa Bay",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
       "Opponent": "LA Chargers",
@@ -135,6 +135,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Las Vegas Raiders vs LA Chargers - opponent allows 1.4 pass TDs/game",
       "Rookie Boost": "+3.7 (1.7 TD/game)"
+    },
+    {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Houston",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Jake Tonges",
@@ -161,33 +173,9 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Elic Ayomanor",
-      "Team": "Tennessee Titans",
-      "Opponent": "Jacksonville",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Mitchell Evans",
-      "Team": "Carolina Panthers",
-      "Opponent": "LA Rams",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "RJ Harvey",
-      "Team": "Denver Broncos",
-      "Opponent": "Washington",
+      "Player": "Isaac TeSlaa",
+      "Team": "Detroit Lions",
+      "Opponent": "Green Bay",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -202,7 +190,7 @@
       "Opponent": "Dallas",
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 4.933333333333334,
-      "Player TDs YTD": 4,
+      "Player TDs YTD": 5,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Kansas City Chiefs vs Dallas - opponent allows 1.6 pass TDs/game",
@@ -231,6 +219,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "49 vs Cleveland - opponent allows 1.5 pass TDs/game",
       "Rookie Boost": "+3.2 (1.2 TD/game)"
+    },
+    {
+      "Player": "RJ Harvey",
+      "Team": "Denver Broncos",
+      "Opponent": "Washington",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.5,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Denver Broncos vs Washington - opponent allows 1.5 pass TDs/game",
+      "Rookie Boost": "+3.0 (1.0 TD/game)"
     },
     {
       "Player": "Emeka Egbuka",
