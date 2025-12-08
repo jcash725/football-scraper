@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-07T08:15:18.359Z",
+  "generatedAt": "2025-12-08T08:20:11.425Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -89,9 +89,9 @@
       "Rookie Boost": "MASSIVE boost (1.2 TD/game)"
     },
     {
-      "Player": "Darren Waller",
-      "Team": "Miami Dolphins",
-      "Opponent": "NY Jets",
+      "Player": "Hollywood Brown",
+      "Team": "Kansas City Chiefs",
+      "Opponent": "Houston",
       "Player TDs YTD": 4,
       "Player 2025 TDs": 4,
       "Opponent Stat Value": 5.333333333333333,
@@ -99,18 +99,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.3 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.3 TD/game)"
-    },
-    {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Jacksonville",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Jaxson Dart",
@@ -137,16 +125,16 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Hollywood Brown",
-      "Team": "Kansas City Chiefs",
-      "Opponent": "Houston",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 5.033333333333333,
-      "Player TDs YTD": 5,
-      "Player 2025 TDs": 0,
+      "Player": "Bhayshul Tuten",
+      "Team": "Jacksonville Jaguars",
+      "Opponent": "Indianapolis",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Kansas City Chiefs vs Houston - opponent allows 1.7 pass TDs/game",
-      "Rookie Boost": "+3.3 (1.3 TD/game)"
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Jake Tonges",
@@ -173,9 +161,9 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Hunter Long",
-      "Team": "Jacksonville Jaguars",
-      "Opponent": "Indianapolis",
+      "Player": "Isaac TeSlaa",
+      "Team": "Detroit Lions",
+      "Opponent": "Dallas",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -185,9 +173,9 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Isaac TeSlaa",
-      "Team": "Detroit Lions",
-      "Opponent": "Dallas",
+      "Player": "Elic Ayomanor",
+      "Team": "Tennessee Titans",
+      "Opponent": "Cleveland",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -231,6 +219,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Dallas Cowboys vs Detroit - opponent allows 1.1 pass TDs/game",
       "Rookie Boost": "+3.5 (1.5 TD/game)"
+    },
+    {
+      "Player": "Darren Waller",
+      "Team": "Miami Dolphins",
+      "Opponent": "NY Jets",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.433333333333334,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Miami Dolphins vs NY Jets - opponent allows 1.1 pass TDs/game",
+      "Rookie Boost": "+3.3 (1.3 TD/game)"
     },
     {
       "Player": "Emeka Egbuka",
