@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/receiving-touchdowns",
-  "scrapedAt": "2025-12-09T08:18:09.449Z",
+  "scrapedAt": "2025-12-10T08:17:46.148Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -82,6 +82,13 @@
     },
     {
       "Rank": 11,
+      "Player": "Brock Bowers",
+      "Team": "Las Vegas Raiders",
+      "Pos": "TE",
+      "Value": 6
+    },
+    {
+      "Rank": 11,
       "Player": "Puka Nacua",
       "Team": "Los Angeles Rams",
       "Pos": "WR",
@@ -151,13 +158,6 @@
       "Value": 6
     },
     {
-      "Rank": 11,
-      "Player": "Brock Bowers",
-      "Team": "Las Vegas Raiders",
-      "Pos": "TE",
-      "Value": 6
-    },
-    {
       "Rank": 22,
       "Player": "Deebo Samuel",
       "Team": "Washington Commanders",
@@ -201,13 +201,6 @@
     },
     {
       "Rank": 22,
-      "Player": "Travis Kelce",
-      "Team": "Kansas City Chiefs",
-      "Pos": "TE",
-      "Value": 5
-    },
-    {
-      "Rank": 22,
       "Player": "Chris Olave",
       "Team": "New Orleans Saints",
       "Pos": "WR",
@@ -243,16 +236,16 @@
     },
     {
       "Rank": 22,
-      "Player": "Christian McCaffrey",
-      "Team": 49,
-      "Pos": "RB",
+      "Player": "Tory Horton",
+      "Team": "Seattle Seahawks",
+      "Pos": "WR",
       "Value": 5
     },
     {
       "Rank": 22,
-      "Player": "Tory Horton",
-      "Team": "Seattle Seahawks",
-      "Pos": "WR",
+      "Player": "Christian McCaffrey",
+      "Team": 49,
+      "Pos": "RB",
       "Value": 5
     },
     {
@@ -294,6 +287,13 @@
       "Rank": 22,
       "Player": "Hunter Henry",
       "Team": "New England Patriots",
+      "Pos": "TE",
+      "Value": 5
+    },
+    {
+      "Rank": 22,
+      "Player": "Travis Kelce",
+      "Team": "Kansas City Chiefs",
       "Pos": "TE",
       "Value": 5
     },
@@ -369,13 +369,6 @@
     },
     {
       "Rank": 44,
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Pos": "TE",
-      "Value": 4
-    },
-    {
-      "Rank": 44,
       "Player": "Marvin Harrison Jr.",
       "Team": "Arizona Cardinals",
       "Pos": "WR",
@@ -390,29 +383,8 @@
     },
     {
       "Rank": 44,
-      "Player": "Darren Waller",
-      "Team": "Miami Dolphins",
-      "Pos": "TE",
-      "Value": 4
-    },
-    {
-      "Rank": 44,
-      "Player": "Jake Tonges",
-      "Team": 49,
-      "Pos": "TE",
-      "Value": 4
-    },
-    {
-      "Rank": 44,
-      "Player": "Khalil Shakir",
-      "Team": "Buffalo Bills",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 44,
-      "Player": "AJ Barner",
-      "Team": "Seattle Seahawks",
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
       "Pos": "TE",
       "Value": 4
     },
@@ -425,7 +397,14 @@
     },
     {
       "Rank": 44,
-      "Player": "Keon Coleman",
+      "Player": "Darren Waller",
+      "Team": "Miami Dolphins",
+      "Pos": "TE",
+      "Value": 4
+    },
+    {
+      "Rank": 44,
+      "Player": "Khalil Shakir",
       "Team": "Buffalo Bills",
       "Pos": "WR",
       "Value": 4
@@ -435,6 +414,27 @@
       "Player": "Zach Ertz",
       "Team": "Washington Commanders",
       "Pos": "TE",
+      "Value": 4
+    },
+    {
+      "Rank": 44,
+      "Player": "Jake Tonges",
+      "Team": 49,
+      "Pos": "TE",
+      "Value": 4
+    },
+    {
+      "Rank": 44,
+      "Player": "AJ Barner",
+      "Team": "Seattle Seahawks",
+      "Pos": "TE",
+      "Value": 4
+    },
+    {
+      "Rank": 44,
+      "Player": "Keon Coleman",
+      "Team": "Buffalo Bills",
+      "Pos": "WR",
       "Value": 4
     },
     {
@@ -467,16 +467,16 @@
     },
     {
       "Rank": 66,
-      "Player": "Kyren Williams",
-      "Team": "Los Angeles Rams",
-      "Pos": "RB",
+      "Player": "Tyquan Thornton",
+      "Team": "Kansas City Chiefs",
+      "Pos": "WR",
       "Value": 3
     },
     {
       "Rank": 66,
-      "Player": "Tyquan Thornton",
-      "Team": "Kansas City Chiefs",
-      "Pos": "WR",
+      "Player": "Kyren Williams",
+      "Team": "Los Angeles Rams",
+      "Pos": "RB",
       "Value": 3
     },
     {
@@ -523,6 +523,13 @@
     },
     {
       "Rank": 66,
+      "Player": "DeVonta Smith",
+      "Team": "Philadelphia Eagles",
+      "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 66,
       "Player": "Jordan Addison",
       "Team": "Minnesota Vikings",
       "Pos": "WR",
@@ -530,9 +537,16 @@
     },
     {
       "Rank": 66,
-      "Player": "DeVonta Smith",
-      "Team": "Philadelphia Eagles",
+      "Player": "Tim Patrick",
+      "Team": "Jacksonville Jaguars",
       "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 66,
+      "Player": "Woody Marks",
+      "Team": "Houston Texans",
+      "Pos": "RB",
       "Value": 3
     },
     {
@@ -546,13 +560,6 @@
       "Rank": 66,
       "Player": "Xavier Hutchinson",
       "Team": "Houston Texans",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 66,
-      "Player": "Tim Patrick",
-      "Team": "Jacksonville Jaguars",
       "Pos": "WR",
       "Value": 3
     },
@@ -663,13 +670,6 @@
     },
     {
       "Rank": 66,
-      "Player": "Woody Marks",
-      "Team": "Houston Texans",
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 66,
       "Player": "Jakobi Meyers",
       "Team": "Jacksonville Jaguars",
       "Pos": "WR",
@@ -684,6 +684,20 @@
     },
     {
       "Rank": 97,
+      "Player": "Hunter Renfrow",
+      "Team": "Carolina Panthers",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 97,
+      "Player": "Olamide Zaccheaus",
+      "Team": "Chicago Bears",
+      "Pos": "WR",
+      "Value": 2
+    },
+    {
+      "Rank": 97,
       "Player": "Jaylen Warren",
       "Team": "Pittsburgh Steelers",
       "Pos": "RB",
@@ -691,22 +705,8 @@
     },
     {
       "Rank": 97,
-      "Player": "Terry McLaurin",
-      "Team": "Washington Commanders",
-      "Pos": "WR",
-      "Value": 2
-    },
-    {
-      "Rank": 97,
       "Player": "Travis Etienne Jr.",
       "Team": "Jacksonville Jaguars",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 97,
-      "Player": "Bijan Robinson",
-      "Team": "Atlanta Falcons",
       "Pos": "RB",
       "Value": 2
     }

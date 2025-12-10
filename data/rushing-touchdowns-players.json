@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2025-12-09T08:18:09.259Z",
+  "scrapedAt": "2025-12-10T08:17:45.910Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -103,15 +103,15 @@
     },
     {
       "Rank": 14,
-      "Player": "Travis Etienne Jr.",
-      "Team": "Jacksonville Jaguars",
+      "Player": "David Montgomery",
+      "Team": "Detroit Lions",
       "Pos": "RB",
       "Value": 7
     },
     {
       "Rank": 14,
-      "Player": "David Montgomery",
-      "Team": "Detroit Lions",
+      "Player": "Travis Etienne Jr.",
+      "Team": "Jacksonville Jaguars",
       "Pos": "RB",
       "Value": 7
     },
@@ -222,6 +222,13 @@
     },
     {
       "Rank": 31,
+      "Player": "Justin Fields",
+      "Team": "New York Jets",
+      "Pos": "QB",
+      "Value": 4
+    },
+    {
+      "Rank": 31,
       "Player": "Jaylen Warren",
       "Team": "Pittsburgh Steelers",
       "Pos": "RB",
@@ -231,13 +238,6 @@
       "Rank": 31,
       "Player": "Bo Nix",
       "Team": "Denver Broncos",
-      "Pos": "QB",
-      "Value": 4
-    },
-    {
-      "Rank": 31,
-      "Player": "Justin Fields",
-      "Team": "New York Jets",
       "Pos": "QB",
       "Value": 4
     },
@@ -411,6 +411,13 @@
     },
     {
       "Rank": 55,
+      "Player": "Woody Marks",
+      "Team": "Houston Texans",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 55,
       "Player": "Brian Robinson Jr.",
       "Team": 49,
       "Pos": "RB",
@@ -428,13 +435,6 @@
       "Player": "Drake Maye",
       "Team": "New England Patriots",
       "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 55,
-      "Player": "Woody Marks",
-      "Team": "Houston Texans",
-      "Pos": "RB",
       "Value": 2
     },
     {
@@ -474,13 +474,6 @@
     },
     {
       "Rank": 65,
-      "Player": "Joe Flacco",
-      "Team": "Cincinnati Bengals",
-      "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 65,
       "Player": "Bryce Young",
       "Team": "Carolina Panthers",
       "Pos": "QB",
@@ -502,6 +495,20 @@
     },
     {
       "Rank": 65,
+      "Player": "Marcus Mariota",
+      "Team": "Washington Commanders",
+      "Pos": "QB",
+      "Value": 1
+    },
+    {
+      "Rank": 65,
+      "Player": "Tyrod Taylor",
+      "Team": "New York Jets",
+      "Pos": "QB",
+      "Value": 1
+    },
+    {
+      "Rank": 65,
       "Player": "Keaton Mitchell",
       "Team": "Baltimore Ravens",
       "Pos": "RB",
@@ -512,20 +519,6 @@
       "Player": "Elijah Moore",
       "Team": "Denver Broncos",
       "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 65,
-      "Player": "Taysom Hill",
-      "Team": "New Orleans Saints",
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 65,
-      "Player": "Marcus Mariota",
-      "Team": "Washington Commanders",
-      "Pos": "QB",
       "Value": 1
     },
     {
@@ -565,13 +558,6 @@
     },
     {
       "Rank": 65,
-      "Player": "Puka Nacua",
-      "Team": "Los Angeles Rams",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 65,
       "Player": "DK Metcalf",
       "Team": "Pittsburgh Steelers",
       "Pos": "WR",
@@ -579,8 +565,22 @@
     },
     {
       "Rank": 65,
+      "Player": "Puka Nacua",
+      "Team": "Los Angeles Rams",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 65,
       "Player": "Malik Davis",
       "Team": "Dallas Cowboys",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 65,
+      "Player": "Bucky Irving",
+      "Team": "Tampa Bay Buccaneers",
       "Pos": "RB",
       "Value": 1
     },
@@ -600,8 +600,8 @@
     },
     {
       "Rank": 65,
-      "Player": "Bucky Irving",
-      "Team": "Tampa Bay Buccaneers",
+      "Player": "Raheim Sanders",
+      "Team": "Cleveland Browns",
       "Pos": "RB",
       "Value": 1
     },
@@ -621,9 +621,9 @@
     },
     {
       "Rank": 65,
-      "Player": "Raheim Sanders",
-      "Team": "Cleveland Browns",
-      "Pos": "RB",
+      "Player": "Aaron Rodgers",
+      "Team": "Pittsburgh Steelers",
+      "Pos": "QB",
       "Value": 1
     },
     {
@@ -656,22 +656,15 @@
     },
     {
       "Rank": 65,
-      "Player": "Tyrod Taylor",
-      "Team": "New York Jets",
-      "Pos": "QB",
+      "Player": "Ameer Abdullah",
+      "Team": "Indianapolis Colts",
+      "Pos": "RB",
       "Value": 1
     },
     {
       "Rank": 65,
       "Player": "Devin Neal",
       "Team": "New Orleans Saints",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 65,
-      "Player": "Ameer Abdullah",
-      "Team": "Indianapolis Colts",
       "Pos": "RB",
       "Value": 1
     },
@@ -684,16 +677,16 @@
     },
     {
       "Rank": 65,
-      "Player": "Michael Penix Jr.",
-      "Team": "Atlanta Falcons",
-      "Pos": "QB",
+      "Player": "Brittain Brown",
+      "Team": "Chicago Bears",
+      "Pos": "RB",
       "Value": 1
     },
     {
       "Rank": 65,
-      "Player": "Brittain Brown",
-      "Team": "Chicago Bears",
-      "Pos": "RB",
+      "Player": "Michael Penix Jr.",
+      "Team": "Atlanta Falcons",
+      "Pos": "QB",
       "Value": 1
     },
     {
@@ -707,6 +700,13 @@
       "Rank": 65,
       "Player": "Antonio Gibson",
       "Team": "New England Patriots",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 65,
+      "Player": "Jeremy McNichols",
+      "Team": "Washington Commanders",
       "Pos": "RB",
       "Value": 1
     }
