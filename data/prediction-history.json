@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-12-10T08:18:25.891Z",
+  "lastUpdated": "2025-12-11T08:19:25.468Z",
   "weeks": [
     {
       "week": 1,
@@ -5436,7 +5436,7 @@
     {
       "week": 15,
       "year": 2025,
-      "generatedAt": "2025-12-10T08:18:25.891Z",
+      "generatedAt": "2025-12-11T08:19:25.468Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -5647,6 +5647,19 @@
         },
         {
           "rank": 6,
+          "player": "Rashod Bateman",
+          "team": "Baltimore Ravens",
+          "opponent": "Cincinnati Bengals",
+          "probability": 0.5853333333333334,
+          "confidence": 0.9,
+          "keyFactors": [
+            "Strong 2024 production (11 TDs)",
+            "Previous success vs opponent (2 TDs)",
+            "Weak opponent defense (4.5 TDs/game allowed)"
+          ]
+        },
+        {
+          "rank": 7,
           "player": "Jalen Hurts",
           "team": "Philadelphia Eagles",
           "opponent": "Las Vegas",
@@ -5659,7 +5672,7 @@
           ]
         },
         {
-          "rank": 7,
+          "rank": 8,
           "player": "Chuba Hubbard",
           "team": "Carolina Panthers",
           "opponent": "New Orleans",
@@ -5672,7 +5685,7 @@
           ]
         },
         {
-          "rank": 8,
+          "rank": 9,
           "player": "Drake London",
           "team": "Atlanta Falcons",
           "opponent": "Tampa Bay",
@@ -5685,7 +5698,7 @@
           ]
         },
         {
-          "rank": 9,
+          "rank": 10,
           "player": "DeVonta Smith",
           "team": "Philadelphia Eagles",
           "opponent": "Las Vegas",
@@ -5698,7 +5711,7 @@
           ]
         },
         {
-          "rank": 10,
+          "rank": 11,
           "player": "Mark Andrews",
           "team": "Baltimore Ravens",
           "opponent": "Cincinnati Bengals",
@@ -5711,7 +5724,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 12,
           "player": "Courtland Sutton",
           "team": "Denver Broncos",
           "opponent": "Green Bay",
@@ -5724,7 +5737,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 13,
           "player": "Kayshon Boutte",
           "team": "New England Patriots",
           "opponent": "Buffalo Bills",
@@ -5737,7 +5750,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 14,
           "player": "Ladd McConkey",
           "team": "Los Angeles Chargers",
           "opponent": "Kansas City",
@@ -5750,7 +5763,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 15,
           "player": "Saquon Barkley",
           "team": "Philadelphia Eagles",
           "opponent": "Las Vegas",
@@ -5763,7 +5776,7 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 16,
           "player": "Rachaad White",
           "team": "Tampa Bay Buccaneers",
           "opponent": "Atlanta Falcons",
@@ -5776,7 +5789,7 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 17,
           "player": "De'Von Achane",
           "team": "Miami Dolphins",
           "opponent": "Pittsburgh Steelers",
@@ -5789,7 +5802,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 18,
           "player": "James Cook",
           "team": "Buffalo Bills",
           "opponent": "New England",
@@ -5802,7 +5815,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 19,
           "player": "Rhamondre Stevenson",
           "team": "New England Patriots",
           "opponent": "Buffalo Bills",
@@ -5815,7 +5828,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 20,
           "player": "Pat Freiermuth",
           "team": "Pittsburgh Steelers",
           "opponent": "Miami Dolphins",
@@ -5825,19 +5838,6 @@
             "Moderate 2024 production (7 TDs)",
             "Weak opponent defense (3.1 TDs/game allowed)",
             "Hot recent form (5 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "Bijan Robinson",
-          "team": "Atlanta Falcons",
-          "opponent": "Tampa Bay",
-          "probability": 0.45066666666666666,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Moderate 2024 production (7 TDs)",
-            "Previous success vs opponent (1 TDs)",
-            "Weak opponent defense (3.7 TDs/game allowed)"
           ]
         }
       ]
