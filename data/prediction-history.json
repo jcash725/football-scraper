@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-12-13T08:15:23.218Z",
+  "lastUpdated": "2025-12-14T08:16:07.540Z",
   "weeks": [
     {
       "week": 1,
@@ -5436,7 +5436,7 @@
     {
       "week": 15,
       "year": 2025,
-      "generatedAt": "2025-12-13T08:15:23.217Z",
+      "generatedAt": "2025-12-14T08:16:07.540Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -5475,107 +5475,107 @@
         },
         {
           "rank": 6,
+          "player": "Darren Waller",
+          "team": "Miami Dolphins",
+          "opponent": "Pittsburgh",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 7,
           "player": "Emeka Egbuka",
           "team": "Tampa Bay Buccaneers",
           "opponent": "Atlanta",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 7,
+          "rank": 8,
+          "player": "Christian McCaffrey",
+          "team": "San Francisco 49ers",
+          "opponent": "Tennessee",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 9,
           "player": "Tyler Warren",
           "team": "Indianapolis Colts",
           "opponent": "Seattle",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 8,
+          "rank": 10,
           "player": "Caleb Williams",
           "team": "Chicago Bears",
           "opponent": "Cleveland",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 9,
+          "rank": 11,
           "player": "Bhayshul Tuten",
           "team": "Jacksonville Jaguars",
           "opponent": "NY Jets",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 10,
+          "rank": 12,
           "player": "Omarion Hampton",
           "team": "Los Angeles Chargers",
           "opponent": "Kansas City",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 11,
+          "rank": 13,
           "player": "Tetairoa McMillan",
           "team": "Carolina Panthers",
           "opponent": "New Orleans",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 12,
+          "rank": 14,
           "player": "Tez Johnson",
           "team": "Tampa Bay Buccaneers",
           "opponent": "Atlanta",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 13,
+          "rank": 15,
           "player": "Jake Tonges",
           "team": "San Francisco 49ers",
           "opponent": "Tennessee",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 14,
+          "rank": 16,
           "player": "Tyquan Thornton",
           "team": "Kansas City Chiefs",
           "opponent": "LA Chargers",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 15,
+          "rank": 17,
           "player": "Isaac TeSlaa",
           "team": "Detroit Lions",
           "opponent": "LA Rams",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 16,
+          "rank": 18,
           "player": "Elic Ayomanor",
           "team": "Tennessee Titans",
           "opponent": "San Francisco",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 17,
+          "rank": 19,
           "player": "RJ Harvey",
           "team": "Denver Broncos",
           "opponent": "Green Bay",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 18,
+          "rank": 20,
           "player": "Jake Ferguson",
           "team": "Dallas Cowboys",
           "opponent": "Minnesota",
-          "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 19,
-          "player": "Christian McCaffrey",
-          "team": 49,
-          "opponent": "Tennessee",
-          "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 20,
-          "player": "Hollywood Brown",
-          "team": "Kansas City Chiefs",
-          "opponent": "LA Chargers",
           "basis": "Opp Pass TD/G"
         }
       ],
