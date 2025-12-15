@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-14T08:16:07.542Z",
+  "generatedAt": "2025-12-15T08:20:21.877Z",
   "currentModel": [
     {
       "Player": "Xavier Hutchinson",
@@ -50,30 +50,6 @@
       "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
     },
     {
-      "Player": "Jacory Croskey-Merritt",
-      "Team": "Washington Commanders",
-      "Opponent": "NY Giants",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5.333333333333333,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.3 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.3 TD/game)"
-    },
-    {
-      "Player": "Darren Waller",
-      "Team": "Miami Dolphins",
-      "Opponent": "Pittsburgh",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5.333333333333333,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.3 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.3 TD/game)"
-    },
-    {
       "Player": "Emeka Egbuka",
       "Team": "Tampa Bay Buccaneers",
       "Opponent": "Atlanta",
@@ -96,18 +72,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.2 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.2 TD/game)"
-    },
-    {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Seattle",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Caleb Williams",
@@ -146,6 +110,18 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
+      "Player": "Bam Knight",
+      "Team": "Arizona Cardinals",
+      "Opponent": "Houston",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
       "Player": "Tetairoa McMillan",
       "Team": "Carolina Panthers",
       "Opponent": "New Orleans",
@@ -156,6 +132,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Carolina Panthers vs New Orleans - opponent allows 1.1 pass TDs/game",
       "Rookie Boost": "+4.0 (2.0 TD/game)"
+    },
+    {
+      "Player": "Quinshon Judkins",
+      "Team": "Cleveland Browns",
+      "Opponent": "Chicago",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 4.866666666666667,
+      "Player TDs YTD": 7,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Cleveland Browns vs Chicago - opponent allows 1.2 rush TDs/game",
+      "Rookie Boost": "+3.7 (1.7 TD/game)"
     },
     {
       "Player": "Tez Johnson",
@@ -173,18 +161,6 @@
       "Player": "Jake Tonges",
       "Team": "San Francisco 49ers",
       "Opponent": "Tennessee",
-      "Player TDs YTD": 3,
-      "Player 2025 TDs": 3,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Tyquan Thornton",
-      "Team": "Kansas City Chiefs",
-      "Opponent": "LA Chargers",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
@@ -240,6 +216,30 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Dallas Cowboys vs Minnesota - opponent allows 1.4 pass TDs/game",
       "Rookie Boost": "+3.5 (1.5 TD/game)"
+    },
+    {
+      "Player": "Hollywood Brown",
+      "Team": "Kansas City Chiefs",
+      "Opponent": "LA Chargers",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.7333333333333325,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Kansas City Chiefs vs LA Chargers - opponent allows 1.4 pass TDs/game",
+      "Rookie Boost": "+3.3 (1.3 TD/game)"
+    },
+    {
+      "Player": "Darren Waller",
+      "Team": "Miami Dolphins",
+      "Opponent": "Pittsburgh",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.7333333333333325,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Miami Dolphins vs Pittsburgh - opponent allows 1.4 pass TDs/game",
+      "Rookie Boost": "+3.3 (1.3 TD/game)"
     }
   ],
   "mlModel": [
@@ -313,7 +313,7 @@
         "Weak opponent defense (2.8 TDs/game allowed)"
       ],
       "mlRank": 4,
-      "playerTDsYTD": 8,
+      "playerTDsYTD": 10,
       "actual2024TDs": 13,
       "actual2024Games": 9,
       "vsOpponentTDs": 1,
@@ -427,7 +427,7 @@
         "Weak opponent defense (4.5 TDs/game allowed)"
       ],
       "mlRank": 10,
-      "playerTDsYTD": 1,
+      "playerTDsYTD": 5,
       "actual2024TDs": 11,
       "actual2024Games": 10,
       "vsOpponentTDs": 1,
@@ -446,7 +446,7 @@
         "Hot recent form (6 TDs in recent games)"
       ],
       "mlRank": 11,
-      "playerTDsYTD": 5,
+      "playerTDsYTD": 6,
       "actual2024TDs": 8,
       "actual2024Games": 7,
       "vsOpponentTDs": 0,
@@ -503,7 +503,7 @@
         "Hot recent form (8 TDs in recent games)"
       ],
       "mlRank": 14,
-      "playerTDsYTD": 5,
+      "playerTDsYTD": 6,
       "actual2024TDs": 8,
       "actual2024Games": 4,
       "vsOpponentTDs": 0,
@@ -560,7 +560,7 @@
         "Weak opponent defense (3.7 TDs/game allowed)"
       ],
       "mlRank": 17,
-      "playerTDsYTD": 8,
+      "playerTDsYTD": 10,
       "actual2024TDs": 10,
       "actual2024Games": 7,
       "vsOpponentTDs": 1,
@@ -631,22 +631,22 @@
       "Ashton Jeanty",
       "Kenneth Gainwell",
       "Woody Marks",
-      "Jacory Croskey-Merritt",
-      "Darren Waller",
       "Emeka Egbuka",
       "Christian McCaffrey",
-      "Tyler Warren",
       "Caleb Williams",
       "Bhayshul Tuten",
       "Omarion Hampton",
+      "Bam Knight",
       "Tetairoa McMillan",
+      "Quinshon Judkins",
       "Tez Johnson",
       "Jake Tonges",
-      "Tyquan Thornton",
       "Isaac TeSlaa",
       "Elic Ayomanor",
       "RJ Harvey",
-      "Jake Ferguson"
+      "Jake Ferguson",
+      "Hollywood Brown",
+      "Darren Waller"
     ],
     "onlyInML": [
       "Ja'Marr Chase",
