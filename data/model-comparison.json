@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-16T08:19:12.221Z",
+  "generatedAt": "2025-12-17T08:18:56.253Z",
   "currentModel": [
     {
       "Player": "Xavier Hutchinson",
@@ -86,18 +86,6 @@
       "Rookie Boost": "MASSIVE boost (1.2 TD/game)"
     },
     {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "San Francisco",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
       "Player": "Caleb Williams",
       "Team": "Chicago Bears",
       "Opponent": "Green Bay",
@@ -125,18 +113,6 @@
       "Player": "Omarion Hampton",
       "Team": "Los Angeles Chargers",
       "Opponent": "Dallas",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Bam Knight",
-      "Team": "Arizona Cardinals",
-      "Opponent": "Atlanta",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -240,6 +216,30 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Kansas City Chiefs vs Tennessee - opponent allows 1.6 pass TDs/game",
       "Rookie Boost": "+3.3 (1.3 TD/game)"
+    },
+    {
+      "Player": "Jake Ferguson",
+      "Team": "Dallas Cowboys",
+      "Opponent": "LA Chargers",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.9,
+      "Player TDs YTD": 7,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Dallas Cowboys vs LA Chargers - opponent allows 1.4 pass TDs/game",
+      "Rookie Boost": "+3.5 (1.5 TD/game)"
+    },
+    {
+      "Player": "Quinshon Judkins",
+      "Team": "Cleveland Browns",
+      "Opponent": "Buffalo",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 4.566666666666667,
+      "Player TDs YTD": 7,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Cleveland Browns vs Buffalo - opponent allows 0.9 rush TDs/game",
+      "Rookie Boost": "+3.7 (1.7 TD/game)"
     }
   ],
   "mlModel": [
@@ -320,25 +320,6 @@
       "basis": "2024 Data: 17 TDs in 11 games"
     },
     {
-      "player": "Amon-Ra St. Brown",
-      "team": "Detroit Lions",
-      "opponent": "Pittsburgh Steelers",
-      "position": "WR",
-      "mlProbability": 0.5253333333333334,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (11 TDs)",
-        "Weak opponent defense (3.6 TDs/game allowed)",
-        "Hot recent form (6 TDs in recent games)"
-      ],
-      "mlRank": 5,
-      "playerTDsYTD": 11,
-      "actual2024TDs": 11,
-      "actual2024Games": 10,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 11 TDs in 10 games"
-    },
-    {
       "player": "Mark Andrews",
       "team": "Baltimore Ravens",
       "opponent": "New England",
@@ -350,8 +331,27 @@
         "Weak opponent defense (3.7 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
+      "mlRank": 5,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 11,
+      "actual2024Games": 10,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 11 TDs in 10 games"
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "team": "Detroit Lions",
+      "opponent": "Pittsburgh Steelers",
+      "position": "WR",
+      "mlProbability": 0.5253333333333334,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (11 TDs)",
+        "Weak opponent defense (3.6 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
       "mlRank": 6,
-      "playerTDsYTD": 5,
+      "playerTDsYTD": 11,
       "actual2024TDs": 11,
       "actual2024Games": 10,
       "vsOpponentTDs": 0,
@@ -484,7 +484,7 @@
         "Weak opponent defense (3.2 TDs/game allowed)"
       ],
       "mlRank": 13,
-      "playerTDsYTD": 5,
+      "playerTDsYTD": 1,
       "actual2024TDs": 6,
       "actual2024Games": 5,
       "vsOpponentTDs": 1,
@@ -605,23 +605,23 @@
       "basis": "2024 Data: 6 TDs in 5 games"
     },
     {
-      "player": "Marvin Mims Jr.",
-      "team": "Denver Broncos",
-      "opponent": "Jacksonville Jaguars",
-      "position": "WR",
+      "player": "James Conner",
+      "team": "Arizona Cardinals",
+      "opponent": "Atlanta Falcons",
+      "position": "RB",
       "mlProbability": 0.432,
       "mlConfidence": 0.8,
       "keyFactors": [
         "Moderate 2024 production (6 TDs)",
-        "Weak opponent defense (3.9 TDs/game allowed)",
-        "Hot recent form (6 TDs in recent games)"
+        "Weak opponent defense (3.5 TDs/game allowed)",
+        "Hot recent form (5 TDs in recent games)"
       ],
       "mlRank": 20,
       "playerTDsYTD": 1,
       "actual2024TDs": 6,
-      "actual2024Games": 4,
+      "actual2024Games": 6,
       "vsOpponentTDs": 0,
-      "basis": "2024 Data: 6 TDs in 4 games"
+      "basis": "2024 Data: 6 TDs in 6 games"
     }
   ],
   "agreement": 0,
@@ -634,11 +634,9 @@
       "Tetairoa McMillan",
       "Emeka Egbuka",
       "Christian McCaffrey",
-      "Tyler Warren",
       "Caleb Williams",
       "Bhayshul Tuten",
       "Omarion Hampton",
-      "Bam Knight",
       "Darren Waller",
       "Tez Johnson",
       "Jake Tonges",
@@ -646,15 +644,17 @@
       "Isaac TeSlaa",
       "Elic Ayomanor",
       "RJ Harvey",
-      "Hollywood Brown"
+      "Hollywood Brown",
+      "Jake Ferguson",
+      "Quinshon Judkins"
     ],
     "onlyInML": [
       "Terry McLaurin",
       "Derrick Henry",
       "Zach Ertz",
       "Ja'Marr Chase",
-      "Amon-Ra St. Brown",
       "Mark Andrews",
+      "Amon-Ra St. Brown",
       "De'Von Achane",
       "Courtland Sutton",
       "Sam LaPorta",
@@ -668,7 +668,7 @@
       "Drake London",
       "Tee Higgins",
       "Jonathan Taylor",
-      "Marvin Mims Jr."
+      "James Conner"
     ],
     "rankingDifferences": []
   }
