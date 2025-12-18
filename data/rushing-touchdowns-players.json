@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2025-12-17T08:18:19.200Z",
+  "scrapedAt": "2025-12-18T08:17:44.716Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -47,15 +47,15 @@
     },
     {
       "Rank": 5,
-      "Player": "James Cook",
-      "Team": "Buffalo Bills",
+      "Player": "Javonte Williams",
+      "Team": "Dallas Cowboys",
       "Pos": "RB",
       "Value": 10
     },
     {
       "Rank": 5,
-      "Player": "Javonte Williams",
-      "Team": "Dallas Cowboys",
+      "Player": "James Cook",
+      "Team": "Buffalo Bills",
       "Pos": "RB",
       "Value": 10
     },
@@ -201,13 +201,6 @@
     },
     {
       "Rank": 28,
-      "Player": "Jacory Croskey-Merritt",
-      "Team": "Washington Commanders",
-      "Pos": "RB",
-      "Value": 5
-    },
-    {
-      "Rank": 28,
       "Player": "Kyle Monangai",
       "Team": "Chicago Bears",
       "Pos": "RB",
@@ -218,6 +211,13 @@
       "Player": "Daniel Jones",
       "Team": "Indianapolis Colts",
       "Pos": "QB",
+      "Value": 5
+    },
+    {
+      "Rank": 28,
+      "Player": "Jacory Croskey-Merritt",
+      "Team": "Washington Commanders",
+      "Pos": "RB",
       "Value": 5
     },
     {
@@ -320,16 +320,16 @@
     },
     {
       "Rank": 35,
-      "Player": "Bhayshul Tuten",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "RB",
+      "Player": "Bo Nix",
+      "Team": "Denver Broncos",
+      "Pos": "QB",
       "Value": 4
     },
     {
       "Rank": 35,
-      "Player": "Bo Nix",
-      "Team": "Denver Broncos",
-      "Pos": "QB",
+      "Player": "Bhayshul Tuten",
+      "Team": "Jacksonville Jaguars",
+      "Pos": "RB",
       "Value": 4
     },
     {
@@ -390,15 +390,15 @@
     },
     {
       "Rank": 47,
-      "Player": "Emanuel Wilson",
-      "Team": "Green Bay Packers",
+      "Player": "Nick Chubb",
+      "Team": "Houston Texans",
       "Pos": "RB",
       "Value": 3
     },
     {
       "Rank": 47,
-      "Player": "Nick Chubb",
-      "Team": "Houston Texans",
+      "Player": "Emanuel Wilson",
+      "Team": "Green Bay Packers",
       "Pos": "RB",
       "Value": 3
     },
@@ -411,15 +411,15 @@
     },
     {
       "Rank": 57,
-      "Player": "Woody Marks",
-      "Team": "Houston Texans",
+      "Player": "Brian Robinson Jr.",
+      "Team": 49,
       "Pos": "RB",
       "Value": 2
     },
     {
       "Rank": 57,
-      "Player": "Brian Robinson Jr.",
-      "Team": 49,
+      "Player": "Woody Marks",
+      "Team": "Houston Texans",
       "Pos": "RB",
       "Value": 2
     },
@@ -460,15 +460,15 @@
     },
     {
       "Rank": 57,
-      "Player": "Dak Prescott",
-      "Team": "Dallas Cowboys",
+      "Player": "Tyler Shough",
+      "Team": "New Orleans Saints",
       "Pos": "QB",
       "Value": 2
     },
     {
       "Rank": 57,
-      "Player": "Tyler Shough",
-      "Team": "New Orleans Saints",
+      "Player": "Dak Prescott",
+      "Team": "Dallas Cowboys",
       "Pos": "QB",
       "Value": 2
     },
@@ -478,6 +478,13 @@
       "Team": "Dallas Cowboys",
       "Pos": "RB",
       "Value": 2
+    },
+    {
+      "Rank": 68,
+      "Player": "Samaje Perine",
+      "Team": "Cincinnati Bengals",
+      "Pos": "HB",
+      "Value": 1
     },
     {
       "Rank": 68,
@@ -495,16 +502,16 @@
     },
     {
       "Rank": 68,
-      "Player": "Samaje Perine",
-      "Team": "Cincinnati Bengals",
-      "Pos": "HB",
+      "Player": "Jaret Patterson",
+      "Team": "Los Angeles Chargers",
+      "Pos": "RB",
       "Value": 1
     },
     {
       "Rank": 68,
-      "Player": "Jaret Patterson",
-      "Team": "Los Angeles Chargers",
-      "Pos": "RB",
+      "Player": "Shedeur Sanders",
+      "Team": "Cleveland Browns",
+      "Pos": "QB",
       "Value": 1
     },
     {
@@ -526,13 +533,6 @@
       "Player": "Ty Johnson",
       "Team": "Buffalo Bills",
       "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 68,
-      "Player": "Shedeur Sanders",
-      "Team": "Cleveland Browns",
-      "Pos": "QB",
       "Value": 1
     },
     {
@@ -565,13 +565,6 @@
     },
     {
       "Rank": 68,
-      "Player": "Greg Dortch",
-      "Team": "Arizona Cardinals",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 68,
       "Player": "Ameer Abdullah",
       "Team": "Indianapolis Colts",
       "Pos": "RB",
@@ -581,6 +574,20 @@
       "Rank": 68,
       "Player": "Brittain Brown",
       "Team": "Chicago Bears",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 68,
+      "Player": "Greg Dortch",
+      "Team": "Arizona Cardinals",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 68,
+      "Player": "Dare Ogunbowale",
+      "Team": "Houston Texans",
       "Pos": "RB",
       "Value": 1
     },
@@ -607,20 +614,6 @@
     },
     {
       "Rank": 68,
-      "Player": "Dare Ogunbowale",
-      "Team": "Houston Texans",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 68,
-      "Player": "Elijah Moore",
-      "Team": "Buffalo Bills",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 68,
       "Player": "C.J. Ham",
       "Team": "Minnesota Vikings",
       "Pos": "FB",
@@ -631,6 +624,13 @@
       "Player": "Jeremy McNichols",
       "Team": "Washington Commanders",
       "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 68,
+      "Player": "Elijah Moore",
+      "Team": "Buffalo Bills",
+      "Pos": "WR",
       "Value": 1
     },
     {

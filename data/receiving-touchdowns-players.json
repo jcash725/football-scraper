@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/receiving-touchdowns",
-  "scrapedAt": "2025-12-17T08:18:19.402Z",
+  "scrapedAt": "2025-12-18T08:17:44.942Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -166,15 +166,15 @@
     },
     {
       "Rank": 14,
-      "Player": "Rome Odunze",
-      "Team": "Chicago Bears",
+      "Player": "Courtland Sutton",
+      "Team": "Denver Broncos",
       "Pos": "WR",
       "Value": 6
     },
     {
       "Rank": 14,
-      "Player": "Courtland Sutton",
-      "Team": "Denver Broncos",
+      "Player": "Rome Odunze",
+      "Team": "Chicago Bears",
       "Pos": "WR",
       "Value": 6
     },
@@ -271,15 +271,15 @@
     },
     {
       "Rank": 31,
-      "Player": "Travis Etienne Jr.",
-      "Team": "Jacksonville Jaguars",
+      "Player": "Christian McCaffrey",
+      "Team": 49,
       "Pos": "RB",
       "Value": 5
     },
     {
       "Rank": 31,
-      "Player": "Christian McCaffrey",
-      "Team": 49,
+      "Player": "Travis Etienne Jr.",
+      "Team": "Jacksonville Jaguars",
       "Pos": "RB",
       "Value": 5
     },
@@ -362,6 +362,13 @@
     },
     {
       "Rank": 49,
+      "Player": "Harold Fannin Jr.",
+      "Team": "Cleveland Browns",
+      "Pos": "TE",
+      "Value": 4
+    },
+    {
+      "Rank": 49,
       "Player": "Khalil Shakir",
       "Team": "Buffalo Bills",
       "Pos": "WR",
@@ -369,9 +376,9 @@
     },
     {
       "Rank": 49,
-      "Player": "Harold Fannin Jr.",
-      "Team": "Cleveland Browns",
-      "Pos": "TE",
+      "Player": "Marvin Harrison Jr.",
+      "Team": "Arizona Cardinals",
+      "Pos": "WR",
       "Value": 4
     },
     {
@@ -383,8 +390,8 @@
     },
     {
       "Rank": 49,
-      "Player": "Marvin Harrison Jr.",
-      "Team": "Arizona Cardinals",
+      "Player": "Isaac TeSlaa",
+      "Team": "Detroit Lions",
       "Pos": "WR",
       "Value": 4
     },
@@ -439,16 +446,16 @@
     },
     {
       "Rank": 49,
-      "Player": "David Njoku",
-      "Team": "Cleveland Browns",
-      "Pos": "TE",
+      "Player": "RJ Harvey",
+      "Team": "Denver Broncos",
+      "Pos": "RB",
       "Value": 4
     },
     {
       "Rank": 49,
-      "Player": "RJ Harvey",
-      "Team": "Denver Broncos",
-      "Pos": "RB",
+      "Player": "David Njoku",
+      "Team": "Cleveland Browns",
+      "Pos": "TE",
       "Value": 4
     },
     {
@@ -488,13 +495,6 @@
     },
     {
       "Rank": 49,
-      "Player": "Isaac TeSlaa",
-      "Team": "Detroit Lions",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 49,
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
       "Pos": "RB",
@@ -502,15 +502,15 @@
     },
     {
       "Rank": 49,
-      "Player": "AJ Barner",
-      "Team": "Seattle Seahawks",
+      "Player": "Pat Freiermuth",
+      "Team": "Pittsburgh Steelers",
       "Pos": "TE",
       "Value": 4
     },
     {
       "Rank": 49,
-      "Player": "Pat Freiermuth",
-      "Team": "Pittsburgh Steelers",
+      "Player": "AJ Barner",
+      "Team": "Seattle Seahawks",
       "Pos": "TE",
       "Value": 4
     },
@@ -551,6 +551,13 @@
     },
     {
       "Rank": 73,
+      "Player": "Woody Marks",
+      "Team": "Houston Texans",
+      "Pos": "RB",
+      "Value": 3
+    },
+    {
+      "Rank": 73,
       "Player": "Jakobi Meyers",
       "Team": "Jacksonville Jaguars",
       "Pos": "WR",
@@ -558,15 +565,15 @@
     },
     {
       "Rank": 73,
-      "Player": "Sam LaPorta",
-      "Team": "Detroit Lions",
+      "Player": "Davis Allen",
+      "Team": "Los Angeles Rams",
       "Pos": "TE",
       "Value": 3
     },
     {
       "Rank": 73,
-      "Player": "Davis Allen",
-      "Team": "Los Angeles Rams",
+      "Player": "Sam LaPorta",
+      "Team": "Detroit Lions",
       "Pos": "TE",
       "Value": 3
     },
@@ -628,13 +635,6 @@
     },
     {
       "Rank": 73,
-      "Player": "Woody Marks",
-      "Team": "Houston Texans",
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 73,
       "Player": "Noah Fant",
       "Team": "Cincinnati Bengals",
       "Pos": "TE",
@@ -677,13 +677,6 @@
     },
     {
       "Rank": 73,
-      "Player": "Elic Ayomanor",
-      "Team": "Tennessee Titans",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 73,
       "Player": "Chuba Hubbard",
       "Team": "Carolina Panthers",
       "Pos": "RB",
@@ -691,9 +684,9 @@
     },
     {
       "Rank": 73,
-      "Player": "Kyren Williams",
-      "Team": "Los Angeles Rams",
-      "Pos": "RB",
+      "Player": "Elic Ayomanor",
+      "Team": "Tennessee Titans",
+      "Pos": "WR",
       "Value": 3
     },
     {
@@ -705,8 +698,15 @@
     },
     {
       "Rank": 73,
-      "Player": "Luke McCaffrey",
-      "Team": "Washington Commanders",
+      "Player": "Kyren Williams",
+      "Team": "Los Angeles Rams",
+      "Pos": "RB",
+      "Value": 3
+    },
+    {
+      "Rank": 73,
+      "Player": "Xavier Legette",
+      "Team": "Carolina Panthers",
       "Pos": "WR",
       "Value": 3
     }
