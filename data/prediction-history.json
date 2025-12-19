@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-12-18T08:18:21.995Z",
+  "lastUpdated": "2025-12-19T08:18:23.304Z",
   "weeks": [
     {
       "week": 1,
@@ -5845,7 +5845,7 @@
     {
       "week": 16,
       "year": 2025,
-      "generatedAt": "2025-12-18T08:18:21.995Z",
+      "generatedAt": "2025-12-19T08:18:23.304Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -5891,101 +5891,101 @@
         },
         {
           "rank": 7,
+          "player": "Hollywood Brown",
+          "team": "Kansas City Chiefs",
+          "opponent": "Tennessee",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 8,
           "player": "Christian McCaffrey",
           "team": "San Francisco 49ers",
           "opponent": "Indianapolis",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "player": "Caleb Williams",
           "team": "Chicago Bears",
           "opponent": "Green Bay",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "player": "Bhayshul Tuten",
           "team": "Jacksonville Jaguars",
           "opponent": "Denver",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "player": "Omarion Hampton",
           "team": "Los Angeles Chargers",
           "opponent": "Dallas",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "player": "Darren Waller",
           "team": "Miami Dolphins",
           "opponent": "Cincinnati",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "player": "Tez Johnson",
           "team": "Tampa Bay Buccaneers",
           "opponent": "Carolina",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 13,
+          "rank": 14,
+          "player": "Tyler Warren",
+          "team": "Indianapolis Colts",
+          "opponent": "San Francisco",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 15,
           "player": "Jake Tonges",
           "team": "San Francisco 49ers",
           "opponent": "Indianapolis",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 14,
+          "rank": 16,
           "player": "Tyquan Thornton",
           "team": "Kansas City Chiefs",
           "opponent": "Tennessee",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 15,
+          "rank": 17,
           "player": "Isaac TeSlaa",
           "team": "Detroit Lions",
           "opponent": "Pittsburgh",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 16,
+          "rank": 18,
           "player": "Elic Ayomanor",
           "team": "Tennessee Titans",
           "opponent": "Kansas City",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 17,
+          "rank": 19,
           "player": "RJ Harvey",
           "team": "Denver Broncos",
           "opponent": "Jacksonville",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 18,
-          "player": "Hollywood Brown",
-          "team": "Kansas City Chiefs",
-          "opponent": "Tennessee",
-          "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 19,
+          "rank": 20,
           "player": "Jake Ferguson",
           "team": "Dallas Cowboys",
           "opponent": "LA Chargers",
           "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 20,
-          "player": "Quinshon Judkins",
-          "team": "Cleveland Browns",
-          "opponent": "Buffalo",
-          "basis": "Opp Rush TD/G"
         }
       ],
       "mlModelPredictions": [
@@ -6043,19 +6043,6 @@
         },
         {
           "rank": 5,
-          "player": "Mark Andrews",
-          "team": "Baltimore Ravens",
-          "opponent": "New England",
-          "probability": 0.5253333333333334,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (11 TDs)",
-            "Weak opponent defense (3.7 TDs/game allowed)",
-            "Hot recent form (5 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 6,
           "player": "Amon-Ra St. Brown",
           "team": "Detroit Lions",
           "opponent": "Pittsburgh Steelers",
@@ -6065,6 +6052,19 @@
             "Strong 2024 production (11 TDs)",
             "Weak opponent defense (3.6 TDs/game allowed)",
             "Hot recent form (6 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 6,
+          "player": "Mark Andrews",
+          "team": "Baltimore Ravens",
+          "opponent": "New England",
+          "probability": 0.5253333333333334,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (11 TDs)",
+            "Weak opponent defense (3.7 TDs/game allowed)",
+            "Hot recent form (5 TDs in recent games)"
           ]
         },
         {
