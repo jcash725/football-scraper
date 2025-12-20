@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2025-12-19T08:18:23.304Z",
+  "lastUpdated": "2025-12-20T08:16:08.390Z",
   "weeks": [
     {
       "week": 1,
@@ -5845,7 +5845,7 @@
     {
       "week": 16,
       "year": 2025,
-      "generatedAt": "2025-12-19T08:18:23.304Z",
+      "generatedAt": "2025-12-20T08:16:08.389Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -5891,17 +5891,17 @@
         },
         {
           "rank": 7,
-          "player": "Hollywood Brown",
-          "team": "Kansas City Chiefs",
-          "opponent": "Tennessee",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 8,
           "player": "Christian McCaffrey",
           "team": "San Francisco 49ers",
           "opponent": "Indianapolis",
           "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 8,
+          "player": "Tyler Warren",
+          "team": "Indianapolis Colts",
+          "opponent": "San Francisco",
+          "basis": "Rush TD - Rookie hotstreak"
         },
         {
           "rank": 9,
@@ -5940,45 +5940,45 @@
         },
         {
           "rank": 14,
-          "player": "Tyler Warren",
-          "team": "Indianapolis Colts",
-          "opponent": "San Francisco",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 15,
           "player": "Jake Tonges",
           "team": "San Francisco 49ers",
           "opponent": "Indianapolis",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "player": "Tyquan Thornton",
           "team": "Kansas City Chiefs",
           "opponent": "Tennessee",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "player": "Isaac TeSlaa",
           "team": "Detroit Lions",
           "opponent": "Pittsburgh",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "player": "Elic Ayomanor",
           "team": "Tennessee Titans",
           "opponent": "Kansas City",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "player": "RJ Harvey",
           "team": "Denver Broncos",
           "opponent": "Jacksonville",
           "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 19,
+          "player": "Hollywood Brown",
+          "team": "Kansas City Chiefs",
+          "opponent": "Tennessee",
+          "basis": "Opp Pass TD/G"
         },
         {
           "rank": 20,
@@ -6238,15 +6238,15 @@
         },
         {
           "rank": 20,
-          "player": "James Conner",
-          "team": "Arizona Cardinals",
-          "opponent": "Atlanta Falcons",
+          "player": "Marvin Mims Jr.",
+          "team": "Denver Broncos",
+          "opponent": "Jacksonville Jaguars",
           "probability": 0.432,
           "confidence": 0.8,
           "keyFactors": [
             "Moderate 2024 production (6 TDs)",
-            "Weak opponent defense (3.5 TDs/game allowed)",
-            "Hot recent form (5 TDs in recent games)"
+            "Weak opponent defense (3.9 TDs/game allowed)",
+            "Hot recent form (6 TDs in recent games)"
           ]
         }
       ]

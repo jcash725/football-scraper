@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-19T08:18:23.306Z",
+  "generatedAt": "2025-12-20T08:16:08.392Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -77,18 +77,6 @@
       "Rookie Boost": "+3.3 (1.3 TD/game)"
     },
     {
-      "Player": "Hollywood Brown",
-      "Team": "Kansas City Chiefs",
-      "Opponent": "Tennessee",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5.333333333333333,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.3 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.3 TD/game)"
-    },
-    {
       "Player": "Christian McCaffrey",
       "Team": "San Francisco 49ers",
       "Opponent": "Indianapolis",
@@ -99,6 +87,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.2 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.2 TD/game)"
+    },
+    {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "San Francisco",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Caleb Williams",
@@ -161,18 +161,6 @@
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     },
     {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "San Francisco",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
       "Player": "Jake Tonges",
       "Team": "San Francisco 49ers",
       "Opponent": "Indianapolis",
@@ -231,6 +219,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "Hollywood Brown",
+      "Team": "Kansas City Chiefs",
+      "Opponent": "Tennessee",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.933333333333334,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Kansas City Chiefs vs Tennessee - opponent allows 1.6 pass TDs/game",
+      "Rookie Boost": "+3.3 (1.3 TD/game)"
     },
     {
       "Player": "Jake Ferguson",
