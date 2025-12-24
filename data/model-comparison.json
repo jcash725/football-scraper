@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-23T08:18:41.245Z",
+  "generatedAt": "2025-12-24T08:18:37.233Z",
   "currentModel": [
     {
       "Player": "Kenneth Gainwell",
@@ -26,18 +26,6 @@
       "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
     },
     {
-      "Player": "Ashton Jeanty",
-      "Team": "Las Vegas Raiders",
-      "Opponent": "NY Giants",
-      "Player TDs YTD": 5,
-      "Player 2025 TDs": 5,
-      "Opponent Stat Value": 5.666666666666667,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.7 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
-    },
-    {
       "Player": "Tetairoa McMillan",
       "Team": "Carolina Panthers",
       "Opponent": "Seattle",
@@ -60,18 +48,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.2 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.2 TD/game)"
-    },
-    {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Jacksonville",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Caleb Williams",
@@ -108,6 +84,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "Ashton Jeanty",
+      "Team": "Las Vegas Raiders",
+      "Opponent": "NY Giants",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 5.066666666666666,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Las Vegas Raiders vs NY Giants - opponent allows 1.4 pass TDs/game",
+      "Rookie Boost": "+3.7 (1.7 TD/game)"
     },
     {
       "Player": "Jacory Croskey-Merritt",
@@ -240,6 +228,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Kansas City Chiefs vs Denver - opponent allows 1.3 pass TDs/game",
       "Rookie Boost": "+3.3 (1.3 TD/game)"
+    },
+    {
+      "Player": "Christian McCaffrey",
+      "Team": 49,
+      "Opponent": "Chicago",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 4.4,
+      "Player TDs YTD": 9,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "49 vs Chicago - opponent allows 1.2 rush TDs/game",
+      "Rookie Boost": "+3.2 (1.2 TD/game)"
     }
   ],
   "mlModel": [
@@ -510,25 +510,6 @@
       "basis": "2024 Data: 10 TDs in 7 games"
     },
     {
-      "player": "Marvin Mims Jr.",
-      "team": "Denver Broncos",
-      "opponent": "Kansas City",
-      "position": "WR",
-      "mlProbability": 0.492,
-      "mlConfidence": 0.9,
-      "keyFactors": [
-        "Moderate 2024 production (6 TDs)",
-        "Previous success vs opponent (2 TDs)",
-        "Weak opponent defense (3.5 TDs/game allowed)"
-      ],
-      "mlRank": 15,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 6,
-      "actual2024Games": 4,
-      "vsOpponentTDs": 2,
-      "basis": "2024 Data: 6 TDs in 4 games"
-    },
-    {
       "player": "Chuba Hubbard",
       "team": "Carolina Panthers",
       "opponent": "Seattle Seahawks",
@@ -540,8 +521,8 @@
         "Weak opponent defense (2.8 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 16,
-      "playerTDsYTD": 3,
+      "mlRank": 15,
+      "playerTDsYTD": 1,
       "actual2024TDs": 7,
       "actual2024Games": 6,
       "vsOpponentTDs": 0,
@@ -559,7 +540,7 @@
         "Weak opponent defense (3.0 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 17,
+      "mlRank": 16,
       "playerTDsYTD": 4,
       "actual2024TDs": 9,
       "actual2024Games": 8,
@@ -578,7 +559,7 @@
         "Weak opponent defense (4.1 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 18,
+      "mlRank": 17,
       "playerTDsYTD": 4,
       "actual2024TDs": 9,
       "actual2024Games": 8,
@@ -597,8 +578,8 @@
         "Weak opponent defense (3.2 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 19,
-      "playerTDsYTD": 1,
+      "mlRank": 18,
+      "playerTDsYTD": 5,
       "actual2024TDs": 11,
       "actual2024Games": 10,
       "vsOpponentTDs": 0,
@@ -616,12 +597,31 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 20,
+      "mlRank": 19,
       "playerTDsYTD": 3,
       "actual2024TDs": 8,
       "actual2024Games": 7,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 8 TDs in 7 games"
+    },
+    {
+      "player": "James Cook",
+      "team": "Buffalo Bills",
+      "opponent": "Philadelphia Eagles",
+      "position": "RB",
+      "mlProbability": 0.4566666666666666,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (10 TDs)",
+        "Weak opponent defense (3.3 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 20,
+      "playerTDsYTD": 12,
+      "actual2024TDs": 10,
+      "actual2024Games": 7,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 10 TDs in 7 games"
     }
   ],
   "agreement": 0,
@@ -629,13 +629,12 @@
     "onlyInCurrent": [
       "Kenneth Gainwell",
       "Woody Marks",
-      "Ashton Jeanty",
       "Tetairoa McMillan",
       "Christian McCaffrey",
-      "Tyler Warren",
       "Caleb Williams",
       "Bhayshul Tuten",
       "Omarion Hampton",
+      "Ashton Jeanty",
       "Jacory Croskey-Merritt",
       "Jake Ferguson",
       "Jake Tonges",
@@ -646,7 +645,8 @@
       "Ashton Jeanty",
       "Darren Waller",
       "Tyler Warren",
-      "Hollywood Brown"
+      "Hollywood Brown",
+      "Christian McCaffrey"
     ],
     "onlyInML": [
       "Terry McLaurin",
@@ -663,12 +663,12 @@
       "Kyren Williams",
       "Jalen Hurts",
       "Jordan Addison",
-      "Marvin Mims Jr.",
       "Chuba Hubbard",
       "Chase Brown",
       "DeVonta Smith",
       "Mark Andrews",
-      "Sam LaPorta"
+      "Sam LaPorta",
+      "James Cook"
     ],
     "rankingDifferences": []
   }
