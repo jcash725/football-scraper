@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-24T08:18:37.233Z",
+  "generatedAt": "2025-12-25T08:18:17.097Z",
   "currentModel": [
     {
       "Player": "Kenneth Gainwell",
@@ -134,33 +134,9 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Tyquan Thornton",
-      "Team": "Kansas City Chiefs",
-      "Opponent": "Denver",
-      "Player TDs YTD": 3,
-      "Player 2025 TDs": 3,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
       "Player": "Isaac TeSlaa",
       "Team": "Detroit Lions",
       "Opponent": "Minnesota",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Elic Ayomanor",
-      "Team": "Tennessee Titans",
-      "Opponent": "New Orleans",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -240,6 +216,30 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "49 vs Chicago - opponent allows 1.2 rush TDs/game",
       "Rookie Boost": "+3.2 (1.2 TD/game)"
+    },
+    {
+      "Player": "Emeka Egbuka",
+      "Team": "Tampa Bay Buccaneers",
+      "Opponent": "Miami",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.55,
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Tampa Bay Buccaneers vs Miami - opponent allows 1.3 pass TDs/game",
+      "Rookie Boost": "+3.3 (1.3 TD/game)"
+    },
+    {
+      "Player": "Tez Johnson",
+      "Team": "Tampa Bay Buccaneers",
+      "Opponent": "Miami",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.3,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Tampa Bay Buccaneers vs Miami - opponent allows 1.3 pass TDs/game",
+      "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ],
   "mlModel": [
@@ -522,7 +522,7 @@
         "Hot recent form (6 TDs in recent games)"
       ],
       "mlRank": 15,
-      "playerTDsYTD": 1,
+      "playerTDsYTD": 3,
       "actual2024TDs": 7,
       "actual2024Games": 6,
       "vsOpponentTDs": 0,
@@ -579,7 +579,7 @@
         "Hot recent form (5 TDs in recent games)"
       ],
       "mlRank": 18,
-      "playerTDsYTD": 5,
+      "playerTDsYTD": 1,
       "actual2024TDs": 11,
       "actual2024Games": 10,
       "vsOpponentTDs": 0,
@@ -638,15 +638,15 @@
       "Jacory Croskey-Merritt",
       "Jake Ferguson",
       "Jake Tonges",
-      "Tyquan Thornton",
       "Isaac TeSlaa",
-      "Elic Ayomanor",
       "RJ Harvey",
       "Ashton Jeanty",
       "Darren Waller",
       "Tyler Warren",
       "Hollywood Brown",
-      "Christian McCaffrey"
+      "Christian McCaffrey",
+      "Emeka Egbuka",
+      "Tez Johnson"
     ],
     "onlyInML": [
       "Terry McLaurin",
