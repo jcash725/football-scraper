@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/receiving-touchdowns",
-  "scrapedAt": "2025-12-26T08:17:13.044Z",
+  "scrapedAt": "2025-12-27T08:16:06.370Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -96,13 +96,6 @@
     },
     {
       "Rank": 13,
-      "Player": "Tetairoa McMillan",
-      "Team": "Carolina Panthers",
-      "Pos": "WR",
-      "Value": 7
-    },
-    {
-      "Rank": 13,
       "Player": "Brock Bowers",
       "Team": "Las Vegas Raiders",
       "Pos": "TE",
@@ -120,6 +113,13 @@
       "Player": "Christian McCaffrey",
       "Team": 49,
       "Pos": "RB",
+      "Value": 7
+    },
+    {
+      "Rank": 13,
+      "Player": "Tetairoa McMillan",
+      "Team": "Carolina Panthers",
+      "Pos": "WR",
       "Value": 7
     },
     {
@@ -194,6 +194,13 @@
     },
     {
       "Rank": 21,
+      "Player": "Isaac TeSlaa",
+      "Team": "Detroit Lions",
+      "Pos": "WR",
+      "Value": 6
+    },
+    {
+      "Rank": 21,
       "Player": "Ladd McConkey",
       "Team": "Los Angeles Chargers",
       "Pos": "WR",
@@ -245,13 +252,6 @@
       "Rank": 21,
       "Player": "Troy Franklin",
       "Team": "Denver Broncos",
-      "Pos": "WR",
-      "Value": 6
-    },
-    {
-      "Rank": 21,
-      "Player": "Isaac TeSlaa",
-      "Team": "Detroit Lions",
       "Pos": "WR",
       "Value": 6
     },
@@ -397,6 +397,20 @@
     },
     {
       "Rank": 56,
+      "Player": "Colston Loveland",
+      "Team": "Chicago Bears",
+      "Pos": "TE",
+      "Value": 4
+    },
+    {
+      "Rank": 56,
+      "Player": "De'Von Achane",
+      "Team": "Miami Dolphins",
+      "Pos": "RB",
+      "Value": 4
+    },
+    {
+      "Rank": 56,
       "Player": "Tyler Warren",
       "Team": "Indianapolis Colts",
       "Pos": "TE",
@@ -446,6 +460,13 @@
     },
     {
       "Rank": 56,
+      "Player": "Ryan Flournoy",
+      "Team": "Dallas Cowboys",
+      "Pos": "WR",
+      "Value": 4
+    },
+    {
+      "Rank": 56,
       "Player": "Parker Washington",
       "Team": "Jacksonville Jaguars",
       "Pos": "WR",
@@ -467,23 +488,9 @@
     },
     {
       "Rank": 56,
-      "Player": "Colston Loveland",
-      "Team": "Chicago Bears",
-      "Pos": "TE",
-      "Value": 4
-    },
-    {
-      "Rank": 56,
       "Player": "Chase Brown",
       "Team": "Cincinnati Bengals",
       "Pos": "HB",
-      "Value": 4
-    },
-    {
-      "Rank": 56,
-      "Player": "De'Von Achane",
-      "Team": "Miami Dolphins",
-      "Pos": "RB",
       "Value": 4
     },
     {
@@ -537,13 +544,6 @@
     },
     {
       "Rank": 56,
-      "Player": "Ryan Flournoy",
-      "Team": "Dallas Cowboys",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 56,
       "Player": "Jake Tonges",
       "Team": 49,
       "Pos": "TE",
@@ -562,13 +562,6 @@
       "Team": "Tennessee Titans",
       "Pos": "WR",
       "Value": 4
-    },
-    {
-      "Rank": 80,
-      "Player": "Woody Marks",
-      "Team": "Houston Texans",
-      "Pos": "RB",
-      "Value": 3
     },
     {
       "Rank": 80,
@@ -649,6 +642,13 @@
     },
     {
       "Rank": 80,
+      "Player": "Elic Ayomanor",
+      "Team": "Tennessee Titans",
+      "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 80,
       "Player": "Bijan Robinson",
       "Team": "Atlanta Falcons",
       "Pos": "RB",
@@ -658,6 +658,13 @@
       "Rank": 80,
       "Player": "Chuba Hubbard",
       "Team": "Carolina Panthers",
+      "Pos": "RB",
+      "Value": 3
+    },
+    {
+      "Rank": 80,
+      "Player": "Woody Marks",
+      "Team": "Houston Texans",
       "Pos": "RB",
       "Value": 3
     },
@@ -700,13 +707,6 @@
       "Rank": 80,
       "Player": "CeeDee Lamb",
       "Team": "Dallas Cowboys",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 80,
-      "Player": "Luke McCaffrey",
-      "Team": "Washington Commanders",
       "Pos": "WR",
       "Value": 3
     }
