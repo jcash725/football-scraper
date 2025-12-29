@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-28T08:16:43.550Z",
+  "generatedAt": "2025-12-29T08:20:07.504Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -209,18 +209,6 @@
       "Rookie Boost": "+3.3 (1.3 TD/game)"
     },
     {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Jacksonville",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.7,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Indianapolis Colts vs Jacksonville - opponent allows 1.7 pass TDs/game",
-      "Rookie Boost": "+3.0 (1.0 TD/game)"
-    },
-    {
       "Player": "Hollywood Brown",
       "Team": "Kansas City Chiefs",
       "Opponent": "Denver",
@@ -243,6 +231,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Tampa Bay Buccaneers vs Miami - opponent allows 1.3 pass TDs/game",
       "Rookie Boost": "+3.3 (1.3 TD/game)"
+    },
+    {
+      "Player": "Tez Johnson",
+      "Team": "Tampa Bay Buccaneers",
+      "Opponent": "Miami",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.3,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Tampa Bay Buccaneers vs Miami - opponent allows 1.3 pass TDs/game",
+      "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ]
 }

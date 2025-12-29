@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-28T08:16:43.550Z",
+  "generatedAt": "2025-12-29T08:20:07.504Z",
   "currentModel": [
     {
       "Player": "Xavier Hutchinson",
@@ -206,18 +206,6 @@
       "Rookie Boost": "+3.3 (1.3 TD/game)"
     },
     {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Jacksonville",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.7,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Indianapolis Colts vs Jacksonville - opponent allows 1.7 pass TDs/game",
-      "Rookie Boost": "+3.0 (1.0 TD/game)"
-    },
-    {
       "Player": "Hollywood Brown",
       "Team": "Kansas City Chiefs",
       "Opponent": "Denver",
@@ -240,6 +228,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Tampa Bay Buccaneers vs Miami - opponent allows 1.3 pass TDs/game",
       "Rookie Boost": "+3.3 (1.3 TD/game)"
+    },
+    {
+      "Player": "Tez Johnson",
+      "Team": "Tampa Bay Buccaneers",
+      "Opponent": "Miami",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.3,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Tampa Bay Buccaneers vs Miami - opponent allows 1.3 pass TDs/game",
+      "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ],
   "mlModel": [
@@ -313,7 +313,7 @@
         "Hot recent form (7 TDs in recent games)"
       ],
       "mlRank": 4,
-      "playerTDsYTD": 5,
+      "playerTDsYTD": 7,
       "actual2024TDs": 17,
       "actual2024Games": 11,
       "vsOpponentTDs": 0,
@@ -510,6 +510,25 @@
       "basis": "2024 Data: 10 TDs in 7 games"
     },
     {
+      "player": "Marvin Mims Jr.",
+      "team": "Denver Broncos",
+      "opponent": "Kansas City",
+      "position": "WR",
+      "mlProbability": 0.492,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Moderate 2024 production (6 TDs)",
+        "Previous success vs opponent (2 TDs)",
+        "Weak opponent defense (3.5 TDs/game allowed)"
+      ],
+      "mlRank": 15,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 6,
+      "actual2024Games": 4,
+      "vsOpponentTDs": 2,
+      "basis": "2024 Data: 6 TDs in 4 games"
+    },
+    {
       "player": "Chuba Hubbard",
       "team": "Carolina Panthers",
       "opponent": "Seattle Seahawks",
@@ -521,7 +540,7 @@
         "Weak opponent defense (2.8 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 15,
+      "mlRank": 16,
       "playerTDsYTD": 1,
       "actual2024TDs": 7,
       "actual2024Games": 6,
@@ -540,8 +559,8 @@
         "Weak opponent defense (3.0 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 16,
-      "playerTDsYTD": 4,
+      "mlRank": 17,
+      "playerTDsYTD": 6,
       "actual2024TDs": 9,
       "actual2024Games": 8,
       "vsOpponentTDs": 0,
@@ -559,7 +578,7 @@
         "Weak opponent defense (4.1 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 17,
+      "mlRank": 18,
       "playerTDsYTD": 4,
       "actual2024TDs": 9,
       "actual2024Games": 8,
@@ -578,8 +597,8 @@
         "Weak opponent defense (3.2 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 18,
-      "playerTDsYTD": 1,
+      "mlRank": 19,
+      "playerTDsYTD": 5,
       "actual2024TDs": 11,
       "actual2024Games": 10,
       "vsOpponentTDs": 0,
@@ -597,31 +616,12 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 19,
+      "mlRank": 20,
       "playerTDsYTD": 3,
       "actual2024TDs": 8,
       "actual2024Games": 7,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 8 TDs in 7 games"
-    },
-    {
-      "player": "James Cook",
-      "team": "Buffalo Bills",
-      "opponent": "Philadelphia Eagles",
-      "position": "RB",
-      "mlProbability": 0.4566666666666666,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (10 TDs)",
-        "Weak opponent defense (3.3 TDs/game allowed)",
-        "Hot recent form (6 TDs in recent games)"
-      ],
-      "mlRank": 20,
-      "playerTDsYTD": 12,
-      "actual2024TDs": 10,
-      "actual2024Games": 7,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 10 TDs in 7 games"
     }
   ],
   "agreement": 0,
@@ -644,9 +644,9 @@
       "RJ Harvey",
       "Ashton Jeanty",
       "Darren Waller",
-      "Tyler Warren",
       "Hollywood Brown",
-      "Emeka Egbuka"
+      "Emeka Egbuka",
+      "Tez Johnson"
     ],
     "onlyInML": [
       "Terry McLaurin",
@@ -663,12 +663,12 @@
       "Kyren Williams",
       "Jalen Hurts",
       "Jordan Addison",
+      "Marvin Mims Jr.",
       "Chuba Hubbard",
       "Chase Brown",
       "DeVonta Smith",
       "Mark Andrews",
-      "Sam LaPorta",
-      "James Cook"
+      "Sam LaPorta"
     ],
     "rankingDifferences": []
   }
