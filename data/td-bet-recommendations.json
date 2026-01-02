@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-01T08:19:24.742Z",
+  "generatedAt": "2026-01-02T08:18:27.530Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -41,6 +41,18 @@
       "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
     },
     {
+      "Player": "Ashton Jeanty",
+      "Team": "Las Vegas Raiders",
+      "Opponent": "Kansas City",
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 5,
+      "Opponent Stat Value": 5.666666666666667,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.7 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
+    },
+    {
       "Player": "Tetairoa McMillan",
       "Team": "Carolina Panthers",
       "Opponent": "Tampa Bay",
@@ -63,18 +75,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Tampa Bay Buccaneers vs Carolina - opponent allows 2.1 pass TDs/game",
       "Rookie Boost": "+3.3 (1.3 TD/game)"
-    },
-    {
-      "Player": "Hollywood Brown",
-      "Team": "Kansas City Chiefs",
-      "Opponent": "Las Vegas",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5.333333333333333,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.3 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.3 TD/game)"
     },
     {
       "Player": "Christian McCaffrey",
@@ -137,28 +137,16 @@
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     },
     {
-      "Player": "Ashton Jeanty",
-      "Team": "Las Vegas Raiders",
-      "Opponent": "Kansas City",
+      "Player": "Hollywood Brown",
+      "Team": "Kansas City Chiefs",
+      "Opponent": "Las Vegas",
       "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 5.066666666666666,
+      "Opponent Stat Value": 5.033333333333333,
       "Player TDs YTD": 5,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs Kansas City - opponent allows 1.4 pass TDs/game",
-      "Rookie Boost": "+3.7 (1.7 TD/game)"
-    },
-    {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Houston",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+      "Reason": "Kansas City Chiefs vs Las Vegas - opponent allows 1.7 pass TDs/game",
+      "Rookie Boost": "+3.3 (1.3 TD/game)"
     },
     {
       "Player": "Jake Tonges",
@@ -242,6 +230,18 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "New York Giants vs Dallas - opponent allows 1.5 rush TDs/game",
+      "Rookie Boost": "+3.0 (1.0 TD/game)"
+    },
+    {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Houston",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.7,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Indianapolis Colts vs Houston - opponent allows 1.7 pass TDs/game",
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ]

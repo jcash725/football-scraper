@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-01-01T08:19:24.740Z",
+  "lastUpdated": "2026-01-02T08:18:27.528Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-01-01T08:19:24.740Z",
+      "generatedAt": "2026-01-02T08:18:27.528Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -6688,24 +6688,24 @@
         },
         {
           "rank": 4,
+          "player": "Ashton Jeanty",
+          "team": "Las Vegas Raiders",
+          "opponent": "Kansas City",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 5,
           "player": "Tetairoa McMillan",
           "team": "Carolina Panthers",
           "opponent": "Tampa Bay",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "player": "Emeka Egbuka",
           "team": "Tampa Bay Buccaneers",
           "opponent": "Carolina",
           "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 6,
-          "player": "Hollywood Brown",
-          "team": "Kansas City Chiefs",
-          "opponent": "Las Vegas",
-          "basis": "Pass TD - Rookie hotstreak"
         },
         {
           "rank": 7,
@@ -6744,84 +6744,71 @@
         },
         {
           "rank": 12,
-          "player": "Ashton Jeanty",
-          "team": "Las Vegas Raiders",
-          "opponent": "Kansas City",
+          "player": "Hollywood Brown",
+          "team": "Kansas City Chiefs",
+          "opponent": "Las Vegas",
           "basis": "Opp Pass TD/G"
         },
         {
           "rank": 13,
-          "player": "Tyler Warren",
-          "team": "Indianapolis Colts",
-          "opponent": "Houston",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 14,
           "player": "Jake Tonges",
           "team": "San Francisco 49ers",
           "opponent": "Seattle",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "player": "Isaac TeSlaa",
           "team": "Detroit Lions",
           "opponent": "Chicago",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "player": "RJ Harvey",
           "team": "Denver Broncos",
           "opponent": "LA Chargers",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "player": "Darren Waller",
           "team": "Miami Dolphins",
           "opponent": "New England",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "player": "Jake Ferguson",
           "team": "Dallas Cowboys",
           "opponent": "NY Giants",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "player": "Ashton Jeanty",
           "team": "Las Vegas Raiders",
           "opponent": "Kansas City",
           "basis": "Opp Rush TD/G"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "player": "Jaxson Dart",
           "team": "New York Giants",
           "opponent": "Dallas",
           "basis": "Opp Rush TD/G"
+        },
+        {
+          "rank": 20,
+          "player": "Tyler Warren",
+          "team": "Indianapolis Colts",
+          "opponent": "Houston",
+          "basis": "Opp Pass TD/G"
         }
       ],
       "mlModelPredictions": [
         {
           "rank": 1,
-          "player": "Mike Evans",
-          "team": "Tampa Bay Buccaneers",
-          "opponent": "Carolina Panthers",
-          "probability": 0.724,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Strong 2024 production (12 TDs)",
-            "Previous success vs opponent (3 TDs)",
-            "Weak opponent defense (4.9 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 2,
           "player": "Ja'Marr Chase",
           "team": "Cincinnati Bengals",
           "opponent": "Cleveland Browns",
@@ -6834,7 +6821,7 @@
           ]
         },
         {
-          "rank": 3,
+          "rank": 2,
           "player": "Jordan Addison",
           "team": "Minnesota Vikings",
           "opponent": "Green Bay",
@@ -6847,7 +6834,7 @@
           ]
         },
         {
-          "rank": 4,
+          "rank": 3,
           "player": "Tee Higgins",
           "team": "Cincinnati Bengals",
           "opponent": "Cleveland Browns",
@@ -6860,7 +6847,7 @@
           ]
         },
         {
-          "rank": 5,
+          "rank": 4,
           "player": "Kyren Williams",
           "team": "Los Angeles Rams",
           "opponent": "Arizona Cardinals",
@@ -6873,20 +6860,7 @@
           ]
         },
         {
-          "rank": 6,
-          "player": "Sam LaPorta",
-          "team": "Detroit Lions",
-          "opponent": "Chicago Bears",
-          "probability": 0.6143932853717027,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Strong 2024 production (8 TDs)",
-            "Previous success vs opponent (3 TDs)",
-            "Weak opponent defense (2.5 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 7,
+          "rank": 5,
           "player": "Terry McLaurin",
           "team": "Washington Commanders",
           "opponent": "Philadelphia Eagles",
@@ -6899,7 +6873,7 @@
           ]
         },
         {
-          "rank": 8,
+          "rank": 6,
           "player": "De'Von Achane",
           "team": "Miami Dolphins",
           "opponent": "New England",
@@ -6912,7 +6886,7 @@
           ]
         },
         {
-          "rank": 9,
+          "rank": 7,
           "player": "Bijan Robinson",
           "team": "Atlanta Falcons",
           "opponent": "New Orleans",
@@ -6925,7 +6899,7 @@
           ]
         },
         {
-          "rank": 10,
+          "rank": 8,
           "player": "Jalen Hurts",
           "team": "Philadelphia Eagles",
           "opponent": "Washington Commanders",
@@ -6938,7 +6912,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 9,
           "player": "DeVonta Smith",
           "team": "Philadelphia Eagles",
           "opponent": "Washington Commanders",
@@ -6951,7 +6925,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 10,
           "player": "Drake London",
           "team": "Atlanta Falcons",
           "opponent": "New Orleans",
@@ -6964,7 +6938,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 11,
           "player": "Mark Andrews",
           "team": "Baltimore Ravens",
           "opponent": "Pittsburgh Steelers",
@@ -6977,7 +6951,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 12,
           "player": "Derrick Henry",
           "team": "Baltimore Ravens",
           "opponent": "Pittsburgh Steelers",
@@ -6990,7 +6964,7 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 13,
           "player": "Zach Ertz",
           "team": "Washington Commanders",
           "opponent": "Philadelphia Eagles",
@@ -7003,7 +6977,7 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 14,
           "player": "Rhamondre Stevenson",
           "team": "New England Patriots",
           "opponent": "Miami Dolphins",
@@ -7016,7 +6990,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 15,
           "player": "Amon-Ra St. Brown",
           "team": "Detroit Lions",
           "opponent": "Chicago Bears",
@@ -7029,7 +7003,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 16,
           "player": "Jalen Nailor",
           "team": "Minnesota Vikings",
           "opponent": "Green Bay",
@@ -7042,7 +7016,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 17,
           "player": "Jonathan Taylor",
           "team": "Indianapolis Colts",
           "opponent": "Houston Texans",
@@ -7055,7 +7029,7 @@
           ]
         },
         {
-          "rank": 20,
+          "rank": 18,
           "player": "Chase Brown",
           "team": "Cincinnati Bengals",
           "opponent": "Cleveland Browns",
@@ -7065,6 +7039,32 @@
             "Strong 2024 production (9 TDs)",
             "Weak opponent defense (3.9 TDs/game allowed)",
             "Hot recent form (5 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 19,
+          "player": "DJ Moore",
+          "team": "Chicago Bears",
+          "opponent": "Detroit Lions",
+          "probability": 0.4793381294964029,
+          "confidence": 0.9,
+          "keyFactors": [
+            "Moderate 2024 production (6 TDs)",
+            "Previous success vs opponent (1 TDs)",
+            "Weak opponent defense (2.8 TDs/game allowed)"
+          ]
+        },
+        {
+          "rank": 20,
+          "player": "Alvin Kamara",
+          "team": "New Orleans Saints",
+          "opponent": "Atlanta Falcons",
+          "probability": 0.4693333333333334,
+          "confidence": 0.9,
+          "keyFactors": [
+            "Strong 2024 production (8 TDs)",
+            "Previous success vs opponent (1 TDs)",
+            "Weak opponent defense (3.5 TDs/game allowed)"
           ]
         }
       ]
