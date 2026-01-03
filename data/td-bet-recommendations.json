@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-02T08:18:27.530Z",
+  "generatedAt": "2026-01-03T08:16:41.159Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -149,6 +149,18 @@
       "Rookie Boost": "+3.3 (1.3 TD/game)"
     },
     {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Houston",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
       "Player": "Jake Tonges",
       "Team": "San Francisco 49ers",
       "Opponent": "Seattle",
@@ -183,18 +195,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Darren Waller",
-      "Team": "Miami Dolphins",
-      "Opponent": "New England",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.933333333333334,
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Miami Dolphins vs New England - opponent allows 1.6 pass TDs/game",
-      "Rookie Boost": "+3.3 (1.3 TD/game)"
     },
     {
       "Player": "Jake Ferguson",
@@ -233,15 +233,15 @@
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     },
     {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Houston",
+      "Player": "Elic Ayomanor",
+      "Team": "Tennessee Titans",
+      "Opponent": "Jacksonville",
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 4.7,
       "Player TDs YTD": 4,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Indianapolis Colts vs Houston - opponent allows 1.7 pass TDs/game",
+      "Reason": "Tennessee Titans vs Jacksonville - opponent allows 1.7 pass TDs/game",
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ]
