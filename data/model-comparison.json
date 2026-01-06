@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-01-05T08:21:03.516Z",
+  "generatedAt": "2026-01-06T08:19:13.014Z",
   "currentModel": [
+    {
+      "Player": "Xavier Hutchinson",
+      "Team": "Houston Texans",
+      "Opponent": "Pittsburgh",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 6,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 2.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
+    },
     {
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
@@ -228,17 +240,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Pittsburgh Steelers vs Houston - opponent allows 0.6 rush TDs/game",
       "Rookie Boost": "+3.5 (1.5 TD/game)"
-    },
-    {
-      "Player": "Davante Adams",
-      "Team": "Los Angeles Rams",
-      "Opponent": "Carolina",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 2.1,
-      "Player TDs YTD": 14,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Los Angeles Rams vs Carolina - opponent allows 2.1 pass TDs/game"
     }
   ],
   "mlModel": [
@@ -414,7 +415,7 @@
       "basis": "2024 Data: 5 TDs in 5 games"
     },
     {
-      "player": "Khalil Shakir",
+      "player": "Keon Coleman",
       "team": "Buffalo Bills",
       "opponent": "Jacksonville Jaguars",
       "position": "WR",
@@ -433,7 +434,7 @@
       "basis": "2024 Data: 4 TDs in 4 games"
     },
     {
-      "player": "Keon Coleman",
+      "player": "Khalil Shakir",
       "team": "Buffalo Bills",
       "opponent": "Jacksonville Jaguars",
       "position": "WR",
@@ -528,23 +529,23 @@
       "basis": "2024 Data: 8 TDs in 7 games"
     },
     {
-      "player": "Chuba Hubbard",
-      "team": "Carolina Panthers",
-      "opponent": "LA Rams",
-      "position": "RB",
-      "mlProbability": 0.3406666666666667,
-      "mlConfidence": 0.75,
+      "player": "Brenton Strange",
+      "team": "Jacksonville Jaguars",
+      "opponent": "Buffalo Bills",
+      "position": "TE",
+      "mlProbability": 0.3173333333333333,
+      "mlConfidence": 0.9,
       "keyFactors": [
-        "Moderate 2024 production (7 TDs)",
-        "Hot recent form (6 TDs in recent games)",
+        "Previous success vs opponent (1 TDs)",
+        "Weak opponent defense (4.1 TDs/game allowed)",
         "Home field advantage"
       ],
       "mlRank": 16,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 7,
-      "actual2024Games": 6,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 7 TDs in 6 games"
+      "playerTDsYTD": 3,
+      "actual2024TDs": 2,
+      "actual2024Games": 2,
+      "vsOpponentTDs": 1,
+      "basis": "2024 Data: 2 TDs in 2 games"
     },
     {
       "player": "Rome Odunze",
@@ -565,6 +566,24 @@
       "basis": "2024 Data: 3 TDs in 2 games"
     },
     {
+      "player": "Tyler Higbee",
+      "team": "Los Angeles Rams",
+      "opponent": "Carolina Panthers",
+      "position": "TE",
+      "mlProbability": 0.31600000000000006,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Weak opponent defense (4.9 TDs/game allowed)",
+        "Hot recent form (3 TDs in recent games)"
+      ],
+      "mlRank": 18,
+      "playerTDsYTD": 3,
+      "actual2024TDs": 3,
+      "actual2024Games": 3,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 3 TDs in 3 games"
+    },
+    {
       "player": "Tucker Kraft",
       "team": "Green Bay Packers",
       "opponent": "Chicago Bears",
@@ -576,7 +595,7 @@
         "Weak opponent defense (2.5 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 18,
+      "mlRank": 19,
       "playerTDsYTD": 6,
       "actual2024TDs": 7,
       "actual2024Games": 6,
@@ -595,36 +614,18 @@
         "Weak opponent defense (2.5 TDs/game allowed)",
         "Hot recent form (4 TDs in recent games)"
       ],
-      "mlRank": 19,
+      "mlRank": 20,
       "playerTDsYTD": 13,
       "actual2024TDs": 4,
       "actual2024Games": 3,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 4 TDs in 3 games"
-    },
-    {
-      "player": "Romeo Doubs",
-      "team": "Green Bay Packers",
-      "opponent": "Chicago Bears",
-      "position": "WR",
-      "mlProbability": 0.3097266187050359,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Moderate 2024 production (4 TDs)",
-        "Weak opponent defense (2.5 TDs/game allowed)",
-        "Hot recent form (4 TDs in recent games)"
-      ],
-      "mlRank": 20,
-      "playerTDsYTD": 6,
-      "actual2024TDs": 4,
-      "actual2024Games": 2,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 4 TDs in 2 games"
     }
   ],
   "agreement": 0,
   "differences": {
     "onlyInCurrent": [
+      "Xavier Hutchinson",
       "Ashton Jeanty",
       "Woody Marks",
       "Tetairoa McMillan",
@@ -643,8 +644,7 @@
       "Elic Ayomanor",
       "RJ Harvey",
       "Tez Johnson",
-      "Kenneth Gainwell",
-      "Davante Adams"
+      "Kenneth Gainwell"
     ],
     "onlyInML": [
       "Jalen Hurts",
@@ -656,17 +656,17 @@
       "James Cook",
       "Pat Freiermuth",
       "Ty Johnson",
-      "Khalil Shakir",
       "Keon Coleman",
+      "Khalil Shakir",
       "Josh Allen",
       "Trevor Lawrence",
       "Dallas Goedert",
       "Quentin Johnston",
-      "Chuba Hubbard",
+      "Brenton Strange",
       "Rome Odunze",
+      "Tyler Higbee",
       "Tucker Kraft",
-      "Josh Jacobs",
-      "Romeo Doubs"
+      "Josh Jacobs"
     ],
     "rankingDifferences": []
   }
