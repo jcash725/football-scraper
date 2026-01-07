@@ -1,18 +1,6 @@
 {
-  "generatedAt": "2026-01-06T08:19:13.014Z",
+  "generatedAt": "2026-01-07T08:19:06.415Z",
   "currentModel": [
-    {
-      "Player": "Xavier Hutchinson",
-      "Team": "Houston Texans",
-      "Opponent": "Pittsburgh",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 6,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 2.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
-    },
     {
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
@@ -110,6 +98,18 @@
       "Rookie Boost": "MASSIVE boost (1.2 TD/game)"
     },
     {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "TBD",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
       "Player": "Jaxson Dart",
       "Team": "New York Giants",
       "Opponent": "TBD",
@@ -153,18 +153,6 @@
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
       "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "TBD",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
@@ -230,16 +218,26 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Kenneth Gainwell",
-      "Team": "Pittsburgh Steelers",
-      "Opponent": "Houston",
-      "Basis": "Opp Rush TD/G",
-      "Opponent Stat Value": 4.1,
-      "Player TDs YTD": 5,
+      "Player": "Davante Adams",
+      "Team": "Los Angeles Rams",
+      "Opponent": "Carolina",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 2.1,
+      "Player TDs YTD": 14,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Pittsburgh Steelers vs Houston - opponent allows 0.6 rush TDs/game",
-      "Rookie Boost": "+3.5 (1.5 TD/game)"
+      "Reason": "Los Angeles Rams vs Carolina - opponent allows 2.1 pass TDs/game"
+    },
+    {
+      "Player": "Puka Nacua",
+      "Team": "Los Angeles Rams",
+      "Opponent": "Carolina",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 2.1,
+      "Player TDs YTD": 10,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Los Angeles Rams vs Carolina - opponent allows 2.1 pass TDs/game"
     }
   ],
   "mlModel": [
@@ -332,7 +330,7 @@
         "Weak opponent defense (3.2 TDs/game allowed)"
       ],
       "mlRank": 5,
-      "playerTDsYTD": 6,
+      "playerTDsYTD": 1,
       "actual2024TDs": 6,
       "actual2024Games": 5,
       "vsOpponentTDs": 1,
@@ -415,7 +413,7 @@
       "basis": "2024 Data: 5 TDs in 5 games"
     },
     {
-      "player": "Keon Coleman",
+      "player": "Khalil Shakir",
       "team": "Buffalo Bills",
       "opponent": "Jacksonville Jaguars",
       "position": "WR",
@@ -434,7 +432,7 @@
       "basis": "2024 Data: 4 TDs in 4 games"
     },
     {
-      "player": "Khalil Shakir",
+      "player": "Keon Coleman",
       "team": "Buffalo Bills",
       "opponent": "Jacksonville Jaguars",
       "position": "WR",
@@ -529,23 +527,23 @@
       "basis": "2024 Data: 8 TDs in 7 games"
     },
     {
-      "player": "Brenton Strange",
-      "team": "Jacksonville Jaguars",
-      "opponent": "Buffalo Bills",
-      "position": "TE",
-      "mlProbability": 0.3173333333333333,
-      "mlConfidence": 0.9,
+      "player": "Chuba Hubbard",
+      "team": "Carolina Panthers",
+      "opponent": "LA Rams",
+      "position": "RB",
+      "mlProbability": 0.3406666666666667,
+      "mlConfidence": 0.75,
       "keyFactors": [
-        "Previous success vs opponent (1 TDs)",
-        "Weak opponent defense (4.1 TDs/game allowed)",
+        "Moderate 2024 production (7 TDs)",
+        "Hot recent form (6 TDs in recent games)",
         "Home field advantage"
       ],
       "mlRank": 16,
       "playerTDsYTD": 3,
-      "actual2024TDs": 2,
-      "actual2024Games": 2,
-      "vsOpponentTDs": 1,
-      "basis": "2024 Data: 2 TDs in 2 games"
+      "actual2024TDs": 7,
+      "actual2024Games": 6,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 7 TDs in 6 games"
     },
     {
       "player": "Rome Odunze",
@@ -625,7 +623,6 @@
   "agreement": 0,
   "differences": {
     "onlyInCurrent": [
-      "Xavier Hutchinson",
       "Ashton Jeanty",
       "Woody Marks",
       "Tetairoa McMillan",
@@ -634,17 +631,18 @@
       "Hollywood Brown",
       "Emeka Egbuka",
       "Christian McCaffrey",
+      "Tyler Warren",
       "Jaxson Dart",
       "Caleb Williams",
       "Bhayshul Tuten",
       "Omarion Hampton",
-      "Tyler Warren",
       "Jake Tonges",
       "Isaac TeSlaa",
       "Elic Ayomanor",
       "RJ Harvey",
       "Tez Johnson",
-      "Kenneth Gainwell"
+      "Davante Adams",
+      "Puka Nacua"
     ],
     "onlyInML": [
       "Jalen Hurts",
@@ -656,13 +654,13 @@
       "James Cook",
       "Pat Freiermuth",
       "Ty Johnson",
-      "Keon Coleman",
       "Khalil Shakir",
+      "Keon Coleman",
       "Josh Allen",
       "Trevor Lawrence",
       "Dallas Goedert",
       "Quentin Johnston",
-      "Brenton Strange",
+      "Chuba Hubbard",
       "Rome Odunze",
       "Tyler Higbee",
       "Tucker Kraft",

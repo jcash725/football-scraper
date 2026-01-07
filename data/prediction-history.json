@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-01-06T08:19:13.012Z",
+  "lastUpdated": "2026-01-07T08:19:06.413Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,70 +6663,70 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-01-06T08:19:13.012Z",
+      "generatedAt": "2026-01-07T08:19:06.413Z",
       "currentModelPredictions": [
         {
           "rank": 1,
-          "player": "Xavier Hutchinson",
-          "team": "Houston Texans",
-          "opponent": "Pittsburgh",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 2,
           "player": "Ashton Jeanty",
           "team": "Las Vegas Raiders",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "player": "Woody Marks",
           "team": "Houston Texans",
           "opponent": "Pittsburgh",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "player": "Tetairoa McMillan",
           "team": "Carolina Panthers",
           "opponent": "LA Rams",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "player": "Jacory Croskey-Merritt",
           "team": "Washington Commanders",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "player": "Jake Ferguson",
           "team": "Dallas Cowboys",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "player": "Hollywood Brown",
           "team": "Kansas City Chiefs",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "player": "Emeka Egbuka",
           "team": "Tampa Bay Buccaneers",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "player": "Christian McCaffrey",
           "team": "San Francisco 49ers",
           "opponent": "Philadelphia",
           "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 9,
+          "player": "Tyler Warren",
+          "team": "Indianapolis Colts",
+          "opponent": "TBD",
+          "basis": "Rush TD - Rookie hotstreak"
         },
         {
           "rank": 10,
@@ -6758,52 +6758,52 @@
         },
         {
           "rank": 14,
-          "player": "Tyler Warren",
-          "team": "Indianapolis Colts",
-          "opponent": "TBD",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 15,
           "player": "Jake Tonges",
           "team": "San Francisco 49ers",
           "opponent": "Philadelphia",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "player": "Isaac TeSlaa",
           "team": "Detroit Lions",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "player": "Elic Ayomanor",
           "team": "Tennessee Titans",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "player": "RJ Harvey",
           "team": "Denver Broncos",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "player": "Tez Johnson",
           "team": "Tampa Bay Buccaneers",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
+          "rank": 19,
+          "player": "Davante Adams",
+          "team": "Los Angeles Rams",
+          "opponent": "Carolina",
+          "basis": "Opp Pass TD/G"
+        },
+        {
           "rank": 20,
-          "player": "Kenneth Gainwell",
-          "team": "Pittsburgh Steelers",
-          "opponent": "Houston",
-          "basis": "Opp Rush TD/G"
+          "player": "Puka Nacua",
+          "team": "Los Angeles Rams",
+          "opponent": "Carolina",
+          "basis": "Opp Pass TD/G"
         }
       ],
       "mlModelPredictions": [
@@ -6926,7 +6926,7 @@
         },
         {
           "rank": 10,
-          "player": "Keon Coleman",
+          "player": "Khalil Shakir",
           "team": "Buffalo Bills",
           "opponent": "Jacksonville Jaguars",
           "probability": 0.3946666666666666,
@@ -6939,7 +6939,7 @@
         },
         {
           "rank": 11,
-          "player": "Khalil Shakir",
+          "player": "Keon Coleman",
           "team": "Buffalo Bills",
           "opponent": "Jacksonville Jaguars",
           "probability": 0.3946666666666666,
@@ -7004,14 +7004,14 @@
         },
         {
           "rank": 16,
-          "player": "Brenton Strange",
-          "team": "Jacksonville Jaguars",
-          "opponent": "Buffalo Bills",
-          "probability": 0.3173333333333333,
-          "confidence": 0.9,
+          "player": "Chuba Hubbard",
+          "team": "Carolina Panthers",
+          "opponent": "LA Rams",
+          "probability": 0.3406666666666667,
+          "confidence": 0.75,
           "keyFactors": [
-            "Previous success vs opponent (1 TDs)",
-            "Weak opponent defense (4.1 TDs/game allowed)",
+            "Moderate 2024 production (7 TDs)",
+            "Hot recent form (6 TDs in recent games)",
             "Home field advantage"
           ]
         },
