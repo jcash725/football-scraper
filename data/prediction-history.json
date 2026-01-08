@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-01-07T08:19:06.413Z",
+  "lastUpdated": "2026-01-08T08:18:55.252Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-01-07T08:19:06.413Z",
+      "generatedAt": "2026-01-08T08:18:55.252Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -6723,38 +6723,38 @@
         },
         {
           "rank": 9,
-          "player": "Tyler Warren",
-          "team": "Indianapolis Colts",
-          "opponent": "TBD",
-          "basis": "Rush TD - Rookie hotstreak"
-        },
-        {
-          "rank": 10,
           "player": "Jaxson Dart",
           "team": "New York Giants",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "player": "Caleb Williams",
           "team": "Chicago Bears",
           "opponent": "Green Bay",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "player": "Bhayshul Tuten",
           "team": "Jacksonville Jaguars",
           "opponent": "Buffalo",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "player": "Omarion Hampton",
           "team": "Los Angeles Chargers",
           "opponent": "New England",
           "basis": "Rush TD - Rookie hotstreak"
+        },
+        {
+          "rank": 13,
+          "player": "Tyler Warren",
+          "team": "Indianapolis Colts",
+          "opponent": "TBD",
+          "basis": "Pass TD - Rookie hotstreak"
         },
         {
           "rank": 14,
@@ -6793,14 +6793,14 @@
         },
         {
           "rank": 19,
-          "player": "Davante Adams",
-          "team": "Los Angeles Rams",
-          "opponent": "Carolina",
-          "basis": "Opp Pass TD/G"
+          "player": "Kenneth Gainwell",
+          "team": "Pittsburgh Steelers",
+          "opponent": "Houston",
+          "basis": "Opp Rush TD/G"
         },
         {
           "rank": 20,
-          "player": "Puka Nacua",
+          "player": "Davante Adams",
           "team": "Los Angeles Rams",
           "opponent": "Carolina",
           "basis": "Opp Pass TD/G"
@@ -6926,6 +6926,19 @@
         },
         {
           "rank": 10,
+          "player": "Calvin Austin III",
+          "team": "Pittsburgh Steelers",
+          "opponent": "Houston Texans",
+          "probability": 0.39466666666666667,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Moderate 2024 production (4 TDs)",
+            "Weak opponent defense (4.4 TDs/game allowed)",
+            "Hot recent form (4 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 11,
           "player": "Khalil Shakir",
           "team": "Buffalo Bills",
           "opponent": "Jacksonville Jaguars",
@@ -6938,7 +6951,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 12,
           "player": "Keon Coleman",
           "team": "Buffalo Bills",
           "opponent": "Jacksonville Jaguars",
@@ -6951,7 +6964,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 13,
           "player": "Josh Allen",
           "team": "Buffalo Bills",
           "opponent": "Jacksonville Jaguars",
@@ -6964,7 +6977,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 14,
           "player": "Trevor Lawrence",
           "team": "Jacksonville Jaguars",
           "opponent": "Buffalo Bills",
@@ -6977,7 +6990,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 15,
           "player": "Dallas Goedert",
           "team": "Philadelphia Eagles",
           "opponent": "San Francisco",
@@ -6990,7 +7003,7 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 16,
           "player": "Quentin Johnston",
           "team": "Los Angeles Chargers",
           "opponent": "New England",
@@ -7003,7 +7016,7 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 17,
           "player": "Chuba Hubbard",
           "team": "Carolina Panthers",
           "opponent": "LA Rams",
@@ -7016,7 +7029,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 18,
           "player": "Rome Odunze",
           "team": "Chicago Bears",
           "opponent": "Green Bay",
@@ -7028,7 +7041,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 19,
           "player": "Tyler Higbee",
           "team": "Los Angeles Rams",
           "opponent": "Carolina Panthers",
@@ -7040,7 +7053,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 20,
           "player": "Tucker Kraft",
           "team": "Green Bay Packers",
           "opponent": "Chicago Bears",
@@ -7050,19 +7063,6 @@
             "Moderate 2024 production (7 TDs)",
             "Weak opponent defense (2.5 TDs/game allowed)",
             "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "Josh Jacobs",
-          "team": "Green Bay Packers",
-          "opponent": "Chicago Bears",
-          "probability": 0.3097266187050359,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (4 TDs)",
-            "Weak opponent defense (2.5 TDs/game allowed)",
-            "Hot recent form (4 TDs in recent games)"
           ]
         }
       ]
