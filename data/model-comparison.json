@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-08T08:18:55.254Z",
+  "generatedAt": "2026-01-10T08:16:06.991Z",
   "currentModel": [
     {
       "Player": "Ashton Jeanty",
@@ -84,18 +84,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.3 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.3 TD/game)"
-    },
-    {
-      "Player": "Christian McCaffrey",
-      "Team": "San Francisco 49ers",
-      "Opponent": "Philadelphia",
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 6,
-      "Opponent Stat Value": 5.2,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.2 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.2 TD/game)"
     },
     {
       "Player": "Jaxson Dart",
@@ -216,6 +204,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "Christian McCaffrey",
+      "Team": 49,
+      "Opponent": "Philadelphia",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.5,
+      "Player TDs YTD": 7,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "49 vs Philadelphia - opponent allows 1.3 pass TDs/game",
+      "Rookie Boost": "+3.2 (1.2 TD/game)"
     },
     {
       "Player": "Kenneth Gainwell",
@@ -559,7 +559,7 @@
         "Home field advantage"
       ],
       "mlRank": 17,
-      "playerTDsYTD": 3,
+      "playerTDsYTD": 1,
       "actual2024TDs": 7,
       "actual2024Games": 6,
       "vsOpponentTDs": 0,
@@ -631,7 +631,6 @@
       "Jake Ferguson",
       "Hollywood Brown",
       "Emeka Egbuka",
-      "Christian McCaffrey",
       "Jaxson Dart",
       "Caleb Williams",
       "Bhayshul Tuten",
@@ -642,6 +641,7 @@
       "Elic Ayomanor",
       "RJ Harvey",
       "Tez Johnson",
+      "Christian McCaffrey",
       "Kenneth Gainwell",
       "Davante Adams"
     ],

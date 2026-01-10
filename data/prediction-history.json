@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-01-09T08:19:08.806Z",
+  "lastUpdated": "2026-01-10T08:16:06.989Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-01-09T08:19:08.805Z",
+      "generatedAt": "2026-01-10T08:16:06.989Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -6716,80 +6716,80 @@
         },
         {
           "rank": 8,
-          "player": "Christian McCaffrey",
-          "team": "San Francisco 49ers",
-          "opponent": "Philadelphia",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 9,
           "player": "Jaxson Dart",
           "team": "New York Giants",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "player": "Caleb Williams",
           "team": "Chicago Bears",
           "opponent": "Green Bay",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "player": "Bhayshul Tuten",
           "team": "Jacksonville Jaguars",
           "opponent": "Buffalo",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "player": "Omarion Hampton",
           "team": "Los Angeles Chargers",
           "opponent": "New England",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "player": "Tyler Warren",
           "team": "Indianapolis Colts",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "player": "Jake Tonges",
           "team": "San Francisco 49ers",
           "opponent": "Philadelphia",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "player": "Isaac TeSlaa",
           "team": "Detroit Lions",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "player": "Elic Ayomanor",
           "team": "Tennessee Titans",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "player": "RJ Harvey",
           "team": "Denver Broncos",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "player": "Tez Johnson",
           "team": "Tampa Bay Buccaneers",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 18,
+          "player": "Christian McCaffrey",
+          "team": 49,
+          "opponent": "Philadelphia",
+          "basis": "Opp Pass TD/G"
         },
         {
           "rank": 19,
