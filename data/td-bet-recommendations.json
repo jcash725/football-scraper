@@ -1,9 +1,21 @@
 {
-  "generatedAt": "2026-01-10T08:16:06.991Z",
+  "generatedAt": "2026-01-11T08:16:29.447Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
   "recommendations": [
+    {
+      "Player": "Xavier Hutchinson",
+      "Team": "Houston Texans",
+      "Opponent": "Pittsburgh",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 6,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 2.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
+    },
     {
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
@@ -231,17 +243,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Pittsburgh Steelers vs Houston - opponent allows 0.6 rush TDs/game",
       "Rookie Boost": "+3.5 (1.5 TD/game)"
-    },
-    {
-      "Player": "Davante Adams",
-      "Team": "Los Angeles Rams",
-      "Opponent": "Carolina",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 2.1,
-      "Player TDs YTD": 14,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Los Angeles Rams vs Carolina - opponent allows 2.1 pass TDs/game"
     }
   ]
 }
