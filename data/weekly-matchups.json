@@ -1,7 +1,7 @@
 {
   "url": "https://www.teamrankings.com/nfl/schedules/season/",
-  "scrapedAt": "2026-01-11T08:15:51.593Z",
-  "note": "Found 6 matchups",
+  "scrapedAt": "2026-01-13T08:18:35.262Z",
+  "note": "Found 4 matchups",
   "columns": [
     "away_team",
     "home_team",
@@ -10,40 +10,28 @@
   ],
   "rows": [
     {
-      "away_team": "LA Rams",
-      "home_team": "Carolina",
-      "date": "Sat Jan 10",
-      "time": "4:30 PM"
-    },
-    {
-      "away_team": "Green Bay",
-      "home_team": "Chicago",
-      "date": "Sat Jan 10",
-      "time": "8:00 PM"
-    },
-    {
       "away_team": "Buffalo",
-      "home_team": "Jacksonville",
-      "date": "Sat Jan 10",
-      "time": "1:00 PM"
+      "home_team": "Denver",
+      "date": "Sat Jan 17",
+      "time": "4:30 PM"
     },
     {
       "away_team": "San Francisco",
-      "home_team": "Philadelphia",
-      "date": "Sat Jan 10",
-      "time": "4:30 PM"
-    },
-    {
-      "away_team": "LA Chargers",
-      "home_team": "New England",
-      "date": "Sat Jan 10",
-      "time": "8:15 PM"
+      "home_team": "Seattle",
+      "date": "Sat Jan 17",
+      "time": "8:00 PM"
     },
     {
       "away_team": "Houston",
-      "home_team": "Pittsburgh",
-      "date": "Sat Jan 10",
-      "time": "8:15 PM"
+      "home_team": "New England",
+      "date": "Sat Jan 17",
+      "time": "3:00 PM"
+    },
+    {
+      "away_team": "LA Rams",
+      "home_team": "Chicago",
+      "date": "Sat Jan 17",
+      "time": "6:30 PM"
     }
   ]
 }
