@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-01-13T08:19:13.016Z",
+  "lastUpdated": "2026-01-14T08:18:58.551Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-01-13T08:19:13.015Z",
+      "generatedAt": "2026-01-14T08:18:58.551Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -6723,84 +6723,84 @@
         },
         {
           "rank": 9,
+          "player": "Tyler Warren",
+          "team": "Indianapolis Colts",
+          "opponent": "TBD",
+          "basis": "Rush TD - Rookie hotstreak"
+        },
+        {
+          "rank": 10,
           "player": "Jaxson Dart",
           "team": "New York Giants",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "player": "Caleb Williams",
           "team": "Chicago Bears",
           "opponent": "LA Rams",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "player": "Bhayshul Tuten",
           "team": "Jacksonville Jaguars",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 12,
-          "player": "Omarion Hampton",
-          "team": "Los Angeles Chargers",
-          "opponent": "TBD",
-          "basis": "Rush TD - Rookie hotstreak"
-        },
-        {
           "rank": 13,
-          "player": "Tyler Warren",
-          "team": "Indianapolis Colts",
-          "opponent": "TBD",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 14,
           "player": "Jake Tonges",
           "team": "San Francisco 49ers",
           "opponent": "Seattle",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "player": "Isaac TeSlaa",
           "team": "Detroit Lions",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "player": "Elic Ayomanor",
           "team": "Tennessee Titans",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "player": "RJ Harvey",
           "team": "Denver Broncos",
           "opponent": "Buffalo",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "player": "Tez Johnson",
           "team": "Tampa Bay Buccaneers",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "player": "Christian McCaffrey",
           "team": 49,
           "opponent": "Seattle",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "player": "Hunter Henry",
+          "team": "New England Patriots",
+          "opponent": "Houston",
+          "basis": "Opp Pass TD/G"
+        },
+        {
+          "rank": 20,
+          "player": "Kayshon Boutte",
           "team": "New England Patriots",
           "opponent": "Houston",
           "basis": "Opp Pass TD/G"
@@ -6913,19 +6913,6 @@
         },
         {
           "rank": 9,
-          "player": "Marvin Mims Jr.",
-          "team": "Denver Broncos",
-          "opponent": "Buffalo Bills",
-          "probability": 0.432,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (6 TDs)",
-            "Weak opponent defense (4.1 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 10,
           "player": "Jaxon Smith-Njigba",
           "team": "Seattle Seahawks",
           "opponent": "San Francisco",
@@ -6938,7 +6925,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 10,
           "player": "Bo Nix",
           "team": "Denver Broncos",
           "opponent": "Buffalo Bills",
@@ -6951,7 +6938,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 11,
           "player": "Ty Johnson",
           "team": "Buffalo Bills",
           "opponent": "Denver Broncos",
@@ -6964,7 +6951,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 12,
           "player": "James Cook",
           "team": "Buffalo Bills",
           "opponent": "Denver Broncos",
@@ -6977,7 +6964,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 13,
           "player": "Josh Allen",
           "team": "Buffalo Bills",
           "opponent": "Denver Broncos",
@@ -6990,20 +6977,7 @@
           ]
         },
         {
-          "rank": 15,
-          "player": "Jaleel McLaughlin",
-          "team": "Denver Broncos",
-          "opponent": "Buffalo Bills",
-          "probability": 0.37600000000000006,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Weak opponent defense (4.1 TDs/game allowed)",
-            "Hot recent form (3 TDs in recent games)",
-            "Home field advantage"
-          ]
-        },
-        {
-          "rank": 16,
+          "rank": 14,
           "player": "AJ Barner",
           "team": "Seattle Seahawks",
           "opponent": "San Francisco",
@@ -7016,7 +6990,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 15,
           "player": "Khalil Shakir",
           "team": "Buffalo Bills",
           "opponent": "Denver Broncos",
@@ -7029,7 +7003,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 16,
           "player": "Keon Coleman",
           "team": "Buffalo Bills",
           "opponent": "Denver Broncos",
@@ -7042,7 +7016,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 17,
           "player": "Hunter Henry",
           "team": "New England Patriots",
           "opponent": "Houston Texans",
@@ -7055,7 +7029,7 @@
           ]
         },
         {
-          "rank": 20,
+          "rank": 18,
           "player": "DJ Moore",
           "team": "Chicago Bears",
           "opponent": "LA Rams",
@@ -7065,6 +7039,29 @@
             "Moderate 2024 production (6 TDs)",
             "Hot recent form (6 TDs in recent games)",
             "Home field advantage"
+          ]
+        },
+        {
+          "rank": 19,
+          "player": "Drake Maye",
+          "team": "New England Patriots",
+          "opponent": "Houston Texans",
+          "probability": 0.23866666666666667,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Weak opponent defense (4.4 TDs/game allowed)",
+            "Home field advantage"
+          ]
+        },
+        {
+          "rank": 20,
+          "player": "Colby Parkinson",
+          "team": "Los Angeles Rams",
+          "opponent": "Chicago Bears",
+          "probability": 0.17239328537170262,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Weak opponent defense (2.5 TDs/game allowed)"
           ]
         }
       ]

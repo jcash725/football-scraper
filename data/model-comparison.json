@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-13T08:19:13.018Z",
+  "generatedAt": "2026-01-14T08:18:58.554Z",
   "currentModel": [
     {
       "Player": "Tetairoa McMillan",
@@ -98,6 +98,18 @@
       "Rookie Boost": "MASSIVE boost (1.3 TD/game)"
     },
     {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "TBD",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
       "Player": "Jaxson Dart",
       "Team": "New York Giants",
       "Opponent": "TBD",
@@ -129,30 +141,6 @@
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
       "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Omarion Hampton",
-      "Team": "Los Angeles Chargers",
-      "Opponent": "TBD",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "TBD",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
@@ -236,6 +224,17 @@
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 1.7,
       "Player TDs YTD": 8,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "New England Patriots vs Houston - opponent allows 1.7 pass TDs/game"
+    },
+    {
+      "Player": "Kayshon Boutte",
+      "Team": "New England Patriots",
+      "Opponent": "Houston",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.7,
+      "Player TDs YTD": 6,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "1",
       "Reason": "New England Patriots vs Houston - opponent allows 1.7 pass TDs/game"
@@ -395,25 +394,6 @@
       "basis": "2024 Data: 6 TDs in 5 games"
     },
     {
-      "player": "Marvin Mims Jr.",
-      "team": "Denver Broncos",
-      "opponent": "Buffalo Bills",
-      "position": "WR",
-      "mlProbability": 0.432,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Moderate 2024 production (6 TDs)",
-        "Weak opponent defense (4.1 TDs/game allowed)",
-        "Hot recent form (6 TDs in recent games)"
-      ],
-      "mlRank": 9,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 6,
-      "actual2024Games": 4,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 6 TDs in 4 games"
-    },
-    {
       "player": "Jaxon Smith-Njigba",
       "team": "Seattle Seahawks",
       "opponent": "San Francisco",
@@ -425,7 +405,7 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 10,
+      "mlRank": 9,
       "playerTDsYTD": 10,
       "actual2024TDs": 6,
       "actual2024Games": 5,
@@ -444,7 +424,7 @@
         "Weak opponent defense (4.1 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 11,
+      "mlRank": 10,
       "playerTDsYTD": 5,
       "actual2024TDs": 5,
       "actual2024Games": 5,
@@ -463,7 +443,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (2.9 TDs/game allowed)"
       ],
-      "mlRank": 12,
+      "mlRank": 11,
       "playerTDsYTD": 3,
       "actual2024TDs": 5,
       "actual2024Games": 5,
@@ -482,7 +462,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 13,
+      "mlRank": 12,
       "playerTDsYTD": 12,
       "actual2024TDs": 10,
       "actual2024Games": 7,
@@ -501,31 +481,12 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 14,
+      "mlRank": 13,
       "playerTDsYTD": 16,
       "actual2024TDs": 7,
       "actual2024Games": 4,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 7 TDs in 4 games"
-    },
-    {
-      "player": "Jaleel McLaughlin",
-      "team": "Denver Broncos",
-      "opponent": "Buffalo Bills",
-      "position": "RB",
-      "mlProbability": 0.37600000000000006,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Weak opponent defense (4.1 TDs/game allowed)",
-        "Hot recent form (3 TDs in recent games)",
-        "Home field advantage"
-      ],
-      "mlRank": 15,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 3,
-      "actual2024Games": 3,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 3 TDs in 3 games"
     },
     {
       "player": "AJ Barner",
@@ -539,8 +500,8 @@
         "Hot recent form (3 TDs in recent games)",
         "Home field advantage"
       ],
-      "mlRank": 16,
-      "playerTDsYTD": 1,
+      "mlRank": 14,
+      "playerTDsYTD": 6,
       "actual2024TDs": 3,
       "actual2024Games": 3,
       "vsOpponentTDs": 0,
@@ -558,7 +519,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (4 TDs in recent games)"
       ],
-      "mlRank": 17,
+      "mlRank": 15,
       "playerTDsYTD": 4,
       "actual2024TDs": 4,
       "actual2024Games": 4,
@@ -577,7 +538,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (4 TDs in recent games)"
       ],
-      "mlRank": 18,
+      "mlRank": 16,
       "playerTDsYTD": 4,
       "actual2024TDs": 4,
       "actual2024Games": 4,
@@ -596,7 +557,7 @@
         "Weak opponent defense (4.4 TDs/game allowed)",
         "Home field advantage"
       ],
-      "mlRank": 19,
+      "mlRank": 17,
       "playerTDsYTD": 8,
       "actual2024TDs": 2,
       "actual2024Games": 2,
@@ -615,15 +576,50 @@
         "Hot recent form (6 TDs in recent games)",
         "Home field advantage"
       ],
-      "mlRank": 20,
-      "playerTDsYTD": 7,
+      "mlRank": 18,
+      "playerTDsYTD": 1,
       "actual2024TDs": 6,
       "actual2024Games": 5,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 6 TDs in 5 games"
+    },
+    {
+      "player": "Drake Maye",
+      "team": "New England Patriots",
+      "opponent": "Houston Texans",
+      "position": "QB",
+      "mlProbability": 0.23866666666666667,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Weak opponent defense (4.4 TDs/game allowed)",
+        "Home field advantage"
+      ],
+      "mlRank": 19,
+      "playerTDsYTD": 4,
+      "actual2024TDs": 1,
+      "actual2024Games": 1,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 1 TDs in 1 games"
+    },
+    {
+      "player": "Colby Parkinson",
+      "team": "Los Angeles Rams",
+      "opponent": "Chicago Bears",
+      "position": "TE",
+      "mlProbability": 0.17239328537170262,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Weak opponent defense (2.5 TDs/game allowed)"
+      ],
+      "mlRank": 20,
+      "playerTDsYTD": 9,
+      "actual2024TDs": 2,
+      "actual2024Games": 2,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 2 TDs in 2 games"
     }
   ],
-  "agreement": 5,
+  "agreement": 10,
   "differences": {
     "onlyInCurrent": [
       "Tetairoa McMillan",
@@ -634,11 +630,10 @@
       "Jake Ferguson",
       "Hollywood Brown",
       "Emeka Egbuka",
+      "Tyler Warren",
       "Jaxson Dart",
       "Caleb Williams",
       "Bhayshul Tuten",
-      "Omarion Hampton",
-      "Tyler Warren",
       "Jake Tonges",
       "Isaac TeSlaa",
       "Elic Ayomanor",
@@ -651,28 +646,33 @@
       "Courtland Sutton",
       "Kenneth Walker III",
       "Rhamondre Stevenson",
-      "Kayshon Boutte",
       "Troy Franklin",
       "Demario Douglas",
       "Zach Charbonnet",
-      "Marvin Mims Jr.",
       "Jaxon Smith-Njigba",
       "Bo Nix",
       "Ty Johnson",
       "James Cook",
       "Josh Allen",
-      "Jaleel McLaughlin",
       "AJ Barner",
       "Khalil Shakir",
       "Keon Coleman",
-      "DJ Moore"
+      "DJ Moore",
+      "Drake Maye",
+      "Colby Parkinson"
     ],
     "rankingDifferences": [
       {
-        "player": "Hunter Henry",
+        "player": "Kayshon Boutte",
         "currentRank": 20,
-        "mlRank": 19,
-        "difference": 1
+        "mlRank": 5,
+        "difference": 15
+      },
+      {
+        "player": "Hunter Henry",
+        "currentRank": 19,
+        "mlRank": 17,
+        "difference": 2
       }
     ]
   }
