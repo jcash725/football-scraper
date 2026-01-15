@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-01-14T08:18:58.554Z",
+  "generatedAt": "2026-01-15T08:19:50.331Z",
   "currentModel": [
+    {
+      "Player": "Xavier Hutchinson",
+      "Team": "Houston Texans",
+      "Opponent": "New England",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 6,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 2.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
+    },
     {
       "Player": "Tetairoa McMillan",
       "Team": "Carolina Panthers",
@@ -227,17 +239,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "1",
       "Reason": "New England Patriots vs Houston - opponent allows 1.7 pass TDs/game"
-    },
-    {
-      "Player": "Kayshon Boutte",
-      "Team": "New England Patriots",
-      "Opponent": "Houston",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.7,
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "New England Patriots vs Houston - opponent allows 1.7 pass TDs/game"
     }
   ],
   "mlModel": [
@@ -318,15 +319,15 @@
       "basis": "2024 Data: 7 TDs in 5 games"
     },
     {
-      "player": "Kayshon Boutte",
-      "team": "New England Patriots",
-      "opponent": "Houston Texans",
+      "player": "Troy Franklin",
+      "team": "Denver Broncos",
+      "opponent": "Buffalo Bills",
       "position": "WR",
       "mlProbability": 0.436,
       "mlConfidence": 0.9,
       "keyFactors": [
         "Previous success vs opponent (1 TDs)",
-        "Weak opponent defense (4.4 TDs/game allowed)",
+        "Weak opponent defense (4.1 TDs/game allowed)",
         "Hot recent form (3 TDs in recent games)"
       ],
       "mlRank": 5,
@@ -337,15 +338,15 @@
       "basis": "2024 Data: 3 TDs in 3 games"
     },
     {
-      "player": "Troy Franklin",
-      "team": "Denver Broncos",
-      "opponent": "Buffalo Bills",
+      "player": "Kayshon Boutte",
+      "team": "New England Patriots",
+      "opponent": "Houston Texans",
       "position": "WR",
       "mlProbability": 0.436,
       "mlConfidence": 0.9,
       "keyFactors": [
         "Previous success vs opponent (1 TDs)",
-        "Weak opponent defense (4.1 TDs/game allowed)",
+        "Weak opponent defense (4.4 TDs/game allowed)",
         "Hot recent form (3 TDs in recent games)"
       ],
       "mlRank": 6,
@@ -394,6 +395,25 @@
       "basis": "2024 Data: 6 TDs in 5 games"
     },
     {
+      "player": "Marvin Mims Jr.",
+      "team": "Denver Broncos",
+      "opponent": "Buffalo Bills",
+      "position": "WR",
+      "mlProbability": 0.432,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Moderate 2024 production (6 TDs)",
+        "Weak opponent defense (4.1 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 9,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 6,
+      "actual2024Games": 4,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 6 TDs in 4 games"
+    },
+    {
       "player": "Jaxon Smith-Njigba",
       "team": "Seattle Seahawks",
       "opponent": "San Francisco",
@@ -405,7 +425,7 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 9,
+      "mlRank": 10,
       "playerTDsYTD": 10,
       "actual2024TDs": 6,
       "actual2024Games": 5,
@@ -424,7 +444,7 @@
         "Weak opponent defense (4.1 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 10,
+      "mlRank": 11,
       "playerTDsYTD": 5,
       "actual2024TDs": 5,
       "actual2024Games": 5,
@@ -443,7 +463,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (2.9 TDs/game allowed)"
       ],
-      "mlRank": 11,
+      "mlRank": 12,
       "playerTDsYTD": 3,
       "actual2024TDs": 5,
       "actual2024Games": 5,
@@ -462,7 +482,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 12,
+      "mlRank": 13,
       "playerTDsYTD": 12,
       "actual2024TDs": 10,
       "actual2024Games": 7,
@@ -481,7 +501,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 13,
+      "mlRank": 14,
       "playerTDsYTD": 16,
       "actual2024TDs": 7,
       "actual2024Games": 4,
@@ -500,7 +520,7 @@
         "Hot recent form (3 TDs in recent games)",
         "Home field advantage"
       ],
-      "mlRank": 14,
+      "mlRank": 15,
       "playerTDsYTD": 6,
       "actual2024TDs": 3,
       "actual2024Games": 3,
@@ -519,7 +539,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (4 TDs in recent games)"
       ],
-      "mlRank": 15,
+      "mlRank": 16,
       "playerTDsYTD": 4,
       "actual2024TDs": 4,
       "actual2024Games": 4,
@@ -538,7 +558,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (4 TDs in recent games)"
       ],
-      "mlRank": 16,
+      "mlRank": 17,
       "playerTDsYTD": 4,
       "actual2024TDs": 4,
       "actual2024Games": 4,
@@ -557,7 +577,7 @@
         "Weak opponent defense (4.4 TDs/game allowed)",
         "Home field advantage"
       ],
-      "mlRank": 17,
+      "mlRank": 18,
       "playerTDsYTD": 8,
       "actual2024TDs": 2,
       "actual2024Games": 2,
@@ -576,7 +596,7 @@
         "Hot recent form (6 TDs in recent games)",
         "Home field advantage"
       ],
-      "mlRank": 18,
+      "mlRank": 19,
       "playerTDsYTD": 1,
       "actual2024TDs": 6,
       "actual2024Games": 5,
@@ -594,34 +614,18 @@
         "Weak opponent defense (4.4 TDs/game allowed)",
         "Home field advantage"
       ],
-      "mlRank": 19,
+      "mlRank": 20,
       "playerTDsYTD": 4,
       "actual2024TDs": 1,
       "actual2024Games": 1,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 1 TDs in 1 games"
-    },
-    {
-      "player": "Colby Parkinson",
-      "team": "Los Angeles Rams",
-      "opponent": "Chicago Bears",
-      "position": "TE",
-      "mlProbability": 0.17239328537170262,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Weak opponent defense (2.5 TDs/game allowed)"
-      ],
-      "mlRank": 20,
-      "playerTDsYTD": 9,
-      "actual2024TDs": 2,
-      "actual2024Games": 2,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 2 TDs in 2 games"
     }
   ],
-  "agreement": 10,
+  "agreement": 5,
   "differences": {
     "onlyInCurrent": [
+      "Xavier Hutchinson",
       "Tetairoa McMillan",
       "Ashton Jeanty",
       "Kenneth Gainwell",
@@ -647,8 +651,10 @@
       "Kenneth Walker III",
       "Rhamondre Stevenson",
       "Troy Franklin",
+      "Kayshon Boutte",
       "Demario Douglas",
       "Zach Charbonnet",
+      "Marvin Mims Jr.",
       "Jaxon Smith-Njigba",
       "Bo Nix",
       "Ty Johnson",
@@ -658,20 +664,13 @@
       "Khalil Shakir",
       "Keon Coleman",
       "DJ Moore",
-      "Drake Maye",
-      "Colby Parkinson"
+      "Drake Maye"
     ],
     "rankingDifferences": [
       {
-        "player": "Kayshon Boutte",
-        "currentRank": 20,
-        "mlRank": 5,
-        "difference": 15
-      },
-      {
         "player": "Hunter Henry",
-        "currentRank": 19,
-        "mlRank": 17,
+        "currentRank": 20,
+        "mlRank": 18,
         "difference": 2
       }
     ]

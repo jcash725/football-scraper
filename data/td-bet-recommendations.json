@@ -1,9 +1,21 @@
 {
-  "generatedAt": "2026-01-14T08:18:58.553Z",
+  "generatedAt": "2026-01-15T08:19:50.331Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
   "recommendations": [
+    {
+      "Player": "Xavier Hutchinson",
+      "Team": "Houston Texans",
+      "Opponent": "New England",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 6,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 2.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
+    },
     {
       "Player": "Tetairoa McMillan",
       "Team": "Carolina Panthers",
@@ -227,17 +239,6 @@
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 1.7,
       "Player TDs YTD": 8,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "New England Patriots vs Houston - opponent allows 1.7 pass TDs/game"
-    },
-    {
-      "Player": "Kayshon Boutte",
-      "Team": "New England Patriots",
-      "Opponent": "Houston",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.7,
-      "Player TDs YTD": 6,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "1",
       "Reason": "New England Patriots vs Houston - opponent allows 1.7 pass TDs/game"
