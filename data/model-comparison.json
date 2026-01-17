@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-16T08:18:33.417Z",
+  "generatedAt": "2026-01-17T08:16:00.642Z",
   "currentModel": [
     {
       "Player": "Tetairoa McMillan",
@@ -98,6 +98,18 @@
       "Rookie Boost": "MASSIVE boost (1.3 TD/game)"
     },
     {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "TBD",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
       "Player": "Jaxson Dart",
       "Team": "New York Giants",
       "Opponent": "TBD",
@@ -129,30 +141,6 @@
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
       "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Omarion Hampton",
-      "Team": "Los Angeles Chargers",
-      "Opponent": "TBD",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "TBD",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
@@ -236,6 +224,17 @@
       "Basis": "Opp Pass TD/G",
       "Opponent Stat Value": 1.7,
       "Player TDs YTD": 8,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "New England Patriots vs Houston - opponent allows 1.7 pass TDs/game"
+    },
+    {
+      "Player": "Kayshon Boutte",
+      "Team": "New England Patriots",
+      "Opponent": "Houston",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.7,
+      "Player TDs YTD": 6,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "1",
       "Reason": "New England Patriots vs Houston - opponent allows 1.7 pass TDs/game"
@@ -502,14 +501,14 @@
         "Home field advantage"
       ],
       "mlRank": 14,
-      "playerTDsYTD": 1,
+      "playerTDsYTD": 6,
       "actual2024TDs": 3,
       "actual2024Games": 3,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 3 TDs in 3 games"
     },
     {
-      "player": "Khalil Shakir",
+      "player": "Keon Coleman",
       "team": "Buffalo Bills",
       "opponent": "Denver Broncos",
       "position": "WR",
@@ -528,7 +527,7 @@
       "basis": "2024 Data: 4 TDs in 4 games"
     },
     {
-      "player": "Keon Coleman",
+      "player": "Khalil Shakir",
       "team": "Buffalo Bills",
       "opponent": "Denver Broncos",
       "position": "WR",
@@ -566,24 +565,6 @@
       "basis": "2024 Data: 2 TDs in 2 games"
     },
     {
-      "player": "Tyler Higbee",
-      "team": "Los Angeles Rams",
-      "opponent": "Chicago Bears",
-      "position": "TE",
-      "mlProbability": 0.2910599520383693,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Weak opponent defense (2.5 TDs/game allowed)",
-        "Hot recent form (3 TDs in recent games)"
-      ],
-      "mlRank": 18,
-      "playerTDsYTD": 3,
-      "actual2024TDs": 3,
-      "actual2024Games": 3,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 3 TDs in 3 games"
-    },
-    {
       "player": "DJ Moore",
       "team": "Chicago Bears",
       "opponent": "LA Rams",
@@ -595,8 +576,8 @@
         "Hot recent form (6 TDs in recent games)",
         "Home field advantage"
       ],
-      "mlRank": 19,
-      "playerTDsYTD": 7,
+      "mlRank": 18,
+      "playerTDsYTD": 1,
       "actual2024TDs": 6,
       "actual2024Games": 5,
       "vsOpponentTDs": 0,
@@ -613,15 +594,32 @@
         "Weak opponent defense (4.4 TDs/game allowed)",
         "Home field advantage"
       ],
-      "mlRank": 20,
+      "mlRank": 19,
       "playerTDsYTD": 4,
       "actual2024TDs": 1,
       "actual2024Games": 1,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 1 TDs in 1 games"
+    },
+    {
+      "player": "Dalton Schultz",
+      "team": "Houston Texans",
+      "opponent": "New England",
+      "position": "TE",
+      "mlProbability": 0.19733333333333333,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Weak opponent defense (3.7 TDs/game allowed)"
+      ],
+      "mlRank": 20,
+      "playerTDsYTD": 3,
+      "actual2024TDs": 2,
+      "actual2024Games": 2,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 2 TDs in 2 games"
     }
   ],
-  "agreement": 5,
+  "agreement": 10,
   "differences": {
     "onlyInCurrent": [
       "Tetairoa McMillan",
@@ -632,11 +630,10 @@
       "Jake Ferguson",
       "Hollywood Brown",
       "Emeka Egbuka",
+      "Tyler Warren",
       "Jaxson Dart",
       "Caleb Williams",
       "Bhayshul Tuten",
-      "Omarion Hampton",
-      "Tyler Warren",
       "Jake Tonges",
       "Isaac TeSlaa",
       "Elic Ayomanor",
@@ -649,7 +646,6 @@
       "Courtland Sutton",
       "Kenneth Walker III",
       "Rhamondre Stevenson",
-      "Kayshon Boutte",
       "Troy Franklin",
       "Zach Charbonnet",
       "Marvin Mims Jr.",
@@ -659,18 +655,24 @@
       "James Cook",
       "Josh Allen",
       "AJ Barner",
-      "Khalil Shakir",
       "Keon Coleman",
-      "Tyler Higbee",
+      "Khalil Shakir",
       "DJ Moore",
-      "Drake Maye"
+      "Drake Maye",
+      "Dalton Schultz"
     ],
     "rankingDifferences": [
       {
-        "player": "Hunter Henry",
+        "player": "Kayshon Boutte",
         "currentRank": 20,
+        "mlRank": 5,
+        "difference": 15
+      },
+      {
+        "player": "Hunter Henry",
+        "currentRank": 19,
         "mlRank": 17,
-        "difference": 3
+        "difference": 2
       }
     ]
   }
