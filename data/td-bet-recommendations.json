@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-18T08:16:25.761Z",
+  "generatedAt": "2026-01-19T08:21:19.368Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -43,7 +43,7 @@
     {
       "Player": "Woody Marks",
       "Team": "Houston Texans",
-      "Opponent": "New England",
+      "Opponent": "TBD",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5.5,
@@ -75,6 +75,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.5 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
+    },
+    {
+      "Player": "Christian McCaffrey",
+      "Team": "San Francisco 49ers",
+      "Opponent": "TBD",
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 6,
+      "Opponent Stat Value": 5.2,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.2 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.2 TD/game)"
     },
     {
       "Player": "Hollywood Brown",
@@ -115,7 +127,7 @@
     {
       "Player": "Caleb Williams",
       "Team": "Chicago Bears",
-      "Opponent": "LA Rams",
+      "Opponent": "TBD",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -127,18 +139,6 @@
     {
       "Player": "Bhayshul Tuten",
       "Team": "Jacksonville Jaguars",
-      "Opponent": "TBD",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Omarion Hampton",
-      "Team": "Los Angeles Chargers",
       "Opponent": "TBD",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
@@ -163,7 +163,7 @@
     {
       "Player": "Jake Tonges",
       "Team": "San Francisco 49ers",
-      "Opponent": "Seattle",
+      "Opponent": "TBD",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
@@ -199,7 +199,7 @@
     {
       "Player": "RJ Harvey",
       "Team": "Denver Broncos",
-      "Opponent": "Buffalo",
+      "Opponent": "New England",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -221,27 +221,26 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Christian McCaffrey",
-      "Team": 49,
-      "Opponent": "Seattle",
+      "Player": "Jaxon Smith-Njigba",
+      "Team": "Seattle Seahawks",
+      "Opponent": "LA Rams",
       "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.7,
-      "Player TDs YTD": 9,
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 11,
       "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "49 vs Seattle - opponent allows 1.5 pass TDs/game",
-      "Rookie Boost": "+3.2 (1.2 TD/game)"
+      "TDs vs Opponent Last Year (2024)": "2",
+      "Reason": "Seattle Seahawks vs LA Rams - opponent allows 1.6 pass TDs/game"
     },
     {
-      "Player": "Hunter Henry",
-      "Team": "New England Patriots",
-      "Opponent": "Houston",
+      "Player": "AJ Barner",
+      "Team": "Seattle Seahawks",
+      "Opponent": "LA Rams",
       "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 1.7,
-      "Player TDs YTD": 8,
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 6,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "New England Patriots vs Houston - opponent allows 1.7 pass TDs/game"
+      "Reason": "Seattle Seahawks vs LA Rams - opponent allows 1.6 pass TDs/game"
     }
   ]
 }
