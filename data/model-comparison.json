@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-21T08:20:42.001Z",
+  "generatedAt": "2026-01-23T08:18:54.339Z",
   "currentModel": [
     {
       "Player": "Tetairoa McMillan",
@@ -110,6 +110,18 @@
       "Rookie Boost": "MASSIVE boost (1.3 TD/game)"
     },
     {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "TBD",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
       "Player": "Jaxson Dart",
       "Team": "New York Giants",
       "Opponent": "TBD",
@@ -129,30 +141,6 @@
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
       "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Bhayshul Tuten",
-      "Team": "Jacksonville Jaguars",
-      "Opponent": "TBD",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "TBD",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
@@ -238,6 +226,17 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "1",
       "Reason": "Seattle Seahawks vs LA Rams - opponent allows 1.6 pass TDs/game"
+    },
+    {
+      "Player": "Courtland Sutton",
+      "Team": "Denver Broncos",
+      "Opponent": "New England",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 1.6,
+      "Player TDs YTD": 7,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Denver Broncos vs New England - opponent allows 1.6 pass TDs/game"
     }
   ],
   "mlModel": [
@@ -337,6 +336,25 @@
       "basis": "2024 Data: 7 TDs in 5 games"
     },
     {
+      "player": "Jaleel McLaughlin",
+      "team": "Denver Broncos",
+      "opponent": "New England",
+      "position": "RB",
+      "mlProbability": 0.37600000000000006,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Weak opponent defense (3.7 TDs/game allowed)",
+        "Hot recent form (3 TDs in recent games)",
+        "Home field advantage"
+      ],
+      "mlRank": 6,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 3,
+      "actual2024Games": 3,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 3 TDs in 3 games"
+    },
+    {
       "player": "Troy Franklin",
       "team": "Denver Broncos",
       "opponent": "New England",
@@ -348,7 +366,7 @@
         "Hot recent form (3 TDs in recent games)",
         "Home field advantage"
       ],
-      "mlRank": 6,
+      "mlRank": 7,
       "playerTDsYTD": 6,
       "actual2024TDs": 3,
       "actual2024Games": 3,
@@ -366,7 +384,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (3 TDs in recent games)"
       ],
-      "mlRank": 7,
+      "mlRank": 8,
       "playerTDsYTD": 7,
       "actual2024TDs": 3,
       "actual2024Games": 3,
@@ -384,7 +402,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (3 TDs in recent games)"
       ],
-      "mlRank": 8,
+      "mlRank": 9,
       "playerTDsYTD": 4,
       "actual2024TDs": 3,
       "actual2024Games": 3,
@@ -403,7 +421,7 @@
         "Hot recent form (6 TDs in recent games)",
         "Home field advantage"
       ],
-      "mlRank": 9,
+      "mlRank": 10,
       "playerTDsYTD": 12,
       "actual2024TDs": 6,
       "actual2024Games": 5,
@@ -422,7 +440,7 @@
         "Hot recent form (6 TDs in recent games)",
         "Home field advantage"
       ],
-      "mlRank": 10,
+      "mlRank": 11,
       "playerTDsYTD": 11,
       "actual2024TDs": 6,
       "actual2024Games": 5,
@@ -441,7 +459,7 @@
         "Hot recent form (4 TDs in recent games)",
         "Home field advantage"
       ],
-      "mlRank": 11,
+      "mlRank": 12,
       "playerTDsYTD": 8,
       "actual2024TDs": 4,
       "actual2024Games": 3,
@@ -459,8 +477,8 @@
         "Hot recent form (3 TDs in recent games)",
         "Home field advantage"
       ],
-      "mlRank": 12,
-      "playerTDsYTD": 1,
+      "mlRank": 13,
+      "playerTDsYTD": 6,
       "actual2024TDs": 3,
       "actual2024Games": 3,
       "vsOpponentTDs": 0,
@@ -477,7 +495,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (2.8 TDs/game allowed)"
       ],
-      "mlRank": 13,
+      "mlRank": 14,
       "playerTDsYTD": 14,
       "actual2024TDs": 0,
       "actual2024Games": 0,
@@ -494,7 +512,7 @@
       "keyFactors": [
         "Weak opponent defense (2.9 TDs/game allowed)"
       ],
-      "mlRank": 14,
+      "mlRank": 15,
       "playerTDsYTD": 8,
       "actual2024TDs": 2,
       "actual2024Games": 2,
@@ -511,7 +529,7 @@
       "keyFactors": [
         "Weak opponent defense (2.8 TDs/game allowed)"
       ],
-      "mlRank": 15,
+      "mlRank": 16,
       "playerTDsYTD": 9,
       "actual2024TDs": 2,
       "actual2024Games": 2,
@@ -528,25 +546,8 @@
       "keyFactors": [
         "Weak opponent defense (2.9 TDs/game allowed)"
       ],
-      "mlRank": 16,
-      "playerTDsYTD": 4,
-      "actual2024TDs": 1,
-      "actual2024Games": 1,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 1 TDs in 1 games"
-    },
-    {
-      "player": "Davis Allen",
-      "team": "Los Angeles Rams",
-      "opponent": "Seattle Seahawks",
-      "position": "TE",
-      "mlProbability": 0.16600479616306954,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Weak opponent defense (2.8 TDs/game allowed)"
-      ],
       "mlRank": 17,
-      "playerTDsYTD": 3,
+      "playerTDsYTD": 4,
       "actual2024TDs": 1,
       "actual2024Games": 1,
       "vsOpponentTDs": 0,
@@ -604,7 +605,7 @@
       "basis": "2024 Data: 0 TDs in 0 games"
     }
   ],
-  "agreement": 15,
+  "agreement": 20,
   "differences": {
     "onlyInCurrent": [
       "Tetairoa McMillan",
@@ -616,21 +617,20 @@
       "Christian McCaffrey",
       "Hollywood Brown",
       "Emeka Egbuka",
+      "Tyler Warren",
       "Jaxson Dart",
       "Caleb Williams",
-      "Bhayshul Tuten",
-      "Tyler Warren",
       "Jake Tonges",
       "Isaac TeSlaa",
       "Elic Ayomanor",
       "Tez Johnson"
     ],
     "onlyInML": [
-      "Courtland Sutton",
       "Kyren Williams",
       "Marvin Mims Jr.",
       "Bo Nix",
       "Rhamondre Stevenson",
+      "Jaleel McLaughlin",
       "Troy Franklin",
       "Kayshon Boutte",
       "Demario Douglas",
@@ -640,28 +640,33 @@
       "Hunter Henry",
       "Colby Parkinson",
       "Drake Maye",
-      "Davis Allen",
       "J.K. Dobbins",
       "TreVeyon Henderson"
     ],
     "rankingDifferences": [
       {
+        "player": "Courtland Sutton",
+        "currentRank": 20,
+        "mlRank": 1,
+        "difference": 19
+      },
+      {
         "player": "Jaxon Smith-Njigba",
-        "currentRank": 19,
-        "mlRank": 10,
-        "difference": 9
+        "currentRank": 18,
+        "mlRank": 11,
+        "difference": 7
       },
       {
         "player": "AJ Barner",
-        "currentRank": 20,
-        "mlRank": 12,
-        "difference": 8
+        "currentRank": 19,
+        "mlRank": 13,
+        "difference": 6
       },
       {
         "player": "RJ Harvey",
-        "currentRank": 17,
+        "currentRank": 16,
         "mlRank": 18,
-        "difference": 1
+        "difference": 2
       }
     ]
   }
