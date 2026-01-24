@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-01-23T08:18:54.337Z",
+  "lastUpdated": "2026-01-24T08:16:33.716Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-01-23T08:18:54.336Z",
+      "generatedAt": "2026-01-24T08:16:33.716Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -6835,19 +6835,6 @@
         },
         {
           "rank": 3,
-          "player": "Marvin Mims Jr.",
-          "team": "Denver Broncos",
-          "opponent": "New England",
-          "probability": 0.432,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (6 TDs)",
-            "Weak opponent defense (3.7 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 4,
           "player": "Bo Nix",
           "team": "Denver Broncos",
           "opponent": "New England",
@@ -6860,7 +6847,7 @@
           ]
         },
         {
-          "rank": 5,
+          "rank": 4,
           "player": "Rhamondre Stevenson",
           "team": "New England Patriots",
           "opponent": "Denver Broncos",
@@ -6873,20 +6860,7 @@
           ]
         },
         {
-          "rank": 6,
-          "player": "Jaleel McLaughlin",
-          "team": "Denver Broncos",
-          "opponent": "New England",
-          "probability": 0.37600000000000006,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Weak opponent defense (3.7 TDs/game allowed)",
-            "Hot recent form (3 TDs in recent games)",
-            "Home field advantage"
-          ]
-        },
-        {
-          "rank": 7,
+          "rank": 5,
           "player": "Troy Franklin",
           "team": "Denver Broncos",
           "opponent": "New England",
@@ -6899,7 +6873,7 @@
           ]
         },
         {
-          "rank": 8,
+          "rank": 6,
           "player": "Kayshon Boutte",
           "team": "New England Patriots",
           "opponent": "Denver Broncos",
@@ -6911,7 +6885,7 @@
           ]
         },
         {
-          "rank": 9,
+          "rank": 7,
           "player": "Demario Douglas",
           "team": "New England Patriots",
           "opponent": "Denver Broncos",
@@ -6923,7 +6897,7 @@
           ]
         },
         {
-          "rank": 10,
+          "rank": 8,
           "player": "Zach Charbonnet",
           "team": "Seattle Seahawks",
           "opponent": "LA Rams",
@@ -6936,7 +6910,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 9,
           "player": "Jaxon Smith-Njigba",
           "team": "Seattle Seahawks",
           "opponent": "LA Rams",
@@ -6949,7 +6923,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 10,
           "player": "Kenneth Walker III",
           "team": "Seattle Seahawks",
           "opponent": "LA Rams",
@@ -6962,7 +6936,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 11,
           "player": "AJ Barner",
           "team": "Seattle Seahawks",
           "opponent": "LA Rams",
@@ -6974,7 +6948,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 12,
           "player": "Davante Adams",
           "team": "Los Angeles Rams",
           "opponent": "Seattle Seahawks",
@@ -6986,7 +6960,7 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 13,
           "player": "Hunter Henry",
           "team": "New England Patriots",
           "opponent": "Denver Broncos",
@@ -6997,7 +6971,7 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 14,
           "player": "Colby Parkinson",
           "team": "Los Angeles Rams",
           "opponent": "Seattle Seahawks",
@@ -7008,7 +6982,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 15,
           "player": "Drake Maye",
           "team": "New England Patriots",
           "opponent": "Denver Broncos",
@@ -7019,7 +6993,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 16,
           "player": "RJ Harvey",
           "team": "Denver Broncos",
           "opponent": "New England",
@@ -7030,7 +7004,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 17,
           "player": "J.K. Dobbins",
           "team": "Denver Broncos",
           "opponent": "New England",
@@ -7041,8 +7015,30 @@
           ]
         },
         {
-          "rank": 20,
+          "rank": 18,
           "player": "TreVeyon Henderson",
+          "team": "New England Patriots",
+          "opponent": "Denver Broncos",
+          "probability": 0.15347721822541965,
+          "confidence": 0.65,
+          "keyFactors": [
+            "Weak opponent defense (2.9 TDs/game allowed)"
+          ]
+        },
+        {
+          "rank": 19,
+          "player": "Terrell Jennings",
+          "team": "New England Patriots",
+          "opponent": "Denver Broncos",
+          "probability": 0.15347721822541965,
+          "confidence": 0.65,
+          "keyFactors": [
+            "Weak opponent defense (2.9 TDs/game allowed)"
+          ]
+        },
+        {
+          "rank": 20,
+          "player": "Stefon Diggs",
           "team": "New England Patriots",
           "opponent": "Denver Broncos",
           "probability": 0.15347721822541965,
