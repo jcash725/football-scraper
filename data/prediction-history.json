@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-01-25T08:17:08.349Z",
+  "lastUpdated": "2026-01-26T08:20:33.110Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,391 +6663,143 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-01-25T08:17:08.348Z",
+      "generatedAt": "2026-01-26T08:20:33.110Z",
       "currentModelPredictions": [
         {
           "rank": 1,
+          "player": "Xavier Hutchinson",
+          "team": "Houston Texans",
+          "opponent": "TBD",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 2,
           "player": "Tetairoa McMillan",
           "team": "Carolina Panthers",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "player": "Ashton Jeanty",
           "team": "Las Vegas Raiders",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "player": "Kenneth Gainwell",
           "team": "Pittsburgh Steelers",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "player": "Woody Marks",
           "team": "Houston Texans",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "player": "Jacory Croskey-Merritt",
           "team": "Washington Commanders",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "player": "Jake Ferguson",
           "team": "Dallas Cowboys",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "player": "Christian McCaffrey",
           "team": "San Francisco 49ers",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "player": "Hollywood Brown",
           "team": "Kansas City Chiefs",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "player": "Emeka Egbuka",
           "team": "Tampa Bay Buccaneers",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "player": "Jaxson Dart",
           "team": "New York Giants",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "player": "Caleb Williams",
           "team": "Chicago Bears",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "player": "Bhayshul Tuten",
           "team": "Jacksonville Jaguars",
           "opponent": "TBD",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "player": "Tyler Warren",
           "team": "Indianapolis Colts",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "player": "Jake Tonges",
           "team": "San Francisco 49ers",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "player": "Isaac TeSlaa",
           "team": "Detroit Lions",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "player": "Elic Ayomanor",
           "team": "Tennessee Titans",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "player": "RJ Harvey",
           "team": "Denver Broncos",
-          "opponent": "New England",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 18,
-          "player": "Tez Johnson",
-          "team": "Tampa Bay Buccaneers",
           "opponent": "TBD",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
           "rank": 19,
-          "player": "Jaxon Smith-Njigba",
-          "team": "Seattle Seahawks",
-          "opponent": "LA Rams",
-          "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 20,
-          "player": "AJ Barner",
-          "team": "Seattle Seahawks",
-          "opponent": "LA Rams",
-          "basis": "Opp Pass TD/G"
+          "player": "Tez Johnson",
+          "team": "Tampa Bay Buccaneers",
+          "opponent": "TBD",
+          "basis": "Pass TD - Rookie hotstreak"
         }
       ],
-      "mlModelPredictions": [
-        {
-          "rank": 1,
-          "player": "Courtland Sutton",
-          "team": "Denver Broncos",
-          "opponent": "New England",
-          "probability": 0.5193333333333333,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (8 TDs)",
-            "Weak opponent defense (3.7 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 2,
-          "player": "Kyren Williams",
-          "team": "Los Angeles Rams",
-          "opponent": "Seattle Seahawks",
-          "probability": 0.4900047961630696,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (13 TDs)",
-            "Weak opponent defense (2.8 TDs/game allowed)",
-            "Hot recent form (7 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 3,
-          "player": "Bo Nix",
-          "team": "Denver Broncos",
-          "opponent": "New England",
-          "probability": 0.4133333333333334,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (5 TDs)",
-            "Weak opponent defense (3.7 TDs/game allowed)",
-            "Hot recent form (5 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 4,
-          "player": "Rhamondre Stevenson",
-          "team": "New England Patriots",
-          "opponent": "Denver Broncos",
-          "probability": 0.3841438848920863,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (7 TDs)",
-            "Weak opponent defense (2.9 TDs/game allowed)",
-            "Hot recent form (7 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 5,
-          "player": "Troy Franklin",
-          "team": "Denver Broncos",
-          "opponent": "New England",
-          "probability": 0.37600000000000006,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Weak opponent defense (3.7 TDs/game allowed)",
-            "Hot recent form (3 TDs in recent games)",
-            "Home field advantage"
-          ]
-        },
-        {
-          "rank": 6,
-          "player": "Kayshon Boutte",
-          "team": "New England Patriots",
-          "opponent": "Denver Broncos",
-          "probability": 0.3094772182254196,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Weak opponent defense (2.9 TDs/game allowed)",
-            "Hot recent form (3 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 7,
-          "player": "Demario Douglas",
-          "team": "New England Patriots",
-          "opponent": "Denver Broncos",
-          "probability": 0.3094772182254196,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Weak opponent defense (2.9 TDs/game allowed)",
-            "Hot recent form (3 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 8,
-          "player": "Zach Charbonnet",
-          "team": "Seattle Seahawks",
-          "opponent": "LA Rams",
-          "probability": 0.272,
-          "confidence": 0.75,
-          "keyFactors": [
-            "Moderate 2024 production (6 TDs)",
-            "Hot recent form (6 TDs in recent games)",
-            "Home field advantage"
-          ]
-        },
-        {
-          "rank": 9,
-          "player": "Jaxon Smith-Njigba",
-          "team": "Seattle Seahawks",
-          "opponent": "LA Rams",
-          "probability": 0.272,
-          "confidence": 0.75,
-          "keyFactors": [
-            "Moderate 2024 production (6 TDs)",
-            "Hot recent form (6 TDs in recent games)",
-            "Home field advantage"
-          ]
-        },
-        {
-          "rank": 10,
-          "player": "Kenneth Walker III",
-          "team": "Seattle Seahawks",
-          "opponent": "LA Rams",
-          "probability": 0.2346666666666667,
-          "confidence": 0.75,
-          "keyFactors": [
-            "Moderate 2024 production (4 TDs)",
-            "Hot recent form (4 TDs in recent games)",
-            "Home field advantage"
-          ]
-        },
-        {
-          "rank": 11,
-          "player": "AJ Barner",
-          "team": "Seattle Seahawks",
-          "opponent": "LA Rams",
-          "probability": 0.21600000000000003,
-          "confidence": 0.75,
-          "keyFactors": [
-            "Hot recent form (3 TDs in recent games)",
-            "Home field advantage"
-          ]
-        },
-        {
-          "rank": 12,
-          "player": "Davante Adams",
-          "team": "Los Angeles Rams",
-          "opponent": "Seattle Seahawks",
-          "probability": 0.20733812949640287,
-          "confidence": 0.75,
-          "keyFactors": [
-            "Previous success vs opponent (1 TDs)",
-            "Weak opponent defense (2.8 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 13,
-          "player": "Hunter Henry",
-          "team": "New England Patriots",
-          "opponent": "Denver Broncos",
-          "probability": 0.19081055155875298,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Weak opponent defense (2.9 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 14,
-          "player": "Colby Parkinson",
-          "team": "Los Angeles Rams",
-          "opponent": "Seattle Seahawks",
-          "probability": 0.1846714628297362,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Weak opponent defense (2.8 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 15,
-          "player": "Drake Maye",
-          "team": "New England Patriots",
-          "opponent": "Denver Broncos",
-          "probability": 0.17214388489208632,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Weak opponent defense (2.9 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 16,
-          "player": "RJ Harvey",
-          "team": "Denver Broncos",
-          "opponent": "New England",
-          "probability": 0.16,
-          "confidence": 0.65,
-          "keyFactors": [
-            "Weak opponent defense (3.7 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 17,
-          "player": "J.K. Dobbins",
-          "team": "Denver Broncos",
-          "opponent": "New England",
-          "probability": 0.16,
-          "confidence": 0.65,
-          "keyFactors": [
-            "Weak opponent defense (3.7 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 18,
-          "player": "TreVeyon Henderson",
-          "team": "New England Patriots",
-          "opponent": "Denver Broncos",
-          "probability": 0.15347721822541965,
-          "confidence": 0.65,
-          "keyFactors": [
-            "Weak opponent defense (2.9 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 19,
-          "player": "Stefon Diggs",
-          "team": "New England Patriots",
-          "opponent": "Denver Broncos",
-          "probability": 0.15347721822541965,
-          "confidence": 0.65,
-          "keyFactors": [
-            "Weak opponent defense (2.9 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "Blake Corum",
-          "team": "Los Angeles Rams",
-          "opponent": "Seattle Seahawks",
-          "probability": 0.14733812949640288,
-          "confidence": 0.65,
-          "keyFactors": [
-            "Weak opponent defense (2.8 TDs/game allowed)"
-          ]
-        }
-      ]
+      "mlModelPredictions": []
     }
   ],
   "accuracyStats": {

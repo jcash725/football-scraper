@@ -1,25 +1,12 @@
 {
   "url": "https://www.teamrankings.com/nfl/schedules/season/",
-  "scrapedAt": "2026-01-19T08:20:38.017Z",
-  "note": "Found 2 matchups",
+  "scrapedAt": "2026-01-26T08:20:03.808Z",
+  "note": "Found 0 matchups",
   "columns": [
     "away_team",
     "home_team",
     "date",
     "time"
   ],
-  "rows": [
-    {
-      "away_team": "New England",
-      "home_team": "Denver",
-      "date": "Sun Jan 25",
-      "time": "3:00 PM"
-    },
-    {
-      "away_team": "LA Rams",
-      "home_team": "Seattle",
-      "date": "Sun Jan 25",
-      "time": "6:30 PM"
-    }
-  ]
+  "rows": []
 }
