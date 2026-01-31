@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2026-01-30T08:26:41.275Z",
+  "scrapedAt": "2026-01-31T08:18:03.084Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -103,16 +103,16 @@
     },
     {
       "Rank": 12,
-      "Player": "Jaxson Dart",
-      "Team": "New York Giants",
-      "Pos": "QB",
+      "Player": "TreVeyon Henderson",
+      "Team": "New England Patriots",
+      "Pos": "RB",
       "Value": 9
     },
     {
       "Rank": 12,
-      "Player": "TreVeyon Henderson",
-      "Team": "New England Patriots",
-      "Pos": "RB",
+      "Player": "Jaxson Dart",
+      "Team": "New York Giants",
+      "Pos": "QB",
       "Value": 9
     },
     {
@@ -334,16 +334,16 @@
     },
     {
       "Rank": 46,
-      "Player": "Omarion Hampton",
-      "Team": "Los Angeles Chargers",
-      "Pos": "RB",
+      "Player": "Justin Fields",
+      "Team": "New York Jets",
+      "Pos": "QB",
       "Value": 4
     },
     {
       "Rank": 46,
-      "Player": "Justin Fields",
-      "Team": "New York Jets",
-      "Pos": "QB",
+      "Player": "Omarion Hampton",
+      "Team": "Los Angeles Chargers",
+      "Pos": "RB",
       "Value": 4
     },
     {
@@ -390,15 +390,15 @@
     },
     {
       "Rank": 53,
-      "Player": "Kimani Vidal",
-      "Team": "Los Angeles Chargers",
+      "Player": "Ty Johnson",
+      "Team": "Buffalo Bills",
       "Pos": "RB",
       "Value": 3
     },
     {
       "Rank": 53,
-      "Player": "Ty Johnson",
-      "Team": "Buffalo Bills",
+      "Player": "Kimani Vidal",
+      "Team": "Los Angeles Chargers",
       "Pos": "RB",
       "Value": 3
     },
@@ -425,13 +425,6 @@
     },
     {
       "Rank": 53,
-      "Player": "Ollie Gordon II",
-      "Team": "Miami Dolphins",
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 53,
       "Player": "Caleb Williams",
       "Team": "Chicago Bears",
       "Pos": "QB",
@@ -439,8 +432,8 @@
     },
     {
       "Rank": 53,
-      "Player": "Nick Chubb",
-      "Team": "Houston Texans",
+      "Player": "Ollie Gordon II",
+      "Team": "Miami Dolphins",
       "Pos": "RB",
       "Value": 3
     },
@@ -449,6 +442,13 @@
       "Player": "Bryce Young",
       "Team": "Carolina Panthers",
       "Pos": "QB",
+      "Value": 3
+    },
+    {
+      "Rank": 53,
+      "Player": "Nick Chubb",
+      "Team": "Houston Texans",
+      "Pos": "RB",
       "Value": 3
     },
     {
@@ -565,16 +565,16 @@
     },
     {
       "Rank": 65,
-      "Player": "C.J. Ham",
-      "Team": "Minnesota Vikings",
-      "Pos": "FB",
+      "Player": "Tyrone Tracy Jr.",
+      "Team": "New York Giants",
+      "Pos": "RB",
       "Value": 2
     },
     {
       "Rank": 65,
-      "Player": "Tyrone Tracy Jr.",
-      "Team": "New York Giants",
-      "Pos": "RB",
+      "Player": "C.J. Ham",
+      "Team": "Minnesota Vikings",
+      "Pos": "FB",
       "Value": 2
     },
     {
@@ -593,13 +593,6 @@
     },
     {
       "Rank": 84,
-      "Player": "Jacoby Brissett",
-      "Team": "Arizona Cardinals",
-      "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 84,
       "Player": "Jake Browning",
       "Team": "Cincinnati Bengals",
       "Pos": "QB",
@@ -610,6 +603,13 @@
       "Player": "Deebo Samuel",
       "Team": "Washington Commanders",
       "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 84,
+      "Player": "Jacoby Brissett",
+      "Team": "Arizona Cardinals",
+      "Pos": "QB",
       "Value": 1
     },
     {
@@ -677,20 +677,6 @@
     },
     {
       "Rank": 84,
-      "Player": "Jonnu Smith",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 84,
-      "Player": "Brittain Brown",
-      "Team": "Chicago Bears",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 84,
       "Player": "Jaydon Blue",
       "Team": "Dallas Cowboys",
       "Pos": "RB",
@@ -708,6 +694,20 @@
       "Player": "Taysom Hill",
       "Team": "New Orleans Saints",
       "Pos": "TE",
+      "Value": 1
+    },
+    {
+      "Rank": 84,
+      "Player": "Jonnu Smith",
+      "Team": "Pittsburgh Steelers",
+      "Pos": "TE",
+      "Value": 1
+    },
+    {
+      "Rank": 84,
+      "Player": "Brittain Brown",
+      "Team": "Chicago Bears",
+      "Pos": "RB",
       "Value": 1
     }
   ]
