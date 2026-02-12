@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/stat/opponent-rushing-touchdowns-per-game",
-  "scrapedAt": "2026-02-09T08:38:29.978Z",
+  "scrapedAt": "2026-02-12T08:34:09.644Z",
   "note": "Sorted by Rank (desc)",
   "columns": [
     "Rank",
@@ -44,16 +44,6 @@
       "Away": 1.1
     },
     {
-      "2024": 1.1,
-      "2025": 1.2,
-      "Rank": 28,
-      "Team": "NY Giants",
-      "Last 3": 1,
-      "Last 1": 2,
-      "Home": 1.3,
-      "Away": 1.2
-    },
-    {
       "2024": 1.2,
       "2025": 1.2,
       "Rank": 28,
@@ -62,6 +52,16 @@
       "Last 1": 1,
       "Home": 1.1,
       "Away": 1.4
+    },
+    {
+      "2024": 1.1,
+      "2025": 1.2,
+      "Rank": 28,
+      "Team": "NY Giants",
+      "Last 3": 1,
+      "Last 1": 2,
+      "Home": 1.3,
+      "Away": 1.2
     },
     {
       "2024": 1.3,
@@ -104,26 +104,6 @@
       "Away": 1.3
     },
     {
-      "2024": 1.2,
-      "2025": 1.1,
-      "Rank": 20,
-      "Team": "Cincinnati",
-      "Last 3": 1,
-      "Last 1": 0,
-      "Home": 0.6,
-      "Away": 1.6
-    },
-    {
-      "2024": 0.8,
-      "2025": 1.1,
-      "Rank": 20,
-      "Team": "Baltimore",
-      "Last 3": 1.7,
-      "Last 1": 2,
-      "Home": 1.1,
-      "Away": 1
-    },
-    {
       "2024": 1.4,
       "2025": 1.1,
       "Rank": 20,
@@ -142,6 +122,26 @@
       "Last 1": 4,
       "Home": 0.5,
       "Away": 1.6
+    },
+    {
+      "2024": 1.2,
+      "2025": 1.1,
+      "Rank": 20,
+      "Team": "Cincinnati",
+      "Last 3": 1,
+      "Last 1": 0,
+      "Home": 0.6,
+      "Away": 1.6
+    },
+    {
+      "2024": 0.8,
+      "2025": 1.1,
+      "Rank": 20,
+      "Team": "Baltimore",
+      "Last 3": 1.7,
+      "Last 1": 2,
+      "Home": 1.1,
+      "Away": 1
     },
     {
       "2024": 1.1,

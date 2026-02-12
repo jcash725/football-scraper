@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-02-11T08:37:06.046Z",
+  "generatedAt": "2026-02-12T08:34:51.597Z",
   "currentModel": [
+    {
+      "Player": "Xavier Hutchinson",
+      "Team": "Houston Texans",
+      "Opponent": "LA Rams",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 6,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 2.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
+    },
     {
       "Player": "Tetairoa McMillan",
       "Team": "Carolina Panthers",
@@ -228,17 +240,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Tennessee Titans vs Denver - opponent allows 1.3 pass TDs/game",
       "Rookie Boost": "+3.0 (1.0 TD/game)"
-    },
-    {
-      "Player": "Travis Etienne Jr.",
-      "Team": "Jacksonville Jaguars",
-      "Opponent": "Carolina",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 2.1,
-      "Player TDs YTD": 7,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Jacksonville Jaguars vs Carolina - opponent allows 2.1 pass TDs/game"
     }
   ],
   "mlModel": [
@@ -585,6 +586,25 @@
       "basis": "2024 Data: 8 TDs in 6 games"
     },
     {
+      "player": "Sam LaPorta",
+      "team": "Detroit Lions",
+      "opponent": "Green Bay",
+      "position": "TE",
+      "mlProbability": 0.4593333333333333,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (8 TDs)",
+        "Weak opponent defense (3.2 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 19,
+      "playerTDsYTD": 3,
+      "actual2024TDs": 8,
+      "actual2024Games": 7,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 8 TDs in 7 games"
+    },
+    {
       "player": "James Cook",
       "team": "Buffalo Bills",
       "opponent": "Baltimore Ravens",
@@ -596,36 +616,18 @@
         "Weak opponent defense (3.2 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 19,
+      "mlRank": 20,
       "playerTDsYTD": 12,
       "actual2024TDs": 10,
       "actual2024Games": 7,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 10 TDs in 7 games"
-    },
-    {
-      "player": "Kenneth Walker III",
-      "team": "Seattle Seahawks",
-      "opponent": "San Francisco",
-      "position": "RB",
-      "mlProbability": 0.4546666666666666,
-      "mlConfidence": 0.9,
-      "keyFactors": [
-        "Moderate 2024 production (4 TDs)",
-        "Previous success vs opponent (1 TDs)",
-        "Weak opponent defense (3.1 TDs/game allowed)"
-      ],
-      "mlRank": 20,
-      "playerTDsYTD": 9,
-      "actual2024TDs": 4,
-      "actual2024Games": 3,
-      "vsOpponentTDs": 1,
-      "basis": "2024 Data: 4 TDs in 3 games"
     }
   ],
   "agreement": 0,
   "differences": {
     "onlyInCurrent": [
+      "Xavier Hutchinson",
       "Tetairoa McMillan",
       "Woody Marks",
       "Ashton Jeanty",
@@ -644,8 +646,7 @@
       "Hollywood Brown",
       "Christian McCaffrey",
       "Jacory Croskey-Merritt",
-      "Elic Ayomanor",
-      "Travis Etienne Jr."
+      "Elic Ayomanor"
     ],
     "onlyInML": [
       "Jalen Hurts",
@@ -666,8 +667,8 @@
       "Saquon Barkley",
       "Mark Andrews",
       "De'Von Achane",
-      "James Cook",
-      "Kenneth Walker III"
+      "Sam LaPorta",
+      "James Cook"
     ],
     "rankingDifferences": []
   }
