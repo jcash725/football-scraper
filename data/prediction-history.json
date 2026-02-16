@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-02-15T08:22:35.285Z",
+  "lastUpdated": "2026-02-16T08:35:57.520Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-02-15T08:22:35.284Z",
+      "generatedAt": "2026-02-16T08:35:57.519Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -6978,19 +6978,6 @@
         },
         {
           "rank": 14,
-          "player": "Jordan Addison",
-          "team": "Minnesota Vikings",
-          "opponent": "Chicago Bears",
-          "probability": 0.48172661870503597,
-          "confidence": 0.9,
-          "keyFactors": [
-            "Strong 2024 production (10 TDs)",
-            "Previous success vs opponent (1 TDs)",
-            "Weak opponent defense (2.5 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 15,
           "player": "Ty Johnson",
           "team": "Buffalo Bills",
           "opponent": "Baltimore Ravens",
@@ -7003,7 +6990,7 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 15,
           "player": "Ladd McConkey",
           "team": "Los Angeles Chargers",
           "opponent": "Kansas City",
@@ -7016,7 +7003,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 16,
           "player": "Saquon Barkley",
           "team": "Philadelphia Eagles",
           "opponent": "Dallas Cowboys",
@@ -7025,6 +7012,19 @@
           "keyFactors": [
             "Strong 2024 production (8 TDs)",
             "Weak opponent defense (4.0 TDs/game allowed)",
+            "Hot recent form (8 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 17,
+          "player": "Alvin Kamara",
+          "team": "New Orleans Saints",
+          "opponent": "Arizona Cardinals",
+          "probability": 0.4689496402877698,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (8 TDs)",
+            "Weak opponent defense (3.0 TDs/game allowed)",
             "Hot recent form (8 TDs in recent games)"
           ]
         },
