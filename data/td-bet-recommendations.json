@@ -1,9 +1,21 @@
 {
-  "generatedAt": "2026-02-15T08:22:35.287Z",
+  "generatedAt": "2026-02-17T08:34:07.410Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
   "recommendations": [
+    {
+      "Player": "Xavier Hutchinson",
+      "Team": "Houston Texans",
+      "Opponent": "LA Rams",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 6,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 2.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
+    },
     {
       "Player": "Tetairoa McMillan",
       "Team": "Carolina Panthers",
@@ -32,13 +44,13 @@
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
       "Opponent": "New England",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 5.2666666666666675,
       "Player TDs YTD": 5,
-      "Player 2025 TDs": 0,
+      "Player 2025 TDs": 5,
+      "Opponent Stat Value": 5.666666666666667,
+      "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs New England - opponent allows 1.6 pass TDs/game",
-      "Rookie Boost": "+3.7 (1.7 TD/game)"
+      "Reason": "Rookie with 1.7 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
     },
     {
       "Player": "Emeka Egbuka",
@@ -51,6 +63,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Tampa Bay Buccaneers vs Atlanta - opponent allows 2 pass TDs/game",
       "Rookie Boost": "+3.3 (1.3 TD/game)"
+    },
+    {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Miami",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Caleb Williams",
@@ -111,18 +135,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Tampa Bay Buccaneers vs Atlanta - opponent allows 2 pass TDs/game",
       "Rookie Boost": "+3.0 (1.0 TD/game)"
-    },
-    {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Miami",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Jake Tonges",
@@ -219,18 +231,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Washington Commanders vs NY Giants - opponent allows 1.1 rush TDs/game",
       "Rookie Boost": "+3.3 (1.3 TD/game)"
-    },
-    {
-      "Player": "Jaxson Dart",
-      "Team": "New York Giants",
-      "Opponent": "Washington",
-      "Basis": "Opp Rush TD/G",
-      "Opponent Stat Value": 4.4,
-      "Player TDs YTD": 9,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "New York Giants vs Washington - opponent allows 1.4 rush TDs/game",
-      "Rookie Boost": "+3.0 (1.0 TD/game)"
     },
     {
       "Player": "Elic Ayomanor",
