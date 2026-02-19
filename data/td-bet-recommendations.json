@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-18T08:34:45.605Z",
+  "generatedAt": "2026-02-19T08:32:57.855Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -32,13 +32,13 @@
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
       "Opponent": "New England",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 5.2666666666666675,
       "Player TDs YTD": 5,
-      "Player 2025 TDs": 0,
+      "Player 2025 TDs": 5,
+      "Opponent Stat Value": 5.666666666666667,
+      "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs New England - opponent allows 1.6 pass TDs/game",
-      "Rookie Boost": "+3.7 (1.7 TD/game)"
+      "Reason": "Rookie with 1.7 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
     },
     {
       "Player": "Emeka Egbuka",
