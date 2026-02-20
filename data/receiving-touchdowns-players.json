@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/receiving-touchdowns",
-  "scrapedAt": "2026-02-19T08:32:16.510Z",
+  "scrapedAt": "2026-02-20T08:30:14.868Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -215,13 +215,6 @@
     },
     {
       "Rank": 19,
-      "Player": "Drake London",
-      "Team": "Atlanta Falcons",
-      "Pos": "WR",
-      "Value": 7
-    },
-    {
-      "Rank": 19,
       "Player": "Christian Watson",
       "Team": "Green Bay Packers",
       "Pos": "WR",
@@ -232,6 +225,13 @@
       "Player": "Brock Bowers",
       "Team": "Las Vegas Raiders",
       "Pos": "TE",
+      "Value": 7
+    },
+    {
+      "Rank": 19,
+      "Player": "Drake London",
+      "Team": "Atlanta Falcons",
+      "Pos": "WR",
       "Value": 7
     },
     {
@@ -348,16 +348,16 @@
     },
     {
       "Rank": 48,
-      "Player": "Zay Flowers",
+      "Player": "Mark Andrews",
       "Team": "Baltimore Ravens",
-      "Pos": "WR",
+      "Pos": "TE",
       "Value": 5
     },
     {
       "Rank": 48,
-      "Player": "Mark Andrews",
+      "Player": "Zay Flowers",
       "Team": "Baltimore Ravens",
-      "Pos": "TE",
+      "Pos": "WR",
       "Value": 5
     },
     {
@@ -502,16 +502,16 @@
     },
     {
       "Rank": 67,
-      "Player": "Bijan Robinson",
-      "Team": "Atlanta Falcons",
-      "Pos": "RB",
+      "Player": "Demario Douglas",
+      "Team": "New England Patriots",
+      "Pos": "WR",
       "Value": 4
     },
     {
       "Rank": 67,
-      "Player": "Demario Douglas",
-      "Team": "New England Patriots",
-      "Pos": "WR",
+      "Player": "Bijan Robinson",
+      "Team": "Atlanta Falcons",
+      "Pos": "RB",
       "Value": 4
     },
     {
@@ -551,13 +551,6 @@
     },
     {
       "Rank": 67,
-      "Player": "David Njoku",
-      "Team": "Cleveland Browns",
-      "Pos": "TE",
-      "Value": 4
-    },
-    {
-      "Rank": 67,
       "Player": "Chimere Dike",
       "Team": "Tennessee Titans",
       "Pos": "WR",
@@ -567,6 +560,13 @@
       "Rank": 67,
       "Player": "Tyler Warren",
       "Team": "Indianapolis Colts",
+      "Pos": "TE",
+      "Value": 4
+    },
+    {
+      "Rank": 67,
+      "Player": "David Njoku",
+      "Team": "Cleveland Browns",
       "Pos": "TE",
       "Value": 4
     },
