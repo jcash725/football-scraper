@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-03-14T08:24:09.354Z",
+  "generatedAt": "2026-03-15T08:27:02.027Z",
   "currentModel": [
+    {
+      "Player": "Xavier Hutchinson",
+      "Team": "Houston Texans",
+      "Opponent": "LA Rams",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 6,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 2.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
+    },
     {
       "Player": "Tetairoa McMillan",
       "Team": "Carolina Panthers",
@@ -29,13 +41,13 @@
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
       "Opponent": "New England",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 5.2666666666666675,
       "Player TDs YTD": 5,
-      "Player 2025 TDs": 0,
+      "Player 2025 TDs": 5,
+      "Opponent Stat Value": 5.666666666666667,
+      "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs New England - opponent allows 1.6 pass TDs/game",
-      "Rookie Boost": "+3.7 (1.7 TD/game)"
+      "Reason": "Rookie with 1.7 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
     },
     {
       "Player": "Emeka Egbuka",
@@ -227,18 +239,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "New York Giants vs Washington - opponent allows 1.4 rush TDs/game",
-      "Rookie Boost": "+3.0 (1.0 TD/game)"
-    },
-    {
-      "Player": "Elic Ayomanor",
-      "Team": "Tennessee Titans",
-      "Opponent": "Denver",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.3,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Tennessee Titans vs Denver - opponent allows 1.3 pass TDs/game",
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ],
@@ -491,25 +491,6 @@
       "basis": "2024 Data: 6 TDs in 5 games"
     },
     {
-      "player": "Jordan Addison",
-      "team": "Minnesota Vikings",
-      "opponent": "Chicago Bears",
-      "position": "WR",
-      "mlProbability": 0.48172661870503597,
-      "mlConfidence": 0.9,
-      "keyFactors": [
-        "Strong 2024 production (10 TDs)",
-        "Previous success vs opponent (1 TDs)",
-        "Weak opponent defense (2.5 TDs/game allowed)"
-      ],
-      "mlRank": 14,
-      "playerTDsYTD": 3,
-      "actual2024TDs": 10,
-      "actual2024Games": 7,
-      "vsOpponentTDs": 1,
-      "basis": "2024 Data: 10 TDs in 7 games"
-    },
-    {
       "player": "Ty Johnson",
       "team": "Buffalo Bills",
       "opponent": "Baltimore Ravens",
@@ -521,7 +502,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.2 TDs/game allowed)"
       ],
-      "mlRank": 15,
+      "mlRank": 14,
       "playerTDsYTD": 3,
       "actual2024TDs": 5,
       "actual2024Games": 5,
@@ -540,7 +521,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.5 TDs/game allowed)"
       ],
-      "mlRank": 16,
+      "mlRank": 15,
       "playerTDsYTD": 6,
       "actual2024TDs": 8,
       "actual2024Games": 6,
@@ -559,7 +540,7 @@
         "Weak opponent defense (4.0 TDs/game allowed)",
         "Hot recent form (8 TDs in recent games)"
       ],
-      "mlRank": 17,
+      "mlRank": 16,
       "playerTDsYTD": 7,
       "actual2024TDs": 8,
       "actual2024Games": 4,
@@ -578,7 +559,7 @@
         "Weak opponent defense (3.0 TDs/game allowed)",
         "Hot recent form (8 TDs in recent games)"
       ],
-      "mlRank": 18,
+      "mlRank": 17,
       "playerTDsYTD": 1,
       "actual2024TDs": 8,
       "actual2024Games": 5,
@@ -597,7 +578,7 @@
         "Weak opponent defense (4.1 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 19,
+      "mlRank": 18,
       "playerTDsYTD": 5,
       "actual2024TDs": 11,
       "actual2024Games": 10,
@@ -616,17 +597,37 @@
         "Weak opponent defense (3.6 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 20,
+      "mlRank": 19,
       "playerTDsYTD": 8,
       "actual2024TDs": 8,
       "actual2024Games": 6,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 8 TDs in 6 games"
+    },
+    {
+      "player": "Sam LaPorta",
+      "team": "Detroit Lions",
+      "opponent": "Green Bay",
+      "position": "TE",
+      "mlProbability": 0.4593333333333333,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (8 TDs)",
+        "Weak opponent defense (3.2 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 20,
+      "playerTDsYTD": 3,
+      "actual2024TDs": 8,
+      "actual2024Games": 7,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 8 TDs in 7 games"
     }
   ],
   "agreement": 0,
   "differences": {
     "onlyInCurrent": [
+      "Xavier Hutchinson",
       "Tetairoa McMillan",
       "Woody Marks",
       "Ashton Jeanty",
@@ -645,8 +646,7 @@
       "Hollywood Brown",
       "Christian McCaffrey",
       "Jacory Croskey-Merritt",
-      "Jaxson Dart",
-      "Elic Ayomanor"
+      "Jaxson Dart"
     ],
     "onlyInML": [
       "Jalen Hurts",
@@ -662,13 +662,13 @@
       "Kyle Pitts",
       "Bijan Robinson",
       "DJ Moore",
-      "Jordan Addison",
       "Ty Johnson",
       "Ladd McConkey",
       "Saquon Barkley",
       "Alvin Kamara",
       "Mark Andrews",
-      "De'Von Achane"
+      "De'Von Achane",
+      "Sam LaPorta"
     ],
     "rankingDifferences": []
   }

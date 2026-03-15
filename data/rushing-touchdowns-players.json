@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2026-03-14T08:23:34.394Z",
+  "scrapedAt": "2026-03-15T08:26:26.767Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -166,15 +166,15 @@
     },
     {
       "Rank": 22,
-      "Player": "Bijan Robinson",
-      "Team": "Atlanta Falcons",
+      "Player": "Rhamondre Stevenson",
+      "Team": "New England Patriots",
       "Pos": "RB",
       "Value": 7
     },
     {
       "Rank": 22,
-      "Player": "Rhamondre Stevenson",
-      "Team": "New England Patriots",
+      "Player": "Bijan Robinson",
+      "Team": "Atlanta Falcons",
       "Pos": "RB",
       "Value": 7
     },
@@ -236,15 +236,15 @@
     },
     {
       "Rank": 29,
-      "Player": "Blake Corum",
-      "Team": "Los Angeles Rams",
+      "Player": "Rico Dowdle",
+      "Team": "Carolina Panthers",
       "Pos": "RB",
       "Value": 6
     },
     {
       "Rank": 29,
-      "Player": "Rico Dowdle",
-      "Team": "Carolina Panthers",
+      "Player": "Blake Corum",
+      "Team": "Los Angeles Rams",
       "Pos": "RB",
       "Value": 6
     },
@@ -292,6 +292,13 @@
     },
     {
       "Rank": 35,
+      "Player": "Tony Pollard",
+      "Team": "Tennessee Titans",
+      "Pos": "RB",
+      "Value": 5
+    },
+    {
+      "Rank": 35,
       "Player": "Bo Nix",
       "Team": "Denver Broncos",
       "Pos": "QB",
@@ -301,13 +308,6 @@
       "Rank": 35,
       "Player": "Cam Skattebo",
       "Team": "New York Giants",
-      "Pos": "RB",
-      "Value": 5
-    },
-    {
-      "Rank": 35,
-      "Player": "Tony Pollard",
-      "Team": "Tennessee Titans",
       "Pos": "RB",
       "Value": 5
     },
@@ -376,16 +376,16 @@
     },
     {
       "Rank": 53,
-      "Player": "Emanuel Wilson",
-      "Team": "Green Bay Packers",
-      "Pos": "RB",
+      "Player": "Samaje Perine",
+      "Team": "Cincinnati Bengals",
+      "Pos": "HB",
       "Value": 3
     },
     {
       "Rank": 53,
-      "Player": "Samaje Perine",
-      "Team": "Cincinnati Bengals",
-      "Pos": "HB",
+      "Player": "Emanuel Wilson",
+      "Team": "Green Bay Packers",
+      "Pos": "RB",
       "Value": 3
     },
     {
@@ -509,13 +509,6 @@
     },
     {
       "Rank": 65,
-      "Player": "Cam Ward",
-      "Team": "Tennessee Titans",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 65,
       "Player": "Malik Davis",
       "Team": "Dallas Cowboys",
       "Pos": "RB",
@@ -530,9 +523,9 @@
     },
     {
       "Rank": 65,
-      "Player": "Jaylen Wright",
-      "Team": "Miami Dolphins",
-      "Pos": "RB",
+      "Player": "Cam Ward",
+      "Team": "Tennessee Titans",
+      "Pos": "QB",
       "Value": 2
     },
     {
@@ -546,6 +539,13 @@
       "Rank": 65,
       "Player": "Brian Robinson Jr.",
       "Team": 49,
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 65,
+      "Player": "Jaylen Wright",
+      "Team": "Miami Dolphins",
       "Pos": "RB",
       "Value": 2
     },
@@ -590,27 +590,6 @@
       "Team": "New Orleans Saints",
       "Pos": "RB",
       "Value": 2
-    },
-    {
-      "Rank": 84,
-      "Player": "Deebo Samuel",
-      "Team": "Washington Commanders",
-      "Pos": "WR",
-      "Value": 1
-    },
-    {
-      "Rank": 84,
-      "Player": "Shedeur Sanders",
-      "Team": "Cleveland Browns",
-      "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 84,
-      "Player": "George Holani",
-      "Team": "Seattle Seahawks",
-      "Pos": "RB",
-      "Value": 1
     },
     {
       "Rank": 84,
@@ -659,6 +638,27 @@
       "Player": "Michael Penix Jr.",
       "Team": "Atlanta Falcons",
       "Pos": "QB",
+      "Value": 1
+    },
+    {
+      "Rank": 84,
+      "Player": "Deebo Samuel",
+      "Team": "Washington Commanders",
+      "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 84,
+      "Player": "Shedeur Sanders",
+      "Team": "Cleveland Browns",
+      "Pos": "QB",
+      "Value": 1
+    },
+    {
+      "Rank": 84,
+      "Player": "George Holani",
+      "Team": "Seattle Seahawks",
+      "Pos": "RB",
       "Value": 1
     },
     {
