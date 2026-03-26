@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-03-25T08:38:34.218Z",
+  "lastUpdated": "2026-03-26T08:43:36.974Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-03-25T08:38:34.217Z",
+      "generatedAt": "2026-03-26T08:43:36.973Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -6786,23 +6786,23 @@
         },
         {
           "rank": 18,
-          "player": "Darren Waller",
-          "team": "Miami Dolphins",
-          "opponent": "Indianapolis",
-          "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 19,
           "player": "Jake Ferguson",
           "team": "Dallas Cowboys",
           "opponent": "Philadelphia",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "player": "Christian McCaffrey",
           "team": 49,
           "opponent": "Seattle",
+          "basis": "Opp Pass TD/G"
+        },
+        {
+          "rank": 20,
+          "player": "Elic Ayomanor",
+          "team": "Tennessee Titans",
+          "opponent": "Denver",
           "basis": "Opp Pass TD/G"
         }
       ],
