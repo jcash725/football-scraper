@@ -1,21 +1,9 @@
 {
-  "generatedAt": "2026-03-28T08:28:35.938Z",
+  "generatedAt": "2026-03-29T08:30:32.404Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
   "recommendations": [
-    {
-      "Player": "Xavier Hutchinson",
-      "Team": "Houston Texans",
-      "Opponent": "LA Rams",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 6,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 2.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
-    },
     {
       "Player": "Tetairoa McMillan",
       "Team": "Carolina Panthers",
@@ -56,13 +44,13 @@
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
       "Opponent": "New England",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 5.2666666666666675,
       "Player TDs YTD": 5,
-      "Player 2025 TDs": 5,
-      "Opponent Stat Value": 5.666666666666667,
-      "Basis": "Pass TD - Rookie hotstreak",
+      "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.7 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
+      "Reason": "Las Vegas Raiders vs New England - opponent allows 1.6 pass TDs/game",
+      "Rookie Boost": "+3.7 (1.7 TD/game)"
     },
     {
       "Player": "Emeka Egbuka",
@@ -185,6 +173,30 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
+      "Player": "Tyquan Thornton",
+      "Team": "Kansas City Chiefs",
+      "Opponent": "LA Chargers",
+      "Player TDs YTD": 3,
+      "Player 2025 TDs": 3,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "Luke McCaffrey",
+      "Team": "Washington Commanders",
+      "Opponent": "NY Giants",
+      "Player TDs YTD": 3,
+      "Player 2025 TDs": 3,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
       "Player": "Isaac TeSlaa",
       "Team": "Detroit Lions",
       "Opponent": "Green Bay",
@@ -231,18 +243,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Las Vegas Raiders vs New England - opponent allows 0.9 rush TDs/game",
       "Rookie Boost": "+3.7 (1.7 TD/game)"
-    },
-    {
-      "Player": "Christian McCaffrey",
-      "Team": 49,
-      "Opponent": "Seattle",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.7,
-      "Player TDs YTD": 9,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "49 vs Seattle - opponent allows 1.5 pass TDs/game",
-      "Rookie Boost": "+3.2 (1.2 TD/game)"
     }
   ]
 }
