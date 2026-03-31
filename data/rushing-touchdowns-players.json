@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2026-03-30T09:02:32.635Z",
+  "scrapedAt": "2026-03-31T08:45:34.149Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -180,15 +180,15 @@
     },
     {
       "Rank": 22,
-      "Player": "Bijan Robinson",
-      "Team": "Atlanta Falcons",
+      "Player": "Rhamondre Stevenson",
+      "Team": "New England Patriots",
       "Pos": "RB",
       "Value": 7
     },
     {
       "Rank": 22,
-      "Player": "Rhamondre Stevenson",
-      "Team": "New England Patriots",
+      "Player": "Bijan Robinson",
+      "Team": "Atlanta Falcons",
       "Pos": "RB",
       "Value": 7
     },
@@ -222,15 +222,15 @@
     },
     {
       "Rank": 29,
-      "Player": "Blake Corum",
-      "Team": "Los Angeles Rams",
+      "Player": "Rico Dowdle",
+      "Team": "Carolina Panthers",
       "Pos": "RB",
       "Value": 6
     },
     {
       "Rank": 29,
-      "Player": "Rico Dowdle",
-      "Team": "Carolina Panthers",
+      "Player": "Blake Corum",
+      "Team": "Los Angeles Rams",
       "Pos": "RB",
       "Value": 6
     },
@@ -306,16 +306,16 @@
     },
     {
       "Rank": 35,
-      "Player": "Bo Nix",
-      "Team": "Denver Broncos",
-      "Pos": "QB",
+      "Player": "Tony Pollard",
+      "Team": "Tennessee Titans",
+      "Pos": "RB",
       "Value": 5
     },
     {
       "Rank": 35,
-      "Player": "Tony Pollard",
-      "Team": "Tennessee Titans",
-      "Pos": "RB",
+      "Player": "Bo Nix",
+      "Team": "Denver Broncos",
+      "Pos": "QB",
       "Value": 5
     },
     {
@@ -418,16 +418,16 @@
     },
     {
       "Rank": 53,
-      "Player": "Chuba Hubbard",
-      "Team": "Carolina Panthers",
-      "Pos": "RB",
+      "Player": "Brock Purdy",
+      "Team": 49,
+      "Pos": "QB",
       "Value": 3
     },
     {
       "Rank": 53,
-      "Player": "Brock Purdy",
-      "Team": 49,
-      "Pos": "QB",
+      "Player": "Chuba Hubbard",
+      "Team": "Carolina Panthers",
+      "Pos": "RB",
       "Value": 3
     },
     {
@@ -460,13 +460,6 @@
     },
     {
       "Rank": 65,
-      "Player": "Jaylen Wright",
-      "Team": "Miami Dolphins",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 65,
       "Player": "Justice Hill",
       "Team": "Baltimore Ravens",
       "Pos": "RB",
@@ -481,9 +474,9 @@
     },
     {
       "Rank": 65,
-      "Player": "Riley Leonard",
-      "Team": "Indianapolis Colts",
-      "Pos": "QB",
+      "Player": "Jaylen Wright",
+      "Team": "Miami Dolphins",
+      "Pos": "RB",
       "Value": 2
     },
     {
@@ -498,6 +491,13 @@
       "Player": "Aaron Jones",
       "Team": "Minnesota Vikings",
       "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 65,
+      "Player": "Riley Leonard",
+      "Team": "Indianapolis Colts",
+      "Pos": "QB",
       "Value": 2
     },
     {
@@ -530,13 +530,6 @@
     },
     {
       "Rank": 65,
-      "Player": "Jayden Daniels",
-      "Team": "Washington Commanders",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 65,
       "Player": "Dak Prescott",
       "Team": "Dallas Cowboys",
       "Pos": "QB",
@@ -547,6 +540,13 @@
       "Player": "Tank Bigsby",
       "Team": "Philadelphia Eagles",
       "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 65,
+      "Player": "Jayden Daniels",
+      "Team": "Washington Commanders",
+      "Pos": "QB",
       "Value": 2
     },
     {
@@ -593,13 +593,6 @@
     },
     {
       "Rank": 84,
-      "Player": "Shedeur Sanders",
-      "Team": "Cleveland Browns",
-      "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 84,
       "Player": "Ameer Abdullah",
       "Team": "Indianapolis Colts",
       "Pos": "RB",
@@ -624,6 +617,13 @@
       "Player": "Rashee Rice",
       "Team": "Kansas City Chiefs",
       "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 84,
+      "Player": "Shedeur Sanders",
+      "Team": "Cleveland Browns",
+      "Pos": "QB",
       "Value": 1
     },
     {
@@ -656,13 +656,6 @@
     },
     {
       "Rank": 84,
-      "Player": "Jameis Winston",
-      "Team": "New York Giants",
-      "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 84,
       "Player": "DK Metcalf",
       "Team": "Pittsburgh Steelers",
       "Pos": "WR",
@@ -691,9 +684,9 @@
     },
     {
       "Rank": 84,
-      "Player": "Miles Sanders",
-      "Team": "Dallas Cowboys",
-      "Pos": "RB",
+      "Player": "Jameis Winston",
+      "Team": "New York Giants",
+      "Pos": "QB",
       "Value": 1
     },
     {
@@ -708,6 +701,13 @@
       "Player": "Marvin Mims Jr.",
       "Team": "Denver Broncos",
       "Pos": "WR",
+      "Value": 1
+    },
+    {
+      "Rank": 84,
+      "Player": "Michael Carter",
+      "Team": "Arizona Cardinals",
+      "Pos": "RB",
       "Value": 1
     }
   ]
