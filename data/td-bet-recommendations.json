@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-10T08:59:20.182Z",
+  "generatedAt": "2026-04-11T08:32:37.052Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -15,18 +15,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Carolina Panthers vs Jacksonville - opponent allows 1.7 pass TDs/game",
       "Rookie Boost": "+4.0 (2.0 TD/game)"
-    },
-    {
-      "Player": "Cam Skattebo",
-      "Team": "New York Giants",
-      "Opponent": "Washington",
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 6,
-      "Opponent Stat Value": 5.5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.5 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
     },
     {
       "Player": "Woody Marks",
@@ -111,6 +99,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "Cam Skattebo",
+      "Team": "New York Giants",
+      "Opponent": "Washington",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 4.9,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "New York Giants vs Washington - opponent allows 1.4 rush TDs/game",
+      "Rookie Boost": "+3.5 (1.5 TD/game)"
     },
     {
       "Player": "Quinshon Judkins",
