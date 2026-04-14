@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T09:27:20.401Z",
+  "generatedAt": "2026-04-14T09:08:54.794Z",
   "currentModel": [
     {
       "Player": "Tetairoa McMillan",
@@ -41,13 +41,13 @@
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
       "Opponent": "New England",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 5.2666666666666675,
       "Player TDs YTD": 5,
-      "Player 2025 TDs": 5,
-      "Opponent Stat Value": 5.666666666666667,
-      "Basis": "Pass TD - Rookie hotstreak",
+      "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.7 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
+      "Reason": "Las Vegas Raiders vs New England - opponent allows 1.6 pass TDs/game",
+      "Rookie Boost": "+3.7 (1.7 TD/game)"
     },
     {
       "Player": "Emeka Egbuka",
@@ -60,6 +60,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Tampa Bay Buccaneers vs Atlanta - opponent allows 2 pass TDs/game",
       "Rookie Boost": "+3.3 (1.3 TD/game)"
+    },
+    {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Miami",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Caleb Williams",
@@ -134,18 +146,6 @@
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     },
     {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Miami",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
       "Player": "Jake Tonges",
       "Team": "San Francisco 49ers",
       "Opponent": "Seattle",
@@ -170,9 +170,9 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Tyquan Thornton",
-      "Team": "Kansas City Chiefs",
-      "Opponent": "LA Chargers",
+      "Player": "Luke McCaffrey",
+      "Team": "Washington Commanders",
+      "Opponent": "NY Giants",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
@@ -218,18 +218,6 @@
       "Rookie Boost": "+3.5 (1.5 TD/game)"
     },
     {
-      "Player": "Ashton Jeanty",
-      "Team": "Las Vegas Raiders",
-      "Opponent": "New England",
-      "Basis": "Opp Rush TD/G",
-      "Opponent Stat Value": 4.566666666666667,
-      "Player TDs YTD": 5,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs New England - opponent allows 0.9 rush TDs/game",
-      "Rookie Boost": "+3.7 (1.7 TD/game)"
-    },
-    {
       "Player": "Christian McCaffrey",
       "Team": 49,
       "Opponent": "Seattle",
@@ -240,6 +228,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "49 vs Seattle - opponent allows 1.5 pass TDs/game",
       "Rookie Boost": "+3.2 (1.2 TD/game)"
+    },
+    {
+      "Player": "Elic Ayomanor",
+      "Team": "Tennessee Titans",
+      "Opponent": "Denver",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.3,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Tennessee Titans vs Denver - opponent allows 1.3 pass TDs/game",
+      "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ],
   "mlModel": [
@@ -510,6 +510,25 @@
       "basis": "2024 Data: 6 TDs in 5 games"
     },
     {
+      "player": "Jordan Addison",
+      "team": "Minnesota Vikings",
+      "opponent": "Chicago Bears",
+      "position": "WR",
+      "mlProbability": 0.48172661870503597,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Strong 2024 production (10 TDs)",
+        "Previous success vs opponent (1 TDs)",
+        "Weak opponent defense (2.5 TDs/game allowed)"
+      ],
+      "mlRank": 15,
+      "playerTDsYTD": 3,
+      "actual2024TDs": 10,
+      "actual2024Games": 7,
+      "vsOpponentTDs": 1,
+      "basis": "2024 Data: 10 TDs in 7 games"
+    },
+    {
       "player": "Ty Johnson",
       "team": "Buffalo Bills",
       "opponent": "Baltimore Ravens",
@@ -521,7 +540,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.2 TDs/game allowed)"
       ],
-      "mlRank": 15,
+      "mlRank": 16,
       "playerTDsYTD": 3,
       "actual2024TDs": 5,
       "actual2024Games": 5,
@@ -540,7 +559,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.5 TDs/game allowed)"
       ],
-      "mlRank": 16,
+      "mlRank": 17,
       "playerTDsYTD": 6,
       "actual2024TDs": 8,
       "actual2024Games": 6,
@@ -559,31 +578,12 @@
         "Weak opponent defense (4.0 TDs/game allowed)",
         "Hot recent form (8 TDs in recent games)"
       ],
-      "mlRank": 17,
+      "mlRank": 18,
       "playerTDsYTD": 7,
       "actual2024TDs": 8,
       "actual2024Games": 4,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 8 TDs in 4 games"
-    },
-    {
-      "player": "Alvin Kamara",
-      "team": "New Orleans Saints",
-      "opponent": "Arizona Cardinals",
-      "position": "RB",
-      "mlProbability": 0.4689496402877698,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (8 TDs)",
-        "Weak opponent defense (3.0 TDs/game allowed)",
-        "Hot recent form (8 TDs in recent games)"
-      ],
-      "mlRank": 18,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 8,
-      "actual2024Games": 5,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 8 TDs in 5 games"
     },
     {
       "player": "Mark Andrews",
@@ -632,21 +632,21 @@
       "Woody Marks",
       "Ashton Jeanty",
       "Emeka Egbuka",
+      "Tyler Warren",
       "Caleb Williams",
       "Bhayshul Tuten",
       "Omarion Hampton",
       "Bam Knight",
       "Quinshon Judkins",
       "Tez Johnson",
-      "Tyler Warren",
       "Jake Tonges",
       "Tory Horton",
-      "Tyquan Thornton",
+      "Luke McCaffrey",
       "Isaac TeSlaa",
       "RJ Harvey",
       "Jake Ferguson",
-      "Ashton Jeanty",
-      "Christian McCaffrey"
+      "Christian McCaffrey",
+      "Elic Ayomanor"
     ],
     "onlyInML": [
       "Jalen Hurts",
@@ -663,10 +663,10 @@
       "Kyle Pitts",
       "Bijan Robinson",
       "DJ Moore",
+      "Jordan Addison",
       "Ty Johnson",
       "Ladd McConkey",
       "Saquon Barkley",
-      "Alvin Kamara",
       "Mark Andrews",
       "De'Von Achane"
     ],
