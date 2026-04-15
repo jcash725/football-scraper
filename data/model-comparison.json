@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T09:08:54.794Z",
+  "generatedAt": "2026-04-15T09:09:47.951Z",
   "currentModel": [
     {
       "Player": "Tetairoa McMillan",
@@ -12,18 +12,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Carolina Panthers vs Jacksonville - opponent allows 1.7 pass TDs/game",
       "Rookie Boost": "+4.0 (2.0 TD/game)"
-    },
-    {
-      "Player": "Cam Skattebo",
-      "Team": "New York Giants",
-      "Opponent": "Washington",
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 6,
-      "Opponent Stat Value": 5.5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.5 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
     },
     {
       "Player": "Woody Marks",
@@ -41,13 +29,13 @@
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
       "Opponent": "New England",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 5.2666666666666675,
       "Player TDs YTD": 5,
-      "Player 2025 TDs": 0,
+      "Player 2025 TDs": 5,
+      "Opponent Stat Value": 5.666666666666667,
+      "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs New England - opponent allows 1.6 pass TDs/game",
-      "Rookie Boost": "+3.7 (1.7 TD/game)"
+      "Reason": "Rookie with 1.7 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
     },
     {
       "Player": "Emeka Egbuka",
@@ -122,6 +110,18 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
+      "Player": "Cam Skattebo",
+      "Team": "New York Giants",
+      "Opponent": "Washington",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 4.9,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "New York Giants vs Washington - opponent allows 1.4 rush TDs/game",
+      "Rookie Boost": "+3.5 (1.5 TD/game)"
+    },
+    {
       "Player": "Quinshon Judkins",
       "Team": "Cleveland Browns",
       "Opponent": "Cincinnati",
@@ -170,9 +170,9 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Luke McCaffrey",
-      "Team": "Washington Commanders",
-      "Opponent": "NY Giants",
+      "Player": "Tyquan Thornton",
+      "Team": "Kansas City Chiefs",
+      "Opponent": "LA Chargers",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
@@ -503,30 +503,11 @@
         "Weak opponent defense (3.1 TDs/game allowed)"
       ],
       "mlRank": 14,
-      "playerTDsYTD": 8,
+      "playerTDsYTD": 1,
       "actual2024TDs": 6,
       "actual2024Games": 5,
       "vsOpponentTDs": 1,
       "basis": "2024 Data: 6 TDs in 5 games"
-    },
-    {
-      "player": "Jordan Addison",
-      "team": "Minnesota Vikings",
-      "opponent": "Chicago Bears",
-      "position": "WR",
-      "mlProbability": 0.48172661870503597,
-      "mlConfidence": 0.9,
-      "keyFactors": [
-        "Strong 2024 production (10 TDs)",
-        "Previous success vs opponent (1 TDs)",
-        "Weak opponent defense (2.5 TDs/game allowed)"
-      ],
-      "mlRank": 15,
-      "playerTDsYTD": 3,
-      "actual2024TDs": 10,
-      "actual2024Games": 7,
-      "vsOpponentTDs": 1,
-      "basis": "2024 Data: 10 TDs in 7 games"
     },
     {
       "player": "Ty Johnson",
@@ -540,7 +521,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.2 TDs/game allowed)"
       ],
-      "mlRank": 16,
+      "mlRank": 15,
       "playerTDsYTD": 3,
       "actual2024TDs": 5,
       "actual2024Games": 5,
@@ -559,7 +540,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.5 TDs/game allowed)"
       ],
-      "mlRank": 17,
+      "mlRank": 16,
       "playerTDsYTD": 6,
       "actual2024TDs": 8,
       "actual2024Games": 6,
@@ -578,7 +559,7 @@
         "Weak opponent defense (4.0 TDs/game allowed)",
         "Hot recent form (8 TDs in recent games)"
       ],
-      "mlRank": 18,
+      "mlRank": 17,
       "playerTDsYTD": 7,
       "actual2024TDs": 8,
       "actual2024Games": 4,
@@ -597,7 +578,7 @@
         "Weak opponent defense (4.1 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 19,
+      "mlRank": 18,
       "playerTDsYTD": 5,
       "actual2024TDs": 11,
       "actual2024Games": 10,
@@ -616,19 +597,37 @@
         "Weak opponent defense (3.6 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 20,
+      "mlRank": 19,
       "playerTDsYTD": 8,
       "actual2024TDs": 8,
       "actual2024Games": 6,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 8 TDs in 6 games"
+    },
+    {
+      "player": "Sam LaPorta",
+      "team": "Detroit Lions",
+      "opponent": "Green Bay",
+      "position": "TE",
+      "mlProbability": 0.4593333333333333,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (8 TDs)",
+        "Weak opponent defense (3.2 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 20,
+      "playerTDsYTD": 3,
+      "actual2024TDs": 8,
+      "actual2024Games": 7,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 8 TDs in 7 games"
     }
   ],
   "agreement": 0,
   "differences": {
     "onlyInCurrent": [
       "Tetairoa McMillan",
-      "Cam Skattebo",
       "Woody Marks",
       "Ashton Jeanty",
       "Emeka Egbuka",
@@ -637,11 +636,12 @@
       "Bhayshul Tuten",
       "Omarion Hampton",
       "Bam Knight",
+      "Cam Skattebo",
       "Quinshon Judkins",
       "Tez Johnson",
       "Jake Tonges",
       "Tory Horton",
-      "Luke McCaffrey",
+      "Tyquan Thornton",
       "Isaac TeSlaa",
       "RJ Harvey",
       "Jake Ferguson",
@@ -663,12 +663,12 @@
       "Kyle Pitts",
       "Bijan Robinson",
       "DJ Moore",
-      "Jordan Addison",
       "Ty Johnson",
       "Ladd McConkey",
       "Saquon Barkley",
       "Mark Andrews",
-      "De'Von Achane"
+      "De'Von Achane",
+      "Sam LaPorta"
     ],
     "rankingDifferences": []
   }
