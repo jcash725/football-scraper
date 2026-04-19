@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/receiving-touchdowns",
-  "scrapedAt": "2026-04-18T08:37:31.858Z",
+  "scrapedAt": "2026-04-19T08:42:13.564Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -61,6 +61,20 @@
     },
     {
       "Rank": 8,
+      "Player": "Colby Parkinson",
+      "Team": "Los Angeles Rams",
+      "Pos": "TE",
+      "Value": 9
+    },
+    {
+      "Rank": 8,
+      "Player": "Christian McCaffrey",
+      "Team": 49,
+      "Pos": "RB",
+      "Value": 9
+    },
+    {
+      "Rank": 8,
       "Player": "Jauan Jennings",
       "Team": 49,
       "Pos": "WR",
@@ -81,18 +95,18 @@
       "Value": 9
     },
     {
-      "Rank": 8,
-      "Player": "Colby Parkinson",
-      "Team": "Los Angeles Rams",
-      "Pos": "TE",
-      "Value": 9
+      "Rank": 13,
+      "Player": "DJ Moore",
+      "Team": "Chicago Bears",
+      "Pos": "WR",
+      "Value": 8
     },
     {
-      "Rank": 8,
-      "Player": "Christian McCaffrey",
-      "Team": 49,
-      "Pos": "RB",
-      "Value": 9
+      "Rank": 13,
+      "Player": "Hunter Henry",
+      "Team": "New England Patriots",
+      "Pos": "TE",
+      "Value": 8
     },
     {
       "Rank": 13,
@@ -123,18 +137,11 @@
       "Value": 8
     },
     {
-      "Rank": 13,
-      "Player": "DJ Moore",
-      "Team": "Chicago Bears",
-      "Pos": "WR",
-      "Value": 8
-    },
-    {
-      "Rank": 13,
-      "Player": "Hunter Henry",
-      "Team": "New England Patriots",
+      "Rank": 19,
+      "Player": "Dalton Kincaid",
+      "Team": "Buffalo Bills",
       "Pos": "TE",
-      "Value": 8
+      "Value": 7
     },
     {
       "Rank": 19,
@@ -173,13 +180,6 @@
     },
     {
       "Rank": 19,
-      "Player": "Christian Watson",
-      "Team": "Green Bay Packers",
-      "Pos": "WR",
-      "Value": 7
-    },
-    {
-      "Rank": 19,
       "Player": "Brock Bowers",
       "Team": "Las Vegas Raiders",
       "Pos": "TE",
@@ -194,8 +194,8 @@
     },
     {
       "Rank": 19,
-      "Player": "A.J. Brown",
-      "Team": "Philadelphia Eagles",
+      "Player": "Christian Watson",
+      "Team": "Green Bay Packers",
       "Pos": "WR",
       "Value": 7
     },
@@ -203,6 +203,13 @@
       "Rank": 19,
       "Player": "Michael Wilson",
       "Team": "Arizona Cardinals",
+      "Pos": "WR",
+      "Value": 7
+    },
+    {
+      "Rank": 19,
+      "Player": "A.J. Brown",
+      "Team": "Philadelphia Eagles",
       "Pos": "WR",
       "Value": 7
     },
@@ -228,24 +235,31 @@
       "Value": 7
     },
     {
-      "Rank": 19,
-      "Player": "Dalton Kincaid",
-      "Team": "Buffalo Bills",
+      "Rank": 33,
+      "Player": "Tucker Kraft",
+      "Team": "Green Bay Packers",
       "Pos": "TE",
-      "Value": 7
+      "Value": 6
+    },
+    {
+      "Rank": 33,
+      "Player": "Jaylen Waddle",
+      "Team": "Miami Dolphins",
+      "Pos": "WR",
+      "Value": 6
+    },
+    {
+      "Rank": 33,
+      "Player": "Jayden Higgins",
+      "Team": "Houston Texans",
+      "Pos": "WR",
+      "Value": 6
     },
     {
       "Rank": 33,
       "Player": "Emeka Egbuka",
       "Team": "Tampa Bay Buccaneers",
       "Pos": "WR",
-      "Value": 6
-    },
-    {
-      "Rank": 33,
-      "Player": "Darren Waller",
-      "Team": "Miami Dolphins",
-      "Pos": "TE",
       "Value": 6
     },
     {
@@ -259,6 +273,13 @@
       "Rank": 33,
       "Player": "Harold Fannin Jr.",
       "Team": "Cleveland Browns",
+      "Pos": "TE",
+      "Value": 6
+    },
+    {
+      "Rank": 33,
+      "Player": "Darren Waller",
+      "Team": "Miami Dolphins",
       "Pos": "TE",
       "Value": 6
     },
@@ -292,15 +313,15 @@
     },
     {
       "Rank": 33,
-      "Player": "Alec Pierce",
-      "Team": "Indianapolis Colts",
+      "Player": "Parker Washington",
+      "Team": "Jacksonville Jaguars",
       "Pos": "WR",
       "Value": 6
     },
     {
       "Rank": 33,
-      "Player": "Parker Washington",
-      "Team": "Jacksonville Jaguars",
+      "Player": "Alec Pierce",
+      "Team": "Indianapolis Colts",
       "Pos": "WR",
       "Value": 6
     },
@@ -319,31 +340,59 @@
       "Value": 6
     },
     {
-      "Rank": 33,
-      "Player": "Tucker Kraft",
-      "Team": "Green Bay Packers",
+      "Rank": 48,
+      "Player": "Kyle Pitts",
+      "Team": "Atlanta Falcons",
       "Pos": "TE",
-      "Value": 6
-    },
-    {
-      "Rank": 33,
-      "Player": "Jaylen Waddle",
-      "Team": "Miami Dolphins",
-      "Pos": "WR",
-      "Value": 6
-    },
-    {
-      "Rank": 33,
-      "Player": "Jayden Higgins",
-      "Team": "Houston Texans",
-      "Pos": "WR",
-      "Value": 6
+      "Value": 5
     },
     {
       "Rank": 48,
-      "Player": "Keon Coleman",
-      "Team": "Buffalo Bills",
+      "Player": "Hollywood Brown",
+      "Team": "Kansas City Chiefs",
       "Pos": "WR",
+      "Value": 5
+    },
+    {
+      "Rank": 48,
+      "Player": "Ashton Jeanty",
+      "Team": "Las Vegas Raiders",
+      "Pos": "RB",
+      "Value": 5
+    },
+    {
+      "Rank": 48,
+      "Player": "Tez Johnson",
+      "Team": "Tampa Bay Buccaneers",
+      "Pos": "WR",
+      "Value": 5
+    },
+    {
+      "Rank": 48,
+      "Player": "Jahmyr Gibbs",
+      "Team": "Detroit Lions",
+      "Pos": "RB",
+      "Value": 5
+    },
+    {
+      "Rank": 48,
+      "Player": "Travis Kelce",
+      "Team": "Kansas City Chiefs",
+      "Pos": "TE",
+      "Value": 5
+    },
+    {
+      "Rank": 48,
+      "Player": "RJ Harvey",
+      "Team": "Denver Broncos",
+      "Pos": "RB",
+      "Value": 5
+    },
+    {
+      "Rank": 48,
+      "Player": "Jake Tonges",
+      "Team": 49,
+      "Pos": "TE",
       "Value": 5
     },
     {
@@ -357,6 +406,13 @@
       "Rank": 48,
       "Player": "Stefon Diggs",
       "Team": "New England Patriots",
+      "Pos": "WR",
+      "Value": 5
+    },
+    {
+      "Rank": 48,
+      "Player": "Keon Coleman",
+      "Team": "Buffalo Bills",
       "Pos": "WR",
       "Value": 5
     },
@@ -404,13 +460,6 @@
     },
     {
       "Rank": 48,
-      "Player": "Tory Horton",
-      "Team": "Seattle Seahawks",
-      "Pos": "WR",
-      "Value": 5
-    },
-    {
-      "Rank": 48,
       "Player": "Kyren Williams",
       "Team": "Los Angeles Rams",
       "Pos": "RB",
@@ -418,64 +467,43 @@
     },
     {
       "Rank": 48,
-      "Player": "Tez Johnson",
-      "Team": "Tampa Bay Buccaneers",
+      "Player": "Tory Horton",
+      "Team": "Seattle Seahawks",
       "Pos": "WR",
-      "Value": 5
-    },
-    {
-      "Rank": 48,
-      "Player": "Jahmyr Gibbs",
-      "Team": "Detroit Lions",
-      "Pos": "RB",
-      "Value": 5
-    },
-    {
-      "Rank": 48,
-      "Player": "Kyle Pitts",
-      "Team": "Atlanta Falcons",
-      "Pos": "TE",
-      "Value": 5
-    },
-    {
-      "Rank": 48,
-      "Player": "Hollywood Brown",
-      "Team": "Kansas City Chiefs",
-      "Pos": "WR",
-      "Value": 5
-    },
-    {
-      "Rank": 48,
-      "Player": "Ashton Jeanty",
-      "Team": "Las Vegas Raiders",
-      "Pos": "RB",
-      "Value": 5
-    },
-    {
-      "Rank": 48,
-      "Player": "Travis Kelce",
-      "Team": "Kansas City Chiefs",
-      "Pos": "TE",
-      "Value": 5
-    },
-    {
-      "Rank": 48,
-      "Player": "RJ Harvey",
-      "Team": "Denver Broncos",
-      "Pos": "RB",
-      "Value": 5
-    },
-    {
-      "Rank": 48,
-      "Player": "Jake Tonges",
-      "Team": 49,
-      "Pos": "TE",
       "Value": 5
     },
     {
       "Rank": 67,
-      "Player": "Josh Downs",
-      "Team": "Indianapolis Colts",
+      "Player": "Ryan Flournoy",
+      "Team": "Dallas Cowboys",
+      "Pos": "WR",
+      "Value": 4
+    },
+    {
+      "Rank": 67,
+      "Player": "Bijan Robinson",
+      "Team": "Atlanta Falcons",
+      "Pos": "RB",
+      "Value": 4
+    },
+    {
+      "Rank": 67,
+      "Player": "Demario Douglas",
+      "Team": "New England Patriots",
+      "Pos": "WR",
+      "Value": 4
+    },
+    {
+      "Rank": 67,
+      "Player": "Marvin Harrison Jr.",
+      "Team": "Arizona Cardinals",
+      "Pos": "WR",
+      "Value": 4
+    },
+    {
+      "Rank": 67,
+      "Player": "DeVonta Smith",
+      "Team": "Philadelphia Eagles",
       "Pos": "WR",
       "Value": 4
     },
@@ -488,8 +516,8 @@
     },
     {
       "Rank": 67,
-      "Player": "Chimere Dike",
-      "Team": "Tennessee Titans",
+      "Player": "Josh Downs",
+      "Team": "Indianapolis Colts",
       "Pos": "WR",
       "Value": 4
     },
@@ -509,9 +537,9 @@
     },
     {
       "Rank": 67,
-      "Player": "Pat Freiermuth",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "TE",
+      "Player": "Chimere Dike",
+      "Team": "Tennessee Titans",
+      "Pos": "WR",
       "Value": 4
     },
     {
@@ -519,6 +547,13 @@
       "Player": "Keenan Allen",
       "Team": "Los Angeles Chargers",
       "Pos": "WR",
+      "Value": 4
+    },
+    {
+      "Rank": 67,
+      "Player": "Pat Freiermuth",
+      "Team": "Pittsburgh Steelers",
+      "Pos": "TE",
       "Value": 4
     },
     {
@@ -585,39 +620,67 @@
       "Value": 4
     },
     {
-      "Rank": 67,
-      "Player": "Demario Douglas",
+      "Rank": 88,
+      "Player": "Jackson Hawes",
+      "Team": "Buffalo Bills",
+      "Pos": "TE",
+      "Value": 3
+    },
+    {
+      "Rank": 88,
+      "Player": "Mike Evans",
+      "Team": "Tampa Bay Buccaneers",
+      "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 88,
+      "Player": "Rhamondre Stevenson",
       "Team": "New England Patriots",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 67,
-      "Player": "Ryan Flournoy",
-      "Team": "Dallas Cowboys",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 67,
-      "Player": "Bijan Robinson",
-      "Team": "Atlanta Falcons",
       "Pos": "RB",
-      "Value": 4
+      "Value": 3
     },
     {
-      "Rank": 67,
-      "Player": "Marvin Harrison Jr.",
-      "Team": "Arizona Cardinals",
-      "Pos": "WR",
-      "Value": 4
+      "Rank": 88,
+      "Player": "Terrance Ferguson",
+      "Team": "Los Angeles Rams",
+      "Pos": "TE",
+      "Value": 3
     },
     {
-      "Rank": 67,
-      "Player": "DeVonta Smith",
-      "Team": "Philadelphia Eagles",
+      "Rank": 88,
+      "Player": "Juwan Johnson",
+      "Team": "New Orleans Saints",
+      "Pos": "TE",
+      "Value": 3
+    },
+    {
+      "Rank": 88,
+      "Player": "Tyquan Thornton",
+      "Team": "Kansas City Chiefs",
       "Pos": "WR",
-      "Value": 4
+      "Value": 3
+    },
+    {
+      "Rank": 88,
+      "Player": "Malik Washington",
+      "Team": "Miami Dolphins",
+      "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 88,
+      "Player": "Brian Thomas Jr.",
+      "Team": "Jacksonville Jaguars",
+      "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 88,
+      "Player": "Brenton Strange",
+      "Team": "Jacksonville Jaguars",
+      "Pos": "TE",
+      "Value": 3
     },
     {
       "Rank": 88,
@@ -644,69 +707,6 @@
       "Rank": 88,
       "Player": "Jakobi Meyers",
       "Team": "Jacksonville Jaguars",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
-      "Player": "T.J. Hockenson",
-      "Team": "Minnesota Vikings",
-      "Pos": "TE",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
-      "Player": "Kyle Williams",
-      "Team": "New England Patriots",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
-      "Player": "Noah Fant",
-      "Team": "Cincinnati Bengals",
-      "Pos": "TE",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
-      "Player": "Dalton Schultz",
-      "Team": "Houston Texans",
-      "Pos": "TE",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
-      "Player": "Olamide Zaccheaus",
-      "Team": "Chicago Bears",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
-      "Player": "Xavier Hutchinson",
-      "Team": "Houston Texans",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
-      "Player": "Cooper Kupp",
-      "Team": "Seattle Seahawks",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
-      "Player": "Oronde Gadsden II",
-      "Team": "Los Angeles Chargers",
-      "Pos": "TE",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
-      "Player": "Devontez Walker",
-      "Team": "Baltimore Ravens",
       "Pos": "WR",
       "Value": 3
     }
