@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-04-21T09:17:23.479Z",
+  "lastUpdated": "2026-04-22T09:11:46.712Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-04-21T09:17:23.478Z",
+      "generatedAt": "2026-04-22T09:11:46.712Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -6702,52 +6702,52 @@
         },
         {
           "rank": 6,
+          "player": "Tyler Warren",
+          "team": "Indianapolis Colts",
+          "opponent": "Miami",
+          "basis": "Rush TD - Rookie hotstreak"
+        },
+        {
+          "rank": 7,
           "player": "Caleb Williams",
           "team": "Chicago Bears",
           "opponent": "Minnesota",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "player": "Bhayshul Tuten",
           "team": "Jacksonville Jaguars",
           "opponent": "Carolina",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "player": "Omarion Hampton",
           "team": "Los Angeles Chargers",
           "opponent": "Kansas City",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "player": "Bam Knight",
           "team": "Arizona Cardinals",
           "opponent": "New Orleans",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "player": "Quinshon Judkins",
           "team": "Cleveland Browns",
           "opponent": "Cincinnati",
           "basis": "Opp Rush TD/G"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "player": "Tez Johnson",
           "team": "Tampa Bay Buccaneers",
           "opponent": "Atlanta",
           "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 12,
-          "player": "Tyler Warren",
-          "team": "Indianapolis Colts",
-          "opponent": "Miami",
-          "basis": "Pass TD - Rookie hotstreak"
         },
         {
           "rank": 13,
@@ -6786,23 +6786,23 @@
         },
         {
           "rank": 18,
-          "player": "Ashton Jeanty",
-          "team": "Las Vegas Raiders",
-          "opponent": "New England",
-          "basis": "Opp Rush TD/G"
-        },
-        {
-          "rank": 19,
           "player": "Christian McCaffrey",
           "team": 49,
           "opponent": "Seattle",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "player": "Elic Ayomanor",
           "team": "Tennessee Titans",
           "opponent": "Denver",
+          "basis": "Opp Pass TD/G"
+        },
+        {
+          "rank": 20,
+          "player": "Parker Washington",
+          "team": "Jacksonville Jaguars",
+          "opponent": "Carolina",
           "basis": "Opp Pass TD/G"
         }
       ],
@@ -7017,19 +7017,6 @@
         },
         {
           "rank": 17,
-          "player": "Alvin Kamara",
-          "team": "New Orleans Saints",
-          "opponent": "Arizona Cardinals",
-          "probability": 0.4689496402877698,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (8 TDs)",
-            "Weak opponent defense (3.0 TDs/game allowed)",
-            "Hot recent form (8 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 18,
           "player": "Mark Andrews",
           "team": "Baltimore Ravens",
           "opponent": "Buffalo Bills",
@@ -7042,7 +7029,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 18,
           "player": "De'Von Achane",
           "team": "Miami Dolphins",
           "opponent": "Indianapolis Colts",
@@ -7055,7 +7042,7 @@
           ]
         },
         {
-          "rank": 20,
+          "rank": 19,
           "player": "James Cook",
           "team": "Buffalo Bills",
           "opponent": "Baltimore Ravens",
@@ -7065,6 +7052,19 @@
             "Strong 2024 production (10 TDs)",
             "Weak opponent defense (3.2 TDs/game allowed)",
             "Hot recent form (6 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 20,
+          "player": "Kenneth Walker III",
+          "team": "Seattle Seahawks",
+          "opponent": "San Francisco",
+          "probability": 0.4546666666666666,
+          "confidence": 0.9,
+          "keyFactors": [
+            "Moderate 2024 production (4 TDs)",
+            "Previous success vs opponent (1 TDs)",
+            "Weak opponent defense (3.1 TDs/game allowed)"
           ]
         }
       ]
