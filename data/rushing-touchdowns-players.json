@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2026-04-28T10:05:12.672Z",
+  "scrapedAt": "2026-04-29T09:56:44.323Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -264,13 +264,6 @@
     },
     {
       "Rank": 35,
-      "Player": "Tony Pollard",
-      "Team": "Tennessee Titans",
-      "Pos": "RB",
-      "Value": 5
-    },
-    {
-      "Rank": 35,
       "Player": "Bo Nix",
       "Team": "Denver Broncos",
       "Pos": "QB",
@@ -278,9 +271,9 @@
     },
     {
       "Rank": 35,
-      "Player": "Patrick Mahomes",
-      "Team": "Kansas City Chiefs",
-      "Pos": "QB",
+      "Player": "Tony Pollard",
+      "Team": "Tennessee Titans",
+      "Pos": "RB",
       "Value": 5
     },
     {
@@ -288,6 +281,13 @@
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
       "Pos": "RB",
+      "Value": 5
+    },
+    {
+      "Rank": 35,
+      "Player": "Patrick Mahomes",
+      "Team": "Kansas City Chiefs",
+      "Pos": "QB",
       "Value": 5
     },
     {
@@ -313,15 +313,15 @@
     },
     {
       "Rank": 35,
-      "Player": "Devin Singletary",
-      "Team": "New York Giants",
+      "Player": "Kenneth Gainwell",
+      "Team": "Pittsburgh Steelers",
       "Pos": "RB",
       "Value": 5
     },
     {
       "Rank": 35,
-      "Player": "Kenneth Gainwell",
-      "Team": "Pittsburgh Steelers",
+      "Player": "Devin Singletary",
+      "Team": "New York Giants",
       "Pos": "RB",
       "Value": 5
     },
@@ -488,16 +488,16 @@
     },
     {
       "Rank": 65,
-      "Player": "Connor Heyward",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "TE",
+      "Player": "Devin Neal",
+      "Team": "New Orleans Saints",
+      "Pos": "RB",
       "Value": 2
     },
     {
       "Rank": 65,
-      "Player": "Devin Neal",
-      "Team": "New Orleans Saints",
-      "Pos": "RB",
+      "Player": "Connor Heyward",
+      "Team": "Pittsburgh Steelers",
+      "Pos": "TE",
       "Value": 2
     },
     {
@@ -511,13 +511,6 @@
       "Rank": 65,
       "Player": "Malik Davis",
       "Team": "Dallas Cowboys",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 65,
-      "Player": "Brian Robinson Jr.",
-      "Team": 49,
       "Pos": "RB",
       "Value": 2
     },
@@ -537,9 +530,9 @@
     },
     {
       "Rank": 65,
-      "Player": "Puka Nacua",
-      "Team": "Los Angeles Rams",
-      "Pos": "WR",
+      "Player": "Brian Robinson Jr.",
+      "Team": 49,
+      "Pos": "RB",
       "Value": 2
     },
     {
@@ -547,6 +540,13 @@
       "Player": "Aaron Jones",
       "Team": "Minnesota Vikings",
       "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 65,
+      "Player": "Puka Nacua",
+      "Team": "Los Angeles Rams",
+      "Pos": "WR",
       "Value": 2
     },
     {
@@ -572,15 +572,15 @@
     },
     {
       "Rank": 65,
-      "Player": "Dak Prescott",
-      "Team": "Dallas Cowboys",
+      "Player": "Jayden Daniels",
+      "Team": "Washington Commanders",
       "Pos": "QB",
       "Value": 2
     },
     {
       "Rank": 65,
-      "Player": "Jayden Daniels",
-      "Team": "Washington Commanders",
+      "Player": "Dak Prescott",
+      "Team": "Dallas Cowboys",
       "Pos": "QB",
       "Value": 2
     },
@@ -607,22 +607,15 @@
     },
     {
       "Rank": 84,
-      "Player": "Mark Andrews",
-      "Team": "Baltimore Ravens",
-      "Pos": "TE",
+      "Player": "James Conner",
+      "Team": "Arizona Cardinals",
+      "Pos": "RB",
       "Value": 1
     },
     {
       "Rank": 84,
       "Player": "Isaiah Davis",
       "Team": "New York Jets",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 84,
-      "Player": "James Conner",
-      "Team": "Arizona Cardinals",
       "Pos": "RB",
       "Value": 1
     },
@@ -635,9 +628,9 @@
     },
     {
       "Rank": 84,
-      "Player": "Audric Estime",
-      "Team": "New Orleans Saints",
-      "Pos": "RB",
+      "Player": "Mark Andrews",
+      "Team": "Baltimore Ravens",
+      "Pos": "TE",
       "Value": 1
     },
     {
@@ -663,9 +656,9 @@
     },
     {
       "Rank": 84,
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Pos": "TE",
+      "Player": "Audric Estime",
+      "Team": "New Orleans Saints",
+      "Pos": "RB",
       "Value": 1
     },
     {
@@ -680,6 +673,13 @@
       "Player": "Terrell Jennings",
       "Team": "New England Patriots",
       "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 84,
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Pos": "TE",
       "Value": 1
     },
     {
