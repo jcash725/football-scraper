@@ -1,18 +1,6 @@
 {
-  "generatedAt": "2026-05-11T10:53:17.398Z",
+  "generatedAt": "2026-05-12T10:23:42.957Z",
   "currentModel": [
-    {
-      "Player": "Xavier Hutchinson",
-      "Team": "Houston Texans",
-      "Opponent": "LA Rams",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 6,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 2.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
-    },
     {
       "Player": "Tetairoa McMillan",
       "Team": "Carolina Panthers",
@@ -41,13 +29,13 @@
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
       "Opponent": "New England",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 5.2666666666666675,
       "Player TDs YTD": 5,
-      "Player 2025 TDs": 0,
+      "Player 2025 TDs": 5,
+      "Opponent Stat Value": 5.666666666666667,
+      "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs New England - opponent allows 1.6 pass TDs/game",
-      "Rookie Boost": "+3.7 (1.7 TD/game)"
+      "Reason": "Rookie with 1.7 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
     },
     {
       "Player": "Emeka Egbuka",
@@ -240,6 +228,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "49 vs Seattle - opponent allows 1.5 pass TDs/game",
       "Rookie Boost": "+3.2 (1.2 TD/game)"
+    },
+    {
+      "Player": "Elic Ayomanor",
+      "Team": "Tennessee Titans",
+      "Opponent": "Denver",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.3,
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Tennessee Titans vs Denver - opponent allows 1.3 pass TDs/game",
+      "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ],
   "mlModel": [
@@ -627,7 +627,6 @@
   "agreement": 0,
   "differences": {
     "onlyInCurrent": [
-      "Xavier Hutchinson",
       "Tetairoa McMillan",
       "Woody Marks",
       "Ashton Jeanty",
@@ -646,7 +645,8 @@
       "Isaac TeSlaa",
       "RJ Harvey",
       "Jake Ferguson",
-      "Christian McCaffrey"
+      "Christian McCaffrey",
+      "Elic Ayomanor"
     ],
     "onlyInML": [
       "Jalen Hurts",
