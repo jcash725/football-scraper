@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/receiving-touchdowns",
-  "scrapedAt": "2026-05-18T11:36:25.357Z",
+  "scrapedAt": "2026-05-19T10:52:57.449Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -138,13 +138,6 @@
     },
     {
       "Rank": 19,
-      "Player": "A.J. Brown",
-      "Team": "Philadelphia Eagles",
-      "Pos": "WR",
-      "Value": 7
-    },
-    {
-      "Rank": 19,
       "Player": "Michael Wilson",
       "Team": "Arizona Cardinals",
       "Pos": "WR",
@@ -155,6 +148,13 @@
       "Player": "Dalton Kincaid",
       "Team": "Buffalo Bills",
       "Pos": "TE",
+      "Value": 7
+    },
+    {
+      "Rank": 19,
+      "Player": "A.J. Brown",
+      "Team": "Philadelphia Eagles",
+      "Pos": "WR",
       "Value": 7
     },
     {
@@ -187,13 +187,6 @@
     },
     {
       "Rank": 19,
-      "Player": "Tetairoa McMillan",
-      "Team": "Carolina Panthers",
-      "Pos": "WR",
-      "Value": 7
-    },
-    {
-      "Rank": 19,
       "Player": "Brock Bowers",
       "Team": "Las Vegas Raiders",
       "Pos": "TE",
@@ -211,6 +204,13 @@
       "Player": "George Kittle",
       "Team": 49,
       "Pos": "TE",
+      "Value": 7
+    },
+    {
+      "Rank": 19,
+      "Player": "Tetairoa McMillan",
+      "Team": "Carolina Panthers",
+      "Pos": "WR",
       "Value": 7
     },
     {
@@ -670,13 +670,6 @@
     },
     {
       "Rank": 88,
-      "Player": "Devontez Walker",
-      "Team": "Baltimore Ravens",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
       "Player": "Oronde Gadsden II",
       "Team": "Los Angeles Chargers",
       "Pos": "TE",
@@ -686,6 +679,13 @@
       "Rank": 88,
       "Player": "Christian Kirk",
       "Team": "Houston Texans",
+      "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 88,
+      "Player": "Devontez Walker",
+      "Team": "Baltimore Ravens",
       "Pos": "WR",
       "Value": 3
     },
