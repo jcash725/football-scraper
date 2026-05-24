@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/receiving-touchdowns",
-  "scrapedAt": "2026-05-23T09:42:29.632Z",
+  "scrapedAt": "2026-05-24T09:47:16.211Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -166,13 +166,6 @@
     },
     {
       "Rank": 19,
-      "Player": "A.J. Brown",
-      "Team": "Philadelphia Eagles",
-      "Pos": "WR",
-      "Value": 7
-    },
-    {
-      "Rank": 19,
       "Player": "Michael Wilson",
       "Team": "Arizona Cardinals",
       "Pos": "WR",
@@ -183,6 +176,13 @@
       "Player": "Dalton Kincaid",
       "Team": "Buffalo Bills",
       "Pos": "TE",
+      "Value": 7
+    },
+    {
+      "Rank": 19,
+      "Player": "A.J. Brown",
+      "Team": "Philadelphia Eagles",
+      "Pos": "WR",
       "Value": 7
     },
     {
@@ -201,16 +201,16 @@
     },
     {
       "Rank": 19,
-      "Player": "AJ Barner",
-      "Team": "Seattle Seahawks",
-      "Pos": "TE",
+      "Player": "Travis Etienne Jr.",
+      "Team": "Jacksonville Jaguars",
+      "Pos": "RB",
       "Value": 7
     },
     {
       "Rank": 19,
-      "Player": "Travis Etienne Jr.",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "RB",
+      "Player": "AJ Barner",
+      "Team": "Seattle Seahawks",
+      "Pos": "TE",
       "Value": 7
     },
     {
@@ -397,16 +397,16 @@
     },
     {
       "Rank": 48,
-      "Player": "Keon Coleman",
-      "Team": "Buffalo Bills",
-      "Pos": "WR",
+      "Player": "Kyren Williams",
+      "Team": "Los Angeles Rams",
+      "Pos": "RB",
       "Value": 5
     },
     {
       "Rank": 48,
-      "Player": "Kyren Williams",
-      "Team": "Los Angeles Rams",
-      "Pos": "RB",
+      "Player": "Keon Coleman",
+      "Team": "Buffalo Bills",
+      "Pos": "WR",
       "Value": 5
     },
     {
@@ -565,15 +565,15 @@
     },
     {
       "Rank": 67,
-      "Player": "DeVonta Smith",
-      "Team": "Philadelphia Eagles",
+      "Player": "Elic Ayomanor",
+      "Team": "Tennessee Titans",
       "Pos": "WR",
       "Value": 4
     },
     {
       "Rank": 67,
-      "Player": "Elic Ayomanor",
-      "Team": "Tennessee Titans",
+      "Player": "DeVonta Smith",
+      "Team": "Philadelphia Eagles",
       "Pos": "WR",
       "Value": 4
     },
@@ -593,16 +593,16 @@
     },
     {
       "Rank": 67,
-      "Player": "De'Von Achane",
-      "Team": "Miami Dolphins",
-      "Pos": "RB",
+      "Player": "Keenan Allen",
+      "Team": "Los Angeles Chargers",
+      "Pos": "WR",
       "Value": 4
     },
     {
       "Rank": 67,
-      "Player": "Keenan Allen",
-      "Team": "Los Angeles Chargers",
-      "Pos": "WR",
+      "Player": "De'Von Achane",
+      "Team": "Miami Dolphins",
+      "Pos": "RB",
       "Value": 4
     },
     {
@@ -621,6 +621,13 @@
     },
     {
       "Rank": 88,
+      "Player": "Woody Marks",
+      "Team": "Houston Texans",
+      "Pos": "RB",
+      "Value": 3
+    },
+    {
+      "Rank": 88,
       "Player": "Mack Hollins",
       "Team": "New England Patriots",
       "Pos": "WR",
@@ -631,13 +638,6 @@
       "Player": "Jordan Addison",
       "Team": "Minnesota Vikings",
       "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
-      "Player": "Woody Marks",
-      "Team": "Houston Texans",
-      "Pos": "RB",
       "Value": 3
     },
     {
@@ -663,15 +663,15 @@
     },
     {
       "Rank": 88,
-      "Player": "Davis Allen",
-      "Team": "Los Angeles Rams",
+      "Player": "Jackson Hawes",
+      "Team": "Buffalo Bills",
       "Pos": "TE",
       "Value": 3
     },
     {
       "Rank": 88,
-      "Player": "Jackson Hawes",
-      "Team": "Buffalo Bills",
+      "Player": "Davis Allen",
+      "Team": "Los Angeles Rams",
       "Pos": "TE",
       "Value": 3
     },
@@ -691,13 +691,6 @@
     },
     {
       "Rank": 88,
-      "Player": "Tyler Higbee",
-      "Team": "Los Angeles Rams",
-      "Pos": "TE",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
       "Player": "Terrance Ferguson",
       "Team": "Los Angeles Rams",
       "Pos": "TE",
@@ -708,6 +701,13 @@
       "Player": "CeeDee Lamb",
       "Team": "Dallas Cowboys",
       "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 88,
+      "Player": "Tyler Higbee",
+      "Team": "Los Angeles Rams",
+      "Pos": "TE",
       "Value": 3
     }
   ]
