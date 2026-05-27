@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-05-25T11:43:15.964Z",
+  "lastUpdated": "2026-05-27T11:29:43.700Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,21 +6663,21 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-05-25T11:43:15.964Z",
+      "generatedAt": "2026-05-27T11:29:43.700Z",
       "currentModelPredictions": [
         {
           "rank": 1,
-          "player": "Cam Skattebo",
-          "team": "New York Giants",
-          "opponent": "Dallas",
-          "basis": "Rush TD - Rookie hotstreak"
-        },
-        {
-          "rank": 2,
           "player": "Woody Marks",
           "team": "Houston Texans",
           "opponent": "Buffalo",
           "basis": "Rush TD - Rookie hotstreak"
+        },
+        {
+          "rank": 2,
+          "player": "Cam Skattebo",
+          "team": "New York Giants",
+          "opponent": "Dallas",
+          "basis": "Opp Rush TD/G"
         },
         {
           "rank": 3,
@@ -6800,9 +6800,9 @@
         },
         {
           "rank": 20,
-          "player": "DK Metcalf",
-          "team": "Pittsburgh Steelers",
-          "opponent": "Atlanta",
+          "player": "Rome Odunze",
+          "team": "Chicago Bears",
+          "opponent": "Carolina",
           "basis": "Opp Pass TD/G"
         }
       ],

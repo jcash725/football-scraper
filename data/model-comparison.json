@@ -1,18 +1,6 @@
 {
-  "generatedAt": "2026-05-25T11:43:15.966Z",
+  "generatedAt": "2026-05-27T11:29:43.702Z",
   "currentModel": [
-    {
-      "Player": "Cam Skattebo",
-      "Team": "New York Giants",
-      "Opponent": "Dallas",
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 6,
-      "Opponent Stat Value": 5.5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.5 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
-    },
     {
       "Player": "Woody Marks",
       "Team": "Houston Texans",
@@ -24,6 +12,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.5 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
+    },
+    {
+      "Player": "Cam Skattebo",
+      "Team": "New York Giants",
+      "Opponent": "Dallas",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 5,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "New York Giants vs Dallas - opponent allows 1.5 rush TDs/game",
+      "Rookie Boost": "+3.5 (1.5 TD/game)"
     },
     {
       "Player": "Tyler Warren",
@@ -230,15 +230,15 @@
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     },
     {
-      "Player": "DK Metcalf",
-      "Team": "Pittsburgh Steelers",
-      "Opponent": "Atlanta",
+      "Player": "Rome Odunze",
+      "Team": "Chicago Bears",
+      "Opponent": "Carolina",
       "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 2,
+      "Opponent Stat Value": 2.1,
       "Player TDs YTD": 6,
       "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Pittsburgh Steelers vs Atlanta - opponent allows 2 pass TDs/game"
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Chicago Bears vs Carolina - opponent allows 2.1 pass TDs/game"
     }
   ],
   "mlModel": [
@@ -626,8 +626,8 @@
   "agreement": 0,
   "differences": {
     "onlyInCurrent": [
-      "Cam Skattebo",
       "Woody Marks",
+      "Cam Skattebo",
       "Tyler Warren",
       "Caleb Williams",
       "Bhayshul Tuten",
@@ -645,7 +645,7 @@
       "Christian McCaffrey",
       "Tez Johnson",
       "Elic Ayomanor",
-      "DK Metcalf"
+      "Rome Odunze"
     ],
     "onlyInML": [
       "Jordan Addison",
