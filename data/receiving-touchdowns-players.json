@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/receiving-touchdowns",
-  "scrapedAt": "2026-06-07T10:21:09.480Z",
+  "scrapedAt": "2026-06-08T12:21:13.796Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -152,6 +152,13 @@
     },
     {
       "Rank": 19,
+      "Player": "Brock Bowers",
+      "Team": "Las Vegas Raiders",
+      "Pos": "TE",
+      "Value": 7
+    },
+    {
+      "Rank": 19,
       "Player": "Christian Watson",
       "Team": "Green Bay Packers",
       "Pos": "WR",
@@ -166,22 +173,8 @@
     },
     {
       "Rank": 19,
-      "Player": "Brock Bowers",
-      "Team": "Las Vegas Raiders",
-      "Pos": "TE",
-      "Value": 7
-    },
-    {
-      "Rank": 19,
       "Player": "Jameson Williams",
       "Team": "Detroit Lions",
-      "Pos": "WR",
-      "Value": 7
-    },
-    {
-      "Rank": 19,
-      "Player": "Michael Pittman Jr.",
-      "Team": "Indianapolis Colts",
       "Pos": "WR",
       "Value": 7
     },
@@ -194,8 +187,22 @@
     },
     {
       "Rank": 19,
+      "Player": "Michael Pittman Jr.",
+      "Team": "Indianapolis Colts",
+      "Pos": "WR",
+      "Value": 7
+    },
+    {
+      "Rank": 19,
       "Player": "Drake London",
       "Team": "Atlanta Falcons",
+      "Pos": "WR",
+      "Value": 7
+    },
+    {
+      "Rank": 19,
+      "Player": "A.J. Brown",
+      "Team": "Philadelphia Eagles",
       "Pos": "WR",
       "Value": 7
     },
@@ -211,13 +218,6 @@
       "Player": "Dalton Kincaid",
       "Team": "Buffalo Bills",
       "Pos": "TE",
-      "Value": 7
-    },
-    {
-      "Rank": 19,
-      "Player": "A.J. Brown",
-      "Team": "Philadelphia Eagles",
-      "Pos": "WR",
       "Value": 7
     },
     {
@@ -243,6 +243,13 @@
     },
     {
       "Rank": 33,
+      "Player": "Parker Washington",
+      "Team": "Jacksonville Jaguars",
+      "Pos": "WR",
+      "Value": 6
+    },
+    {
+      "Rank": 33,
       "Player": "Nico Collins",
       "Team": "Houston Texans",
       "Pos": "WR",
@@ -253,13 +260,6 @@
       "Player": "Darren Waller",
       "Team": "Miami Dolphins",
       "Pos": "TE",
-      "Value": 6
-    },
-    {
-      "Rank": 33,
-      "Player": "Parker Washington",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "WR",
       "Value": 6
     },
     {
@@ -278,15 +278,15 @@
     },
     {
       "Rank": 33,
-      "Player": "Tucker Kraft",
-      "Team": "Green Bay Packers",
+      "Player": "Colston Loveland",
+      "Team": "Chicago Bears",
       "Pos": "TE",
       "Value": 6
     },
     {
       "Rank": 33,
-      "Player": "Colston Loveland",
-      "Team": "Chicago Bears",
+      "Player": "Tucker Kraft",
+      "Team": "Green Bay Packers",
       "Pos": "TE",
       "Value": 6
     },
@@ -306,15 +306,15 @@
     },
     {
       "Rank": 33,
-      "Player": "Jaylen Waddle",
-      "Team": "Miami Dolphins",
+      "Player": "Jayden Higgins",
+      "Team": "Houston Texans",
       "Pos": "WR",
       "Value": 6
     },
     {
       "Rank": 33,
-      "Player": "Jayden Higgins",
-      "Team": "Houston Texans",
+      "Player": "Jaylen Waddle",
+      "Team": "Miami Dolphins",
       "Pos": "WR",
       "Value": 6
     },
@@ -432,16 +432,16 @@
     },
     {
       "Rank": 48,
-      "Player": "Hollywood Brown",
-      "Team": "Kansas City Chiefs",
-      "Pos": "WR",
+      "Player": "Kyle Pitts",
+      "Team": "Atlanta Falcons",
+      "Pos": "TE",
       "Value": 5
     },
     {
       "Rank": 48,
-      "Player": "Kyle Pitts",
-      "Team": "Atlanta Falcons",
-      "Pos": "TE",
+      "Player": "Hollywood Brown",
+      "Team": "Kansas City Chiefs",
+      "Pos": "WR",
       "Value": 5
     },
     {
@@ -586,13 +586,6 @@
     },
     {
       "Rank": 67,
-      "Player": "Chimere Dike",
-      "Team": "Tennessee Titans",
-      "Pos": "WR",
-      "Value": 4
-    },
-    {
-      "Rank": 67,
       "Player": "Ryan Flournoy",
       "Team": "Dallas Cowboys",
       "Pos": "WR",
@@ -603,6 +596,13 @@
       "Player": "Tyler Warren",
       "Team": "Indianapolis Colts",
       "Pos": "TE",
+      "Value": 4
+    },
+    {
+      "Rank": 67,
+      "Player": "Chimere Dike",
+      "Team": "Tennessee Titans",
+      "Pos": "WR",
       "Value": 4
     },
     {
@@ -621,20 +621,6 @@
     },
     {
       "Rank": 88,
-      "Player": "Sam LaPorta",
-      "Team": "Detroit Lions",
-      "Pos": "TE",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
-      "Player": "Calvin Austin III",
-      "Team": "Pittsburgh Steelers",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
       "Player": "Greg Dortch",
       "Team": "Arizona Cardinals",
       "Pos": "WR",
@@ -644,6 +630,20 @@
       "Rank": 88,
       "Player": "Jakobi Meyers",
       "Team": "Jacksonville Jaguars",
+      "Pos": "WR",
+      "Value": 3
+    },
+    {
+      "Rank": 88,
+      "Player": "Sam LaPorta",
+      "Team": "Detroit Lions",
+      "Pos": "TE",
+      "Value": 3
+    },
+    {
+      "Rank": 88,
+      "Player": "Calvin Austin III",
+      "Team": "Pittsburgh Steelers",
       "Pos": "WR",
       "Value": 3
     },
@@ -666,6 +666,13 @@
       "Player": "Noah Fant",
       "Team": "Cincinnati Bengals",
       "Pos": "TE",
+      "Value": 3
+    },
+    {
+      "Rank": 88,
+      "Player": "Cooper Kupp",
+      "Team": "Seattle Seahawks",
+      "Pos": "WR",
       "Value": 3
     },
     {
@@ -693,13 +700,6 @@
       "Rank": 88,
       "Player": "Devontez Walker",
       "Team": "Baltimore Ravens",
-      "Pos": "WR",
-      "Value": 3
-    },
-    {
-      "Rank": 88,
-      "Player": "Cooper Kupp",
-      "Team": "Seattle Seahawks",
       "Pos": "WR",
       "Value": 3
     },
