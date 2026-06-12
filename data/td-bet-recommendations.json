@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T12:02:40.381Z",
+  "generatedAt": "2026-06-12T11:35:13.763Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -39,6 +39,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "New York Giants vs Dallas - opponent allows 1.5 rush TDs/game",
       "Rookie Boost": "+3.5 (1.5 TD/game)"
+    },
+    {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Baltimore",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Caleb Williams",
@@ -113,18 +125,6 @@
       "Rookie Boost": "+4.0 (2.0 TD/game)"
     },
     {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Baltimore",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
       "Player": "Jake Tonges",
       "Team": "San Francisco 49ers",
       "Opponent": "LA Rams",
@@ -149,9 +149,9 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Luke McCaffrey",
-      "Team": "Washington Commanders",
-      "Opponent": "Philadelphia",
+      "Player": "Tyquan Thornton",
+      "Team": "Kansas City Chiefs",
+      "Opponent": "Denver",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
