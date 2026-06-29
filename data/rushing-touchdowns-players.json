@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2026-06-28T10:19:50.453Z",
+  "scrapedAt": "2026-06-29T12:22:08.719Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -96,6 +96,13 @@
     },
     {
       "Rank": 12,
+      "Player": "Jaxson Dart",
+      "Team": "New York Giants",
+      "Pos": "QB",
+      "Value": 9
+    },
+    {
+      "Rank": 12,
       "Player": "TreVeyon Henderson",
       "Team": "New England Patriots",
       "Pos": "RB",
@@ -107,20 +114,6 @@
       "Team": "Jacksonville Jaguars",
       "Pos": "QB",
       "Value": 9
-    },
-    {
-      "Rank": 12,
-      "Player": "Jaxson Dart",
-      "Team": "New York Giants",
-      "Pos": "QB",
-      "Value": 9
-    },
-    {
-      "Rank": 16,
-      "Player": "De'Von Achane",
-      "Team": "Miami Dolphins",
-      "Pos": "RB",
-      "Value": 8
     },
     {
       "Rank": 16,
@@ -154,6 +147,13 @@
       "Rank": 16,
       "Player": "Jacory Croskey-Merritt",
       "Team": "Washington Commanders",
+      "Pos": "RB",
+      "Value": 8
+    },
+    {
+      "Rank": 16,
+      "Player": "De'Von Achane",
+      "Team": "Miami Dolphins",
       "Pos": "RB",
       "Value": 8
     },
@@ -194,15 +194,15 @@
     },
     {
       "Rank": 22,
-      "Player": "Saquon Barkley",
-      "Team": "Philadelphia Eagles",
+      "Player": "Quinshon Judkins",
+      "Team": "Cleveland Browns",
       "Pos": "RB",
       "Value": 7
     },
     {
       "Rank": 22,
-      "Player": "Quinshon Judkins",
-      "Team": "Cleveland Browns",
+      "Player": "Saquon Barkley",
+      "Team": "Philadelphia Eagles",
       "Pos": "RB",
       "Value": 7
     },
@@ -257,8 +257,22 @@
     },
     {
       "Rank": 35,
+      "Player": "Ashton Jeanty",
+      "Team": "Las Vegas Raiders",
+      "Pos": "RB",
+      "Value": 5
+    },
+    {
+      "Rank": 35,
       "Player": "Drake Maye",
       "Team": "New England Patriots",
+      "Pos": "QB",
+      "Value": 5
+    },
+    {
+      "Rank": 35,
+      "Player": "Bo Nix",
+      "Team": "Denver Broncos",
       "Pos": "QB",
       "Value": 5
     },
@@ -271,15 +285,8 @@
     },
     {
       "Rank": 35,
-      "Player": "Bo Nix",
-      "Team": "Denver Broncos",
-      "Pos": "QB",
-      "Value": 5
-    },
-    {
-      "Rank": 35,
-      "Player": "Ashton Jeanty",
-      "Team": "Las Vegas Raiders",
+      "Player": "Bhayshul Tuten",
+      "Team": "Jacksonville Jaguars",
       "Pos": "RB",
       "Value": 5
     },
@@ -292,8 +299,8 @@
     },
     {
       "Rank": 35,
-      "Player": "Bhayshul Tuten",
-      "Team": "Jacksonville Jaguars",
+      "Player": "Cam Skattebo",
+      "Team": "New York Giants",
       "Pos": "RB",
       "Value": 5
     },
@@ -301,13 +308,6 @@
       "Rank": 35,
       "Player": "Kyle Monangai",
       "Team": "Chicago Bears",
-      "Pos": "RB",
-      "Value": 5
-    },
-    {
-      "Rank": 35,
-      "Player": "Cam Skattebo",
-      "Team": "New York Giants",
       "Pos": "RB",
       "Value": 5
     },
@@ -341,15 +341,15 @@
     },
     {
       "Rank": 46,
-      "Player": "J.K. Dobbins",
-      "Team": "Denver Broncos",
+      "Player": "Omarion Hampton",
+      "Team": "Los Angeles Chargers",
       "Pos": "RB",
       "Value": 4
     },
     {
       "Rank": 46,
-      "Player": "Omarion Hampton",
-      "Team": "Los Angeles Chargers",
+      "Player": "J.K. Dobbins",
+      "Team": "Denver Broncos",
       "Pos": "RB",
       "Value": 4
     },
@@ -376,13 +376,6 @@
     },
     {
       "Rank": 53,
-      "Player": "Chuba Hubbard",
-      "Team": "Carolina Panthers",
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 53,
       "Player": "Brock Purdy",
       "Team": 49,
       "Pos": "QB",
@@ -390,22 +383,8 @@
     },
     {
       "Rank": 53,
-      "Player": "Ollie Gordon II",
-      "Team": "Miami Dolphins",
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 53,
-      "Player": "Emanuel Wilson",
-      "Team": "Green Bay Packers",
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 53,
-      "Player": "Kimani Vidal",
-      "Team": "Los Angeles Chargers",
+      "Player": "Chuba Hubbard",
+      "Team": "Carolina Panthers",
       "Pos": "RB",
       "Value": 3
     },
@@ -413,6 +392,13 @@
       "Rank": 53,
       "Player": "Woody Marks",
       "Team": "Houston Texans",
+      "Pos": "RB",
+      "Value": 3
+    },
+    {
+      "Rank": 53,
+      "Player": "Kimani Vidal",
+      "Team": "Los Angeles Chargers",
       "Pos": "RB",
       "Value": 3
     },
@@ -446,9 +432,16 @@
     },
     {
       "Rank": 53,
-      "Player": "Bryce Young",
-      "Team": "Carolina Panthers",
-      "Pos": "QB",
+      "Player": "Ollie Gordon II",
+      "Team": "Miami Dolphins",
+      "Pos": "RB",
+      "Value": 3
+    },
+    {
+      "Rank": 53,
+      "Player": "Emanuel Wilson",
+      "Team": "Green Bay Packers",
+      "Pos": "RB",
       "Value": 3
     },
     {
@@ -456,6 +449,13 @@
       "Player": "Ty Johnson",
       "Team": "Buffalo Bills",
       "Pos": "RB",
+      "Value": 3
+    },
+    {
+      "Rank": 53,
+      "Player": "Bryce Young",
+      "Team": "Carolina Panthers",
+      "Pos": "QB",
       "Value": 3
     },
     {
@@ -516,6 +516,13 @@
     },
     {
       "Rank": 65,
+      "Player": "Justice Hill",
+      "Team": "Baltimore Ravens",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 65,
       "Player": "Brian Robinson Jr.",
       "Team": 49,
       "Pos": "RB",
@@ -525,13 +532,6 @@
       "Rank": 65,
       "Player": "Tank Bigsby",
       "Team": "Philadelphia Eagles",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 65,
-      "Player": "Justice Hill",
-      "Team": "Baltimore Ravens",
       "Pos": "RB",
       "Value": 2
     },
@@ -551,9 +551,9 @@
     },
     {
       "Rank": 65,
-      "Player": "Tyjae Spears",
+      "Player": "Cam Ward",
       "Team": "Tennessee Titans",
-      "Pos": "RB",
+      "Pos": "QB",
       "Value": 2
     },
     {
@@ -561,6 +561,13 @@
       "Player": "Lamar Jackson",
       "Team": "Baltimore Ravens",
       "Pos": "QB",
+      "Value": 2
+    },
+    {
+      "Rank": 65,
+      "Player": "Tyjae Spears",
+      "Team": "Tennessee Titans",
+      "Pos": "RB",
       "Value": 2
     },
     {
@@ -585,11 +592,11 @@
       "Value": 2
     },
     {
-      "Rank": 65,
-      "Player": "Cam Ward",
-      "Team": "Tennessee Titans",
-      "Pos": "QB",
-      "Value": 2
+      "Rank": 84,
+      "Player": "Jonnu Smith",
+      "Team": "Pittsburgh Steelers",
+      "Pos": "TE",
+      "Value": 1
     },
     {
       "Rank": 84,
@@ -600,16 +607,9 @@
     },
     {
       "Rank": 84,
-      "Player": "Jonnu Smith",
-      "Team": "Pittsburgh Steelers",
+      "Player": "Dallas Goedert",
+      "Team": "Philadelphia Eagles",
       "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 84,
-      "Player": "Isaiah Davis",
-      "Team": "New York Jets",
-      "Pos": "RB",
       "Value": 1
     },
     {
@@ -628,22 +628,8 @@
     },
     {
       "Rank": 84,
-      "Player": "Dallas Goedert",
-      "Team": "Philadelphia Eagles",
-      "Pos": "TE",
-      "Value": 1
-    },
-    {
-      "Rank": 84,
       "Player": "Marcus Mariota",
       "Team": "Washington Commanders",
-      "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 84,
-      "Player": "Shedeur Sanders",
-      "Team": "Cleveland Browns",
       "Pos": "QB",
       "Value": 1
     },
@@ -656,9 +642,9 @@
     },
     {
       "Rank": 84,
-      "Player": "Audric Estime",
-      "Team": "New Orleans Saints",
-      "Pos": "RB",
+      "Player": "DJ Moore",
+      "Team": "Chicago Bears",
+      "Pos": "WR",
       "Value": 1
     },
     {
@@ -677,16 +663,37 @@
     },
     {
       "Rank": 84,
-      "Player": "DJ Moore",
+      "Player": "Brittain Brown",
       "Team": "Chicago Bears",
-      "Pos": "WR",
+      "Pos": "RB",
       "Value": 1
     },
     {
       "Rank": 84,
-      "Player": "Brittain Brown",
-      "Team": "Chicago Bears",
+      "Player": "Jaydon Blue",
+      "Team": "Dallas Cowboys",
       "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 84,
+      "Player": "Braelon Allen",
+      "Team": "New York Jets",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 84,
+      "Player": "Raheim Sanders",
+      "Team": "Cleveland Browns",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 84,
+      "Player": "Josh Johnson",
+      "Team": "Washington Commanders",
+      "Pos": "QB",
       "Value": 1
     },
     {
@@ -701,13 +708,6 @@
       "Player": "Tyrod Taylor",
       "Team": "New York Jets",
       "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 84,
-      "Player": "Raheim Sanders",
-      "Team": "Cleveland Browns",
-      "Pos": "RB",
       "Value": 1
     }
   ]

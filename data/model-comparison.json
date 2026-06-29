@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T10:20:26.210Z",
+  "generatedAt": "2026-06-29T12:22:42.347Z",
   "currentModel": [
     {
       "Player": "Woody Marks",
@@ -12,18 +12,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.5 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
-    },
-    {
-      "Player": "Ashton Jeanty",
-      "Team": "Las Vegas Raiders",
-      "Opponent": "Miami",
-      "Player TDs YTD": 5,
-      "Player 2025 TDs": 5,
-      "Opponent Stat Value": 5.666666666666667,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.7 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
     },
     {
       "Player": "Cam Skattebo",
@@ -146,6 +134,18 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
+      "Player": "Luke McCaffrey",
+      "Team": "Washington Commanders",
+      "Opponent": "Philadelphia",
+      "Player TDs YTD": 3,
+      "Player 2025 TDs": 3,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
       "Player": "Isaac TeSlaa",
       "Team": "Detroit Lions",
       "Opponent": "New Orleans",
@@ -179,6 +179,18 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Cleveland Browns vs Jacksonville - opponent allows 1.1 rush TDs/game",
+      "Rookie Boost": "+3.7 (1.7 TD/game)"
+    },
+    {
+      "Player": "Ashton Jeanty",
+      "Team": "Las Vegas Raiders",
+      "Opponent": "Miami",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4.966666666666667,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Las Vegas Raiders vs Miami - opponent allows 1.3 pass TDs/game",
       "Rookie Boost": "+3.7 (1.7 TD/game)"
     },
     {
@@ -228,17 +240,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Tennessee Titans vs NY Jets - opponent allows 1.1 pass TDs/game",
       "Rookie Boost": "+3.0 (1.0 TD/game)"
-    },
-    {
-      "Player": "DK Metcalf",
-      "Team": "Pittsburgh Steelers",
-      "Opponent": "Atlanta",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 2,
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Pittsburgh Steelers vs Atlanta - opponent allows 2 pass TDs/game"
     }
   ],
   "mlModel": [
@@ -627,7 +628,6 @@
   "differences": {
     "onlyInCurrent": [
       "Woody Marks",
-      "Ashton Jeanty",
       "Cam Skattebo",
       "Tyler Warren",
       "Caleb Williams",
@@ -638,14 +638,15 @@
       "Tetairoa McMillan",
       "Jake Tonges",
       "Tory Horton",
+      "Luke McCaffrey",
       "Isaac TeSlaa",
       "RJ Harvey",
       "Quinshon Judkins",
+      "Ashton Jeanty",
       "Jake Ferguson",
       "Christian McCaffrey",
       "Tez Johnson",
-      "Elic Ayomanor",
-      "DK Metcalf"
+      "Elic Ayomanor"
     ],
     "onlyInML": [
       "Jordan Addison",

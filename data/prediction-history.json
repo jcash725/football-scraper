@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-06-28T10:20:26.207Z",
+  "lastUpdated": "2026-06-29T12:22:42.345Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-06-28T10:20:26.207Z",
+      "generatedAt": "2026-06-29T12:22:42.345Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -6674,79 +6674,79 @@
         },
         {
           "rank": 2,
-          "player": "Ashton Jeanty",
-          "team": "Las Vegas Raiders",
-          "opponent": "Miami",
-          "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 3,
           "player": "Cam Skattebo",
           "team": "New York Giants",
           "opponent": "Dallas",
           "basis": "Opp Rush TD/G"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "player": "Tyler Warren",
           "team": "Indianapolis Colts",
           "opponent": "Baltimore",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "player": "Caleb Williams",
           "team": "Chicago Bears",
           "opponent": "Carolina",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "player": "Bhayshul Tuten",
           "team": "Jacksonville Jaguars",
           "opponent": "Cleveland",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "player": "Omarion Hampton",
           "team": "Los Angeles Chargers",
           "opponent": "Arizona",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "player": "Bam Knight",
           "team": "Arizona Cardinals",
           "opponent": "LA Chargers",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "player": "Emeka Egbuka",
           "team": "Tampa Bay Buccaneers",
           "opponent": "Cincinnati",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "player": "Tetairoa McMillan",
           "team": "Carolina Panthers",
           "opponent": "Chicago",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "player": "Jake Tonges",
           "team": "San Francisco 49ers",
           "opponent": "LA Rams",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "player": "Tory Horton",
           "team": "Seattle Seahawks",
           "opponent": "New England",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 12,
+          "player": "Luke McCaffrey",
+          "team": "Washington Commanders",
+          "opponent": "Philadelphia",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
@@ -6772,37 +6772,37 @@
         },
         {
           "rank": 16,
+          "player": "Ashton Jeanty",
+          "team": "Las Vegas Raiders",
+          "opponent": "Miami",
+          "basis": "Opp Pass TD/G"
+        },
+        {
+          "rank": 17,
           "player": "Jake Ferguson",
           "team": "Dallas Cowboys",
           "opponent": "NY Giants",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "player": "Christian McCaffrey",
           "team": 49,
           "opponent": "LA Rams",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "player": "Tez Johnson",
           "team": "Tampa Bay Buccaneers",
           "opponent": "Cincinnati",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "player": "Elic Ayomanor",
           "team": "Tennessee Titans",
           "opponent": "NY Jets",
-          "basis": "Opp Pass TD/G"
-        },
-        {
-          "rank": 20,
-          "player": "DK Metcalf",
-          "team": "Pittsburgh Steelers",
-          "opponent": "Atlanta",
           "basis": "Opp Pass TD/G"
         }
       ],
