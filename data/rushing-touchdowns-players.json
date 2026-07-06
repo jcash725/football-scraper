@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2026-07-05T10:02:49.649Z",
+  "scrapedAt": "2026-07-06T11:55:20.123Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -208,16 +208,16 @@
     },
     {
       "Rank": 29,
-      "Player": "Chase Brown",
-      "Team": "Cincinnati Bengals",
-      "Pos": "HB",
+      "Player": "Chris Rodriguez Jr.",
+      "Team": "Washington Commanders",
+      "Pos": "RB",
       "Value": 6
     },
     {
       "Rank": 29,
-      "Player": "Chris Rodriguez Jr.",
-      "Team": "Washington Commanders",
-      "Pos": "RB",
+      "Player": "Chase Brown",
+      "Team": "Cincinnati Bengals",
+      "Pos": "HB",
       "Value": 6
     },
     {
@@ -397,13 +397,6 @@
     },
     {
       "Rank": 53,
-      "Player": "Ty Johnson",
-      "Team": "Buffalo Bills",
-      "Pos": "RB",
-      "Value": 3
-    },
-    {
-      "Rank": 53,
       "Player": "Bryce Young",
       "Team": "Carolina Panthers",
       "Pos": "QB",
@@ -413,6 +406,13 @@
       "Rank": 53,
       "Player": "Emanuel Wilson",
       "Team": "Green Bay Packers",
+      "Pos": "RB",
+      "Value": 3
+    },
+    {
+      "Rank": 53,
+      "Player": "Ty Johnson",
+      "Team": "Buffalo Bills",
       "Pos": "RB",
       "Value": 3
     },
@@ -523,13 +523,6 @@
     },
     {
       "Rank": 65,
-      "Player": "Malik Davis",
-      "Team": "Dallas Cowboys",
-      "Pos": "RB",
-      "Value": 2
-    },
-    {
-      "Rank": 65,
       "Player": "Malik Willis",
       "Team": "Green Bay Packers",
       "Pos": "QB",
@@ -537,8 +530,8 @@
     },
     {
       "Rank": 65,
-      "Player": "Justice Hill",
-      "Team": "Baltimore Ravens",
+      "Player": "Malik Davis",
+      "Team": "Dallas Cowboys",
       "Pos": "RB",
       "Value": 2
     },
@@ -558,6 +551,13 @@
     },
     {
       "Rank": 65,
+      "Player": "Justice Hill",
+      "Team": "Baltimore Ravens",
+      "Pos": "RB",
+      "Value": 2
+    },
+    {
+      "Rank": 65,
       "Player": "Puka Nacua",
       "Team": "Los Angeles Rams",
       "Pos": "WR",
@@ -572,13 +572,6 @@
     },
     {
       "Rank": 65,
-      "Player": "Lamar Jackson",
-      "Team": "Baltimore Ravens",
-      "Pos": "QB",
-      "Value": 2
-    },
-    {
-      "Rank": 65,
       "Player": "Tyjae Spears",
       "Team": "Tennessee Titans",
       "Pos": "RB",
@@ -588,6 +581,13 @@
       "Rank": 65,
       "Player": "Cam Ward",
       "Team": "Tennessee Titans",
+      "Pos": "QB",
+      "Value": 2
+    },
+    {
+      "Rank": 65,
+      "Player": "Lamar Jackson",
+      "Team": "Baltimore Ravens",
       "Pos": "QB",
       "Value": 2
     },
