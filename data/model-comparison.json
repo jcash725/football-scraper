@@ -1,18 +1,6 @@
 {
-  "generatedAt": "2026-07-05T10:03:24.179Z",
+  "generatedAt": "2026-07-07T10:45:24.507Z",
   "currentModel": [
-    {
-      "Player": "Cam Skattebo",
-      "Team": "New York Giants",
-      "Opponent": "Dallas",
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 6,
-      "Opponent Stat Value": 5.5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.5 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
-    },
     {
       "Player": "Woody Marks",
       "Team": "Houston Texans",
@@ -24,6 +12,30 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.5 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
+    },
+    {
+      "Player": "Cam Skattebo",
+      "Team": "New York Giants",
+      "Opponent": "Dallas",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 5,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "New York Giants vs Dallas - opponent allows 1.5 rush TDs/game",
+      "Rookie Boost": "+3.5 (1.5 TD/game)"
+    },
+    {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Baltimore",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Caleb Williams",
@@ -96,18 +108,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Carolina Panthers vs Chicago - opponent allows 1 pass TDs/game",
       "Rookie Boost": "+4.0 (2.0 TD/game)"
-    },
-    {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Baltimore",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Jake Tonges",
@@ -218,18 +218,6 @@
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     },
     {
-      "Player": "Ashton Jeanty",
-      "Team": "Las Vegas Raiders",
-      "Opponent": "Miami",
-      "Basis": "Opp Rush TD/G",
-      "Opponent Stat Value": 4.366666666666667,
-      "Player TDs YTD": 5,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs Miami - opponent allows 0.7 rush TDs/game",
-      "Rookie Boost": "+3.7 (1.7 TD/game)"
-    },
-    {
       "Player": "Elic Ayomanor",
       "Team": "Tennessee Titans",
       "Opponent": "NY Jets",
@@ -240,6 +228,17 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Tennessee Titans vs NY Jets - opponent allows 1.1 pass TDs/game",
       "Rookie Boost": "+3.0 (1.0 TD/game)"
+    },
+    {
+      "Player": "Rome Odunze",
+      "Team": "Chicago Bears",
+      "Opponent": "Carolina",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 2.1,
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Chicago Bears vs Carolina - opponent allows 2.1 pass TDs/game"
     }
   ],
   "mlModel": [
@@ -256,7 +255,7 @@
         "Weak opponent defense (3.2 TDs/game allowed)"
       ],
       "mlRank": 1,
-      "playerTDsYTD": 1,
+      "playerTDsYTD": 3,
       "actual2024TDs": 10,
       "actual2024Games": 7,
       "vsOpponentTDs": 3,
@@ -541,11 +540,30 @@
         "Weak opponent defense (4.9 TDs/game allowed)"
       ],
       "mlRank": 16,
-      "playerTDsYTD": 8,
+      "playerTDsYTD": 1,
       "actual2024TDs": 6,
       "actual2024Games": 5,
       "vsOpponentTDs": 2,
       "basis": "2024 Data: 6 TDs in 5 games"
+    },
+    {
+      "player": "Marvin Mims Jr.",
+      "team": "Denver Broncos",
+      "opponent": "Kansas City",
+      "position": "WR",
+      "mlProbability": 0.492,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Moderate 2024 production (6 TDs)",
+        "Previous success vs opponent (2 TDs)",
+        "Weak opponent defense (3.5 TDs/game allowed)"
+      ],
+      "mlRank": 17,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 6,
+      "actual2024Games": 4,
+      "vsOpponentTDs": 2,
+      "basis": "2024 Data: 6 TDs in 4 games"
     },
     {
       "player": "Chase Brown",
@@ -559,7 +577,7 @@
         "Weak opponent defense (3.7 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 17,
+      "mlRank": 18,
       "playerTDsYTD": 6,
       "actual2024TDs": 9,
       "actual2024Games": 8,
@@ -578,7 +596,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 18,
+      "mlRank": 19,
       "playerTDsYTD": 13,
       "actual2024TDs": 9,
       "actual2024Games": 8,
@@ -597,45 +615,26 @@
         "Weak opponent defense (3.6 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 19,
+      "mlRank": 20,
       "playerTDsYTD": 7,
       "actual2024TDs": 9,
       "actual2024Games": 8,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 9 TDs in 8 games"
-    },
-    {
-      "player": "Saquon Barkley",
-      "team": "Philadelphia Eagles",
-      "opponent": "Washington Commanders",
-      "position": "RB",
-      "mlProbability": 0.4693333333333333,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (8 TDs)",
-        "Weak opponent defense (4.0 TDs/game allowed)",
-        "Hot recent form (8 TDs in recent games)"
-      ],
-      "mlRank": 20,
-      "playerTDsYTD": 7,
-      "actual2024TDs": 8,
-      "actual2024Games": 4,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 8 TDs in 4 games"
     }
   ],
   "agreement": 0,
   "differences": {
     "onlyInCurrent": [
-      "Cam Skattebo",
       "Woody Marks",
+      "Cam Skattebo",
+      "Tyler Warren",
       "Caleb Williams",
       "Bhayshul Tuten",
       "Omarion Hampton",
       "Bam Knight",
       "Emeka Egbuka",
       "Tetairoa McMillan",
-      "Tyler Warren",
       "Jake Tonges",
       "Tory Horton",
       "Isaac TeSlaa",
@@ -645,8 +644,8 @@
       "Jake Ferguson",
       "Christian McCaffrey",
       "Tez Johnson",
-      "Ashton Jeanty",
-      "Elic Ayomanor"
+      "Elic Ayomanor",
+      "Rome Odunze"
     ],
     "onlyInML": [
       "Jordan Addison",
@@ -665,10 +664,10 @@
       "Zach Charbonnet",
       "Jalen Nailor",
       "DJ Moore",
+      "Marvin Mims Jr.",
       "Chase Brown",
       "Jahmyr Gibbs",
-      "Drake London",
-      "Saquon Barkley"
+      "Drake London"
     ],
     "rankingDifferences": []
   }
