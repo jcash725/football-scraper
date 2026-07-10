@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-07-09T10:50:13.616Z",
+  "generatedAt": "2026-07-10T10:44:12.911Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
   "recommendations": [
     {
-      "Player": "Cam Skattebo",
-      "Team": "New York Giants",
-      "Opponent": "Dallas",
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 6,
-      "Opponent Stat Value": 5.5,
-      "Basis": "Rush TD - Rookie hotstreak",
+      "Player": "Xavier Hutchinson",
+      "Team": "Houston Texans",
+      "Opponent": "Buffalo",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 6,
+      "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.5 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
+      "Reason": "Rookie with 2.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
     },
     {
       "Player": "Woody Marks",
@@ -39,6 +39,30 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.7 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
+    },
+    {
+      "Player": "Cam Skattebo",
+      "Team": "New York Giants",
+      "Opponent": "Dallas",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 5,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "New York Giants vs Dallas - opponent allows 1.5 rush TDs/game",
+      "Rookie Boost": "+3.5 (1.5 TD/game)"
+    },
+    {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Baltimore",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Caleb Williams",
@@ -113,18 +137,6 @@
       "Rookie Boost": "+4.0 (2.0 TD/game)"
     },
     {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Baltimore",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
       "Player": "Jake Tonges",
       "Team": "San Francisco 49ers",
       "Opponent": "LA Rams",
@@ -152,18 +164,6 @@
       "Player": "Tyquan Thornton",
       "Team": "Kansas City Chiefs",
       "Opponent": "Denver",
-      "Player TDs YTD": 3,
-      "Player 2025 TDs": 3,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Luke McCaffrey",
-      "Team": "Washington Commanders",
-      "Opponent": "Philadelphia",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
