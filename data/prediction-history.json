@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-07-14T09:46:51.008Z",
+  "lastUpdated": "2026-07-15T09:50:24.732Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-07-14T09:46:51.008Z",
+      "generatedAt": "2026-07-15T09:50:24.732Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -7017,6 +7017,19 @@
         },
         {
           "rank": 17,
+          "player": "Marvin Mims Jr.",
+          "team": "Denver Broncos",
+          "opponent": "Kansas City",
+          "probability": 0.492,
+          "confidence": 0.9,
+          "keyFactors": [
+            "Moderate 2024 production (6 TDs)",
+            "Previous success vs opponent (2 TDs)",
+            "Weak opponent defense (3.5 TDs/game allowed)"
+          ]
+        },
+        {
+          "rank": 18,
           "player": "Chase Brown",
           "team": "Cincinnati Bengals",
           "opponent": "Tampa Bay",
@@ -7029,7 +7042,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 19,
           "player": "Jahmyr Gibbs",
           "team": "Detroit Lions",
           "opponent": "New Orleans",
@@ -7042,7 +7055,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 20,
           "player": "Drake London",
           "team": "Atlanta Falcons",
           "opponent": "Pittsburgh Steelers",
@@ -7052,19 +7065,6 @@
             "Strong 2024 production (9 TDs)",
             "Weak opponent defense (3.6 TDs/game allowed)",
             "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "Saquon Barkley",
-          "team": "Philadelphia Eagles",
-          "opponent": "Washington Commanders",
-          "probability": 0.4693333333333333,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (8 TDs)",
-            "Weak opponent defense (4.0 TDs/game allowed)",
-            "Hot recent form (8 TDs in recent games)"
           ]
         }
       ]
