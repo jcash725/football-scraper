@@ -1,9 +1,21 @@
 {
-  "generatedAt": "2026-07-16T09:57:03.361Z",
+  "generatedAt": "2026-07-17T09:47:18.486Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
   "recommendations": [
+    {
+      "Player": "Xavier Hutchinson",
+      "Team": "Houston Texans",
+      "Opponent": "Buffalo",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
+      "Opponent Stat Value": 6,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 2.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
+    },
     {
       "Player": "Cam Skattebo",
       "Team": "New York Giants",
@@ -149,6 +161,18 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
+      "Player": "Tyquan Thornton",
+      "Team": "Kansas City Chiefs",
+      "Opponent": "Denver",
+      "Player TDs YTD": 3,
+      "Player 2025 TDs": 3,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
       "Player": "Isaac TeSlaa",
       "Team": "Detroit Lions",
       "Opponent": "New Orleans",
@@ -218,30 +242,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Tampa Bay Buccaneers vs Cincinnati - opponent allows 1.8 pass TDs/game",
-      "Rookie Boost": "+3.0 (1.0 TD/game)"
-    },
-    {
-      "Player": "Ashton Jeanty",
-      "Team": "Las Vegas Raiders",
-      "Opponent": "Miami",
-      "Basis": "Opp Rush TD/G",
-      "Opponent Stat Value": 4.366666666666667,
-      "Player TDs YTD": 5,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs Miami - opponent allows 0.7 rush TDs/game",
-      "Rookie Boost": "+3.7 (1.7 TD/game)"
-    },
-    {
-      "Player": "Elic Ayomanor",
-      "Team": "Tennessee Titans",
-      "Opponent": "NY Jets",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.1,
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Tennessee Titans vs NY Jets - opponent allows 1.1 pass TDs/game",
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ]
