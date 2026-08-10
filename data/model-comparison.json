@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T08:30:17.799Z",
+  "generatedAt": "2026-08-10T09:07:03.534Z",
   "currentModel": [
     {
       "Player": "Xavier Hutchinson",
@@ -38,16 +38,16 @@
       "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
     },
     {
-      "Player": "Cam Skattebo",
-      "Team": "New York Giants",
-      "Opponent": "Dallas",
-      "Basis": "Opp Rush TD/G",
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Baltimore",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
       "Opponent Stat Value": 5,
-      "Player TDs YTD": 5,
-      "Player 2025 TDs": 0,
+      "Basis": "Rush TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "New York Giants vs Dallas - opponent allows 1.5 rush TDs/game",
-      "Rookie Boost": "+3.5 (1.5 TD/game)"
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Caleb Williams",
@@ -93,42 +93,6 @@
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
       "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Emeka Egbuka",
-      "Team": "Tampa Bay Buccaneers",
-      "Opponent": "Cincinnati",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 5.05,
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Tampa Bay Buccaneers vs Cincinnati - opponent allows 1.8 pass TDs/game",
-      "Rookie Boost": "+3.3 (1.3 TD/game)"
-    },
-    {
-      "Player": "Tetairoa McMillan",
-      "Team": "Carolina Panthers",
-      "Opponent": "Chicago",
-      "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 5,
-      "Player TDs YTD": 7,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Carolina Panthers vs Chicago - opponent allows 1 pass TDs/game",
-      "Rookie Boost": "+4.0 (2.0 TD/game)"
-    },
-    {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Baltimore",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
@@ -194,15 +158,39 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
+      "Player": "Tetairoa McMillan",
+      "Team": "Carolina Panthers",
+      "Opponent": "Chicago",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 4,
+      "Player TDs YTD": 7,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Carolina Panthers vs Chicago - opponent allows 0 pass TDs/game",
+      "Rookie Boost": "+4.0 (2.0 TD/game)"
+    },
+    {
       "Player": "Quinshon Judkins",
       "Team": "Cleveland Browns",
       "Opponent": "Jacksonville",
       "Basis": "Opp Rush TD/G",
-      "Opponent Stat Value": 4.7666666666666675,
+      "Opponent Stat Value": 3.666666666666667,
       "Player TDs YTD": 7,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Cleveland Browns vs Jacksonville - opponent allows 1.1 rush TDs/game",
+      "Reason": "Cleveland Browns vs Jacksonville - opponent allows 0 rush TDs/game",
+      "Rookie Boost": "+3.7 (1.7 TD/game)"
+    },
+    {
+      "Player": "Ashton Jeanty",
+      "Team": "Las Vegas Raiders",
+      "Opponent": "Miami",
+      "Basis": "Opp Rush TD/G",
+      "Opponent Stat Value": 3.666666666666667,
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Las Vegas Raiders vs Miami - opponent allows 0 rush TDs/game",
       "Rookie Boost": "+3.7 (1.7 TD/game)"
     },
     {
@@ -210,23 +198,35 @@
       "Team": "Dallas Cowboys",
       "Opponent": "NY Giants",
       "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.9,
+      "Opponent Stat Value": 3.5,
       "Player TDs YTD": 8,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Dallas Cowboys vs NY Giants - opponent allows 1.4 pass TDs/game",
+      "Reason": "Dallas Cowboys vs NY Giants - opponent allows 0 pass TDs/game",
       "Rookie Boost": "+3.5 (1.5 TD/game)"
+    },
+    {
+      "Player": "Emeka Egbuka",
+      "Team": "Tampa Bay Buccaneers",
+      "Opponent": "Cincinnati",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 3.25,
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Tampa Bay Buccaneers vs Cincinnati - opponent allows 0 pass TDs/game",
+      "Rookie Boost": "+3.3 (1.3 TD/game)"
     },
     {
       "Player": "Christian McCaffrey",
       "Team": 49,
       "Opponent": "LA Rams",
       "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.800000000000001,
+      "Opponent Stat Value": 3.2,
       "Player TDs YTD": 9,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "49 vs LA Rams - opponent allows 1.6 pass TDs/game",
+      "Reason": "49 vs LA Rams - opponent allows 0 pass TDs/game",
       "Rookie Boost": "+3.2 (1.2 TD/game)"
     },
     {
@@ -234,11 +234,11 @@
       "Team": "Tampa Bay Buccaneers",
       "Opponent": "Cincinnati",
       "Basis": "Opp Pass TD/G",
-      "Opponent Stat Value": 4.8,
+      "Opponent Stat Value": 3,
       "Player TDs YTD": 5,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Tampa Bay Buccaneers vs Cincinnati - opponent allows 1.8 pass TDs/game",
+      "Reason": "Tampa Bay Buccaneers vs Cincinnati - opponent allows 0 pass TDs/game",
       "Rookie Boost": "+3.0 (1.0 TD/game)"
     }
   ],
@@ -522,11 +522,30 @@
         "Weak opponent defense (4.9 TDs/game allowed)"
       ],
       "mlRank": 15,
-      "playerTDsYTD": 8,
+      "playerTDsYTD": 1,
       "actual2024TDs": 6,
       "actual2024Games": 5,
       "vsOpponentTDs": 2,
       "basis": "2024 Data: 6 TDs in 5 games"
+    },
+    {
+      "player": "Marvin Mims Jr.",
+      "team": "Denver Broncos",
+      "opponent": "Kansas City",
+      "position": "WR",
+      "mlProbability": 0.492,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Moderate 2024 production (6 TDs)",
+        "Previous success vs opponent (2 TDs)",
+        "Weak opponent defense (3.5 TDs/game allowed)"
+      ],
+      "mlRank": 16,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 6,
+      "actual2024Games": 4,
+      "vsOpponentTDs": 2,
+      "basis": "2024 Data: 6 TDs in 4 games"
     },
     {
       "player": "Chase Brown",
@@ -540,7 +559,7 @@
         "Weak opponent defense (3.7 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 16,
+      "mlRank": 17,
       "playerTDsYTD": 6,
       "actual2024TDs": 9,
       "actual2024Games": 8,
@@ -559,7 +578,7 @@
         "Weak opponent defense (4.5 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 17,
+      "mlRank": 18,
       "playerTDsYTD": 3,
       "actual2024TDs": 12,
       "actual2024Games": 8,
@@ -578,7 +597,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (5 TDs in recent games)"
       ],
-      "mlRank": 18,
+      "mlRank": 19,
       "playerTDsYTD": 13,
       "actual2024TDs": 9,
       "actual2024Games": 8,
@@ -597,31 +616,12 @@
         "Weak opponent defense (3.6 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 19,
+      "mlRank": 20,
       "playerTDsYTD": 7,
       "actual2024TDs": 9,
       "actual2024Games": 8,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 9 TDs in 8 games"
-    },
-    {
-      "player": "Saquon Barkley",
-      "team": "Philadelphia Eagles",
-      "opponent": "Washington Commanders",
-      "position": "RB",
-      "mlProbability": 0.4693333333333333,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (8 TDs)",
-        "Weak opponent defense (4.0 TDs/game allowed)",
-        "Hot recent form (8 TDs in recent games)"
-      ],
-      "mlRank": 20,
-      "playerTDsYTD": 7,
-      "actual2024TDs": 8,
-      "actual2024Games": 4,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 8 TDs in 4 games"
     }
   ],
   "agreement": 0,
@@ -630,21 +630,21 @@
       "Xavier Hutchinson",
       "Woody Marks",
       "Ashton Jeanty",
-      "Cam Skattebo",
+      "Tyler Warren",
       "Caleb Williams",
       "Bhayshul Tuten",
       "Omarion Hampton",
       "Bam Knight",
-      "Emeka Egbuka",
-      "Tetairoa McMillan",
-      "Tyler Warren",
       "Jake Tonges",
       "Tory Horton",
       "Tyquan Thornton",
       "Isaac TeSlaa",
       "RJ Harvey",
+      "Tetairoa McMillan",
       "Quinshon Judkins",
+      "Ashton Jeanty",
       "Jake Ferguson",
+      "Emeka Egbuka",
       "Christian McCaffrey",
       "Tez Johnson"
     ],
@@ -664,11 +664,11 @@
       "Zach Charbonnet",
       "Jalen Nailor",
       "DJ Moore",
+      "Marvin Mims Jr.",
       "Chase Brown",
       "Mike Evans",
       "Jahmyr Gibbs",
-      "Drake London",
-      "Saquon Barkley"
+      "Drake London"
     ],
     "rankingDifferences": []
   }
