@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T15:40:41.346Z",
+  "generatedAt": "2026-09-02T12:23:24.372Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -125,18 +125,6 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Tyquan Thornton",
-      "Team": "Kansas City Chiefs",
-      "Opponent": "Denver",
-      "Player TDs YTD": 3,
-      "Player 2025 TDs": 3,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
       "Player": "Isaac TeSlaa",
       "Team": "Detroit Lions",
       "Opponent": "New Orleans",
@@ -243,6 +231,17 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Tennessee Titans vs NY Jets - opponent allows 1.1 pass TDs/game",
       "Rookie Boost": "+3.0 (1.0 TD/game)"
+    },
+    {
+      "Player": "Rome Odunze",
+      "Team": "Chicago Bears",
+      "Opponent": "Carolina",
+      "Basis": "Opp Pass TD/G",
+      "Opponent Stat Value": 2.1,
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Chicago Bears vs Carolina - opponent allows 2.1 pass TDs/game"
     }
   ]
 }
