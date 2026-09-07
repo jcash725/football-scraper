@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T11:49:56.869Z",
+  "generatedAt": "2026-09-07T13:48:11.796Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -39,6 +39,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "New York Giants vs Dallas - opponent allows 1.5 rush TDs/game",
       "Rookie Boost": "+3.5 (1.5 TD/game)"
+    },
+    {
+      "Player": "Tyler Warren",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Baltimore",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
       "Player": "Bhayshul Tuten",
@@ -101,11 +113,11 @@
       "Rookie Boost": "+4.0 (2.0 TD/game)"
     },
     {
-      "Player": "Tyler Warren",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Baltimore",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 4,
+      "Player": "Tory Horton",
+      "Team": "Seattle Seahawks",
+      "Opponent": "New England",
+      "Player TDs YTD": 3,
+      "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
       "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
@@ -113,9 +125,9 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Tory Horton",
-      "Team": "Seattle Seahawks",
-      "Opponent": "New England",
+      "Player": "Tyquan Thornton",
+      "Team": "Kansas City Chiefs",
+      "Opponent": "Denver",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5,
@@ -219,18 +231,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Las Vegas Raiders vs Miami - opponent allows 0.7 rush TDs/game",
       "Rookie Boost": "+3.7 (1.7 TD/game)"
-    },
-    {
-      "Player": "Christian McCaffrey",
-      "Team": 49,
-      "Opponent": "LA Rams",
-      "Basis": "Opp Rush TD/G",
-      "Opponent Stat Value": 4,
-      "Player TDs YTD": 10,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "49 vs LA Rams - opponent allows 0.8 rush TDs/game",
-      "Rookie Boost": "+3.2 (1.2 TD/game)"
     },
     {
       "Player": "Elic Ayomanor",
