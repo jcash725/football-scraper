@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-09-08T12:23:28.335Z",
+  "lastUpdated": "2026-09-09T12:34:29.229Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-09-08T12:23:28.335Z",
+      "generatedAt": "2026-09-09T12:34:29.229Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -6674,24 +6674,24 @@
         },
         {
           "rank": 2,
+          "player": "Cam Skattebo",
+          "team": "New York Giants",
+          "opponent": "Dallas",
+          "basis": "Rush TD - Rookie hotstreak"
+        },
+        {
+          "rank": 3,
           "player": "Woody Marks",
           "team": "Houston Texans",
           "opponent": "Buffalo",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "player": "Ashton Jeanty",
           "team": "Las Vegas Raiders",
           "opponent": "Miami",
           "basis": "Pass TD - Rookie hotstreak"
-        },
-        {
-          "rank": 4,
-          "player": "Cam Skattebo",
-          "team": "New York Giants",
-          "opponent": "Dallas",
-          "basis": "Opp Rush TD/G"
         },
         {
           "rank": 5,
@@ -6702,100 +6702,100 @@
         },
         {
           "rank": 6,
+          "player": "Caleb Williams",
+          "team": "Chicago Bears",
+          "opponent": "Carolina",
+          "basis": "Rush TD - Rookie hotstreak"
+        },
+        {
+          "rank": 7,
           "player": "Bhayshul Tuten",
           "team": "Jacksonville Jaguars",
           "opponent": "Cleveland",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "player": "Omarion Hampton",
           "team": "Los Angeles Chargers",
           "opponent": "Arizona",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "player": "Emeka Egbuka",
           "team": "Tampa Bay Buccaneers",
           "opponent": "Cincinnati",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "player": "Tetairoa McMillan",
           "team": "Carolina Panthers",
           "opponent": "Chicago",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "player": "Jake Tonges",
           "team": "San Francisco 49ers",
           "opponent": "LA Rams",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "player": "Tory Horton",
           "team": "Seattle Seahawks",
           "opponent": "New England",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "player": "Isaac TeSlaa",
           "team": "Detroit Lions",
           "opponent": "New Orleans",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "player": "RJ Harvey",
           "team": "Denver Broncos",
           "opponent": "Kansas City",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "player": "Quinshon Judkins",
           "team": "Cleveland Browns",
           "opponent": "Jacksonville",
           "basis": "Opp Rush TD/G"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "player": "Jake Ferguson",
           "team": "Dallas Cowboys",
           "opponent": "NY Giants",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "player": "Christian McCaffrey",
           "team": 49,
           "opponent": "LA Rams",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "player": "Tez Johnson",
           "team": "Tampa Bay Buccaneers",
           "opponent": "Cincinnati",
           "basis": "Opp Pass TD/G"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "player": "Ashton Jeanty",
           "team": "Las Vegas Raiders",
           "opponent": "Miami",
-          "basis": "Opp Rush TD/G"
-        },
-        {
-          "rank": 19,
-          "player": "Christian McCaffrey",
-          "team": 49,
-          "opponent": "LA Rams",
           "basis": "Opp Rush TD/G"
         },
         {

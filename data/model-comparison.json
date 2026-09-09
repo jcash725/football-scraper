@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T12:23:28.337Z",
+  "generatedAt": "2026-09-09T12:34:29.231Z",
   "currentModel": [
     {
       "Player": "Xavier Hutchinson",
@@ -12,6 +12,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 2.0 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (2.0 TD/game)"
+    },
+    {
+      "Player": "Cam Skattebo",
+      "Team": "New York Giants",
+      "Opponent": "Dallas",
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 6,
+      "Opponent Stat Value": 5.5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.5 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
     },
     {
       "Player": "Woody Marks",
@@ -38,23 +50,23 @@
       "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
     },
     {
-      "Player": "Cam Skattebo",
-      "Team": "New York Giants",
-      "Opponent": "Dallas",
-      "Basis": "Opp Rush TD/G",
-      "Opponent Stat Value": 5,
-      "Player TDs YTD": 5,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "New York Giants vs Dallas - opponent allows 1.5 rush TDs/game",
-      "Rookie Boost": "+3.5 (1.5 TD/game)"
-    },
-    {
       "Player": "Tyler Warren",
       "Team": "Indianapolis Colts",
       "Opponent": "Baltimore",
       "Player TDs YTD": 4,
       "Player 2025 TDs": 4,
+      "Opponent Stat Value": 5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    },
+    {
+      "Player": "Caleb Williams",
+      "Team": "Chicago Bears",
+      "Opponent": "Carolina",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
       "Basis": "Rush TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
@@ -216,18 +228,6 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Las Vegas Raiders vs Miami - opponent allows 0.7 rush TDs/game",
       "Rookie Boost": "+3.7 (1.7 TD/game)"
-    },
-    {
-      "Player": "Christian McCaffrey",
-      "Team": 49,
-      "Opponent": "LA Rams",
-      "Basis": "Opp Rush TD/G",
-      "Opponent Stat Value": 4,
-      "Player TDs YTD": 10,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "49 vs LA Rams - opponent allows 0.8 rush TDs/game",
-      "Rookie Boost": "+3.2 (1.2 TD/game)"
     },
     {
       "Player": "Elic Ayomanor",
@@ -628,10 +628,11 @@
   "differences": {
     "onlyInCurrent": [
       "Xavier Hutchinson",
+      "Cam Skattebo",
       "Woody Marks",
       "Ashton Jeanty",
-      "Cam Skattebo",
       "Tyler Warren",
+      "Caleb Williams",
       "Bhayshul Tuten",
       "Omarion Hampton",
       "Emeka Egbuka",
@@ -645,7 +646,6 @@
       "Christian McCaffrey",
       "Tez Johnson",
       "Ashton Jeanty",
-      "Christian McCaffrey",
       "Elic Ayomanor"
     ],
     "onlyInML": [
