@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-10T12:28:49.282Z",
-  "currentModel": [],
+  "generatedAt": "2026-09-11T12:26:31.131Z",
+  "currentModel": [
+    {
+      "Player": "Christian McCaffrey",
+      "Team": "San Francisco 49ers",
+      "Opponent": "LA Rams",
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 6,
+      "Opponent Stat Value": 5.2,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.2 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.2 TD/game)"
+    },
+    {
+      "Player": "Tory Horton",
+      "Team": "Seattle Seahawks",
+      "Opponent": "New England",
+      "Player TDs YTD": 3,
+      "Player 2025 TDs": 3,
+      "Opponent Stat Value": 5,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.0 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
+    }
+  ],
   "mlModel": [
+    {
+      "player": "Kyren Williams",
+      "team": "Los Angeles Rams",
+      "opponent": "San Francisco",
+      "position": "RB",
+      "mlProbability": 0.6826666666666666,
+      "mlConfidence": 0.9,
+      "keyFactors": [
+        "Strong 2024 production (13 TDs)",
+        "Previous success vs opponent (3 TDs)",
+        "Weak opponent defense (3.1 TDs/game allowed)"
+      ],
+      "mlRank": 1,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 13,
+      "actual2024Games": 9,
+      "vsOpponentTDs": 3,
+      "basis": "2024 Data: 13 TDs in 9 games"
+    },
     {
       "player": "Jaxon Smith-Njigba",
       "team": "Seattle Seahawks",
@@ -14,7 +58,7 @@
         "Weak opponent defense (3.7 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 1,
+      "mlRank": 2,
       "playerTDsYTD": 1,
       "actual2024TDs": 6,
       "actual2024Games": 5,
@@ -31,7 +75,7 @@
       "keyFactors": [
         "Weak opponent defense (2.8 TDs/game allowed)"
       ],
-      "mlRank": 2,
+      "mlRank": 3,
       "playerTDsYTD": 1,
       "actual2024TDs": 0,
       "actual2024Games": 0,
@@ -41,8 +85,12 @@
   ],
   "agreement": 0,
   "differences": {
-    "onlyInCurrent": [],
+    "onlyInCurrent": [
+      "Christian McCaffrey",
+      "Tory Horton"
+    ],
     "onlyInML": [
+      "Kyren Williams",
       "Jaxon Smith-Njigba",
       "Eli Raridon"
     ],
