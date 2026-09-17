@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-09-16T12:56:17.065Z",
+  "lastUpdated": "2026-09-17T12:52:53.631Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,35 +6663,35 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-09-16T12:56:17.065Z",
+      "generatedAt": "2026-09-17T12:52:53.631Z",
       "currentModelPredictions": [
         {
           "rank": 1,
+          "player": "Xavier Hutchinson",
+          "team": "Houston Texans",
+          "opponent": "Cincinnati",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 2,
           "player": "Cam Skattebo",
           "team": "New York Giants",
           "opponent": "LA Rams",
           "basis": "Rush TD - Rookie hotstreak"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "player": "Ashton Jeanty",
           "team": "Las Vegas Raiders",
           "opponent": "LA Chargers",
           "basis": "Pass TD - Rookie hotstreak"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "player": "Jacory Croskey-Merritt",
           "team": "Washington Commanders",
           "opponent": "Dallas",
           "basis": "Rush TD - Rookie hotstreak"
-        },
-        {
-          "rank": 4,
-          "player": "Jake Ferguson",
-          "team": "Dallas Cowboys",
-          "opponent": "Washington",
-          "basis": "Pass TD - Rookie hotstreak"
         },
         {
           "rank": 5,
@@ -6716,6 +6716,13 @@
         },
         {
           "rank": 8,
+          "player": "Bhayshul Tuten",
+          "team": "Jacksonville Jaguars",
+          "opponent": "Denver",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 9,
           "player": "Elic Ayomanor",
           "team": "Tennessee Titans",
           "opponent": "Philadelphia",
