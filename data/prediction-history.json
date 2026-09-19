@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-09-18T12:28:53.111Z",
+  "lastUpdated": "2026-09-19T12:08:54.330Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-09-18T12:28:53.111Z",
+      "generatedAt": "2026-09-19T12:08:54.329Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -6716,6 +6716,13 @@
         },
         {
           "rank": 8,
+          "player": "Tyquan Thornton",
+          "team": "Kansas City Chiefs",
+          "opponent": "Indianapolis",
+          "basis": "Pass TD - Rookie hotstreak"
+        },
+        {
+          "rank": 9,
           "player": "Elic Ayomanor",
           "team": "Tennessee Titans",
           "opponent": "Philadelphia",
