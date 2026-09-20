@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2026-09-19T12:08:40.536Z",
+  "scrapedAt": "2026-09-20T12:44:45.943Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -61,16 +61,16 @@
     },
     {
       "Rank": 8,
-      "Player": "Kyren Williams",
-      "Team": "Los Angeles Rams",
-      "Pos": "RB",
+      "Player": "Baker Mayfield",
+      "Team": "Tampa Bay Buccaneers",
+      "Pos": "QB",
       "Value": 1
     },
     {
       "Rank": 8,
-      "Player": "Baker Mayfield",
-      "Team": "Tampa Bay Buccaneers",
-      "Pos": "QB",
+      "Player": "Kyren Williams",
+      "Team": "Los Angeles Rams",
+      "Pos": "RB",
       "Value": 1
     },
     {
@@ -117,16 +117,16 @@
     },
     {
       "Rank": 8,
-      "Player": "Patrick Mahomes",
-      "Team": "Kansas City Chiefs",
-      "Pos": "QB",
+      "Player": "Aaron Jones",
+      "Team": "Minnesota Vikings",
+      "Pos": "RB",
       "Value": 1
     },
     {
       "Rank": 8,
-      "Player": "Aaron Jones",
-      "Team": "Minnesota Vikings",
-      "Pos": "RB",
+      "Player": "Patrick Mahomes",
+      "Team": "Kansas City Chiefs",
+      "Pos": "QB",
       "Value": 1
     },
     {
@@ -212,6 +212,83 @@
       "Team": "Baltimore Ravens",
       "Pos": "QB",
       "Value": 1
+    },
+    {
+      "Rank": 30,
+      "Player": "Chris Moore",
+      "Team": "Baltimore Ravens",
+      "Pos": "WR",
+      "Value": 0
+    },
+    {
+      "Rank": 30,
+      "Player": "Grant Stuard",
+      "Team": "Los Angeles Rams",
+      "Pos": "LB",
+      "Value": 0
+    },
+    {
+      "Rank": 30,
+      "Player": "Evan Williams",
+      "Team": "Green Bay Packers",
+      "Pos": "S",
+      "Value": 0
+    },
+    {
+      "Rank": 30,
+      "Player": "Cam Ward",
+      "Team": "Tennessee Titans",
+      "Pos": "QB",
+      "Value": 0
+    },
+    {
+      "Rank": 30,
+      "Player": "Sam Ehlinger",
+      "Team": "Denver Broncos",
+      "Pos": "QB",
+      "Value": 0
+    },
+    {
+      "Rank": 30,
+      "Player": "Graham Barton",
+      "Team": "Tampa Bay Buccaneers",
+      "Pos": "C",
+      "Value": 0
+    },
+    {
+      "Rank": 30,
+      "Player": "Aiden Fisher",
+      "Team": "Houston Texans",
+      "Pos": "LB",
+      "Value": 0
+    },
+    {
+      "Rank": 30,
+      "Player": "Cole Holcomb",
+      "Team": "Pittsburgh Steelers",
+      "Pos": "LB",
+      "Value": 0
+    },
+    {
+      "Rank": 30,
+      "Player": "Cam Jurgens",
+      "Team": "Philadelphia Eagles",
+      "Pos": "OL",
+      "Value": 0
+    },
+    {
+      "Rank": 30,
+      "Player": "Jaxon Smith-Njigba",
+      "Team": "Seattle Seahawks",
+      "Pos": "WR",
+      "Value": 0
+    },
+    {
+      "Rank": 30,
+      "Player": "Jonah Coleman",
+      "Team": "Denver Broncos",
+      "Pos": "RB",
+      "Value": 0
     },
     {
       "Rank": 30,
@@ -631,83 +708,6 @@
       "Player": "Mike Hughes",
       "Team": "Atlanta Falcons",
       "Pos": "CB",
-      "Value": 0
-    },
-    {
-      "Rank": 30,
-      "Player": "Tyquan Thornton",
-      "Team": "Kansas City Chiefs",
-      "Pos": "WR",
-      "Value": 0
-    },
-    {
-      "Rank": 30,
-      "Player": "Rome Odunze",
-      "Team": "Chicago Bears",
-      "Pos": "WR",
-      "Value": 0
-    },
-    {
-      "Rank": 30,
-      "Player": "Tahj Chambers",
-      "Team": "Indianapolis Colts",
-      "Pos": "LB",
-      "Value": 0
-    },
-    {
-      "Rank": 30,
-      "Player": "Jalen Hurts",
-      "Team": "Philadelphia Eagles",
-      "Pos": "QB",
-      "Value": 0
-    },
-    {
-      "Rank": 30,
-      "Player": "Josh Newton",
-      "Team": "Cincinnati Bengals",
-      "Pos": "CB",
-      "Value": 0
-    },
-    {
-      "Rank": 30,
-      "Player": "Brock Bowers",
-      "Team": "Las Vegas Raiders",
-      "Pos": "TE",
-      "Value": 0
-    },
-    {
-      "Rank": 30,
-      "Player": "Khristian Boyd",
-      "Team": "New Orleans Saints",
-      "Pos": "DL",
-      "Value": 0
-    },
-    {
-      "Rank": 30,
-      "Player": "Teven Jenkins",
-      "Team": "Cleveland Browns",
-      "Pos": "G",
-      "Value": 0
-    },
-    {
-      "Rank": 30,
-      "Player": "Jackson Powers-Johnson",
-      "Team": "Las Vegas Raiders",
-      "Pos": "OL",
-      "Value": 0
-    },
-    {
-      "Rank": 30,
-      "Player": "Grady Jarrett",
-      "Team": "Chicago Bears",
-      "Pos": "DL",
-      "Value": 0
-    },
-    {
-      "Rank": 30,
-      "Player": "Chris Rumph",
-      "Team": "New Orleans Saints",
-      "Pos": "LB",
       "Value": 0
     }
   ]
