@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T12:55:57.015Z",
+  "generatedAt": "2026-09-23T13:07:09.117Z",
   "currentModel": [
     {
       "Player": "Cam Skattebo",
@@ -74,16 +74,6 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Amon-Ra St. Brown",
-      "Team": "Detroit Lions",
-      "Opponent": "NY Jets",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Detroit Lions vs NY Jets - opponent allows undefined pass TDs/game"
-    },
-    {
       "Player": "Jaxon Smith-Njigba",
       "Team": "Seattle Seahawks",
       "Opponent": "Washington",
@@ -92,6 +82,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Seattle Seahawks vs Washington - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "Amon-Ra St. Brown",
+      "Team": "Detroit Lions",
+      "Opponent": "NY Jets",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Detroit Lions vs NY Jets - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Ashton Jeanty",
@@ -574,15 +574,15 @@
     "rankingDifferences": [
       {
         "player": "Amon-Ra St. Brown",
-        "currentRank": 7,
+        "currentRank": 8,
         "mlRank": 20,
-        "difference": 13
+        "difference": 12
       },
       {
         "player": "Jaxon Smith-Njigba",
-        "currentRank": 8,
+        "currentRank": 7,
         "mlRank": 18,
-        "difference": 10
+        "difference": 11
       }
     ]
   }
