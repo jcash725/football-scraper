@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2026-09-23T13:06:47.620Z",
+  "scrapedAt": "2026-09-24T13:02:38.886Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -103,9 +103,9 @@
     },
     {
       "Rank": 11,
-      "Player": "Jeremiyah Love",
-      "Team": "Arizona Cardinals",
-      "Pos": "RB",
+      "Player": "Kenyon Sadiq",
+      "Team": "New York Jets",
+      "Pos": "TE",
       "Value": 1
     },
     {
@@ -166,6 +166,13 @@
     },
     {
       "Rank": 11,
+      "Player": "Jeremiyah Love",
+      "Team": "Arizona Cardinals",
+      "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 11,
       "Player": "Bryce Young",
       "Team": "Carolina Panthers",
       "Pos": "QB",
@@ -173,23 +180,16 @@
     },
     {
       "Rank": 11,
-      "Player": "Tyler Shough",
-      "Team": "New Orleans Saints",
-      "Pos": "QB",
-      "Value": 1
-    },
-    {
-      "Rank": 11,
-      "Player": "Jacory Croskey-Merritt",
-      "Team": "Washington Commanders",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 11,
       "Player": "Braelon Allen",
       "Team": "New York Jets",
       "Pos": "RB",
+      "Value": 1
+    },
+    {
+      "Rank": 11,
+      "Player": "Tyler Shough",
+      "Team": "New Orleans Saints",
+      "Pos": "QB",
       "Value": 1
     },
     {
@@ -208,15 +208,15 @@
     },
     {
       "Rank": 11,
-      "Player": "TreVeyon Henderson",
-      "Team": "New England Patriots",
+      "Player": "James Cook",
+      "Team": "Buffalo Bills",
       "Pos": "RB",
       "Value": 1
     },
     {
       "Rank": 11,
-      "Player": "James Cook",
-      "Team": "Buffalo Bills",
+      "Player": "TreVeyon Henderson",
+      "Team": "New England Patriots",
       "Pos": "RB",
       "Value": 1
     },
@@ -243,9 +243,9 @@
     },
     {
       "Rank": 11,
-      "Player": "Kenyon Sadiq",
-      "Team": "New York Jets",
-      "Pos": "TE",
+      "Player": "Jacory Croskey-Merritt",
+      "Team": "Washington Commanders",
+      "Pos": "RB",
       "Value": 1
     },
     {
@@ -282,6 +282,97 @@
       "Team": "New York Jets",
       "Pos": "RB",
       "Value": 1
+    },
+    {
+      "Rank": 40,
+      "Player": "Luke Fortner",
+      "Team": "Carolina Panthers",
+      "Pos": "C",
+      "Value": 0
+    },
+    {
+      "Rank": 40,
+      "Player": "Tyrone Tracy",
+      "Team": "New York Giants",
+      "Pos": "RB",
+      "Value": 0
+    },
+    {
+      "Rank": 40,
+      "Player": "Jager Burton",
+      "Team": "Green Bay Packers",
+      "Pos": "OL",
+      "Value": 0
+    },
+    {
+      "Rank": 40,
+      "Player": "Qwan'tez Stiggers",
+      "Team": "New York Jets",
+      "Pos": "CB",
+      "Value": 0
+    },
+    {
+      "Rank": 40,
+      "Player": "Demario Davis",
+      "Team": "New York Jets",
+      "Pos": "LB",
+      "Value": 0
+    },
+    {
+      "Rank": 40,
+      "Player": "Wil Lutz",
+      "Team": "Denver Broncos",
+      "Pos": "K",
+      "Value": 0
+    },
+    {
+      "Rank": 40,
+      "Player": "Kayvon Thibodeaux",
+      "Team": "New York Giants",
+      "Pos": "LB",
+      "Value": 0
+    },
+    {
+      "Rank": 40,
+      "Player": "Gunnar Helm",
+      "Team": "Tennessee Titans",
+      "Pos": "TE",
+      "Value": 0
+    },
+    {
+      "Rank": 40,
+      "Player": "Sam Martin",
+      "Team": "Carolina Panthers",
+      "Pos": "P",
+      "Value": 0
+    },
+    {
+      "Rank": 40,
+      "Player": "Claudin Cherelus",
+      "Team": "Carolina Panthers",
+      "Pos": "LB",
+      "Value": 0
+    },
+    {
+      "Rank": 40,
+      "Player": "Kei'Trel Clark",
+      "Team": "Arizona Cardinals",
+      "Pos": "CB",
+      "Value": 0
+    },
+    {
+      "Rank": 40,
+      "Player": "Isaiah Davis",
+      "Team": "New York Jets",
+      "Pos": "RB",
+      "Value": 0
+    },
+    {
+      "Rank": 40,
+      "Player": "Quenton Nelson",
+      "Team": "Indianapolis Colts",
+      "Pos": "G",
+      "Value": 0
     },
     {
       "Rank": 40,
@@ -355,9 +446,9 @@
     },
     {
       "Rank": 40,
-      "Player": "Trevor Nowaske",
-      "Team": "Detroit Lions",
-      "Pos": "LB",
+      "Player": "Emanuel Wilson",
+      "Team": "Seattle Seahawks",
+      "Pos": "RB",
       "Value": 0
     },
     {
@@ -383,9 +474,9 @@
     },
     {
       "Rank": 40,
-      "Player": "Markel Bell",
-      "Team": "Philadelphia Eagles",
-      "Pos": "T",
+      "Player": "Woody Marks",
+      "Team": "Houston Texans",
+      "Pos": "RB",
       "Value": 0
     },
     {
@@ -516,8 +607,8 @@
     },
     {
       "Rank": 40,
-      "Player": "Travis Burke",
-      "Team": "Los Angeles Chargers",
+      "Player": "Max Iheanachor",
+      "Team": "Pittsburgh Steelers",
       "Pos": "T",
       "Value": 0
     },
@@ -537,8 +628,8 @@
     },
     {
       "Rank": 40,
-      "Player": "Jackson Slater",
-      "Team": "Tennessee Titans",
+      "Player": "Grey Zabel",
+      "Team": "Seattle Seahawks",
       "Pos": "G",
       "Value": 0
     },
@@ -617,97 +708,6 @@
       "Player": "Liam McCullough",
       "Team": "Atlanta Falcons",
       "Pos": "LS",
-      "Value": 0
-    },
-    {
-      "Rank": 40,
-      "Player": "Jonah Laulu",
-      "Team": "Las Vegas Raiders",
-      "Pos": "DT",
-      "Value": 0
-    },
-    {
-      "Rank": 40,
-      "Player": "Jaylon Jones",
-      "Team": "Tennessee Titans",
-      "Pos": "CB",
-      "Value": 0
-    },
-    {
-      "Rank": 40,
-      "Player": "AJ Haulcy",
-      "Team": "Indianapolis Colts",
-      "Pos": "S",
-      "Value": 0
-    },
-    {
-      "Rank": 40,
-      "Player": "Cole Christiansen",
-      "Team": "Kansas City Chiefs",
-      "Pos": "LB",
-      "Value": 0
-    },
-    {
-      "Rank": 40,
-      "Player": "Danny Striggow",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "DE",
-      "Value": 0
-    },
-    {
-      "Rank": 40,
-      "Player": "Brandon Cisse",
-      "Team": "Green Bay Packers",
-      "Pos": "CB",
-      "Value": 0
-    },
-    {
-      "Rank": 40,
-      "Player": "Brandon Jones",
-      "Team": "Denver Broncos",
-      "Pos": "S",
-      "Value": 0
-    },
-    {
-      "Rank": 40,
-      "Player": "Tyler Nubin",
-      "Team": "New York Giants",
-      "Pos": "S",
-      "Value": 0
-    },
-    {
-      "Rank": 40,
-      "Player": "Denzel Burke",
-      "Team": "Arizona Cardinals",
-      "Pos": "CB",
-      "Value": 0
-    },
-    {
-      "Rank": 40,
-      "Player": "Garrett Nussmeier",
-      "Team": "Kansas City Chiefs",
-      "Pos": "QB",
-      "Value": 0
-    },
-    {
-      "Rank": 40,
-      "Player": "Greg Van Roten",
-      "Team": "New England Patriots",
-      "Pos": "OL",
-      "Value": 0
-    },
-    {
-      "Rank": 40,
-      "Player": "C.J. Henderson",
-      "Team": "Atlanta Falcons",
-      "Pos": "CB",
-      "Value": 0
-    },
-    {
-      "Rank": 40,
-      "Player": "Tyler Goodson",
-      "Team": "Dallas Cowboys",
-      "Pos": "RB",
       "Value": 0
     }
   ]
