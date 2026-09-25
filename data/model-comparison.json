@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T13:02:59.914Z",
+  "generatedAt": "2026-09-25T13:06:27.350Z",
   "currentModel": [
     {
       "Player": "Cam Skattebo",
@@ -7,18 +7,6 @@
       "Opponent": "Tennessee",
       "Player TDs YTD": 6,
       "Player 2025 TDs": 6,
-      "Opponent Stat Value": 5.5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.5 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
-    },
-    {
-      "Player": "Woody Marks",
-      "Team": "Houston Texans",
-      "Opponent": "Indianapolis",
-      "Player TDs YTD": 3,
-      "Player 2025 TDs": 3,
       "Opponent Stat Value": 5.5,
       "Basis": "Rush TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
@@ -86,6 +74,16 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
+      "Player": "Amon-Ra St. Brown",
+      "Team": "Detroit Lions",
+      "Opponent": "NY Jets",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Detroit Lions vs NY Jets - opponent allows undefined pass TDs/game"
+    },
+    {
       "Player": "Jaxon Smith-Njigba",
       "Team": "Seattle Seahawks",
       "Opponent": "Washington",
@@ -96,14 +94,14 @@
       "Reason": "Seattle Seahawks vs Washington - opponent allows undefined pass TDs/game"
     },
     {
-      "Player": "Amon-Ra St. Brown",
-      "Team": "Detroit Lions",
-      "Opponent": "NY Jets",
+      "Player": "Christian Watson",
+      "Team": "Green Bay Packers",
+      "Opponent": "Atlanta",
       "Basis": "Opp Pass TD/G",
       "Player TDs YTD": 4,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Detroit Lions vs NY Jets - opponent allows undefined pass TDs/game"
+      "Reason": "Green Bay Packers vs Atlanta - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Ashton Jeanty",
@@ -154,11 +152,11 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Luke McCaffrey",
-      "Team": "Washington Commanders",
-      "Opponent": "Seattle",
-      "Player TDs YTD": 3,
-      "Player 2025 TDs": 3,
+      "Player": "Elic Ayomanor",
+      "Team": "Tennessee Titans",
+      "Opponent": "NY Giants",
+      "Player TDs YTD": 2,
+      "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
       "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
@@ -166,9 +164,9 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Elic Ayomanor",
-      "Team": "Tennessee Titans",
-      "Opponent": "NY Giants",
+      "Player": "Tez Johnson",
+      "Team": "Tampa Bay Buccaneers",
+      "Opponent": "Minnesota",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -439,7 +437,7 @@
         "Hot recent form (7 TDs in recent games)"
       ],
       "mlRank": 14,
-      "playerTDsYTD": 1,
+      "playerTDsYTD": 2,
       "actual2024TDs": 7,
       "actual2024Games": 5,
       "vsOpponentTDs": 0,
@@ -564,18 +562,18 @@
   "differences": {
     "onlyInCurrent": [
       "Cam Skattebo",
-      "Woody Marks",
       "Jacory Croskey-Merritt",
       "Christian McCaffrey",
       "Caleb Williams",
       "Bhayshul Tuten",
       "Omarion Hampton",
+      "Christian Watson",
       "Ashton Jeanty",
       "Jake Ferguson",
       "Emeka Egbuka",
       "Tyler Warren",
-      "Luke McCaffrey",
-      "Elic Ayomanor"
+      "Elic Ayomanor",
+      "Tez Johnson"
     ],
     "onlyInML": [
       "Derrick Henry",
@@ -600,9 +598,9 @@
     "rankingDifferences": [
       {
         "player": "Amon-Ra St. Brown",
-        "currentRank": 9,
+        "currentRank": 7,
         "mlRank": 20,
-        "difference": 11
+        "difference": 13
       },
       {
         "player": "Jaxon Smith-Njigba",
