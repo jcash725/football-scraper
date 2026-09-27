@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T12:33:37.312Z",
+  "generatedAt": "2026-09-27T13:24:14.314Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 14,
@@ -77,16 +77,6 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Amon-Ra St. Brown",
-      "Team": "Detroit Lions",
-      "Opponent": "NY Jets",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Detroit Lions vs NY Jets - opponent allows undefined pass TDs/game"
-    },
-    {
       "Player": "Jaxon Smith-Njigba",
       "Team": "Seattle Seahawks",
       "Opponent": "Washington",
@@ -105,6 +95,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Green Bay Packers vs Atlanta - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "Amon-Ra St. Brown",
+      "Team": "Detroit Lions",
+      "Opponent": "NY Jets",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Detroit Lions vs NY Jets - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Ashton Jeanty",
