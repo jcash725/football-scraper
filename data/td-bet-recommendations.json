@@ -1,15 +1,47 @@
 {
-  "generatedAt": "2026-09-27T13:24:14.314Z",
+  "generatedAt": "2026-09-28T16:15:07.434Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
-  "count": 14,
+  "count": 16,
   "recommendations": [
+    {
+      "Player": "Derrick Henry",
+      "Team": "Baltimore Ravens",
+      "Opponent": "Dallas",
+      "Basis": "Opp Rush TD/G",
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "2",
+      "Reason": "Baltimore Ravens vs Dallas - opponent allows undefined rush TDs/game"
+    },
+    {
+      "Player": "Josh Allen",
+      "Team": "Buffalo Bills",
+      "Opponent": "LA Chargers",
+      "Basis": "Opp Rush TD/G",
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Buffalo Bills vs LA Chargers - opponent allows undefined rush TDs/game"
+    },
     {
       "Player": "Cam Skattebo",
       "Team": "New York Giants",
       "Opponent": "Tennessee",
       "Player TDs YTD": 6,
       "Player 2025 TDs": 6,
+      "Opponent Stat Value": 5.5,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.5 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
+    },
+    {
+      "Player": "Woody Marks",
+      "Team": "Houston Texans",
+      "Opponent": "Indianapolis",
+      "Player TDs YTD": 3,
+      "Player 2025 TDs": 3,
       "Opponent Stat Value": 5.5,
       "Basis": "Rush TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
@@ -65,26 +97,24 @@
       "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
     },
     {
-      "Player": "Omarion Hampton",
-      "Team": "Los Angeles Chargers",
-      "Opponent": "Buffalo",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
       "Player": "Jaxon Smith-Njigba",
       "Team": "Seattle Seahawks",
       "Opponent": "Washington",
       "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
+      "Player TDs YTD": 6,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Seattle Seahawks vs Washington - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "Amon-Ra St. Brown",
+      "Team": "Detroit Lions",
+      "Opponent": "NY Jets",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Detroit Lions vs NY Jets - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Christian Watson",
@@ -95,16 +125,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Green Bay Packers vs Atlanta - opponent allows undefined pass TDs/game"
-    },
-    {
-      "Player": "Amon-Ra St. Brown",
-      "Team": "Detroit Lions",
-      "Opponent": "NY Jets",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Detroit Lions vs NY Jets - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Ashton Jeanty",
