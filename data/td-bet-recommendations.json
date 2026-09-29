@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-09-28T16:15:07.434Z",
+  "generatedAt": "2026-09-29T14:27:14.719Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 16,
   "recommendations": [
     {
-      "Player": "Derrick Henry",
-      "Team": "Baltimore Ravens",
-      "Opponent": "Dallas",
+      "Player": "Josh Allen",
+      "Team": "Buffalo Bills",
+      "Opponent": "New England",
       "Basis": "Opp Rush TD/G",
       "Player TDs YTD": 6,
       "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "2",
-      "Reason": "Baltimore Ravens vs Dallas - opponent allows undefined rush TDs/game"
+      "TDs vs Opponent Last Year (2024)": "3",
+      "Reason": "Buffalo Bills vs New England - opponent allows undefined rush TDs/game"
     },
     {
-      "Player": "Josh Allen",
-      "Team": "Buffalo Bills",
-      "Opponent": "LA Chargers",
+      "Player": "Derrick Henry",
+      "Team": "Baltimore Ravens",
+      "Opponent": "Tennessee",
       "Basis": "Opp Rush TD/G",
       "Player TDs YTD": 6,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Buffalo Bills vs LA Chargers - opponent allows undefined rush TDs/game"
+      "Reason": "Baltimore Ravens vs Tennessee - opponent allows undefined rush TDs/game"
     },
     {
       "Player": "Cam Skattebo",
       "Team": "New York Giants",
-      "Opponent": "Tennessee",
+      "Opponent": "Arizona",
       "Player TDs YTD": 6,
       "Player 2025 TDs": 6,
       "Opponent Stat Value": 5.5,
@@ -39,7 +39,7 @@
     {
       "Player": "Woody Marks",
       "Team": "Houston Texans",
-      "Opponent": "Indianapolis",
+      "Opponent": "Dallas",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
       "Opponent Stat Value": 5.5,
@@ -51,7 +51,7 @@
     {
       "Player": "Jacory Croskey-Merritt",
       "Team": "Washington Commanders",
-      "Opponent": "Seattle",
+      "Opponent": "Indianapolis",
       "Player TDs YTD": 4,
       "Player 2025 TDs": 4,
       "Opponent Stat Value": 5.333333333333333,
@@ -63,7 +63,7 @@
     {
       "Player": "Christian McCaffrey",
       "Team": "San Francisco 49ers",
-      "Opponent": "Arizona",
+      "Opponent": "Denver",
       "Player TDs YTD": 6,
       "Player 2025 TDs": 6,
       "Opponent Stat Value": 5.2,
@@ -75,7 +75,7 @@
     {
       "Player": "Caleb Williams",
       "Team": "Chicago Bears",
-      "Opponent": "Philadelphia",
+      "Opponent": "NY Jets",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -87,7 +87,7 @@
     {
       "Player": "Bhayshul Tuten",
       "Team": "Jacksonville Jaguars",
-      "Opponent": "New England",
+      "Opponent": "Cincinnati",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -99,37 +99,37 @@
     {
       "Player": "Jaxon Smith-Njigba",
       "Team": "Seattle Seahawks",
-      "Opponent": "Washington",
+      "Opponent": "LA Chargers",
       "Basis": "Opp Pass TD/G",
       "Player TDs YTD": 6,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Seattle Seahawks vs Washington - opponent allows undefined pass TDs/game"
+      "Reason": "Seattle Seahawks vs LA Chargers - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Amon-Ra St. Brown",
       "Team": "Detroit Lions",
-      "Opponent": "NY Jets",
+      "Opponent": "Carolina",
       "Basis": "Opp Pass TD/G",
       "Player TDs YTD": 5,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Detroit Lions vs NY Jets - opponent allows undefined pass TDs/game"
+      "Reason": "Detroit Lions vs Carolina - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Christian Watson",
       "Team": "Green Bay Packers",
-      "Opponent": "Atlanta",
+      "Opponent": "Tampa Bay",
       "Basis": "Opp Pass TD/G",
       "Player TDs YTD": 4,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Green Bay Packers vs Atlanta - opponent allows undefined pass TDs/game"
+      "Reason": "Green Bay Packers vs Tampa Bay - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Ashton Jeanty",
       "Team": "Las Vegas Raiders",
-      "Opponent": "New Orleans",
+      "Opponent": "Kansas City",
       "Player TDs YTD": 5,
       "Player 2025 TDs": 5,
       "Opponent Stat Value": 5.666666666666667,
@@ -141,19 +141,19 @@
     {
       "Player": "Jake Ferguson",
       "Team": "Dallas Cowboys",
-      "Opponent": "Baltimore",
+      "Opponent": "Houston",
       "Player TDs YTD": 6,
       "Player 2025 TDs": 6,
       "Opponent Stat Value": 5.5,
       "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "TDs vs Opponent Last Year (2024)": "3",
       "Reason": "Rookie with 1.5 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
     },
     {
       "Player": "Emeka Egbuka",
       "Team": "Tampa Bay Buccaneers",
-      "Opponent": "Minnesota",
+      "Opponent": "Green Bay",
       "Player TDs YTD": 5,
       "Player 2025 TDs": 5,
       "Opponent Stat Value": 5.25,
@@ -165,7 +165,7 @@
     {
       "Player": "Tyler Warren",
       "Team": "Indianapolis Colts",
-      "Opponent": "Houston",
+      "Opponent": "Washington",
       "Player TDs YTD": 4,
       "Player 2025 TDs": 4,
       "Opponent Stat Value": 5,
@@ -177,7 +177,7 @@
     {
       "Player": "Elic Ayomanor",
       "Team": "Tennessee Titans",
-      "Opponent": "NY Giants",
+      "Opponent": "Baltimore",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
