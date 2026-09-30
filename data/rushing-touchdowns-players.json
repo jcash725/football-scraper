@@ -1,6 +1,6 @@
 {
   "url": "https://www.teamrankings.com/nfl/player-stat/rushing-touchdowns",
-  "scrapedAt": "2026-09-29T14:26:51.186Z",
+  "scrapedAt": "2026-09-30T14:24:13.444Z",
   "note": "Sorted by Value (desc)",
   "columns": [
     "Rank",
@@ -180,13 +180,6 @@
     },
     {
       "Rank": 16,
-      "Player": "Chris Rodriguez",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 16,
       "Player": "Brock Purdy",
       "Team": 49,
       "Pos": "QB",
@@ -197,6 +190,13 @@
       "Player": "Jalen Hurts",
       "Team": "Philadelphia Eagles",
       "Pos": "QB",
+      "Value": 1
+    },
+    {
+      "Rank": 16,
+      "Player": "Chris Rodriguez",
+      "Team": "Jacksonville Jaguars",
+      "Pos": "RB",
       "Value": 1
     },
     {
@@ -299,13 +299,6 @@
     },
     {
       "Rank": 16,
-      "Player": "Jacory Croskey-Merritt",
-      "Team": "Washington Commanders",
-      "Pos": "RB",
-      "Value": 1
-    },
-    {
-      "Rank": 16,
       "Player": "Bryce Young",
       "Team": "Carolina Panthers",
       "Pos": "QB",
@@ -320,15 +313,22 @@
     },
     {
       "Rank": 16,
-      "Player": "Baker Mayfield",
-      "Team": "Tampa Bay Buccaneers",
-      "Pos": "QB",
+      "Player": "Jacory Croskey-Merritt",
+      "Team": "Washington Commanders",
+      "Pos": "RB",
       "Value": 1
     },
     {
       "Rank": 16,
       "Player": "Malik Willis",
       "Team": "Miami Dolphins",
+      "Pos": "QB",
+      "Value": 1
+    },
+    {
+      "Rank": 16,
+      "Player": "Baker Mayfield",
+      "Team": "Tampa Bay Buccaneers",
       "Pos": "QB",
       "Value": 1
     },
@@ -359,111 +359,6 @@
       "Team": "Arizona Cardinals",
       "Pos": "QB",
       "Value": 1
-    },
-    {
-      "Rank": 51,
-      "Player": "Brian Burns",
-      "Team": "New York Giants",
-      "Pos": "LB",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Micah McFadden",
-      "Team": "New York Giants",
-      "Pos": "LB",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Sabastian Harsh",
-      "Team": "Houston Texans",
-      "Pos": "DE",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Travis Hunter",
-      "Team": "Jacksonville Jaguars",
-      "Pos": "WR",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Malcolm Roach",
-      "Team": "Denver Broncos",
-      "Pos": "DT",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Anthony Bradford",
-      "Team": "Seattle Seahawks",
-      "Pos": "G",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Leonard Taylor",
-      "Team": "New England Patriots",
-      "Pos": "DT",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Qwan'tez Stiggers",
-      "Team": "New York Jets",
-      "Pos": "CB",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Sterling Shepard",
-      "Team": "Houston Texans",
-      "Pos": "WR",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Noah Gray",
-      "Team": "Kansas City Chiefs",
-      "Pos": "TE",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Sauce Gardner",
-      "Team": "Indianapolis Colts",
-      "Pos": "CB",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Oren Burks",
-      "Team": "Cincinnati Bengals",
-      "Pos": "LB",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Josh Myers",
-      "Team": "New York Jets",
-      "Pos": "C",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Derek Barnett",
-      "Team": "Cleveland Browns",
-      "Pos": "DE",
-      "Value": 0
-    },
-    {
-      "Rank": 51,
-      "Player": "Jordan McFadden",
-      "Team": "Chicago Bears",
-      "Pos": "OL",
-      "Value": 0
     },
     {
       "Rank": 51,
@@ -708,6 +603,111 @@
       "Player": "Jordan Stout",
       "Team": "New York Giants",
       "Pos": "P",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "Malik Mustapha",
+      "Team": 49,
+      "Pos": "S",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "Elgton Jenkins",
+      "Team": "Cleveland Browns",
+      "Pos": "OL",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "Akayleb Evans",
+      "Team": "Carolina Panthers",
+      "Pos": "CB",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "Jeremy Chinn",
+      "Team": "Las Vegas Raiders",
+      "Pos": "S",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "PJ Jules",
+      "Team": "Cincinnati Bengals",
+      "Pos": "S",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "Zach Allen",
+      "Team": "Denver Broncos",
+      "Pos": "DL",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "Javontae Jean-Baptiste",
+      "Team": "Washington Commanders",
+      "Pos": "LB",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "DJ Glaze",
+      "Team": "Las Vegas Raiders",
+      "Pos": "T",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "Keyshaun Elliott",
+      "Team": "Chicago Bears",
+      "Pos": "LB",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "Blake Brandel",
+      "Team": "Minnesota Vikings",
+      "Pos": "C",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "Jaycee Horn",
+      "Team": "Carolina Panthers",
+      "Pos": "CB",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "Cooper McDonald",
+      "Team": "Kansas City Chiefs",
+      "Pos": "LB",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "Walter Nolen",
+      "Team": "Arizona Cardinals",
+      "Pos": "DL",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "Brandon Stephens",
+      "Team": "New York Jets",
+      "Pos": "CB",
+      "Value": 0
+    },
+    {
+      "Rank": 51,
+      "Player": "Xavier Smith",
+      "Team": "Los Angeles Rams",
+      "Pos": "WR",
       "Value": 0
     }
   ]
