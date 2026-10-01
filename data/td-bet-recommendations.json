@@ -1,19 +1,9 @@
 {
-  "generatedAt": "2026-09-30T14:24:35.546Z",
+  "generatedAt": "2026-10-01T14:55:36.458Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
-  "count": 15,
+  "count": 16,
   "recommendations": [
-    {
-      "Player": "Josh Allen",
-      "Team": "Buffalo Bills",
-      "Opponent": "New England",
-      "Basis": "Opp Rush TD/G",
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Buffalo Bills vs New England - opponent allows undefined rush TDs/game"
-    },
     {
       "Player": "Derrick Henry",
       "Team": "Baltimore Ravens",
@@ -23,6 +13,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Baltimore Ravens vs Tennessee - opponent allows undefined rush TDs/game"
+    },
+    {
+      "Player": "Josh Allen",
+      "Team": "Buffalo Bills",
+      "Opponent": "New England",
+      "Basis": "Opp Rush TD/G",
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Buffalo Bills vs New England - opponent allows undefined rush TDs/game"
     },
     {
       "Player": "Cam Skattebo",
@@ -149,6 +149,18 @@
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Rookie with 1.5 TD/game consistency",
       "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
+    },
+    {
+      "Player": "Emeka Egbuka",
+      "Team": "Tampa Bay Buccaneers",
+      "Opponent": "Green Bay",
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 5,
+      "Opponent Stat Value": 5.25,
+      "Basis": "Pass TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.3 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.3 TD/game)"
     },
     {
       "Player": "Tyler Warren",
