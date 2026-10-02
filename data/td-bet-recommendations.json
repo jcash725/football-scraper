@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T14:55:36.458Z",
+  "generatedAt": "2026-10-02T14:18:14.419Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 16,
@@ -23,6 +23,18 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Buffalo Bills vs New England - opponent allows undefined rush TDs/game"
+    },
+    {
+      "Player": "Quinshon Judkins",
+      "Team": "Cleveland Browns",
+      "Opponent": "Pittsburgh",
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 5,
+      "Opponent Stat Value": 5.666666666666667,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.7 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
     },
     {
       "Player": "Cam Skattebo",
@@ -76,18 +88,6 @@
       "Player": "Caleb Williams",
       "Team": "Chicago Bears",
       "Opponent": "NY Jets",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Bhayshul Tuten",
-      "Team": "Jacksonville Jaguars",
-      "Opponent": "Cincinnati",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T14:55:36.458Z",
+  "generatedAt": "2026-10-02T14:18:14.420Z",
   "currentModel": [
     {
       "Player": "Derrick Henry",
@@ -20,6 +20,18 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Buffalo Bills vs New England - opponent allows undefined rush TDs/game"
+    },
+    {
+      "Player": "Quinshon Judkins",
+      "Team": "Cleveland Browns",
+      "Opponent": "Pittsburgh",
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 5,
+      "Opponent Stat Value": 5.666666666666667,
+      "Basis": "Rush TD - Rookie hotstreak",
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Rookie with 1.7 TD/game consistency",
+      "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
     },
     {
       "Player": "Cam Skattebo",
@@ -73,18 +85,6 @@
       "Player": "Caleb Williams",
       "Team": "Chicago Bears",
       "Opponent": "NY Jets",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
-      "Opponent Stat Value": 5,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Bhayshul Tuten",
-      "Team": "Jacksonville Jaguars",
-      "Opponent": "Cincinnati",
       "Player TDs YTD": 2,
       "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
@@ -521,7 +521,7 @@
         "Weak opponent defense (3.9 TDs/game allowed)"
       ],
       "mlRank": 18,
-      "playerTDsYTD": 1,
+      "playerTDsYTD": 2,
       "actual2024TDs": 7,
       "actual2024Games": 7,
       "vsOpponentTDs": 1,
@@ -569,12 +569,12 @@
   "agreement": 15,
   "differences": {
     "onlyInCurrent": [
+      "Quinshon Judkins",
       "Cam Skattebo",
       "Woody Marks",
       "Jacory Croskey-Merritt",
       "Christian McCaffrey",
       "Caleb Williams",
-      "Bhayshul Tuten",
       "Jaxon Smith-Njigba",
       "Christian Watson",
       "Ashton Jeanty",
