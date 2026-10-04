@@ -1,19 +1,9 @@
 {
-  "generatedAt": "2026-10-02T14:18:14.419Z",
+  "generatedAt": "2026-10-04T13:33:52.345Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 16,
   "recommendations": [
-    {
-      "Player": "Derrick Henry",
-      "Team": "Baltimore Ravens",
-      "Opponent": "Tennessee",
-      "Basis": "Opp Rush TD/G",
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Baltimore Ravens vs Tennessee - opponent allows undefined rush TDs/game"
-    },
     {
       "Player": "Josh Allen",
       "Team": "Buffalo Bills",
@@ -23,6 +13,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Buffalo Bills vs New England - opponent allows undefined rush TDs/game"
+    },
+    {
+      "Player": "Derrick Henry",
+      "Team": "Baltimore Ravens",
+      "Opponent": "Tennessee",
+      "Basis": "Opp Rush TD/G",
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Baltimore Ravens vs Tennessee - opponent allows undefined rush TDs/game"
     },
     {
       "Player": "Quinshon Judkins",
