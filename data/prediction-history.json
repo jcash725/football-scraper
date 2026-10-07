@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-10-06T14:35:32.878Z",
+  "lastUpdated": "2026-10-07T14:54:37.562Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-10-06T14:35:32.878Z",
+      "generatedAt": "2026-10-07T14:54:37.562Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -6926,6 +6926,19 @@
         },
         {
           "rank": 10,
+          "player": "Marvin Harrison",
+          "team": "Arizona Cardinals",
+          "opponent": "Detroit Lions",
+          "probability": 0.4666714628297362,
+          "confidence": 0.9,
+          "keyFactors": [
+            "Strong 2024 production (8 TDs)",
+            "Previous success vs opponent (1 TDs)",
+            "Weak opponent defense (2.8 TDs/game allowed)"
+          ]
+        },
+        {
+          "rank": 11,
           "player": "Rashod Bateman",
           "team": "Baltimore Ravens",
           "opponent": "Atlanta Falcons",
@@ -6938,7 +6951,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 12,
           "player": "Mark Andrews",
           "team": "Baltimore Ravens",
           "opponent": "Atlanta Falcons",
@@ -6951,7 +6964,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 13,
           "player": "Ladd McConkey",
           "team": "Los Angeles Chargers",
           "opponent": "Denver Broncos",
@@ -6964,7 +6977,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 14,
           "player": "Sam LaPorta",
           "team": "Detroit Lions",
           "opponent": "Arizona Cardinals",
@@ -6977,7 +6990,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 15,
           "player": "Bijan Robinson",
           "team": "Atlanta Falcons",
           "opponent": "Baltimore Ravens",
@@ -6990,7 +7003,7 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 16,
           "player": "Rhamondre Stevenson",
           "team": "New England Patriots",
           "opponent": "Las Vegas",
@@ -7003,7 +7016,7 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 17,
           "player": "Malik Nabers",
           "team": "New York Giants",
           "opponent": "Washington Commanders",
@@ -7016,7 +7029,20 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 18,
+          "player": "Tee Higgins",
+          "team": "Cincinnati Bengals",
+          "opponent": "Miami Dolphins",
+          "probability": 0.44666666666666666,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (10 TDs)",
+            "Weak opponent defense (3.1 TDs/game allowed)",
+            "Hot recent form (7 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 19,
           "player": "Jordan Addison",
           "team": "Minnesota Vikings",
           "opponent": "New Orleans",
@@ -7029,7 +7055,7 @@
           ]
         },
         {
-          "rank": 18,
+          "rank": 20,
           "player": "Jonathan Taylor",
           "team": "Indianapolis Colts",
           "opponent": "Pittsburgh Steelers",
@@ -7039,32 +7065,6 @@
             "Moderate 2024 production (6 TDs)",
             "Previous success vs opponent (1 TDs)",
             "Weak opponent defense (3.6 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 19,
-          "player": "Jaxon Smith-Njigba",
-          "team": "Seattle Seahawks",
-          "opponent": "San Francisco",
-          "probability": 0.432,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (6 TDs)",
-            "Weak opponent defense (3.1 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "CeeDee Lamb",
-          "team": "Dallas Cowboys",
-          "opponent": "Tampa Bay",
-          "probability": 0.432,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (6 TDs)",
-            "Weak opponent defense (3.7 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
           ]
         }
       ]
