@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T15:03:47.016Z",
+  "generatedAt": "2026-10-09T14:47:24.222Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -25,6 +25,16 @@
       "Reason": "Buffalo Bills vs LA Rams - opponent allows undefined rush TDs/game"
     },
     {
+      "Player": "Javonte Williams",
+      "Team": "Dallas Cowboys",
+      "Opponent": "Tampa Bay",
+      "Basis": "Opp Rush TD/G",
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Dallas Cowboys vs Tampa Bay - opponent allows undefined rush TDs/game"
+    },
+    {
       "Player": "Jonathan Taylor",
       "Team": "Indianapolis Colts",
       "Opponent": "Pittsburgh",
@@ -43,16 +53,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Detroit Lions vs Arizona - opponent allows undefined rush TDs/game"
-    },
-    {
-      "Player": "Javonte Williams",
-      "Team": "Dallas Cowboys",
-      "Opponent": "Tampa Bay",
-      "Basis": "Opp Rush TD/G",
-      "Player TDs YTD": 5,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Dallas Cowboys vs Tampa Bay - opponent allows undefined rush TDs/game"
     },
     {
       "Player": "Tetairoa McMillan",
@@ -133,16 +133,6 @@
       "Reason": "Seattle Seahawks vs San Francisco - opponent allows undefined pass TDs/game"
     },
     {
-      "Player": "CeeDee Lamb",
-      "Team": "Dallas Cowboys",
-      "Opponent": "Tampa Bay",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Dallas Cowboys vs Tampa Bay - opponent allows undefined pass TDs/game"
-    },
-    {
       "Player": "Christian Watson",
       "Team": "Green Bay Packers",
       "Opponent": "Chicago",
@@ -151,6 +141,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Green Bay Packers vs Chicago - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "CeeDee Lamb",
+      "Team": "Dallas Cowboys",
+      "Opponent": "Tampa Bay",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Dallas Cowboys vs Tampa Bay - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Ashton Jeanty",

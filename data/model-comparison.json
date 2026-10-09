@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T15:03:47.017Z",
+  "generatedAt": "2026-10-09T14:47:24.223Z",
   "currentModel": [
     {
       "Player": "Derrick Henry",
@@ -22,6 +22,16 @@
       "Reason": "Buffalo Bills vs LA Rams - opponent allows undefined rush TDs/game"
     },
     {
+      "Player": "Javonte Williams",
+      "Team": "Dallas Cowboys",
+      "Opponent": "Tampa Bay",
+      "Basis": "Opp Rush TD/G",
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Dallas Cowboys vs Tampa Bay - opponent allows undefined rush TDs/game"
+    },
+    {
       "Player": "Jonathan Taylor",
       "Team": "Indianapolis Colts",
       "Opponent": "Pittsburgh",
@@ -40,16 +50,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Detroit Lions vs Arizona - opponent allows undefined rush TDs/game"
-    },
-    {
-      "Player": "Javonte Williams",
-      "Team": "Dallas Cowboys",
-      "Opponent": "Tampa Bay",
-      "Basis": "Opp Rush TD/G",
-      "Player TDs YTD": 5,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Dallas Cowboys vs Tampa Bay - opponent allows undefined rush TDs/game"
     },
     {
       "Player": "Tetairoa McMillan",
@@ -130,16 +130,6 @@
       "Reason": "Seattle Seahawks vs San Francisco - opponent allows undefined pass TDs/game"
     },
     {
-      "Player": "CeeDee Lamb",
-      "Team": "Dallas Cowboys",
-      "Opponent": "Tampa Bay",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Dallas Cowboys vs Tampa Bay - opponent allows undefined pass TDs/game"
-    },
-    {
       "Player": "Christian Watson",
       "Team": "Green Bay Packers",
       "Opponent": "Chicago",
@@ -148,6 +138,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Green Bay Packers vs Chicago - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "CeeDee Lamb",
+      "Team": "Dallas Cowboys",
+      "Opponent": "Tampa Bay",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Dallas Cowboys vs Tampa Bay - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Ashton Jeanty",
@@ -433,16 +433,16 @@
       "basis": "2024 Data: 8 TDs in 7 games"
     },
     {
-      "player": "Rashod Bateman",
+      "player": "Mark Andrews",
       "team": "Baltimore Ravens",
       "opponent": "Atlanta Falcons",
-      "position": "WR",
+      "position": "TE",
       "mlProbability": 0.4653333333333334,
       "mlConfidence": 0.8,
       "keyFactors": [
         "Strong 2024 production (11 TDs)",
         "Weak opponent defense (3.5 TDs/game allowed)",
-        "Hot recent form (6 TDs in recent games)"
+        "Hot recent form (5 TDs in recent games)"
       ],
       "mlRank": 12,
       "playerTDsYTD": 1,
@@ -547,6 +547,25 @@
       "basis": "2024 Data: 7 TDs in 5 games"
     },
     {
+      "player": "Tee Higgins",
+      "team": "Cincinnati Bengals",
+      "opponent": "Miami Dolphins",
+      "position": "WR",
+      "mlProbability": 0.44666666666666666,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (10 TDs)",
+        "Weak opponent defense (3.1 TDs/game allowed)",
+        "Hot recent form (7 TDs in recent games)"
+      ],
+      "mlRank": 18,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 10,
+      "actual2024Games": 7,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 10 TDs in 7 games"
+    },
+    {
       "player": "Jordan Addison",
       "team": "Minnesota Vikings",
       "opponent": "New Orleans",
@@ -558,7 +577,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 18,
+      "mlRank": 19,
       "playerTDsYTD": 1,
       "actual2024TDs": 10,
       "actual2024Games": 7,
@@ -577,34 +596,15 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.6 TDs/game allowed)"
       ],
-      "mlRank": 19,
+      "mlRank": 20,
       "playerTDsYTD": 6,
       "actual2024TDs": 6,
       "actual2024Games": 5,
       "vsOpponentTDs": 1,
       "basis": "2024 Data: 6 TDs in 5 games"
-    },
-    {
-      "player": "Jaxon Smith-Njigba",
-      "team": "Seattle Seahawks",
-      "opponent": "San Francisco",
-      "position": "WR",
-      "mlProbability": 0.432,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Moderate 2024 production (6 TDs)",
-        "Weak opponent defense (3.1 TDs/game allowed)",
-        "Hot recent form (6 TDs in recent games)"
-      ],
-      "mlRank": 20,
-      "playerTDsYTD": 6,
-      "actual2024TDs": 6,
-      "actual2024Games": 5,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 6 TDs in 5 games"
     }
   ],
-  "agreement": 25,
+  "agreement": 20,
   "differences": {
     "onlyInCurrent": [
       "Josh Allen",
@@ -614,8 +614,9 @@
       "Cam Skattebo",
       "Woody Marks",
       "George Kittle",
-      "CeeDee Lamb",
+      "Jaxon Smith-Njigba",
       "Christian Watson",
+      "CeeDee Lamb",
       "Ashton Jeanty",
       "Jake Ferguson",
       "Emeka Egbuka",
@@ -632,26 +633,21 @@
       "Justin Jefferson",
       "Alvin Kamara",
       "Marvin Harrison",
-      "Rashod Bateman",
+      "Mark Andrews",
       "Ladd McConkey",
       "Sam LaPorta",
       "Bijan Robinson",
       "Rhamondre Stevenson",
       "Malik Nabers",
+      "Tee Higgins",
       "Jordan Addison"
     ],
     "rankingDifferences": [
       {
         "player": "Jonathan Taylor",
-        "currentRank": 3,
-        "mlRank": 19,
-        "difference": 16
-      },
-      {
-        "player": "Jaxon Smith-Njigba",
-        "currentRank": 12,
+        "currentRank": 4,
         "mlRank": 20,
-        "difference": 8
+        "difference": 16
       },
       {
         "player": "Amon-Ra St. Brown",
@@ -667,9 +663,9 @@
       },
       {
         "player": "Jahmyr Gibbs",
-        "currentRank": 4,
+        "currentRank": 5,
         "mlRank": 9,
-        "difference": 5
+        "difference": 4
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-10-08T15:03:47.015Z",
+  "lastUpdated": "2026-10-09T14:47:24.220Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,7 +6663,7 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-10-08T15:03:47.014Z",
+      "generatedAt": "2026-10-09T14:47:24.220Z",
       "currentModelPredictions": [
         {
           "rank": 1,
@@ -6681,23 +6681,23 @@
         },
         {
           "rank": 3,
+          "player": "Javonte Williams",
+          "team": "Dallas Cowboys",
+          "opponent": "Tampa Bay",
+          "basis": "Opp Rush TD/G"
+        },
+        {
+          "rank": 4,
           "player": "Jonathan Taylor",
           "team": "Indianapolis Colts",
           "opponent": "Pittsburgh",
           "basis": "Opp Rush TD/G"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "player": "Jahmyr Gibbs",
           "team": "Detroit Lions",
           "opponent": "Arizona",
-          "basis": "Opp Rush TD/G"
-        },
-        {
-          "rank": 5,
-          "player": "Javonte Williams",
-          "team": "Dallas Cowboys",
-          "opponent": "Tampa Bay",
           "basis": "Opp Rush TD/G"
         },
         {
@@ -6751,16 +6751,16 @@
         },
         {
           "rank": 13,
-          "player": "CeeDee Lamb",
-          "team": "Dallas Cowboys",
-          "opponent": "Tampa Bay",
+          "player": "Christian Watson",
+          "team": "Green Bay Packers",
+          "opponent": "Chicago",
           "basis": "Opp Pass TD/G"
         },
         {
           "rank": 14,
-          "player": "Christian Watson",
-          "team": "Green Bay Packers",
-          "opponent": "Chicago",
+          "player": "CeeDee Lamb",
+          "team": "Dallas Cowboys",
+          "opponent": "Tampa Bay",
           "basis": "Opp Pass TD/G"
         },
         {
@@ -6952,7 +6952,7 @@
         },
         {
           "rank": 12,
-          "player": "Rashod Bateman",
+          "player": "Mark Andrews",
           "team": "Baltimore Ravens",
           "opponent": "Atlanta Falcons",
           "probability": 0.4653333333333334,
@@ -6960,7 +6960,7 @@
           "keyFactors": [
             "Strong 2024 production (11 TDs)",
             "Weak opponent defense (3.5 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
+            "Hot recent form (5 TDs in recent games)"
           ]
         },
         {
@@ -7030,6 +7030,19 @@
         },
         {
           "rank": 18,
+          "player": "Tee Higgins",
+          "team": "Cincinnati Bengals",
+          "opponent": "Miami Dolphins",
+          "probability": 0.44666666666666666,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Strong 2024 production (10 TDs)",
+            "Weak opponent defense (3.1 TDs/game allowed)",
+            "Hot recent form (7 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 19,
           "player": "Jordan Addison",
           "team": "Minnesota Vikings",
           "opponent": "New Orleans",
@@ -7042,7 +7055,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 20,
           "player": "Jonathan Taylor",
           "team": "Indianapolis Colts",
           "opponent": "Pittsburgh Steelers",
@@ -7052,19 +7065,6 @@
             "Moderate 2024 production (6 TDs)",
             "Previous success vs opponent (1 TDs)",
             "Weak opponent defense (3.6 TDs/game allowed)"
-          ]
-        },
-        {
-          "rank": 20,
-          "player": "Jaxon Smith-Njigba",
-          "team": "Seattle Seahawks",
-          "opponent": "San Francisco",
-          "probability": 0.432,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Moderate 2024 production (6 TDs)",
-            "Weak opponent defense (3.1 TDs/game allowed)",
-            "Hot recent form (6 TDs in recent games)"
           ]
         }
       ]
