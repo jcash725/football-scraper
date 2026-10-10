@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:47:24.223Z",
+  "generatedAt": "2026-10-10T14:05:53.251Z",
   "currentModel": [
     {
       "Player": "Derrick Henry",
@@ -130,16 +130,6 @@
       "Reason": "Seattle Seahawks vs San Francisco - opponent allows undefined pass TDs/game"
     },
     {
-      "Player": "Christian Watson",
-      "Team": "Green Bay Packers",
-      "Opponent": "Chicago",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Green Bay Packers vs Chicago - opponent allows undefined pass TDs/game"
-    },
-    {
       "Player": "CeeDee Lamb",
       "Team": "Dallas Cowboys",
       "Opponent": "Tampa Bay",
@@ -148,6 +138,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Dallas Cowboys vs Tampa Bay - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "Christian Watson",
+      "Team": "Green Bay Packers",
+      "Opponent": "Chicago",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Green Bay Packers vs Chicago - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Ashton Jeanty",
@@ -174,18 +174,6 @@
       "Rookie Boost": "MASSIVE boost (1.5 TD/game)"
     },
     {
-      "Player": "Emeka Egbuka",
-      "Team": "Tampa Bay Buccaneers",
-      "Opponent": "Dallas",
-      "Player TDs YTD": 5,
-      "Player 2025 TDs": 5,
-      "Opponent Stat Value": 5.25,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.3 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.3 TD/game)"
-    },
-    {
       "Player": "Tyler Warren",
       "Team": "Indianapolis Colts",
       "Opponent": "Pittsburgh",
@@ -203,18 +191,6 @@
       "Opponent": "TBD",
       "Player TDs YTD": 3,
       "Player 2025 TDs": 3,
-      "Opponent Stat Value": 5,
-      "Basis": "Pass TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.0 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.0 TD/game)"
-    },
-    {
-      "Player": "Elic Ayomanor",
-      "Team": "Tennessee Titans",
-      "Opponent": "Houston",
-      "Player TDs YTD": 2,
-      "Player 2025 TDs": 2,
       "Opponent Stat Value": 5,
       "Basis": "Pass TD - Rookie hotstreak",
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
@@ -262,25 +238,6 @@
       "basis": "2024 Data: 10 TDs in 6 games"
     },
     {
-      "player": "DeVonta Smith",
-      "team": "Philadelphia Eagles",
-      "opponent": "Jacksonville Jaguars",
-      "position": "WR",
-      "mlProbability": 0.5980000000000001,
-      "mlConfidence": 0.9,
-      "keyFactors": [
-        "Strong 2024 production (9 TDs)",
-        "Previous success vs opponent (1 TDs)",
-        "Weak opponent defense (3.9 TDs/game allowed)"
-      ],
-      "mlRank": 3,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 9,
-      "actual2024Games": 8,
-      "vsOpponentTDs": 1,
-      "basis": "2024 Data: 9 TDs in 8 games"
-    },
-    {
       "player": "Ja'Marr Chase",
       "team": "Cincinnati Bengals",
       "opponent": "Miami Dolphins",
@@ -292,7 +249,7 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 4,
+      "mlRank": 3,
       "playerTDsYTD": 3,
       "actual2024TDs": 17,
       "actual2024Games": 11,
@@ -311,7 +268,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.0 TDs/game allowed)"
       ],
-      "mlRank": 5,
+      "mlRank": 4,
       "playerTDsYTD": 5,
       "actual2024TDs": 11,
       "actual2024Games": 10,
@@ -330,7 +287,7 @@
         "Weak opponent defense (3.5 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 6,
+      "mlRank": 5,
       "playerTDsYTD": 7,
       "actual2024TDs": 14,
       "actual2024Games": 10,
@@ -349,7 +306,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.6 TDs/game allowed)"
       ],
-      "mlRank": 7,
+      "mlRank": 6,
       "playerTDsYTD": 2,
       "actual2024TDs": 7,
       "actual2024Games": 7,
@@ -368,7 +325,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 8,
+      "mlRank": 7,
       "playerTDsYTD": 2,
       "actual2024TDs": 10,
       "actual2024Games": 8,
@@ -387,7 +344,7 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.0 TDs/game allowed)"
       ],
-      "mlRank": 9,
+      "mlRank": 8,
       "playerTDsYTD": 5,
       "actual2024TDs": 9,
       "actual2024Games": 8,
@@ -406,50 +363,12 @@
         "Weak opponent defense (3.1 TDs/game allowed)",
         "Hot recent form (8 TDs in recent games)"
       ],
-      "mlRank": 10,
+      "mlRank": 9,
       "playerTDsYTD": 2,
       "actual2024TDs": 8,
       "actual2024Games": 5,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 8 TDs in 5 games"
-    },
-    {
-      "player": "Marvin Harrison",
-      "team": "Arizona Cardinals",
-      "opponent": "Detroit Lions",
-      "position": "WR",
-      "mlProbability": 0.4666714628297362,
-      "mlConfidence": 0.9,
-      "keyFactors": [
-        "Strong 2024 production (8 TDs)",
-        "Previous success vs opponent (1 TDs)",
-        "Weak opponent defense (2.8 TDs/game allowed)"
-      ],
-      "mlRank": 11,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 8,
-      "actual2024Games": 7,
-      "vsOpponentTDs": 1,
-      "basis": "2024 Data: 8 TDs in 7 games"
-    },
-    {
-      "player": "Mark Andrews",
-      "team": "Baltimore Ravens",
-      "opponent": "Atlanta Falcons",
-      "position": "TE",
-      "mlProbability": 0.4653333333333334,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (11 TDs)",
-        "Weak opponent defense (3.5 TDs/game allowed)",
-        "Hot recent form (5 TDs in recent games)"
-      ],
-      "mlRank": 12,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 11,
-      "actual2024Games": 10,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 11 TDs in 10 games"
     },
     {
       "player": "Ladd McConkey",
@@ -463,7 +382,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 13,
+      "mlRank": 10,
       "playerTDsYTD": 1,
       "actual2024TDs": 8,
       "actual2024Games": 6,
@@ -482,7 +401,7 @@
         "Weak opponent defense (3.0 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 14,
+      "mlRank": 11,
       "playerTDsYTD": 2,
       "actual2024TDs": 8,
       "actual2024Games": 7,
@@ -501,7 +420,7 @@
         "Weak opponent defense (3.2 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 15,
+      "mlRank": 12,
       "playerTDsYTD": 4,
       "actual2024TDs": 7,
       "actual2024Games": 5,
@@ -520,7 +439,7 @@
         "Weak opponent defense (3.8 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 16,
+      "mlRank": 13,
       "playerTDsYTD": 1,
       "actual2024TDs": 7,
       "actual2024Games": 5,
@@ -539,31 +458,12 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (4.0 TDs/game allowed)"
       ],
-      "mlRank": 17,
+      "mlRank": 14,
       "playerTDsYTD": 1,
       "actual2024TDs": 7,
       "actual2024Games": 5,
       "vsOpponentTDs": 1,
       "basis": "2024 Data: 7 TDs in 5 games"
-    },
-    {
-      "player": "Tee Higgins",
-      "team": "Cincinnati Bengals",
-      "opponent": "Miami Dolphins",
-      "position": "WR",
-      "mlProbability": 0.44666666666666666,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (10 TDs)",
-        "Weak opponent defense (3.1 TDs/game allowed)",
-        "Hot recent form (7 TDs in recent games)"
-      ],
-      "mlRank": 18,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 10,
-      "actual2024Games": 7,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 10 TDs in 7 games"
     },
     {
       "player": "Jordan Addison",
@@ -577,7 +477,7 @@
         "Weak opponent defense (2.9 TDs/game allowed)",
         "Hot recent form (7 TDs in recent games)"
       ],
-      "mlRank": 19,
+      "mlRank": 15,
       "playerTDsYTD": 1,
       "actual2024TDs": 10,
       "actual2024Games": 7,
@@ -596,15 +496,91 @@
         "Previous success vs opponent (1 TDs)",
         "Weak opponent defense (3.6 TDs/game allowed)"
       ],
-      "mlRank": 20,
+      "mlRank": 16,
       "playerTDsYTD": 6,
       "actual2024TDs": 6,
       "actual2024Games": 5,
       "vsOpponentTDs": 1,
       "basis": "2024 Data: 6 TDs in 5 games"
+    },
+    {
+      "player": "Jaxon Smith-Njigba",
+      "team": "Seattle Seahawks",
+      "opponent": "San Francisco",
+      "position": "WR",
+      "mlProbability": 0.432,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Moderate 2024 production (6 TDs)",
+        "Weak opponent defense (3.1 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 17,
+      "playerTDsYTD": 6,
+      "actual2024TDs": 6,
+      "actual2024Games": 5,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 6 TDs in 5 games"
+    },
+    {
+      "player": "CeeDee Lamb",
+      "team": "Dallas Cowboys",
+      "opponent": "Tampa Bay",
+      "position": "WR",
+      "mlProbability": 0.432,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Moderate 2024 production (6 TDs)",
+        "Weak opponent defense (3.7 TDs/game allowed)",
+        "Hot recent form (6 TDs in recent games)"
+      ],
+      "mlRank": 18,
+      "playerTDsYTD": 4,
+      "actual2024TDs": 6,
+      "actual2024Games": 5,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 6 TDs in 5 games"
+    },
+    {
+      "player": "Chase Brown",
+      "team": "Cincinnati Bengals",
+      "opponent": "Miami Dolphins",
+      "position": "RB",
+      "mlProbability": 0.42800000000000005,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Strong 2024 production (9 TDs)",
+        "Weak opponent defense (3.1 TDs/game allowed)",
+        "Hot recent form (5 TDs in recent games)"
+      ],
+      "mlRank": 19,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 9,
+      "actual2024Games": 8,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 9 TDs in 8 games"
+    },
+    {
+      "player": "Tony Pollard",
+      "team": "Tennessee Titans",
+      "opponent": "Houston Texans",
+      "position": "RB",
+      "mlProbability": 0.37600000000000006,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Weak opponent defense (4.4 TDs/game allowed)",
+        "Hot recent form (3 TDs in recent games)",
+        "Home field advantage"
+      ],
+      "mlRank": 20,
+      "playerTDsYTD": 1,
+      "actual2024TDs": 3,
+      "actual2024Games": 3,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 3 TDs in 3 games"
     }
   ],
-  "agreement": 20,
+  "agreement": 30,
   "differences": {
     "onlyInCurrent": [
       "Josh Allen",
@@ -614,58 +590,64 @@
       "Cam Skattebo",
       "Woody Marks",
       "George Kittle",
-      "Jaxon Smith-Njigba",
       "Christian Watson",
-      "CeeDee Lamb",
       "Ashton Jeanty",
       "Jake Ferguson",
-      "Emeka Egbuka",
       "Tyler Warren",
-      "Tyquan Thornton",
-      "Elic Ayomanor"
+      "Tyquan Thornton"
     ],
     "onlyInML": [
       "Kyren Williams",
       "Jalen Hurts",
-      "DeVonta Smith",
       "Ja'Marr Chase",
       "Pat Freiermuth",
       "Justin Jefferson",
       "Alvin Kamara",
-      "Marvin Harrison",
-      "Mark Andrews",
       "Ladd McConkey",
       "Sam LaPorta",
       "Bijan Robinson",
       "Rhamondre Stevenson",
       "Malik Nabers",
-      "Tee Higgins",
-      "Jordan Addison"
+      "Jordan Addison",
+      "Chase Brown",
+      "Tony Pollard"
     ],
     "rankingDifferences": [
       {
         "player": "Jonathan Taylor",
         "currentRank": 4,
-        "mlRank": 20,
-        "difference": 16
+        "mlRank": 16,
+        "difference": 12
       },
       {
         "player": "Amon-Ra St. Brown",
         "currentRank": 11,
-        "mlRank": 5,
-        "difference": 6
+        "mlRank": 4,
+        "difference": 7
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "currentRank": 12,
+        "mlRank": 17,
+        "difference": 5
+      },
+      {
+        "player": "CeeDee Lamb",
+        "currentRank": 13,
+        "mlRank": 18,
+        "difference": 5
       },
       {
         "player": "Derrick Henry",
         "currentRank": 1,
-        "mlRank": 6,
-        "difference": 5
+        "mlRank": 5,
+        "difference": 4
       },
       {
         "player": "Jahmyr Gibbs",
         "currentRank": 5,
-        "mlRank": 9,
-        "difference": 4
+        "mlRank": 8,
+        "difference": 3
       }
     ]
   }
