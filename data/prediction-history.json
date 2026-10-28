@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-03T04:43:14.013Z",
-  "lastUpdated": "2026-10-27T13:45:19.192Z",
+  "lastUpdated": "2026-10-28T14:41:22.188Z",
   "weeks": [
     {
       "week": 1,
@@ -6663,48 +6663,48 @@
     {
       "week": 18,
       "year": 2025,
-      "generatedAt": "2026-10-27T13:45:19.192Z",
+      "generatedAt": "2026-10-28T14:41:22.188Z",
       "currentModelPredictions": [
         {
           "rank": 1,
-          "player": "Javonte Williams",
-          "team": "Dallas Cowboys",
-          "opponent": "Arizona",
-          "basis": "Opp Rush TD/G"
-        },
-        {
-          "rank": 2,
-          "player": "Josh Allen",
-          "team": "Buffalo Bills",
-          "opponent": "Baltimore",
-          "basis": "Opp Rush TD/G"
-        },
-        {
-          "rank": 3,
           "player": "Jonathan Taylor",
           "team": "Indianapolis Colts",
           "opponent": "Jacksonville",
           "basis": "Opp Rush TD/G"
         },
         {
+          "rank": 2,
+          "player": "Javonte Williams",
+          "team": "Dallas Cowboys",
+          "opponent": "Arizona",
+          "basis": "Opp Rush TD/G"
+        },
+        {
+          "rank": 3,
+          "player": "Josh Allen",
+          "team": "Buffalo Bills",
+          "opponent": "Baltimore",
+          "basis": "Opp Rush TD/G"
+        },
+        {
           "rank": 4,
+          "player": "D'Andre Swift",
+          "team": "Chicago Bears",
+          "opponent": "Seattle",
+          "basis": "Opp Rush TD/G"
+        },
+        {
+          "rank": 5,
           "player": "Derrick Henry",
           "team": "Baltimore Ravens",
           "opponent": "Buffalo",
           "basis": "Opp Rush TD/G"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "player": "Jahmyr Gibbs",
           "team": "Detroit Lions",
           "opponent": "Minnesota",
-          "basis": "Opp Rush TD/G"
-        },
-        {
-          "rank": 6,
-          "player": "D'Andre Swift",
-          "team": "Chicago Bears",
-          "opponent": "Seattle",
           "basis": "Opp Rush TD/G"
         },
         {
@@ -6737,16 +6737,16 @@
         },
         {
           "rank": 11,
-          "player": "Pat Freiermuth",
-          "team": "Pittsburgh Steelers",
-          "opponent": "Cleveland",
+          "player": "Parker Washington",
+          "team": "Jacksonville Jaguars",
+          "opponent": "Indianapolis",
           "basis": "Opp Pass TD/G"
         },
         {
           "rank": 12,
-          "player": "Parker Washington",
-          "team": "Jacksonville Jaguars",
-          "opponent": "Indianapolis",
+          "player": "Pat Freiermuth",
+          "team": "Pittsburgh Steelers",
+          "opponent": "Cleveland",
           "basis": "Opp Pass TD/G"
         },
         {
@@ -7043,19 +7043,6 @@
         },
         {
           "rank": 19,
-          "player": "Jordan Addison",
-          "team": "Minnesota Vikings",
-          "opponent": "Detroit Lions",
-          "probability": 0.43400479616306953,
-          "confidence": 0.8,
-          "keyFactors": [
-            "Strong 2024 production (10 TDs)",
-            "Weak opponent defense (2.8 TDs/game allowed)",
-            "Hot recent form (7 TDs in recent games)"
-          ]
-        },
-        {
-          "rank": 20,
           "player": "CeeDee Lamb",
           "team": "Dallas Cowboys",
           "opponent": "Arizona Cardinals",
@@ -7065,6 +7052,19 @@
             "Moderate 2024 production (6 TDs)",
             "Weak opponent defense (3.0 TDs/game allowed)",
             "Hot recent form (6 TDs in recent games)"
+          ]
+        },
+        {
+          "rank": 20,
+          "player": "Bo Nix",
+          "team": "Denver Broncos",
+          "opponent": "Kansas City",
+          "probability": 0.4133333333333334,
+          "confidence": 0.8,
+          "keyFactors": [
+            "Moderate 2024 production (5 TDs)",
+            "Weak opponent defense (3.5 TDs/game allowed)",
+            "Hot recent form (5 TDs in recent games)"
           ]
         }
       ]

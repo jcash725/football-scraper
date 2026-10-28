@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-27T13:45:19.194Z",
+  "generatedAt": "2026-10-28T14:41:22.190Z",
   "currentModel": [
+    {
+      "Player": "Jonathan Taylor",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Jacksonville",
+      "Basis": "Opp Rush TD/G",
+      "Player TDs YTD": 8,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Indianapolis Colts vs Jacksonville - opponent allows undefined rush TDs/game"
+    },
     {
       "Player": "Javonte Williams",
       "Team": "Dallas Cowboys",
@@ -22,14 +32,14 @@
       "Reason": "Buffalo Bills vs Baltimore - opponent allows undefined rush TDs/game"
     },
     {
-      "Player": "Jonathan Taylor",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Jacksonville",
+      "Player": "D'Andre Swift",
+      "Team": "Chicago Bears",
+      "Opponent": "Seattle",
       "Basis": "Opp Rush TD/G",
-      "Player TDs YTD": 8,
+      "Player TDs YTD": 7,
       "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Indianapolis Colts vs Jacksonville - opponent allows undefined rush TDs/game"
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Chicago Bears vs Seattle - opponent allows undefined rush TDs/game"
     },
     {
       "Player": "Derrick Henry",
@@ -50,16 +60,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "5",
       "Reason": "Detroit Lions vs Minnesota - opponent allows undefined rush TDs/game"
-    },
-    {
-      "Player": "D'Andre Swift",
-      "Team": "Chicago Bears",
-      "Opponent": "Seattle",
-      "Basis": "Opp Rush TD/G",
-      "Player TDs YTD": 7,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Chicago Bears vs Seattle - opponent allows undefined rush TDs/game"
     },
     {
       "Player": "Kyren Williams",
@@ -104,16 +104,6 @@
       "Reason": "Detroit Lions vs Minnesota - opponent allows undefined pass TDs/game"
     },
     {
-      "Player": "Pat Freiermuth",
-      "Team": "Pittsburgh Steelers",
-      "Opponent": "Cleveland",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Pittsburgh Steelers vs Cleveland - opponent allows undefined pass TDs/game"
-    },
-    {
       "Player": "Parker Washington",
       "Team": "Jacksonville Jaguars",
       "Opponent": "Indianapolis",
@@ -122,6 +112,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "1",
       "Reason": "Jacksonville Jaguars vs Indianapolis - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "Pat Freiermuth",
+      "Team": "Pittsburgh Steelers",
+      "Opponent": "Cleveland",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Pittsburgh Steelers vs Cleveland - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Jaxon Smith-Njigba",
@@ -548,25 +548,6 @@
       "basis": "2024 Data: 7 TDs in 6 games"
     },
     {
-      "player": "Jordan Addison",
-      "team": "Minnesota Vikings",
-      "opponent": "Detroit Lions",
-      "position": "WR",
-      "mlProbability": 0.43400479616306953,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (10 TDs)",
-        "Weak opponent defense (2.8 TDs/game allowed)",
-        "Hot recent form (7 TDs in recent games)"
-      ],
-      "mlRank": 19,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 10,
-      "actual2024Games": 7,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 10 TDs in 7 games"
-    },
-    {
       "player": "CeeDee Lamb",
       "team": "Dallas Cowboys",
       "opponent": "Arizona Cardinals",
@@ -578,19 +559,38 @@
         "Weak opponent defense (3.0 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 20,
+      "mlRank": 19,
       "playerTDsYTD": 6,
       "actual2024TDs": 6,
       "actual2024Games": 5,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 6 TDs in 5 games"
+    },
+    {
+      "player": "Bo Nix",
+      "team": "Denver Broncos",
+      "opponent": "Kansas City",
+      "position": "QB",
+      "mlProbability": 0.4133333333333334,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Moderate 2024 production (5 TDs)",
+        "Weak opponent defense (3.5 TDs/game allowed)",
+        "Hot recent form (5 TDs in recent games)"
+      ],
+      "mlRank": 20,
+      "playerTDsYTD": 2,
+      "actual2024TDs": 5,
+      "actual2024Games": 5,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 5 TDs in 5 games"
     }
   ],
   "agreement": 40,
   "differences": {
     "onlyInCurrent": [
-      "Javonte Williams",
       "Jonathan Taylor",
+      "Javonte Williams",
       "D'Andre Swift",
       "Kyren Williams",
       "Ashton Jeanty",
@@ -614,15 +614,9 @@
       "Bijan Robinson",
       "Rhamondre Stevenson",
       "Chuba Hubbard",
-      "Jordan Addison"
+      "Bo Nix"
     ],
     "rankingDifferences": [
-      {
-        "player": "Josh Allen",
-        "currentRank": 2,
-        "mlRank": 15,
-        "difference": 13
-      },
       {
         "player": "Ja'Marr Chase",
         "currentRank": 16,
@@ -630,10 +624,22 @@
         "difference": 13
       },
       {
+        "player": "Josh Allen",
+        "currentRank": 3,
+        "mlRank": 15,
+        "difference": 12
+      },
+      {
         "player": "Amon-Ra St. Brown",
         "currentRank": 10,
         "mlRank": 4,
         "difference": 6
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "currentRank": 6,
+        "mlRank": 1,
+        "difference": 5
       },
       {
         "player": "Kyle Pitts",
@@ -644,26 +650,20 @@
       {
         "player": "CeeDee Lamb",
         "currentRank": 15,
-        "mlRank": 20,
-        "difference": 5
-      },
-      {
-        "player": "Jahmyr Gibbs",
-        "currentRank": 5,
-        "mlRank": 1,
+        "mlRank": 19,
         "difference": 4
       },
       {
         "player": "Derrick Henry",
-        "currentRank": 4,
+        "currentRank": 5,
         "mlRank": 2,
-        "difference": 2
+        "difference": 3
       },
       {
         "player": "Pat Freiermuth",
-        "currentRank": 11,
+        "currentRank": 12,
         "mlRank": 9,
-        "difference": 2
+        "difference": 3
       }
     ]
   }

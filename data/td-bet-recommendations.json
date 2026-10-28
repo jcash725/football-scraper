@@ -1,9 +1,19 @@
 {
-  "generatedAt": "2026-10-27T13:45:19.194Z",
+  "generatedAt": "2026-10-28T14:41:22.190Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
   "recommendations": [
+    {
+      "Player": "Jonathan Taylor",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Jacksonville",
+      "Basis": "Opp Rush TD/G",
+      "Player TDs YTD": 8,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Indianapolis Colts vs Jacksonville - opponent allows undefined rush TDs/game"
+    },
     {
       "Player": "Javonte Williams",
       "Team": "Dallas Cowboys",
@@ -25,14 +35,14 @@
       "Reason": "Buffalo Bills vs Baltimore - opponent allows undefined rush TDs/game"
     },
     {
-      "Player": "Jonathan Taylor",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Jacksonville",
+      "Player": "D'Andre Swift",
+      "Team": "Chicago Bears",
+      "Opponent": "Seattle",
       "Basis": "Opp Rush TD/G",
-      "Player TDs YTD": 8,
+      "Player TDs YTD": 7,
       "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Indianapolis Colts vs Jacksonville - opponent allows undefined rush TDs/game"
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Chicago Bears vs Seattle - opponent allows undefined rush TDs/game"
     },
     {
       "Player": "Derrick Henry",
@@ -53,16 +63,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "5",
       "Reason": "Detroit Lions vs Minnesota - opponent allows undefined rush TDs/game"
-    },
-    {
-      "Player": "D'Andre Swift",
-      "Team": "Chicago Bears",
-      "Opponent": "Seattle",
-      "Basis": "Opp Rush TD/G",
-      "Player TDs YTD": 7,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Chicago Bears vs Seattle - opponent allows undefined rush TDs/game"
     },
     {
       "Player": "Kyren Williams",
@@ -107,16 +107,6 @@
       "Reason": "Detroit Lions vs Minnesota - opponent allows undefined pass TDs/game"
     },
     {
-      "Player": "Pat Freiermuth",
-      "Team": "Pittsburgh Steelers",
-      "Opponent": "Cleveland",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Pittsburgh Steelers vs Cleveland - opponent allows undefined pass TDs/game"
-    },
-    {
       "Player": "Parker Washington",
       "Team": "Jacksonville Jaguars",
       "Opponent": "Indianapolis",
@@ -125,6 +115,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "1",
       "Reason": "Jacksonville Jaguars vs Indianapolis - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "Pat Freiermuth",
+      "Team": "Pittsburgh Steelers",
+      "Opponent": "Cleveland",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Pittsburgh Steelers vs Cleveland - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Jaxon Smith-Njigba",
