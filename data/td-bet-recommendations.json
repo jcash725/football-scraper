@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T14:41:22.190Z",
+  "generatedAt": "2026-10-29T14:46:14.705Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
@@ -107,16 +107,6 @@
       "Reason": "Detroit Lions vs Minnesota - opponent allows undefined pass TDs/game"
     },
     {
-      "Player": "Parker Washington",
-      "Team": "Jacksonville Jaguars",
-      "Opponent": "Indianapolis",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Jacksonville Jaguars vs Indianapolis - opponent allows undefined pass TDs/game"
-    },
-    {
       "Player": "Pat Freiermuth",
       "Team": "Pittsburgh Steelers",
       "Opponent": "Cleveland",
@@ -125,6 +115,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "1",
       "Reason": "Pittsburgh Steelers vs Cleveland - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "Parker Washington",
+      "Team": "Jacksonville Jaguars",
+      "Opponent": "Indianapolis",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Jacksonville Jaguars vs Indianapolis - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Jaxon Smith-Njigba",
@@ -177,16 +177,6 @@
       "Reason": "Cincinnati Bengals vs Tennessee - opponent allows undefined pass TDs/game"
     },
     {
-      "Player": "Tre Tucker",
-      "Team": "Las Vegas Raiders",
-      "Opponent": "NY Jets",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs NY Jets - opponent allows undefined pass TDs/game"
-    },
-    {
       "Player": "Trey McBride",
       "Team": "Arizona Cardinals",
       "Opponent": "Dallas",
@@ -205,6 +195,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Detroit Lions vs Minnesota - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "Tre Tucker",
+      "Team": "Las Vegas Raiders",
+      "Opponent": "NY Jets",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Las Vegas Raiders vs NY Jets - opponent allows undefined pass TDs/game"
     }
   ]
 }
