@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-29T14:46:14.705Z",
+  "generatedAt": "2026-10-30T14:41:52.327Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
   "recommendations": [
     {
-      "Player": "Jonathan Taylor",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Jacksonville",
+      "Player": "Josh Allen",
+      "Team": "Buffalo Bills",
+      "Opponent": "Baltimore",
       "Basis": "Opp Rush TD/G",
       "Player TDs YTD": 8,
       "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Indianapolis Colts vs Jacksonville - opponent allows undefined rush TDs/game"
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Buffalo Bills vs Baltimore - opponent allows undefined rush TDs/game"
     },
     {
       "Player": "Javonte Williams",
@@ -25,34 +25,14 @@
       "Reason": "Dallas Cowboys vs Arizona - opponent allows undefined rush TDs/game"
     },
     {
-      "Player": "Josh Allen",
-      "Team": "Buffalo Bills",
-      "Opponent": "Baltimore",
+      "Player": "Jonathan Taylor",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Jacksonville",
       "Basis": "Opp Rush TD/G",
       "Player TDs YTD": 8,
       "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Buffalo Bills vs Baltimore - opponent allows undefined rush TDs/game"
-    },
-    {
-      "Player": "D'Andre Swift",
-      "Team": "Chicago Bears",
-      "Opponent": "Seattle",
-      "Basis": "Opp Rush TD/G",
-      "Player TDs YTD": 7,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Chicago Bears vs Seattle - opponent allows undefined rush TDs/game"
-    },
-    {
-      "Player": "Derrick Henry",
-      "Team": "Baltimore Ravens",
-      "Opponent": "Buffalo",
-      "Basis": "Opp Rush TD/G",
-      "Player TDs YTD": 7,
-      "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Baltimore Ravens vs Buffalo - opponent allows undefined rush TDs/game"
+      "Reason": "Indianapolis Colts vs Jacksonville - opponent allows undefined rush TDs/game"
     },
     {
       "Player": "Jahmyr Gibbs",
@@ -65,6 +45,36 @@
       "Reason": "Detroit Lions vs Minnesota - opponent allows undefined rush TDs/game"
     },
     {
+      "Player": "Derrick Henry",
+      "Team": "Baltimore Ravens",
+      "Opponent": "Buffalo",
+      "Basis": "Opp Rush TD/G",
+      "Player TDs YTD": 7,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Baltimore Ravens vs Buffalo - opponent allows undefined rush TDs/game"
+    },
+    {
+      "Player": "D'Andre Swift",
+      "Team": "Chicago Bears",
+      "Opponent": "Seattle",
+      "Basis": "Opp Rush TD/G",
+      "Player TDs YTD": 7,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Chicago Bears vs Seattle - opponent allows undefined rush TDs/game"
+    },
+    {
+      "Player": "Chuba Hubbard",
+      "Team": "Carolina Panthers",
+      "Opponent": "Green Bay",
+      "Basis": "Opp Rush TD/G",
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Carolina Panthers vs Green Bay - opponent allows undefined rush TDs/game"
+    },
+    {
       "Player": "Kyren Williams",
       "Team": "Los Angeles Rams",
       "Opponent": "LA Chargers",
@@ -73,18 +83,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Los Angeles Rams vs LA Chargers - opponent allows undefined rush TDs/game"
-    },
-    {
-      "Player": "Ashton Jeanty",
-      "Team": "Las Vegas Raiders",
-      "Opponent": "NY Jets",
-      "Player TDs YTD": 5,
-      "Player 2025 TDs": 5,
-      "Opponent Stat Value": 5.666666666666667,
-      "Basis": "Rush TD - Rookie hotstreak",
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Rookie with 1.7 TD/game consistency",
-      "Rookie Boost": "MASSIVE boost (1.7 TD/game)"
     },
     {
       "Player": "Kyle Pitts",
@@ -157,6 +155,16 @@
       "Reason": "Dallas Cowboys vs Arizona - opponent allows undefined pass TDs/game"
     },
     {
+      "Player": "Mike Gesicki",
+      "Team": "Cincinnati Bengals",
+      "Opponent": "Tennessee",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 5,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Cincinnati Bengals vs Tennessee - opponent allows undefined pass TDs/game"
+    },
+    {
       "Player": "Ja'Marr Chase",
       "Team": "Cincinnati Bengals",
       "Opponent": "Tennessee",
@@ -167,14 +175,14 @@
       "Reason": "Cincinnati Bengals vs Tennessee - opponent allows undefined pass TDs/game"
     },
     {
-      "Player": "Mike Gesicki",
-      "Team": "Cincinnati Bengals",
-      "Opponent": "Tennessee",
+      "Player": "Tre Tucker",
+      "Team": "Las Vegas Raiders",
+      "Opponent": "NY Jets",
       "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 5,
+      "Player TDs YTD": 4,
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Cincinnati Bengals vs Tennessee - opponent allows undefined pass TDs/game"
+      "Reason": "Las Vegas Raiders vs NY Jets - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Trey McBride",
@@ -195,16 +203,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Detroit Lions vs Minnesota - opponent allows undefined pass TDs/game"
-    },
-    {
-      "Player": "Tre Tucker",
-      "Team": "Las Vegas Raiders",
-      "Opponent": "NY Jets",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs NY Jets - opponent allows undefined pass TDs/game"
     }
   ]
 }
