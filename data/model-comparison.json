@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-30T14:41:52.328Z",
+  "generatedAt": "2026-10-31T14:01:19.224Z",
   "currentModel": [
+    {
+      "Player": "Jonathan Taylor",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Jacksonville",
+      "Basis": "Opp Rush TD/G",
+      "Player TDs YTD": 8,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Indianapolis Colts vs Jacksonville - opponent allows undefined rush TDs/game"
+    },
     {
       "Player": "Josh Allen",
       "Team": "Buffalo Bills",
@@ -20,16 +30,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Dallas Cowboys vs Arizona - opponent allows undefined rush TDs/game"
-    },
-    {
-      "Player": "Jonathan Taylor",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Jacksonville",
-      "Basis": "Opp Rush TD/G",
-      "Player TDs YTD": 8,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Indianapolis Colts vs Jacksonville - opponent allows undefined rush TDs/game"
     },
     {
       "Player": "Jahmyr Gibbs",
@@ -132,16 +132,6 @@
       "Reason": "Seattle Seahawks vs Chicago - opponent allows undefined pass TDs/game"
     },
     {
-      "Player": "Christian Watson",
-      "Team": "Green Bay Packers",
-      "Opponent": "Carolina",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Green Bay Packers vs Carolina - opponent allows undefined pass TDs/game"
-    },
-    {
       "Player": "CeeDee Lamb",
       "Team": "Dallas Cowboys",
       "Opponent": "Arizona",
@@ -150,6 +140,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Dallas Cowboys vs Arizona - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "Christian Watson",
+      "Team": "Green Bay Packers",
+      "Opponent": "Carolina",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Green Bay Packers vs Carolina - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Mike Gesicki",
@@ -172,16 +172,6 @@
       "Reason": "Cincinnati Bengals vs Tennessee - opponent allows undefined pass TDs/game"
     },
     {
-      "Player": "Tre Tucker",
-      "Team": "Las Vegas Raiders",
-      "Opponent": "NY Jets",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs NY Jets - opponent allows undefined pass TDs/game"
-    },
-    {
       "Player": "Trey McBride",
       "Team": "Arizona Cardinals",
       "Opponent": "Dallas",
@@ -200,6 +190,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Detroit Lions vs Minnesota - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "Tre Tucker",
+      "Team": "Las Vegas Raiders",
+      "Opponent": "NY Jets",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Las Vegas Raiders vs NY Jets - opponent allows undefined pass TDs/game"
     }
   ],
   "mlModel": [
@@ -546,25 +546,6 @@
       "basis": "2024 Data: 7 TDs in 6 games"
     },
     {
-      "player": "Jordan Addison",
-      "team": "Minnesota Vikings",
-      "opponent": "Detroit Lions",
-      "position": "WR",
-      "mlProbability": 0.43400479616306953,
-      "mlConfidence": 0.8,
-      "keyFactors": [
-        "Strong 2024 production (10 TDs)",
-        "Weak opponent defense (2.8 TDs/game allowed)",
-        "Hot recent form (7 TDs in recent games)"
-      ],
-      "mlRank": 19,
-      "playerTDsYTD": 1,
-      "actual2024TDs": 10,
-      "actual2024Games": 7,
-      "vsOpponentTDs": 0,
-      "basis": "2024 Data: 10 TDs in 7 games"
-    },
-    {
       "player": "CeeDee Lamb",
       "team": "Dallas Cowboys",
       "opponent": "Arizona Cardinals",
@@ -576,28 +557,47 @@
         "Weak opponent defense (3.0 TDs/game allowed)",
         "Hot recent form (6 TDs in recent games)"
       ],
-      "mlRank": 20,
+      "mlRank": 19,
       "playerTDsYTD": 6,
       "actual2024TDs": 6,
       "actual2024Games": 5,
       "vsOpponentTDs": 0,
       "basis": "2024 Data: 6 TDs in 5 games"
+    },
+    {
+      "player": "Bo Nix",
+      "team": "Denver Broncos",
+      "opponent": "Kansas City",
+      "position": "QB",
+      "mlProbability": 0.4133333333333334,
+      "mlConfidence": 0.8,
+      "keyFactors": [
+        "Moderate 2024 production (5 TDs)",
+        "Weak opponent defense (3.5 TDs/game allowed)",
+        "Hot recent form (5 TDs in recent games)"
+      ],
+      "mlRank": 20,
+      "playerTDsYTD": 2,
+      "actual2024TDs": 5,
+      "actual2024Games": 5,
+      "vsOpponentTDs": 0,
+      "basis": "2024 Data: 5 TDs in 5 games"
     }
   ],
   "agreement": 45,
   "differences": {
     "onlyInCurrent": [
-      "Javonte Williams",
       "Jonathan Taylor",
+      "Javonte Williams",
       "D'Andre Swift",
       "Kyren Williams",
       "Parker Washington",
       "Jaxon Smith-Njigba",
       "Christian Watson",
       "Mike Gesicki",
-      "Tre Tucker",
       "Trey McBride",
-      "Jameson Williams"
+      "Jameson Williams",
+      "Tre Tucker"
     ],
     "onlyInML": [
       "Tee Higgins",
@@ -610,20 +610,20 @@
       "James Cook",
       "Bijan Robinson",
       "Rhamondre Stevenson",
-      "Jordan Addison"
+      "Bo Nix"
     ],
     "rankingDifferences": [
-      {
-        "player": "Josh Allen",
-        "currentRank": 1,
-        "mlRank": 15,
-        "difference": 14
-      },
       {
         "player": "Ja'Marr Chase",
         "currentRank": 17,
         "mlRank": 3,
         "difference": 14
+      },
+      {
+        "player": "Josh Allen",
+        "currentRank": 2,
+        "mlRank": 15,
+        "difference": 13
       },
       {
         "player": "Chuba Hubbard",
@@ -645,8 +645,8 @@
       },
       {
         "player": "CeeDee Lamb",
-        "currentRank": 15,
-        "mlRank": 20,
+        "currentRank": 14,
+        "mlRank": 19,
         "difference": 5
       },
       {

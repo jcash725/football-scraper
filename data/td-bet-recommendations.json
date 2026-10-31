@@ -1,9 +1,19 @@
 {
-  "generatedAt": "2026-10-30T14:41:52.327Z",
+  "generatedAt": "2026-10-31T14:01:19.224Z",
   "instructions": "🔒 Updated Instructions for TD Bets GPT",
   "model": "current",
   "count": 20,
   "recommendations": [
+    {
+      "Player": "Jonathan Taylor",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Jacksonville",
+      "Basis": "Opp Rush TD/G",
+      "Player TDs YTD": 8,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "1",
+      "Reason": "Indianapolis Colts vs Jacksonville - opponent allows undefined rush TDs/game"
+    },
     {
       "Player": "Josh Allen",
       "Team": "Buffalo Bills",
@@ -23,16 +33,6 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Dallas Cowboys vs Arizona - opponent allows undefined rush TDs/game"
-    },
-    {
-      "Player": "Jonathan Taylor",
-      "Team": "Indianapolis Colts",
-      "Opponent": "Jacksonville",
-      "Basis": "Opp Rush TD/G",
-      "Player TDs YTD": 8,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "1",
-      "Reason": "Indianapolis Colts vs Jacksonville - opponent allows undefined rush TDs/game"
     },
     {
       "Player": "Jahmyr Gibbs",
@@ -135,16 +135,6 @@
       "Reason": "Seattle Seahawks vs Chicago - opponent allows undefined pass TDs/game"
     },
     {
-      "Player": "Christian Watson",
-      "Team": "Green Bay Packers",
-      "Opponent": "Carolina",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 6,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Green Bay Packers vs Carolina - opponent allows undefined pass TDs/game"
-    },
-    {
       "Player": "CeeDee Lamb",
       "Team": "Dallas Cowboys",
       "Opponent": "Arizona",
@@ -153,6 +143,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Dallas Cowboys vs Arizona - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "Christian Watson",
+      "Team": "Green Bay Packers",
+      "Opponent": "Carolina",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 6,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Green Bay Packers vs Carolina - opponent allows undefined pass TDs/game"
     },
     {
       "Player": "Mike Gesicki",
@@ -175,16 +175,6 @@
       "Reason": "Cincinnati Bengals vs Tennessee - opponent allows undefined pass TDs/game"
     },
     {
-      "Player": "Tre Tucker",
-      "Team": "Las Vegas Raiders",
-      "Opponent": "NY Jets",
-      "Basis": "Opp Pass TD/G",
-      "Player TDs YTD": 4,
-      "Player 2025 TDs": 0,
-      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
-      "Reason": "Las Vegas Raiders vs NY Jets - opponent allows undefined pass TDs/game"
-    },
-    {
       "Player": "Trey McBride",
       "Team": "Arizona Cardinals",
       "Opponent": "Dallas",
@@ -203,6 +193,16 @@
       "Player 2025 TDs": 0,
       "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
       "Reason": "Detroit Lions vs Minnesota - opponent allows undefined pass TDs/game"
+    },
+    {
+      "Player": "Tre Tucker",
+      "Team": "Las Vegas Raiders",
+      "Opponent": "NY Jets",
+      "Basis": "Opp Pass TD/G",
+      "Player TDs YTD": 4,
+      "Player 2025 TDs": 0,
+      "TDs vs Opponent Last Year (2024)": "N/A — not verifiable",
+      "Reason": "Las Vegas Raiders vs NY Jets - opponent allows undefined pass TDs/game"
     }
   ]
 }
